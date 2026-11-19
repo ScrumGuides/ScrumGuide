@@ -36,8 +36,13 @@ jobs:
         with:
           # GitVersion reads tag and branch history. A shallow clone gives it
           # nothing to work from.
+          #
+          # Do not pin `ref` to a SHA here. That checks out a detached HEAD, so
+          # GitVersion cannot tell which branch it is on, never applies the
+          # `main` rules in .github/GitVersion.yml, and reports 0.0.1-30 with no
+          # pre-release label instead of 0.1.0-preview.30. The default checkout
+          # keeps the branch, which is what the branch rules key off.
           fetch-depth: 0
-          ref: ${{ github.event.pull_request.head.sha || github.sha }}
       - id: gitversion
         shell: pwsh
         run: |
