@@ -793,3 +793,56 @@ Worth adding to the platform's own build: a check that every key the templates
 call is defined in the module, failing the build when one is not. The diff is a
 dozen lines of PowerShell and it stops this recurring. The keys this site
 supplies meanwhile are marked as such in `site/i18n/en.yaml`.
+
+### 12.4 Scaffold the files a build cannot run without
+
+Three files are required for a working build, none is created at adoption, and
+none fails in a way that names itself. All three were found the hard way during
+run 1.
+
+**`.github/GitVersion.yml`.** `Install-GuideBuildDependencies.ps1` gates the
+GitVersion install on the file existing:
+
+```powershell
+if (Test-Path (Join-Path $WorkspaceRoot '.github/GitVersion.yml')) {
+    Install-GuideGitVersion -WorkspaceRoot $WorkspaceRoot
+```
+
+Without it, Dependencies **exits 0 having installed nothing**, and the failure
+surfaces a step later in *Determine delivery context* as `GitVersion is missing.
+Run ./build.ps1 Dependencies before Prepare.` — which names the tool, and sends
+you back to the step that just reported success. Either scaffold the file at
+adoption, or make the message name the missing config.
+
+**The icon set.** `baseof.html` links `/favicon.ico` and nine `apple-touch-icon`
+sizes on every page, and the validator treats a dead internal link as blocking.
+A site without them fails Validate with one finding per icon per page — 170 on
+this site — after Prepare and Build have both passed. Both sibling sites carry
+the ten files; nothing tells a new site it must. Scaffold placeholders at
+adoption, or exempt the module's own icon links from the internal-link check.
+
+**The 27 i18n keys** of §12.3, which fail quietly as visible `{i18n}`
+placeholders rather than failing the build at all.
+
+The shape of all three is the same: a required input, no scaffold, and a
+diagnostic that points somewhere other than the cause. An adoption-time check
+reporting every missing required input at once would have turned three separate
+investigations into one list.
+
+### 12.5 Pass `CurrentUser` for local dependency installs
+
+`Install-GuideBuildDependencies.ps1:8` installs `powershell-yaml` at
+`-Scope $Scope`, which defaults to `AllUsers`, and `build.ps1` never overrides
+it. So `./build.ps1 Dependencies` fails on Windows outside an elevated shell:
+
+```text
+Administrator rights are required to install modules in
+'C:\Program Files\PowerShell\Modules'.
+```
+
+CI is unaffected, because the shared workflow passes
+`-DependencyScope CurrentUser` explicitly. The parameter already exists; local
+runs just need it defaulted or passed. Until then the documented everyday
+command is unusable as written on a developer machine — the working local
+invocation is the platform's own `build.ps1` with the scope set by hand, not the
+thin root script.
