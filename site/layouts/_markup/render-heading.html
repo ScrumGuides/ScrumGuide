@@ -1,0 +1,16 @@
+{{/*
+  Overrides the module's heading hook.
+
+  The module's version emits a bare `<a href="#top">top</a>` immediately before
+  every heading — 31 of them on the November 2020 Scrum Guide. Unstyled, that
+  renders as the word "top" scattered through a normative document, and the
+  sticky table of contents already provides navigation, so it is redundant as
+  well as noisy.
+
+  The self-link is kept, using this site's `.heading-anchor` class so it stays
+  invisible until the heading is hovered or the link is focused.
+*/}}
+<h{{ .Level }} id="{{ .Anchor }}">
+  {{ .Text }}
+  <a class="heading-anchor" href="#{{ .Anchor }}" aria-label="Link to this section">#</a>
+</h{{ .Level }}>
