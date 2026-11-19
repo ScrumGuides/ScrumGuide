@@ -23,6 +23,159 @@ languages:
       seo_title: "The Scrum Guide | Every version, one lineage"
       description: Every published version of the Scrum Guide in one place, from 2010 onward, with the implementation guides that build on it.
       keywords: Scrum Guide, Scrum, Scrum Guide versions, Scrum Guide history, Scrum Guide 2026, empirical process control, Scrum conditions, implementation guides, Kanban Guide for Scrum Teams
+  am:
+    label: አማርኛ
+    weight: 2
+  az:
+    label: Azərbaycan dili
+    weight: 3
+  be:
+    label: Беларуская
+    weight: 4
+  bg:
+    label: Български
+    weight: 5
+  bn:
+    label: বাংলা
+    weight: 6
+  bs:
+    label: Bosanski
+    weight: 7
+  ca:
+    label: Català
+    weight: 8
+  cs:
+    label: Čeština
+    weight: 9
+  cy:
+    label: Cymraeg
+    weight: 10
+  da:
+    label: Dansk
+    weight: 11
+  de:
+    label: Deutsch
+    weight: 12
+  de-x-female:
+    label: Deutsch (weibliche Form)
+    weight: 13
+  de-x-male:
+    label: Deutsch (männliche Form)
+    weight: 14
+  el:
+    label: Ελληνικά
+    weight: 15
+  es-419:
+    label: Español (Latinoamérica)
+    weight: 16
+  es-ES:
+    label: Español (España)
+    weight: 17
+  fi:
+    label: Suomi
+    weight: 18
+  fr:
+    label: Français
+    weight: 19
+  hr:
+    label: Hrvatski
+    weight: 20
+  hu:
+    label: Magyar
+    weight: 21
+  hy:
+    label: Հայերեն
+    weight: 22
+  id:
+    label: Bahasa Indonesia
+    weight: 23
+  it:
+    label: Italiano
+    weight: 24
+  ja:
+    label: 日本語
+    weight: 25
+  ka:
+    label: ქართული
+    weight: 26
+  kk:
+    label: Қазақ тілі
+    weight: 27
+  ko:
+    label: 한국어
+    weight: 28
+  ky:
+    label: Кыргызча
+    weight: 29
+  lt:
+    label: Lietuvių
+    weight: 30
+  lv:
+    label: Latviešu
+    weight: 31
+  mk:
+    label: Македонски
+    weight: 32
+  nb:
+    label: Norsk bokmål
+    weight: 33
+  nl:
+    label: Nederlands
+    weight: 34
+  pl:
+    label: Polski
+    weight: 35
+  pt-BR:
+    label: Português (Brasil)
+    weight: 36
+  pt-PT:
+    label: Português (Portugal)
+    weight: 37
+  ro:
+    label: Română
+    weight: 38
+  ru:
+    label: Русский
+    weight: 39
+  sk:
+    label: Slovenčina
+    weight: 40
+  sl:
+    label: Slovenščina
+    weight: 41
+  sq:
+    label: Shqip
+    weight: 42
+  sr:
+    label: Српски
+    weight: 43
+  sv:
+    label: Svenska
+    weight: 44
+  tg:
+    label: Тоҷикӣ
+    weight: 45
+  tr:
+    label: Türkçe
+    weight: 46
+  uk:
+    label: Українська
+    weight: 47
+  uz-Cyrl:
+    label: Ўзбекча
+    weight: 48
+  uz-Latn:
+    label: Oʻzbekcha
+    weight: 49
+  vi:
+    label: Tiếng Việt
+    weight: 50
+  zh-Hans:
+    label: 简体中文
+    weight: 51
+  zh-Hant:
+    label: 繁體中文
+    weight: 52
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
