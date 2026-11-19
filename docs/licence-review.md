@@ -1,12 +1,26 @@
-# Licence review — the historical Scrum Guides
+# Licence review — every guide edition on this site
 
 This file is the evidence for a publishing decision. Specification §9.1 makes the licence on
-each individual edition a blocking condition: the November 2020 Scrum Guide is offered under
-the Creative Commons Attribution ShareAlike licence, and the earlier editions were unverified.
-The 2020 terms were not assumed to run backwards. Each edition below was checked against the
-copyright and licence notice printed **in that edition's own document**.
+each individual edition a blocking condition. No edition's text goes on this site until the
+copyright and licence notice printed **in that edition's own document** has been read and
+recorded here. A licence found on one edition is never assumed to run backwards to an earlier
+one — in all three guides reviewed so far, the earliest editions reserve all rights and the
+later ones do not.
 
-Reviewed 19 November 2026.
+Reviewed 19 November 2026. Three guides: the Scrum Guide, the Kanban Guide for Scrum Teams,
+and the Nexus Guide.
+
+## Summary across all three guides
+
+| Guide | Editions published | Editions withheld |
+|---|---|---|
+| The Scrum Guide | 2013.7, 2016.7, 2017.11, 2020.11 | 2010.2, 2011.10 |
+| Kanban Guide for Scrum Teams | 2018.2, 2018.4, 2019.9, 2021.1 | none |
+| The Nexus Guide | 2018.1, 2021.1 | 2015.8 |
+
+---
+
+# 1. The Scrum Guide
 
 ## Result
 
@@ -157,13 +171,6 @@ The Rules of the Game / November 2020". The first and last pages carry:
 Conclusion: publish, with the notice intact. This is the edition §9.1 already treated as
 settled, and the document confirms it.
 
-## Share-alike
-
-CC BY-SA 4.0 requires that an adapted version be licensed on the same terms. The four published
-pages are reproductions, not adaptations: the text is unaltered and each page carries its
-document's own copyright notice, the authors' names and a link to the canonical source. Nothing
-on those pages is offered under terms more restrictive than CC BY-SA 4.0.
-
 ## How the text was transcribed
 
 Each published edition was converted from the publishers' own file. Nothing was summarised,
@@ -178,7 +185,8 @@ modernised, corrected, reordered or added to the guide text.
 - **2020.11** — from the HTML edition the publishers serve at scrumguides.org, which already
   carries the document's heading hierarchy, and verified the same way against the PDF.
 
-Three transcription decisions, each applying to every edition:
+Three transcription decisions, applied to every edition of every guide on this site. The
+examples are from the Scrum Guide; the Kanban and Nexus pages follow the same three rules:
 
 1. **Heading depth, not point size.** Each document's top-level sections become `##`, their
    subsections `###`, and sub-subsections `####`. In 2013, 2016 and 2017 the authors styled some
@@ -213,10 +221,164 @@ Three transcription decisions, each applying to every edition:
    "© 2008-2009 Ken Schwaber and Jeff Sutherland, All Rights Reserved". Whether the lineage
    starts in November 2009 or February 2010 is a question for the site, not for this review.
 
+---
+
+# 2. Kanban Guide for Scrum Teams
+
+Published by Scrum.org. Four versions have been published; all four are reproduced here.
+
+| Edition | Published | Notice in the document | Decision |
+|---|---|---|---|
+| `2018.2` | February 2018 | © 2018 Scrum.org — CC BY-SA 4.0 | **Publish** |
+| `2018.4` | April 2018 | © 2018 Scrum.org — CC BY-SA 4.0 | **Publish** |
+| `2019.9` | September 2019 | © 2019 Scrum.org — CC BY-SA 4.0 | **Publish** |
+| `2021.1` | January 2021 | © 2021 Scrum.org — CC BY-SA 4.0 | **Publish** |
+
+Every version of this guide has carried a Creative Commons Attribution ShareAlike 4.0 grant
+from its first release, so there is no withheld edition and no backwards-assumption to make.
+The notice runs in the page footer of every page of each document, in the form:
+
+> © 2021 Scrum.org. Offered for license under the Attribution Share-Alike license of Creative
+> Commons, accessible at http://creativecommons.org/licenses/by-sa/4.0/legalcode and also
+> described in summary form at http://creativecommons.org/licenses/by-sa/4.0/. By utilizing
+> this Kanban Guide for Scrum Teams, you acknowledge and agree that you have read and agree to
+> be bound by the terms of the Attribution Share-Alike license of Creative Commons.
+
+with the year changing per edition. The 2018 editions name "Scrum.org and Daniel Vacanti" on
+the cover; 2019 and 2021 name "Scrum.org, Daniel Vacanti, and Yuval Yeret"; the History and
+Acknowledgments section of the 2021 edition also credits Steve Porter and the Professional
+Scrum Trainer community.
+
+### Sources
+
+Scrum.org's current resource page links each of these files directly; the two withdrawn
+versions were found through the Internet Archive's captures of that same page, and the files
+themselves were fetched live from Scrum.org's own file store.
+
+| Edition | Source | SHA-256 |
+|---|---|---|
+| `2018.2` | <https://scrumorg-website-prod.s3.amazonaws.com/drupal/2018-03/2018%20Kanban%20Guide%20for%20Scrum%20Teams.pdf> | `f51f802cabdc9984584e7dffe5fb0549705cd7e527afa47ba2ca6d6ee4254ef9` |
+| `2018.4` | <https://scrumorg-website-prod.s3.amazonaws.com/drupal/2018-04/2018%20Kanban%20Guide%20for%20Scrum%20Teams_0.pdf> | `62b02058b94491f5f6e5272aa9c5d9b7fef705bbfd128dedbd56b9e663431a14` |
+| `2019.9` | <https://scrumorg-website-prod.s3.amazonaws.com/drupal/2019-11/2019-09-Kanban-Guide-for-Scrum-Teams-English.pdf> | `f54e34a5fdbf93bb75a5bb7c24b3e321743e4b6e763166f7ee11798633062784` |
+| `2021.1` | <https://scrumorg-website-prod.s3.amazonaws.com/drupal/2021-01/01-2021%20Kanban%20Guide.pdf> | `db31140c4140880ab6aa8656735f8a348d403b6ca05c7d330e39242eeeaf1139` |
+
+The two 2018 editions are distinguished by the date on their own title pages — February 2018
+and April 2018 — not by the folder the file sits in. The file name of the 2021 edition says
+only "Kanban Guide"; its title page says "The Kanban Guide for Scrum Teams, January 2021".
+
+### A note on the 2026.1 scaffold
+
+The bundle already held an edition folder `2026.1`, scaffolded for a future edition written
+here rather than published by Scrum.org. It is untouched except that the
+`/kanban-guide-for-scrum-teams/latest` alias moved off it onto `2021.1`, so that `latest`
+resolves to a guide a reader can actually read rather than a placeholder. Move it back when
+2026.1 is written.
+
+---
+
+# 3. The Nexus Guide
+
+Nexus was created by Ken Schwaber; the guide is published by Scrum.org. Three versions have
+been published.
+
+| Edition | Published | Notice in the document | Decision |
+|---|---|---|---|
+| `2015.8` | August 2015 | Copyright Scrum.org, 2015 All Rights Reserved | **Do not publish** |
+| `2018.1` | January 2018 | ©2018 Scrum.org — CC BY-SA 4.0 | **Publish** |
+| `2021.1` | January 2021 | © 2021 Scrum.org — CC BY-SA 4.0 | **Publish** |
+
+### 2015.8 — August 2015 — do not publish
+
+Title page: "Nexus™ Guide / The Definitive Guide to Nexus: The exoskeleton of scaled Scrum
+development / Developed and sustained by Ken Schwaber and Scrum.org / August 2015". The only
+copyright statement in the document is:
+
+> Copyright Scrum.org, 2015 All Rights Reserved
+
+No Creative Commons grant, no permission to copy or redistribute. The body is not published;
+the edition page keeps its placeholder and states the finding. Scrum.org does not serve this
+document today, so there is no later re-publication under other terms to rely on.
+
+### 2018.1 — January 2018 — publish
+
+Title page: "Nexus™ Guide / The Definitive Guide to scaling Scrum with Nexus: The Rules of the
+Game / January 2018 / Developed and sustained by Ken Schwaber and Scrum.org". Every page
+carries:
+
+> ©2018 Scrum.org. Offered for license under the Offered for license under the Attribution
+> Share Alike license of Creative Commons, accessible at
+> http://creativecommons.org/licenses/by-sa/4.0/legalcode and also described in summary form at
+> http://creativecommons.org/licenses/by-sa/4.0/. By utilizing this Nexus Guide, you acknowledge
+> and agree that you have read and agree to be bound by the terms of the Attribution Share-Alike
+> license of Creative Commons.
+
+The duplicated "Offered for license under the Offered for license under the" is in the
+document, in both this edition and the 2021 one. It is reproduced as printed and should not be
+tidied up. Conclusion: publish, with the notice intact.
+
+### 2021.1 — January 2021 — publish
+
+Title page: "The Nexus™ Guide / The Definitive Guide to Scaling Scrum with Nexus / January
+2021". No byline on the cover; the Acknowledgements section names the developers. Every page
+carries the same notice as 2018 with the year changed to 2021 and a space before it.
+Conclusion: publish, with the notice intact.
+
+### Sources
+
+| Edition | Source | SHA-256 |
+|---|---|---|
+| `2015.8` | <https://s3.amazonaws.com/scrumorg-website-prod/drupal/2016-09/NexusGuide%20v1.1.pdf> | `0ef8eb01095a543389f6cbcc03c81715fb5966598de0d7c5ba46c88317753233` |
+| `2018.1` | <https://scrumorg-website-prod.s3.amazonaws.com/drupal/2018-01/2018-Nexus-Guide-English_0.pdf> | `a7d8dde27c9f08c42d7c4e773b0417b5551c70559ab95dd4e38f622b7d71ed5f` |
+| `2021.1` | <https://scrumorg-website-prod.s3.amazonaws.com/drupal/2021-01/NexusGuide%202021_0.pdf> | `6a758ee1404c2ac79240b65d09ab8a720baedd1da33957f83b6720b304b0a0a4` |
+
+The 2015 file is named `v1.1` and was uploaded in September 2016, but its title page says
+August 2015, which is the date the edition is recorded under. Scrum.org's own Nexus Guide
+change history page confirms three releases — 2015, 2018 and 2021 — and nothing between them.
+
+### The framework diagram
+
+Both published Nexus editions contain a framework diagram that no text extraction can reach,
+and the guide text refers to it ("Nexus (see Figure 1)", "As displayed in the graphic"). Each
+edition page therefore carries the diagram from its own document, rendered from that PDF at
+200 dpi, under the same CC BY-SA 4.0 grant as the text, with its caption as the document
+prints it. The 2018 and 2021 diagrams differ and are not interchangeable. Alt text was written
+for this site; it is a description of the diagram, not text from the document.
+
+---
+
+# Method, and what applies to all three guides
+
+## Share-alike
+
+CC BY-SA 4.0 requires that an adapted version be licensed on the same terms. The published
+pages are reproductions, not adaptations: the text is unaltered and each page carries its
+document's own copyright notice, the authors or publisher, and a link to the canonical source.
+Nothing on those pages is offered under terms more restrictive than CC BY-SA 4.0.
+
+## Verification
+
+Every published body was converted from the publishers' own file and then compared character
+for character against an independent text extraction of that same file. The only accepted
+differences are list markers, which markdown writes as syntax, and hyphens restored in words
+the document breaks across a line — `self-organizing`, `self-manage`, `time-box`,
+`burn-downs`, `one-month`, `work-in-progress` — which the extractor drops.
+
+Each document was also scanned for large vertical gaps between text lines, to catch content a
+text extraction cannot see. That scan found the two Nexus framework diagrams and, in the
+September 2019 and January 2021 Kanban guides, Little's Law, which those documents typeset as
+a fraction:
+
+> *average cycle time = average work in progress / average throughput*
+
+It is rendered on those two pages as a single line with a solidus, because this site has no
+mathematical typesetting. No other guide edition contains a figure, formula or table.
+
 ## When to revisit
 
-- If a publisher re-publishes the February 2010 or October 2011 edition under Creative Commons,
-  that edition can be published here. Nothing short of a licence grant from the rightsholders
-  changes those two findings.
-- If the file scrumguides.org serves for the July 2013 edition changes its notice again, re-read
-  this file's §2013.7 before changing that page.
+- If a publisher re-publishes the February 2010 Scrum Guide, the October 2011 Scrum Guide or
+  the August 2015 Nexus Guide under Creative Commons, that edition can be published here.
+  Nothing short of a licence grant from the rightsholders changes those three findings.
+- If the file scrumguides.org serves for the July 2013 Scrum Guide changes its notice again,
+  re-read §1's 2013.7 entry before changing that page.
+- Scrum.org serves the Kanban and Nexus files from a file store whose paths are not advertised
+  as stable. If a source link above dies, the file is still identifiable by its SHA-256.

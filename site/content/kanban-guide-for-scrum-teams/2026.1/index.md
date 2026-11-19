@@ -9,8 +9,8 @@ keywords:
   - Kanban
   - Scrum
   - Flow
-aliases:
-  - /kanban-guide-for-scrum-teams/latest
+# /kanban-guide-for-scrum-teams/latest points at 2021.1, the newest published edition.
+# Move it here when this edition is written.
 ---
 
 <div class="pending-licence" markdown="1">

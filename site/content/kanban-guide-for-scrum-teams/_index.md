@@ -19,6 +19,11 @@ guide_whatis: |
   visualising the workflow, limiting work in progress, actively managing work items and
   improving the workflow — within Scrum.
 
+  The Kanban Guide for Scrum Teams is published by Scrum.org and was developed with Daniel
+  Vacanti, Steve Porter and Yuval Yeret. This site is not published by them. The canonical
+  source is
+  [scrum.org](https://www.scrum.org/resources/kanban-guide-scrum-teams).
+
   Implementation guides add guidance for a particular context. They may add to the parent
   guide's conditions and may constrain them further. They may not override or weaken them.
 guide_overview: |
