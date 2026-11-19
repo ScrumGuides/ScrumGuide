@@ -631,6 +631,34 @@ Deliberately **not** in run 1. `Microsoft.Web/staticSites/customDomains` fails u
 - Install `gh extension install github/gh-actions-lock` before adoption; the installer runs scoped locking.
 - Deployment starts **disabled** on first install and is enabled deliberately.
 
+#### 8.7.1 Every build reaches preview first
+
+CI deployment is **enabled**: the caller passes `static-web-app-token` and sets
+`deploy` for pushes and for same-repository pull requests. A fork's pull request
+cannot read the secret, so it is excluded rather than left to fail.
+
+Enabling `deploy` does **not** choose an environment. The ring comes from
+GitVersion (§8.8 and `.github/GitVersion.yml`), and the environment comes from
+the `delivery` map in `.OpenGuidePlatform/settings.yaml`:
+
+| Trigger | Ring | Environment |
+|---|---|---|
+| push to `main` | preview | `preview` |
+| pull request | canary | `canary-<pr>` |
+| `release/*` | production | `production` |
+
+So the path to production is: merge to `main`, which publishes to preview; look
+at it; then cut `release/*` to promote. Nothing reaches production without that
+second, deliberate step. `Resolve-GuideDeliveryContext` enforces it rather than
+trusting configuration — a preview or canary ring that selects the production
+environment throws, as does a production ring that selects anything else.
+
+**Hand-deploying is therefore retired.** Run 1 published by running the Static
+Web Apps CLI directly at production, which was how the site got up before CI
+worked. Doing that now reintroduces exactly the drift this arrangement removes:
+two publishing paths writing to different slots, with the manual one skipping
+preview and validation entirely. Publish by pushing.
+
 ### 8.8 Hugo configuration: follow the platform convention
 
 This site uses flat `hugo.yaml` plus `hugo.{local,preview,canary,production}.yaml`, matching the other three sites. That is a deliberate choice against the better Hugo mechanism, for reasons worth recording.

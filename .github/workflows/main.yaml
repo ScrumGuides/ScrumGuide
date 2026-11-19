@@ -21,4 +21,14 @@ jobs:
     with:
       source-ref: ${{ github.event.pull_request.head.sha || github.sha }}
       source-path: "site"
-      deploy: false
+      # Deploy on pushes, and on pull requests from this repository only —
+      # a fork's PR cannot read the secret below, so deploying it would fail.
+      #
+      # This does NOT choose the environment. The ring comes from GitVersion
+      # via .github/GitVersion.yml: main carries label `preview`, so a push to
+      # main deploys to the preview environment. Production is reachable only
+      # from a release/* branch, and Resolve-GuideDeliveryContext throws if a
+      # preview or canary ring ever selects the production environment.
+      deploy: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository }}
+    secrets:
+      static-web-app-token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
