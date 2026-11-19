@@ -183,15 +183,76 @@ Consequences worth stating:
 
 ---
 
-## 7. What would be built, if this is agreed
+## 7. There is no way to do this today
 
-Nothing yet, and nothing in templates. Agreeing this document means:
+Agreeing §4 and §5 does not create anything. Measured against the installed
+platform, v1.1.8:
 
-1. The §4 section becomes part of how a guide is authored here, and goes into
-   `docs/content-management.md` as the procedure for creating an inherited guide.
-2. §5's three categories are recorded as the site's taxonomy.
-3. 2026.1, Getting Started and the AI Guide each carry the §4 section from their
-   first draft, because retrofitting it later is how it ends up inconsistent.
+| Looked for | Found |
+|---|---|
+| A command to create a new guide | **None.** `New-GuideEdition` requires a `SourceEditionId`, so it can only add an edition to a guide that already exists. A new top-level guide is made entirely by hand |
+| A content scaffold | **None.** There are no Hugo archetypes in the site or in the module, so `hugo new` has nothing to fill |
+| A way to carry a section into later editions | **`New-GuideEdition`.** It copies an edition's body byte-for-byte, sets `draft`, sets the new version and strips inherited aliases |
+| A site-owned validation step | **None.** `build.ps1` exposes a fixed set of stages and `Invoke-GuideSiteBuild` has no hook a site can add a check to |
 
-Metadata, rendering and any build-time checking are deliberately out of scope
-and would be proposed separately, after this is settled.
+So the two guides to be created next — Getting Started for Scrum Teams and the
+AI Guide for Scrum Teams — are hand-made directories today, and nothing would
+notice if the §4 section were missing, worded differently in each, or dropped
+from a later edition.
+
+---
+
+## 8. Options
+
+Two separate choices. **A** is where the words come from when a guide is
+created. **B** is how we know they are still there and still right.
+
+### A — Creating it
+
+| | Option | Costs | Gets you | Doesn't |
+|---|---|---|---|---|
+| **A1** | By hand from §4 each time | Nothing | Immediate start | Three guides, three wordings; nothing to review a guide *against* |
+| **A2** | A normative template in the repo — one file holding the §4 section with the parent edition left blank, copied when a guide is created | One file | One agreed wording, reviewable as text, and a thing a reviewer can diff a guide against | Enforce anything |
+| **A3** | A Hugo archetype | One file, plus adopting a scaffolding path the platform does not use | `hugo new` support | Help at all with a new *guide* bundle, which is the actual gap |
+| **A4** | Seed later editions with `New-GuideEdition` | Nothing — it exists | Every subsequent edition of a guide inherits the section for free, byte-for-byte | Help with the first edition of a new guide |
+| **A5** | Propose a whole-guide scaffold to OpenGuidePlatform | Upstream work, another release cycle | Fixes it for every site, properly | Help now |
+
+A2 and A4 are complementary, not alternatives: A2 solves the first edition, A4
+solves every edition after it.
+
+### B — Keeping it honest
+
+| | Option | Costs | Gets you | Doesn't |
+|---|---|---|---|---|
+| **B1** | Nothing | Nothing | — | Catch an omission |
+| **B2** | A review checklist in `docs/content-management.md` | A few lines | A named step before a guide is published, and a reason to say no | Catch anything nobody reviews |
+| **B3** | A site-owned script that checks every edition has the section and its four statements | A script, run by hand or in CI; it cannot live in `build.ps1` because there is no hook | Actual enforcement | Judge whether the words are *true* — only that they are present |
+| **B4** | Propose a content-convention check upstream | Upstream work | Enforcement for every site | Help now |
+| **B5** | Mirror the prose in front matter and check it at build time | Six template files and a specification rewrite — this was built, reverted in `1f6c456`, and is on record as unwanted | A machine-checkable claim and a rendered list | Appear in the PDF, which is where the claim has to be |
+
+B3 and B5 both check presence, not truth. Whether a guide really adds no
+accountability is a judgement, and no check will make it.
+
+### Recommended
+
+**A2 + A4, and B2.**
+
+A template file and a checklist, and let `New-GuideEdition` carry the section
+forward. That is two small files and no tooling, it makes the wording consistent
+across the three guides being written now, and it gives a reviewer something to
+check against rather than an opinion.
+
+Not B3 yet. A script that enforces a convention across three guides costs more
+than reading three guides. Revisit when there are ten, or the first time a guide
+ships without the section.
+
+A5 is worth raising upstream regardless of what is chosen here, because "there
+is no way to create a new guide" is a platform gap and not ours alone.
+
+### If A2 is chosen
+
+The template is one file, `docs/templates/relation-to-the-scrum-guide.md`, holding
+the §4 section with the parent edition and the four answers left blank. It is
+normative: a guide departs from its wording deliberately, not by accident. 2026.1,
+Getting Started and the AI Guide each carry it from their first draft, because
+retrofitting it afterwards is how it ends up inconsistent.
