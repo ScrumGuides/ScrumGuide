@@ -1,0 +1,50 @@
+{{/*
+  The band of direct actions at the top of the home page.
+
+  Driven by `home_actions` in content/_index.md. An entry with `pdf: true`
+  resolves the latest Scrum Guide edition's English PDF at build time and
+  renders as a disabled card when there isn't one yet, rather than linking
+  somewhere that 404s.
+*/}}
+
+{{- $pdfUrl := "" }}
+{{- with .Site.GetPage "/scrum-guide" }}
+  {{- $versions := partial "functions/get-all-versions.html" . }}
+  {{- if $versions }}
+    {{- with (index $versions 0).page }}
+      {{- with partial "openguide/pdfs/select-first-edition-pdf.html" (dict "Page" . "Pattern" "pdf/*.en.pdf") }}
+        {{- $pdfUrl = .RelPermalink }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{- with .Params.home_actions }}
+  <section class="home-actions">
+    <div class="container">
+      <ul class="home-actions__grid">
+        {{- range . }}
+          {{- $url := .url }}
+          {{- $disabled := false }}
+          {{- if .pdf }}
+            {{- $url = $pdfUrl }}
+            {{- if not $pdfUrl }}{{ $disabled = true }}{{ end }}
+          {{- end }}
+
+          <li class="home-action{{ if $disabled }} home-action--disabled{{ end }}">
+            <span class="home-action__icon" aria-hidden="true"><i class="{{ .icon }}"></i></span>
+            <p class="home-action__title">{{ .title }}</p>
+
+            {{- if $disabled }}
+              <span class="home-action__btn home-action__btn--off" aria-disabled="true">Not yet available</span>
+            {{- else }}
+              <a class="home-action__btn" href="{{ $url }}"{{ if .pdf }} download{{ end }}>
+                {{ .label }}<i class="fa-solid fa-chevron-right ms-2" aria-hidden="true"></i>
+              </a>
+            {{- end }}
+          </li>
+        {{- end }}
+      </ul>
+    </div>
+  </section>
+{{- end }}

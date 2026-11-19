@@ -1,19 +1,27 @@
 {{- define "main" }}
-  <section class="container home-intro">
-    <h1>{{ .Site.Title }}</h1>
-    <p>{{ .Site.Params.description }}</p>
-  </section>
+  {{ partial "components/home-actions.html" . }}
 
-  <section class="container py-4">
-    {{- $guides := partial "openguide/guides/discover-guides.html" . }}
+  <section class="container home-columns">
+    <div class="home-columns__main">
+      {{- range .Params.home_panels }}
+        <section class="home-panel">
+          <h2 class="home-panel__title">{{ .title }}</h2>
+          <div class="home-panel__body">{{ .content | markdownify }}</div>
+          {{- with .cta }}
+            <a class="btn btn-primary btn-sm" href="{{ .url }}">{{ .label }}</a>
+          {{- end }}
+        </section>
+      {{- end }}
 
-    {{ partial "components/guide-list.html" (dict "guides" (where $guides "Params.categories" "intersect" (slice "Foundation")) "title" (i18n "foundation_section_title")) }}
+      {{- with .Content }}
+        <div class="guide-body">{{ . }}</div>
+      {{- end }}
+    </div>
 
-    {{ partial "components/implementation-list.html" (dict "guides" $guides) }}
-
-    {{- with .Content }}
-      <div class="guide-body mt-5">{{ . }}</div>
-    {{- end }}
+    <aside class="home-columns__side">
+      {{- $guides := partial "openguide/guides/discover-guides.html" . }}
+      {{ partial "components/implementation-list.html" (dict "guides" $guides) }}
+    </aside>
   </section>
 {{- end }}
 

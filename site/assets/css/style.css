@@ -910,23 +910,132 @@ h4:hover .heading-anchor,
 
 /* ---------- 8. Home ------------------------------------------------------ */
 
-.home-intro {
-  padding-block: calc(var(--sg-step) * 2.5);
-  border-bottom: 1px solid var(--sg-rule);
+/* --- The action band: three direct ways into the guide --- */
+
+.home-actions {
+  background: var(--sg-accent);
+  padding-block: calc(var(--sg-step) * 1.75);
 }
 
-.home-intro h1 {
-  font-size: 2.25rem;
-  font-weight: 700;
-  letter-spacing: -0.015em;
-  max-width: 24ch;
+.home-actions__grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
 }
 
-.home-intro p {
-  color: var(--sg-ink-soft);
-  font-size: 1.1rem;
-  max-width: var(--sg-measure);
-  margin-top: 0.75rem;
+@media (max-width: 767.98px) {
+  .home-actions__grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.home-action {
+  background: var(--sg-chrome);
+  color: var(--sg-chrome-ink);
+  border-radius: var(--sg-radius);
+  padding: 1.75rem 1.25rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.home-action__icon {
+  font-size: 2.5rem;
+  line-height: 1;
+  color: var(--sg-chrome-ink);
+}
+
+.home-action__title {
+  margin: 0;
+  font-size: 0.975rem;
+  line-height: 1.45;
+  color: var(--sg-chrome-ink);
+  max-width: 22ch;
+}
+
+.home-action__btn {
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  background: var(--sg-accent);
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0.45rem 1rem;
+  border-radius: var(--sg-radius);
+}
+
+.home-action__btn:hover,
+.home-action__btn:focus {
+  background: var(--sg-accent-deep);
+  color: #fff;
+}
+
+.home-action--disabled {
+  opacity: 0.75;
+}
+
+.home-action__btn--off {
+  background: transparent;
+  border: 1px dashed var(--sg-chrome-ink-soft);
+  color: var(--sg-chrome-ink-soft);
+  cursor: not-allowed;
+  font-weight: 500;
+}
+
+/* --- Two columns below the band --- */
+
+.home-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 3.5rem;
+  align-items: start;
+  padding-block: calc(var(--sg-step) * 2);
+}
+
+@media (max-width: 991.98px) {
+  .home-columns {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--sg-step);
+  }
+}
+
+.home-panel + .home-panel {
+  margin-top: calc(var(--sg-step) * 1.75);
+  padding-top: calc(var(--sg-step) * 1.75);
+  border-top: 1px solid var(--sg-rule);
+}
+
+.home-panel__title {
+  font-size: 1.5rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.75rem;
+}
+
+.home-panel__body {
+  font-family: var(--sg-font-doc);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--sg-ink);
+}
+
+.home-panel__body > * + * {
+  margin-top: 0.9rem;
+}
+
+.home-panel__body p:last-child {
+  margin-bottom: 0;
+}
+
+.home-panel .btn {
+  margin-top: 1rem;
 }
 
 .section-heading {
