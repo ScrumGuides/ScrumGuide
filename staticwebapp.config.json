@@ -16,13 +16,6 @@
   },
   "routes": [
     {
-      "comment": "trailingSlash 'always' otherwise 301s this to .json/, and the platform's deployment verification reads it as an exact path.",
-      "route": "/.well-known/open-guide-platform.json",
-      "headers": {
-        "content-type": "application/json"
-      }
-    },
-    {
       "route": "/history/",
       "redirect": "/scrum-guide/history/",
       "statusCode": 301
