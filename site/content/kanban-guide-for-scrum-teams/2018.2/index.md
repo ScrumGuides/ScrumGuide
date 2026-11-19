@@ -12,13 +12,13 @@ keywords:
 # TODO: author the `changes` entries for this edition. See docs/specification.md 5.6.
 ---
 
+> **Licence: CC BY-SA 4.0** — © 2018 Scrum.org.
 > *The Kanban Guide for Scrum Teams* — February 2018.
 > Developed and sustained by Scrum.org and Daniel Vacanti.
 >
-> This page reproduces that document in full. It is offered under the Creative Commons
-> Attribution ShareAlike 4.0 licence, and the copyright notice it carries is reproduced at
-> the foot of this page. This site is not published by Scrum.org; the canonical source is
-> [scrum.org](https://www.scrum.org/resources/kanban-guide-scrum-teams).
+> The full text is on this page, reproduced under that licence, with the
+> document's own notice at the foot. Source document:
+> [February 2018 Kanban Guide for Scrum Teams (PDF)](https://scrumorg-website-prod.s3.amazonaws.com/drupal/2018-03/2018%20Kanban%20Guide%20for%20Scrum%20Teams.pdf). Canonical source: [scrum.org](https://www.scrum.org/resources/kanban-guide-scrum-teams).
 
 ## Purpose
 

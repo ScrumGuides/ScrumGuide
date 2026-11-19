@@ -12,12 +12,13 @@ keywords:
 # TODO: author the `changes` entries for this edition. See docs/specification.md 5.6.
 ---
 
+> **Licence: all rights reserved** — © Scrum.org, 2015.
 > *Nexus™ Guide — The Definitive Guide to Nexus: The exoskeleton of scaled Scrum development* — August 2015.
 > Developed and sustained by Ken Schwaber and Scrum.org.
 >
-> **This edition's text is not reproduced here.** The document reserves all rights, so
-> this site links it rather than re-hosting it. The notice it carries is quoted at the
-> foot of this page, and the full reasoning is in `docs/licence-review.md`.
+> **The text is not on this page.** This edition reserves all rights, so the
+> document is linked rather than re-hosted, and its notice is quoted at the foot.
+> Read the edition: [Nexus Guide v1.1, August 2015 (PDF)](https://s3.amazonaws.com/scrumorg-website-prod/drupal/2016-09/NexusGuide%20v1.1.pdf). Canonical source: [scrum.org](https://www.scrum.org/resources/nexus-guide).
 
 ## What this edition is
 

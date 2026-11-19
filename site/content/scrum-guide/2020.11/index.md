@@ -18,13 +18,13 @@ aliases:
   - /scrum-guide/latest
 ---
 
+> **Licence: CC BY-SA 4.0** — © 2020 Ken Schwaber and Jeff Sutherland.
 > *The Definitive Guide to Scrum: The Rules of the Game* — November 2020.
 > Ken Schwaber & Jeff Sutherland.
 >
-> This page reproduces that document in full. It is offered under the Creative Commons
-> Attribution ShareAlike 4.0 licence, and the copyright notice it carries is reproduced at
-> the foot of this page. This site is not published by the authors; the canonical source is
-> [scrumguides.org](https://scrumguides.org/).
+> The full text is on this page, reproduced under that licence, with the
+> document's own notice at the foot. Source document:
+> [2020 Scrum Guide (PDF)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf). Canonical source: [scrumguides.org](https://scrumguides.org/).
 
 ## Purpose of the Scrum Guide
 

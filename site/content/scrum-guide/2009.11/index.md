@@ -11,12 +11,13 @@ keywords:
 # TODO: author the `changes` entries for this edition. See docs/specification.md 5.6.
 ---
 
+> **Licence: all rights reserved** — © 2008-2009 Ken Schwaber and Jeff Sutherland.
 > *Scrum Guide™* — November 2009.
 > Scrum: Developed and sustained by Ken Schwaber and Jeff Sutherland. Published by Scrum.org.
 >
-> **This edition's text is not reproduced here.** The document reserves all rights, so
-> this site links it rather than re-hosting it. The notice it carries is quoted at the
-> foot of this page, and the full reasoning is in `docs/licence-review.md`.
+> **The text is not on this page.** This edition reserves all rights, so the
+> document is linked rather than re-hosted, and its notice is quoted at the foot.
+> Read the edition: [Scrum Guide, November 2009 (PDF)](https://web.archive.org/web/20091210231856id_/http://www.scrum.org/storage/scrumguides/Scrum%20Guide.pdf). Canonical source: [scrumguides.org](https://scrumguides.org/).
 
 ## What this edition is
 

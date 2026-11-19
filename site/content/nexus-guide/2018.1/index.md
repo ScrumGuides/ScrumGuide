@@ -13,13 +13,13 @@ changes_from: 2015.8
 # TODO: author the `changes` entries for this edition. See docs/specification.md 5.6.
 ---
 
+> **Licence: CC BY-SA 4.0** — ©2018 Scrum.org.
 > *The Definitive Guide to scaling Scrum with Nexus: The Rules of the Game* — January 2018.
 > Developed and sustained by Ken Schwaber and Scrum.org.
 >
-> This page reproduces that document in full. It is offered under the Creative Commons
-> Attribution ShareAlike 4.0 licence, and the copyright notice it carries is reproduced at
-> the foot of this page. This site is not published by Scrum.org; the canonical source is
-> [scrum.org](https://www.scrum.org/resources/nexus-guide).
+> The full text is on this page, reproduced under that licence, with the
+> document's own notice at the foot. Source document:
+> [January 2018 Nexus Guide (PDF)](https://scrumorg-website-prod.s3.amazonaws.com/drupal/2018-01/2018-Nexus-Guide-English_0.pdf). Canonical source: [scrum.org](https://www.scrum.org/resources/nexus-guide).
 
 ## Nexus Overview
 

@@ -13,13 +13,13 @@ changes_from: 2018.4
 # TODO: author the `changes` entries for this edition. See docs/specification.md 5.6.
 ---
 
+> **Licence: CC BY-SA 4.0** — © 2019 Scrum.org.
 > *The Kanban Guide for Scrum Teams* — September 2019.
 > Developed and sustained by Scrum.org, Daniel Vacanti, and Yuval Yeret.
 >
-> This page reproduces that document in full. It is offered under the Creative Commons
-> Attribution ShareAlike 4.0 licence, and the copyright notice it carries is reproduced at
-> the foot of this page. This site is not published by Scrum.org; the canonical source is
-> [scrum.org](https://www.scrum.org/resources/kanban-guide-scrum-teams).
+> The full text is on this page, reproduced under that licence, with the
+> document's own notice at the foot. Source document:
+> [September 2019 Kanban Guide for Scrum Teams (PDF)](https://scrumorg-website-prod.s3.amazonaws.com/drupal/2019-11/2019-09-Kanban-Guide-for-Scrum-Teams-English.pdf). Canonical source: [scrum.org](https://www.scrum.org/resources/kanban-guide-scrum-teams).
 
 ## Purpose
 

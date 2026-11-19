@@ -23,6 +23,10 @@ guide_whatis: |
   The Nexus Guide is published by Scrum.org, and Nexus was created by Ken Schwaber. This site
   is not published by them. The canonical source is
   [scrum.org](https://www.scrum.org/resources/nexus-guide).
+
+  **Licence: CC BY-SA 4.0 from January 2018 onward.** Those editions carry their full text
+  here, with the document's own notice on the page. The August 2015 edition reserves all
+  rights, so its page links Scrum.org's file instead. Each edition states its licence at the top.
 guide_overview: |
   The framework for several Scrum Teams working together on one product, from the first version in 2015 onward.
 

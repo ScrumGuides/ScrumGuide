@@ -15,13 +15,13 @@ aliases:
   - /kanban-guide-for-scrum-teams/latest
 ---
 
+> **Licence: CC BY-SA 4.0** — © 2021 Scrum.org.
 > *The Kanban Guide for Scrum Teams* — January 2021.
 > Developed and sustained by Scrum.org, Daniel Vacanti, and Yuval Yeret.
 >
-> This page reproduces that document in full. It is offered under the Creative Commons
-> Attribution ShareAlike 4.0 licence, and the copyright notice it carries is reproduced at
-> the foot of this page. This site is not published by Scrum.org; the canonical source is
-> [scrum.org](https://www.scrum.org/resources/kanban-guide-scrum-teams).
+> The full text is on this page, reproduced under that licence, with the
+> document's own notice at the foot. Source document:
+> [January 2021 Kanban Guide for Scrum Teams (PDF)](https://scrumorg-website-prod.s3.amazonaws.com/drupal/2021-01/01-2021%20Kanban%20Guide.pdf). Canonical source: [scrum.org](https://www.scrum.org/resources/kanban-guide-scrum-teams).
 
 ## Purpose
 

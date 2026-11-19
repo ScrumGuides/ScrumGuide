@@ -15,12 +15,12 @@ aliases:
   - /nexus-guide/latest
 ---
 
+> **Licence: CC BY-SA 4.0** — © 2021 Scrum.org.
 > *The Definitive Guide to Scaling Scrum with Nexus* — January 2021.
 >
-> This page reproduces that document in full. It is offered under the Creative Commons
-> Attribution ShareAlike 4.0 licence, and the copyright notice it carries is reproduced at
-> the foot of this page. This site is not published by Scrum.org; the canonical source is
-> [scrum.org](https://www.scrum.org/resources/nexus-guide).
+> The full text is on this page, reproduced under that licence, with the
+> document's own notice at the foot. Source document:
+> [January 2021 Nexus Guide (PDF)](https://scrumorg-website-prod.s3.amazonaws.com/drupal/2021-01/NexusGuide%202021_0.pdf). Canonical source: [scrum.org](https://www.scrum.org/resources/nexus-guide).
 
 ## Purpose of the Nexus Guide
 

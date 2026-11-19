@@ -16,13 +16,13 @@ changes_from: 2011.10
 #       ...
 ---
 
+> **Licence: CC BY-SA 4.0** — ©2014 Scrum.Org and ScrumInc..
 > *The Definitive Guide to Scrum: The Rules of the Game* — July 2013.
 > Developed and sustained by Ken Schwaber and Jeff Sutherland.
 >
-> This page reproduces that document in full. It is offered under the Creative Commons
-> Attribution ShareAlike 4.0 licence, and the copyright notice it carries is reproduced at
-> the foot of this page. This site is not published by the authors; the canonical source is
-> [scrumguides.org](https://scrumguides.org/).
+> The full text is on this page, reproduced under that licence, with the
+> document's own notice at the foot. Source document:
+> [2013 Scrum Guide (PDF)](https://scrumguides.org/docs/scrumguide/v1/Scrum-Guide-US.pdf). Canonical source: [scrumguides.org](https://scrumguides.org/).
 
 ## Purpose of the Scrum Guide
 

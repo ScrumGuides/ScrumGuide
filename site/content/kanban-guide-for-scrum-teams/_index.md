@@ -24,6 +24,10 @@ guide_whatis: |
   source is
   [scrum.org](https://www.scrum.org/resources/kanban-guide-scrum-teams).
 
+  **Licence: CC BY-SA 4.0.** Every published version of this guide carries that licence, so
+  every one of them carries its full text here, with the document's own notice on the page.
+  Each edition states its licence at the top.
+
   Implementation guides add guidance for a particular context. They may add to the parent
   guide's conditions and may constrain them further. They may not override or weaken them.
 guide_overview: |

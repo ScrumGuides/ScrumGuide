@@ -12,12 +12,13 @@ changes_from: 2010.2
 # TODO: author the `changes` entries for this edition. See docs/specification.md 5.6.
 ---
 
+> **Licence: all rights reserved** — © 1991-2011 Ken Schwaber and Jeff Sutherland.
 > *The Scrum Guide — The Definitive Guide to Scrum: The Rules of the Game* — July 2011.
 > Developed and sustained by Ken Schwaber and Jeff Sutherland.
 >
-> **This edition's text is not reproduced here.** The document reserves all rights, so
-> this site links it rather than re-hosting it. The notice it carries is quoted at the
-> foot of this page, and the full reasoning is in `docs/licence-review.md`.
+> **The text is not on this page.** This edition reserves all rights, so the
+> document is linked rather than re-hosted, and its notice is quoted at the foot.
+> Read the edition: [Scrum Guide, July 2011 (PDF)](https://web.archive.org/web/20110928175344id_/http://www.scrum.org/storage/scrumguides/Scrum%20Guide%20-%202011.pdf). Canonical source: [scrumguides.org](https://scrumguides.org/).
 
 ## What this edition is
 
