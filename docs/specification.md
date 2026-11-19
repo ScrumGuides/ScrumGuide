@@ -169,17 +169,10 @@ Only the newest edition carries the `/latest` alias.
 | Param | On | Purpose |
 |---|---|---|
 | `conditions` | the 2026.1 edition | The normative conditions as structured data, so the edition page, the implementation pages and any future validation read one source |
-| `conforms_to` | **an edition** of any guide | Which conditions, of which edition, it claims to satisfy — §5.7 |
+| `conforms_to` | implementation guide | Which edition's conditions it claims to satisfy, and which — §5.7 |
 | `derived_from` | any edition | Where the text came from, including guides on other sites — §5.7 |
 | `changes_from` | each edition | The edition this one supersedes — `2017.11` |
 | `changes` | each edition | What changed from that edition, as titled entries — §5.6 |
-
-All five sit on the **edition**, not on the guide's `_index.md`. A conformance
-claim is a claim one edition makes: the 2019 Kanban Guide for Scrum Teams cannot
-claim conditions that were written in 2026, and an edition published before a
-claim was withdrawn keeps the claim it shipped with. A guide landing page
-renders its latest edition, so the latest claim appears there without being
-stored there twice.
 
 If these prove useful across sites, propose them upstream to OGP rather than letting this site diverge quietly.
 
@@ -312,45 +305,18 @@ A future Kanban Guide for Scrum Teams is *derived from* The Kanban Guide — cro
 
 The same is true of the relationship that exists today: Kanban Guide for Scrum Teams "inheriting" the 2020 Scrum Guide is conformance, not derivation. It does not reuse the 2020 text. So the relationship this site is actually built on is the one the platform does not model.
 
-#### The model — decided, run 2
+#### The model
 
-**Site-owned front matter and site-owned partials, now. Do not wait on an
-upstream OGP feature.**
+**Copy is the floor, not the fallback.** CC BY-SA requires attribution *in the work*. Every guide states its lineage in prose and in the licence block whatever the metadata says. The Open Guide to Kanban already does this well; follow it.
 
-The alternative was to propose `conforms_to` to the platform and hold the
-proposition until it shipped. Rejected: conformance is the one relationship this
-site exists to express, so the site cannot be built without it, and a param
-whose shape has never met a real implementation guide is the wrong thing to ask
-a platform to standardise. §12.1 records what goes upstream and when.
-
-`forked_from` is not stretched to fit. It takes a single parent, it resolves
-only within one site, and it models derivation — a different relationship from
-the one above. §5.7.1 shows what happens when it is pointed somewhere it was not
-meant to go.
-
-**Copy is the floor, not the fallback.** CC BY-SA requires attribution *in the
-work*. Every guide states its lineage in prose in its body, whatever the metadata
-says. This is not belt-and-braces: **PDF generation runs Pandoc directly on
-`index.md`** (`Get-GuidePdfPlan.ps1`), so no Hugo template reaches the PDF. A
-conformance claim that exists only as front matter is absent from the published
-document. The prose statement is the claim; the structured data makes it
-checkable and renders it on the web.
-
-**The front matter.** Both keys are lists, so a guide can have several parents of
-either kind:
+**Structured data, site-owned, from run 3:**
 
 ```yaml
 # kanban-guide-for-scrum-teams/<edition>/index.md
 conforms_to:
-  - guide: scrum-guide              # internal: a guide section on this site
+  - guide: scrum-guide
     edition: 2026.1
     conditions: [SG26-C1, SG26-C3, SG26-C7]
-    statement: |                    # optional; what the claim means here
-      Flow measures are the evidence, and the workflow definition is the
-      single ordering.
-  - title: The Kanban Guide         # external: a document on another site
-    edition: 2025.5
-    url: https://kanbanguides.org/the-kanban-guide/2025.5/
 
 derived_from:
   - title: The Kanban Guide
@@ -360,59 +326,9 @@ derived_from:
     licence: CC BY-SA 4.0
 ```
 
-**One rule decides how an entry is read: `guide:` means this site, `url:` means
-somewhere else.** An entry with neither fails the build. This is the same rule
-for both keys, so there is one thing to learn and one resolver to maintain.
+`derived_from` is a **list**, and each entry is either an internal reference or an external record. Static external URLs are what make cross-site lineage work. OGP does emit a `pages.json` home output, so resolving another site's editions live at build time is technically possible — **do not**. It makes kanbanguides.org's availability a dependency of this site's build.
 
-That covers the case the model has to survive: a future Kanban Guide for Scrum
-Teams conforming to **both** Scrum Guide 2026 here **and** The Kanban Guide on
-kanbanguides.org. Two entries, one internal, one external.
-
-Static external URLs are what make cross-site lineage work. OGP does emit a
-`pages.json` home output, so resolving another site's editions live at build time
-is technically possible — **do not**. It makes kanbanguides.org's availability a
-dependency of this site's build.
-
-**The claim is checked at build time.** This is the reason to hold it as data at
-all, and it is what makes a claim reviewable rather than decorative:
-
-| Defect | Result |
-|---|---|
-| `guide`/`edition` names a page that does not exist | Build fails, naming the claiming file and the path it asked for |
-| A claimed condition ID is not defined by the target edition's `conditions` | Build fails, listing the IDs that edition does define |
-| An entry has neither `guide` nor `url` | Build fails |
-| An external entry has no `title` | Build fails — nothing resolves it, so nothing can supply one |
-
-A claim against an edition whose `conditions` are not yet written is not checked
-against anything; the ID check begins the moment 2026.1 defines them.
-
-**Where it renders.**
-
-| File | Does |
-|---|---|
-| `_partials/functions/resolve-lineage-target.html` | Resolves one entry of either kind; owns every failure above |
-| `_partials/components/lineage.html` | The Lineage block — both verbs, with condition IDs linked to their anchors |
-| `_partials/components/conforming-guides.html` | The reverse view on a parent edition, computed across the site |
-| `_partials/components/guide-extras.html` | Calls those plus `changes-list.html`; the one place a site-owned block is added |
-| `guide/single.html`, `guide/list.html` | Three-line overrides that call `guide-extras.html` after the article |
-
-Condition anchors are the lowercased ID: `SG26-C1` links to
-`/scrum-guide/2026.1/#sg26-c1`. The `conditions` partial must emit that ID.
-
-**Why the overrides.** The module's `render-guide.html` is about 300 lines and
-offers no extension point inside the document, so a site cannot add a block to a
-guide page without replacing the whole renderer. Run 1 hit this: it wrote
-`changes-list.html` and had nowhere to call it from, so per-edition change sets
-were specified, styled and never rendered. The two templates that call
-`render-guide.html` are four lines each, so overriding *those* costs almost
-nothing and drifts only if the module changes those four lines. `guide/list.html`
-additionally drops the module's inlined latest-edition search in favour of the
-platform's own `select-latest-guide-edition.html`, so the override is shorter
-than what it replaces. The extension point goes upstream — §12.1.
-
-The blocks use only Bootstrap classes the module already loads and the
-`.lineage*`, `.changes*` and `.condition*` classes the site stylesheet already
-defines. They add no CSS.
+Do not use `forked_from` here. It cannot express either of these cases, and §5.7.1 shows what happens when it is stretched.
 
 #### 5.7.1 A defect to avoid copying
 
@@ -422,18 +338,12 @@ Sibling editions are discovered automatically by `get-all-versions`, so a self-r
 
 #### Presentation
 
-On a guide landing page and on every edition page, a **Lineage** block with two
-statements and deliberately different verbs:
+On a guide landing page, a **Lineage** block with two statements and deliberately different verbs:
 
-- *Adapted from* **The Kanban Guide** (2025.5) — © Orderly Disruption Limited, Daniel S. Vacanti, Inc., CC BY-SA 4.0. Links out.
-- *Conforms to* **Scrum Guide 2026** (2026.1) — Conditions: `SG26-C1`, `SG26-C3`, `SG26-C7`, each linked to its anchor. Links in.
+- *Adapted from* **The Kanban Guide** (May 2025) — © Orderly Disruption Limited, Daniel S. Vacanti, Inc., CC BY-SA 4.0. Links out.
+- *Conforms to* **Scrum Guide 2026** — satisfies SG26-C1, C3, C7. Links in, with per-condition detail.
 
 On the 2026.1 edition page, the reverse view: **Guides conforming to this edition**, computed across the site from `conforms_to`. That is the implementation list with something behind it rather than a category tag.
-
-The block sits after the article, in the module's own grid offset past the table
-of contents, so it lines up under the content column. The claim also appears in
-prose near the top of the body, which is what the reader meets first and what the
-PDF carries.
 
 **Keep conformance out of the history timeline.** The timeline is derivation. Mixing the two makes it unreadable.
 
