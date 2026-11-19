@@ -1,0 +1,85 @@
+# Credits for the Kanban Guide for Scrum Teams.
+#
+# Creators are the people and organisation named on each edition's own cover;
+# contributors are those its Acknowledgments section names. February and April
+# 2018 are bylined "Scrum.org and Daniel Vacanti"; September 2019 and January
+# 2021 add Yuval Yeret.
+
+- name: Scrum.org
+  role: creator
+  weight: 1
+  contributions:
+    - 2018.2
+    - 2018.4
+    - 2019.9
+    - 2021.1
+
+- name: Daniel Vacanti
+  role: creator
+  weight: 2
+  contributions:
+    - 2018.2
+    - 2018.4
+    - 2019.9
+    - 2021.1
+
+- name: Yuval Yeret
+  role: creator
+  weight: 3
+  contributions:
+    - 2019.9
+    - 2021.1
+
+# Named among the developers in every edition's Acknowledgments, but not on
+# the cover, so recorded as a contributor rather than a creator.
+- name: Steve Porter
+  role: contributor
+  contributions:
+    - 2018.2
+    - 2018.4
+    - 2019.9
+    - 2021.1
+
+- name: Louis-Philippe Carignan
+  role: contributor
+  contributions:
+    - 2018.2
+    - 2018.4
+    - 2019.9
+    - 2021.1
+
+- name: Charles Bradley
+  role: contributor
+  contributions:
+    - 2018.2
+    - 2018.4
+    - 2019.9
+    - 2021.1
+
+- name: Jose Casal
+  role: contributor
+  contributions:
+    - 2019.9
+    - 2021.1
+
+- name: Andy Hiles
+  role: contributor
+  contributions:
+    - 2019.9
+    - 2021.1
+
+- name: Jesse Houwing
+  role: contributor
+  contributions:
+    - 2019.9
+    - 2021.1
+
+- name: Glaudia Califano
+  role: contributor
+  contributions:
+    - 2021.1
+
+- name: Julia Wester
+  role: contributor
+  contributions:
+    - 2021.1

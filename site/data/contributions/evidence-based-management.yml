@@ -1,0 +1,18 @@
+# Credits for the Evidence-Based Management Guide.
+#
+# Scrum.org publishes this guide and credits Ken Schwaber as its creator.
+# The guide's text is not reproduced on this site, so there is no
+# acknowledgements section here to draw further names from; these two are the
+# credits the publishers' own pages carry.
+
+- name: Ken Schwaber
+  role: creator
+  weight: 1
+  contributions:
+    - 2024.5
+
+- name: Scrum.org
+  role: creator
+  weight: 2
+  contributions:
+    - 2024.5

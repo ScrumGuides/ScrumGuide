@@ -1,0 +1,99 @@
+# Credits for the Nexus Guide.
+#
+# The August 2015 and January 2018 covers read "Developed and sustained by Ken
+# Schwaber and Scrum.org"; January 2021 carries no byline and names the same
+# people in its Acknowledgements. Contributors are those each edition's own
+# Acknowledgement section names as having developed Nexus and Scaled
+# Professional Scrum.
+
+- name: Ken Schwaber
+  role: creator
+  weight: 1
+  contributions:
+    - 2015.8
+    - 2018.1
+    - 2021.1
+
+- name: Scrum.org
+  role: creator
+  weight: 2
+  contributions:
+    - 2015.8
+    - 2018.1
+    - 2021.1
+
+- name: David Dame
+  role: contributor
+  contributions:
+    - 2015.8
+    - 2018.1
+    - 2021.1
+
+- name: Richard Hundhausen
+  role: contributor
+  contributions:
+    - 2015.8
+    - 2018.1
+    - 2021.1
+
+- name: Patricia Kong
+  role: contributor
+  contributions:
+    - 2015.8
+    - 2018.1
+    - 2021.1
+
+- name: Rob Maher
+  role: contributor
+  contributions:
+    - 2015.8
+    - 2018.1
+    - 2021.1
+
+- name: Steve Porter
+  role: contributor
+  contributions:
+    - 2015.8
+    - 2018.1
+    - 2021.1
+
+- name: Christina Schwaber
+  role: contributor
+  contributions:
+    - 2015.8
+    - 2018.1
+    - 2021.1
+
+- name: Gunther Verheyen
+  role: contributor
+  contributions:
+    - 2015.8
+    - 2018.1
+    - 2021.1
+
+# "A special thank you ... for their significant contributions in advancing
+# Nexus and Scaled Professional Scrum" — January 2021 only.
+- name: Kurt Bittner
+  role: contributor
+  contributions:
+    - 2021.1
+
+- name: Ravi Verma
+  role: contributor
+  contributions:
+    - 2021.1
+
+- name: Fredrik Wendt
+  role: contributor
+  contributions:
+    - 2021.1
+
+- name: Jesse Houwing
+  role: contributor
+  contributions:
+    - 2021.1
+
+- name: Simon Flossmann
+  role: contributor
+  contributions:
+    - 2021.1
