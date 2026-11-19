@@ -36,19 +36,18 @@ jobs:
         with:
           # GitVersion reads tag and branch history. A shallow clone gives it
           # nothing to work from.
-          #
-          # Do not pin `ref` to a SHA here. That checks out a detached HEAD, so
-          # GitVersion cannot tell which branch it is on, never applies the
-          # `main` rules in .github/GitVersion.yml, and reports 0.0.1-30 with no
-          # pre-release label instead of 0.1.0-preview.30. The default checkout
-          # keeps the branch, which is what the branch rules key off.
           fetch-depth: 0
       - id: gitversion
         shell: pwsh
         run: |
           dotnet tool install --global GitVersion.Tool --version 6.8.2
           $env:PATH = $env:PATH + [IO.Path]::PathSeparator + "$env:HOME/.dotnet/tools"
-          $v = dotnet-gitversion /output json | ConvertFrom-Json
+          # /config is required. GitVersion only looks for GitVersion.yml in the
+          # repository root, and this repository keeps it in .github/. Without
+          # the flag it silently ignores the file and falls back to defaults,
+          # reporting 0.0.1-33 with no pre-release label instead of
+          # 0.1.0-preview.33 — a wrong number rather than an error.
+          $v = dotnet-gitversion /config .github/GitVersion.yml /output json | ConvertFrom-Json
           $label = if ($v.PreReleaseLabel) { $v.PreReleaseLabel } else { "(none)" }
           Add-Content -Path $env:GITHUB_OUTPUT -Value "semver=$($v.SemVer)"
           Add-Content -Path $env:GITHUB_OUTPUT -Value "label=$label"
