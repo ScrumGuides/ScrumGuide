@@ -1,0 +1,95 @@
+name: Infrastructure
+
+# Site-owned. Not an OpenGuidePlatform caller — OGP neither manages nor locks
+# this file. Runs independently of the site build: infrastructure changes
+# rarely, content changes constantly.
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "infra/**"
+      - ".github/workflows/infrastructure.yaml"
+  push:
+    branches: [main]
+    paths:
+      - "infra/**"
+      - ".github/workflows/infrastructure.yaml"
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+  pull-requests: write
+
+# Never cancel a deployment in flight.
+concurrency:
+  group: infrastructure
+  cancel-in-progress: false
+
+env:
+  LOCATION: centralus
+  TEMPLATE: infra/main.bicep
+  PARAMETERS: infra/main.bicepparam
+
+jobs:
+  whatif:
+    name: What-if
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lint Bicep
+        run: az bicep build --file "$TEMPLATE" --stdout > /dev/null
+
+      - uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: What-if
+        run: |
+          az deployment sub what-if \
+            --name "scrumguide-infra-${{ github.run_id }}" \
+            --location "$LOCATION" \
+            --template-file "$TEMPLATE" \
+            --parameters "$PARAMETERS"
+
+  deploy:
+    name: Deploy
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    # Create this environment in repository settings to require an approval.
+    environment: azure-production
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Deploy
+        id: deploy
+        run: |
+          az deployment sub create \
+            --name "scrumguide-infra" \
+            --location "$LOCATION" \
+            --template-file "$TEMPLATE" \
+            --parameters "$PARAMETERS" \
+            --query "properties.outputs" \
+            --output json > outputs.json
+          cat outputs.json
+
+      - name: Summary
+        run: |
+          {
+            echo "### Infrastructure"
+            echo ""
+            echo "| Output | Value |"
+            echo "|---|---|"
+            jq -r 'to_entries[] | "| \(.key) | \(.value.value) |"' outputs.json
+          } >> "$GITHUB_STEP_SUMMARY"

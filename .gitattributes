@@ -1,0 +1,14 @@
+* text=auto
+
+# OGP verifies exact managed-file bytes; preserve LF on Windows checkouts.
+# These files arrive with the OpenGuidePlatform installer — see docs/adoption.md.
+/build.ps1 text eol=lf
+/.OpenGuidePlatform/Resolve-OpenGuidePlatform.ps1 text eol=lf
+/.OpenGuidePlatform/installation.json text eol=lf
+/.agents/agents.md text eol=lf
+/.agents/skills/** text eol=lf
+/.github/copilot-instructions.md text eol=lf
+
+# Bicep is whitespace-sensitive enough to be worth pinning.
+*.bicep text eol=lf
+*.bicepparam text eol=lf

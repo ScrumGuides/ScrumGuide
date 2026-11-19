@@ -1,0 +1,43 @@
+{{/*
+  Renders a plain list of guide section pages. No cards.
+
+  Params:
+    guides — slice of guide section pages
+    title  — section heading
+*/}}
+
+{{- $guides := .guides }}
+{{- $title := .title }}
+
+{{- if $guides }}
+  <h2 class="section-heading">{{ $title }}</h2>
+  <ul class="guide-index">
+    {{- range $guides.ByWeight }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Params.short_title | default .Title }}</a>
+
+        {{- with .Params.description }}
+          <p>{{ . | markdownify }}</p>
+        {{- end }}
+
+        <div class="guide-index__meta">
+          {{- $versions := partial "functions/get-all-versions.html" . }}
+          {{- if $versions }}
+            <span>
+              {{ len $versions }}
+              {{- if eq (len $versions) 1 }} edition{{ else }} editions{{ end }}
+            </span>
+            {{- $latest := index $versions 0 }}
+            {{- with $latest.date }}
+              <span>Latest {{ . | dateFormat "January 2006" }}</span>
+            {{- end }}
+          {{- end }}
+
+          {{- range .Params.categories }}
+            <span>{{ . }}</span>
+          {{- end }}
+        </div>
+      </li>
+    {{- end }}
+  </ul>
+{{- end }}

@@ -1,0 +1,116 @@
+title: The Scrum Guide
+
+buildFuture: true
+publishDir: ../public
+resourceDir: ../resources
+summaryLength: 30
+enableRobotsTXT: true
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+disableDefaultLanguageRedirect: false
+enableMissingTranslationPlaceholders: true
+printI18nWarnings: true
+
+languages:
+  en:
+    # `label` replaced `languageName` in Hugo 0.158. The sibling sites still use
+    # the old key and warn on every build; this one does not.
+    label: English
+    weight: 1
+    title: The Scrum Guide
+    params:
+      seo_title: "The Scrum Guide | Every version, one lineage"
+      description: Every published version of the Scrum Guide in one place, from 2010 onward, with the implementation guides that build on it.
+      keywords: Scrum Guide, Scrum, Scrum Guide versions, Scrum Guide history, Scrum Guide 2026, empirical process control, Scrum conditions, implementation guides, Kanban Guide for Scrum Teams
+
+params:
+  description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
+  keywords: Scrum Guide, Scrum
+  # TODO (run 2): replace with the real domain once registered. Until then this
+  # is the generated Static Web App hostname — read it from the Bicep
+  # `defaultHostname` output after the first deployment. See infra/readme.md.
+  siteProdUrl: https://REPLACE-ME.centralus.azurestaticapps.net/
+  productionSiteUrl: https://REPLACE-ME.centralus.azurestaticapps.net/
+  previewSiteUrl: https://REPLACE-ME-preview.centralus.azurestaticapps.net/
+  supportEmail: support@scrumguides.org
+  githubUrl: https://github.com/ScrumGuides/ScrumGuide
+  # TODO (run 1): add a 1200x630 PNG for og_image. Social cards do not render SVG.
+  og_image: /images/scrum-guide-logo.svg
+  logo_image: /images/scrum-guide-logo.svg
+  menu_logo: /images/scrum-guide-logo.svg
+  AzureSitesConfig: "#{Guides_AzureSitesConfig}#"
+  GitVersion_SemVer: v#{GitVersion.SemVer}#
+  GoogleTagManagerID: ""
+  features:
+    guideDetails: false
+
+sitemap:
+  filename: sitemap.xml
+  changefreq: monthly
+  priority: 0.5
+
+rss:
+  filename: rss.xml
+  name: RSS Feed
+  description: Subscribe to our RSS feed
+
+outputs:
+  home:
+    - html
+    - json
+    - rss
+    - languages
+  section:
+    - html
+    - rss
+  taxonomy:
+    - html
+    - rss
+  term:
+    - html
+    - rss
+  page:
+    - html
+    - rss
+
+outputFormats:
+  json:
+    mediaType: application/json
+    baseName: pages
+  languages:
+    mediaType: application/json
+    baseName: languages
+    isPlainText: true
+
+disableKinds:
+  - taxonomy
+
+permalinks:
+  term:
+    categories: "/:slug/"
+
+taxonomies:
+  category: categories
+
+module:
+  imports:
+    - path: github.com/nkdAgility/OpenGuidePlatform/system/OpenGuidePlatform.Hugo.Guides
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      table: true
+      linkify: true
+      typographer: true
+      footnote: true
+    parser:
+      attribute:
+        block: true
+        title: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+    ordered: false

@@ -1,0 +1,22 @@
+{{- define "main" }}
+  <section class="container home-intro">
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ .Site.Params.description }}</p>
+  </section>
+
+  <section class="container py-4">
+    {{- $guides := partial "openguide/guides/discover-guides.html" . }}
+
+    {{ partial "components/guide-list.html" (dict "guides" (where $guides "Params.categories" "intersect" (slice "Foundation")) "title" (i18n "foundation_section_title")) }}
+
+    {{ partial "components/implementation-list.html" (dict "guides" $guides) }}
+
+    {{- with .Content }}
+      <div class="guide-body mt-5">{{ . }}</div>
+    {{- end }}
+  </section>
+{{- end }}
+
+{{- define "template" }}
+  index.html
+{{- end }}

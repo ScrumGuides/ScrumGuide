@@ -1,0 +1,8 @@
+Environment: "canary"
+
+buildDrafts: true
+buildFuture: true
+buildExpired: true
+
+minify:
+  minifyOutput: true

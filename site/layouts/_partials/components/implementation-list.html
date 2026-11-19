@@ -1,0 +1,17 @@
+{{/*
+  The list of implementation guides.
+
+  "Implementation" is a category, not a folder: OpenGuidePlatform discovers
+  guides with `where .Site.Sections "Type" "guide"`, which is top-level only,
+  so a guide nested under content/implementations/ would not be found.
+  See docs/specification.md §4.2.
+
+  Params:
+    guides — all discovered guide section pages
+*/}}
+
+{{- $implementations := where .guides "Params.categories" "intersect" (slice "Implementation") }}
+
+{{- if $implementations }}
+  {{ partial "components/guide-list.html" (dict "guides" $implementations "title" (i18n "implementations_section_title")) }}
+{{- end }}

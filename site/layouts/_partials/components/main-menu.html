@@ -1,0 +1,41 @@
+{{/*
+  Site header menu. Overrides the module's, which renders only a logo and the
+  language switcher.
+
+  Document-first: a wordmark and a short, flat set of links. No mega menu.
+*/}}
+
+<a href="{{ (.Site.GetPage "/").Permalink }}" class="navbar-brand" title="{{ .Site.Title }}">
+  {{- with .Site.Params.menu_logo }}
+    <img src="{{ . }}" alt="" aria-hidden="true" />
+  {{- end }}
+  <span>Scrum Guide</span>
+</a>
+
+<ul class="nav nav-pills align-items-center">
+  {{- $current := .RelPermalink }}
+
+  {{- $inHistory := eq $current "/scrum-guide/history/" }}
+  {{- $inTranslations := eq $current "/scrum-guide/translations/" }}
+
+  <li class="nav-item">
+    <a class="nav-link{{ if and (hasPrefix $current "/scrum-guide/") (not $inHistory) (not $inTranslations) }} active{{ end }}" href="/scrum-guide/latest/">The Guide</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link{{ if $inHistory }} active{{ end }}" href="/scrum-guide/history/">Versions</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link{{ if $inTranslations }} active{{ end }}" href="/scrum-guide/translations/">Translations</a>
+  </li>
+
+  {{- /* Implementation guides are a category, not a folder. See spec §4.2. */}}
+  {{- with .Site.GetPage "/categories/implementation" }}
+    <li class="nav-item">
+      <a class="nav-link{{ if eq $current .RelPermalink }} active{{ end }}" href="{{ .RelPermalink }}">Implementations</a>
+    </li>
+  {{- end }}
+
+  {{ partial "components/language-switcher.html" . }}
+</ul>

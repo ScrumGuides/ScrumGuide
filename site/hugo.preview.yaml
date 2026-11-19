@@ -1,0 +1,7 @@
+# TODO (run 1, post-deploy): set baseURL to the Static Web App preview hostname.
+# Read it from the Bicep `defaultHostname` output — see infra/readme.md.
+baseURL: "https://REPLACE-ME-preview.centralus.azurestaticapps.net/"
+Environment: "preview"
+
+minify:
+  minifyOutput: true

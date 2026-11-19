@@ -1,0 +1,22 @@
+# build output
+/public/
+/site/public/
+/resources/
+/site/resources/
+**/_gen/
+/.processing/
+
+# hugo
+/site/.hugo_build.lock
+
+# pdf generation
+tex2pdf.*/*
+
+# tooling
+/.claude/
+node_modules/
+/output
+
+# os
+.DS_Store
+Thumbs.db

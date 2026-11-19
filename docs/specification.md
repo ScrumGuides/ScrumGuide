@@ -34,6 +34,8 @@ The test the site exists to make possible: *is it Scrum?* is answered by whether
 | Expansion Pack theme | **Not** reused |
 | Scrum Guide 2026 | **An edition of `scrum-guide`**, not a separate guide — §4.1 |
 | Hosting | Azure Static Web Apps, provisioned by **Bicep** into a new resource group |
+| Resource names | `rg-scrumguide`, `stapp-scrumguide` — no environment or region token, because there is exactly one of each |
+| Region | Central US, matching scrumexpansion.org and kanbanguides.org |
 | Domain | TBD — §10 |
 
 ---
@@ -95,7 +97,11 @@ So every guide is a top-level section, and "the list of implementations" comes f
 | `/scrum-guide/2026.1/` | Scrum Guide 2026 | 2 |
 | `/getting-started-for-scrum-teams/` | Implementation guide | 3 |
 | `/ai-for-scrum-teams/` | Implementation guide | 3 |
-| `/categories/implementation/` | The implementation list | 1 |
+| `/implementation/` | The implementation list | 1 |
+| `/foundation/` | The Scrum Guide itself | 1 |
+
+Category term pages sit at the root, not under `/categories/`, because of
+`permalinks.term.categories: "/:slug/"` — matching the Expansion Pack.
 
 ---
 
@@ -381,51 +387,47 @@ So: start from the module's stylesheet, strip what this design does not use, and
 
 ## 7. Proposed folder structure
 
-`RUN` marks what run 1 creates. Everything else is a placeholder directory or a later run.
+The trailing number is the run that creates the file. **`I` means the
+OpenGuidePlatform installer creates it** — those files are deliberately absent
+from the run 1 scaffold, because the installer refuses to overwrite existing
+build scripts, workflow callers and agent instructions. Creating them early
+would block adoption rather than help it. See [adoption.md](adoption.md).
 
 ```text
 ScrumGuide/
 │
-├── .agents/
-│   └── agents.md                              # 1  real file; agent instructions
-├── AGENTS.md                                  # 1  symlink → .agents/agents.md
-├── CLAUDE.md                                  # 1  symlink → .agents/agents.md
+├── .agents/agents.md                          # I  agent instructions
+├── AGENTS.md                                  # I  symlink → .agents/agents.md
+├── CLAUDE.md                                  # I  symlink → .agents/agents.md
 │
 ├── .OpenGuidePlatform/                        #    installer-owned
-│   ├── installation.json                      # 1  generated — do not hand-edit
-│   ├── settings.yaml                          # 1  SITE-OWNED: delivery rings + source path
-│   └── Resolve-OpenGuidePlatform.ps1          # 1  generated
+│   ├── installation.json                      # I  generated — do not hand-edit
+│   ├── settings.yaml                          # I  then edited here: delivery rings
+│   └── Resolve-OpenGuidePlatform.ps1          # I  generated
 │
 ├── .github/
 │   └── workflows/
-│       ├── main.yaml                          # 1  site-owned caller → OGP guide-site-build.yaml
-│       ├── close-pr.yaml                      # 1  site-owned caller → OGP guide-site-close-pr.yaml
-│       ├── infrastructure.yaml                # 1  NEW: Bicep what-if on PR, deploy on main
-│       └── actions.lock                       # 1  gh actions-lock output
+│       ├── main.yaml                          # I  OGP caller → guide-site-build.yaml
+│       ├── close-pr.yaml                      # I  OGP caller → guide-site-close-pr.yaml
+│       ├── infrastructure.yaml                # 1  site-owned; NOT an OGP caller
+│       └── actions.lock                       # I  gh actions-lock output
 │
-├── infra/                                     #    NEW — all Azure IaC
-│   ├── main.bicep                             # 1  targetScope='subscription'; creates RG + modules
-│   ├── main.bicepparam                        # 1  shared defaults
-│   ├── environments/
-│   │   └── production.bicepparam              # 1  names, region, SKU, tags
+├── infra/                                     #    all Azure IaC
+│   ├── main.bicep                             # 1  targetScope='subscription'; RG + modules
+│   ├── main.bicepparam                        # 1  region, workload name, tags
 │   ├── modules/
 │   │   ├── static-site.bicep                  # 1  Microsoft.Web/staticSites
-│   │   ├── custom-domain.bicep                # 2  staticSites/customDomains — needs DNS first
-│   │   └── diagnostics.bicep                  # 3  Log Analytics + diagnostic settings
-│   └── readme.md                              # 1  what it provisions, how to run, token wiring
+│   │   └── custom-domain.bicep                # 1  present but UNWIRED until run 2
+│   └── readme.md                              # 1  topology, deploy, token wiring, CI auth
 │
 ├── docs/
 │   ├── specification.md                       # 1  this document
-│   ├── infrastructure.md                      # 1  Azure topology, auth, one-time token wiring
+│   ├── adoption.md                            # 1  what the installer owns, and how to run it
 │   ├── content-management.md                  # 1  how to add an edition or a guide
-│   ├── contributing.md                        # 2
+│   ├── contributing.md                        # 4  with the submission process
 │   ├── ogp-proposals.md                       # 3  §12, written up for upstream
 │   └── decisions/
-│       ├── 001-adopt-openguideplatform.md     # 1
-│       ├── 002-2026-is-an-edition.md          # 1
-│       ├── 003-bicep-provisioned-hosting.md   # 1
-│       ├── 004-flat-hugo-config.md            # 1  §8.8
-│       └── 005-derivation-vs-conformance.md   # 3  §5.7
+│       └── README.md                          # 1  index into §-numbered decisions above
 │
 ├── site/                                      #    Hugo source
 │   ├── go.mod                                 # 1  OGP Hugo module pin
@@ -444,9 +446,11 @@ ScrumGuide/
 │   │
 │   ├── layouts/                               #    overrides only
 │   │   ├── index.html                         # 1  homepage
+│   │   ├── 404.html                           # 1
 │   │   └── _partials/
 │   │       └── components/
-│   │           ├── guide-list.html            # 1  the two foundation guides
+│   │           ├── main-menu.html             # 1  overrides the module's logo-only menu
+│   │           ├── guide-list.html            # 1  plain list, no cards
 │   │           ├── implementation-list.html   # 1  category-driven list
 │   │           ├── changes-list.html          # 1  renders `changes` front matter, §5.6
 │   │           ├── conditions-table.html      # 2  renders `conditions` front matter
@@ -489,7 +493,7 @@ ScrumGuide/
 ├── .processing/                               #    gitignored build evidence
 ├── public/                                    #    gitignored build output
 │
-├── build.ps1                                  # 1  thin root entry point
+├── build.ps1                                  # I  thin root entry point
 ├── staticwebapp.config.json                   # 1  routes, headers, 404
 ├── staticwebapp.config.preview.json           # 1
 ├── staticwebapp.config.canary.json            # 1
@@ -748,3 +752,42 @@ Proposed sequence:
 4. Update the installer's managed-file list and `docs/using/first-adoption.md`.
 
 Step 1 costs nothing and unblocks the rest. The risk to call out in the proposal is the mixed state: a site with a `config/` directory *and* leftover `hugo.<ring>.yaml` files loses the latter silently. Migration must move everything or nothing, and the installer should warn when it sees both.
+
+### 12.3 Close the i18n gap in the module
+
+Measured while scaffolding run 1: the module's templates call `i18n` with **138
+distinct keys**. Its own `i18n/en.yaml` defines **124**. The missing **27** are
+not optional labels — they include the historical-version notice, the version
+selector label, the discussion link and the whole translations download table:
+
+```text
+contributors_label                     guide_translation_preview_message
+download_discussion_action             guide_translation_preview_note
+download_pdf_only_status               guide_version_current
+download_preview_action                guide_version_dropdown_label
+download_preview_description           guide_version_latest
+download_preview_status                nav_details
+download_preview_translations          nav_translations
+download_stub_status                   reportTranslationError
+download_table_contributed_by          translators_label
+download_table_status                  guide_join_discussion
+download_table_written_by              guide_preview_link
+download_visit_preview                 guide_historical_version_notice_link
+guide_historical_version_notice_suffix guide_historical_version_notice_text
+guide_historical_version_notice_title
+```
+
+A site that does not define them renders `{i18n} guide_version_select` on the
+page. Every consumer therefore carries its own copy — the sibling sites' large
+`i18n/en.yaml` files are partly this. Three sites maintaining the same 27
+English strings is three chances to diverge, and a fourth site has no way to
+know they are needed until it sees the placeholders.
+
+**Proposal:** add the 27 keys to the module's `i18n/en.yaml` with sensible
+English defaults. Site overrides keep working — Hugo merges i18n per key, with
+the site winning — so this breaks nothing and silently fixes every consumer.
+
+Worth adding to the platform's own build: a check that every key the templates
+call is defined in the module, failing the build when one is not. The diff is a
+dozen lines of PowerShell and it stops this recurring. The keys this site
+supplies meanwhile are marked as such in `site/i18n/en.yaml`.

@@ -1,0 +1,5 @@
+module github.com/ScrumGuides/ScrumGuide/site
+
+go 1.24.5
+
+require github.com/nkdAgility/OpenGuidePlatform/system/OpenGuidePlatform.Hugo.Guides v1.1.8

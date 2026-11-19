@@ -1,0 +1,42 @@
+{{/*
+  Renders an edition's change set from front matter.
+
+  The history timeline shows WHICH editions exist and when. It cannot show
+  WHAT changed — that is editorial, and it lives on the edition that
+  introduced it:
+
+    changes_from: 2017.11
+    changes:
+      - title: Even Less Prescriptive
+        content: |
+          Removed the Daily Scrum questions...
+
+  See docs/specification.md §5.6.
+
+  Call with the edition page as context.
+*/}}
+
+{{- $changes := .Params.changes }}
+{{- $from := .Params.changes_from }}
+
+{{- if $changes }}
+  <section class="changes" aria-labelledby="what-changed">
+    <h2 id="what-changed">
+      {{ i18n "changes_section_title" }}
+      {{- with $from }}
+        <span class="text-muted fs-6 fw-normal">— {{ i18n "changes_from_label" }} {{ . }}</span>
+      {{- end }}
+    </h2>
+
+    {{- range $changes }}
+      {{- $anchor := printf "change-%s" (.title | urlize) }}
+      <div class="changes__entry">
+        <h3 class="changes__title" id="{{ $anchor }}">
+          {{ .title }}
+          <a class="heading-anchor" href="#{{ $anchor }}" aria-label="Link to this change">#</a>
+        </h3>
+        <div>{{ .content | markdownify }}</div>
+      </div>
+    {{- end }}
+  </section>
+{{- end }}

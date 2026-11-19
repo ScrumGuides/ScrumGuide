@@ -1,0 +1,11 @@
+# TODO (run 2): set baseURL to the real domain once registered.
+# Until then this is the generated Static Web App hostname — read it from the
+# Bicep `defaultHostname` output. See infra/readme.md.
+baseURL: "https://REPLACE-ME.centralus.azurestaticapps.net/"
+Environment: production
+
+enableMissingTranslationPlaceholders: false
+printI18nWarnings: false
+
+minify:
+  minifyOutput: true

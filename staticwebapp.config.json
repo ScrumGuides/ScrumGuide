@@ -1,0 +1,44 @@
+{
+  "trailingSlash": "always",
+  "navigationFallback": {
+    "rewrite": "/404.html",
+    "exclude": ["/images/*", "/css/*", "/js/*", "*.pdf", "*.xml", "*.json", "*.ico", "*.png", "*.svg"]
+  },
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/404.html",
+      "statusCode": 404
+    }
+  },
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+  },
+  "mimeTypes": {
+    ".json": "application/json",
+    ".webmanifest": "application/manifest+json"
+  },
+  "routes": [
+    {
+      "route": "/history/",
+      "redirect": "/scrum-guide/history/",
+      "statusCode": 301
+    },
+    {
+      "route": "/translations/",
+      "redirect": "/scrum-guide/translations/",
+      "statusCode": 301
+    },
+    {
+      "route": "/downloads/",
+      "redirect": "/scrum-guide/translations/",
+      "statusCode": 301
+    },
+    {
+      "route": "/latest/",
+      "redirect": "/scrum-guide/latest/",
+      "statusCode": 301
+    }
+  ]
+}

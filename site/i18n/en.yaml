@@ -1,0 +1,173 @@
+- id: documents
+  translation: "documents"
+
+- id: guides_section_title
+  translation: "Guides"
+
+- id: implementations_section_title
+  translation: "Implementation guides"
+
+- id: foundation_section_title
+  translation: "The guide"
+
+- id: history_page_title
+  translation: "History"
+
+- id: translations_page_title
+  translation: "Translations"
+
+- id: changes_section_title
+  translation: "What changed"
+
+- id: changes_from_label
+  translation: "Changes from"
+
+- id: lineage_section_title
+  translation: "Lineage"
+
+- id: adapted_from_label
+  translation: "Adapted from"
+
+- id: conforms_to_label
+  translation: "Conforms to"
+
+- id: conforming_guides_title
+  translation: "Guides conforming to this edition"
+
+- id: conditions_section_title
+  translation: "Conditions"
+
+- id: condition_falsifier_label
+  translation: "Not satisfied when"
+
+- id: current_version_label
+  translation: "Current version"
+
+- id: older_version_label
+  translation: "Older version"
+
+- id: version_notice_older
+  translation: "This is not the current version of this guide."
+
+- id: view_latest_label
+  translation: "View the current version"
+
+- id: read_time_label
+  translation: "min read"
+
+- id: badge_english_only
+  translation: "English only"
+
+- id: badge_english_only_title
+  translation: "This guide has not yet been translated into this language."
+
+- id: badge_not_in_production
+  translation: "Not in production"
+
+- id: badge_not_in_production_title
+  translation: "This guide is excluded from the production build."
+
+- id: badge_not_in_preview
+  translation: "Not in preview"
+
+- id: badge_not_in_preview_title
+  translation: "This guide is excluded from the preview build."
+
+- id: licence_label
+  translation: "Licence"
+
+- id: canonical_source_label
+  translation: "Canonical source"
+
+- id: pending_licence_check
+  translation: "Text pending licence verification"
+
+# ---------------------------------------------------------------------------
+# Keys the OpenGuidePlatform module's templates call for but do not define in
+# its own i18n/en.yaml. Without these every consumer site renders placeholders.
+# Reported upstream — see docs/specification.md 12.3.
+# ---------------------------------------------------------------------------
+
+- id: guide_join_discussion
+  translation: "Discuss this guide"
+
+- id: guide_version_current
+  translation: "Current"
+
+- id: guide_version_latest
+  translation: "Latest"
+
+- id: guide_version_select
+  translation: "Select a version"
+
+- id: guide_version_dropdown_label
+  translation: "Version"
+
+- id: guide_historical_version_notice_title
+  translation: "This is not the current version."
+
+- id: guide_historical_version_notice_text
+  translation: "You are reading an earlier version of this guide."
+
+- id: guide_historical_version_notice_link
+  translation: "Read the current version"
+
+- id: guide_historical_version_notice_suffix
+  translation: "instead."
+
+- id: guide_preview_link
+  translation: "View this on the preview site"
+
+- id: guide_translation_preview_note
+  translation: "Translation preview."
+
+- id: guide_translation_preview_message
+  translation: "This translation is still in review and may be incomplete."
+
+- id: contributors_label
+  translation: "Contributors"
+
+- id: translators_label
+  translation: "Translators"
+
+- id: reportTranslationError
+  translation: "Report a translation error"
+
+- id: nav_details
+  translation: "About this guide"
+
+- id: nav_translations
+  translation: "Translations"
+
+- id: download_table_written_by
+  translation: "Written by"
+
+- id: download_table_contributed_by
+  translation: "Contributed by"
+
+- id: download_table_status
+  translation: "Status"
+
+- id: download_discussion_action
+  translation: "Discuss"
+
+- id: download_preview_action
+  translation: "Preview"
+
+- id: download_preview_status
+  translation: "In preview"
+
+- id: download_preview_description
+  translation: "This translation is not published yet. It can be read on the preview site."
+
+- id: download_preview_translations
+  translation: "Translations in preview"
+
+- id: download_visit_preview
+  translation: "Open the preview site"
+
+- id: download_pdf_only_status
+  translation: "PDF only"
+
+- id: download_stub_status
+  translation: "Not started"

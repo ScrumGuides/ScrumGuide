@@ -1,0 +1,1052 @@
+/* =========================================================================
+   The Scrum Guide — site theme
+   =========================================================================
+
+   This file REPLACES the OpenGuidePlatform module stylesheet. It does not
+   add to it.
+
+   The module's baseof.html loads the stylesheet with
+   `resources.Get "css/style.css"`, and Hugo gives the project's assets/
+   precedence over a module's. So everything the module's own templates
+   emit must be styled here or it renders unstyled.
+
+   Module component classes supported below, in order:
+
+     .main-header            .navbar-dark            .dropdown-submenu
+     .breadcrumb-nav         .card-dark              .btn-primary
+     .btn-outline-primary    .version-timeline       .version-latest
+     .version-historical     .version-fork-indicator .timeline-*
+     .footnote-tooltip-content
+     .bg-local .bg-preview .bg-canary .bg-production
+
+   When OGP adds a component class, add it here or it will render bare.
+   See docs/specification.md §6.3.
+
+   Bootstrap 5.3 is loaded before this file by the module's baseof.html.
+   ========================================================================= */
+
+/* ---------- 1. Tokens ---------------------------------------------------- */
+
+:root {
+  color-scheme: light;
+
+  /* Ink */
+  --sg-ink: #1a1d21;
+  --sg-ink-soft: #4a5159;
+  --sg-ink-faint: #6b737c;
+
+  /* Surface */
+  --sg-paper: #ffffff;
+  --sg-paper-sunk: #f6f7f8;
+  --sg-rule: #dcdfe3;
+  --sg-rule-strong: #c3c8ce;
+
+  /* Chrome */
+  --sg-chrome: #1f2328;
+  --sg-chrome-ink: #f2f4f6;
+  --sg-chrome-ink-soft: #b9c0c7;
+
+  /* One accent. Resist adding a second. */
+  --sg-accent: #1d6b56;
+  --sg-accent-deep: #14503f;
+  --sg-accent-wash: #eaf2ef;
+
+  /* Signal */
+  --sg-warn: #8a6200;
+  --sg-warn-wash: #fdf6e3;
+
+  /* Measure and rhythm */
+  --sg-measure: 38rem; /* ~72 characters at the body size */
+  --sg-step: 1.5rem;
+
+  /* Type */
+  --sg-font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --sg-font-doc: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sg-font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+  --sg-radius: 3px;
+}
+
+/* ---------- 2. Base ------------------------------------------------------ */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background: var(--sg-paper);
+  color: var(--sg-ink);
+  font-family: var(--sg-font-ui);
+  font-size: 1rem;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+a {
+  color: var(--sg-accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+a:hover,
+a:focus {
+  color: var(--sg-accent-deep);
+}
+
+:focus-visible {
+  outline: 2px solid var(--sg-accent);
+  outline-offset: 2px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--sg-rule);
+  opacity: 1;
+  margin: calc(var(--sg-step) * 2) 0;
+}
+
+code,
+kbd,
+pre {
+  font-family: var(--sg-font-mono);
+  font-size: 0.9em;
+}
+
+/* Skip link for keyboard users. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 1080;
+  background: var(--sg-accent);
+  color: #fff;
+  padding: 0.6rem 1rem;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+/* ---------- 3. Header, menu, breadcrumbs (module classes) ---------------- */
+
+/* The site header only. Scoped to the class baseof.html puts on it, because
+   the guide template also emits a <header class="content-header"> inside the
+   document, and a bare `header` selector would repaint that too. */
+body > header.bg-dark {
+  background: var(--sg-chrome) !important;
+  color: var(--sg-chrome-ink) !important;
+  padding: 0 !important;
+}
+
+.main-header {
+  background: var(--sg-chrome);
+  color: var(--sg-chrome-ink);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.main-header .header-icon {
+  color: var(--sg-chrome-ink-soft);
+  margin-right: 0.5rem;
+}
+
+.navbar-dark {
+  background: var(--sg-chrome);
+  padding: 0.5rem 0;
+}
+
+.navbar-dark .navbar-brand {
+  color: var(--sg-chrome-ink);
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.navbar-dark .navbar-brand img {
+  max-height: 1.75rem;
+  width: auto;
+}
+
+.navbar-dark .nav-link {
+  color: var(--sg-chrome-ink-soft);
+  font-size: 0.95rem;
+  padding: 0.35rem 0.8rem;
+  border-radius: var(--sg-radius);
+}
+
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* .nav-pills gives .active its own background from a Bootstrap variable, which
+   would otherwise paint these the default blue. Redefine the variable rather
+   than fight it with !important. */
+.nav-pills {
+  --bs-nav-pills-link-active-bg: var(--sg-accent);
+  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-border-radius: var(--sg-radius);
+}
+
+.navbar-dark .nav-link.active {
+  color: #fff;
+  background: var(--sg-accent);
+}
+
+/* Bootstrap has no nested dropdown; the module adds one. */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-menu {
+  border: 1px solid var(--sg-rule);
+  border-radius: var(--sg-radius);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-size: 0.95rem;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -0.35rem;
+  display: none;
+}
+
+.dropdown-submenu .dropdown-menu.show,
+.dropdown-submenu:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu .dropdown-toggle::after {
+  transform: rotate(-90deg);
+  margin-left: 0.5em;
+  opacity: 0.6;
+}
+
+.dropdown-submenu .dropdown-toggle:hover::after {
+  opacity: 1;
+}
+
+@media (max-width: 991.98px) {
+  .dropdown-submenu .dropdown-menu {
+    position: static;
+    left: auto;
+    margin-top: 0;
+    border: 0;
+    box-shadow: none;
+    padding-left: 1rem;
+  }
+}
+
+.breadcrumb-nav {
+  background: var(--sg-chrome);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.5rem 0;
+  font-size: 0.85rem;
+}
+
+.breadcrumb-nav .breadcrumb {
+  margin: 0;
+}
+
+.breadcrumb-nav .breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  color: var(--sg-chrome-ink-soft);
+  opacity: 0.6;
+}
+
+.breadcrumb-nav .breadcrumb-item a {
+  color: var(--sg-chrome-ink-soft);
+  text-decoration: none;
+}
+
+.breadcrumb-nav .breadcrumb-item a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.breadcrumb-nav .breadcrumb-item.active {
+  color: var(--sg-chrome-ink);
+}
+
+.breadcrumb-nav .fa-home {
+  margin-right: 0.3rem;
+}
+
+/* Non-production environment banner. */
+.bg-local,
+.bg-development {
+  background: #2f3d4a;
+  color: #e8edf2;
+  font-size: 0.8rem;
+}
+
+.bg-preview {
+  background: var(--sg-warn-wash);
+  color: var(--sg-warn);
+  font-size: 0.8rem;
+}
+
+.bg-canary {
+  background: #fde8e8;
+  color: #8a1f1f;
+  font-size: 0.8rem;
+}
+
+.bg-production {
+  background: var(--sg-accent-wash);
+  color: var(--sg-accent-deep);
+  font-size: 0.8rem;
+}
+
+/* ---------- 4. Buttons and cards (module classes) ------------------------ */
+
+/* The module's templates reach for Bootstrap's `primary` utilities all over —
+   .bg-primary, .text-primary, .border-primary, .btn-primary. Remap the colour
+   once here rather than overriding each component as it turns up blue. */
+
+:root {
+  --bs-primary: #1d6b56;
+  --bs-primary-rgb: 29, 107, 86;
+  --bs-link-color: #1d6b56;
+  --bs-link-color-rgb: 29, 107, 86;
+  --bs-link-hover-color: #14503f;
+}
+
+.bg-primary {
+  background-color: var(--sg-accent) !important;
+}
+
+.text-primary {
+  color: var(--sg-accent) !important;
+}
+
+.border-primary {
+  border-color: var(--sg-accent) !important;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(135deg, var(--sg-accent) 0%, var(--sg-accent-deep) 100%);
+}
+
+.link-primary {
+  color: var(--sg-accent) !important;
+}
+
+.btn-primary {
+  background: var(--sg-accent);
+  border-color: var(--sg-accent);
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background: var(--sg-accent-deep) !important;
+  border-color: var(--sg-accent-deep) !important;
+  color: #fff !important;
+}
+
+.btn-outline-primary {
+  color: var(--sg-accent);
+  border-color: var(--sg-accent);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  background: var(--sg-accent) !important;
+  border-color: var(--sg-accent) !important;
+  color: #fff !important;
+}
+
+.card {
+  border: 1px solid var(--sg-rule);
+  border-radius: var(--sg-radius);
+  box-shadow: none;
+}
+
+.card-dark {
+  background: var(--sg-chrome);
+  color: var(--sg-chrome-ink);
+  border-color: transparent;
+}
+
+.card-dark .card-body {
+  color: var(--sg-chrome-ink);
+}
+
+.card-dark .card-footer {
+  background: rgba(255, 255, 255, 0.04);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--sg-chrome-ink-soft);
+}
+
+/* ---------- 5. Version timeline (module classes) ------------------------- */
+
+.version-timeline {
+  position: relative;
+}
+
+.version-timeline::before {
+  content: "";
+  position: absolute;
+  left: 1.25rem;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--sg-rule);
+}
+
+.timeline-container {
+  position: relative;
+}
+
+.timeline-item .card {
+  border: 1px solid var(--sg-rule);
+  transition: border-color 0.15s ease;
+}
+
+.timeline-item .card:hover {
+  border-color: var(--sg-accent);
+}
+
+.timeline-icon {
+  width: 2.25rem;
+  height: 2.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  font-size: 0.85rem;
+}
+
+.timeline-connector {
+  color: var(--sg-ink-faint);
+}
+
+.timeline-connector i {
+  opacity: 0.5;
+}
+
+.timeline-connector .border-end,
+.timeline-connector .border-start {
+  opacity: 0.4;
+}
+
+.version-latest .card {
+  border-color: var(--sg-accent);
+  border-width: 2px;
+}
+
+.version-historical .card {
+  border-color: var(--sg-rule);
+}
+
+.version-fork-indicator .fork-text {
+  color: var(--sg-ink-soft);
+  font-size: 0.85rem;
+}
+
+.version-fork-indicator .fork-text::before {
+  content: "";
+  display: inline-block;
+  width: 1.25rem;
+  border-top: 1px dashed var(--sg-rule-strong);
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+/* ---------- 6. Footnote tooltips (module classes) ------------------------ */
+
+.footnote-tooltip-content .tooltip-inner {
+  background: var(--sg-chrome);
+  color: var(--sg-chrome-ink);
+  max-width: 22rem;
+  text-align: left;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  padding: 0.6rem 0.75rem;
+  border-radius: var(--sg-radius);
+}
+
+.footnote-tooltip-content .tooltip-inner a {
+  color: #8fd3bd;
+}
+
+.footnote-tooltip-content .tooltip-inner a:hover {
+  color: #b9e6d6;
+}
+
+.footnote-tooltip-content .tooltip-inner em,
+.footnote-tooltip-content .tooltip-inner i {
+  color: var(--sg-chrome-ink-soft);
+}
+
+/* =========================================================================
+   7. The document — site-specific from here down
+   ========================================================================= */
+
+/* The module's guide page emits its own structure, in
+   _partials/components/guide/render-guide.html:
+
+     <aside class="col-md-3">
+       <nav class="content-list bg-light p-3 rounded h-100 d-flex flex-column">
+     <main class="col-md-9">
+       <div class="content-wrapper">
+         <article class="content-details">
+           <header class="content-header">
+             <h1 class="content-title">
+             <div class="publish-date">
+             <div class="content-version">
+           <div class="content-body">
+           <footer class="content-footer">
+
+   None of those classes are defined by the module stylesheet, so the whole
+   document look is achieved here — no template override needed. Specificity
+   is raised where the template also applies a Bootstrap utility that would
+   otherwise win (.bg-light, .rounded, .p-3). */
+
+/* --- Sticky table of contents --- */
+
+aside[aria-label="Table of contents navigation"] {
+  position: sticky;
+  top: 1.5rem;
+  align-self: start;
+}
+
+.content-list.bg-light {
+  background: var(--sg-paper-sunk) !important;
+  border: 1px solid var(--sg-rule);
+  border-radius: var(--sg-radius) !important;
+  font-size: 0.875rem;
+  max-height: calc(100vh - 3rem);
+}
+
+.content-list h4 {
+  font-size: 0.8rem !important;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--sg-ink-faint) !important;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--sg-rule);
+}
+
+.content-list ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.content-list ul ul {
+  padding-left: 0.85rem;
+  border-left: 1px solid var(--sg-rule);
+  margin: 0.2rem 0 0.4rem;
+}
+
+.content-list li {
+  margin-bottom: 0.3rem;
+}
+
+.content-list a {
+  color: var(--sg-ink-soft);
+  text-decoration: none;
+  display: block;
+  line-height: 1.35;
+}
+
+.content-list a:hover,
+.content-list a:focus {
+  color: var(--sg-accent);
+  text-decoration: underline;
+}
+
+.content-collaboration {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 767.98px) {
+  aside[aria-label="Table of contents navigation"] {
+    position: static;
+  }
+
+  .content-list.bg-light {
+    max-height: none;
+  }
+}
+
+/* --- Document header --- */
+
+.content-wrapper {
+  padding-block: var(--sg-step);
+}
+
+.content-title {
+  font-family: var(--sg-font-ui);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+}
+
+.content-subtitle {
+  font-family: var(--sg-font-ui);
+  color: var(--sg-ink-soft) !important;
+}
+
+.publish-date,
+.content-version {
+  font-family: var(--sg-font-ui);
+  font-size: 0.875rem;
+  color: var(--sg-ink-faint);
+}
+
+.content-version select {
+  font: inherit;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid var(--sg-rule-strong);
+  border-radius: var(--sg-radius);
+  background: var(--sg-paper);
+  color: var(--sg-ink);
+}
+
+.content-header {
+  padding-bottom: var(--sg-step);
+  border-bottom: 1px solid var(--sg-rule);
+}
+
+.content-footer {
+  font-family: var(--sg-font-ui);
+  font-size: 0.9rem;
+  border-top: 1px solid var(--sg-rule);
+  padding-top: var(--sg-step);
+}
+
+/* --- The text column --- */
+
+.content-body,
+.guide-body {
+  font-family: var(--sg-font-doc);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  max-width: var(--sg-measure);
+}
+
+.content-body > * + *,
+.guide-body > * + * {
+  margin-top: var(--sg-step);
+}
+
+.content-body h1,
+.content-body h2,
+.content-body h3,
+.content-body h4,
+.guide-body h1,
+.guide-body h2,
+.guide-body h3,
+.guide-body h4 {
+  font-family: var(--sg-font-ui);
+  font-weight: 650;
+  line-height: 1.25;
+  color: var(--sg-ink);
+  scroll-margin-top: 5rem;
+}
+
+.content-body h1,
+.guide-body h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.content-body h2,
+.guide-body h2 {
+  font-size: 1.4rem;
+  margin-top: calc(var(--sg-step) * 2);
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--sg-rule);
+}
+
+.content-body h3,
+.guide-body h3 {
+  font-size: 1.15rem;
+  margin-top: calc(var(--sg-step) * 1.5);
+}
+
+.content-body h4,
+.guide-body h4 {
+  font-size: 1rem;
+  margin-top: var(--sg-step);
+}
+
+.content-body ul,
+.content-body ol,
+.guide-body ul,
+.guide-body ol {
+  padding-left: 1.4rem;
+}
+
+.content-body li + li,
+.guide-body li + li {
+  margin-top: 0.4rem;
+}
+
+.content-body blockquote,
+.guide-body blockquote {
+  border-left: 3px solid var(--sg-accent);
+  background: var(--sg-accent-wash);
+  padding: 0.9rem 1.1rem;
+  margin-inline: 0;
+  font-size: 0.97em;
+}
+
+.content-body blockquote > :last-child,
+.guide-body blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.content-body table,
+.guide-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--sg-font-ui);
+  font-size: 0.925rem;
+}
+
+.content-body th,
+.content-body td,
+.guide-body th,
+.guide-body td {
+  border: 1px solid var(--sg-rule);
+  padding: 0.5rem 0.65rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.content-body th,
+.guide-body th {
+  background: var(--sg-paper-sunk);
+  font-weight: 600;
+}
+
+.content-body img,
+.guide-body img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footnotes sit at the end of a normative document; make them quieter. */
+
+.content-body .footnotes {
+  font-size: 0.925rem;
+  color: var(--sg-ink-soft);
+  border-top: 1px solid var(--sg-rule);
+  padding-top: var(--sg-step);
+}
+
+/* Anchor links on headings, revealed on hover or focus. */
+
+.heading-anchor {
+  margin-left: 0.4rem;
+  font-size: 0.75em;
+  color: var(--sg-ink-faint);
+  opacity: 0;
+  text-decoration: none;
+  transition: opacity 0.12s ease;
+}
+
+h2:hover .heading-anchor,
+h3:hover .heading-anchor,
+h4:hover .heading-anchor,
+.heading-anchor:focus {
+  opacity: 1;
+}
+
+/* Document metadata strip under the guide title. */
+
+.guide-meta {
+  font-family: var(--sg-font-ui);
+  font-size: 0.875rem;
+  color: var(--sg-ink-faint);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+  align-items: center;
+  padding-bottom: var(--sg-step);
+  border-bottom: 1px solid var(--sg-rule);
+}
+
+.guide-meta select {
+  font: inherit;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid var(--sg-rule-strong);
+  border-radius: var(--sg-radius);
+  background: var(--sg-paper);
+  color: var(--sg-ink);
+}
+
+/* Older-version notice. */
+
+.version-notice {
+  font-family: var(--sg-font-ui);
+  background: var(--sg-warn-wash);
+  border: 1px solid #e9d8a6;
+  border-left: 3px solid var(--sg-warn);
+  border-radius: var(--sg-radius);
+  padding: 0.75rem 1rem;
+  font-size: 0.925rem;
+  color: var(--sg-warn);
+}
+
+/* Normative conditions — Scrum Guide 2026. Run 2. */
+
+.condition {
+  font-family: var(--sg-font-ui);
+  border: 1px solid var(--sg-rule);
+  border-left: 3px solid var(--sg-accent);
+  border-radius: var(--sg-radius);
+  padding: 1rem 1.1rem;
+  background: var(--sg-paper-sunk);
+}
+
+.condition__id {
+  font-family: var(--sg-font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  color: var(--sg-accent-deep);
+  text-transform: uppercase;
+}
+
+.condition__statement {
+  font-weight: 600;
+  margin: 0.3rem 0 0.6rem;
+}
+
+.condition__falsifier {
+  font-size: 0.9rem;
+  color: var(--sg-ink-soft);
+  border-top: 1px dashed var(--sg-rule-strong);
+  padding-top: 0.6rem;
+  margin-top: 0.6rem;
+}
+
+.condition__falsifier::before {
+  content: attr(data-label) ": ";
+  font-weight: 600;
+  color: var(--sg-ink);
+}
+
+/* Lineage block — "Adapted from" / "Conforms to". Run 3. */
+
+.lineage {
+  font-family: var(--sg-font-ui);
+  font-size: 0.925rem;
+  border: 1px solid var(--sg-rule);
+  border-radius: var(--sg-radius);
+  padding: 1rem 1.1rem;
+  background: var(--sg-paper-sunk);
+}
+
+.lineage__row + .lineage__row {
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--sg-rule);
+}
+
+.lineage__verb {
+  font-weight: 600;
+  color: var(--sg-ink);
+}
+
+.lineage__detail {
+  color: var(--sg-ink-soft);
+}
+
+/* Per-edition change sets. */
+
+.changes__entry + .changes__entry {
+  margin-top: var(--sg-step);
+}
+
+.changes__title {
+  font-family: var(--sg-font-ui);
+  font-weight: 650;
+  font-size: 1rem;
+  scroll-margin-top: 5rem;
+}
+
+/* Placeholder body where guide text is not yet cleared for publication. */
+
+.pending-licence {
+  font-family: var(--sg-font-ui);
+  border: 1px dashed var(--sg-rule-strong);
+  border-radius: var(--sg-radius);
+  background: var(--sg-paper-sunk);
+  padding: 1.25rem;
+  color: var(--sg-ink-soft);
+}
+
+.pending-licence strong {
+  color: var(--sg-ink);
+}
+
+/* ---------- 8. Home ------------------------------------------------------ */
+
+.home-intro {
+  padding-block: calc(var(--sg-step) * 2.5);
+  border-bottom: 1px solid var(--sg-rule);
+}
+
+.home-intro h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  max-width: 24ch;
+}
+
+.home-intro p {
+  color: var(--sg-ink-soft);
+  font-size: 1.1rem;
+  max-width: var(--sg-measure);
+  margin-top: 0.75rem;
+}
+
+.section-heading {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sg-ink-faint);
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--sg-rule);
+  margin-bottom: var(--sg-step);
+}
+
+.guide-index {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.guide-index li {
+  padding-block: 1rem;
+  border-bottom: 1px solid var(--sg-rule);
+}
+
+.guide-index a {
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.guide-index a:hover {
+  text-decoration: underline;
+}
+
+.guide-index p {
+  color: var(--sg-ink-soft);
+  margin: 0.3rem 0 0;
+  max-width: var(--sg-measure);
+  font-size: 0.95rem;
+}
+
+.guide-index__meta {
+  font-size: 0.825rem;
+  color: var(--sg-ink-faint);
+  margin-top: 0.35rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1rem;
+}
+
+/* ---------- 9. Footer ---------------------------------------------------- */
+
+footer.footer {
+  background: var(--sg-chrome) !important;
+  color: var(--sg-chrome-ink-soft) !important;
+  font-size: 0.85rem;
+  margin-top: calc(var(--sg-step) * 3);
+}
+
+footer.footer a {
+  color: var(--sg-chrome-ink);
+}
+
+/* ---------- 10. Print ---------------------------------------------------- */
+
+@media print {
+  header,
+  footer.footer,
+  aside[aria-label="Table of contents navigation"],
+  .content-list,
+  .content-collaboration,
+  .guide-toc,
+  .breadcrumb-nav,
+  .guide-meta select,
+  .content-version select,
+  .version-notice,
+  .alert,
+  .btn,
+  #debugArea {
+    display: none !important;
+  }
+
+  .content-wrapper,
+  .guide-layout {
+    display: block;
+    padding: 0;
+  }
+
+  main.col-md-9,
+  .col-md-9 {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .content-body,
+  .guide-body {
+    max-width: none;
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+
+  .content-body h2,
+  .content-body h3,
+  .guide-body h2,
+  .guide-body h3 {
+    break-after: avoid;
+  }
+
+  .content-body blockquote,
+  .guide-body blockquote,
+  .condition,
+  .lineage {
+    break-inside: avoid;
+    background: transparent;
+  }
+
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #555;
+  }
+}
