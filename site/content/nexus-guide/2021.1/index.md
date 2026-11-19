@@ -66,7 +66,7 @@ Nexus extends Scrum in the following ways:
 
 Figure 1: The Nexus Framework
 
-![The Nexus framework. The Product Backlog, fed by Cross-Team Refinement, flows through Nexus Sprint Planning into the Nexus Sprint Backlog. Three to nine Scrum Teams turn that into Integrated Work, holding a Nexus Daily Scrum alongside their own Daily Scrums and supported by the Nexus Integration Team. The result is an Integrated Increment, inspected at the Nexus Sprint Review, with the Nexus Sprint Retrospective closing the loop back to the Product Backlog.](nexus-framework.png)
+![The Nexus framework. The Product Backlog, fed by Cross-Team Refinement, flows through Nexus Sprint Planning into the Nexus Sprint Backlog. Three to nine Scrum Teams turn that into Integrated Work, holding a Nexus Daily Scrum alongside their own Daily Scrums and supported by the Nexus Integration Team. The result is an Integrated Increment, inspected at the Nexus Sprint Review, with the Nexus Sprint Retrospective closing the loop back to the Product Backlog.](/nexus-guide/2021.1/nexus-framework.png)
 
 ## Accountabilities in Nexus
 

@@ -57,7 +57,7 @@ Nexus is a process framework for multiple Scrum Teams working together to create
 
 **Nexus™ Framework for Scaling Scrum**
 
-![The Nexus framework for scaling Scrum. The Product Backlog, fed by Refinement, flows through Nexus Sprint Planning into the Nexus Sprint Backlog. Three to nine Scrum Teams turn that into Integrated Work, holding a Nexus Daily Scrum alongside their own Daily Scrums and supported by the Nexus Integration Team. The result is an Integrated Increment, inspected at the Nexus Sprint Review, with the Nexus Sprint Retrospective closing the loop back to the Product Backlog.](nexus-framework.png)
+![The Nexus framework for scaling Scrum. The Product Backlog, fed by Refinement, flows through Nexus Sprint Planning into the Nexus Sprint Backlog. Three to nine Scrum Teams turn that into Integrated Work, holding a Nexus Daily Scrum alongside their own Daily Scrums and supported by the Nexus Integration Team. The result is an Integrated Increment, inspected at the Nexus Sprint Review, with the Nexus Sprint Retrospective closing the loop back to the Product Backlog.](/nexus-guide/2018.1/nexus-framework.png)
 
 As displayed in the graphic, Nexus consists of:
 
