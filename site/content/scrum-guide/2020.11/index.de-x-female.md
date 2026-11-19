@@ -1,0 +1,428 @@
+---
+title: Der Scrum Guide
+short_title: Scrum Guide
+description: The November 2020 version of the Scrum Guide, by Ken Schwaber and Jeff Sutherland.
+date: 2020-11-01T09:00:00Z
+version: 2020.11
+type: guide
+keywords:
+  - Scrum
+  - Scrum Guide
+changes_from: 2017.11
+# TODO: author the `changes` entries for this edition. See docs/specification.md 5.6.
+# changes:
+#   - title: ...
+#     content: |
+#       ...
+aliases:
+  - /scrum-guide/latest
+---
+
+> **Licence: CC BY-SA 4.0** — © 2020 Ken Schwaber and Jeff Sutherland.
+> German (female form) translation of *The Definitive Guide to Scrum: The Rules of the Game* — November 2020.
+> The translation is the work of the translators credited on this page,
+> published under the same licence as the English edition.
+>
+> The full text is on this page, reproduced under that licence, with the
+> document's own notice at the foot. Source document:
+> [German (female form) (PDF)](/scrum-guide/2020.11/pdf/2020-Scrum-Guide.de-x-female.pdf). Canonical source: [scrumguides.org](https://scrumguides.org/)
+
+## Der Sinn des Scrum Guides
+
+Wir haben Scrum in den frühen 1990er-Jahren entwickelt. Wir haben die erste Version des Scrum Guides im Jahr 2010 geschrieben, um Menschen auf der ganzen Welt dabei zu helfen, Scrum zu verstehen. Wir haben den Guide seitdem durch kleine, funktionale Aktualisierungen weiterentwickelt. Wir stehen gemeinsam dahinter.
+
+Der Scrum Guide enthält die Definition von Scrum. Jedes Element von Scrum dient einem bestimmten Zweck, der für den Gesamtwert und die mit Scrum erzielten Ergebnisse wesentlich ist. Den Kern oder die Grundideen von Scrum zu verändern, Elemente wegzulassen oder den Regeln von Scrum nicht zu folgen, verdeckt Probleme, begrenzt den Nutzen und macht Scrum im Zweifel sogar nutzlos.
+
+Wir verfolgen den zunehmenden Einsatz von Scrum in einer stetig komplexer werdenden Welt. Wir sehen demütig, wie Scrum in zahlreichen Bereichen komplexer Arbeit über die Softwareentwicklung hinaus - wo Scrum seine Wurzeln hat - eingesetzt wird. Während sich die Verwendung von Scrum weiter verbreitet, wird diese Arbeit von Entwicklerinnen, Forscherinnen, Analystinnen, Wissenschaftlerinnen und anderen Spezialistinnen getan. Wir verwenden das Wort „Developerinnen” in Scrum nicht, um jemanden auszuschließen, sondern um zu vereinfachen. Wer auch immer vom Einsatz von Scrum profitiert, soll sich angesprochen fühlen.
+
+Beim Einsatz von Scrum können Muster, Prozesse und Erkenntnisse angewendet und entwickelt werden, die zum Scrum-Rahmenwerk passen, wie es in diesem Dokument beschrieben ist. Ihre Beschreibung geht über den Zweck des Scrum Guides hinaus, da sie kontextabhängig sind und sich, je nachdem wie Scrum eingesetzt wird, stark unterscheiden. Solche Taktiken für die Anwendung innerhalb des Scrum- Rahmenwerks variieren stark und werden an anderer Stelle beschrieben.
+
+## Scrum-Definition
+
+Scrum ist ein leichtgewichtiges Rahmenwerk, welches Menschen, Teams und Organisationen hilft, Wert durch adaptive Lösungen für komplexe Probleme zu generieren.
+
+Kurz gesagt fordert Scrum, dass eine Scrum Masterin ein Umfeld fördert, in dem
+
+1. eine Product Ownerin die Arbeit für ein komplexes Problem in ein Product Backlog einsortiert;
+
+2. das Scrum Team aus einer Auswahl dieser Arbeit innerhalb eines Sprints ein wertvolles Increment erzeugt;
+
+3. das Scrum Team und dessen Stakeholderinnen die Ergebnisse überprüfen und für den nächsten Sprint anpassen;
+
+4. diese Schritte wiederholt werden.
+
+Scrum ist einfach. Probiere es so aus, wie es ist, und finde heraus, ob seine Philosophie, Theorie und Struktur dabei helfen, Ziele zu erreichen und Wert zu schaffen. Das Scrum-Rahmenwerk ist absichtlich unvollständig und definiert nur die Teile, die zur Umsetzung der Scrum-Theorie erforderlich sind. Scrum baut auf der kollektiven Intelligenz der Personen auf, die es anwenden. Anstatt den Menschen detaillierte Anweisungen zu geben, leiten die Regeln von Scrum ihre Beziehungen und Interaktionen.
+
+Innerhalb des Rahmenwerks können verschiedene Prozesse, Techniken und Methoden eingesetzt werden. Scrum umhüllt bestehende Praktiken oder macht sie überflüssig. Scrum macht die relative Wirksamkeit des aktuellen Managements, der Umgebung und der Arbeitstechniken sichtbar, so dass Verbesserungen vorgenommen werden können.
+
+## Scrum-Theorie
+
+Scrum basiert auf Empirie und Lean Thinking. Empirie bedeutet, dass Wissen aus Erfahrung gewonnen wird und Entscheidungen auf der Grundlage von Beobachtungen getroffen werden. Lean Thinking reduziert Verschwendung und fokussiert auf das Wesentliche.
+
+Scrum verwendet einen iterativen, inkrementellen Ansatz zur Optimierung der Vorhersagbarkeit und zur Risikokontrolle. Scrum setzt auf Personengruppen, die gemeinsam über alle Fähigkeiten und Fachkenntnisse verfügen, um die Arbeit zu erledigen und solche Fähigkeiten im Bedarfsfall zu teilen oder zu erwerben.
+
+Scrum kombiniert vier formale Events zur Überprüfung und Anpassung innerhalb eines umspannenden Events, des Sprints. Diese Events funktionieren, weil sie die empirischen Scrum-Säulen Transparenz, Überprüfung und Anpassung implementieren.
+
+### Transparenz
+
+Der sich entwickelnde Prozess und die entstehende Arbeit müssen sowohl für diejenigen sichtbar sein, die die Arbeit ausführen, als auch für diejenigen, die die Arbeit empfangen. Bei Scrum basieren wichtige Entscheidungen auf dem wahrgenommenen Zustand seiner drei formalen Artefakte. Artefakte, die wenig transparent sind, können zu Entscheidungen führen, die den Wert mindern und das Risiko erhöhen.
+
+Transparenz ermöglicht Überprüfung. Eine Überprüfung ohne Transparenz ist irreführend und verschwenderisch.
+
+### Überprüfung
+
+Die Scrum-Artefakte und der Fortschritt in Richtung der vereinbarten Ziele müssen häufig und sorgfältig überprüft werden, um potenziell unerwünschte Abweichungen oder Probleme aufzudecken. Um bei der Überprüfung zu helfen, bietet Scrum einen Rhythmus in Form seiner fünf Events.
+
+Überprüfung ermöglicht Anpassung. Überprüfung ohne Anpassung wird als unsinnig betrachtet. Scrum Events sind darauf ausgerichtet, Veränderungen zu bewirken.
+
+### Anpassung
+
+Wenn einzelne Aspekte eines Prozesses von akzeptablen Grenzen abweichen oder wenn das resultierende Produkt nicht akzeptabel ist, müssen der angewandte Prozess oder die produzierten Ergebnisse angepasst werden. Die Anpassung muss so schnell wie möglich erfolgen, um weitere Abweichungen zu minimieren.
+
+Die Anpassung wird schwieriger, wenn die beteiligten Personen nicht bevollmächtigt (empowered) sind oder sich nicht selbst managen können. Von einem Scrum Team wird erwartet, dass es sich in dem Moment anpasst, in dem es durch Überprüfung etwas Neues lernt.
+
+## Scrum-Werte
+
+Die erfolgreiche Anwendung von Scrum hängt davon ab, dass die Menschen immer besser in der Lage sind, fünf Werte zu leben: Commitment, Fokus, Offenheit, Respekt und Mut
+
+Das Scrum Team committet sich, seine Ziele zu erreichen und sich gegenseitig zu unterstützen. Sein primärer Fokus liegt auf der Arbeit des Sprints, um den bestmöglichen Fortschritt in Richtung dieser
+
+Ziele zu bewirken. Das Scrum Team und dessen Stakeholderinnen sind offen in Bezug auf die Arbeit und die Herausforderungen. Die Mitglieder des Scrum Teams respektieren sich gegenseitig als fähige, unabhängige Personen und werden als solche auch von den Menschen, mit denen sie zusammenarbeiten, respektiert. Die Mitglieder des Scrum Teams haben den Mut, das Richtige zu tun: an schwierigen Problemen zu arbeiten.
+
+Diese Werte geben dem Scrum Team die Richtung vor, was seine Arbeit, seine Handlungen und sein Verhalten betrifft. Die Entscheidungen, die getroffen werden, die Schritte, die unternommen werden, und die Art und Weise, wie Scrum angewendet wird, sollten diese Werte stärken und nicht schmälern oder untergraben. Die Mitglieder des Scrum Teams lernen und erforschen die Werte, während sie in den Events und mit den Artefakten von Scrum arbeiten. Wenn diese Werte durch das Scrum Team und die Menschen, mit denen es arbeitet, verkörpert werden, werden die empirischen Scrum-Säulen Transparenz, Überprüfung und Anpassung lebendig und bauen Vertrauen auf.
+
+## Scrum Team
+
+Der zentrale Bestandteil von Scrum ist ein kleines Team von Menschen, ein Scrum Team. Das Scrum Team besteht aus einer Scrum Masterin, einer Product Ownerin und Developerinnen. Innerhalb eines Scrum Teams gibt es keine Teilteams oder Hierarchien. Es handelt sich um eine geschlossene Einheit von Fachleuten, die sich auf ein Ziel konzentrieren, das Produkt-Ziel.
+
+Scrum Teams sind interdisziplinär, d.h. die Mitglieder verfügen über alle Fähigkeiten, die erforderlich sind, um in jedem Sprint Wert zu schaffen. Sie managen sich außerdem selbst, d.h. sie entscheiden intern, wer was wann und wie macht.
+
+Das Scrum Team ist klein genug, um flink zu bleiben und groß genug, um innerhalb eines Sprints bedeutsame Arbeit fertigzustellen, üblicherweise 10 oder weniger Personen. Im Allgemeinen haben wir festgestellt, dass kleinere Teams besser kommunizieren und produktiver sind. Wenn Scrum Teams zu groß werden, sollten sie in Erwägung ziehen, sich in mehrere zusammengehörende Scrum Teams zu reorganisieren, die sich alle auf dasselbe Produkt konzentrieren. Daher sollten sie sich Produkt-Ziel, Product Backlog und Product Ownerin teilen.
+
+Das Scrum Team ist umsetzungsverantwortlich (responsible) für alle produktbezogenen Aktivitäten: Zusammenarbeit mit den Stakeholderinnen, Verifikation, Wartung, Betrieb, Experimente, Forschung und Entwicklung und alles, was sonst noch erforderlich sein könnte. Es ist von der Organisation so aufgebaut und befähigt, dass es seine Arbeit selbst steuert. Das Arbeiten in Sprints mit einer nachhaltigen Geschwindigkeit verbessert den Fokus und die Kontinuität des Scrum Teams.
+
+Das gesamte Scrum Team ist ergebnisverantwortlich (accountable), in jedem Sprint ein wertvolles, nützliches Increment zu schaffen. Scrum definiert drei spezifische Ergebnisverantwortlichkeiten innerhalb des Scrum Teams: Developerinnen, Product Ownerin und Scrum Masterin
+
+### Developerinnen
+
+Developerinnen sind jene Personen im Scrum Team, die sich der Aufgabe verschrieben haben, jeden Sprint jeden Aspekt eines nutzbaren Increments zu schaffen.
+
+Die spezifischen Fähigkeiten, die von den Developerinnen benötigt werden, sind oft breit gefächert und variieren je nach Arbeitskontext. Die Developerinnen sind jedoch immer ergebnisverantwortlich dafür,
+
+- einen Plan für den Sprint zu erstellen, das Sprint Backlog;
+
+- Qualität durch die Einhaltung einer Definition of Done einzubringen;
+
+- täglich ihren Plan zur Erreichung des Sprint-Ziels anzupassen; und
+
+- sich wechselseitig als Expertinnen zur Verantwortung zu ziehen.
+
+### Product Ownerin
+
+Die Product Ownerin ist ergebnisverantwortlich für die Maximierung des Wertes des Produkts, der sich aus der Arbeit des Scrum Teams ergibt. Wie dies geschieht, kann je nach Organisation, Scrum Team und Individuum sehr unterschiedlich sein.
+
+Die Product Ownerin ist auch für ein effektives Product-Backlog-Management ergebnisverantwortlich, das Folgendes umfasst:
+
+- das Produkt-Ziel zu entwickeln und explizit zu kommunizieren;
+
+- die Product-Backlog-Einträge zu erstellen und klar zu kommunizieren;
+
+- die Reihenfolge der Product-Backlog-Einträge festzulegen; und
+
+- sicherzustellen, dass das Product Backlog transparent, sichtbar und verstanden ist.
+
+Die Product Ownerin kann die oben genannten Arbeiten selbst durchführen oder die Umsetzungsverantwortung an andere delegieren. Unabhängig davon bleibt die Product Ownerin ergebnisverantwortlich.
+
+Damit die Product Ownerin Erfolg haben kann, muss die gesamte Organisation ihre Entscheidungen respektieren. Diese Entscheidungen sind im Inhalt und in der Reihenfolge des Product Backlogs sowie durch das überprüfbare Increment beim Sprint Review, sichtbar.
+
+Die Product Ownerin ist eine Person, kein Gremium. Die Product Ownerin kann die Bedürfnisse vieler Stakeholderinnen im Product Backlog berücksichtigen. Diejenigen, die das Product Backlog ändern möchten, können dies tun, indem sie versuchen, die Product Ownerin zu überzeugen.
+
+### Scrum Masterin
+
+Die Scrum Masterin ist ergebnisverantwortlich für die Einführung von Scrum, wie es im Scrum Guide definiert ist. Sie tut dies, indem sie allen dabei hilft, die Scrum-Theorie und -Praxis zu verstehen, sowohl innerhalb des Scrum Teams als auch in der Organisation.
+
+Die Scrum Masterin ist ergebnisverantwortlich für die Effektivität des Scrum Teams. Sie tut dies, indem sie das Scrum Team in die Lage versetzt, seine Praktiken innerhalb des Scrum-Rahmenwerks zu verbessern.
+
+Scrum Masterinnen sind echte Führungspersönlichkeiten, die dem Scrum Team und der Gesamtorganisation dienen.
+
+Die Scrum Masterin dient dem Scrum Team auf unterschiedliche Weise, unter anderem dadurch,
+
+- die Teammitglieder in Selbstmanagement und interdisziplinärer Zusammenarbeit zu coachen;
+
+- das Scrum Team bei der Fokussierung auf die Schaffung von hochwertigen Increments zu unterstützen, die der Definition of Done entsprechen;
+
+- die Beseitigung von Hindernissen (Impediments) für den Fortschritt des Scrum Teams zu bewirken; und
+
+- sicherzustellen, dass alle Events von Scrum stattfinden, positiv und produktiv sind und innerhalb der Timebox bleiben.
+
+Die Scrum Masterin dient der Product Ownerin auf unterschiedliche Weise, unter anderem dadurch,
+
+- bei der Suche nach Techniken zur effektiven Definition des Produkt-Ziels und zum Product- Backlog-Management zu helfen;
+
+- dem Scrum Team dabei zu helfen, die Notwendigkeit klarer und prägnanter Product-Backlog- Einträge zu verstehen;
+
+- bei der Etablierung einer empirischen Produktplanung für ein komplexes Umfeld zu helfen; und die Zusammenarbeit mit Stakeholderinnen nach Wunsch oder Bedarf zu fördern (facilitate).
+
+Die Scrum Masterin dient der Organisation auf unterschiedliche Weise, unter anderem dadurch,
+
+- die Organisation bei der Einführung von Scrum zu führen, zu schulen und zu coachen;
+
+- Einführungen von Scrum in der Organisation zu planen und zu empfehlen;
+
+- Mitarbeitende und Stakeholderinnen beim Verständnis und bei der Umsetzung eines empirischen Ansatzes für komplexe Arbeit zu unterstützen; und
+
+- Barrieren zwischen Stakeholderinnen und Scrum Teams zu beseitigen.
+
+## Scrum Events
+
+Der Sprint ist ein Container für alle anderen Events. Jedes Event in Scrum ist eine formelle Gelegenheit, Scrum-Artefakte zu überprüfen und anzupassen. Diese Events sind speziell darauf ausgelegt, die
+
+erforderliche Transparenz zu ermöglichen. Wenn ein Event nicht wie vorgeschrieben durchgeführt wird, verpasst man die Gelegenheit, zu überprüfen und anzupassen. Events werden in Scrum verwendet, um Regelmäßigkeit zu schaffen und die Notwendigkeit von Meetings, die in Scrum nicht definiert sind, zu minimieren. Optimalerweise werden alle Events zur selben Zeit und am selben Ort abgehalten, um die Komplexität zu reduzieren.
+
+### Der Sprint
+
+Sprints sind der Herzschlag von Scrum, wo Ideen in Wert umgewandelt werden.
+
+Es sind Events mit fester Länge von einem Monat oder weniger, um Konsistenz zu schaffen. Ein neuer Sprint beginnt unmittelbar nach dem Abschluss des vorherigen Sprints.
+
+Alle Arbeiten, die notwendig sind, um das Produkt-Ziel zu erreichen, einschließlich Sprint Planning, Daily Scrums, Sprint Review und Sprint Retrospective, finden innerhalb der Sprints statt.
+
+Während des Sprints
+
+- werden keine Änderungen vorgenommen, die das Sprint-Ziel gefährden würden;
+
+- nimmt die Qualität nicht ab;
+
+- wird das Product Backlog nach Bedarf verfeinert; und
+
+- kann der Scope (Inhalt und Umfang) geklärt und mit der Product Ownerin neu vereinbart werden, sobald mehr Erkenntnisse vorliegen.
+
+Sprints ermöglichen Vorhersagbarkeit, indem sie mindestens jeden Kalendermonat eine Überprüfung und Anpassung der Fortschritte in Richtung eines Produkt-Ziels gewährleisten. Wenn der Horizont eines Sprints zu lang ist, kann das Sprint-Ziel hinfällig werden, die Komplexität kann steigen und das Risiko kann zunehmen. Kürzere Sprints können eingesetzt werden, um mehr Lernzyklen zu generieren und das Risiko von Kosten und Aufwand auf einen kleineren Zeitrahmen zu begrenzen. Jeder Sprint kann als ein kurzes Projekt betrachtet werden.
+
+Es gibt verschiedene Vorgehensweisen, um den Fortschritt vorherzusagen, wie Burn-Down-Charts, Burn- Up-Charts oder Cumulative-Flow-Diagramme. Diese haben sich zwar als nützlich erwiesen, ersetzen jedoch nicht die Bedeutung der Empirie. In komplexen Umgebungen ist unbekannt, was passieren wird. Nur was bereits geschehen ist, kann für eine vorausschauende Entscheidungsfindung genutzt werden.
+
+Ein Sprint könnte abgebrochen werden, wenn das Sprint-Ziel obsolet wird. Nur die Product Ownerin hat die Befugnis, den Sprint abzubrechen.
+
+### Sprint Planning
+
+Das Sprint Planning initiiert den Sprint, indem es die für den Sprint auszuführenden Arbeiten darlegt. Dieser resultierende Plan wird durch die gemeinschaftliche Arbeit des gesamten Scrum Teams erstellt.
+
+Die Product Ownerin stellt sicher, dass die Teilnehmenden vorbereitet sind, die wichtigsten Product- Backlog-Einträge zu besprechen, und wie sie dem Produkt-Ziel zuzuordnen sind. Das Scrum Team kann zu Beratungszwecken auch andere Personen zur Teilnahme am Sprint Planning einladen.
+
+Das Sprint Planning behandelt die folgenden Themen:
+
+Thema Eins: Warum ist dieser Sprint wertvoll?
+
+Die Product Ownerin schlägt vor, wie das Produkt im aktuellen Sprint seinen Wert und Nutzen steigern könnte. Das gesamte Scrum Team arbeitet dann zusammen, um ein Sprint-Ziel zu definieren, das verdeutlicht, warum der Sprint für die Stakeholderinnen wertvoll ist. Das Sprint-Ziel muss vor dem Ende des Sprint Plannings finalisiert sein.
+
+Thema Zwei: Was kann in diesem Sprint abgeschlossen (Done) werden?
+
+Im Gespräch mit der Product Ownerin wählen die Developerinnen Einträge aus dem Product Backlog aus, die in den aktuellen Sprint aufgenommen werden sollen. Das Scrum Team kann diese Einträge während dieses Prozesses verfeinern, was Verständnis und Vertrauen erhöht.
+
+Die Auswahl, wie viel innerhalb eines Sprints abgeschlossen werden kann, kann eine Herausforderung darstellen. Je mehr die Developerinnen jedoch über ihre bisherige Leistung, ihre zukünftige Kapazität und ihre Definition of Done wissen, desto sicherer werden sie in ihren Sprint-Vorhersagen sein.
+
+Thema Drei: Wie wird die ausgewählte Arbeit erledigt?
+
+Für jeden ausgewählten Product-Backlog-Eintrag planen die Developerinnen die notwendige Arbeit, um ein Increment zu erstellen, das der Definition of Done entspricht. Dies geschieht oft durch Zerlegung von Product-Backlog-Einträgen in kleinere Arbeitseinheiten von einem Tag oder weniger. Wie dies geschieht, liegt im alleinigen Ermessen der Developerinnen. Niemand sonst sagt ihnen, wie sie Product-Backlog- Einträge in Increments von Wert umwandeln sollen.
+
+Das Sprint-Ziel, die für den Sprint ausgewählten Product-Backlog-Einträge und der Plan für deren Lieferung werden zusammenfassend als Sprint Backlog bezeichnet.
+
+Das Sprint Planning ist zeitlich beschränkt auf maximal acht Stunden für einen einmonatigen Sprint. Bei kürzeren Sprints ist das Event in der Regel kürzer.
+
+### Daily Scrum
+
+Der Zweck des Daily Scrums besteht darin, den Fortschritt in Richtung des Sprint-Ziels zu überprüfen und das Sprint Backlog bei Bedarf anzupassen, um die bevorstehende geplante Arbeit zu justieren.
+
+Das Daily Scrum ist ein 15-minütiges Event für die Developerinnen des Scrum Teams. Um die Komplexität zu reduzieren, wird es an jedem Arbeitstag des Sprints zur gleichen Zeit und am gleichen Ort abgehalten. Falls die Product Ownerin oder die Scrum Masterin aktiv an Einträgen des Sprint Backlogs arbeitet, nimmt sie als Developerin teil.
+
+Die Developerinnen können Struktur und Techniken beliebig wählen, solange ihr Daily Scrum sich auf den Fortschritt in Richtung des Sprint-Ziels fokussiert und einen umsetzbaren Plan für den nächsten Arbeitstag erstellt. Das schafft Fokus und fördert Selbstmanagement.
+
+Daily Scrums verbessern die Kommunikation, identifizieren Hindernisse, fördern die schnelle Entscheidungsfindung und eliminieren konsequent die Notwendigkeit für andere Meetings.
+
+Das Daily Scrum ist nicht die einzige Gelegenheit, bei der die Developerinnen ihren Plan anpassen dürfen. Sie treffen sich oftmals während des Tages für detailliertere Diskussionen zur Anpassung oder Neuplanung der restlichen Arbeit des Sprints.
+
+### Sprint Review
+
+Zweck des Sprint Reviews ist es, das Ergebnis des Sprints zu überprüfen und künftige Anpassungen festzulegen. Das Scrum Team stellt die Ergebnisse seiner Arbeit den wichtigsten Stakeholderinnen vor, und die Fortschritte in Richtung des Produkt-Ziels werden diskutiert.
+
+Während des Events überprüfen das Scrum Team und die Stakeholderinnen, was im Sprint erreicht wurde und was sich in ihrem Umfeld verändert hat. Auf der Grundlage dieser Informationen arbeiten die Teilnehmenden gemeinsam daran, was als Nächstes zu tun ist. Auch kann das Product Backlog angepasst werden, um neue Möglichkeiten wahrzunehmen. Das Sprint Review ist ein Arbeitstermin, und das Scrum Team sollte vermeiden, es auf eine Präsentation zu beschränken.
+
+Das Sprint Review ist das vorletzte Event des Sprints und ist für einen einmonatigen Sprint auf maximal vier Stunden zeitlich beschränkt. Bei kürzeren Sprints ist das Event in der Regel kürzer.
+
+### Sprint Retrospective
+
+Der Zweck der Sprint Retrospective ist es, Wege zur Steigerung von Qualität und Effektivität zu planen.
+
+Das Scrum Team überprüft, wie der letzte Sprint in Bezug auf Individuen, Interaktionen, Prozesse, Werkzeuge und seine Definition of Done verlief. Die überprüften Elemente variieren oft je nach Arbeitsdomäne. Annahmen, die das Team in die Irre geführt haben, werden identifiziert und ihre Ursprünge erforscht. Das Scrum Team bespricht, was während des Sprints gut gelaufen ist, auf welche Probleme es gestoßen ist und wie diese Probleme gelöst wurden (oder auch nicht).
+
+Das Scrum Team identifiziert die hilfreichsten Änderungen, um seine Effektivität zu verbessern. Die wirkungsvollsten Verbesserungen werden so schnell wie möglich in Angriff genommen. Sie können sogar in das Sprint Backlog für den nächsten Sprint aufgenommen werden.
+
+Die Sprint Retrospective schließt den Sprint ab. Sie ist für einen einmonatigen Sprint auf maximal drei Stunden beschränkt. Bei kürzeren Sprints ist das Event in der Regel kürzer.
+
+## Scrum-Artefakte
+
+Die Artefakte von Scrum repräsentieren Arbeit oder Wert. Sie sind dafür ausgelegt, die Transparenz von Schlüsselinformationen zu maximieren. So haben alle, die sie überprüfen, die gleiche Grundlage für Anpassungen.
+
+Jedes Artefakt beinhaltet ein Commitment, um sicherzustellen, dass Informationen bereitgestellt werden, welche Transparenz und Fokus verbessern, um den Fortschritt messbar zu machen:
+
+- Für das Product Backlog ist es das Produkt-Ziel.
+
+- Für das Sprint Backlog ist es das Sprint-Ziel.
+
+- Für das Increment ist es die Definition of Done.
+
+Diese Commitments dienen dazu, Empirie und die Scrum-Werte für das Scrum Team und seine Stakeholderinnen zu verstärken.
+
+### Product Backlog
+
+Das Product Backlog ist eine emergente, geordnete Liste der Dinge, die zur Produktverbesserung benötigt werden. Es ist die einzige Quelle von Arbeit, die durch das Scrum Team erledigt wird.
+
+Product-Backlog-Einträge, die durch das Scrum Team innerhalb eines Sprints abgeschlossen (Done) werden können, gelten als bereit für die Auswahl in einem Sprint-Planning-Event. Diesen Transparenzgrad erlangen sie in der Regel durch Refinement-Aktivitäten. Das Refinement des Product Backlogs ist der Vorgang, durch den Product-Backlog-Einträge in kleinere, präzisere Elemente zerlegt und weiter definiert werden. Dies ist eine kontinuierliche Aktivität, wodurch weitere Details wie Beschreibung, Reihenfolge und Größe ergänzt werden. Die Attribute variieren oft je nach Arbeitsumfeld.
+
+Die Developerinnen, die die Arbeit erledigen werden, sind für die Größenbestimmung umsetzungsverantwortlich. Die Product Ownerin kann die Developerinnen beeinflussen, indem sie dabei unterstützt, die Product-Backlog-Einträge zu verstehen und Kompromisse einzugehen.
+
+Commitment: Produkt-Ziel
+
+Das Produkt-Ziel beschreibt einen zukünftigen Zustand des Produkts, welches dem Scrum Team als Planungsziel dienen kann. Das Produkt-Ziel befindet sich im Product Backlog. Der Rest des Product Backlogs entsteht, um zu definieren, „was“ das Produkt-Ziel erfüllt.
+
+Ein Produkt ist ein Instrument, um Wert zu liefern. Es hat klare Grenzen, bekannte Stakeholderinnen, eindeutig definierte Benutzerinnen oder Kundinnen. Ein Produkt kann eine Dienstleistung, ein physisches Produkt oder etwas Abstrakteres sein.
+
+Das Produkt-Ziel ist das langfristige Ziel für das Scrum Team. Das Scrum Team muss eine Zielvorgabe erfüllen (oder aufgeben), bevor es die nächste angeht.
+
+### Sprint Backlog
+
+Das Sprint Backlog besteht aus dem Sprint-Ziel (Wofür), den für den Sprint ausgewählten Product- Backlog-Einträgen (Was) sowie einem umsetzbaren Plan für die Lieferung des Increments (Wie).
+
+Das Sprint Backlog ist ein Plan von und für die Developerinnen. Es ist ein deutlich sichtbares Echtzeitbild der Arbeit, welche die Developerinnen während des Sprints zur Erreichung des Sprint-Ziels ausführen wollen. Folglich wird das Sprint Backlog während des gesamten Sprints immer dann aktualisiert, wenn mehr gelernt wurde. Es sollte genügend Details beinhalten, damit sie ihren Fortschritt im Daily Scrum überprüfen können.
+
+Commitment: Sprint-Ziel
+
+Das Sprint-Ziel ist die einzige Zielsetzung für den Sprint. Obwohl das Sprint-Ziel ein Commitment der Developerinnen ist, bietet es Flexibilität in Bezug auf die genaue Arbeit, die erforderlich ist, um es zu erreichen. Das Sprint-Ziel schafft auch Kohärenz und Fokus und ermutigt somit das Scrum Team, zusammen statt in separaten Initiativen zu arbeiten.
+
+Das Sprint-Ziel wird während des Sprint-Planning-Events erstellt und dann zum Sprint Backlog hinzugefügt. Während die Developerinnen innerhalb des Sprints arbeiten, behalten sie das Sprint-Ziel im Gedächtnis. Wenn sich herausstellt, dass die Arbeit von ihren Erwartungen abweicht, arbeiten sie mit der Product Ownerin zusammen, um den Umfang des Sprint Backlogs innerhalb des Sprints zu verhandeln, ohne das Sprint-Ziel zu beeinflussen.
+
+### Increment
+
+Ein Increment ist ein konkreter Schritt in Richtung des Produkt-Ziels. Jedes Increment ist additiv zu allen vorherigen Increments und gründlich geprüft, um sicherzustellen, dass sie alle zusammen funktionieren. Um einen Mehrwert zu erzielen, muss das Increment verwendbar sein.
+
+Innerhalb eines Sprints kann mehr als ein Increment erstellt werden. Deren Summe wird im Sprint Review vorgestellt, womit Empirie unterstützt wird. Ein Increment könnte jedoch auch schon vor Ende des Sprints an die Stakeholderinnen geliefert werden. Das Sprint Review sollte niemals als Barriere zur Lieferung von Wert angesehen werden.
+
+Arbeit kann nicht als Teil eines Increments betrachtet werden, solange sie nicht der Definition of Done entspricht.
+
+Commitment: Definition of Done
+
+Die Definition of Done ist eine formale Beschreibung des Zustands des Increments, wenn es die für das Produkt erforderlichen Qualitätsmaßnahmen erfüllt.
+
+In dem Moment, in dem ein Product-Backlog-Eintrag die Definition of Done erfüllt, wird ein Increment geboren.
+
+Die Definition of Done schafft Transparenz, indem sie allen ein gemeinsames Verständnis darüber vermittelt, welche Arbeiten als Teil des Increments abgeschlossen wurden. Wenn ein Product-Backlog- Eintrag nicht der Definition of Done entspricht, kann es weder released noch beim Sprint Review präsentiert werden. Stattdessen wandert es zur zukünftigen Berücksichtigung in das Product Backlog zurück.
+
+Wenn die Definition of Done für ein Increment Teil der Standards der Organisation ist, müssen alle Scrum Teams diese als Mindestmaß befolgen. Wenn sie kein Organisationsstandard ist, muss das Scrum Team eine für das Produkt geeignete Definition of Done erstellen.
+
+Die Developerinnen müssen sich an die Definition of Done halten. Wenn mehrere Scrum Teams an einem Produkt zusammenarbeiten, müssen sie eine gemeinsame Definition of Done definieren und sich alle daran halten.
+
+## Schlussbemerkung
+
+Scrum ist kostenlos und wird in diesem Guide angeboten. Das Scrum-Rahmenwerk, wie es hier beschrieben wird, ist unveränderlich. Es ist zwar möglich, nur Teile von Scrum zu implementieren, aber das Ergebnis ist nicht Scrum. Scrum existiert nur in seiner Gesamtheit und funktioniert gut als Container für andere Techniken, Methodiken und Praktiken.
+
+### Danksagungen
+
+Personen
+
+Von den tausenden Personen, die zu Scrum beigetragen haben, sollten wir diejenigen hervorheben, die zu Beginn von besonderer Bedeutung waren: Jeff Sutherland arbeitete mit Jeff McKenna und John Scumniotales, und Ken Schwaber arbeitete mit Mike Smith sowie Chris Martin - und sie alle arbeiteten zusammen. Viele weitere haben in den folgenden Jahren einen Beitrag geleistet. Ohne deren Hilfe wäre Scrum nicht so ausgefeilt, wie es heute ist.
+
+Scrum-Guide-Historie
+
+Ken Schwaber und Jeff Sutherland haben Scrum gemeinsam zum ersten Mal auf der OOPSLA Konferenz 1995 präsentiert. Diese Präsentation dokumentierte im Kern die Erkenntnisse, die Ken und Jeff in den vorherigen Jahren bei der Anwendung von Scrum gewonnen hatten, und stellte die erste formale Veröffentlichung der Definition von Scrum dar.
+
+Der Scrum Guide dokumentiert Scrum, wie es von Jeff Sutherland und Ken Schwaber über 30 Jahre lang weiterentwickelt wurde, gewachsen ist und aufrechterhalten wurde. Andere Quellen liefern Muster, Prozesse und Erkenntnisse, die das Scrum-Rahmenwerk ergänzen. Diese können zur Steigerung der Produktivität, des Werts, der Kreativität und der Zufriedenheit mit den Ergebnissen führen.
+
+Die vollständige Geschichte von Scrum wird an anderer Stelle beschrieben. Um die ersten Orte zu würdigen, an denen es erprobt wurde und sich bewährt hat, erkennen wir Individual Inc., Newspage, Fidelity Investments und IDX (jetzt GE Medical) als solche an.
+
+### Änderungen des Scrum Guides von 2020 im Vergleich zu 2017
+
+Noch weniger vorschreibend
+
+Im Laufe der Jahre wurde der Scrum Guide etwas vorschreibender. Die Version von 2020 zielte darauf ab, Scrum wieder zu einem minimal ausreichenden Rahmenwerk zu machen, indem die vorschreibende Sprache entfernt oder abgeschwächt wurde. Zum Beispiel wurden die Daily-Scrum-Fragen entfernt, die Sprache zur Beschreibung der Attribute von Product-Backlog-Einträgen und Retro-Items im Sprint Backlog abgeschwächt, der Abschnitt zum Sprint-Abbruch gekürzt und mehr.
+
+Ein Team, fokussiert auf ein Produkt
+
+Ziel war es, das Konzept eines separaten Teams innerhalb eines Teams zu beseitigen, das zu einem „Stellvertrenden-“ oder „wir und sie"-Verhalten zwischen der PO und dem Dev Team geführt hat. Es gibt jetzt nur noch ein Scrum Team, das sich auf dasselbe Ziel fokussiert und drei verschiedene Ergebnisverantwortlichkeiten hat: PO, SM und Developerinnen.
+
+Einführung des Produkt-Ziels
+
+Der Scrum Guide von 2020 führt das Konzept eines Produkt-Ziels ein, um das Scrum Team auf ein größeres, wertvolles Ziel auszurichten. Jeder Sprint sollte das Produkt näher an das übergeordnete Produkt-Ziel heranbringen.
+
+Eine Heimat für das Sprint-Ziel, die Definition of Done und das Produkt-Ziel
+
+Frühere Scrum Guides beschrieben das Sprint-Ziel und die Definition of Done, ohne ihnen wirklich eine Identität zu geben. Sie waren nicht wirklich Artefakte, aber waren diesen in gewisser Weise zugeordnet. Mit der Erweiterung um das Produkt-Ziel bietet die Version von 2020 mehr Klarheit darüber. Jedes der drei Artefakte enthält nun „Commitments" ihnen gegenüber. Für das Product Backlog ist dies das Produkt-Ziel, das Sprint Backlog hat das Sprint-Ziel, und das Increment hat die Definition of Done (jetzt ohne Anführungszeichen). Sie existieren, um Transparenz und Fokus hinsichtlich des Fortschritts jedes Artefakts zu fördern.
+
+Selbstmanagement statt Selbstorganisation
+
+Frühere Scrum Guides bezeichneten Development Teams als insofern selbstorganisierend, als dass sie wählen konnten, wer die Arbeit erledigt und wie gearbeitet wird. Mit einem stärkeren Fokus auf das Scrum Team betont die Version von 2020 ein selbstmanagendes Scrum Team. Dieses wählt, wer die Arbeit erledigt, wie und woran gearbeitet wird.
+
+Drei Sprint-Planning-Themen
+
+Zusätzlich zu den Sprint-Planning-Themen „Was" und „Wie" legt der Scrum Guide von 2020 den Schwerpunkt auf ein drittes Thema: „Wofür". Dieses bezieht sich auf das Sprint-Ziel.
+
+Allgemeine Vereinfachung der Sprache für ein breiteres Publikum
+
+Der Scrum Guide von 2020 legt einen Schwerpunkt auf die Eliminierung redundanter und komplexer Aussagen sowie die Beseitigung aller verbleibenden Rückschlüsse auf IT-Arbeit (z.B. Test, System, Design, Requirements, etc.) gelegt. Der Scrum Guide umfasst jetzt weniger als 13 Seiten [Anm. d. Übersetzerinnen: Im Deutschen sind es bis zur Danksagung 14 geworden.].
+
+### Übersetzung
+
+Dieser Guide wurde von der englischen Originalversion, bereitgestellt von Ken Schwaber und Jeff Sutherland, übersetzt. Hierzu beigetragen haben:
+
+2020: Silke von der Bruck, Sabine Canditt, Sven Diefenthäler, Jan Gretschuskin, Eva Gysling, Martin Hoppacher, Björn Jensen, Ralph Jocham, Dominik Maximini, Wolf Dieter Moggert, Peter Schmidt, Boris Steiner
+
+2017: Sabine Canditt, Jan Gretschuskin, Eva Gysling, Martin Hoppacher, Ralph Jocham, Dominik Maximini, Stefan Mieth, Wolf Dieter Moggert, Pascal Naujoks, Urs Reupke, Anna Rudat, Andreas Schliep, Harald Schlindwein, Peter Schmidt, Boris Steiner
+
+2016: Jan Gretschuskin, Dominik Maximini, Pascal Naujoks, Boris Steiner, Jürgen Halstenberg, Ralph Jocham, Wolf Dieter Moggert, Patrick Koglin, Harald Schlindwein
+
+2013: Jan Gretschuskin, Dominik Maximini, Pascal Naujoks, Sabrina Roos, Andreas Schliep, Wolfgang Wiedenroth
+
+2011: Dominik Maximini, Andreas Schliep, Ulf Schneider, Wolfgang Wiedenroth
+
+Kontaktinformationen
+
+Name der Übersetzungsgruppe: Bewerbungen werden angenommen unter: Primärer Ansprechpartner / Product Owner: Kontaktadresse:
+
+GermanScrumTranslators https://www.linkedin.com/groups/4071080/ Dominik Maximini translation@valuerise-consulting.de
+
+Änderungshistorie der Übersetzung
+
+Version 1.0:
+
+Version 1.1:
+
+Version 1.2:
+
+Version 2.0:
+
+Version 3.2: Version 3.3: Version 3.4:
+
+Komplette Neuübersetzung des Scrum Guides, basierend auf der Version von 2016. Klarstellung im Abschnitt „Das Scrum Team“: Interdisziplinäre Teams sind im Idealfall nicht von Personen außerhalb des Teams abhängig. Klarstellung im Abschnitt: „Anwendungen von Scrum“: Frequenz von Auslieferungen regelmäßig und mehrfach täglich. Klarstellung im Abschnitt: „Sprint Review“: Der Scrum Master agiert als Servant Leader und nicht nur als Organisator des Events. Überarbeitung der Begrifflichkeiten und Ergänzung des verwendeten Glossars. „Sinn machen“ wurde in „Sinn ergeben“ geändert. Komplette Neuübersetzung anlässlich der Veröffentlichung des Scrum Guide 2020. Einarbeitung des ersten Feedbacks nach der Neuübersetzung. Erstellung von zwei weiteren Versionen: Einer rein weiblichen und einer rein männlichen
+
+Version 3.5
+
+„Cadence“ wird mit „Rhythmus“, „true leaders“ mit „echte Führungspersönlichkeiten“ und „concise“ mit „prägnant“ übersetzt.
+
+Übersetzungs-Glossar
+
+Version 3.5w, Stand 15.06.2022
+
+#### Übersetzungs-Grundregeln, an die wir uns gehalten haben: • Feststehende Ausdrücke von „Core Scrum“ (Accountabilities, Artefakte, Events) behalten wir Englisch bei, alle anderen werden übersetzt (Beispiel: Sprint Retrospective). • Folgt ein deutsches Wort auf eines oder mehrere englische, so wird gemäß der deutschen Rechtschreibregeln „durchgekoppelt“ (Beispiel: Sprint-Backlog-Einträge). • Abweichend von der Original-Übersetzung nutzen wir in dieser Variante ausschließlich weibliche Formulierungen. Das gilt auch für feststehende Ausdrücke (Beispiele: eine Product Ownerin oder die Developerinnen). • Wir benutzen überwiegend auch bei englischen Ausdrücken die deutsche Grammatik, z.B. den deutschen Genitiv (Beispiel: nicht „innerhalb des Sprint“ sondern „innerhalb des Sprints“).
+
+Englischer Begriff accountable adaptation Commitment Courage cross-functional Daily Scrum Definition of Done the Developer the Developers Done empiricism event feedback Focus forecast framework Increment inspect & adapt inspection Lean Thinking Openness process framework product Product Backlog Product Backlog item Product Goal
+
+Deutscher Begriff ergebnisverantwortlich Anpassung Commitment Mut interdisziplinär Daily Scrum Definition of Done die Developerin; die Developerinnen Done Empirie Event Feedback Fokus Vorhersage Rahmenwerk das Increment Überprüfung und Anpassung Überprüfung Lean Thinking Offenheit Prozessrahmenwerk Produkt das Product Backlog Product-Backlog-Eintrag Produkt-Ziel
+
+the Product Owner Respect responsible Scrum Artifacts Scrum Scrum Events Scrum Guide the Scrum Master Scrum Team self-management Sprint Backlog Sprint Backlog item Product Backlog refinement Sprint Goal Sprint Planning Sprint progress Sprint Retrospective Sprint Review Stakeholder timebox timeboxed value Transparency
+
+die Product Ownerin Respekt umsetzungsverantwortlich Scrum-Artefakte Scrum Scrum Events Scrum Guide die Scrum Masterin Scrum Team Selbstmanagement das Sprint Backlog Sprint-Backlog-Eintrag das Refinement des Product Backlogs Sprint-Ziel das Sprint Planning Sprint-Fortschritt die Sprint Retrospective das Sprint Review Stakeholderinnen die Timebox zeitlich beschränkt Wert Transparenz
+
+---
+
+© 2020 Ken Schwaber and Jeff Sutherland
+
+This publication is offered for license under the Attribution Share-Alike license of Creative Commons, accessible at http://creativecommons.org/licenses/by-sa/4.0/legalcode and also described in summary form at http://creativecommons.org/licenses/by-sa/4.0/. By utilizing this Scrum Guide, you acknowledge and agree that you have read and agree to be bound by the terms of the Attribution Share-Alike license of Creative Commons.
