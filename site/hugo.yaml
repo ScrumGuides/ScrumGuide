@@ -27,12 +27,11 @@ languages:
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
   keywords: Scrum Guide, Scrum
-  # TODO (run 2): replace with the real domain once registered. Until then this
-  # is the generated Static Web App hostname — read it from the Bicep
-  # `defaultHostname` output after the first deployment. See infra/readme.md.
-  siteProdUrl: https://REPLACE-ME.centralus.azurestaticapps.net/
-  productionSiteUrl: https://REPLACE-ME.centralus.azurestaticapps.net/
-  previewSiteUrl: https://REPLACE-ME-preview.centralus.azurestaticapps.net/
+  # TODO (run 2): replace with the real domain once registered. Until then these
+  # are the generated Static Web App hostnames (Bicep `defaultHostname` output).
+  siteProdUrl: https://ashy-glacier-04fc55110.5.azurestaticapps.net/
+  productionSiteUrl: https://ashy-glacier-04fc55110.5.azurestaticapps.net/
+  previewSiteUrl: https://ashy-glacier-04fc55110-preview.centralus.5.azurestaticapps.net/
   supportEmail: support@scrumguides.org
   githubUrl: https://github.com/ScrumGuides/ScrumGuide
   # TODO (run 1): add a 1200x630 PNG for og_image. Social cards do not render SVG.

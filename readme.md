@@ -8,9 +8,31 @@ The site that carries **The Scrum Guide** — every published version as one lin
 
 Read [docs/specification.md](docs/specification.md) first. It is the design of record.
 
+## Where it is
+
+| Environment | URL |
+|---|---|
+| **Live** | <https://ashy-glacier-04fc55110.5.azurestaticapps.net> |
+| **Preview** | <https://ashy-glacier-04fc55110-preview.centralus.5.azurestaticapps.net> |
+
+Both are the generated Azure hostnames. They change to a real domain in run 2;
+until then these are the addresses.
+
+**The site is public and anonymous.** It runs on the Static Web Apps **Free**
+plan, and `staticwebapp.config.json` registers no identity provider at all —
+there is no sign-in, no roles and no gated routes. Everything served is
+world-readable, which is what a published guide should be.
+
+One consequence of Free worth knowing: it allows **three concurrent staging
+environments**. `preview` uses one of them, so canary-per-PR has two left. A
+fourth simultaneous pull request will fail to get an environment. Moving to
+Standard raises the limit to ten.
+
 ## Status
 
-Run 1 scaffold. The site structure, theme, infrastructure and workflows are in place. **No guide text is published yet** — see [Before any guide text goes in](#before-any-guide-text-goes-in).
+Run 1. The site structure, theme, infrastructure and workflows are in place,
+and both environments are deployed and serving. **No guide text is published
+yet** — see [Before any guide text goes in](#before-any-guide-text-goes-in).
 
 ## Repository
 

@@ -30,6 +30,13 @@ param workload string = 'scrumguide'
 @description('Extra tags, merged over the defaults below.')
 param tags object = {}
 
+@description('Free caps concurrent staging environments at 3, so canary-per-PR fails once a fourth PR is open at the same time. Standard raises that to 10 and adds an SLA.')
+@allowed([
+  'Free'
+  'Standard'
+])
+param skuName string = 'Free'
+
 var defaultTags = {
   workload: workload
   managedBy: 'ScrumGuides/ScrumGuide'
@@ -51,6 +58,7 @@ module staticSite 'modules/static-site.bicep' = {
     name: 'stapp-${workload}'
     location: location
     tags: allTags
+    skuName: skuName
   }
 }
 

@@ -36,7 +36,9 @@ The test the site exists to make possible: *is it Scrum?* is answered by whether
 | Hosting | Azure Static Web Apps, provisioned by **Bicep** into a new resource group |
 | Resource names | `rg-scrumguide`, `stapp-scrumguide` — no environment or region token, because there is exactly one of each |
 | Region | Central US, matching scrumexpansion.org and kanbanguides.org |
-| Domain | TBD — §10 |
+| SKU | **Free** — three concurrent staging environments, no SLA. §8.3 |
+| Authentication | None. Public and anonymous; no identity provider is registered |
+| Domain | TBD — §10. Live on the generated hostname meanwhile |
 
 ---
 
@@ -566,7 +568,7 @@ output defaultHostname string = site.outputs.defaultHostname
 ### 8.3 `infra/modules/static-site.bicep` — three things to get right
 
 1. **No `repositoryUrl`, `branch` or `repositoryToken`.** Supplying them makes Azure generate and commit its own GitHub Actions workflow, which fights OGP's. Leave them out so the app is CLI-deployed.
-2. **`Standard` SKU.** Free caps concurrent staging environments at three. Canary-per-PR will exceed that. Standard also brings the SLA and custom domain support on the apex.
+2. **`Free` SKU.** Chosen deliberately over Standard. The cost is that Free allows **three concurrent staging environments**: `preview` occupies one, leaving two for canary-per-PR, so a fourth simultaneous pull request gets no environment. Standard raises the limit to ten and adds an SLA, at roughly $9/month. Revisit if PR volume makes the cap bite.
 3. **Region.** Static Web Apps exists in only a handful of regions. The sibling sites use Central US; match them unless there is a reason not to.
 
 ```bicep
@@ -574,7 +576,7 @@ resource swa 'Microsoft.Web/staticSites@2024-04-01' = {
   name: name
   location: location
   tags: tags
-  sku: { name: 'Standard', tier: 'Standard' }
+  sku: { name: skuName, tier: skuName } // 'Free'
   properties: {
     allowConfigFileUpdates: true
     stagingEnvironmentPolicy: 'Enabled'

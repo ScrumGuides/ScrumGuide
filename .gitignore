@@ -1,5 +1,7 @@
 # build output
 /public/
+/public-preview/
+/.build-check/
 /site/public/
 /resources/
 /site/resources/
@@ -16,6 +18,10 @@ tex2pdf.*/*
 /.claude/
 node_modules/
 /output
+
+# Static Web Apps CLI leaves its upload artefact in the working directory
+*-app.zip
+.swa/
 
 # os
 .DS_Store

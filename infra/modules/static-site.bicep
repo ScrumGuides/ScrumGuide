@@ -9,12 +9,12 @@ param location string
 @description('Tags.')
 param tags object = {}
 
-@description('Standard is required: Free caps concurrent staging environments at three, and canary-per-PR will exceed that.')
+@description('Free caps concurrent staging environments at three; Standard raises it to ten and adds an SLA.')
 @allowed([
   'Free'
   'Standard'
 ])
-param skuName string = 'Standard'
+param skuName string = 'Free'
 
 resource site 'Microsoft.Web/staticSites@2024-04-01' = {
   name: name

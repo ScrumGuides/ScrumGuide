@@ -5,13 +5,16 @@ Azure hosting for the Scrum Guide site, as Bicep.
 ## What it provisions
 
 ```text
-Subscription
+Subscription  nkdAgility-PayAsYouGo
 └── rg-scrumguide                        (Central US)
-    └── stapp-scrumguide                 Static Web App, Standard
-        ├── production   → the live site
-        ├── preview      → named environment
+    └── stapp-scrumguide                 Static Web App, Free
+        ├── production   → ashy-glacier-04fc55110.5.azurestaticapps.net
+        ├── preview      → ashy-glacier-04fc55110-preview.centralus.5.azurestaticapps.net
         └── canary-<pr>  → named environment per pull request
 ```
+
+Both `production` and `preview` are deployed and serving. The site is public
+and anonymous — no identity provider is registered.
 
 That is all of it. Preview and canary are **named environments inside the one
 Static Web App**, not separate resources, so there is nothing else to create.
@@ -63,8 +66,11 @@ runs once.
 and commit its own GitHub Actions workflow, which collides with the
 OpenGuidePlatform build. The app is CLI-deployed instead.
 
-**Standard SKU, not Free.** Free caps concurrent staging environments at three.
-Canary-per-PR will exceed that.
+**Free SKU, not Standard.** Free allows **three concurrent staging
+environments**. `preview` holds one, so canary-per-PR has two. A fourth
+simultaneous pull request will not get an environment. Standard raises this to
+ten and adds an SLA, at roughly $9/month — change `skuName` in
+`main.bicepparam` and redeploy if that becomes the binding constraint.
 
 **Central US.** Static Web Apps exists in five regions only. This matches
 scrumexpansion.org and kanbanguides.org.
