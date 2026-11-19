@@ -17,11 +17,13 @@ keywords:
 
 <div class="pending-licence" markdown="1">
 
-**Text pending licence verification.** The February 2010 Scrum Guide is not yet published here.
+**Text not published here.** The February 2010 Scrum Guide reserves all rights, so this site
+does not reproduce it.
 
-The 2020 edition is offered under CC BY-SA 4.0. The licence attached to each earlier
-edition has not been verified, and the 2020 terms are not assumed to apply backwards.
-Each edition is checked against the licence printed in it before its text goes on this site.
+The document carries the notice **"© 2008-2010 Ken Schwaber and Jeff Sutherland, All Rights
+Reserved"** on every page, and no licence that would permit re-hosting. The Creative Commons
+Attribution ShareAlike licence first appears on the July 2013 edition and is not assumed to
+apply backwards. The per-edition record is in `docs/licence-review.md`.
 
 The Scrum Guide is the work of Ken Schwaber and Jeff Sutherland.
 The canonical source is <https://scrumguides.org/>.
