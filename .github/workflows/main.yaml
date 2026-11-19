@@ -12,7 +12,57 @@ permissions:
   contents: read
   actions: read
 jobs:
+  # This repository's own version, from .github/GitVersion.yml.
+  #
+  # It is ours. The OGP release referenced below is the toolchain this site
+  # consumes and has nothing to do with this number, so nothing here depends on
+  # the platform: GitVersion runs against this repository and this repository
+  # publishes the result.
+  #
+  # continue-on-error, and the fallback in the job name below, are deliberate.
+  # A version number is for reading, so a GitVersion hiccup must never be able
+  # to stop a build or a deploy.
+  version:
+    name: Version
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    permissions:
+      contents: read
+    outputs:
+      semver: ${{ steps.gitversion.outputs.semver }}
+      label: ${{ steps.gitversion.outputs.label }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # GitVersion reads tag and branch history. A shallow clone gives it
+          # nothing to work from.
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - id: gitversion
+        shell: pwsh
+        run: |
+          dotnet tool install --global GitVersion.Tool --version 6.8.2
+          $env:PATH = $env:PATH + [IO.Path]::PathSeparator + "$env:HOME/.dotnet/tools"
+          $v = dotnet-gitversion /output json | ConvertFrom-Json
+          $label = if ($v.PreReleaseLabel) { $v.PreReleaseLabel } else { "(none)" }
+          Add-Content -Path $env:GITHUB_OUTPUT -Value "semver=$($v.SemVer)"
+          Add-Content -Path $env:GITHUB_OUTPUT -Value "label=$label"
+          $sum = $env:GITHUB_STEP_SUMMARY
+          Add-Content -Path $sum -Value "## Version"
+          Add-Content -Path $sum -Value ""
+          Add-Content -Path $sum -Value "| | |"
+          Add-Content -Path $sum -Value "|---|---|"
+          Add-Content -Path $sum -Value "| SemVer | ``$($v.SemVer)`` |"
+          Add-Content -Path $sum -Value "| Pre-release label | ``$label`` |"
+          Add-Content -Path $sum -Value "| FullSemVer | ``$($v.FullSemVer)`` |"
+          Add-Content -Path $sum -Value "| Commit | ``$($v.ShortSha)`` |"
+          Write-Host "Site version $($v.SemVer); pre-release label $label."
+
   guide-site:
+    # Carries the version into every job row, so the build reports it as
+    # "site 0.1.0-preview.7 / Prepare" rather than "guide-site / Prepare".
+    needs: version
+    name: site ${{ needs.version.outputs.semver || 'version unknown' }}
     permissions:
       contents: read
       actions: read
