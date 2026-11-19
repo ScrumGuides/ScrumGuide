@@ -23,7 +23,7 @@ downloads:
   - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.es-419.pdf
     handling: supplied
   # Spanish (European)
-  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.es-ES.pdf
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.es-es.pdf
     handling: supplied
   # Persian
   - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.fa.pdf
@@ -53,7 +53,7 @@ downloads:
   - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.pl.pdf
     handling: supplied
   # Portuguese (Brazilian)
-  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.pt-BR.pdf
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.pt-br.pdf
     handling: supplied
   # Romanian
   - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.ro.pdf
@@ -80,8 +80,8 @@ downloads:
   - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.vi.pdf
     handling: supplied
   # Chinese (Simplified)
-  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.zh-Hans.pdf
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.zh-hans.pdf
     handling: supplied
   # Chinese (Traditional)
-  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.zh-Hant.pdf
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.zh-hant.pdf
     handling: supplied

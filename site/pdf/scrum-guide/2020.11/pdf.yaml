@@ -53,7 +53,7 @@ downloads:
   - path: pdf/2020-Scrum-Guide.es-419.pdf
     handling: supplied
   # Spanish (European)
-  - path: pdf/2020-Scrum-Guide.es-ES.pdf
+  - path: pdf/2020-Scrum-Guide.es-es.pdf
     handling: supplied
   # Persian
   - path: pdf/2020-Scrum-Guide.fa.pdf
@@ -122,10 +122,10 @@ downloads:
   - path: pdf/2020-Scrum-Guide.pl.pdf
     handling: supplied
   # Portuguese (Brazilian)
-  - path: pdf/2020-Scrum-Guide.pt-BR.pdf
+  - path: pdf/2020-Scrum-Guide.pt-br.pdf
     handling: supplied
   # Portuguese (European)
-  - path: pdf/2020-Scrum-Guide.pt-PT.pdf
+  - path: pdf/2020-Scrum-Guide.pt-pt.pdf
     handling: supplied
   # Romanian
   - path: pdf/2020-Scrum-Guide.ro.pdf
@@ -170,17 +170,17 @@ downloads:
   - path: pdf/2020-Scrum-Guide.ur.pdf
     handling: supplied
   # Uzbek (Cyrillic)
-  - path: pdf/2020-Scrum-Guide.uz-Cyrl.pdf
+  - path: pdf/2020-Scrum-Guide.uz-cyrl.pdf
     handling: supplied
   # Uzbek (Latin)
-  - path: pdf/2020-Scrum-Guide.uz-Latn.pdf
+  - path: pdf/2020-Scrum-Guide.uz-latn.pdf
     handling: supplied
   # Vietnamese
   - path: pdf/2020-Scrum-Guide.vi.pdf
     handling: supplied
   # Chinese (Simplified)
-  - path: pdf/2020-Scrum-Guide.zh-Hans.pdf
+  - path: pdf/2020-Scrum-Guide.zh-hans.pdf
     handling: supplied
   # Chinese (Traditional)
-  - path: pdf/2020-Scrum-Guide.zh-Hant.pdf
+  - path: pdf/2020-Scrum-Guide.zh-hant.pdf
     handling: supplied

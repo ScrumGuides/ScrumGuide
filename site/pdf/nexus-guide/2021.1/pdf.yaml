@@ -23,7 +23,7 @@ downloads:
   - path: pdf/2021-Nexus-Guide.es-419.pdf
     handling: supplied
   # Spanish (European)
-  - path: pdf/2021-Nexus-Guide.es-ES.pdf
+  - path: pdf/2021-Nexus-Guide.es-es.pdf
     handling: supplied
   # Persian
   - path: pdf/2021-Nexus-Guide.fa.pdf
@@ -65,8 +65,8 @@ downloads:
   - path: pdf/2021-Nexus-Guide.uk.pdf
     handling: supplied
   # Chinese (Simplified)
-  - path: pdf/2021-Nexus-Guide.zh-Hans.pdf
+  - path: pdf/2021-Nexus-Guide.zh-hans.pdf
     handling: supplied
   # Chinese (Traditional)
-  - path: pdf/2021-Nexus-Guide.zh-Hant.pdf
+  - path: pdf/2021-Nexus-Guide.zh-hant.pdf
     handling: supplied

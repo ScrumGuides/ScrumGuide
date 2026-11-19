@@ -23,7 +23,7 @@ downloads:
   - path: pdf/2018-Nexus-Guide.lt.pdf
     handling: supplied
   # Portuguese (Brazilian)
-  - path: pdf/2018-Nexus-Guide.pt-BR.pdf
+  - path: pdf/2018-Nexus-Guide.pt-br.pdf
     handling: supplied
   # Russian
   - path: pdf/2018-Nexus-Guide.ru.pdf
