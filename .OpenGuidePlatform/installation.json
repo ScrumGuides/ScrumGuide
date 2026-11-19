@@ -1,54 +1,54 @@
 {
   "schemaVersion": 1,
   "kind": "preview-installation",
-  "releaseTag": "v1.1.8-Preview.2",
+  "releaseTag": "v1.1.8",
   "sourcePath": "site",
   "release": {
     "schemaVersion": 2,
     "product": "OpenGuidePlatform",
-    "version": "1.1.8-Preview.2",
+    "version": "1.1.8",
     "sourceCommit": "5e3c53b58c10afccb7aa644feeda0364ce69dc14",
-    "channel": "preview",
+    "channel": "stable",
     "packages": {
       "GuideSite": {
         "archive": "OpenGuidePlatform-GuideSite.zip",
-        "version": "1.1.8-Preview.2",
-        "sha256": "9f3d55fe778a8eb5bb2fb16a1b81628ba8cff86e9fe25d5ade70701d44c60629",
+        "version": "1.1.8",
+        "sha256": "5b63727b6febfded88dae64d8488b1664518833520fd8a4ac41c0e0f8ff69142",
         "components": {
-          "OpenGuidePlatform.Agents.Integration": "1.1.8-Preview.2",
-          "OpenGuidePlatform.Hugo.Guides": "1.1.8-Preview.2",
-          "OpenGuidePlatform.PowerShell.AgentControls": "1.1.8-Preview.2",
-          "OpenGuidePlatform.PowerShell.Contributor": "1.1.8-Preview.2",
-          "OpenGuidePlatform.PowerShell.Core": "1.1.8-Preview.2",
-          "OpenGuidePlatform.PowerShell.GuideSiteAdoption": "1.1.8-Preview.2",
-          "OpenGuidePlatform.PowerShell.GuideSiteBuild": "1.1.8-Preview.2"
+          "OpenGuidePlatform.Agents.Integration": "1.1.8",
+          "OpenGuidePlatform.Hugo.Guides": "1.1.8",
+          "OpenGuidePlatform.PowerShell.AgentControls": "1.1.8",
+          "OpenGuidePlatform.PowerShell.Contributor": "1.1.8",
+          "OpenGuidePlatform.PowerShell.Core": "1.1.8",
+          "OpenGuidePlatform.PowerShell.GuideSiteAdoption": "1.1.8",
+          "OpenGuidePlatform.PowerShell.GuideSiteBuild": "1.1.8"
         }
       },
       "PlatformBuild": {
         "archive": "OpenGuidePlatform-PlatformBuild.zip",
-        "version": "1.1.8-Preview.2",
-        "sha256": "dc39f3b33d487ab3fdf25b0c959d8d00f108fd695cfa67b011556496e5052292",
+        "version": "1.1.8",
+        "sha256": "e6169dbde9793e55cca8c4cce52d5cc634a173cb3b5e20cd74ea5f25daf8b53e",
         "components": {
-          "OpenGuidePlatform.PowerShell.PlatformBuild": "1.1.8-Preview.2"
+          "OpenGuidePlatform.PowerShell.PlatformBuild": "1.1.8"
         },
         "dependencies": {
           "GuideSite": {
-            "version": "1.1.8-Preview.2",
-            "sha256": "9f3d55fe778a8eb5bb2fb16a1b81628ba8cff86e9fe25d5ade70701d44c60629"
+            "version": "1.1.8",
+            "sha256": "5b63727b6febfded88dae64d8488b1664518833520fd8a4ac41c0e0f8ff69142"
           }
         }
       }
     },
     "nativeHugoModule": {
       "path": "github.com/nkdAgility/OpenGuidePlatform/system/OpenGuidePlatform.Hugo.Guides",
-      "version": "v1.1.8-Preview.2",
-      "tag": "system/OpenGuidePlatform.Hugo.Guides/v1.1.8-Preview.2",
+      "version": "v1.1.8",
+      "tag": "system/OpenGuidePlatform.Hugo.Guides/v1.1.8",
       "sourceCommit": "5e3c53b58c10afccb7aa644feeda0364ce69dc14"
     },
     "workflow": {
       "repository": "nkdAgility/OpenGuidePlatform",
       "path": ".github/workflows/guide-site-build.yaml",
-      "version": "v1.1.8-Preview.2",
+      "version": "v1.1.8",
       "sourceCommit": "5e3c53b58c10afccb7aa644feeda0364ce69dc14"
     },
     "requirements": {
@@ -61,13 +61,13 @@
   "hugoResolution": "native-module",
   "nativeHugoModule": {
     "path": "github.com/nkdAgility/OpenGuidePlatform/system/OpenGuidePlatform.Hugo.Guides",
-    "version": "v1.1.8-Preview.2",
-    "tag": "system/OpenGuidePlatform.Hugo.Guides/v1.1.8-Preview.2",
+    "version": "v1.1.8",
+    "tag": "system/OpenGuidePlatform.Hugo.Guides/v1.1.8",
     "sourceCommit": "5e3c53b58c10afccb7aa644feeda0364ce69dc14"
   },
   "nativeChecksums": {
     "goModSum": "h1:rAE0g1D+UCeGL3BUQvtngp1S76QDcVozQoa9V8mAukg=",
-    "sum": "h1:ZAOmDrweZ0zkJy3kbz1VVK/gAeVjqEd7TJFvfd9ljwQ="
+    "sum": "h1:8XmaGHY2J3l8Ps7M5fR6Q0cVWM1yoal9q/2AfeNoV1A="
   },
   "adoptionBlockers": [
     "Coordinated agent controls and independent enforcement"
@@ -95,5 +95,5 @@
       "nkdAgility/OpenGuidePlatform/.github/workflows/guide-site-build.yaml"
     ]
   },
-  "workflowReference": "v1.1.8-Preview.2"
+  "workflowReference": "v1.1.8"
 }
