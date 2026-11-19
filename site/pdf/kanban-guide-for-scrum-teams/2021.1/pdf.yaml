@@ -1,9 +1,87 @@
-# kanban-guide-for-scrum-teams 2021.1. Offered under CC BY-SA 4.0 (© 2021 Scrum.org), so the
-# publishers' own file is hosted here unchanged.
+# kanban-guide-for-scrum-teams 2021.1. Every file here is offered under CC BY-SA 4.0 and is the
+# publishers' own, hosted unchanged: handling 'supplied' preserves their bytes.
 #
-# Supplied, not generated: these are the publishers' bytes, preserved exactly,
-# which is better provenance than a file regenerated from the page. See
-# docs/licence-review.md for the licence this rests on.
+# The translations are the translators' work, credited by the publishers, and
+# each carries the same Creative Commons notice as the English document.
+# A language with a PDF and no index.<lang>.md is a pdf-only translation.
 downloads:
   - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.en.pdf
+    handling: supplied
+  # Bulgarian
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.bg.pdf
+    handling: supplied
+  # Bengali
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.bn.pdf
+    handling: supplied
+  # Catalan
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.ca.pdf
+    handling: supplied
+  # German
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.de.pdf
+    handling: supplied
+  # Spanish (Latin American)
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.es-419.pdf
+    handling: supplied
+  # Spanish (European)
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.es-ES.pdf
+    handling: supplied
+  # Persian
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.fa.pdf
+    handling: supplied
+  # Croatian
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.hr.pdf
+    handling: supplied
+  # Hungarian
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.hu.pdf
+    handling: supplied
+  # Italian
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.it.pdf
+    handling: supplied
+  # Japanese
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.ja.pdf
+    handling: supplied
+  # Georgian
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.ka.pdf
+    handling: supplied
+  # Korean
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.ko.pdf
+    handling: supplied
+  # Dutch
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.nl.pdf
+    handling: supplied
+  # Polish
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.pl.pdf
+    handling: supplied
+  # Portuguese (Brazilian)
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.pt-BR.pdf
+    handling: supplied
+  # Romanian
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.ro.pdf
+    handling: supplied
+  # Russian
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.ru.pdf
+    handling: supplied
+  # Slovak
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.sk.pdf
+    handling: supplied
+  # Serbian
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.sr.pdf
+    handling: supplied
+  # Thai
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.th.pdf
+    handling: supplied
+  # Turkish
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.tr.pdf
+    handling: supplied
+  # Ukrainian
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.uk.pdf
+    handling: supplied
+  # Vietnamese
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.vi.pdf
+    handling: supplied
+  # Chinese (Simplified)
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.zh-Hans.pdf
+    handling: supplied
+  # Chinese (Traditional)
+  - path: pdf/2021-01-Kanban-Guide-for-Scrum-Teams.zh-Hant.pdf
     handling: supplied

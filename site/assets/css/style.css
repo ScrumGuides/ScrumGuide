@@ -1049,6 +1049,23 @@ h4:hover .heading-anchor,
   margin-bottom: var(--sg-step);
 }
 
+/* What a group of guides IS, under its heading. Sits between the heading's
+   rule and the list, so it reads as a definition of the group rather than as
+   the first entry in it. */
+.section-intro {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--sg-ink-soft);
+  margin: calc(var(--sg-step) * -0.5) 0 var(--sg-step);
+}
+
+.section-empty {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--sg-ink-faint);
+  margin: 0 0 var(--sg-step);
+}
+
 .guide-index {
   list-style: none;
   padding: 0;

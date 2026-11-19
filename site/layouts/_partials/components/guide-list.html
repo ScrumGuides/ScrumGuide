@@ -2,15 +2,22 @@
   Renders a plain list of guide section pages. No cards.
 
   Params:
-    guides — slice of guide section pages
-    title  — section heading
+    guides      — slice of guide section pages
+    title       — section heading
+    description — optional: what this kind of guide is, rendered under the heading
 */}}
 
 {{- $guides := .guides }}
 {{- $title := .title }}
+{{- $description := .description }}
 
 {{- if $guides }}
   <h2 class="section-heading">{{ $title }}</h2>
+
+  {{- with $description }}
+    <p class="section-intro">{{ . | markdownify }}</p>
+  {{- end }}
+
   <ul class="guide-index">
     {{- range $guides.ByWeight }}
       <li>

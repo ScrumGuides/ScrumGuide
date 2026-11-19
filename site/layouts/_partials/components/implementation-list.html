@@ -13,5 +13,8 @@
 {{- $implementations := where .guides "Params.categories" "intersect" (slice "Implementation") }}
 
 {{- if $implementations }}
-  {{ partial "components/guide-list.html" (dict "guides" $implementations "title" (i18n "implementations_section_title")) }}
+  {{ partial "components/guide-list.html" (dict
+      "guides" $implementations
+      "title" (i18n "implementations_section_title")
+      "description" (i18n "implementations_section_description")) }}
 {{- end }}

@@ -21,6 +21,7 @@
     <aside class="home-columns__side">
       {{- $guides := partial "openguide/guides/discover-guides.html" . }}
       {{ partial "components/implementation-list.html" (dict "guides" $guides) }}
+      {{ partial "components/extensions-list.html" (dict "guides" $guides) }}
     </aside>
   </section>
 {{- end }}

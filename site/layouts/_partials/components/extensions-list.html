@@ -1,0 +1,33 @@
+{{/*
+  The list of extensions.
+
+  "Extension" is a category, not a folder, for the same reason as
+  "Implementation": OpenGuidePlatform discovers guides with
+  `where .Site.Sections "Type" "guide"`, which is top-level only.
+  See docs/specification.md §4.2.
+
+  An extension reaches beyond what Scrum addresses. It makes no conformance
+  claim, so it carries no `conforms_to` and must not be framed as Scrum. An
+  implementation guide is the other case: it applies Scrum in a context and
+  stays inside what Scrum sets out to do.
+
+  Unlike the implementation list, this renders its heading and description even
+  with nothing in it, so the category explains itself before the first entry
+  lands. Only official extensions are listed.
+
+  Params:
+    guides — all discovered guide section pages
+*/}}
+
+{{- $extensions := where .guides "Params.categories" "intersect" (slice "Extension") }}
+
+{{- if $extensions }}
+  {{ partial "components/guide-list.html" (dict
+      "guides" $extensions
+      "title" (i18n "extensions_section_title")
+      "description" (i18n "extensions_section_description")) }}
+{{- else }}
+  <h2 class="section-heading">{{ i18n "extensions_section_title" }}</h2>
+  <p class="section-intro">{{ i18n "extensions_section_description" | markdownify }}</p>
+  <p class="section-empty">{{ i18n "extensions_section_empty" }}</p>
+{{- end }}

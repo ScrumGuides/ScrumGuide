@@ -7,6 +7,18 @@
 - id: implementations_section_title
   translation: "Implementation guides"
 
+- id: implementations_section_description
+  translation: "Ways to apply Scrum in a particular context. Each one stays within what Scrum sets out to do and adds guidance for a situation — several teams on one product, managing flow, starting out — without changing what Scrum requires."
+
+- id: extensions_section_title
+  translation: "Extensions"
+
+- id: extensions_section_description
+  translation: "Practices that reach beyond what Scrum addresses. An extension does not claim to be Scrum and does not change it; it takes on a concern Scrum leaves open, such as measuring the value a product delivers."
+
+- id: extensions_section_empty
+  translation: "None listed yet."
+
 - id: foundation_section_title
   translation: "The guide"
 

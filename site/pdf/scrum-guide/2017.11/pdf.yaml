@@ -1,9 +1,15 @@
-# scrum-guide 2017.11. Offered under CC BY-SA 4.0 (©2017 Ken Schwaber and Jeff Sutherland), so the
-# publishers' own file is hosted here unchanged.
+# scrum-guide 2017.11. Every file here is offered under CC BY-SA 4.0 and is the
+# publishers' own, hosted unchanged: handling 'supplied' preserves their bytes.
 #
-# Supplied, not generated: these are the publishers' bytes, preserved exactly,
-# which is better provenance than a file regenerated from the page. See
-# docs/licence-review.md for the licence this rests on.
+# The translations are the translators' work, credited by the publishers, and
+# each carries the same Creative Commons notice as the English document.
+# A language with a PDF and no index.<lang>.md is a pdf-only translation.
 downloads:
   - path: pdf/2017-Scrum-Guide-US.en.pdf
+    handling: supplied
+  # Belarusian
+  - path: pdf/2017-Scrum-Guide.be.pdf
+    handling: supplied
+  # Kazakh
+  - path: pdf/2017-Scrum-Guide.kk.pdf
     handling: supplied
