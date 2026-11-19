@@ -8,25 +8,33 @@ type: guide
 keywords:
   - Scrum
   - Scrum Guide
-changes_from: 2010.2
+changes_from: 2011.7
 # TODO: author the `changes` entries for this edition. See docs/specification.md 5.6.
-# changes:
-#   - title: ...
-#     content: |
-#       ...
 ---
 
-<div class="pending-licence" markdown="1">
+> *The Scrum Guide — The Definitive Guide to Scrum: The Rules of the Game* — October 2011.
+> Developed and sustained by Ken Schwaber and Jeff Sutherland.
+>
+> **This edition's text is not reproduced here.** The document reserves all rights, so
+> this site links it rather than re-hosting it. The notice it carries is quoted at the
+> foot of this page, and the full reasoning is in `docs/licence-review.md`.
 
-**Text not published here.** The October 2011 Scrum Guide reserves all rights, so this site
-does not reproduce it.
+## What this edition is
 
-The document carries the notice **"© 1991-2011 Ken Schwaber and Jeff Sutherland, All Rights
-Reserved"** on every page, and no licence that would permit re-hosting. The Creative Commons
-Attribution ShareAlike licence first appears on the July 2013 edition and is not assumed to
-apply backwards. The per-edition record is in `docs/licence-review.md`.
+A tidying release three months after July 2011. The publishers' own revision history calls it "a minor release with mostly cosmetic changes" to naming, grammar and terminology, and records that there were no substantive changes to Scrum itself.
 
-The Scrum Guide is the work of Ken Schwaber and Jeff Sutherland.
-The canonical source is <https://scrumguides.org/>.
+Its acknowledgements credit David Starr with the editorial work on this version. It is the last edition before the guide moves to Creative Commons.
 
-</div>
+## Read this edition
+
+Scrum.org no longer serves this edition. The file it served at the time is preserved by the Internet Archive.
+
+- [Scrum Guide, October 2011 (PDF)](https://web.archive.org/web/20111027042653id_/http://www.scrum.org/storage/scrumguides/Scrum_Guide.pdf)
+
+The guide as it stands today is at [scrumguides.org](https://scrumguides.org/).
+
+---
+
+© 1991-2011 Ken Schwaber and Jeff Sutherland, All Rights Reserved
+
+That notice is the document's own. It is quoted here, as a fact about the edition; the document it governs is not reproduced on this site.

@@ -12,11 +12,20 @@ and the Nexus Guide.
 
 ## Summary across all three guides
 
-| Guide | Editions published | Editions withheld |
+Every published version of every guide has a page on this site. Where the licence allows it,
+that page carries the edition's full text. Where it does not, the page presents the edition —
+what it is, where it sits in the lineage, the notice it carries — and links the publishers'
+own document instead of re-hosting it.
+
+| Guide | Text reproduced | Presented, text not reproduced |
 |---|---|---|
-| The Scrum Guide | 2013.7, 2016.7, 2017.11, 2020.11 | 2010.2, 2011.10 |
+| The Scrum Guide | 2013.7, 2016.7, 2017.11, 2020.11 | 2009.11, 2010.2, 2011.7, 2011.10 |
 | Kanban Guide for Scrum Teams | 2018.2, 2018.4, 2019.9, 2021.1 | none |
 | The Nexus Guide | 2018.1, 2021.1 | 2015.8 |
+
+In all three guides the split falls at the same place: the earliest editions reserve all
+rights, and from one release onward the publishers moved to Creative Commons Attribution
+ShareAlike 4.0 and have stayed there.
 
 ---
 
@@ -24,29 +33,37 @@ and the Nexus Guide.
 
 ## Result
 
+Eight published versions, all eight presented on the site.
+
 | Edition | Published | Notice in the document | Decision |
 |---|---|---|---|
-| `2010.2` | February 2010 | © 2008-2010 Ken Schwaber and Jeff Sutherland, All Rights Reserved | **Do not publish** |
-| `2011.10` | October 2011 | © 1991-2011 Ken Schwaber and Jeff Sutherland, All Rights Reserved | **Do not publish** |
+| `2009.11` | November 2009 | © 2008-2009 Ken Schwaber and Jeff Sutherland, All Rights Reserved | **Do not reproduce** |
+| `2010.2` | February 2010 | © 2008-2010 Ken Schwaber and Jeff Sutherland, All Rights Reserved | **Do not reproduce** |
+| `2011.7` | July 2011 | © 1991-2011 Ken Schwaber and Jeff Sutherland, All Rights Reserved | **Do not reproduce** |
+| `2011.10` | October 2011 | © 1991-2011 Ken Schwaber and Jeff Sutherland, All Rights Reserved | **Do not reproduce** |
 | `2013.7` | July 2013 | ©2014 Scrum.Org and ScrumInc. — CC BY-SA 4.0 | **Publish** |
 | `2016.7` | July 2016 | ©2016 Scrum.Org and ScrumInc. — CC BY-SA 4.0 | **Publish** |
 | `2017.11` | November 2017 | ©2017 Ken Schwaber and Jeff Sutherland — CC BY-SA 4.0 | **Publish** |
 | `2020.11` | November 2020 | © 2020 Ken Schwaber and Jeff Sutherland — CC BY-SA 4.0 | **Publish** |
 
 Four editions carry a Creative Commons Attribution ShareAlike 4.0 grant and are reproduced in
-full, with the notice each one carries reproduced at the foot of its page. Two reserve all
-rights and are not reproduced; those pages keep their placeholder and state the finding.
+full, with the notice each one carries reproduced at the foot of its page. The four before
+them reserve all rights. Their pages present the edition and link the publishers' own document;
+they do not carry its text.
 
 ## Sources
 
 Only the publishers' own files were used — scrumguides.org for the four editions it still
-serves, and the Internet Archive's copies of scrum.org's own files for the two editions no
+serves, and the Internet Archive's copies of scrum.org's own files for the four editions no
 publisher serves any more. No third-party reproduction was used. SHA-256 is given so that a
-reviewer can confirm they are looking at the same bytes.
+reviewer can confirm they are looking at the same bytes. Each of these URLs is also the link
+the corresponding edition page gives a reader.
 
 | Edition | Source | SHA-256 |
 |---|---|---|
+| `2009.11` | <https://web.archive.org/web/20091210231856id_/http://www.scrum.org/storage/scrumguides/Scrum%20Guide.pdf> | `966d21b400f669080c5d6486d16e080e3c37da6ab9fb2f1dd137a5118507a732` |
 | `2010.2` | <https://web.archive.org/web/20110728010023id_/http://www.scrum.org/storage/scrumguides/Scrum%20Guide.pdf> | `c3b2568215b90c75de2ac91b4b7c648d26084c69f5350391e4558fd41cc4893c` |
+| `2011.7` | <https://web.archive.org/web/20110928175344id_/http://www.scrum.org/storage/scrumguides/Scrum%20Guide%20-%202011.pdf> | `38131bd11fcbae3f10e3c9a64d03d996d8c4a726655179fba3680fe1fed1f7d2` |
 | `2011.10` | <https://web.archive.org/web/20111027042653id_/http://www.scrum.org/storage/scrumguides/Scrum_Guide.pdf> | `b3c3e0651eef19d6090b47a629e261518fe3e6495b0d3853800c99fc63ebb3fc` |
 | `2013.7` | <https://scrumguides.org/docs/scrumguide/v1/Scrum-Guide-US.pdf> | `7912c4d861e987617534ed3a9fbe37d7303223e765dfffb28a5bb41f1ccf564a` |
 | `2016.7` | <https://scrumguides.org/docs/scrumguide/v2016/2016-Scrum-Guide-US.pdf> | `2fb3730ac92667d5d9fdaab16fff2c70d1f3b24dea374414a4e7d4069d65c4c8` |
@@ -59,35 +76,77 @@ Supporting documents, not reproduced on the site:
 |---|---|---|
 | July 2013 edition as served in October 2014, carrying the earlier all-rights-reserved notice | <https://web.archive.org/web/20141030223221id_/http://www.scrumguides.org/docs/scrumguide/v1/Scrum-Guide-US.pdf> | `ee1391ae486ff09fa5b50a925238bb2bc13b6ad7b5b4154ef7cb7b99ff2fe0c6` |
 | Scrum Guide Revision History, as served November 2011 | <https://web.archive.org/web/20111112001058id_/http://www.scrum.org/storage/scrumguides/Scrum_Guide_Revision_History.pdf> | `a01566bb8fc43b62d48bd9b4aee01f056b29f17ff0275d260a6c30b2a0bcc010` |
-| November 2009 Scrum Guide, the edition that precedes February 2010 | <https://web.archive.org/web/20100215002556id_/http://www.scrum.org/storage/scrumguides/Scrum%20Guide.pdf> | `966d21b400f669080c5d6486d16e080e3c37da6ab9fb2f1dd137a5118507a732` |
 
-A caution on finding the two early editions. scrumguides.org serves nothing before July 2013,
+A caution on finding the four early editions. scrumguides.org serves nothing before July 2013,
 and scrum.org's old `storage/scrumguides/` paths were reused as each edition superseded the
-last, so the filename does not identify the edition. Each candidate was therefore identified
-by the date on its own title page, not by its URL or capture date:
+last, so the filename does not identify the edition, and neither does the capture date. Each
+candidate was identified by the date printed on its own title page:
 
-- `Scrum Guide.pdf` captured 15 February 2010 is still the **November 2009** document.
-- `Scrum Guide.pdf` captured 28 July 2011 is the **February 2010** document.
+- `Scrum Guide.pdf` captured 10 December 2009 **and** 15 February 2010 is the **November 2009**
+  document — the February capture still served the old file.
+- `Scrum Guide.pdf` captured 28 July 2011 is the **February 2010** document, which was still
+  the current one at that date.
+- `Scrum Guide - 2011.pdf` captured 28 September 2011 is the **July 2011** document.
 - `Scrum_Guide.pdf` captured 27 October 2011 is the **October 2011** document.
+
+Those four URLs are each a distinct document; the capture dates of two of them fall a year or
+more after the edition they serve.
 
 ## Per-edition findings
 
-### 2010.2 — February 2010 — do not publish
+### 2009.11 — November 2009 — do not reproduce
 
-Title page: "February 2010 / Scrum: Developed and sustained by Ken Schwaber and Jeff
-Sutherland". The page footer, on every page, reads in full:
+Cover: "Scrum Guide™ / November 2009 / Scrum: Developed and sustained by Ken Schwaber and Jeff
+Sutherland", over the Scrum.org logo. The page footer reads in full:
+
+> © 2008-2009 Ken Schwaber and Jeff Sutherland, All Rights Reserved
+
+The only copyright statement in the document, and no Creative Commons grant, so the text is not
+reproduced.
+
+**On whether this is a version of the Scrum Guide at all.** The cover is titled *Scrum Guide*,
+Scrum.org served it at the same `storage/scrumguides/Scrum Guide.pdf` URL that later served the
+February 2010 edition, and the authors are the same. Against that: the November 2020 edition
+opens "We wrote the first version of the Scrum Guide in 2010", and the publishers' public
+revision history begins with the changes between 2010 and 2011. The document is presented here
+as the November 2009 edition because it exists and carries the name; its page says plainly that
+the authors date the first Scrum Guide to 2010. If the site would rather start the lineage in
+February 2010, deleting this one folder does it.
+
+### 2010.2 — February 2010 — do not reproduce
+
+Cover: "Scrum / February 2010 / Scrum: Developed and sustained by Ken Schwaber and Jeff
+Sutherland" — note the cover of this one says only *Scrum*, where November 2009 said *Scrum
+Guide*. The page footer, on every page, reads in full:
 
 > © 2008-2010 Ken Schwaber and Jeff Sutherland, All Rights Reserved
 
 That is the only copyright or licence statement in the document. There is no Creative Commons
 grant, no permission to copy, redistribute or adapt, and no end note qualifying the reservation.
-"All Rights Reserved" is the opposite of a re-hosting permission, so the body is not published.
-The edition page keeps its placeholder, names the authors and links the canonical source.
+"All Rights Reserved" is the opposite of a re-hosting permission, so the text is not reproduced.
+Its page presents the edition, names the authors and links the document.
 
 The publishers do not serve this document at all today, so there is also no later re-publication
 of it under other terms to rely on.
 
-### 2011.10 — October 2011 — do not publish
+### 2011.7 — July 2011 — do not reproduce
+
+Title page: "The Scrum Guide / The Definitive Guide to Scrum: The Rules of the Game / July 2011
+/ Developed and sustained by Ken Schwaber and Jeff Sutherland" — this edition introduces the
+title and subtitle the guide still carries. The page footer reads in full:
+
+> © 1991-2011 Ken Schwaber and Jeff Sutherland, All Rights Reserved
+
+No Creative Commons grant, so the text is not reproduced.
+
+This edition was missing from the site's original edition set, which went straight from 2010.2
+to 2011.10. The publishers' own Scrum Guide Revision History, as served in November 2011, names
+it as a release of its own: "July 2011 Release. This version is an update from the previous
+version, February 2010", and describes it as the substantive one, with October 2011 following as
+"a minor release with mostly cosmetic changes". Omitting it would have hidden the release where
+most of the early change actually happened.
+
+### 2011.10 — October 2011 — do not reproduce
 
 Title page: "The Scrum Guide / The Definitive Guide to Scrum: The Rules of the Game / October
 2011 / Developed and sustained by Ken Schwaber and Jeff Sutherland". The page footer, on every
@@ -204,22 +263,22 @@ examples are from the Scrum Guide; the Kanban and Nexus pages follow the same th
    "Ken Schwaber & Jeff Sutherland November 2020" signature that the PDF prints after the
    Purpose section and the publishers' own HTML omits.
 
-## Two things this review turned up, for someone else to decide
+## Two editions this review added to the lineage
 
-1. **A July 2011 edition is missing from the site.** The Scrum Guide Revision History, as the
-   publishers served it in November 2011, lists a **July 2011 release** between February 2010
-   and October 2011, and describes it as "a significant update with many changes" — release
-   planning, release burndown and the pigs-and-chickens metaphor removed, commitment replaced
-   by forecast, "Team" renamed "Development Team", Product Backlog ordered rather than
-   prioritised. October 2011 is then called "a minor release with mostly cosmetic changes". The
-   site's edition set (specification §5.3) goes 2010.2 → 2011.10 and omits 2011.7. That is an
-   editorial decision to take knowingly, not a gap to fill silently. Its licence would need the
-   same check, and the February 2010 and October 2011 findings above suggest the answer would be
-   the same.
-2. **A November 2009 document exists.** scrum.org served it as `Scrum Guide.pdf` until some time
-   after February 2010, and it predates what the site calls the first edition. It carries
-   "© 2008-2009 Ken Schwaber and Jeff Sutherland, All Rights Reserved". Whether the lineage
-   starts in November 2009 or February 2010 is a question for the site, not for this review.
+The site's original edition set (specification §5.3) listed six editions, running 2010.2 →
+2011.10 → 2013.7 → 2016.7 → 2017.11 → 2020.11. This review found two more published documents
+and both now have pages:
+
+1. **`2011.7`, July 2011.** Named as a release in its own right by the publishers' own revision
+   history, and described there as the substantive one of the two 2011 releases. The original
+   set jumped from February 2010 to October 2011, which hid it.
+2. **`2009.11`, November 2009.** Titled *Scrum Guide* on its cover and served by Scrum.org at
+   the Scrum Guide URL, but predating the date the authors themselves give for the first Scrum
+   Guide. Presented, with that tension stated on the page.
+
+**Specification §5.3 and §5.5 now understate what the site holds** — §5.3 lists six Scrum Guide
+editions where there are eight, and §5.5 does not list the Nexus Guide at all. Those are
+editorial documents and were left for their owner to update.
 
 ---
 
@@ -347,6 +406,20 @@ for this site; it is a description of the diagram, not text from the document.
 ---
 
 # Method, and what applies to all three guides
+
+## What an edition page carries when the text cannot be reproduced
+
+Five editions reserve all rights. Each still has a full page, because the lineage this site
+presents is not honest with gaps in it. Those pages carry:
+
+- the edition's own cover title, subtitle, date and byline;
+- what the edition is and where it sits in the lineage, drawn from the publishers' own revision
+  histories and attributed to them, with any quotation short;
+- a link to the publishers' own file, so a reader can go and read the edition;
+- the copyright notice the document carries, quoted as a fact about the edition, and a line
+  saying the document it governs is not reproduced here.
+
+What those pages do not carry is the guide's text, in whole or in part.
 
 ## Share-alike
 

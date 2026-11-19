@@ -12,17 +12,29 @@ keywords:
 # TODO: author the `changes` entries for this edition. See docs/specification.md 5.6.
 ---
 
-<div class="pending-licence" markdown="1">
+> *Nexus™ Guide — The Definitive Guide to Nexus: The exoskeleton of scaled Scrum development* — August 2015.
+> Developed and sustained by Ken Schwaber and Scrum.org.
+>
+> **This edition's text is not reproduced here.** The document reserves all rights, so
+> this site links it rather than re-hosting it. The notice it carries is quoted at the
+> foot of this page, and the full reasoning is in `docs/licence-review.md`.
 
-**Text not published here.** The August 2015 Nexus Guide reserves all rights, so this site
-does not reproduce it.
+## What this edition is
 
-The document carries the notice **"Copyright Scrum.org, 2015 All Rights Reserved"** and no
-licence that would permit re-hosting. The Creative Commons Attribution ShareAlike licence
-first appears on the January 2018 edition and is not assumed to apply backwards. The
-per-edition record is in `docs/licence-review.md`.
+The first Nexus Guide, and the only one that calls Nexus "the exoskeleton of scaled Scrum development". The January 2018 edition replaces that description with *The Definitive Guide to scaling Scrum with Nexus: The Rules of the Game*.
 
-Nexus was created by Ken Schwaber and the Nexus Guide is published by Scrum.org.
-The canonical source is <https://www.scrum.org/resources/nexus-guide>.
+Scrum.org's own change history records three releases of this guide — 2015, 2018 and 2021 — and nothing between them.
 
-</div>
+## Read this edition
+
+Scrum.org no longer links this edition from its Nexus Guide page, but the file is still served from its own file store.
+
+- [Nexus Guide v1.1, August 2015 (PDF)](https://s3.amazonaws.com/scrumorg-website-prod/drupal/2016-09/NexusGuide%20v1.1.pdf)
+
+The guide as it stands today is at [scrum.org](https://www.scrum.org/resources/nexus-guide).
+
+---
+
+Copyright Scrum.org, 2015 All Rights Reserved
+
+That notice is the document's own. It is quoted here, as a fact about the edition; the document it governs is not reproduced on this site.

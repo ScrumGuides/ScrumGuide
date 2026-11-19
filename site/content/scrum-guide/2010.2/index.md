@@ -8,24 +8,33 @@ type: guide
 keywords:
   - Scrum
   - Scrum Guide
+changes_from: 2009.11
 # TODO: author the `changes` entries for this edition. See docs/specification.md 5.6.
-# changes:
-#   - title: ...
-#     content: |
-#       ...
 ---
 
-<div class="pending-licence" markdown="1">
+> *Scrum* — February 2010.
+> Scrum: Developed and sustained by Ken Schwaber and Jeff Sutherland. Published by Scrum.org.
+>
+> **This edition's text is not reproduced here.** The document reserves all rights, so
+> this site links it rather than re-hosting it. The notice it carries is quoted at the
+> foot of this page, and the full reasoning is in `docs/licence-review.md`.
 
-**Text not published here.** The February 2010 Scrum Guide reserves all rights, so this site
-does not reproduce it.
+## What this edition is
 
-The document carries the notice **"© 2008-2010 Ken Schwaber and Jeff Sutherland, All Rights
-Reserved"** on every page, and no licence that would permit re-hosting. The Creative Commons
-Attribution ShareAlike licence first appears on the July 2013 edition and is not assumed to
-apply backwards. The per-edition record is in `docs/licence-review.md`.
+The edition the authors treat as the first Scrum Guide, and the baseline of the publishers' own public revision history, which begins with the changes between 2010 and 2011.
 
-The Scrum Guide is the work of Ken Schwaber and Jeff Sutherland.
-The canonical source is <https://scrumguides.org/>.
+It carries no table of contents and opens with its acknowledgements. The title *The Scrum Guide* and the subtitle *The Definitive Guide to Scrum: The Rules of the Game* arrive with the July 2011 edition.
 
-</div>
+## Read this edition
+
+Scrum.org no longer serves this edition. The file it served at the time is preserved by the Internet Archive.
+
+- [Scrum Guide, February 2010 (PDF)](https://web.archive.org/web/20110728010023id_/http://www.scrum.org/storage/scrumguides/Scrum%20Guide.pdf)
+
+The guide as it stands today is at [scrumguides.org](https://scrumguides.org/).
+
+---
+
+© 2008-2010 Ken Schwaber and Jeff Sutherland, All Rights Reserved
+
+That notice is the document's own. It is quoted here, as a fact about the edition; the document it governs is not reproduced on this site.
