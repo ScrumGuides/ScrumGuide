@@ -1,0 +1,31 @@
+{{/*
+  Override of the module's `guide/list.html` — a guide landing page.
+
+  A guide landing page renders its latest edition, so the site's own blocks
+  belong here too, against that edition's front matter rather than the section
+  page's. See `guide/single.html` for why the override sits at this level.
+
+  The module's version inlines the latest-edition search: newest guide page in
+  the section by date, falling back to the highest `YYYY.M` found in a URL. The
+  platform has since factored exactly that into
+  `openguide/editions/select-latest-guide-edition.html`, which is what this
+  calls. So this override is shorter than the template it replaces and shares
+  the platform's own selection rule rather than copying it.
+
+  Keep in step with `guide/single.html`.
+*/}}
+{{- define "main" }}
+  {{ partial "components/guide-nav-menu.html" . }}
+
+  {{- $latest := (partial "openguide/editions/select-latest-guide-edition.html" .).Page }}
+
+  {{- if $latest }}
+    {{ partial "components/guide/render-guide.html" $latest }}
+    {{ partial "components/guide-extras.html" $latest }}
+  {{- else }}
+    {{- errorf "guide/list.html: %q has no editions. A guide section needs at least one YYYY.M page bundle." .Path }}
+  {{- end }}
+{{- end }}
+{{- define "template" }}
+  guide/list.html (site override)
+{{- end }}

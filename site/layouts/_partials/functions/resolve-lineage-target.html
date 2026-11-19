@@ -1,0 +1,72 @@
+{{/*
+  Resolves one `derived_from` or `conforms_to` entry to something renderable.
+
+  An entry is one of two kinds, and which one it is follows from its keys:
+
+    internal   has `guide` — a top-level guide section on this site, with an
+               optional `edition`. Resolved at build time, so a reference to a
+               guide or edition that does not exist fails the build.
+
+    external   has `url` — a static record of a document on another site. Never
+               resolved over the network: doing so would make another site's
+               availability a dependency of this build. See
+               docs/specification.md §5.7.
+
+  Input   dict "Entry" <the front-matter entry> "From" <the page claiming it>
+  Output  dict "External" bool "Page" page|false "Title" string "URL" string
+                "Edition" string "Holder" string "Licence" string
+
+  Call with the claiming page as `From` so a failure names the file to fix.
+*/}}
+
+{{- $entry := .Entry }}
+{{- $from := .From }}
+{{- $edition := string ($entry.edition | default "") }}
+
+{{/* `errorf` logs and fails the build, but does not stop this template, so
+     every branch leaves a renderable result. Without one, the clear message
+     below is buried under a second failure from the caller dereferencing it. */}}
+{{- $result := dict
+  "External" false
+  "Page" false
+  "Title" ($entry.title | default $entry.guide | default $entry.url | default "unresolved")
+  "URL" ""
+  "Edition" $edition
+  "Holder" ($entry.holder | default "")
+  "Licence" ($entry.licence | default "")
+}}
+
+{{- if $entry.guide }}
+  {{- $path := cond (ne $edition "") (printf "/%s/%s" $entry.guide $edition) (printf "/%s" $entry.guide) }}
+  {{- $target := site.GetPage $path }}
+  {{- if not $target }}
+    {{- errorf "lineage: %s claims a relationship to %q, which is not a page on this site. Either the guide slug or the edition is wrong." $from.Path $path }}
+  {{- else }}
+    {{- $result = dict
+      "External" false
+      "Page" $target
+      "Title" ($entry.title | default $target.Title)
+      "URL" $target.RelPermalink
+      "Edition" $edition
+      "Holder" ($entry.holder | default "")
+      "Licence" ($entry.licence | default "")
+    }}
+  {{- end }}
+{{- else if $entry.url }}
+  {{- if not $entry.title }}
+    {{- errorf "lineage: %s has an external entry with no `title`. An external record needs a title, because nothing resolves it." $from.Path }}
+  {{- end }}
+  {{- $result = dict
+    "External" true
+    "Page" false
+    "Title" ($entry.title | default $entry.url)
+    "URL" $entry.url
+    "Edition" $edition
+    "Holder" ($entry.holder | default "")
+    "Licence" ($entry.licence | default "")
+  }}
+{{- else }}
+  {{- errorf "lineage: %s has an entry with neither `guide` (this site) nor `url` (another site). One of the two is required." $from.Path }}
+{{- end }}
+
+{{- return $result }}
