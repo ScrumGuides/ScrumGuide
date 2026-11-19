@@ -1,97 +1,36 @@
 # Credits for The Scrum Guide.
 #
-# Every record here is taken from the acknowledgements printed in the editions
-# themselves, not inferred. `contributions` lists the editions whose own pages
-# name that person, so a reader sees who was credited when.
+# Ken Schwaber and Jeff Sutherland wrote the Scrum Guide and are its only
+# credited authors. Every edition says so on its own cover: "Developed and
+# sustained by Ken Schwaber and Jeff Sutherland".
 #
-# Two spellings were corrected by the publishers themselves and are recorded
-# under the spelling they settled on: November 2009 prints "Jeff Mckenna" and
-# "Mike Beadle", which February 2010 onward prints as "Jeff McKenna" and
-# "Mike Beedle".
+# The acknowledgements inside each edition thank other people for their part
+# in Scrum itself over the years. They are not authors of this guide, so they
+# are not listed here.
 
 - name: Ken Schwaber
   role: creator
+  founder: true
   weight: 1
   contributions:
-    - 2009.11
-    - 2010.2
-    - 2011.7
-    - 2011.10
-    - 2013.7
-    - 2016.7
-    - 2017.11
-    - 2020.11
-
+    - "2009.11"
+    - "2010.2"
+    - "2011.7"
+    - "2011.10"
+    - "2013.7"
+    - "2016.7"
+    - "2017.11"
+    - "2020.11"
 - name: Jeff Sutherland
   role: creator
+  founder: true
   weight: 2
   contributions:
-    - 2009.11
-    - 2010.2
-    - 2011.7
-    - 2011.10
-    - 2013.7
-    - 2016.7
-    - 2017.11
-    - 2020.11
-
-- name: Jeff McKenna
-  role: contributor
-  contributions:
-    - 2009.11
-    - 2010.2
-    - 2011.7
-    - 2011.10
-    - 2013.7
-    - 2016.7
-    - 2017.11
-    - 2020.11
-
-- name: Mike Smith
-  role: contributor
-  contributions:
-    - 2009.11
-    - 2010.2
-    - 2011.7
-    - 2011.10
-    - 2013.7
-    - 2016.7
-    - 2017.11
-    - 2020.11
-
-- name: Chris Martin
-  role: contributor
-  contributions:
-    - 2009.11
-    - 2010.2
-    - 2011.7
-    - 2011.10
-    - 2013.7
-    - 2016.7
-    - 2017.11
-    - 2020.11
-
-- name: John Scumniotales
-  role: contributor
-  contributions:
-    - 2017.11
-    - 2020.11
-
-- name: Mike Beedle
-  role: contributor
-  contributions:
-    - 2009.11
-    - 2010.2
-
-- name: Martine Devos
-  role: contributor
-  contributions:
-    - 2009.11
-    - 2010.2
-
-# "provided key insights and editorial skills in formulating this version"
-- name: David Starr
-  role: contributor
-  contributions:
-    - 2011.7
-    - 2011.10
+    - "2009.11"
+    - "2010.2"
+    - "2011.7"
+    - "2011.10"
+    - "2013.7"
+    - "2016.7"
+    - "2017.11"
+    - "2020.11"
