@@ -161,8 +161,8 @@ Only the newest edition carries the `/latest` alias.
 | Param | On | Purpose |
 |---|---|---|
 | `conditions` | the 2026.1 edition | The normative conditions as structured data, so the edition page, the implementation pages and any future validation read one source |
-| `parent_edition` | implementation guide `_index.md` | Which edition's conditions it inherits — `scrum-guide@2026.1` |
-| `conditions_met` | implementation guide `_index.md` | Condition IDs the guide claims to satisfy |
+| `conforms_to` | implementation guide | Which edition's conditions it claims to satisfy, and which — §5.7 |
+| `derived_from` | any edition | Where the text came from, including guides on other sites — §5.7 |
 | `changes_from` | each edition | The edition this one supersedes — `2017.11` |
 | `changes` | each edition | What changed from that edition, as titled entries — §5.6 |
 
@@ -205,7 +205,7 @@ Each condition carries an ID, a one-sentence statement, what satisfying it means
 
 ### 5.5 Implementation guides
 
-Top-level guide bundles with `categories: [Implementation]` and `parent_edition: scrum-guide@2026.1`.
+Top-level guide bundles with `categories: [Implementation]` and a `conforms_to` claim against an edition of `scrum-guide` (§5.7).
 
 | Slug | Title | Run |
 |---|---|---|
@@ -213,9 +213,9 @@ Top-level guide bundles with `categories: [Implementation]` and `parent_edition:
 | `getting-started-for-scrum-teams` | Getting Started for Scrum Teams | 3 |
 | `ai-for-scrum-teams` | AI Guide for Scrum Teams | 3 |
 
-Each landing page shows which conditions it claims to satisfy and how, rendered from `conditions_met`. That claim is the unit a reviewer validates.
+Each landing page shows which conditions it claims to satisfy and how, rendered from `conforms_to`. That claim is the unit a reviewer validates.
 
-Note on run 1: the Kanban Guide for Scrum Teams ships before 2026.1 exists, so it has no conditions to claim yet. It goes up as a guide, and `conditions_met` is added in run 3 once the conditions are written. Ordering it this way is deliberate — it proves the two-guide site works before the hard editorial work starts.
+Note on run 1: the Kanban Guide for Scrum Teams ships before 2026.1 exists, so it has no conditions to claim yet. It goes up as a guide, and `conforms_to` is added in run 3 once the conditions are written. Ordering it this way is deliberate — it proves the two-guide site works before the hard editorial work starts.
 
 ### 5.6 What is generated, and by what
 
@@ -264,6 +264,80 @@ Why there rather than in `history/index.md`: the change set belongs to the editi
 | `guide.transcreate` / `transreconcile` / `transstatus` | Translation creation, reconciliation and status |
 
 Seeding the six historical editions in run 1 is `New-GuideEdition` plus pasting each guide's text, not a script of our own.
+
+### 5.7 Lineage: derivation and conformance are different things
+
+#### What the platform has today
+
+Two mechanisms, unreconciled:
+
+| Mechanism | Where | Does |
+|---|---|---|
+| `forked_from` | edition front matter | Drives the fork branch in the history timeline. In production: `open-guide-to-kanban/2025.7` → `the-kanban-guide/2025.5` |
+| `based_on` | PDF `cover.tex` only, label `pdf_based_on_label` | Prints a "Based on" line on the cover |
+
+Because they are separate, a guide's PDF cover and its web page can disagree about its parentage and nothing catches it.
+
+`forked_from` has two structural limits:
+
+- **Single parent.** A scalar string split on `/` into one section and one version.
+- **Same site only.** Resolution is `.Site.GetPage $forkSection`. It cannot reach another site.
+
+#### Two relationships, not one
+
+| | **Derivation** | **Conformance** |
+|---|---|---|
+| Claim | "These words came from there" | "This satisfies those conditions" |
+| Nature | Historical fact, licence obligation | Present-tense, assessable claim |
+| Direction | Backwards, fixed once published | Sideways, can be withdrawn |
+| Scope | Often cross-site | This site |
+| Modelled by OGP | `forked_from`, `based_on` | **nothing** |
+
+A future Kanban Guide for Scrum Teams is *derived from* The Kanban Guide — cross-site, carrying CC BY-SA obligations — and *conforms to* Scrum Guide 2026 — this site, by condition. Two parents, two verbs, and only one has a mechanism.
+
+The same is true of the relationship that exists today: Kanban Guide for Scrum Teams "inheriting" the 2020 Scrum Guide is conformance, not derivation. It does not reuse the 2020 text. So the relationship this site is actually built on is the one the platform does not model.
+
+#### The model
+
+**Copy is the floor, not the fallback.** CC BY-SA requires attribution *in the work*. Every guide states its lineage in prose and in the licence block whatever the metadata says. The Open Guide to Kanban already does this well; follow it.
+
+**Structured data, site-owned, from run 3:**
+
+```yaml
+# kanban-guide-for-scrum-teams/<edition>/index.md
+conforms_to:
+  - guide: scrum-guide
+    edition: 2026.1
+    conditions: [SG26-C1, SG26-C3, SG26-C7]
+
+derived_from:
+  - title: The Kanban Guide
+    edition: 2025.5
+    url: https://kanbanguides.org/the-kanban-guide/2025.5/
+    holder: Orderly Disruption Limited, Daniel S. Vacanti, Inc.
+    licence: CC BY-SA 4.0
+```
+
+`derived_from` is a **list**, and each entry is either an internal reference or an external record. Static external URLs are what make cross-site lineage work. OGP does emit a `pages.json` home output, so resolving another site's editions live at build time is technically possible — **do not**. It makes kanbanguides.org's availability a dependency of this site's build.
+
+Do not use `forked_from` here. It cannot express either of these cases, and §5.7.1 shows what happens when it is stretched.
+
+#### 5.7.1 A defect to avoid copying
+
+`scrum-guide-expanded/2026.1` in the Expansion Pack sets `forked_from: scrum-guide-expanded/2025.6` — its own section. Tracing `get-history-chain.html`: `forkSource` resolves to 2025.6, and `forkHistory` becomes every other edition **including 2026.1**. The timeline renders 2026.1 and 2025.6 twice.
+
+Sibling editions are discovered automatically by `get-all-versions`, so a self-referential `forked_from` is redundant as well as harmful. Not this repository's to fix; noted so the pattern is not repeated here.
+
+#### Presentation
+
+On a guide landing page, a **Lineage** block with two statements and deliberately different verbs:
+
+- *Adapted from* **The Kanban Guide** (May 2025) — © Orderly Disruption Limited, Daniel S. Vacanti, Inc., CC BY-SA 4.0. Links out.
+- *Conforms to* **Scrum Guide 2026** — satisfies SG26-C1, C3, C7. Links in, with per-condition detail.
+
+On the 2026.1 edition page, the reverse view: **Guides conforming to this edition**, computed across the site from `conforms_to`. That is the implementation list with something behind it rather than a category tag.
+
+**Keep conformance out of the history timeline.** The timeline is derivation. Mixing the two makes it unreadable.
 
 ---
 
@@ -345,19 +419,24 @@ ScrumGuide/
 │   ├── infrastructure.md                      # 1  Azure topology, auth, one-time token wiring
 │   ├── content-management.md                  # 1  how to add an edition or a guide
 │   ├── contributing.md                        # 2
+│   ├── ogp-proposals.md                       # 3  §12, written up for upstream
 │   └── decisions/
 │       ├── 001-adopt-openguideplatform.md     # 1
 │       ├── 002-2026-is-an-edition.md          # 1
-│       └── 003-bicep-provisioned-hosting.md   # 1
+│       ├── 003-bicep-provisioned-hosting.md   # 1
+│       ├── 004-flat-hugo-config.md            # 1  §8.8
+│       └── 005-derivation-vs-conformance.md   # 3  §5.7
 │
 ├── site/                                      #    Hugo source
 │   ├── go.mod                                 # 1  OGP Hugo module pin
 │   ├── go.sum                                 # 1
-│   ├── hugo.yaml                              # 1  base config
+│   ├── hugo.yaml                              # 1  base config — flat convention, §8.8
 │   ├── hugo.local.yaml                        # 1
 │   ├── hugo.preview.yaml                      # 1
 │   ├── hugo.canary.yaml                       # 1
 │   ├── hugo.production.yaml                   # 1
+│   │                                          #    NB: no config/ dir — it would silently
+│   │                                          #    override these. See §8.8 and §12.2.
 │   │
 │   ├── assets/
 │   │   └── css/
@@ -369,7 +448,10 @@ ScrumGuide/
 │   │       └── components/
 │   │           ├── guide-list.html            # 1  the two foundation guides
 │   │           ├── implementation-list.html   # 1  category-driven list
-│   │           └── conditions-table.html      # 2  renders `conditions` front matter
+│   │           ├── changes-list.html          # 1  renders `changes` front matter, §5.6
+│   │           ├── conditions-table.html      # 2  renders `conditions` front matter
+│   │           ├── lineage.html               # 3  "Adapted from" + "Conforms to", §5.7
+│   │           └── conforming-guides.html     # 3  reverse view on the 2026.1 page
 │   │
 │   ├── content/
 │   │   ├── _index.md                          # 1  homepage copy
@@ -543,6 +625,43 @@ Deliberately **not** in run 1. `Microsoft.Web/staticSites/customDomains` fails u
 - Install `gh extension install github/gh-actions-lock` before adoption; the installer runs scoped locking.
 - Deployment starts **disabled** on first install and is enabled deliberately.
 
+### 8.8 Hugo configuration: follow the platform convention
+
+This site uses flat `hugo.yaml` plus `hugo.{local,preview,canary,production}.yaml`, matching the other three sites. That is a deliberate choice against the better Hugo mechanism, for reasons worth recording.
+
+**Hugo's `config/` directory is better and is not new.** `config/_default/` merged with `config/<environment>/`, driven by `--environment`, splits configuration by concern:
+
+```text
+site/config/
+├── _default/{hugo,languages,menus,params,module}.yaml
+├── local/hugo.yaml
+├── preview/hugo.yaml
+├── canary/hugo.yaml
+└── production/hugo.yaml
+```
+
+The payoff is real: the Expansion Pack's `hugo.yaml` carries roughly a hundred lines of `languages:` for eleven languages in one file. `config/_default/languages.yaml` turns that wall back into an editable file, and this site will carry more translations, not fewer.
+
+**But the flat convention is hard-coded in the platform**, not in Hugo. OGP invokes:
+
+```text
+hugo --source <site> --config "hugo.yaml,hugo.<ring>.yaml" --environment <env> --destination <out>
+```
+
+in `Measure-ConsumerBaseline.ps1`, `Measure-ModuleRelocation.ps1`, `Measure-ModuleRepeatability.ps1` and `Measure-GuideStructureBaseline.ps1`, plus `.vscode/tasks.json`.
+
+**Measured on Hugo 0.164.0 extended**, because the interaction is not obvious:
+
+| Setup | Result |
+|---|---|
+| `config/` present, `--config hugo.yaml,hugo.canary.yaml` passed | **`config/` wins**; the flat files are silently ignored |
+| No `config/`, same flags | Flat files used, as OGP expects |
+| `config/` present, `--environment production` with no `config/production/` | Falls back to `config/_default/`; flat files still ignored |
+
+So adopting `config/` here would build successfully and quietly turn OGP's `--config` flag into a no-op. A **mixed** state is worse than either: anything left in `hugo.canary.yaml` would vanish with no error, and anyone debugging this site would read the platform's build and reason about files that are not being used.
+
+Being the one site that differs is the same tax avoided by not forking the theme. Follow the convention; raise the change upstream (§12.2).
+
 ---
 
 ## 9. Risks to settle before publishing
@@ -598,3 +717,34 @@ The proposition rests on conditions that can actually be assessed. A condition e
 | 4 | Submission process: contribution guide, validation checklist against the conditions, review workflow. |
 
 Run 1 has two independent tracks — infrastructure and content. The licence check (§9.1) gates only the content track.
+
+---
+
+## 12. Proposals to OpenGuidePlatform
+
+Both of these are platform changes, not site changes. This site proves them first and proposes them once the shape has stopped moving and there are two consumers. Until then it follows the platform's conventions rather than diverging quietly.
+
+### 12.1 Generalise lineage
+
+Three changes, in order:
+
+1. **`forked_from` → `derived_from` as a list**, each entry either an internal reference (`guide/edition`) or an external record (`title`, `edition`, `url`, `holder`, `licence`). This removes both current limits — single parent and same-site — and is the only way cross-site lineage can work without a build-time network dependency.
+2. **Keep `forked_from` as a deprecated alias** mapping to a single-entry `derived_from`, so the existing Open Guide to Kanban content keeps working untouched.
+3. **Point the PDF `based_on` at the same source**, so a cover page and a web page can no longer disagree.
+
+Worth doing alongside: reject or ignore a `forked_from` whose target section is the guide's own, which today silently duplicates the history timeline (§5.7.1).
+
+`conforms_to` stays site-owned for longer. It is specific to the proposition this site is testing, and it should not go upstream until the conditions exist and have survived contact with real implementation guides.
+
+### 12.2 Migrate to Hugo's `config/` directory
+
+The evidence in §8.8 makes this cheap, and the measured behaviour is the reason why: because `config/` silently wins over `--config`, **sites can migrate one at a time while OGP still passes the flag**. No flag day, no coordinated release.
+
+Proposed sequence:
+
+1. OGP accepts both layouts — change nothing in the build, since a migrated site already works.
+2. Sites migrate individually. The Expansion Pack benefits most: about a hundred lines of `languages:` move to `config/_default/languages.yaml`.
+3. Once all four sites have moved, drop `--config` from the four `Measure-*.ps1` scripts and `.vscode/tasks.json`, leaving `--environment` to do the work.
+4. Update the installer's managed-file list and `docs/using/first-adoption.md`.
+
+Step 1 costs nothing and unblocks the rest. The risk to call out in the proposal is the mixed state: a site with a `config/` directory *and* leftover `hugo.<ring>.yaml` files loses the latter silently. Migration must move everything or nothing, and the installer should warn when it sees both.
