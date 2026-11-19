@@ -1,6 +1,6 @@
 ---
 title: The Nexus Guide
-short_title: Nexus
+short_title: Scaling for Scrum Teams
 slug: nexus-guide
 Type: "guide"
 Layout: "root"

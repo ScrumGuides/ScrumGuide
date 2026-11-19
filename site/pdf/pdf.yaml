@@ -1,0 +1,16 @@
+# Site-level PDF defaults. The platform's own defaults sit under this; a guide
+# folder (pdf/<guide>/) and an edition folder (pdf/<guide>/<edition>/) override
+# it, and `downloads` may only be declared in an edition folder.
+#
+# Keep this file about presentation. What may be generated at all is a licence
+# question, answered per edition in docs/licence-review.md: only the editions
+# offered under Creative Commons carry their text here, so only those have a
+# PDF to generate from.
+papersize: a4
+geometry: margin=2.2cm
+fontsize: 11pt
+toc: true
+tocDepth: 2
+parts: [cover, licence, body, back]
+cover:
+  tagline: ""
