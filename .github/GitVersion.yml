@@ -1,0 +1,57 @@
+# GitVersion configuration.
+#
+# This file is not optional decoration. OpenGuidePlatform's dependency install
+# only fetches the GitVersion tool when it is present:
+#
+#   Install-GuideBuildDependencies.ps1
+#     if (Test-Path '.github/GitVersion.yml') { Install-GuideGitVersion ... }
+#
+# Without it the Dependencies step succeeds while installing nothing, and the
+# next step fails with "GitVersion is missing. Run ./build.ps1 Dependencies
+# before Prepare." — which points at the tool rather than at this file.
+#
+# It also selects the deployment ring. Resolve-GuideDeliveryContext maps the
+# pre-release label to a delivery target:
+#
+#   ''        -> production     (release/* below, label: "")
+#   'Preview' -> preview        (main below, label: preview)
+#   anything  -> canary
+#
+# plus a hard guard that a pull request always resolves to canary. So a push to
+# main deploys to preview, and production is reached only from a release branch.
+#
+# Keys here are GitVersion 6 form (label, is-main-branch, prevent-increment),
+# so the platform uses the file as-is rather than rewriting it through its
+# legacy-compatibility conversion.
+
+assembly-versioning-scheme: MajorMinorPatch
+mode: ContinuousDelivery
+next-version: 0.1.0
+branches:
+  main:
+    mode: ContinuousDelivery
+    increment: Patch
+    tracks-release-branches: true
+    regex: ^master$|^main$
+    label: preview
+    is-main-branch: true
+    prevent-increment:
+      of-merged-branch: false
+  release:
+    mode: ManualDeployment
+    increment: Patch
+    track-merge-target: false
+    regex: ^release(s)?[\/-]
+    source-branches:
+      - main
+    is-release-branch: true
+    label: ""
+    is-main-branch: false
+ignore:
+  sha: []
+merge-message-formats: {}
+commit-message-incrementing: Enabled
+major-version-bump-message: (\+semver:\s?(breaking|major))|(^[a-z]+(\([^\r\n)]+\))?!:)|(BREAKING[ -]CHANGE:)
+minor-version-bump-message: (\+semver:\s?(feature|minor))|(^feat(\([^\r\n)]+\))?:)
+patch-version-bump-message: (\+semver:\s?(fix|patch))|(^(fix|perf)(\([^\r\n)]+\))?:)
+no-bump-message: '\+semver:\s?(none|skip)'
