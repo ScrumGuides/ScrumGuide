@@ -1,0 +1,586 @@
+# Interface strings, Turkish.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Belgeler"
+
+- id: guides_section_title
+  translation: "Kılavuzlar"
+
+- id: implementations_section_title
+  translation: "Uygulama kılavuzları"
+
+- id: implementations_section_description
+  translation: "Scrum'ı belirli bir bağlamda kullanma yolları. Her biri Scrum'ın amacının içinde kalır ve bir duruma yönlendirme ekler - tek bir üründe birden çok takım, akışın yönetilmesi, işe başlamak - Scrum'ın istediğini değiştirmeden."
+
+- id: extensions_section_title
+  translation: "Genişletmeler"
+
+- id: extensions_section_description
+  translation: "Scrum'ın üstlendiğinin ötesine uzanan uygulamalar. Bir genişletme kendini Scrum olarak sunmaz ve onu değiştirmez; Scrum'ın açık bıraktığı bir soruyu üstlenir, örneğin bir ürünün sunduğu değerin ölçülmesini."
+
+- id: extensions_section_empty
+  translation: "Henüz yok."
+
+- id: foundation_section_title
+  translation: "Kılavuz"
+
+- id: history_page_title
+  translation: "Geçmiş"
+
+- id: translations_page_title
+  translation: "Çeviriler"
+
+- id: changes_section_title
+  translation: "Ne değişti"
+
+- id: changes_from_label
+  translation: "Şu sürümden değişiklikler"
+
+- id: lineage_section_title
+  translation: "Çizgi"
+
+- id: adapted_from_label
+  translation: "Şuradan uyarlandı"
+
+- id: conforms_to_label
+  translation: "Şuna uyar"
+
+- id: conforming_guides_title
+  translation: "Bu sürüme uyan kılavuzlar"
+
+- id: conditions_section_title
+  translation: "Koşullar"
+
+- id: condition_falsifier_label
+  translation: "Şu durumda sağlanmaz"
+
+- id: current_version_label
+  translation: "Şu anki sürüm"
+
+- id: older_version_label
+  translation: "Daha eski sürüm"
+
+- id: version_notice_older
+  translation: "Bu, bu kılavuzun şu anki sürümü değil."
+
+- id: view_latest_label
+  translation: "Şu anki sürümü görün"
+
+- id: read_time_label
+  translation: "dk okuma"
+
+- id: badge_english_only
+  translation: "Yalnızca İngilizce"
+
+- id: badge_english_only_title
+  translation: "Bu kılavuz bu dile henüz çevrilmedi."
+
+- id: badge_not_in_production
+  translation: "Üretimde değil"
+
+- id: badge_not_in_production_title
+  translation: "Bu kılavuz üretim yapısından çıkarılmıştır."
+
+- id: badge_not_in_preview
+  translation: "Ön izlemede değil"
+
+- id: badge_not_in_preview_title
+  translation: "Bu kılavuz ön izleme yapısından çıkarılmıştır."
+
+- id: licence_label
+  translation: "Lisans"
+
+- id: canonical_source_label
+  translation: "Yetkili kaynak"
+
+- id: pending_licence_check
+  translation: "Ana metin lisans denetimini bekliyor"
+
+- id: guide_join_discussion
+  translation: "Bu kılavuzu tartışın"
+
+- id: guide_version_current
+  translation: "Şu anki"
+
+- id: guide_version_latest
+  translation: "En yeni"
+
+- id: guide_version_select
+  translation: "Sürüm seçin"
+
+- id: guide_version_dropdown_label
+  translation: "Sürüm"
+
+- id: guide_historical_version_notice_title
+  translation: "Bu, şu anki sürüm değil."
+
+- id: guide_historical_version_notice_text
+  translation: "Bu kılavuzun daha eski bir sürümünü okuyorsunuz."
+
+- id: guide_historical_version_notice_link
+  translation: "Şu anki sürümü okuyun"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Ön izleme sitesinde görün"
+
+- id: guide_translation_preview_note
+  translation: "Çeviri ön izlemesi."
+
+- id: guide_translation_preview_message
+  translation: "Bu çeviri hâlâ gözden geçiriliyor ve eksik olabilir."
+
+- id: contributors_label
+  translation: "Katkıda bulunanlar"
+
+- id: translators_label
+  translation: "Çevirmenler"
+
+- id: reportTranslationError
+  translation: "Çeviri yanlışı bildirin"
+
+- id: nav_details
+  translation: "Bu kılavuz hakkında"
+
+- id: nav_translations
+  translation: "Çeviriler"
+
+- id: download_table_written_by
+  translation: "Yazan"
+
+- id: download_table_contributed_by
+  translation: "Katkıda bulunan"
+
+- id: download_table_status
+  translation: "Durum"
+
+- id: download_discussion_action
+  translation: "Tartış"
+
+- id: download_preview_action
+  translation: "Ön izle"
+
+- id: download_preview_status
+  translation: "Ön izlemede"
+
+- id: download_preview_description
+  translation: "Bu çeviri henüz yayımlanmadı ve ön izleme sitesinde okunabilir."
+
+- id: download_preview_translations
+  translation: "Ön izlemedeki çeviriler"
+
+- id: download_visit_preview
+  translation: "Ön izleme sitesini açın"
+
+- id: download_pdf_only_status
+  translation: "Yalnızca PDF"
+
+- id: download_stub_status
+  translation: "Başlanmadı"
+
+- id: site_wordmark
+  translation: "Scrum Kılavuzları"
+
+- id: nav_the_guide
+  translation: "Kılavuz"
+
+- id: nav_versions
+  translation: "Sürümler"
+
+- id: nav_implementations
+  translation: "Uygulamalar"
+
+- id: guide_pdf_not_available
+  translation: "PDF yok"
+
+- id: share_label
+  translation: "Paylaş"
+
+- id: share_copy_link
+  translation: "Bağlantıyı kopyala"
+
+- id: share_copied
+  translation: "Panoya kopyalandı!"
+
+- id: share_close
+  translation: "Kapat"
+
+- id: role_creator
+  translation: "Ortaya koyan"
+
+- id: role_contributor
+  translation: "Katkıda bulunan"
+
+- id: role_reviewer
+  translation: "Gözden geçiren"
+
+- id: role_translator
+  translation: "Çevirmen"
+
+- id: role_involved
+  translation: "Katılan"
+
+- id: and
+  translation: "ve"
+
+- id: breadcrumb_home
+  translation: "Ana sayfa"
+
+- id: read_online_title
+  translation: "Çevrimiçi okuyun"
+
+- id: read_online_description
+  translation: "Kılavuzun bütününe etkileşimli özellikler ve kolay gezinmeyle dijital olarak erişin."
+
+- id: read_online_button
+  translation: "Çevrimiçi okuyun"
+
+- id: translations_title
+  translation: "Çeviriler"
+
+- id: translations_description
+  translation: "Bu kılavuzu birkaç dilde okuyun ve çevirilere yardım edin."
+
+- id: translations_button
+  translation: "Çevirileri görün"
+
+- id: history_title
+  translation: "Geçmiş"
+
+- id: history_description
+  translation: "Bu kılavuzun gelişimini ve geçmişini izleyin."
+
+- id: history_button
+  translation: "Geçmişi görün"
+
+- id: what_is_guides_title
+  translation: "{{ .Site.Title }} nedir?"
+
+- id: open_source_title
+  translation: "Açık kaynak, toplulukça yürütülüyor"
+
+- id: open_source_description
+  translation: "Bu, topluluğun işbirliğiyle yaşayan bir açık kaynak projedir. İyileştirmeler önermek, sorun bildirmek ya da içerikle katkıda bulunmak isterseniz hoş karşılanırsınız. Bazı kılavuzlar katkı almıyor, ama başvuru olarak burada duruyor. Birlikte bu kaynakları dünyanın her yerindeki uygulayanlar ve iş akışı verimliliğini ile değer teslimini iyileştirmek isteyen herkes için daha değerli kılabiliriz."
+
+- id: at_a_glance_title
+  translation: "Kısaca"
+
+- id: join_discussion_button
+  translation: "Tartışmaya katılın"
+
+- id: join_discussion_title
+  translation: "{{ .Site.Title }} üzerine tartışmaya katılın"
+
+- id: join_discussion_description
+  translation: "Toplulukla buluşun, gördüklerinizi paylaşın ve {{ .Site.Title }} için geleceği biçimlendirmeye yardım edin. Bu kılavuzların uygulayanlar için eksiksiz bir bütün olması için katkılarınız vazgeçilmezdir."
+
+- id: guides_intro_text
+  translation: "İşleyen uygulamaları ve onları her süreçte iş akışını ve değer teslimini en iyi duruma getirmek için nasıl kullanacağınızı öğrenin. Bilgi ve iyi uygulamaların bütünü burada. {{ .Site.Title }}, kullanışlı kılavuzların evidir: bilgi işinde kanıtlanmış yöntemleri kullanmak için ücretsiz, toplulukça yürütülen bir başvuru kaynağı. Kılavuzlar akışı iyileştirmek, değer teslimini en iyi duruma getirmek ve takımın sürdürülebilirliğini güçlendirmek için gereken temel uygulamaları ve ölçüleri sınırlar. Sektörler arasında ölçeklenebilir benimsemeyi destekler ve diğer çağdaş iş akışı yöntemlerini tamamlar."
+
+- id: guide_content_not_found
+  translation: "Kılavuz içeriği bulunamadı"
+
+- id: nav_read_guide
+  translation: "Kılavuzu okuyun"
+
+- id: nav_history
+  translation: "Geçmiş"
+
+- id: nav_overview
+  translation: "Genel bakış"
+
+- id: guide_pdf_download_button
+  translation: "PDF indir"
+
+- id: guide_pdf_intro_text
+  translation: "Bu kılavuzu PDF olarak da indirip çevrimdışı okuyabilirsiniz."
+
+- id: guide_pdf_intro_link
+  translation: "PDF'i indirin"
+
+- id: download_page_title
+  translation: "Resmî {{ .Title }}'nu okuyun ve indirin"
+
+- id: download_page_description
+  translation: "{{ .Title }} burada şunlar tarafından tanımlanır:"
+
+- id: download_page_originators
+  translation: ", {{ .Title }}'nu ortaya koyanlar."
+
+- id: download_translations_provided
+  translation: "Çeviriler aşağıdaki yardıma hazır kişi ve gruplar tarafından sağlanmıştır. İndirmek istediğiniz dili seçin."
+
+- id: download_translation_error
+  translation: "{{ .Title }} içinde çeviri yanlışı olduğunu düşündüğünüz bir şey bulursanız, doğrudan o çevirmene başvurun. Daha fazla yardıma gerek duyarsanız bize şu adresten ulaşın:"
+
+- id: download_official_version
+  translation: "Resmî sürüm"
+
+- id: download_community_translations
+  translation: "Topluluk çevirileri"
+
+- id: download_current_version_released
+  translation: "{{ .Site.Title }} için şu anki resmî sürüm şu tarihte çıktı:"
+
+- id: download_older_translations_notice
+  translation: "{{ .Site.Title }} için daha eski çeviriler en yeni bilgileri taşımayabilir."
+
+- id: download_table_language
+  translation: "Dil"
+
+- id: download_table_translations_by
+  translation: "Çeviren"
+
+- id: download_table_action
+  translation: "İşlem"
+
+- id: download_official_current_version
+  translation: "Resmî şu anki sürüm"
+
+- id: download_button_text
+  translation: "İndir"
+
+- id: download_coming_soon
+  translation: "Yakında"
+
+- id: download_missing_language
+  translation: "Diliniz eksik mi?"
+
+- id: download_contribute_translation
+  translation: "Yeni bir çeviriyle katkıda bulunun ve topluluğa yardım edin."
+
+- id: download_add_translation
+  translation: "Çeviri ekleyin"
+
+- id: download_community_contributors
+  translation: "Topluluktan katkıda bulunanlar"
+
+- id: contributors_description
+  translation: "Aşağıdaki katkıda bulunanlar bütün kılavuzlardan ve bütün sürümlerden toplanmıştır."
+
+- id: read_online_action
+  translation: "Çevrimiçi okuyun"
+
+- id: guide_table_of_contents
+  translation: "İçindekiler"
+
+- id: guide_coming_soon
+  translation: "Bu kılavuz geliyor. Takipte kalın."
+
+- id: guide_no_content_available
+  translation: "Bu dilde henüz içerik yok."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) yok"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) yok"
+
+- id: guide_coming_label
+  translation: "Geliyor:"
+
+- id: guide_updated_label
+  translation: "Güncellendi:"
+
+- id: guide_version_label
+  translation: "Sürüm:"
+
+- id: guide_content_unavailable_note
+  translation: "Not:"
+
+- id: guide_content_unavailable_message
+  translation: "Bu sayfanın içeriği henüz {{ .Language }} dilinde yok. Aşağıda kılavuzun öntanımlı içeriği gösteriliyor."
+
+- id: guide_content_unavailable_title
+  translation: "İçerik yok:"
+
+- id: guide_content_unavailable_description
+  translation: "Bu sayfanın içeriği yüklenemedi ve gösterilecek öntanımlı içerik yok. Lütfen bildirin:"
+
+- id: guide_report_issue_link
+  translation: "Bu sorunu bildirin"
+
+- id: guide_report_issue_message
+  translation: "ki düzeltebilelim."
+
+- id: guide_back_to_home
+  translation: "← Ana sayfaya dön"
+
+- id: not_sure_which_to_use_title
+  translation: "Hangisini kullanacağınızdan emin değil misiniz?"
+
+- id: get_started_title
+  translation: "Başlayın"
+
+- id: community_driven_label
+  translation: "Topluluk yürütüyor"
+
+- id: coming_soon
+  translation: "Yakında"
+
+- id: purpose_title
+  translation: "Amaç"
+
+- id: ethos_title
+  translation: "Çıkış noktası"
+
+- id: audience_title
+  translation: "Kimler için"
+
+- id: use_case_title
+  translation: "Ne zaman kullanılır"
+
+- id: content_title
+  translation: "İçerik"
+
+- id: update_model_title
+  translation: "Nasıl güncellenir"
+
+- id: guide_overview_title
+  translation: "Kılavuza genel bakış"
+
+- id: guide_overview_description
+  translation: "Bu kılavuzun ana çizgileri"
+
+- id: when_to_use_title
+  translation: "Bu kılavuzu ne zaman kullanmalı"
+
+- id: when_to_use_description
+  translation: "Bağlamınıza uyan yaklaşımı seçin"
+
+- id: quick_decision_guide_title
+  translation: "Hızlı seçim"
+
+- id: getting_started_title
+  translation: "Başlangıç"
+
+- id: for_practitioners_title
+  translation: "Uygulayanlar için"
+
+- id: current_information_title
+  translation: "Şu anki bilgiler"
+
+- id: current_information_description
+  translation: "Sürüm ayrıntıları ve topluluktan katkıda bulunanlar"
+
+- id: current_version_title
+  translation: "Şu anki sürüm"
+
+- id: current_version_updated_label
+  translation: "Güncellendi"
+
+- id: current_version_description
+  translation: "Bu, kılavuzun şimdi geçerli olan sürümüdür."
+
+- id: read_current_version_button
+  translation: "Şu anki sürümü okuyun"
+
+- id: version_info_not_available
+  translation: "Sürüm bilgisi yok"
+
+- id: contributors_title
+  translation: "Katkıda bulunanlar"
+
+- id: contributors_description_card
+  translation: "Bu kılavuzu biçimlendiren topluluk üyeleri"
+
+- id: contributors_thank_you
+  translation: "Bu kılavuzu daha iyi kılan herkese teşekkürler."
+
+- id: join_community_button
+  translation: "Topluluğa katılın"
+
+- id: no_contributors_found
+  translation: "Katkıda bulunan bulunamadı"
+
+- id: version_history_title
+  translation: "Sürüm geçmişi"
+
+- id: version_history_description
+  translation: "Önceki sürümler ve gelişimleri"
+
+- id: no_previous_versions_title
+  translation: "Önceki sürüm yok"
+
+- id: no_previous_versions_description
+  translation: "Bu kılavuz henüz başladı. Önceki sürümler için daha sonra uğrayın."
+
+- id: what_is_guide_title
+  translation: "Bu kılavuz nedir?"
+
+- id: license_title
+  translation: "Lisans"
+
+- id: view_on_github_button
+  translation: "GitHub'da görün"
+
+- id: current_open_guide_label
+  translation: "Şu anki Open Guide"
+
+- id: active_status_label
+  translation: "Yürürlükte"
+
+- id: current_fork_label
+  translation: "Şu anki fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Şuradan forklandı:"
+
+- id: forked_from_indicator
+  translation: "Şuradan forklandı:"
+
+- id: this_is_fork_label
+  translation: "Bu bir fork"
+
+- id: available_languages_label
+  translation: "Var olan diller"
+
+- id: pdf_downloads_label
+  translation: "PDF indirmeleri"
+
+- id: living_document_updated_label
+  translation: "Yaşayan belge güncellendi"
+
+- id: active_fork_updated_label
+  translation: "Etkin fork güncellendi"
+
+- id: historical_fork_label
+  translation: "Şuradan tarihsel fork"
+
+- id: historical_version_label
+  translation: "Tarihsel sürüm"
+
+- id: read_guide_button
+  translation: "Kılavuzu okuyun"
+
+- id: translations_button_small
+  translation: "Çeviriler"
+
+- id: read_fork_button
+  translation: "Fork'u okuyun"
+
+- id: view_archive_button
+  translation: "Arşivi görün"
+
+- id: download_reference_status
+  translation: "Başvuru"
