@@ -256,15 +256,11 @@ Scrum does not define how long a loop takes. It defines only how often each loop
 
 ### Objective Loop
 
-The purpose of the Objective Loop is to set the Cycle Goal for the Scrum Team, with a selection of work and the Scrum Team's approach to that work. It gathers no evidence of its own and relies on what the other loops have made available.
+The purpose of the Objective Loop is to state what the Scrum Team is trying to achieve next, so that the other loops have something to compare results against and stakeholders know what to expect. Correction requires a standard; without a stated intention, no difference can be called an error. This loop produces that standard, which is why it gathers no evidence of its own and relies on what the other loops have made available.
 
-The Cycle Goal is set by the collaborative work of the entire Scrum Team, as the knowledge it requires is held by different members.
+Once set, the Cycle Goal informs the work without controlling it. Procedure can bound a response but cannot be the response, so the Cycle Goal states what the Scrum Team is trying to achieve and leaves the Product Developers to decide what to do about it.
 
-The span between two closures of this loop is a Cycle. One Cycle Goal holds for its whole length, and a new Cycle begins as the previous one ends, so that the work always has a Cycle Goal and a point at which decisions are revisited. All the work necessary to achieve the Product Goal, including every loop, happens within Cycles.
-
-A Cycle is long enough to produce something worth inspecting and short enough that the Cycle Goal remains valid. Its length is limited by the amount of risk the Scrum Team can accept, and it limits the risk of cost and effort to that length. Within a Cycle, no change is made that would endanger the Cycle Goal, and quality does not decrease.
-
-A Cycle may be abandoned if the Cycle Goal becomes obsolete. Only the Product Owner has the authority to abandon a Cycle, as the Product Owner is accountable for value.
+The span between two closures of this loop is a Cycle. One Cycle Goal holds for its whole length, and a new Cycle begins as the previous one ends. All the work necessary to achieve the Product Goal, including every loop, happens within Cycles.
 
 ### Plan Loop
 
