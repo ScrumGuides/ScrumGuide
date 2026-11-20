@@ -88,6 +88,18 @@ languages:
     title: Посібник зі Скраму
     params:
       description: Усі опубліковані версії Посібника зі Скраму в одному місці, разом із посібниками з упровадження, що на нього спираються.
+  ja:
+    label: 日本語
+    weight: 23
+    title: スクラムガイド
+    params:
+      description: スクラムガイドの公開されたすべてのバージョンを一か所に、それを土台とする実装ガイドとあわせて。
+  zh-hans:
+    label: 简体中文
+    weight: 49
+    title: Scrum 指南
+    params:
+      description: Scrum 指南已发布的每一个版本汇于一处，并附上以其为基础的实施指南。
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

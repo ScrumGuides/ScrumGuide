@@ -34,3 +34,7 @@ languages:
     disabled: true
   uk:
     disabled: true
+  ja:
+    disabled: true
+  zh-hans:
+    disabled: true
