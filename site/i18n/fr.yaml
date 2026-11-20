@@ -318,3 +318,259 @@
 # only once every guide has a framing page in every language.
 - id: guide_pdf_not_available
   translation: "PDF non disponible"
+# ---------------------------------------------------------------------------
+# The remaining keys defined by either catalogue. Supplied in full rather than
+# one at a time as each render path turns out to use them: whack-a-mole found
+# four rounds of placeholders on live French pages. 183 keys is the union of
+# the module's catalogue and this site's, so no template can reach a key this
+# language does not have. The {{ ... }} placeholders are the template's own.
+# ---------------------------------------------------------------------------
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: active_fork_updated_label
+  translation: "Fork actif mis à jour"
+
+- id: and
+  translation: "et"
+
+- id: at_a_glance_title
+  translation: "En bref"
+
+- id: audience_title
+  translation: "Public"
+
+- id: coming_soon
+  translation: "Bientôt disponible"
+
+- id: community_driven_label
+  translation: "Porté par la communauté"
+
+- id: content_title
+  translation: "Contenu"
+
+- id: contributors_description
+  translation: "Les contributeurs listés ci-dessous rassemblent l'ensemble des contributeurs de tous les guides et de toutes les versions."
+
+- id: contributors_description_card
+  translation: "Les membres de la communauté qui façonnent ce guide"
+
+- id: contributors_thank_you
+  translation: "Merci à toutes les personnes dont les contributions améliorent ce guide."
+
+- id: contributors_title
+  translation: "Contributeurs"
+
+- id: current_fork_label
+  translation: "Fork actuel"
+
+- id: current_information_description
+  translation: "Détails de la version et contributeurs de la communauté"
+
+- id: current_information_title
+  translation: "Informations actuelles"
+
+- id: current_version_description
+  translation: "Ceci est la version active actuelle du guide."
+
+- id: current_version_title
+  translation: "Version actuelle"
+
+- id: current_version_updated_label
+  translation: "Mis à jour"
+
+- id: download_coming_soon
+  translation: "Bientôt disponible"
+
+- id: download_reference_status
+  translation: "Référence"
+
+- id: ethos_title
+  translation: "Esprit"
+
+- id: for_practitioners_title
+  translation: "Pour les praticiens"
+
+- id: fork_indicator
+  translation: "Forké depuis :"
+
+- id: forked_from_indicator
+  translation: "Forké depuis :"
+
+- id: get_started_title
+  translation: "Commencer"
+
+- id: getting_started_title
+  translation: "Premiers pas"
+
+- id: guide_coming_label
+  translation: "À venir :"
+
+- id: guide_coming_soon
+  translation: "Ce guide arrive bientôt. Restez à l'écoute."
+
+- id: guide_content_not_found
+  translation: "Contenu du guide introuvable"
+
+- id: guide_content_unavailable_description
+  translation: "Le contenu de cette page n'a pas pu être chargé et aucun contenu par défaut n'est disponible. Merci de"
+
+- id: guide_content_unavailable_message
+  translation: "Le contenu de cette page n'est pas disponible en {{ .Language }}. Le contenu par défaut du guide est affiché ci-dessous."
+
+- id: guide_content_unavailable_note
+  translation: "Remarque :"
+
+- id: guide_content_unavailable_title
+  translation: "Contenu indisponible :"
+
+- id: guide_no_content_available
+  translation: "Contenu pas encore disponible dans cette langue."
+
+- id: guide_overview_description
+  translation: "Les caractéristiques essentielles de ce guide"
+
+- id: guide_overview_title
+  translation: "Aperçu du guide"
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) non disponible"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) non disponible"
+
+- id: guide_pdf_intro_link
+  translation: "Télécharger le PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Vous pouvez aussi télécharger ce guide en PDF pour le lire hors ligne."
+
+- id: guide_report_issue_link
+  translation: "signaler ce problème"
+
+- id: guide_report_issue_message
+  translation: "pour nous aider à le corriger."
+
+- id: guides_intro_text
+  translation: "Découvrez des pratiques efficaces et la façon de les appliquer pour optimiser le flux de travail et la livraison de valeur, quel que soit le processus. Voici votre ressource complète de connaissances et de bonnes pratiques. {{ .Site.Title }} est le foyer des guides pratiques. C'est une référence gratuite, portée par la communauté, pour appliquer des méthodes éprouvées au travail de la connaissance. Ces guides définissent les pratiques fondamentales et les indicateurs nécessaires pour améliorer le flux, optimiser la livraison de valeur et renforcer la durabilité des équipes. Ils accompagnent des adoptions à grande échelle dans des secteurs variés et complètent d'autres approches modernes du flux de travail."
+
+- id: historical_fork_label
+  translation: "Fork historique depuis"
+
+- id: historical_version_label
+  translation: "Version historique de"
+
+- id: history_button
+  translation: "Voir l'historique"
+
+- id: history_description
+  translation: "Parcourez l'évolution et l'histoire de ce guide."
+
+- id: history_title
+  translation: "Historique"
+
+- id: join_community_button
+  translation: "Rejoindre la communauté"
+
+- id: join_discussion_button
+  translation: "Rejoindre la discussion"
+
+- id: join_discussion_description
+  translation: "Échangez avec la communauté, partagez vos idées et contribuez à façonner l'avenir de {{ .Site.Title }}. Vos contributions sont précieuses pour faire de ces guides des ressources complètes pour les praticiens."
+
+- id: join_discussion_title
+  translation: "Rejoindre la discussion autour de {{ .Site.Title }}"
+
+- id: license_title
+  translation: "Licence"
+
+- id: nav_overview
+  translation: "Aperçu"
+
+- id: no_contributors_found
+  translation: "Aucun contributeur trouvé"
+
+- id: no_previous_versions_description
+  translation: "Ce guide ne fait que commencer. Revenez plus tard pour consulter les versions antérieures."
+
+- id: no_previous_versions_title
+  translation: "Aucune version antérieure"
+
+- id: not_sure_which_to_use_title
+  translation: "Vous ne savez pas lequel choisir ?"
+
+- id: open_source_description
+  translation: "Ce projet est open source et vit de la collaboration de la communauté. Que vous souhaitiez proposer des améliorations, signaler des problèmes ou contribuer du contenu, votre participation est bienvenue. Certains guides ne sont pas ouverts aux contributions mais figurent ici à titre de référence. Ensemble, nous pouvons rendre ces ressources encore plus utiles aux praticiens du monde entier et à quiconque souhaite améliorer l'efficacité du flux de travail et la livraison de valeur."
+
+- id: open_source_title
+  translation: "Open source et porté par la communauté"
+
+- id: purpose_title
+  translation: "Objectif"
+
+- id: quick_decision_guide_title
+  translation: "Aide au choix rapide"
+
+- id: read_current_version_button
+  translation: "Lire la version actuelle"
+
+- id: read_fork_button
+  translation: "Lire le fork"
+
+- id: read_online_button
+  translation: "Lire en ligne"
+
+- id: read_online_description
+  translation: "Accédez au guide complet en version numérique, avec des fonctions interactives et une navigation simple."
+
+- id: read_online_title
+  translation: "Lire en ligne"
+
+- id: this_is_fork_label
+  translation: "Ceci est un fork"
+
+- id: translations_description
+  translation: "Consultez ce guide dans plusieurs langues et participez aux traductions."
+
+- id: translations_title
+  translation: "Traductions"
+
+- id: update_model_title
+  translation: "Modèle de mise à jour"
+
+- id: use_case_title
+  translation: "Cas d'usage"
+
+- id: version_history_description
+  translation: "Les versions antérieures et leur évolution"
+
+- id: version_history_title
+  translation: "Historique des versions"
+
+- id: version_info_not_available
+  translation: "Informations de version non disponibles"
+
+- id: view_archive_button
+  translation: "Voir l'archive"
+
+- id: view_on_github_button
+  translation: "Voir sur GitHub"
+
+- id: what_is_guide_title
+  translation: "Qu'est-ce que ce guide ?"
+
+- id: what_is_guides_title
+  translation: "Qu'est-ce que {{ .Site.Title }} ?"
+
+- id: when_to_use_description
+  translation: "Choisissez l'approche adaptée à votre contexte"
+
+- id: when_to_use_title
+  translation: "Quand utiliser ce guide"
