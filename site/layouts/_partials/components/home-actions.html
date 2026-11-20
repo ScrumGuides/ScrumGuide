@@ -1,50 +1,52 @@
 {{/*
   The band of direct actions at the top of the home page.
 
-  Driven by `home_actions` in content/_index.md. An entry with `pdf: true`
-  resolves the latest Scrum Guide edition's English PDF at build time and
-  renders as a disabled card when there isn't one yet, rather than linking
-  somewhere that 404s.
+  Defined here, not in each home page's front matter. There are 32 home page
+  files, one per language, and every one of them carried its own copy of this
+  list: 32 hand-translated duplicates of the same three boxes, which drift the
+  moment one is edited. The menu has never had that problem because the menu is
+  a template. These are now a template too.
+
+  Labels come from the interface catalogue with English defaults, so every
+  language renders correctly from the first build and can be translated later
+  without anything breaking in the meantime.
+
+  Order is deliberate: the implementation guide first, because someone new to
+  Scrum needs to know how it is run, and the Scrum Guide states what each
+  element must achieve while saying nothing about how. The definition second,
+  for readers who want what Scrum actually requires.
 */}}
 
-{{- $pdfUrl := "" }}
-{{- with .Site.GetPage "/scrum-guide" }}
-  {{- $versions := partial "functions/get-all-versions.html" . }}
-  {{- if $versions }}
-    {{- with (index $versions 0).page }}
-      {{- with partial "openguide/pdfs/select-first-edition-pdf.html" (dict "Page" . "Pattern" "pdf/*.en.pdf") }}
-        {{- $pdfUrl = .RelPermalink }}
+{{- $actions := slice
+  (dict
+    "title" (i18n "home_action_getting_started" | default "Read the Getting Started for Scrum Teams online")
+    "label" (i18n "home_action_read_online" | default "Read online")
+    "icon" "fa-solid fa-book-open"
+    "url" ("getting-started-for-scrum-teams/latest/" | relLangURL))
+  (dict
+    "title" (i18n "home_action_scrum_guide" | default "Read the official Scrum Guide online")
+    "label" (i18n "home_action_read_online" | default "Read online")
+    "icon" "fa-solid fa-scale-balanced"
+    "url" ("scrum-guide/latest/" | relLangURL))
+  (dict
+    "title" (i18n "home_action_translations" | default "Download the official Scrum Guide in over 30 different languages")
+    "label" (i18n "home_action_select_language" | default "Select language & download")
+    "icon" "fa-solid fa-language"
+    "url" ("scrum-guide/translations/" | relLangURL))
+}}
+
+<section class="home-actions">
+  <div class="container">
+    <ul class="home-actions__grid">
+      {{- range $actions }}
+        <li class="home-action">
+          <span class="home-action__icon" aria-hidden="true"><i class="{{ .icon }}"></i></span>
+          <p class="home-action__title">{{ .title }}</p>
+          <a class="home-action__btn" href="{{ .url }}">
+            {{ .label }}<i class="fa-solid fa-chevron-right ms-2" aria-hidden="true"></i>
+          </a>
+        </li>
       {{- end }}
-    {{- end }}
-  {{- end }}
-{{- end }}
-
-{{- with .Params.home_actions }}
-  <section class="home-actions">
-    <div class="container">
-      <ul class="home-actions__grid">
-        {{- range . }}
-          {{- $url := .url }}
-          {{- $disabled := false }}
-          {{- if .pdf }}
-            {{- $url = $pdfUrl }}
-            {{- if not $pdfUrl }}{{ $disabled = true }}{{ end }}
-          {{- end }}
-
-          <li class="home-action{{ if $disabled }} home-action--disabled{{ end }}">
-            <span class="home-action__icon" aria-hidden="true"><i class="{{ .icon }}"></i></span>
-            <p class="home-action__title">{{ .title }}</p>
-
-            {{- if $disabled }}
-              <span class="home-action__btn home-action__btn--off" aria-disabled="true">Not yet available</span>
-            {{- else }}
-              <a class="home-action__btn" href="{{ $url }}"{{ if .pdf }} download{{ end }}>
-                {{ .label }}<i class="fa-solid fa-chevron-right ms-2" aria-hidden="true"></i>
-              </a>
-            {{- end }}
-          </li>
-        {{- end }}
-      </ul>
-    </div>
-  </section>
-{{- end }}
+    </ul>
+  </div>
+</section>

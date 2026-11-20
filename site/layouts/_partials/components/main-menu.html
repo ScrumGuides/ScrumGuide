@@ -24,32 +24,18 @@
 <ul class="nav nav-pills align-items-center">
   {{- $current := .RelPermalink }}
 
+  {{- $startedLatest := "getting-started-for-scrum-teams/latest/" | relLangURL }}
+  {{- $startedRoot := "getting-started-for-scrum-teams/" | relLangURL }}
   {{- $guideLatest := "scrum-guide/latest/" | relLangURL }}
   {{- $guideRoot := "scrum-guide/" | relLangURL }}
-  {{- $historyUrl := "scrum-guide/history/" | relLangURL }}
-  {{- $translationsUrl := "scrum-guide/translations/" | relLangURL }}
-
-  {{- $inHistory := eq $current $historyUrl }}
-  {{- $inTranslations := eq $current $translationsUrl }}
 
   <li class="nav-item">
-    <a class="nav-link{{ if and (hasPrefix $current $guideRoot) (not $inHistory) (not $inTranslations) }} active{{ end }}" href="{{ $guideLatest }}">{{ i18n "nav_the_guide" | default "The Guide" }}</a>
+    <a class="nav-link{{ if hasPrefix $current $startedRoot }} active{{ end }}" href="{{ $startedLatest }}">{{ i18n "nav_getting_started" | default "Getting Started" }}</a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link{{ if $inHistory }} active{{ end }}" href="{{ $historyUrl }}">{{ i18n "nav_versions" | default "Versions" }}</a>
+    <a class="nav-link{{ if hasPrefix $current $guideRoot }} active{{ end }}" href="{{ $guideLatest }}">{{ i18n "nav_the_scrum_guide" | default "The Scrum Guide" }}</a>
   </li>
-
-  <li class="nav-item">
-    <a class="nav-link{{ if $inTranslations }} active{{ end }}" href="{{ $translationsUrl }}">{{ i18n "translations_page_title" | default "Translations" }}</a>
-  </li>
-
-  {{- /* Implementation guides are a category, not a folder. See spec §4.2. */}}
-  {{- with .Site.GetPage "/categories/implementation" }}
-    <li class="nav-item">
-      <a class="nav-link{{ if eq $current .RelPermalink }} active{{ end }}" href="{{ .RelPermalink }}">{{ i18n "nav_implementations" | default "Implementations" }}</a>
-    </li>
-  {{- end }}
 
   {{ partial "components/language-switcher.html" . }}
 </ul>
