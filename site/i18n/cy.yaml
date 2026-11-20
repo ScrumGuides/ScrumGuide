@@ -1,0 +1,607 @@
+# Interface strings, Welsh.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Dogfennau"
+
+- id: guides_section_title
+  translation: "Canllawiau"
+
+- id: implementations_section_title
+  translation: "Canllawiau gweithredu"
+
+- id: implementations_section_description
+  translation: "Ffyrdd o ddefnyddio Scrum mewn cyd-destun arbennig. Mae pob un yn aros o fewn bwriad Scrum ac yn ychwanegu arweiniad i ryw sefyllfa - sawl tîm ar un cynnyrch, rheoli'r llif, dechrau arni - heb newid beth y mae Scrum yn ei fynnu."
+
+- id: extensions_section_title
+  translation: "Estyniadau"
+
+- id: extensions_section_description
+  translation: "Arferion sy'n cyrraedd tu hwnt i'r hyn y mae Scrum yn ymdrin ag ef. Nid yw estyniad yn ei gynnig ei hun yn Scrum ac nid yw'n ei newid; mae'n ymgymryd â chwestiwn y mae Scrum yn ei adael ar agor, fel mesur y gwerth y mae cynnyrch yn ei ddwyn."
+
+- id: extensions_section_empty
+  translation: "Dim un eto."
+
+- id: foundation_section_title
+  translation: "Y canllaw"
+
+- id: history_page_title
+  translation: "Hanes"
+
+- id: translations_page_title
+  translation: "Cyfieithiadau"
+
+- id: changes_section_title
+  translation: "Beth a newidiodd"
+
+- id: changes_from_label
+  translation: "Newidiadau o"
+
+- id: lineage_section_title
+  translation: "Llinach"
+
+- id: adapted_from_label
+  translation: "Wedi'i addasu o"
+
+- id: conforms_to_label
+  translation: "Yn cydymffurfio â"
+
+- id: conforming_guides_title
+  translation: "Canllawiau sy'n cydymffurfio â'r fersiwn hon"
+
+- id: conditions_section_title
+  translation: "Amodau"
+
+- id: condition_falsifier_label
+  translation: "Heb ei fodloni pan"
+
+- id: current_version_label
+  translation: "Y fersiwn gyfredol"
+
+- id: older_version_label
+  translation: "Fersiwn hŷn"
+
+- id: version_notice_older
+  translation: "Nid hon yw fersiwn gyfredol y canllaw hwn."
+
+- id: view_latest_label
+  translation: "Gweld y fersiwn gyfredol"
+
+- id: read_time_label
+  translation: "mun o ddarllen"
+
+- id: badge_english_only
+  translation: "Saesneg yn unig"
+
+- id: badge_english_only_title
+  translation: "Nid yw'r canllaw hwn wedi'i gyfieithu i'r iaith hon eto."
+
+- id: badge_not_in_production
+  translation: "Ddim yn y cynhyrchiad"
+
+- id: badge_not_in_production_title
+  translation: "Gadawyd y canllaw hwn allan o adeiladwaith y cynhyrchiad."
+
+- id: badge_not_in_preview
+  translation: "Ddim yn y rhagolwg"
+
+- id: badge_not_in_preview_title
+  translation: "Gadawyd y canllaw hwn allan o adeiladwaith y rhagolwg."
+
+- id: licence_label
+  translation: "Trwydded"
+
+- id: canonical_source_label
+  translation: "Ffynhonnell ddibynadwy"
+
+- id: pending_licence_check
+  translation: "Y prif destun yn disgwyl gwiriad trwydded"
+
+- id: guide_join_discussion
+  translation: "Trafodwch y canllaw hwn"
+
+- id: guide_version_current
+  translation: "Cyfredol"
+
+- id: guide_version_latest
+  translation: "Diweddaraf"
+
+- id: guide_version_select
+  translation: "Dewiswch fersiwn"
+
+- id: guide_version_dropdown_label
+  translation: "Fersiwn"
+
+- id: guide_historical_version_notice_title
+  translation: "Nid hon yw'r fersiwn gyfredol."
+
+- id: guide_historical_version_notice_text
+  translation: "Yr ydych yn darllen fersiwn hŷn o'r canllaw hwn."
+
+- id: guide_historical_version_notice_link
+  translation: "Darllenwch y fersiwn gyfredol"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Gweld ar y safle rhagolwg"
+
+- id: guide_translation_preview_note
+  translation: "Rhagolwg cyfieithiad."
+
+- id: guide_translation_preview_message
+  translation: "Caiff y cyfieithiad hwn ei adolygu o hyd a gall fod yn anghyflawn."
+
+- id: contributors_label
+  translation: "Cyfranwyr"
+
+- id: translators_label
+  translation: "Cyfieithwyr"
+
+- id: reportTranslationError
+  translation: "Adroddwch wall cyfieithu"
+
+- id: nav_details
+  translation: "Am y canllaw hwn"
+
+- id: nav_translations
+  translation: "Cyfieithiadau"
+
+- id: download_table_written_by
+  translation: "Ysgrifennwyd gan"
+
+- id: download_table_contributed_by
+  translation: "Cyfrannwyd gan"
+
+- id: download_table_status
+  translation: "Statws"
+
+- id: download_discussion_action
+  translation: "Trafodwch"
+
+- id: download_preview_action
+  translation: "Rhagolwg"
+
+- id: download_preview_status
+  translation: "Yn y rhagolwg"
+
+- id: download_preview_description
+  translation: "Nid yw'r cyfieithiad hwn wedi'i gyhoeddi eto a gellir ei ddarllen ar y safle rhagolwg."
+
+- id: download_preview_translations
+  translation: "Cyfieithiadau yn y rhagolwg"
+
+- id: download_visit_preview
+  translation: "Agorwch y safle rhagolwg"
+
+- id: download_pdf_only_status
+  translation: "PDF yn unig"
+
+- id: download_stub_status
+  translation: "Heb ddechrau"
+
+- id: site_wordmark
+  translation: "Canllawiau Scrum"
+
+- id: nav_the_guide
+  translation: "Y canllaw"
+
+- id: nav_versions
+  translation: "Fersiynau"
+
+- id: nav_implementations
+  translation: "Gweithrediadau"
+
+- id: guide_pdf_not_available
+  translation: "Dim PDF ar gael"
+
+- id: share_label
+  translation: "Rhannu"
+
+- id: share_copy_link
+  translation: "Copïo'r ddolen"
+
+- id: share_copied
+  translation: "Wedi'i gopïo i'r clipfwrdd!"
+
+- id: share_close
+  translation: "Cau"
+
+- id: role_creator
+  translation: "Crëwr"
+
+- id: role_contributor
+  translation: "Cyfrannwr"
+
+- id: role_reviewer
+  translation: "Adolygwr"
+
+- id: role_translator
+  translation: "Cyfieithydd"
+
+- id: role_involved
+  translation: "Ynghlwm"
+
+- id: nav_getting_started
+  translation: "Dechrau Arni"
+
+- id: nav_the_scrum_guide
+  translation: "Y Canllaw Scrum"
+
+- id: home_action_getting_started
+  translation: "Darllenwch Dechrau Arni i Scrum Teams ar-lein"
+
+- id: home_action_scrum_guide
+  translation: "Darllenwch y Canllaw Scrum swyddogol ar-lein"
+
+- id: home_action_translations
+  translation: "Lawrlwythwch y Canllaw Scrum swyddogol yn fwy na 30 o ieithoedd"
+
+- id: home_action_read_online
+  translation: "Darllen ar-lein"
+
+- id: home_action_select_language
+  translation: "Dewis iaith a lawrlwytho"
+
+- id: and
+  translation: "a"
+
+- id: breadcrumb_home
+  translation: "Hafan"
+
+- id: read_online_title
+  translation: "Darllen ar-lein"
+
+- id: read_online_description
+  translation: "Cyrhaeddwch y canllaw cyfan yn ddigidol, gyda nodweddion rhyngweithiol a llywio hawdd."
+
+- id: read_online_button
+  translation: "Darllen ar-lein"
+
+- id: translations_title
+  translation: "Cyfieithiadau"
+
+- id: translations_description
+  translation: "Darllenwch y canllaw hwn mewn sawl iaith a helpwch gyda'r cyfieithiadau."
+
+- id: translations_button
+  translation: "Gweld y cyfieithiadau"
+
+- id: history_title
+  translation: "Hanes"
+
+- id: history_description
+  translation: "Dilynwch ddatblygiad a hanes y canllaw hwn."
+
+- id: history_button
+  translation: "Gweld yr hanes"
+
+- id: what_is_guides_title
+  translation: "Beth yw {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Ffynhonnell agored, a'r gymuned sy'n ei yrru"
+
+- id: open_source_description
+  translation: "Prosiect ffynhonnell agored yw hwn sy'n byw ar gydweithio'r gymuned. Os ydych am gynnig gwelliannau, adrodd materion neu gyfrannu cynnwys, croeso i chi. Nid yw rhai canllawiau'n derbyn cyfraniadau, ond maent yma'n gyfeirnod. Gyda'n gilydd gallwn wneud yr adnoddau hyn yn fwy gwerthfawr i ymarferwyr ar hyd y byd ac i unrhyw un sydd am wella effeithiolrwydd llif y gwaith a'r gwerth a ddanfonir."
+
+- id: at_a_glance_title
+  translation: "Ar gipolwg"
+
+- id: join_discussion_button
+  translation: "Ymunwch â'r drafodaeth"
+
+- id: join_discussion_title
+  translation: "Ymunwch â'r drafodaeth am {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Cyfarfodwch â'r gymuned, rhannwch yr hyn a welwch, a helpwch i lunio dyfodol {{ .Site.Title }}. Mae eich cyfraniadau'n anhepgor er mwyn i'r canllawiau hyn fod yn gorff cyflawn i ymarferwyr."
+
+- id: guides_intro_text
+  translation: "Dysgwch yr arferion sy'n gweithio, a sut i'w defnyddio i wneud y gorau o lif y gwaith ac o'r gwerth a ddanfonir mewn unrhyw broses. Dyma'r corff cyfan o wybodaeth ac arferion da. {{ .Site.Title }} yw cartref y canllawiau ymarferol: cyfeirnod rhydd, a'r gymuned sy'n ei yrru, i ddefnyddio dulliau profedig yng ngwaith gwybodaeth. Mae'r canllawiau'n amgylchynu'r arferion a'r mesurau craidd sydd raid i wella'r llif, gwneud y gorau o'r gwerth a ddanfonir, a chadarnhau cynaliadwyedd y tîm. Maent yn cynnal mabwysiadu graddadwy ar draws y diwydiannau ac yn ategu dulliau llif gwaith modern eraill."
+
+- id: guide_content_not_found
+  translation: "Ni chafwyd cynnwys y canllaw"
+
+- id: nav_read_guide
+  translation: "Darllenwch y canllaw"
+
+- id: nav_history
+  translation: "Hanes"
+
+- id: nav_overview
+  translation: "Trosolwg"
+
+- id: guide_pdf_download_button
+  translation: "Lawrlwytho PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Gallwch hefyd lawrlwytho'r canllaw hwn yn PDF a'i ddarllen heb gysylltiad."
+
+- id: guide_pdf_intro_link
+  translation: "Lawrlwythwch y PDF"
+
+- id: download_page_title
+  translation: "Darllenwch a lawrlwythwch y {{ .Title }} swyddogol"
+
+- id: download_page_description
+  translation: "Caiff {{ .Title }} ei ddiffinio yma gan"
+
+- id: download_page_originators
+  translation: ", crewyr {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Darparwyd y cyfieithiadau gan y pobl a'r grwpiau parod isod. Dewiswch yr iaith yr ydych am ei lawrlwytho."
+
+- id: download_translation_error
+  translation: "Os cewch yn {{ .Title }} rywbeth y tybiwch ei fod yn wall cyfieithu, ewch yn syth at y cyfieithydd hwnnw. Os oes arnoch angen rhagor o help, cysylltwch â ni yn"
+
+- id: download_official_version
+  translation: "Fersiwn swyddogol"
+
+- id: download_community_translations
+  translation: "Cyfieithiadau o'r gymuned"
+
+- id: download_current_version_released
+  translation: "Daeth fersiwn swyddogol gyfredol {{ .Site.Title }} allan"
+
+- id: download_older_translations_notice
+  translation: "Efallai nad yw cyfieithiadau hŷn o {{ .Site.Title }} yn cynnwys y wybodaeth ddiweddaraf."
+
+- id: download_table_language
+  translation: "Iaith"
+
+- id: download_table_translations_by
+  translation: "Cyfieithwyd gan"
+
+- id: download_table_action
+  translation: "Gweithred"
+
+- id: download_official_current_version
+  translation: "Y fersiwn swyddogol gyfredol"
+
+- id: download_button_text
+  translation: "Lawrlwytho"
+
+- id: download_coming_soon
+  translation: "Yn dod yn fuan"
+
+- id: download_missing_language
+  translation: "Eich iaith ar goll?"
+
+- id: download_contribute_translation
+  translation: "Cyfrannwch gyfieithiad newydd a helpwch y gymuned."
+
+- id: download_add_translation
+  translation: "Ychwanegwch gyfieithiad"
+
+- id: download_community_contributors
+  translation: "Cyfranwyr o'r gymuned"
+
+- id: contributors_description
+  translation: "Casglwyd y cyfranwyr isod o bob canllaw a phob fersiwn."
+
+- id: read_online_action
+  translation: "Darllen ar-lein"
+
+- id: guide_table_of_contents
+  translation: "Cynnwys"
+
+- id: guide_coming_soon
+  translation: "Mae'r canllaw hwn ar y ffordd. Cadwch lygad arno."
+
+- id: guide_no_content_available
+  translation: "Nid oes cynnwys yn yr iaith hon eto."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "Dim PDF (EN) ar gael"
+
+- id: guide_pdf_en_us_not_available
+  translation: "Dim PDF (EN-US) ar gael"
+
+- id: guide_coming_label
+  translation: "Yn dod:"
+
+- id: guide_updated_label
+  translation: "Diweddarwyd:"
+
+- id: guide_version_label
+  translation: "Fersiwn:"
+
+- id: guide_content_unavailable_note
+  translation: "Nodwch:"
+
+- id: guide_content_unavailable_message
+  translation: "Nid yw cynnwys y dudalen hon ar gael yn {{ .Language }} eto. Dangosir cynnwys rhagosodedig y canllaw isod."
+
+- id: guide_content_unavailable_title
+  translation: "Cynnwys ddim ar gael:"
+
+- id: guide_content_unavailable_description
+  translation: "Ni allwyd llwytho cynnwys y dudalen hon, ac nid oes cynnwys rhagosodedig i'w ddangos. Adroddwch, os gwelwch yn dda,"
+
+- id: guide_report_issue_link
+  translation: "Adroddwch y mater hwn"
+
+- id: guide_report_issue_message
+  translation: "fel y gallwn ei gywiro."
+
+- id: guide_back_to_home
+  translation: "← Yn ôl i'r hafan"
+
+- id: not_sure_which_to_use_title
+  translation: "Ddim yn siŵr pa un i'w ddefnyddio?"
+
+- id: get_started_title
+  translation: "Dechreuwch"
+
+- id: community_driven_label
+  translation: "Y gymuned sy'n ei yrru"
+
+- id: coming_soon
+  translation: "Yn dod yn fuan"
+
+- id: purpose_title
+  translation: "Diben"
+
+- id: ethos_title
+  translation: "Man cychwyn"
+
+- id: audience_title
+  translation: "I bwy"
+
+- id: use_case_title
+  translation: "Pryd y caiff ei ddefnyddio"
+
+- id: content_title
+  translation: "Cynnwys"
+
+- id: update_model_title
+  translation: "Sut y caiff ei ddiweddaru"
+
+- id: guide_overview_title
+  translation: "Trosolwg y canllaw"
+
+- id: guide_overview_description
+  translation: "Prif nodweddion y canllaw hwn"
+
+- id: when_to_use_title
+  translation: "Pryd i ddefnyddio'r canllaw hwn"
+
+- id: when_to_use_description
+  translation: "Dewiswch y dull sy'n gweddu i'ch cyd-destun"
+
+- id: quick_decision_guide_title
+  translation: "Dewis cyflym"
+
+- id: getting_started_title
+  translation: "Dechrau arni"
+
+- id: for_practitioners_title
+  translation: "I ymarferwyr"
+
+- id: current_information_title
+  translation: "Gwybodaeth gyfredol"
+
+- id: current_information_description
+  translation: "Manylion y fersiwn a chyfranwyr o'r gymuned"
+
+- id: current_version_title
+  translation: "Y fersiwn gyfredol"
+
+- id: current_version_updated_label
+  translation: "Diweddarwyd"
+
+- id: current_version_description
+  translation: "Hon yw fersiwn y canllaw sydd mewn grym yn awr."
+
+- id: read_current_version_button
+  translation: "Darllenwch y fersiwn gyfredol"
+
+- id: version_info_not_available
+  translation: "Gwybodaeth y fersiwn ddim ar gael"
+
+- id: contributors_title
+  translation: "Cyfranwyr"
+
+- id: contributors_description_card
+  translation: "Aelodau'r gymuned a luniodd y canllaw hwn"
+
+- id: contributors_thank_you
+  translation: "Diolch i bawb a wnaeth y canllaw hwn yn well."
+
+- id: join_community_button
+  translation: "Ymunwch â'r gymuned"
+
+- id: no_contributors_found
+  translation: "Ni chafwyd cyfranwyr"
+
+- id: version_history_title
+  translation: "Hanes y fersiynau"
+
+- id: version_history_description
+  translation: "Fersiynau cynt a'u datblygiad"
+
+- id: no_previous_versions_title
+  translation: "Dim fersiynau cynt"
+
+- id: no_previous_versions_description
+  translation: "Newydd ddechrau y mae'r canllaw hwn. Dowch yn ôl eto am y fersiynau cynt."
+
+- id: what_is_guide_title
+  translation: "Beth yw'r canllaw hwn?"
+
+- id: license_title
+  translation: "Trwydded"
+
+- id: view_on_github_button
+  translation: "Gweld ar GitHub"
+
+- id: current_open_guide_label
+  translation: "Open Guide cyfredol"
+
+- id: active_status_label
+  translation: "Mewn grym"
+
+- id: current_fork_label
+  translation: "Fforc gyfredol"
+
+- id: active_fork_label
+  translation: "Fforc"
+
+- id: fork_indicator
+  translation: "Wedi'i fforcio o:"
+
+- id: forked_from_indicator
+  translation: "Wedi'i fforcio o:"
+
+- id: this_is_fork_label
+  translation: "Fforc yw hwn"
+
+- id: available_languages_label
+  translation: "Ieithoedd ar gael"
+
+- id: pdf_downloads_label
+  translation: "Lawrlwythiadau PDF"
+
+- id: living_document_updated_label
+  translation: "Dogfen fyw wedi'i diweddaru"
+
+- id: active_fork_updated_label
+  translation: "Fforc fyw wedi'i diweddaru"
+
+- id: historical_fork_label
+  translation: "Fforc hanesyddol o"
+
+- id: historical_version_label
+  translation: "Fersiwn hanesyddol"
+
+- id: read_guide_button
+  translation: "Darllenwch y canllaw"
+
+- id: translations_button_small
+  translation: "Cyfieithiadau"
+
+- id: read_fork_button
+  translation: "Darllenwch y fforc"
+
+- id: view_archive_button
+  translation: "Gweld yr archif"
+
+- id: download_reference_status
+  translation: "Cyfeirnod"

@@ -82,3 +82,5 @@ languages:
     disabled: true
   bs:
     disabled: true
+  cy:
+    disabled: true
