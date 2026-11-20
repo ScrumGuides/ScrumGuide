@@ -136,6 +136,12 @@ languages:
     title: Scrum Útmutató
     params:
       description: A Scrum Útmutató minden kiadott változata egy helyen, azokkal a megvalósítási útmutatókkal együtt, amelyek rá épülnek.
+  ro:
+    label: Română
+    weight: 36
+    title: Ghidul Scrum
+    params:
+      description: Fiecare versiune publicată a Ghidului Scrum într-un singur loc, împreună cu ghidurile de implementare care se construiesc pe el.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

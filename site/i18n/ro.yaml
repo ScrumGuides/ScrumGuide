@@ -1,0 +1,586 @@
+# Interface strings, Romanian.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Documente"
+
+- id: guides_section_title
+  translation: "Ghiduri"
+
+- id: implementations_section_title
+  translation: "Ghiduri de implementare"
+
+- id: implementations_section_description
+  translation: "Moduri de a folosi Scrum într-un context anume. Fiecare dintre ele rămâne în interiorul intenției Scrum și adaugă îndrumare pentru o situație - mai multe echipe pe un produs, gestionarea fluxului, începutul - fără a schimba ce cere Scrum."
+
+- id: extensions_section_title
+  translation: "Extensii"
+
+- id: extensions_section_description
+  translation: "Practici care trec dincolo de ce se ocupă Scrum. O extensie nu se dă drept Scrum și nu îl schimbă; ia în seamă o chestiune pe care Scrum o lasă deschisă, cum ar fi măsurarea valorii pe care un produs livrează."
+
+- id: extensions_section_empty
+  translation: "Niciuna încă."
+
+- id: foundation_section_title
+  translation: "Ghidul"
+
+- id: history_page_title
+  translation: "Istoric"
+
+- id: translations_page_title
+  translation: "Traduceri"
+
+- id: changes_section_title
+  translation: "Ce s-a schimbat"
+
+- id: changes_from_label
+  translation: "Schimbări față de"
+
+- id: lineage_section_title
+  translation: "Linie"
+
+- id: adapted_from_label
+  translation: "Adaptat din"
+
+- id: conforms_to_label
+  translation: "Respectă"
+
+- id: conforming_guides_title
+  translation: "Ghiduri care respectă această versiune"
+
+- id: conditions_section_title
+  translation: "Condiții"
+
+- id: condition_falsifier_label
+  translation: "Neîndeplinit când"
+
+- id: current_version_label
+  translation: "Versiunea actuală"
+
+- id: older_version_label
+  translation: "Versiune mai veche"
+
+- id: version_notice_older
+  translation: "Aceasta nu este versiunea actuală a acestui ghid."
+
+- id: view_latest_label
+  translation: "Vedeți versiunea actuală"
+
+- id: read_time_label
+  translation: "min de citit"
+
+- id: badge_english_only
+  translation: "Doar engleză"
+
+- id: badge_english_only_title
+  translation: "Acest ghid nu este încă tradus în această limbă."
+
+- id: badge_not_in_production
+  translation: "Nu în producție"
+
+- id: badge_not_in_production_title
+  translation: "Acest ghid este exclus din build-ul de producție."
+
+- id: badge_not_in_preview
+  translation: "Nu în previzualizare"
+
+- id: badge_not_in_preview_title
+  translation: "Acest ghid este exclus din build-ul de previzualizare."
+
+- id: licence_label
+  translation: "Licență"
+
+- id: canonical_source_label
+  translation: "Sursă autoritară"
+
+- id: pending_licence_check
+  translation: "Textul principal așteaptă verificarea licenței"
+
+- id: guide_join_discussion
+  translation: "Discutați acest ghid"
+
+- id: guide_version_current
+  translation: "Actuală"
+
+- id: guide_version_latest
+  translation: "Cea mai nouă"
+
+- id: guide_version_select
+  translation: "Alegeți versiunea"
+
+- id: guide_version_dropdown_label
+  translation: "Versiune"
+
+- id: guide_historical_version_notice_title
+  translation: "Aceasta nu este versiunea actuală."
+
+- id: guide_historical_version_notice_text
+  translation: "Citiți o versiune mai veche a acestui ghid."
+
+- id: guide_historical_version_notice_link
+  translation: "Citiți versiunea actuală"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Vedeți pe site-ul de previzualizare"
+
+- id: guide_translation_preview_note
+  translation: "Previzualizare a traducerii."
+
+- id: guide_translation_preview_message
+  translation: "Această traducere este încă în recenzie și poate fi incompletă."
+
+- id: contributors_label
+  translation: "Contribuitori"
+
+- id: translators_label
+  translation: "Traducători"
+
+- id: reportTranslationError
+  translation: "Raportați o greșeală de traducere"
+
+- id: nav_details
+  translation: "Despre acest ghid"
+
+- id: nav_translations
+  translation: "Traduceri"
+
+- id: download_table_written_by
+  translation: "Scris de"
+
+- id: download_table_contributed_by
+  translation: "Contribuții de"
+
+- id: download_table_status
+  translation: "Stare"
+
+- id: download_discussion_action
+  translation: "Discutați"
+
+- id: download_preview_action
+  translation: "Previzualizați"
+
+- id: download_preview_status
+  translation: "În previzualizare"
+
+- id: download_preview_description
+  translation: "Această traducere nu este încă publicată și poate fi citită pe site-ul de previzualizare."
+
+- id: download_preview_translations
+  translation: "Traduceri în previzualizare"
+
+- id: download_visit_preview
+  translation: "Deschideți site-ul de previzualizare"
+
+- id: download_pdf_only_status
+  translation: "Doar PDF"
+
+- id: download_stub_status
+  translation: "Neînceput"
+
+- id: site_wordmark
+  translation: "Ghiduri Scrum"
+
+- id: nav_the_guide
+  translation: "Ghidul"
+
+- id: nav_versions
+  translation: "Versiuni"
+
+- id: nav_implementations
+  translation: "Implementări"
+
+- id: guide_pdf_not_available
+  translation: "PDF indisponibil"
+
+- id: share_label
+  translation: "Partajați"
+
+- id: share_copy_link
+  translation: "Copiați linkul"
+
+- id: share_copied
+  translation: "Copiat în clipboard!"
+
+- id: share_close
+  translation: "Închideți"
+
+- id: role_creator
+  translation: "Creator"
+
+- id: role_contributor
+  translation: "Contribuitor"
+
+- id: role_reviewer
+  translation: "Recenzent"
+
+- id: role_translator
+  translation: "Traducător"
+
+- id: role_involved
+  translation: "Implicat"
+
+- id: and
+  translation: "și"
+
+- id: breadcrumb_home
+  translation: "Acasă"
+
+- id: read_online_title
+  translation: "Citiți online"
+
+- id: read_online_description
+  translation: "Accesați ghidul întreg în format digital, cu funcții interactive și navigare ușoară."
+
+- id: read_online_button
+  translation: "Citiți online"
+
+- id: translations_title
+  translation: "Traduceri"
+
+- id: translations_description
+  translation: "Citiți acest ghid în mai multe limbi și ajutați la traduceri."
+
+- id: translations_button
+  translation: "Vedeți traducerile"
+
+- id: history_title
+  translation: "Istoric"
+
+- id: history_description
+  translation: "Urmăriți evoluția și istoricul acestui ghid."
+
+- id: history_button
+  translation: "Vedeți istoricul"
+
+- id: what_is_guides_title
+  translation: "Ce este {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Open source, condus de comunitate"
+
+- id: open_source_description
+  translation: "Acesta este un proiect open source care trăiește din colaborarea comunității. Dacă doriți să propuneți îmbunătățiri, să raportați probleme sau să contribuiți cu conținut, sunteți bine-venit. Unele ghiduri nu primesc contribuții, dar stau aici ca referință. Împreună putem face aceste resurse mai valoroase pentru practicienii din toată lumea și pentru oricine dorește să îmbunătățească eficiența fluxului de lucru și livrarea de valoare."
+
+- id: at_a_glance_title
+  translation: "Pe scurt"
+
+- id: join_discussion_button
+  translation: "Alăturați-vă discuției"
+
+- id: join_discussion_title
+  translation: "Alăturați-vă discuției despre {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Întâlniți comunitatea, împărtășiți ce ați înțeles și ajutați la modelarea viitorului {{ .Site.Title }}. Contribuțiile dumneavoastră sunt neapărat necesare ca aceste ghiduri să devină corpul complet pentru practicieni."
+
+- id: guides_intro_text
+  translation: "Învățați practicile care funcționează și cum să le folosiți pentru a optimiza fluxul de lucru și livrarea de valoare în orice proces. Aici se află întregul corp de cunoștințe și de bune practici. {{ .Site.Title }} este casa ghidurilor practice: o referință liberă, condusă de comunitate, pentru folosirea metodelor dovedite în munca de cunoaștere. Ghidurile delimitează practicile de bază și măsurile necesare pentru a îmbunătăți fluxul, pentru a optimiza livrarea de valoare și pentru a întări sustenabilitatea echipei. Sprijină adoptarea scalabilă în toate domeniile și completează alte metode moderne de flux de lucru."
+
+- id: guide_content_not_found
+  translation: "Conținutul ghidului nu a fost găsit"
+
+- id: nav_read_guide
+  translation: "Citiți ghidul"
+
+- id: nav_history
+  translation: "Istoric"
+
+- id: nav_overview
+  translation: "Privire de ansamblu"
+
+- id: guide_pdf_download_button
+  translation: "Descărcați PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Puteți descărca acest ghid și în PDF și îl puteți citi offline."
+
+- id: guide_pdf_intro_link
+  translation: "Descărcați PDF-ul"
+
+- id: download_page_title
+  translation: "Citiți și descărcați {{ .Title }} oficial"
+
+- id: download_page_description
+  translation: "{{ .Title }} este definit aici de"
+
+- id: download_page_originators
+  translation: ", creatorii {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Traducerile au fost puse la dispoziție de persoanele și grupurile binevoitoare de mai jos. Alegeți limba pe care doriți să o descărcați."
+
+- id: download_translation_error
+  translation: "Dacă găsiți în {{ .Title }} ceva ce credeți a fi o greșeală de traducere, adresați-vă direct acelui traducător. Dacă aveți nevoie de ajutor suplimentar, contactați-ne la"
+
+- id: download_official_version
+  translation: "Versiune oficială"
+
+- id: download_community_translations
+  translation: "Traduceri din comunitate"
+
+- id: download_current_version_released
+  translation: "Versiunea oficială actuală a {{ .Site.Title }} a apărut"
+
+- id: download_older_translations_notice
+  translation: "Traducerile mai vechi ale {{ .Site.Title }} pot să nu cuprindă cele mai noi informații."
+
+- id: download_table_language
+  translation: "Limbă"
+
+- id: download_table_translations_by
+  translation: "Tradus de"
+
+- id: download_table_action
+  translation: "Acțiune"
+
+- id: download_official_current_version
+  translation: "Versiunea oficială actuală"
+
+- id: download_button_text
+  translation: "Descărcați"
+
+- id: download_coming_soon
+  translation: "În curând"
+
+- id: download_missing_language
+  translation: "Lipsește limba dumneavoastră?"
+
+- id: download_contribute_translation
+  translation: "Contribuiți cu o traducere nouă și ajutați comunitatea."
+
+- id: download_add_translation
+  translation: "Adăugați o traducere"
+
+- id: download_community_contributors
+  translation: "Contribuitori din comunitate"
+
+- id: contributors_description
+  translation: "Contribuitorii de mai jos sunt adunați din toate ghidurile și toate versiunile."
+
+- id: read_online_action
+  translation: "Citiți online"
+
+- id: guide_table_of_contents
+  translation: "Cuprins"
+
+- id: guide_coming_soon
+  translation: "Acest ghid este în pregătire. Urmăriți-l."
+
+- id: guide_no_content_available
+  translation: "În această limbă nu există încă niciun conținut."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) indisponibil"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) indisponibil"
+
+- id: guide_coming_label
+  translation: "În pregătire:"
+
+- id: guide_updated_label
+  translation: "Actualizat:"
+
+- id: guide_version_label
+  translation: "Versiune:"
+
+- id: guide_content_unavailable_note
+  translation: "Observație:"
+
+- id: guide_content_unavailable_message
+  translation: "Conținutul acestei pagini nu există încă în {{ .Language }}. Mai jos se afișează conținutul implicit al ghidului."
+
+- id: guide_content_unavailable_title
+  translation: "Conținut indisponibil:"
+
+- id: guide_content_unavailable_description
+  translation: "Conținutul acestei pagini nu a putut fi încărcat și nu există conținut implicit de afișat. Vă rugăm să raportați"
+
+- id: guide_report_issue_link
+  translation: "Raportați această problemă"
+
+- id: guide_report_issue_message
+  translation: "ca să o putem îndrepta."
+
+- id: guide_back_to_home
+  translation: "← Înapoi la pagina principală"
+
+- id: not_sure_which_to_use_title
+  translation: "Nu sunteți sigur pe care să îl folosiți?"
+
+- id: get_started_title
+  translation: "Începeți"
+
+- id: community_driven_label
+  translation: "Condus de comunitate"
+
+- id: coming_soon
+  translation: "În curând"
+
+- id: purpose_title
+  translation: "Scop"
+
+- id: ethos_title
+  translation: "Poziție de bază"
+
+- id: audience_title
+  translation: "Pentru cine"
+
+- id: use_case_title
+  translation: "Când se folosește"
+
+- id: content_title
+  translation: "Conținut"
+
+- id: update_model_title
+  translation: "Cum se actualizează"
+
+- id: guide_overview_title
+  translation: "Privire de ansamblu asupra ghidului"
+
+- id: guide_overview_description
+  translation: "Trăsăturile principale ale acestui ghid"
+
+- id: when_to_use_title
+  translation: "Când să folosiți acest ghid"
+
+- id: when_to_use_description
+  translation: "Alegeți abordarea care se potrivește contextului dumneavoastră"
+
+- id: quick_decision_guide_title
+  translation: "Alegere rapidă"
+
+- id: getting_started_title
+  translation: "Primii pași"
+
+- id: for_practitioners_title
+  translation: "Pentru practicieni"
+
+- id: current_information_title
+  translation: "Informații actuale"
+
+- id: current_information_description
+  translation: "Detalii despre versiune și contribuitori din comunitate"
+
+- id: current_version_title
+  translation: "Versiunea actuală"
+
+- id: current_version_updated_label
+  translation: "Actualizat"
+
+- id: current_version_description
+  translation: "Aceasta este versiunea ghidului care se aplică acum."
+
+- id: read_current_version_button
+  translation: "Citiți versiunea actuală"
+
+- id: version_info_not_available
+  translation: "Informațiile despre versiune nu sunt disponibile"
+
+- id: contributors_title
+  translation: "Contribuitori"
+
+- id: contributors_description_card
+  translation: "Membrii comunității care au modelat acest ghid"
+
+- id: contributors_thank_you
+  translation: "Mulțumim tuturor celor care au făcut acest ghid mai bun."
+
+- id: join_community_button
+  translation: "Alăturați-vă comunității"
+
+- id: no_contributors_found
+  translation: "Nu s-au găsit contribuitori"
+
+- id: version_history_title
+  translation: "Istoricul versiunilor"
+
+- id: version_history_description
+  translation: "Versiunile anterioare și evoluția lor"
+
+- id: no_previous_versions_title
+  translation: "Nicio versiune anterioară"
+
+- id: no_previous_versions_description
+  translation: "Acest ghid abia a început. Reveniți mai târziu pentru versiunile anterioare."
+
+- id: what_is_guide_title
+  translation: "Ce este acest ghid?"
+
+- id: license_title
+  translation: "Licență"
+
+- id: view_on_github_button
+  translation: "Vedeți pe GitHub"
+
+- id: current_open_guide_label
+  translation: "Open Guide actual"
+
+- id: active_status_label
+  translation: "În vigoare"
+
+- id: current_fork_label
+  translation: "Fork actual"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Forkat din:"
+
+- id: forked_from_indicator
+  translation: "Forkat din:"
+
+- id: this_is_fork_label
+  translation: "Acesta este un fork"
+
+- id: available_languages_label
+  translation: "Limbi disponibile"
+
+- id: pdf_downloads_label
+  translation: "Descărcări PDF"
+
+- id: living_document_updated_label
+  translation: "Document viu actualizat"
+
+- id: active_fork_updated_label
+  translation: "Fork activ actualizat"
+
+- id: historical_fork_label
+  translation: "Fork istoric din"
+
+- id: historical_version_label
+  translation: "Versiune istorică"
+
+- id: read_guide_button
+  translation: "Citiți ghidul"
+
+- id: translations_button_small
+  translation: "Traduceri"
+
+- id: read_fork_button
+  translation: "Citiți fork-ul"
+
+- id: view_archive_button
+  translation: "Vedeți arhiva"
+
+- id: download_reference_status
+  translation: "Referință"

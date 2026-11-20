@@ -56,3 +56,5 @@ languages:
     disabled: true
   hu:
     disabled: true
+  ro:
+    disabled: true
