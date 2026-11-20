@@ -1,22 +1,30 @@
 ---
 title: The Scrum Guide 2026
 short_title: Scrum Guide 2026
-description: A derived edition stating Scrum's first principles and its constitution, with implementation removed.
+description: A derived edition stating the foundations Scrum is based on and the minimum Scrum defines, with implementation removed.
 date: 2026-11-19T09:00:00Z
 version: 2026.1
 type: guide
 keywords:
   - Scrum
   - Scrum Guide
-  - First Principles
+  - Foundations
 changes_from: 2020.11
 changes:
-  - title: First Principles are separated from the Constitution
+  - title: The foundations are separated from the Constitution
     content: |
-      The edition is in two parts. The first states why anything in Scrum
-      exists. The second states what Scrum is, and says for each element
-      either the reason in the First Principles or that Scrum chooses it,
-      rather than inventing a reason.
+      The edition is in two parts. The first states the principles Scrum is
+      based on, which are not Scrum's own. The second states what Scrum
+      defines, and gives the reason in the foundations where there is one
+      rather than inventing one.
+  - title: Scrum is stated as a minimum, not a maximum
+    content: |
+      Scrum states the least that must be in place, and a Scrum Team adds
+      whatever else its work requires. This is why the framework is
+      purposefully incomplete: a complete prescription would need more
+      variety of response than can be written in advance. Immutability is
+      therefore immutability of the minimum. Adding to Scrum is expected;
+      going below it produces something that is not Scrum.
   - title: Implementation is removed
     content: |
       Timeboxes, team-size figures, meeting agendas, prescribed techniques and
@@ -194,7 +202,9 @@ Scrum adds one requirement of its own. Each accountability is held in its entire
 
 ## Scrum Definition
 
-Scrum is purposefully incomplete. It defines only the parts required to implement the First Principles, and the rest is built by the collective intelligence of the people using it. Its rules guide relationships and interactions rather than give detailed instructions.
+Scrum is purposefully incomplete. It defines only the parts required to implement the Foundations, and the rest is built by the collective intelligence of the people using it. Its rules guide relationships and interactions rather than give detailed instructions.
+
+Scrum is a minimum, not a maximum. It states the least that must be in place, and a Scrum Team adds whatever else its work requires. A Scrum Team may close more loops than Scrum defines. It may not close fewer.
 
 Various processes, techniques and methods can be employed within the framework. Scrum wraps around existing practices or renders them unnecessary, and makes the relative efficacy of current management, environment and work techniques visible, so that improvements can be made.
 
@@ -222,7 +232,7 @@ Scrum Teams are cross-functional, meaning the members have all the skills necess
 
 The entire Scrum Team is accountable for creating a valuable, useful Increment every Cycle, and is responsible for every activity the Enduring Outcome depends on.
 
-Scrum defines three specific accountabilities within the Scrum Team: for the Increment, for the Outcome, and for the Practice. These are accountabilities, not job titles, roles or people. The Scrum Team can always identify who holds each accountability, and each accountability is held in its entirety. The person holding an accountability may change, and one person may hold more than one accountability.
+Scrum defines four accountabilities. The Scrum Team is accountable as a whole, and within it three accountabilities are held: for the Increment, for the Outcome, and for the Practice. These are accountabilities, not job titles, roles or people. The Scrum Team can always identify who holds each accountability, and each accountability is held in its entirety. The person holding an accountability may change, and one person may hold more than one accountability.
 
 ### Outcome Developers
 
@@ -266,9 +276,9 @@ The Practice Owner has this authority so that the person accountable for the Scr
 
 ## The Cycle
 
-The Cycle is a container for all the loops. It is a recurring period of fixed length, during which one Cycle Outcome does not change.
+The Cycle is a container for all the loops. It is a recurring period during which one Cycle Outcome does not change.
 
-Cycles limit the risk of cost and effort to the length of one Cycle. They enable predictability by ensuring that decisions are revisited at regular intervals.
+Cycles limit the risk of cost and effort to the length of one Cycle. They enable predictability by ensuring that decisions are revisited at the end of every Cycle.
 
 The length of a Cycle is limited by the amount of risk the Scrum Team can accept. A Cycle is long enough to produce something worth inspecting and short enough that the Cycle Outcome remains valid and risk remains limited.
 
@@ -284,7 +294,7 @@ Each loop in Scrum is a formal opportunity to compare evidence with what was int
 
 The Scrum Team usually acts by changing something. The Scrum Team may instead conclude, based on the evidence, that no change is needed. A loop is not closed by looking at the evidence or by discussing it.
 
-Scrum defines five loops. Each loop changes one thing that no other loop can change:
+Scrum defines five loops. Each closes on something no other loop closes, and together they are the least that must be closed:
 
 | Loop | Changes | Closed by |
 |---|---|---|
@@ -333,7 +343,9 @@ Work that is too vague or too large to learn from is made clear enough to attemp
 
 ## Scrum Artifacts
 
-Scrum's artifacts make work and value visible. Each is designed to maximize the transparency of key information, so that everyone inspecting them has the same basis for adaptation. Scrum defines three artifacts.
+Scrum's artifacts make work and value visible. Each is designed to maximize the transparency of key information, so that everyone inspecting them has the same basis for adaptation.
+
+What has happened, what is happening and what is intended must all be transparent. Scrum defines one artifact for each: the Increment, the Cycle Backlog and the Backlog.
 
 Each artifact contains a commitment, which gives it focus and something against which progress can be measured:
 
@@ -395,4 +407,6 @@ If the Definition of Done is part of the standards of the organization, all Scru
 
 ## End Note
 
-Scrum consists of its accountabilities, its loops, the Cycle, and its artifacts with their commitments. Each element serves a specific purpose that the other elements depend on. While implementing only parts of Scrum is possible, the result is not Scrum.
+Scrum consists of its accountabilities, its loops, the Cycle, and its artifacts with their commitments. Each element serves a specific purpose that the other elements depend on.
+
+Scrum is immutable as a minimum. Adding to it is expected, and Scrum functions well as a container for other techniques, methodologies and practices. While implementing only parts of Scrum is possible, the result is not Scrum.
