@@ -17,6 +17,15 @@ changes:
       based on, which are not Scrum's own. The second states what Scrum
       defines, and gives the reason in the foundations where there is one
       rather than inventing one.
+  - title: The foundations are stated as checkable principles
+    content: |
+      The 2020 edition says Scrum is founded on empiricism and lean thinking.
+      This edition states seven principles, each of which can be checked by
+      someone who does not take the Guide's word for it, and each of which
+      says where it stops applying. Lean thinking is not among them: nothing
+      in this edition derives from it, and the claim that Scrum has rested on
+      it since its earliest editions is false, since the term appears only in
+      the 2020 edition.
   - title: Scrum is stated as a minimum, not a maximum
     content: |
       Scrum states the least that must be in place, and a Scrum Team adds
@@ -191,6 +200,14 @@ An error is corrected only when four things come together: a result, its observa
 Remove any one of the four. With no result there is nothing to observe. If the decider does not observe it, the decision is unchanged by it. With no standard, no difference can be called an error. With no power to change what is done next, the error is known and repeated. In each case correction has not occurred.
 
 Everything done since the last correction is unverified, so the most that one undetected error can cost grows with the amount of work between corrections.
+
+## Cost of Correction
+
+Acting on a known error should not wait. How often to look for one is a different question, and it carries a cost on both sides.
+
+Everything done since the last correction is unverified, so looking less often risks more. Each correction consumes effort that would otherwise go to the work, so looking more often costs more. The interval sits where those two meet.
+
+Nothing in these principles fixes that interval. It is settled by observation and it differs by work. Where looking costs nothing, there is no interval to settle.
 
 ## Partial Results
 
