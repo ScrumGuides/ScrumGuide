@@ -12,14 +12,3 @@ keywords:
 changes_from: 2018.4
 # TODO: author the `changes` entries for this edition. See docs/specification.md 5.6.
 ---
-
-> **Licence: CC BY-SA 4.0** — © 2019 Scrum.org.
-> *The Kanban Guide for Scrum Teams* — September 2019.
-> **Diese Fassung liegt nicht auf Deutsch vor.**
-> Für diese Fassung ist kein deutsches Dokument veröffentlicht; diese Seite stellt daher die Fassung vor und verweist auf den englischen Text.
->
-> Canonical source: [scrum.org](https://www.scrum.org/resources/kanban-guide-scrum-teams)
-
-## Diese Fassung auf Englisch lesen
-
-- [Kanban Guide for Scrum Teams (September 2019)](/kanban-guide-for-scrum-teams/2019.9/)

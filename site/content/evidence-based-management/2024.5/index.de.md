@@ -12,12 +12,3 @@ keywords:
 aliases:
   - /evidence-based-management/latest
 ---
-
-> **Licence: not stated** — Scrum.org publishes no Creative Commons licence for this guide.
-> *The Evidence-Based Management Guide* — English version released 7 May 2024.
-> **Diese Fassung liegt nicht auf Deutsch vor.**
-> Für diese Fassung ist kein deutsches Dokument veröffentlicht; diese Seite stellt daher die Fassung vor und verweist auf den englischen Text.
-
-## Diese Fassung auf Englisch lesen
-
-- [The Evidence-Based Management Guide (2024)](/evidence-based-management/2024.5/)

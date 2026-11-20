@@ -126,7 +126,15 @@ Wo es notwendig wird, setzt jedes Scrum Team ein eigenes Refinement für sich fo
 
 Der Zweck des Nexus Sprint Plannings ist es, die Aktivitäten aller Scrum Teams innerhalb eines Nexus für einen einzelnen Sprint zu koordinieren. Geeignete Repräsentanten aus jedem Scrum Team und der:die Product Owner:in treffen sich, um den Sprint zu planen.
 
-###### Das Ergebnis des Nexus Sprint Planning ist:  ein Nexus‐Sprint‐Ziel, das an dem Produkt‐Ziel ausgerichtet ist und den Zweck beschreibt, den ein Nexus in einem Sprint erfüllen wird.  ein am Nexus‐Sprint‐Ziel ausgerichtetes Sprint‐Ziel für jedes Scrum Team.  ein einziges Nexus Sprint Backlog, das die Arbeit des Nexus für das Nexus‐Sprint‐Ziel repräsentiert und teamübergreifende Abhängigkeiten transparent macht.  ein Sprint Backlog für jedes Scrum Team, das deren Arbeit zur Erreichung des Nexus‐Sprint‐Ziels transparent macht.
+Das Ergebnis des Nexus Sprint Planning ist:
+
+- ein Nexus‐Sprint‐Ziel, das an dem Produkt‐Ziel ausgerichtet ist und den Zweck beschreibt, den ein Nexus in einem Sprint erfüllen wird.
+
+- ein am Nexus‐Sprint‐Ziel ausgerichtetes Sprint‐Ziel für jedes Scrum Team.
+
+- ein einziges Nexus Sprint Backlog, das die Arbeit des Nexus für das Nexus‐Sprint‐Ziel repräsentiert und teamübergreifende Abhängigkeiten transparent macht.
+
+- ein Sprint Backlog für jedes Scrum Team, das deren Arbeit zur Erreichung des Nexus‐Sprint‐Ziels transparent macht.
 
 ##### Nexus Daily Scrum
 

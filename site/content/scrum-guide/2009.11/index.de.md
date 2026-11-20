@@ -10,14 +10,3 @@ keywords:
   - Scrum Guide
 # TODO: author the `changes` entries for this edition. See docs/specification.md 5.6.
 ---
-
-> **Licence: all rights reserved** — © 2008-2009 Ken Schwaber and Jeff Sutherland.
-> *Scrum Guide™* — November 2009.
-> **Diese Fassung liegt nicht auf Deutsch vor.**
-> Für diese Fassung ist kein deutsches Dokument veröffentlicht; diese Seite stellt daher die Fassung vor und verweist auf den englischen Text.
->
-> Canonical source: [scrumguides.org](https://scrumguides.org/)
-
-## Diese Fassung auf Englisch lesen
-
-- [The Scrum Guide (November 2009)](/scrum-guide/2009.11/)
