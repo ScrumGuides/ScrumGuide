@@ -129,23 +129,32 @@
 </div>
 
 <style>
-  /* A bar across the top of the header. The header lays its children out with
-     flex, so claiming the whole basis and ordering first puts this above the
-     logo and navigation without baseof having to change.
+  /* A full-bleed bar across the very top of the page. The header lays its
+     children out with wrapping flex, so ordering this first and making it wider
+     than the line puts it on its own row above the logo and navigation, without
+     baseof having to change.
 
-     It sits inside the header's .container, so it spans that rather than the
-     whole viewport. Breaking out to 100vw would overflow by the width of the
-     scrollbar and give the page a horizontal scroll. */
+     It escapes the header's .container and the header's own padding with a
+     negative margin of half the difference between the viewport and the
+     container. --sg-viewport is measured from clientWidth, which excludes the
+     scrollbar; 100vw includes it, so using 100vw here overflows by the
+     scrollbar's width and gives the whole page a horizontal scroll. The 100vw
+     fallback only applies for the moment before the script below runs. */
   .experiment-banner {
-    flex: 0 0 100%;
+    flex: 0 0 auto;
     order: -1;
+    width: var(--sg-viewport, 100vw);
+    margin-left: calc(50% - (var(--sg-viewport, 100vw) / 2));
+    margin-right: calc(50% - (var(--sg-viewport, 100vw) / 2));
+    /* Pull up through the header's p-4 (1.5rem) and the container's py-3
+       (0.75rem) so the bar sits flush against the top of the page. */
+    margin-top: -2.25rem;
+    margin-bottom: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.6rem;
-    margin: -0.75rem 0 1rem;
     padding: 0.7rem 1rem;
-    border-radius: 4px;
     background: var(--sg-accent);
     color: #ffffff;
     font-size: 1rem;
@@ -239,6 +248,26 @@
 <script>
   (function () {
     var KEY = 'sg-experiment-notice-seen';
+
+    // The banner spans the viewport. clientWidth is the viewport without the
+    // scrollbar, which is what "full width" has to mean: 100vw includes the
+    // scrollbar and would push the page into horizontal scroll.
+    //
+    // Measuring once is not enough. At parse time the page is short and has no
+    // scrollbar, so clientWidth is the full width; the scrollbar appears as the
+    // rest of the page renders and silently narrows it. That is not a resize
+    // event, so a resize listener never hears about it. ResizeObserver does:
+    // it watches the html element itself and fires whenever its box changes,
+    // scrollbar included.
+    var root = document.documentElement;
+    function measureViewport() {
+      root.style.setProperty('--sg-viewport', root.clientWidth + 'px');
+    }
+    measureViewport();
+    if (window.ResizeObserver) {
+      new ResizeObserver(measureViewport).observe(root);
+    }
+    window.addEventListener('resize', measureViewport);
 
     // Private browsing and blocked site data make localStorage throw rather
     // than return nothing. Treat that as "not seen": showing the notice twice
