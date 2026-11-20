@@ -249,25 +249,46 @@
   (function () {
     var KEY = 'sg-experiment-notice-seen';
 
-    // The banner spans the viewport. clientWidth is the viewport without the
-    // scrollbar, which is what "full width" has to mean: 100vw includes the
-    // scrollbar and would push the page into horizontal scroll.
+    // The bar spans the full width of the page, which it reaches by a negative
+    // margin out of the header's container. That margin needs a width to work
+    // from, and the obvious candidates are both wrong:
     //
-    // Measuring once is not enough. At parse time the page is short and has no
-    // scrollbar, so clientWidth is the full width; the scrollbar appears as the
-    // rest of the page renders and silently narrows it. That is not a resize
-    // event, so a resize listener never hears about it. ResizeObserver does:
-    // it watches the html element itself and fires whenever its box changes,
-    // scrollbar included.
+    //   100vw               includes the scrollbar, so the bar is wider than
+    //                       the visible page and the whole site gains a
+    //                       horizontal scroll.
+    //   documentElement     excludes the scrollbar, but changes when Bootstrap
+    //     .clientWidth      opens a modal: it hides the scrollbar and pads the
+    //                       body to compensate, which moves the container the
+    //                       bar is measuring against. The bar then sits a half
+    //                       scrollbar off-centre for as long as the modal is
+    //                       open, which on a first visit is immediately.
+    //
+    // The header is the right reference. It already spans the page, already
+    // excludes the scrollbar, and already moves with the body when a modal
+    // pads it, so the bar stays aligned in every state.
     var root = document.documentElement;
-    function measureViewport() {
-      root.style.setProperty('--sg-viewport', root.clientWidth + 'px');
+    var banner = document.querySelector('.experiment-banner');
+    var host = banner && banner.closest ? banner.closest('header') : null;
+
+    function measureWidth() {
+      var width = host ? host.getBoundingClientRect().width : root.clientWidth;
+      root.style.setProperty('--sg-viewport', width + 'px');
     }
-    measureViewport();
+    measureWidth();
+
+    // The first measurement is taken while the page is still parsing, before
+    // it is long enough to need a scrollbar, so it reads the full width and is
+    // wrong the moment the scrollbar appears and narrows the header. A
+    // scrollbar appearing is not a resize event, so these three between them
+    // have to catch it: the observer for any later change, and the two
+    // lifecycle events because the observer has proved unreliable for this
+    // particular transition.
     if (window.ResizeObserver) {
-      new ResizeObserver(measureViewport).observe(root);
+      new ResizeObserver(measureWidth).observe(host || root);
     }
-    window.addEventListener('resize', measureViewport);
+    window.addEventListener('resize', measureWidth);
+    document.addEventListener('DOMContentLoaded', measureWidth);
+    window.addEventListener('load', measureWidth);
 
     // Private browsing and blocked site data make localStorage throw rather
     // than return nothing. Treat that as "not seen": showing the notice twice
