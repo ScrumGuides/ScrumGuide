@@ -1,0 +1,586 @@
+# Interface strings, Hungarian.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Dokumentumok"
+
+- id: guides_section_title
+  translation: "Útmutatók"
+
+- id: implementations_section_title
+  translation: "Megvalósítási útmutatók"
+
+- id: implementations_section_description
+  translation: "Módok a Scrum használatára egy adott környezetben. Mindegyik a Scrum szándékán belül marad, és egy helyzethez ad útmutatást - több team egy terméken, az áramlás irányítása, a kezdés - anélkül, hogy megváltoztatná, mit kíván a Scrum."
+
+- id: extensions_section_title
+  translation: "Kiterjesztések"
+
+- id: extensions_section_description
+  translation: "Gyakorlatok, amelyek túlnyúlnak azon, amivel a Scrum foglalkozik. Egy kiterjesztés nem adja magát Scrumnak, és nem változtatja meg; olyan kérdést vesz fel, amelyet a Scrum nyitva hagy, például a termék által nyújtott érték mérését."
+
+- id: extensions_section_empty
+  translation: "Még egy sincs."
+
+- id: foundation_section_title
+  translation: "Az útmutató"
+
+- id: history_page_title
+  translation: "Történet"
+
+- id: translations_page_title
+  translation: "Fordítások"
+
+- id: changes_section_title
+  translation: "Mi változott"
+
+- id: changes_from_label
+  translation: "Változások ehhez képest"
+
+- id: lineage_section_title
+  translation: "Vonal"
+
+- id: adapted_from_label
+  translation: "Átdolgozva innen"
+
+- id: conforms_to_label
+  translation: "Megfelel ennek"
+
+- id: conforming_guides_title
+  translation: "Ennek a változatnak megfelelő útmutatók"
+
+- id: conditions_section_title
+  translation: "Feltételek"
+
+- id: condition_falsifier_label
+  translation: "Nem teljesül, ha"
+
+- id: current_version_label
+  translation: "Jelenlegi változat"
+
+- id: older_version_label
+  translation: "Korábbi változat"
+
+- id: version_notice_older
+  translation: "Ez nem ennek az útmutatónak a jelenlegi változata."
+
+- id: view_latest_label
+  translation: "A jelenlegi változat megtekintése"
+
+- id: read_time_label
+  translation: "perc olvasás"
+
+- id: badge_english_only
+  translation: "Csak angolul"
+
+- id: badge_english_only_title
+  translation: "Ezt az útmutatót még nem fordították le erre a nyelvre."
+
+- id: badge_not_in_production
+  translation: "Nincs éles környezetben"
+
+- id: badge_not_in_production_title
+  translation: "Ez az útmutató kimaradt az éles buildből."
+
+- id: badge_not_in_preview
+  translation: "Nincs előnézetben"
+
+- id: badge_not_in_preview_title
+  translation: "Ez az útmutató kimaradt az előnézeti buildből."
+
+- id: licence_label
+  translation: "Licenc"
+
+- id: canonical_source_label
+  translation: "Hiteles forrás"
+
+- id: pending_licence_check
+  translation: "A főszöveg licencellenőrzésre vár"
+
+- id: guide_join_discussion
+  translation: "Beszéljük meg ezt az útmutatót"
+
+- id: guide_version_current
+  translation: "Jelenlegi"
+
+- id: guide_version_latest
+  translation: "Legújabb"
+
+- id: guide_version_select
+  translation: "Változat választása"
+
+- id: guide_version_dropdown_label
+  translation: "Változat"
+
+- id: guide_historical_version_notice_title
+  translation: "Ez nem a jelenlegi változat."
+
+- id: guide_historical_version_notice_text
+  translation: "Ennek az útmutatónak egy korábbi változatát olvassa."
+
+- id: guide_historical_version_notice_link
+  translation: "A jelenlegi változat elolvasása"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Megtekintés az előnézeti oldalon"
+
+- id: guide_translation_preview_note
+  translation: "Fordítás előnézete."
+
+- id: guide_translation_preview_message
+  translation: "Ezt a fordítást még átnézik, és hiányos lehet."
+
+- id: contributors_label
+  translation: "Közreműködők"
+
+- id: translators_label
+  translation: "Fordítók"
+
+- id: reportTranslationError
+  translation: "Fordítási hiba jelentése"
+
+- id: nav_details
+  translation: "Erről az útmutatóról"
+
+- id: nav_translations
+  translation: "Fordítások"
+
+- id: download_table_written_by
+  translation: "Írta"
+
+- id: download_table_contributed_by
+  translation: "Közreműködött"
+
+- id: download_table_status
+  translation: "Állapot"
+
+- id: download_discussion_action
+  translation: "Megbeszélés"
+
+- id: download_preview_action
+  translation: "Előnézet"
+
+- id: download_preview_status
+  translation: "Előnézetben"
+
+- id: download_preview_description
+  translation: "Ez a fordítás még nincs kiadva, és az előnézeti oldalon olvasható."
+
+- id: download_preview_translations
+  translation: "Fordítások előnézetben"
+
+- id: download_visit_preview
+  translation: "Előnézeti oldal megnyitása"
+
+- id: download_pdf_only_status
+  translation: "Csak PDF"
+
+- id: download_stub_status
+  translation: "Nem kezdődött el"
+
+- id: site_wordmark
+  translation: "Scrum Útmutatók"
+
+- id: nav_the_guide
+  translation: "Az útmutató"
+
+- id: nav_versions
+  translation: "Változatok"
+
+- id: nav_implementations
+  translation: "Megvalósítások"
+
+- id: guide_pdf_not_available
+  translation: "A PDF nem elérhető"
+
+- id: share_label
+  translation: "Megosztás"
+
+- id: share_copy_link
+  translation: "Hivatkozás másolása"
+
+- id: share_copied
+  translation: "Vágólapra másolva!"
+
+- id: share_close
+  translation: "Bezárás"
+
+- id: role_creator
+  translation: "Megalkotó"
+
+- id: role_contributor
+  translation: "Közreműködő"
+
+- id: role_reviewer
+  translation: "Átnéző"
+
+- id: role_translator
+  translation: "Fordító"
+
+- id: role_involved
+  translation: "Résztvevő"
+
+- id: and
+  translation: "és"
+
+- id: breadcrumb_home
+  translation: "Kezdőlap"
+
+- id: read_online_title
+  translation: "Olvasás online"
+
+- id: read_online_description
+  translation: "Érje el a teljes útmutatót digitálisan interaktív funkciókkal és könnyű navigációval."
+
+- id: read_online_button
+  translation: "Olvasás online"
+
+- id: translations_title
+  translation: "Fordítások"
+
+- id: translations_description
+  translation: "Olvassa ezt az útmutatót több nyelven, és segítsen a fordításokban."
+
+- id: translations_button
+  translation: "Fordítások megtekintése"
+
+- id: history_title
+  translation: "Történet"
+
+- id: history_description
+  translation: "Kövesse ennek az útmutatónak a fejlődését és történetét."
+
+- id: history_button
+  translation: "A történet megtekintése"
+
+- id: what_is_guides_title
+  translation: "Mi az a {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Nyílt forráskódú, a közösség vezeti"
+
+- id: open_source_description
+  translation: "Ez egy nyílt forráskódú projekt, amely a közösség együttműködéséből él. Ha javításokat szeretne javasolni, problémákat jelenteni vagy tartalommal hozzájárulni, szívesen látjuk. Néhány útmutató nem fogad hozzájárulást, de hivatkozásként itt szerepel. Együtt értékesebbé tehetjük ezeket az anyagokat a gyakorlók számára a világ minden részén, és mindenki számára, aki javítani szeretné a munkafolyamat hatékonyságát és az értékszállítást."
+
+- id: at_a_glance_title
+  translation: "Röviden"
+
+- id: join_discussion_button
+  translation: "Csatlakozás a beszélgetéshez"
+
+- id: join_discussion_title
+  translation: "Csatlakozzon a {{ .Site.Title }}-ról szóló beszélgetéshez"
+
+- id: join_discussion_description
+  translation: "Találkozzon a közösséggel, ossza meg meglátásait, és segítsen formálni a {{ .Site.Title }} jövőjét. Az Önök hozzájárulása elengedhetetlen ahhoz, hogy ezek az útmutatók a gyakorlók teljes gyűjteményévé váljanak."
+
+- id: guides_intro_text
+  translation: "Tanulja meg azokat a gyakorlatokat, amelyek működnek, és hogyan használja őket a munkafolyamat és az értékszállítás optimalizálására bármely folyamatban. Itt a tudás és a jó gyakorlatok teljes gyűjteménye. A {{ .Site.Title }} a gyakorlati útmutatók otthona: ingyenes, közösség által vezetett hivatkozás bevált módszerek használatához a tudásmunkában. Az útmutatók körülhatárolják azokat az alapgyakorlatokat és mértékeket, amelyek az áramlás javításához, az értékszállítás optimalizálásához és a team fenntarthatóságának erősítéséhez szükségesek. Támogatják a skálázható bevezetést ágazatokon át, és kiegészítik más modern munkafolyamat-módszereket."
+
+- id: guide_content_not_found
+  translation: "Az útmutató tartalma nem található"
+
+- id: nav_read_guide
+  translation: "Az útmutató elolvasása"
+
+- id: nav_history
+  translation: "Történet"
+
+- id: nav_overview
+  translation: "Áttekintés"
+
+- id: guide_pdf_download_button
+  translation: "PDF letöltése"
+
+- id: guide_pdf_intro_text
+  translation: "Ezt az útmutatót PDF-ben is letöltheti, és offline elolvashatja."
+
+- id: guide_pdf_intro_link
+  translation: "A PDF letöltése"
+
+- id: download_page_title
+  translation: "Olvassa el és töltse le a hivatalos {{ .Title }}-t"
+
+- id: download_page_description
+  translation: "A {{ .Title }}-t itt meghatározzák:"
+
+- id: download_page_originators
+  translation: ", a {{ .Title }} megalkotói."
+
+- id: download_translations_provided
+  translation: "A fordításokat az alább felsorolt készséges emberek és csoportok bocsátották rendelkezésre. Válassza ki a nyelvet, amelyet le szeretne tölteni."
+
+- id: download_translation_error
+  translation: "Ha olyat talál a {{ .Title }}-ban, amit fordítási hibának gondol, forduljon közvetlenül az adott fordítóhoz. Ha további segítségre van szüksége, keressen minket itt:"
+
+- id: download_official_version
+  translation: "Hivatalos változat"
+
+- id: download_community_translations
+  translation: "Fordítások a közösségből"
+
+- id: download_current_version_released
+  translation: "A {{ .Site.Title }} jelenlegi hivatalos változata megjelent:"
+
+- id: download_older_translations_notice
+  translation: "A {{ .Site.Title }} korábbi fordításai nem feltétlenül tartalmazzák a legfrissebb információkat."
+
+- id: download_table_language
+  translation: "Nyelv"
+
+- id: download_table_translations_by
+  translation: "Fordította"
+
+- id: download_table_action
+  translation: "Művelet"
+
+- id: download_official_current_version
+  translation: "Hivatalos jelenlegi változat"
+
+- id: download_button_text
+  translation: "Letöltés"
+
+- id: download_coming_soon
+  translation: "Hamarosan"
+
+- id: download_missing_language
+  translation: "Hiányzik a nyelve?"
+
+- id: download_contribute_translation
+  translation: "Járuljon hozzá egy új fordítással, és segítse a közösséget."
+
+- id: download_add_translation
+  translation: "Fordítás hozzáadása"
+
+- id: download_community_contributors
+  translation: "Közreműködők a közösségből"
+
+- id: contributors_description
+  translation: "Az alábbi közreműködők minden útmutatóból és minden változatból összegyűjtve szerepelnek."
+
+- id: read_online_action
+  translation: "Olvasás online"
+
+- id: guide_table_of_contents
+  translation: "Tartalom"
+
+- id: guide_coming_soon
+  translation: "Ez az útmutató készül. Figyelje."
+
+- id: guide_no_content_available
+  translation: "Ezen a nyelven még nincs tartalom."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "A PDF (EN) nem elérhető"
+
+- id: guide_pdf_en_us_not_available
+  translation: "A PDF (EN-US) nem elérhető"
+
+- id: guide_coming_label
+  translation: "Készül:"
+
+- id: guide_updated_label
+  translation: "Frissítve:"
+
+- id: guide_version_label
+  translation: "Változat:"
+
+- id: guide_content_unavailable_note
+  translation: "Megjegyzés:"
+
+- id: guide_content_unavailable_message
+  translation: "Ennek a lapnak a tartalma még nincs meg ezen a nyelven: {{ .Language }}. Alább az útmutató alapértelmezett tartalma látható."
+
+- id: guide_content_unavailable_title
+  translation: "A tartalom nem elérhető:"
+
+- id: guide_content_unavailable_description
+  translation: "Ennek a lapnak a tartalmát nem lehetett betölteni, és nincs megjeleníthető alapértelmezett tartalom. Kérjük, jelentse"
+
+- id: guide_report_issue_link
+  translation: "Jelentse ezt a problémát"
+
+- id: guide_report_issue_message
+  translation: "hogy kijavíthassuk."
+
+- id: guide_back_to_home
+  translation: "← Vissza a kezdőlapra"
+
+- id: not_sure_which_to_use_title
+  translation: "Nem biztos benne, melyiket használja?"
+
+- id: get_started_title
+  translation: "Kezdés"
+
+- id: community_driven_label
+  translation: "A közösség vezeti"
+
+- id: coming_soon
+  translation: "Hamarosan"
+
+- id: purpose_title
+  translation: "Cél"
+
+- id: ethos_title
+  translation: "Alapállás"
+
+- id: audience_title
+  translation: "Kiknek szól"
+
+- id: use_case_title
+  translation: "Mikor használják"
+
+- id: content_title
+  translation: "Tartalom"
+
+- id: update_model_title
+  translation: "Így frissül"
+
+- id: guide_overview_title
+  translation: "Az útmutató áttekintése"
+
+- id: guide_overview_description
+  translation: "Ennek az útmutatónak a fő jellemzői"
+
+- id: when_to_use_title
+  translation: "Mikor használja ezt az útmutatót"
+
+- id: when_to_use_description
+  translation: "Válassza azt a megközelítést, amely illik az Ön környezetéhez"
+
+- id: quick_decision_guide_title
+  translation: "Gyors választás"
+
+- id: getting_started_title
+  translation: "Kezdő lépések"
+
+- id: for_practitioners_title
+  translation: "Gyakorlóknak"
+
+- id: current_information_title
+  translation: "Jelenlegi információk"
+
+- id: current_information_description
+  translation: "A változat részletei és közreműködők a közösségből"
+
+- id: current_version_title
+  translation: "Jelenlegi változat"
+
+- id: current_version_updated_label
+  translation: "Frissítve"
+
+- id: current_version_description
+  translation: "Ez az útmutató most érvényes változata."
+
+- id: read_current_version_button
+  translation: "A jelenlegi változat elolvasása"
+
+- id: version_info_not_available
+  translation: "A változat információi nem elérhetők"
+
+- id: contributors_title
+  translation: "Közreműködők"
+
+- id: contributors_description_card
+  translation: "A közösség tagjai, akik ezt az útmutatót formálták"
+
+- id: contributors_thank_you
+  translation: "Köszönet mindenkinek, aki jobbá tette ezt az útmutatót."
+
+- id: join_community_button
+  translation: "Csatlakozás a közösséghez"
+
+- id: no_contributors_found
+  translation: "Nem találhatók közreműködők"
+
+- id: version_history_title
+  translation: "Változattörténet"
+
+- id: version_history_description
+  translation: "Korábbi változatok és fejlődésük"
+
+- id: no_previous_versions_title
+  translation: "Nincsenek korábbi változatok"
+
+- id: no_previous_versions_description
+  translation: "Ez az útmutató épp most indult. Nézzen vissza később a korábbi változatokért."
+
+- id: what_is_guide_title
+  translation: "Mi ez az útmutató?"
+
+- id: license_title
+  translation: "Licenc"
+
+- id: view_on_github_button
+  translation: "Megtekintés a GitHubon"
+
+- id: current_open_guide_label
+  translation: "Jelenlegi Open Guide"
+
+- id: active_status_label
+  translation: "Érvényes"
+
+- id: current_fork_label
+  translation: "Jelenlegi fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Forkolva innen:"
+
+- id: forked_from_indicator
+  translation: "Forkolva innen:"
+
+- id: this_is_fork_label
+  translation: "Ez egy fork"
+
+- id: available_languages_label
+  translation: "Elérhető nyelvek"
+
+- id: pdf_downloads_label
+  translation: "PDF letöltések"
+
+- id: living_document_updated_label
+  translation: "Élő dokumentum frissítve"
+
+- id: active_fork_updated_label
+  translation: "Aktív fork frissítve"
+
+- id: historical_fork_label
+  translation: "Történeti fork innen"
+
+- id: historical_version_label
+  translation: "Történeti változat"
+
+- id: read_guide_button
+  translation: "Az útmutató elolvasása"
+
+- id: translations_button_small
+  translation: "Fordítások"
+
+- id: read_fork_button
+  translation: "A fork elolvasása"
+
+- id: view_archive_button
+  translation: "Az archívum megtekintése"
+
+- id: download_reference_status
+  translation: "Hivatkozás"

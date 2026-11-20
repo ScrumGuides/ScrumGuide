@@ -130,6 +130,12 @@ languages:
   sk:
     label: Slovenčina
     weight: 38
+  hu:
+    label: Magyar
+    weight: 19
+    title: Scrum Útmutató
+    params:
+      description: A Scrum Útmutató minden kiadott változata egy helyen, azokkal a megvalósítási útmutatókkal együtt, amelyek rá épülnek.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

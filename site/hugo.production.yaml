@@ -54,3 +54,5 @@ languages:
     disabled: true
   sk:
     disabled: true
+  hu:
+    disabled: true
