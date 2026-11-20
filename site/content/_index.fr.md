@@ -1,6 +1,6 @@
 ---
 title: Le Guide Scrum
-description: Toutes les versions publiées du Guide Scrum en un seul endroit, avec les guides de mise en œuvre qui s'appuient sur lui.
+description: "Toutes les versions publiées du Guide Scrum en un seul endroit, avec les guides de mise en œuvre qui s'appuient sur lui."
 
 # The three cards in the band at the top of the home page.
 # `pdf: true` resolves the latest edition's English PDF at build time and
@@ -19,9 +19,8 @@ home_actions:
     icon: fa-solid fa-language
     url: /fr/scrum-guide/translations/
 
-# The left-hand column.
 home_panels:
-  - title: Qu'est-ce que Scrum ?
+  - title: "Qu'est-ce que Scrum ?"
     content: |
       Scrum est un cadre de travail léger qui aide à créer de la valeur face à
       des problèmes complexes. Le Guide Scrum en est la définition — les
