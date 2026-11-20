@@ -146,9 +146,12 @@
     width: var(--sg-viewport, 100vw);
     margin-left: calc(50% - (var(--sg-viewport, 100vw) / 2));
     margin-right: calc(50% - (var(--sg-viewport, 100vw) / 2));
-    /* Pull up through the header's p-4 (1.5rem) and the container's py-3
-       (0.75rem) so the bar sits flush against the top of the page. */
-    margin-top: -2.25rem;
+    /* Pull up through the container's py-3 so the bar sits flush against the
+       top of the header. Only the container's padding is in the way: the
+       header's own p-4 is overridden to 0 at the top by the site stylesheet,
+       so pulling up by the header padding as well overshoots and the bar then
+       covers the environment strip above it. */
+    margin-top: -1rem;
     margin-bottom: 1.5rem;
     display: flex;
     align-items: center;
