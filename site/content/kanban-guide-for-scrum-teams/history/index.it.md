@@ -1,6 +1,7 @@
 ---
-title: "History"
+title: Cronologia
 layout: history
 type: guide
-description: Versions of the Kanban Guide for Scrum Teams.
+description: Versioni della Guida Kanban per gli Scrum Team.
 ---
+

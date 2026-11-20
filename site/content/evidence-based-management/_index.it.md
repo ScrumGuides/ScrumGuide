@@ -1,10 +1,10 @@
 ---
-title: The Evidence-Based Management Guide
+title: "La Guida all'Evidence-Based Management"
 short_title: Evidence-Based Management
 slug: evidence-based-management
 Type: "guide"
 Layout: "root"
-description: A framework for measuring and improving the value an organisation gets from its products.
+description: "Un framework per misurare e migliorare il valore che un'organizzazione ottiene dai suoi prodotti."
 weight: 30
 categories:
   - Extension
@@ -16,22 +16,22 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  An extension. Evidence-Based Management reaches beyond what Scrum addresses: it is about
-  measuring the value an organisation gets from its products and using that evidence to
-  decide what to improve. It makes no claim to be Scrum and does not change it, and it is
-  usable by organisations that do not run Scrum at all.
+  Un'estensione. L'Evidence-Based Management va oltre ciò di cui si occupa Scrum: riguarda la
+  misurazione del valore che un'organizzazione ottiene dai suoi prodotti e l'uso di quelle
+  evidenze per decidere cosa migliorare. Non pretende di essere Scrum e non lo modifica, ed è
+  utilizzabile da organizzazioni che non adottano Scrum affatto.
 
-  Evidence-Based Management was created by Ken Schwaber, and the guide is developed and
-  sustained by Ken Schwaber and Scrum.org. The canonical source is
-  [scrum.org](https://www.scrum.org/resources/evidence-based-management-guide). This site is
-  not published by them.
+  L'Evidence-Based Management è stato creato da Ken Schwaber, e la guida è sviluppata e
+  mantenuta da Ken Schwaber e Scrum.org. La fonte canonica è
+  [scrum.org](https://www.scrum.org/resources/evidence-based-management-guide). Questo sito non
+  è pubblicato da loro.
 
-  **The text is not on this site.** Scrum.org states no Creative Commons licence for this
-  guide, so each edition presents the edition and links the publishers' own document rather
-  than re-hosting it, exactly as the all-rights-reserved Scrum Guide and Nexus Guide editions
-  do. See `docs/licence-review.md`.
+  **Il testo non è su questo sito.** Scrum.org non indica alcuna licenza Creative Commons per
+  questa guida, quindi ogni versione presenta la versione e rimanda al documento degli editori
+  invece di ospitarlo di nuovo, esattamente come fanno le versioni della Guida Scrum e della
+  Guida Nexus che riservano tutti i diritti. Vedi `docs/licence-review.md`.
 guide_overview: |
-  Measuring and improving the value an organisation gets from its products. An extension: it reaches beyond what Scrum addresses.
+  Misurare e migliorare il valore che un'organizzazione ottiene dai suoi prodotti. Un'estensione: va oltre ciò di cui si occupa Scrum.
 sitemap:
   priority: 0.7
 ---

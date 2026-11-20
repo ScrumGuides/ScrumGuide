@@ -1,10 +1,10 @@
 ---
 title: La Guida Scrum
-short_title: Scrum Guide
+short_title: Guida Scrum
 slug: scrum-guide
 Type: "guide"
 Layout: "root"
-description: The definition of Scrum. Every published version, from November 2009 onward, as one lineage.
+description: "La definizione di Scrum. Tutte le versioni pubblicate da novembre 2009, come un'unica linea di discendenza."
 weight: 1
 categories:
   - Foundation
@@ -17,18 +17,19 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  The Scrum Guide is the definition of Scrum. It has been revised seven times since
-  Scrum.org first published it in November 2009, and every one of those versions is here as
-  an edition of this guide, selectable from the version control on any page.
+  La Guida Scrum è la definizione di Scrum. È stata rivista sette volte da quando Scrum.org
+  l'ha pubblicata per la prima volta a novembre 2009, e ognuna di quelle versioni è qui come
+  versione di questa guida, selezionabile dal controllo delle versioni presente in ogni pagina.
 
-  The four editions offered under Creative Commons carry their full text. The four before
-  them reserve all rights, so those pages present the edition and link the publishers' own
-  document rather than re-hosting it. See `docs/licence-review.md`.
+  Le quattro versioni offerte con licenza Creative Commons sono riprodotte qui per intero. Le
+  quattro precedenti riservano tutti i diritti: le loro pagine presentano la versione e
+  rimandano al documento degli editori invece di ospitarlo di nuovo. Vedi
+  `docs/licence-review.md`.
 
-  The Scrum Guide is the work of Ken Schwaber and Jeff Sutherland. The canonical source is
-  [scrumguides.org](https://scrumguides.org/). This site is not published by them.
+  La Guida Scrum è opera di Ken Schwaber e Jeff Sutherland. La fonte canonica è
+  [scrumguides.org](https://scrumguides.org/). Questo sito non è pubblicato da loro.
 guide_overview: |
-  The definition of Scrum. Every published version, from November 2009 onward, as one lineage.
+  La definizione di Scrum. Tutte le versioni pubblicate da novembre 2009, come un'unica linea di discendenza.
 sitemap:
   priority: 0.9
 ---

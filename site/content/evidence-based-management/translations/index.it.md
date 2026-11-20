@@ -1,16 +1,16 @@
 ---
-title: Translations
+title: Traduzioni
 layout: translations
 type: guide
-description: Translations of the Evidence-Based Management Guide.
+description: "Traduzioni della Guida all'Evidence-Based Management."
 ---
 
-Scrum.org publishes this guide in more than twenty languages. None of them are hosted here,
-because no licence permitting it is stated for any version, in any language.
+Scrum.org pubblica questa guida in più di venti lingue. Nessuna è ospitata qui, perché per
+nessuna versione e in nessuna lingua è indicata una licenza che lo permetta.
 
-The 2024 version is published in English and in a further twenty or so languages. Azerbaijani,
-Belarussian, Persian, Russian and Turkish remain on the 2020 version, so the language a reader
-picks determines which version they get.
+La versione del 2024 è pubblicata in inglese e in una ventina di altre lingue. L'azero, il
+bielorusso, il persiano, il russo e il turco sono ancora alla versione del 2020, quindi la
+lingua scelta da chi legge determina quale versione ottiene.
 
-The publishers' own directory, with the language selector, is at
+L'elenco degli editori, con il selettore della lingua, si trova su
 [scrum.org](https://www.scrum.org/resources/evidence-based-management-guide).

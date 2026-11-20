@@ -1,10 +1,10 @@
 ---
-title: La Guida Kanban per Scrum Team
-short_title: Kanban for Scrum Teams
+title: La Guida Kanban per gli Scrum Team
+short_title: Kanban per gli Scrum Team
 slug: kanban-guide-for-scrum-teams
 Type: "guide"
 Layout: "root"
-description: How Scrum Teams use Kanban practices to improve flow, without changing what Scrum requires of them.
+description: Come gli Scrum Team usano le pratiche Kanban per migliorare il flusso, senza cambiare ciò che Scrum richiede loro.
 weight: 10
 categories:
   - Implementation
@@ -15,24 +15,23 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  An implementation guide. It describes how a Scrum Team applies Kanban practices —
-  visualising the workflow, limiting work in progress, actively managing work items and
-  improving the workflow — within Scrum.
+  Una guida di implementazione. Descrive come uno Scrum Team applica le pratiche Kanban
+  all'interno di Scrum: rendere visibile il flusso di lavoro, limitare il lavoro in corso,
+  gestire attivamente gli elementi di lavoro e migliorare il flusso di lavoro.
 
-  The Kanban Guide for Scrum Teams is published by Scrum.org and was developed with Daniel
-  Vacanti, Steve Porter and Yuval Yeret. This site is not published by them. The canonical
-  source is
-  [scrum.org](https://www.scrum.org/resources/kanban-guide-scrum-teams).
+  La Guida Kanban per gli Scrum Team è pubblicata da Scrum.org ed è stata sviluppata con
+  Daniel Vacanti, Steve Porter e Yuval Yeret. Questo sito non è pubblicato da loro. La fonte
+  canonica è [scrum.org](https://www.scrum.org/resources/kanban-guide-scrum-teams).
 
-  **Licence: CC BY-SA 4.0.** Every published version of this guide carries that licence, so
-  every one of them carries its full text here, with the document's own notice on the page.
-  Each edition states its licence at the top.
+  **Licenza: CC BY-SA 4.0.** Ogni versione pubblicata di questa guida riporta quella licenza,
+  quindi ognuna è riprodotta qui per intero, con la nota propria del documento nella pagina.
+  Ogni versione indica la propria licenza in alto.
 
-  Implementation guides add guidance for a particular context. They may add to the parent
-  guide's conditions and may constrain them further. They may not override or weaken them.
+  Le guide di implementazione aggiungono indicazioni per un contesto particolare. Possono
+  aggiungersi alle condizioni della guida da cui derivano e restringerle ulteriormente. Non
+  possono annullarle né indebolirle.
 guide_overview: |
-  How Scrum Teams use Kanban practices to improve flow, without changing what Scrum requires of them.
-
+  Come gli Scrum Team usano le pratiche Kanban per migliorare il flusso, senza cambiare ciò che Scrum richiede loro.
 # Run 3: once Scrum Guide 2026 (edition 2026.1) publishes its conditions, add the
 # conformance claim and the derivation record. See docs/specification.md §5.7.
 #

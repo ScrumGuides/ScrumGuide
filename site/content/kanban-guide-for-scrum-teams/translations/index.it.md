@@ -1,16 +1,18 @@
 ---
-title: Translations
+title: Traduzioni
 layout: translations
 type: guide
-description: Translations of the Kanban Guide for Scrum Teams.
+description: Traduzioni della Guida Kanban per gli Scrum Team.
 ---
 
-Translations are the work of the translators credited against each language by the publishers.
-Every one of them carries the same Creative Commons Attribution ShareAlike 4.0 notice as the
-English document, so the files are hosted here rather than linked away, unchanged and with
-their own notices intact.
+Le traduzioni sono opera delle persone che gli editori accreditano per ciascuna lingua.
+Tutte riportano la stessa nota Creative Commons Attribuzione - Condividi allo stesso modo
+4.0 del documento inglese, quindi i file sono ospitati qui invece di essere collegati
+altrove, inalterati e con le loro note intatte.
 
-A language listed as PDF only has its translated document here but not its text as a page.
-If you find an error in a translation, raise it with that translator or with the publisher.
+Una lingua indicata come «solo PDF» ha qui il suo documento tradotto, ma non il suo testo
+come pagina. Se trovi un errore in una traduzione, segnalalo a chi l'ha tradotta o
+all'editore.
 
-The publishers' own directory is at [scrum.org](https://www.scrum.org/resources/kanban-guide-scrum-teams).
+L'elenco degli editori si trova su
+[scrum.org](https://www.scrum.org/resources/kanban-guide-scrum-teams).
