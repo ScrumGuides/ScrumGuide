@@ -574,3 +574,33 @@
 
 - id: when_to_use_title
   translation: "Wann dieser Guide zu verwenden ist"
+
+# Strings the module hardcoded in English in the small partials this site
+# overrides: the share menu and the contributor role badges.
+
+- id: share_label
+  translation: "Teilen"
+
+- id: share_copy_link
+  translation: "Link kopieren"
+
+- id: share_copied
+  translation: "in die Zwischenablage kopiert!"
+
+- id: share_close
+  translation: "Schließen"
+
+- id: role_creator
+  translation: "Urheber"
+
+- id: role_contributor
+  translation: "Mitwirkender"
+
+- id: role_reviewer
+  translation: "Prüfer"
+
+- id: role_translator
+  translation: "Übersetzer"
+
+- id: role_involved
+  translation: "Beteiligt"

@@ -557,3 +557,33 @@
 
 - id: download_reference_status
   translation: "Referencia"
+
+# Strings the module hardcoded in English in the small partials this site
+# overrides: the share menu and the contributor role badges.
+
+- id: share_label
+  translation: "Compartir"
+
+- id: share_copy_link
+  translation: "Copiar el enlace"
+
+- id: share_copied
+  translation: "copiado al portapapeles"
+
+- id: share_close
+  translation: "Cerrar"
+
+- id: role_creator
+  translation: "Creador"
+
+- id: role_contributor
+  translation: "Colaborador"
+
+- id: role_reviewer
+  translation: "Revisor"
+
+- id: role_translator
+  translation: "Traductor"
+
+- id: role_involved
+  translation: "Participante"

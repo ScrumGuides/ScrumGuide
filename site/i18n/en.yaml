@@ -204,3 +204,36 @@
 # Shown on a guide that has no document in the language being viewed.
 - id: guide_pdf_not_available
   translation: "PDF not available"
+
+# ---------------------------------------------------------------------------
+# Strings the module hardcodes in English in small partials this site
+# overrides, so they can be translated: the share menu and the contributor
+# role badges, which rendered the raw role value through 	itle.
+# ---------------------------------------------------------------------------
+
+- id: share_label
+  translation: "Share"
+
+- id: share_copy_link
+  translation: "Copy Link"
+
+- id: share_copied
+  translation: "copied to clipboard!"
+
+- id: share_close
+  translation: "Close"
+
+- id: role_creator
+  translation: "Creator"
+
+- id: role_contributor
+  translation: "Contributor"
+
+- id: role_reviewer
+  translation: "Reviewer"
+
+- id: role_translator
+  translation: "Translator"
+
+- id: role_involved
+  translation: "Involved"
