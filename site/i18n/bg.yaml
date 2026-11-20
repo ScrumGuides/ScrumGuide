@@ -1,0 +1,586 @@
+# Interface strings, Bulgarian.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Документи"
+
+- id: guides_section_title
+  translation: "Ръководства"
+
+- id: implementations_section_title
+  translation: "Ръководства за прилагане"
+
+- id: implementations_section_description
+  translation: "Начини да се използва Scrum в определен контекст. Всяко от тях остава в рамките на намерението на Scrum и добавя насоки за дадена ситуация - няколко екипа по един продукт, управление на потока, започване - без да променя какво Scrum иска."
+
+- id: extensions_section_title
+  translation: "Разширения"
+
+- id: extensions_section_description
+  translation: "Практики, които стигат отвъд онова, с което се занимава Scrum. Разширението не се представя за Scrum и не го променя; заема се с въпрос, който Scrum оставя открит, като измерването на стойността, която един продукт доставя."
+
+- id: extensions_section_empty
+  translation: "Все още няма."
+
+- id: foundation_section_title
+  translation: "Ръководството"
+
+- id: history_page_title
+  translation: "История"
+
+- id: translations_page_title
+  translation: "Преводи"
+
+- id: changes_section_title
+  translation: "Какво се промени"
+
+- id: changes_from_label
+  translation: "Промени спрямо"
+
+- id: lineage_section_title
+  translation: "Линия"
+
+- id: adapted_from_label
+  translation: "Преработено от"
+
+- id: conforms_to_label
+  translation: "Съответства на"
+
+- id: conforming_guides_title
+  translation: "Ръководства, които съответстват на тази версия"
+
+- id: conditions_section_title
+  translation: "Условия"
+
+- id: condition_falsifier_label
+  translation: "Не е изпълнено, когато"
+
+- id: current_version_label
+  translation: "Сегашна версия"
+
+- id: older_version_label
+  translation: "По-стара версия"
+
+- id: version_notice_older
+  translation: "Това не е сегашната версия на това ръководство."
+
+- id: view_latest_label
+  translation: "Вижте сегашната версия"
+
+- id: read_time_label
+  translation: "мин четене"
+
+- id: badge_english_only
+  translation: "Само на английски"
+
+- id: badge_english_only_title
+  translation: "Това ръководство още не е преведено на този език."
+
+- id: badge_not_in_production
+  translation: "Не е в продукция"
+
+- id: badge_not_in_production_title
+  translation: "Това ръководство е изключено от продукционния билд."
+
+- id: badge_not_in_preview
+  translation: "Не е в прегледа"
+
+- id: badge_not_in_preview_title
+  translation: "Това ръководство е изключено от билда за преглед."
+
+- id: licence_label
+  translation: "Лиценз"
+
+- id: canonical_source_label
+  translation: "Авторитетен източник"
+
+- id: pending_licence_check
+  translation: "Основният текст чака проверка на лиценза"
+
+- id: guide_join_discussion
+  translation: "Обсъдете това ръководство"
+
+- id: guide_version_current
+  translation: "Сегашна"
+
+- id: guide_version_latest
+  translation: "Най-нова"
+
+- id: guide_version_select
+  translation: "Изберете версия"
+
+- id: guide_version_dropdown_label
+  translation: "Версия"
+
+- id: guide_historical_version_notice_title
+  translation: "Това не е сегашната версия."
+
+- id: guide_historical_version_notice_text
+  translation: "Четете по-стара версия на това ръководство."
+
+- id: guide_historical_version_notice_link
+  translation: "Прочетете сегашната версия"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Вижте на сайта за преглед"
+
+- id: guide_translation_preview_note
+  translation: "Преглед на превод."
+
+- id: guide_translation_preview_message
+  translation: "Този превод още се преглежда и може да е непълен."
+
+- id: contributors_label
+  translation: "Сътрудници"
+
+- id: translators_label
+  translation: "Преводачи"
+
+- id: reportTranslationError
+  translation: "Съобщете за грешка в превода"
+
+- id: nav_details
+  translation: "За това ръководство"
+
+- id: nav_translations
+  translation: "Преводи"
+
+- id: download_table_written_by
+  translation: "Написано от"
+
+- id: download_table_contributed_by
+  translation: "Със сътрудничеството на"
+
+- id: download_table_status
+  translation: "Състояние"
+
+- id: download_discussion_action
+  translation: "Обсъждане"
+
+- id: download_preview_action
+  translation: "Преглед"
+
+- id: download_preview_status
+  translation: "В преглед"
+
+- id: download_preview_description
+  translation: "Този превод още не е публикуван и може да се прочете на сайта за преглед."
+
+- id: download_preview_translations
+  translation: "Преводи в преглед"
+
+- id: download_visit_preview
+  translation: "Отворете сайта за преглед"
+
+- id: download_pdf_only_status
+  translation: "Само PDF"
+
+- id: download_stub_status
+  translation: "Не е започнат"
+
+- id: site_wordmark
+  translation: "Ръководства за Scrum"
+
+- id: nav_the_guide
+  translation: "Ръководството"
+
+- id: nav_versions
+  translation: "Версии"
+
+- id: nav_implementations
+  translation: "Прилагания"
+
+- id: guide_pdf_not_available
+  translation: "PDF не е наличен"
+
+- id: share_label
+  translation: "Споделяне"
+
+- id: share_copy_link
+  translation: "Копирай връзката"
+
+- id: share_copied
+  translation: "Копирано в клипборда!"
+
+- id: share_close
+  translation: "Затвори"
+
+- id: role_creator
+  translation: "Създател"
+
+- id: role_contributor
+  translation: "Сътрудник"
+
+- id: role_reviewer
+  translation: "Преглеждащ"
+
+- id: role_translator
+  translation: "Преводач"
+
+- id: role_involved
+  translation: "Участник"
+
+- id: and
+  translation: "и"
+
+- id: breadcrumb_home
+  translation: "Начало"
+
+- id: read_online_title
+  translation: "Четете онлайн"
+
+- id: read_online_description
+  translation: "Получете достъп до цялото ръководство цифрово, с интерактивни възможности и лесно придвижване."
+
+- id: read_online_button
+  translation: "Четете онлайн"
+
+- id: translations_title
+  translation: "Преводи"
+
+- id: translations_description
+  translation: "Четете това ръководство на няколко езика и помогнете с преводите."
+
+- id: translations_button
+  translation: "Вижте преводите"
+
+- id: history_title
+  translation: "История"
+
+- id: history_description
+  translation: "Проследете развитието и историята на това ръководство."
+
+- id: history_button
+  translation: "Вижте историята"
+
+- id: what_is_guides_title
+  translation: "Какво е {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Отворен код, водено от общността"
+
+- id: open_source_description
+  translation: "Това е проект с отворен код, който живее от сътрудничеството на общността. Ако искате да предложите подобрения, да съобщите за проблеми или да допринесете със съдържание, добре дошли сте. Някои ръководства не приемат принос, но стоят тук като справка. Заедно можем да направим тези ресурси по-ценни за практикуващите по целия свят и за всеки, който иска да подобри ефективността на работния поток и доставянето на стойност."
+
+- id: at_a_glance_title
+  translation: "Накратко"
+
+- id: join_discussion_button
+  translation: "Присъединете се към обсъждането"
+
+- id: join_discussion_title
+  translation: "Присъединете се към обсъждането на {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Срещнете общността, споделете какво виждате и помогнете да се оформи бъдещето на {{ .Site.Title }}. Вашият принос е незаменим, за да станат тези ръководства цялото тяло за практикуващите."
+
+- id: guides_intro_text
+  translation: "Научете практиките, които работят, и как да ги използвате, за да оптимизирате работния поток и доставянето на стойност във всеки процес. Тук е цялото тяло от знание и добри практики. {{ .Site.Title }} е домът на практичните ръководства: свободна, водена от общността справка за използване на доказани методи в работата със знание. Ръководствата очертават основните практики и мерки, нужни за подобряване на потока, за оптимизиране на доставянето на стойност и за укрепване на устойчивостта на екипа. Подкрепят скалируемо възприемане в различни отрасли и допълват други съвременни методи за работен поток."
+
+- id: guide_content_not_found
+  translation: "Съдържанието на ръководството не е намерено"
+
+- id: nav_read_guide
+  translation: "Прочетете ръководството"
+
+- id: nav_history
+  translation: "История"
+
+- id: nav_overview
+  translation: "Общ поглед"
+
+- id: guide_pdf_download_button
+  translation: "Изтегли PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Можете също да изтеглите това ръководство като PDF и да го четете офлайн."
+
+- id: guide_pdf_intro_link
+  translation: "Изтеглете PDF-а"
+
+- id: download_page_title
+  translation: "Прочетете и изтеглете официалното {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} е определено тук от"
+
+- id: download_page_originators
+  translation: ", създателите на {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Преводите са предоставени от отзивчивите хора и групи по-долу. Изберете езика, който искате да изтеглите."
+
+- id: download_translation_error
+  translation: "Ако намерите в {{ .Title }} нещо, което смятате за грешка в превода, обърнете се направо към този преводач. Ако имате нужда от още помощ, свържете се с нас на"
+
+- id: download_official_version
+  translation: "Официална версия"
+
+- id: download_community_translations
+  translation: "Преводи от общността"
+
+- id: download_current_version_released
+  translation: "Сегашната официална версия на {{ .Site.Title }} излезе"
+
+- id: download_older_translations_notice
+  translation: "По-старите преводи на {{ .Site.Title }} може да не съдържат най-новата информация."
+
+- id: download_table_language
+  translation: "Език"
+
+- id: download_table_translations_by
+  translation: "Преведено от"
+
+- id: download_table_action
+  translation: "Действие"
+
+- id: download_official_current_version
+  translation: "Официална сегашна версия"
+
+- id: download_button_text
+  translation: "Изтегли"
+
+- id: download_coming_soon
+  translation: "Очаквайте скоро"
+
+- id: download_missing_language
+  translation: "Липсва ли вашият език?"
+
+- id: download_contribute_translation
+  translation: "Допринесете с нов превод и помогнете на общността."
+
+- id: download_add_translation
+  translation: "Добавете превод"
+
+- id: download_community_contributors
+  translation: "Сътрудници от общността"
+
+- id: contributors_description
+  translation: "Сътрудниците по-долу са събрани от всички ръководства и всички версии."
+
+- id: read_online_action
+  translation: "Четете онлайн"
+
+- id: guide_table_of_contents
+  translation: "Съдържание"
+
+- id: guide_coming_soon
+  translation: "Това ръководство предстои. Следете го."
+
+- id: guide_no_content_available
+  translation: "На този език още няма съдържание."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) не е наличен"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) не е наличен"
+
+- id: guide_coming_label
+  translation: "Предстои:"
+
+- id: guide_updated_label
+  translation: "Обновено:"
+
+- id: guide_version_label
+  translation: "Версия:"
+
+- id: guide_content_unavailable_note
+  translation: "Бележка:"
+
+- id: guide_content_unavailable_message
+  translation: "Съдържанието на тази страница още го няма на {{ .Language }}. По-долу се показва съдържанието по подразбиране на ръководството."
+
+- id: guide_content_unavailable_title
+  translation: "Съдържанието не е налично:"
+
+- id: guide_content_unavailable_description
+  translation: "Съдържанието на тази страница не можа да се зареди и няма съдържание по подразбиране за показване. Моля, съобщете"
+
+- id: guide_report_issue_link
+  translation: "Съобщете за този проблем"
+
+- id: guide_report_issue_message
+  translation: "за да можем да го поправим."
+
+- id: guide_back_to_home
+  translation: "← Обратно към началото"
+
+- id: not_sure_which_to_use_title
+  translation: "Не сте сигурни кое да използвате?"
+
+- id: get_started_title
+  translation: "Започнете"
+
+- id: community_driven_label
+  translation: "Водено от общността"
+
+- id: coming_soon
+  translation: "Очаквайте скоро"
+
+- id: purpose_title
+  translation: "Предназначение"
+
+- id: ethos_title
+  translation: "Изходна позиция"
+
+- id: audience_title
+  translation: "За кого"
+
+- id: use_case_title
+  translation: "Кога се използва"
+
+- id: content_title
+  translation: "Съдържание"
+
+- id: update_model_title
+  translation: "Как се обновява"
+
+- id: guide_overview_title
+  translation: "Общ поглед върху ръководството"
+
+- id: guide_overview_description
+  translation: "Основните черти на това ръководство"
+
+- id: when_to_use_title
+  translation: "Кога да използвате това ръководство"
+
+- id: when_to_use_description
+  translation: "Изберете подхода, който отговаря на вашия контекст"
+
+- id: quick_decision_guide_title
+  translation: "Бърз избор"
+
+- id: getting_started_title
+  translation: "Първи стъпки"
+
+- id: for_practitioners_title
+  translation: "За практикуващите"
+
+- id: current_information_title
+  translation: "Сегашна информация"
+
+- id: current_information_description
+  translation: "Подробности за версията и сътрудници от общността"
+
+- id: current_version_title
+  translation: "Сегашна версия"
+
+- id: current_version_updated_label
+  translation: "Обновено"
+
+- id: current_version_description
+  translation: "Това е версията на ръководството, която важи сега."
+
+- id: read_current_version_button
+  translation: "Прочетете сегашната версия"
+
+- id: version_info_not_available
+  translation: "Информацията за версията не е налична"
+
+- id: contributors_title
+  translation: "Сътрудници"
+
+- id: contributors_description_card
+  translation: "Членове на общността, които оформиха това ръководство"
+
+- id: contributors_thank_you
+  translation: "Благодарим на всички, които направиха това ръководство по-добро."
+
+- id: join_community_button
+  translation: "Присъединете се към общността"
+
+- id: no_contributors_found
+  translation: "Не са намерени сътрудници"
+
+- id: version_history_title
+  translation: "История на версиите"
+
+- id: version_history_description
+  translation: "Предишни версии и развитието им"
+
+- id: no_previous_versions_title
+  translation: "Няма предишни версии"
+
+- id: no_previous_versions_description
+  translation: "Това ръководство току-що започна. Върнете се по-късно за предишните версии."
+
+- id: what_is_guide_title
+  translation: "Какво е това ръководство?"
+
+- id: license_title
+  translation: "Лиценз"
+
+- id: view_on_github_button
+  translation: "Вижте в GitHub"
+
+- id: current_open_guide_label
+  translation: "Сегашно Open Guide"
+
+- id: active_status_label
+  translation: "В сила"
+
+- id: current_fork_label
+  translation: "Сегашен fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Forked от:"
+
+- id: forked_from_indicator
+  translation: "Forked от:"
+
+- id: this_is_fork_label
+  translation: "Това е fork"
+
+- id: available_languages_label
+  translation: "Налични езици"
+
+- id: pdf_downloads_label
+  translation: "Изтегляния в PDF"
+
+- id: living_document_updated_label
+  translation: "Живият документ е обновен"
+
+- id: active_fork_updated_label
+  translation: "Активният fork е обновен"
+
+- id: historical_fork_label
+  translation: "Исторически fork от"
+
+- id: historical_version_label
+  translation: "Историческа версия"
+
+- id: read_guide_button
+  translation: "Прочетете ръководството"
+
+- id: translations_button_small
+  translation: "Преводи"
+
+- id: read_fork_button
+  translation: "Прочетете fork-а"
+
+- id: view_archive_button
+  translation: "Вижте архива"
+
+- id: download_reference_status
+  translation: "Справка"

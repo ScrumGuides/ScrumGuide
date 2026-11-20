@@ -160,6 +160,12 @@ languages:
     title: La Guia Scrum
     params:
       description: Cada versió publicada de la Guia Scrum en un sol lloc, amb les guies d'implementació que s'hi basen.
+  bg:
+    label: Български
+    weight: 5
+    title: Ръководството за Scrum
+    params:
+      description: Всяка публикувана версия на Ръководството за Scrum на едно място, заедно с ръководствата за прилагане, които стъпват върху него.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

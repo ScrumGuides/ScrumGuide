@@ -64,3 +64,5 @@ languages:
     disabled: true
   ca:
     disabled: true
+  bg:
+    disabled: true
