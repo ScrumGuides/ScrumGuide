@@ -77,7 +77,7 @@ conditions:
       Asked separately, members of the team name different holders for one
       accountability, or cannot name one at all.
   - id: SG26-C2
-    element: "Authority"
+    element: "Scrum Team"
     statement: >-
       No accountability is divided between two people.
     falsifier: >-
@@ -162,39 +162,53 @@ aliases:
 
 Scrum is based on the principles below. They are not Scrum's own, and any approach to work whose outcome cannot be known in advance arrives at something like them. What Scrum adds is in the next part.
 
+Each can be checked by anyone who does not take this Guide's word for it, either by examining the terms or by observation. Each says where it stops applying.
+
 ## Purpose
 
-Scrum exists to generate value through adaptive solutions for complex problems.
+Scrum exists to generate value through adaptive solutions for complex problems. Value is determined by the people receiving the work, not by the people doing it or by the amount of work done.
 
-Value is determined by the people receiving the work, not by the people doing it or by the amount of work done.
+This is a declaration and not a principle. Nothing verifiable settles whose judgement determines value, and another choice is available. Everything below rests on this one being made.
 
-## Complexity
+## Uncertainty
 
-In complex work, what will happen is unknown.
+Forecasts of this work do not reliably match what results.
 
-Only what has already happened may be used for forward-looking decision making. Knowledge comes from experience, and decisions are based on what is observed.
+Record what is expected to be delivered, when, at what cost, and whether it will serve its purpose. Compare that with what happened, and repeat across cases. Where forecasts do reliably match results within the tolerance a decision needs, the work is not of this kind, and planning and executing is the cheaper method.
 
-## Empiricism
+## Evidence
 
-Scrum is founded on empiricism.
+Only what has already happened is knowledge of the outcome.
 
-The process and the work must be visible to those performing the work as well as those receiving it. Decisions are based on the perceived state of the work and the process.
+This follows from the terms. If nothing available beforehand determines the outcome, then a plan, an estimate, a specification or an intention is not knowledge of it. What remains is what has occurred.
 
-The work and the process must be inspected frequently and diligently against what was intended, to detect potentially undesirable variances or problems.
+A measure of activity, a position against a plan, or an unfinished intermediate is evidence of the outcome only so far as it is known to move with the outcome, and under Uncertainty that is not known in advance.
 
-If any aspect of the process deviates outside acceptable limits, or if what is produced is unacceptable, the process or what is produced must be adjusted. The adjustment must be made as soon as possible to minimize further deviation.
+## Correction
 
-Transparency enables inspection. Inspection enables adaptation. Inspection without transparency is misleading and wasteful, and inspection without adaptation is considered pointless.
+An error is corrected only when four things come together: a result, its observation by whoever decides, a standard to compare it against, and the power to change what is done next.
 
-Scrum employs an iterative, incremental approach to optimize predictability and to control risk. Each iteration produces something that can be observed and compared.
+Remove any one of the four. With no result there is nothing to observe. If the decider does not observe it, the decision is unchanged by it. With no standard, no difference can be called an error. With no power to change what is done next, the error is known and repeated. In each case correction has not occurred.
 
-Scrum engages groups of people who collectively have all the skills and expertise to do the work, and who share or acquire such skills as needed.
+Everything done since the last correction is unverified, so the most that one undetected error can cost grows with the amount of work between corrections.
 
-## Authority
+## Partial Results
 
-The people who observe the work are empowered to act on what they observe. Adaptation becomes more difficult when they are not empowered, as it then depends on someone who did not observe and may be made too late.
+A part of the result can be produced and met under real conditions before the whole is finished, and what it shows bears on the rest.
 
-Scrum adds one requirement of its own. Each accountability is held in its entirety and is not divided. When an accountability is split between two people, it is unclear who is accountable.
+Where a part cannot be produced, or cannot be put in real conditions, or shows nothing about the remainder, correcting before the end is not available. Such work is attempted once, and the honest alternatives are simulation or accepting the risk.
+
+## Judgement
+
+A set of responses chosen in advance has less variety than disturbances that cannot be listed in advance. Procedure can bound a response. It cannot be the response.
+
+Whoever responds must be able to produce responses that were not prescribed.
+
+## Knowledge
+
+The knowledge needed to decide well moves less easily than the right to decide.
+
+Where that knowledge summarises without loss and reaches a distant decider in time, the decision may be made anywhere. Where it does not, the decision belongs with those who hold it.
 
 ---
 
@@ -301,7 +315,7 @@ Scrum defines five loops. Each closes on something no other loop closes, and tog
 | Objective | The objective the Scrum Team takes on | Taking on an objective, with a selection of work and the Scrum Team's own approach to it |
 | Plan | The work in flight under that objective | Re-planning, so that the plan reflects what is now known |
 | Understanding | What is understood about what comes next | Work becoming clear enough to attempt, or an idea being discarded |
-| Direction | The Enduring Outcome being pursued | Changing the Enduring Outcome, or reaffirming it against evidence |
+| Direction | The Enduring Outcome being pursued | Changing the Enduring Outcome, or reaffirming it against what stakeholders did with the Increment |
 | Practice | How the Scrum Team works | Changing the way of working |
 
 Scrum does not define how long a loop takes. It defines only how often each loop closes relative to the others.
@@ -327,9 +341,9 @@ The Outcome Developers are expected to adapt the moment they learn anything new.
 
 The purpose of the Direction Loop is to determine whether the Increment is valuable to stakeholders. It is the only loop that involves people outside the Scrum Team.
 
-The Scrum Team and its stakeholders inspect the response to a usable Increment, the progress toward the Enduring Outcome, and what has changed in their environment. The Direction Loop may change the Enduring Outcome. The Backlog is then adjusted accordingly.
+The Scrum Team and its stakeholders inspect what stakeholders did with a usable Increment, the progress toward the Enduring Outcome, and what has changed in their environment. The Direction Loop may change the Enduring Outcome. The Backlog is then adjusted accordingly.
 
-The Direction Loop is a working exchange between the Scrum Team and stakeholders. The loop remains open if the work is shown to stakeholders and the Backlog is left unchanged.
+The Direction Loop is a working exchange between the Scrum Team and stakeholders. An Increment that has been shown but not used provides no evidence of value, and the loop remains open.
 
 ### Practice Loop
 
