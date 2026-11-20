@@ -18,3 +18,5 @@ languages:
     disabled: true
   es-es:
     disabled: true
+  it:
+    disabled: true
