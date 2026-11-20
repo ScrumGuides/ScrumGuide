@@ -46,3 +46,5 @@ languages:
     disabled: true
   sv:
     disabled: true
+  nb:
+    disabled: true

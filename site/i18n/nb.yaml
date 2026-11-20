@@ -1,0 +1,586 @@
+# Interface strings, Norwegian Bokmal.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Dokumenter"
+
+- id: guides_section_title
+  translation: "Guider"
+
+- id: implementations_section_title
+  translation: "Implementeringsguider"
+
+- id: implementations_section_description
+  translation: "Måter å bruke Scrum i en bestemt sammenheng. Hver av dem holder seg innenfor Scrums hensikt og legger til veiledning for en situasjon - flere team på ett produkt, å styre flyten, å komme i gang - uten å endre hva Scrum krever."
+
+- id: extensions_section_title
+  translation: "Utvidelser"
+
+- id: extensions_section_description
+  translation: "Praksiser som strekker seg utenfor det Scrum tar seg av. En utvidelse utgir seg ikke for å være Scrum og endrer det ikke; den tar fatt i et spørsmål Scrum lar stå åpent, som å måle verdien et produkt leverer."
+
+- id: extensions_section_empty
+  translation: "Ingen ennå."
+
+- id: foundation_section_title
+  translation: "Guiden"
+
+- id: history_page_title
+  translation: "Historikk"
+
+- id: translations_page_title
+  translation: "Oversettelser"
+
+- id: changes_section_title
+  translation: "Hva som endret seg"
+
+- id: changes_from_label
+  translation: "Endringer fra"
+
+- id: lineage_section_title
+  translation: "Linje"
+
+- id: adapted_from_label
+  translation: "Bearbeidet fra"
+
+- id: conforms_to_label
+  translation: "Følger"
+
+- id: conforming_guides_title
+  translation: "Guider som følger denne versjonen"
+
+- id: conditions_section_title
+  translation: "Vilkår"
+
+- id: condition_falsifier_label
+  translation: "Ikke oppfylt når"
+
+- id: current_version_label
+  translation: "Nåværende versjon"
+
+- id: older_version_label
+  translation: "Eldre versjon"
+
+- id: version_notice_older
+  translation: "Dette er ikke den nåværende versjonen av denne guiden."
+
+- id: view_latest_label
+  translation: "Se den nåværende versjonen"
+
+- id: read_time_label
+  translation: "min lesing"
+
+- id: badge_english_only
+  translation: "Kun engelsk"
+
+- id: badge_english_only_title
+  translation: "Denne guiden er ennå ikke oversatt til dette språket."
+
+- id: badge_not_in_production
+  translation: "Ikke i produksjon"
+
+- id: badge_not_in_production_title
+  translation: "Denne guiden er utelatt fra produksjonsbygget."
+
+- id: badge_not_in_preview
+  translation: "Ikke i forhåndsvisning"
+
+- id: badge_not_in_preview_title
+  translation: "Denne guiden er utelatt fra forhåndsvisningsbygget."
+
+- id: licence_label
+  translation: "Lisens"
+
+- id: canonical_source_label
+  translation: "Autoritativ kilde"
+
+- id: pending_licence_check
+  translation: "Brødtekst avventer lisenskontroll"
+
+- id: guide_join_discussion
+  translation: "Diskuter denne guiden"
+
+- id: guide_version_current
+  translation: "Nåværende"
+
+- id: guide_version_latest
+  translation: "Nyeste"
+
+- id: guide_version_select
+  translation: "Velg versjon"
+
+- id: guide_version_dropdown_label
+  translation: "Versjon"
+
+- id: guide_historical_version_notice_title
+  translation: "Dette er ikke den nåværende versjonen."
+
+- id: guide_historical_version_notice_text
+  translation: "Du leser en eldre versjon av denne guiden."
+
+- id: guide_historical_version_notice_link
+  translation: "Les den nåværende versjonen"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Se på forhåndsvisningsnettstedet"
+
+- id: guide_translation_preview_note
+  translation: "Forhåndsvisning av oversettelse."
+
+- id: guide_translation_preview_message
+  translation: "Denne oversettelsen er fortsatt under gjennomlesing og kan være ufullstendig."
+
+- id: contributors_label
+  translation: "Bidragsytere"
+
+- id: translators_label
+  translation: "Oversettere"
+
+- id: reportTranslationError
+  translation: "Rapporter en oversettelsesfeil"
+
+- id: nav_details
+  translation: "Om denne guiden"
+
+- id: nav_translations
+  translation: "Oversettelser"
+
+- id: download_table_written_by
+  translation: "Skrevet av"
+
+- id: download_table_contributed_by
+  translation: "Bidrag av"
+
+- id: download_table_status
+  translation: "Status"
+
+- id: download_discussion_action
+  translation: "Diskuter"
+
+- id: download_preview_action
+  translation: "Forhåndsvis"
+
+- id: download_preview_status
+  translation: "I forhåndsvisning"
+
+- id: download_preview_description
+  translation: "Denne oversettelsen er ennå ikke utgitt og kan leses på forhåndsvisningsnettstedet."
+
+- id: download_preview_translations
+  translation: "Oversettelser i forhåndsvisning"
+
+- id: download_visit_preview
+  translation: "Åpne forhåndsvisningsnettstedet"
+
+- id: download_pdf_only_status
+  translation: "Kun PDF"
+
+- id: download_stub_status
+  translation: "Ikke begynt"
+
+- id: site_wordmark
+  translation: "Scrumguiden"
+
+- id: nav_the_guide
+  translation: "Guiden"
+
+- id: nav_versions
+  translation: "Versjoner"
+
+- id: nav_implementations
+  translation: "Implementeringer"
+
+- id: guide_pdf_not_available
+  translation: "PDF ikke tilgjengelig"
+
+- id: share_label
+  translation: "Del"
+
+- id: share_copy_link
+  translation: "Kopier lenke"
+
+- id: share_copied
+  translation: "Kopiert til utklippstavlen!"
+
+- id: share_close
+  translation: "Lukk"
+
+- id: role_creator
+  translation: "Opphavsmann"
+
+- id: role_contributor
+  translation: "Bidragsyter"
+
+- id: role_reviewer
+  translation: "Gjennomleser"
+
+- id: role_translator
+  translation: "Oversetter"
+
+- id: role_involved
+  translation: "Involvert"
+
+- id: and
+  translation: "og"
+
+- id: breadcrumb_home
+  translation: "Forside"
+
+- id: read_online_title
+  translation: "Les på nett"
+
+- id: read_online_description
+  translation: "Få tilgang til hele guiden digitalt med interaktive funksjoner og enkel navigering."
+
+- id: read_online_button
+  translation: "Les på nett"
+
+- id: translations_title
+  translation: "Oversettelser"
+
+- id: translations_description
+  translation: "Les denne guiden på flere språk og hjelp med oversettelsene."
+
+- id: translations_button
+  translation: "Se oversettelser"
+
+- id: history_title
+  translation: "Historikk"
+
+- id: history_description
+  translation: "Følg denne guidens utvikling og historikk."
+
+- id: history_button
+  translation: "Se historikken"
+
+- id: what_is_guides_title
+  translation: "Hva er {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Open source og drevet av fellesskapet"
+
+- id: open_source_description
+  translation: "Dette er et open source-prosjekt som lever av samarbeidet i fellesskapet. Vil du foreslå forbedringer, rapportere problemer eller bidra med innhold, er du velkommen. Noen guider tar ikke imot bidrag, men står her som referanse. Sammen kan vi gjøre disse ressursene mer verdt for praktikere over hele verden og for alle som vil forbedre arbeidsflytens effektivitet og verdileveransen."
+
+- id: at_a_glance_title
+  translation: "Kort fortalt"
+
+- id: join_discussion_button
+  translation: "Delta i diskusjonen"
+
+- id: join_discussion_title
+  translation: "Delta i diskusjonen om {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Møt fellesskapet, del innsikten din og hjelp med å forme fremtiden til {{ .Site.Title }}. Bidragene deres er avgjørende for at disse guidene skal bli hele samlingen for praktikere."
+
+- id: guides_intro_text
+  translation: "Lær praksisene som virker, og hvordan du bruker dem til å optimalisere arbeidsflyt og verdileveranse i enhver prosess. Her er hele samlingen av kunnskap og gode praksiser. {{ .Site.Title }} er hjemmet for praktiske guider: en fri, fellesskapsdrevet referanse for å bruke gjennomprøvde metoder i kunnskapsarbeid. Guidene avgrenser kjernepraksisene og målene som trengs for å forbedre flyten, optimalisere verdileveransen og styrke teamets bærekraft. De støtter skalerbar adopsjon på tvers av bransjer og utfyller andre moderne arbeidsflytmetoder."
+
+- id: guide_content_not_found
+  translation: "Guideinnhold ikke funnet"
+
+- id: nav_read_guide
+  translation: "Les guiden"
+
+- id: nav_history
+  translation: "Historikk"
+
+- id: nav_overview
+  translation: "Oversikt"
+
+- id: guide_pdf_download_button
+  translation: "Last ned PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Du kan også laste ned denne guiden som PDF og lese den offline."
+
+- id: guide_pdf_intro_link
+  translation: "Last ned PDF-en"
+
+- id: download_page_title
+  translation: "Les og last ned den offisielle {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} defineres her av"
+
+- id: download_page_originators
+  translation: ", opphavsmennene til {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Oversettelsene er stilt til rådighet av de hjelpsomme personene og gruppene nedenfor. Velg språket du vil laste ned."
+
+- id: download_translation_error
+  translation: "Finner du noe du mener er en oversettelsesfeil i {{ .Title }}, kontakt den oversetteren direkte. Trenger du mer hjelp, kontakt oss på"
+
+- id: download_official_version
+  translation: "Offisiell versjon"
+
+- id: download_community_translations
+  translation: "Oversettelser fra fellesskapet"
+
+- id: download_current_version_released
+  translation: "Den nåværende offisielle versjonen av {{ .Site.Title }} kom ut"
+
+- id: download_older_translations_notice
+  translation: "Eldre oversettelser av {{ .Site.Title }} inneholder kanskje ikke den nyeste informasjonen."
+
+- id: download_table_language
+  translation: "Språk"
+
+- id: download_table_translations_by
+  translation: "Oversatt av"
+
+- id: download_table_action
+  translation: "Handling"
+
+- id: download_official_current_version
+  translation: "Offisiell nåværende versjon"
+
+- id: download_button_text
+  translation: "Last ned"
+
+- id: download_coming_soon
+  translation: "Kommer snart"
+
+- id: download_missing_language
+  translation: "Mangler språket ditt?"
+
+- id: download_contribute_translation
+  translation: "Bidra med en ny oversettelse og hjelp fellesskapet."
+
+- id: download_add_translation
+  translation: "Legg til en oversettelse"
+
+- id: download_community_contributors
+  translation: "Bidragsytere fra fellesskapet"
+
+- id: contributors_description
+  translation: "Bidragsyterne nedenfor er samlet på tvers av alle guider og alle versjoner."
+
+- id: read_online_action
+  translation: "Les på nett"
+
+- id: guide_table_of_contents
+  translation: "Innhold"
+
+- id: guide_coming_soon
+  translation: "Denne guiden er på vei. Følg med."
+
+- id: guide_no_content_available
+  translation: "Det finnes ennå ikke innhold på dette språket."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) ikke tilgjengelig"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) ikke tilgjengelig"
+
+- id: guide_coming_label
+  translation: "Kommer:"
+
+- id: guide_updated_label
+  translation: "Oppdatert:"
+
+- id: guide_version_label
+  translation: "Versjon:"
+
+- id: guide_content_unavailable_note
+  translation: "Merk:"
+
+- id: guide_content_unavailable_message
+  translation: "Innholdet til denne siden finnes ennå ikke på {{ .Language }}. Guidens standardinnhold vises nedenfor."
+
+- id: guide_content_unavailable_title
+  translation: "Innhold ikke tilgjengelig:"
+
+- id: guide_content_unavailable_description
+  translation: "Innholdet til denne siden kunne ikke lastes, og det finnes ikke noe standardinnhold å vise. Rapporter gjerne"
+
+- id: guide_report_issue_link
+  translation: "Rapporter dette problemet"
+
+- id: guide_report_issue_message
+  translation: "slik at vi kan rette det."
+
+- id: guide_back_to_home
+  translation: "← Tilbake til forsiden"
+
+- id: not_sure_which_to_use_title
+  translation: "Usikker på hvilken du skal bruke?"
+
+- id: get_started_title
+  translation: "Kom i gang"
+
+- id: community_driven_label
+  translation: "Drevet av fellesskapet"
+
+- id: coming_soon
+  translation: "Kommer snart"
+
+- id: purpose_title
+  translation: "Formål"
+
+- id: ethos_title
+  translation: "Grunnholdning"
+
+- id: audience_title
+  translation: "Lesere"
+
+- id: use_case_title
+  translation: "Når den brukes"
+
+- id: content_title
+  translation: "Innhold"
+
+- id: update_model_title
+  translation: "Slik oppdateres den"
+
+- id: guide_overview_title
+  translation: "Oversikt over guiden"
+
+- id: guide_overview_description
+  translation: "Hovedtrekkene i denne guiden"
+
+- id: when_to_use_title
+  translation: "Når du bruker denne guiden"
+
+- id: when_to_use_description
+  translation: "Velg tilnærmingen som passer din sammenheng"
+
+- id: quick_decision_guide_title
+  translation: "Raskt valg"
+
+- id: getting_started_title
+  translation: "Kom i gang"
+
+- id: for_practitioners_title
+  translation: "For praktikere"
+
+- id: current_information_title
+  translation: "Nåværende informasjon"
+
+- id: current_information_description
+  translation: "Versjonsdetaljer og bidragsytere fra fellesskapet"
+
+- id: current_version_title
+  translation: "Nåværende versjon"
+
+- id: current_version_updated_label
+  translation: "Oppdatert"
+
+- id: current_version_description
+  translation: "Dette er den versjonen av guiden som gjelder nå."
+
+- id: read_current_version_button
+  translation: "Les den nåværende versjonen"
+
+- id: version_info_not_available
+  translation: "Versjonsinformasjon ikke tilgjengelig"
+
+- id: contributors_title
+  translation: "Bidragsytere"
+
+- id: contributors_description_card
+  translation: "Medlemmer av fellesskapet som formet denne guiden"
+
+- id: contributors_thank_you
+  translation: "Takk til alle som har gjort denne guiden bedre."
+
+- id: join_community_button
+  translation: "Bli med i fellesskapet"
+
+- id: no_contributors_found
+  translation: "Ingen bidragsytere funnet"
+
+- id: version_history_title
+  translation: "Versjonshistorikk"
+
+- id: version_history_description
+  translation: "Tidligere versjoner og utviklingen deres"
+
+- id: no_previous_versions_title
+  translation: "Ingen tidligere versjoner"
+
+- id: no_previous_versions_description
+  translation: "Denne guiden har nettopp begynt. Kom tilbake senere for å se tidligere versjoner."
+
+- id: what_is_guide_title
+  translation: "Hva er denne guiden?"
+
+- id: license_title
+  translation: "Lisens"
+
+- id: view_on_github_button
+  translation: "Se på GitHub"
+
+- id: current_open_guide_label
+  translation: "Nåværende Open Guide"
+
+- id: active_status_label
+  translation: "Aktiv"
+
+- id: current_fork_label
+  translation: "Nåværende fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Forket fra:"
+
+- id: forked_from_indicator
+  translation: "Forket fra:"
+
+- id: this_is_fork_label
+  translation: "Dette er en fork"
+
+- id: available_languages_label
+  translation: "Tilgjengelige språk"
+
+- id: pdf_downloads_label
+  translation: "PDF-nedlastinger"
+
+- id: living_document_updated_label
+  translation: "Levende dokument oppdatert"
+
+- id: active_fork_updated_label
+  translation: "Aktiv fork oppdatert"
+
+- id: historical_fork_label
+  translation: "Historisk fork fra"
+
+- id: historical_version_label
+  translation: "Historisk versjon"
+
+- id: read_guide_button
+  translation: "Les guiden"
+
+- id: translations_button_small
+  translation: "Oversettelser"
+
+- id: read_fork_button
+  translation: "Les forken"
+
+- id: view_archive_button
+  translation: "Se arkivet"
+
+- id: download_reference_status
+  translation: "Referanse"
