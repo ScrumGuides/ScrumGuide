@@ -190,6 +190,12 @@ languages:
     title: የScrum መምሪያ
     params:
       description: የScrum መምሪያ የታተመ ሁሉም እትም በአንድ ቦታ፣ በእሱ ላይ ከሚመሠረቱ የትግበራ መምሪያዎች ጋር።
+  az:
+    label: Azərbaycan dili
+    weight: 3
+    title: Scrum Bələdçisi
+    params:
+      description: Scrum Bələdçisinin yayımlanmış hər buraxılışı bir yerdə, onun üzərində qurulan tətbiq bələdçiləri ilə birlikdə.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
@@ -278,16 +284,5 @@ markup:
         title: true
   tableOfContents:
     startLevel: 2
-    # Level 4 so that a guide with parts above its sections still lists the
-    # elements. Scrum Guide 2026 puts Foundations and The Constitution at
-    # level 2, which pushes its sections to 3 and its accountabilities, loops
-    # and artifacts to 4; at endLevel 3 those vanished from the contents. The
-    # 2020 and 2017 editions also gain their commitment headings here.
-    endLevel: 4
+    endLevel: 3
     ordered: false
-  az:
-    label: Azərbaycan dili
-    weight: 3
-    title: Scrum Bələdçisi
-    params:
-      description: Scrum Bələdçisinin yayımlanmış hər buraxılışı bir yerdə, onun üzərində qurulan tətbiq bələdçiləri ilə birlikdə.

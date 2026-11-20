@@ -185,7 +185,7 @@ The entire Scrum Team is accountable for creating a valuable, useful Increment e
 
 Scrum defines four accountabilities. The Scrum Team is accountable as a whole, and within it three accountabilities are held: for the Increment, for the Outcome, and for the Practice. These are accountabilities, not job titles, roles or people. The Scrum Team can always identify who holds each accountability, and each accountability is held in its entirety. The person holding an accountability may change, and one person may hold more than one accountability.
 
-#### Product Developers
+### Product Developers
 
 The Product Developers are accountable for the Increment. They are the people in the Scrum Team committed to creating any aspect of a usable Increment each Cycle.
 
@@ -198,7 +198,7 @@ The specific skills needed are often broad and will vary with the domain of work
 
 The Product Developers own the plan for the Cycle. They observe the work, so they must be able to adjust it.
 
-#### Outcome Owner
+### Outcome Owner
 
 The Outcome Owner is accountable for maximizing the value resulting from the work of the Scrum Team.
 
@@ -213,7 +213,7 @@ The Outcome Owner is also accountable for effective Product Backlog management, 
 
 The Outcome Owner may do the above work or may delegate the responsibility to others. Regardless, the Outcome Owner remains accountable.
 
-#### Practice Owner
+### Practice Owner
 
 The Practice Owner is accountable for the Scrum Team's effectiveness, which includes:
 
@@ -261,19 +261,19 @@ Scrum does not define how long a loop takes. It defines only how often each loop
 - The Direction Loop closes at least as often as the Objective Loop, so that the Scrum Team knows whether its last Increment was valuable before it takes on another objective.
 - The Practice Loop closes before the Objective Loop, so that known problems are not carried into the next objective.
 
-#### Objective Loop
+### Objective Loop
 
 The purpose of the Objective Loop is to set an objective for the Scrum Team, with a selection of work and the Scrum Team's approach to that work. It gathers no evidence of its own and relies on what the other loops have made available.
 
 The objective is set by the collaborative work of the entire Scrum Team, as the knowledge it requires is held by different members.
 
-#### Plan Loop
+### Plan Loop
 
 The Plan Loop is for the Product Developers. Only the Product Developers can act on what the Plan Loop shows, so they can select whatever structure they want for it. Their plan covers the work until the Plan Loop next closes.
 
 The Product Developers are expected to adapt the moment they learn anything new. The Plan Loop is not the only time they adjust their plan, but it ensures that they do.
 
-#### Direction Loop
+### Direction Loop
 
 The purpose of the Direction Loop is to determine whether the Increment is valuable to stakeholders. It is the only loop that involves people outside the Scrum Team.
 
@@ -281,11 +281,11 @@ The Scrum Team and its stakeholders inspect what stakeholders did with a usable 
 
 The Direction Loop is a working exchange between the Scrum Team and stakeholders. An Increment that has been shown but not used provides no evidence of value, and the loop remains open.
 
-#### Practice Loop
+### Practice Loop
 
 The purpose of the Practice Loop is to improve how the Scrum Team works. It is the only loop that inspects the Scrum Team itself.
 
-#### Understanding Loop
+### Understanding Loop
 
 The Understanding Loop is an ongoing activity. It compares what the Scrum Team has done with what the Scrum Team expects to do next.
 
@@ -309,13 +309,13 @@ Each commitment is tested in one loop and is changed there if the evidence requi
 - The Cycle Goal in the Objective Loop.
 - The Definition of Done in the Practice Loop.
 
-#### Product Backlog
+### Product Backlog
 
 The Product Backlog is an emergent, ordered list of what is needed to improve the product, and the single source of work undertaken by the Scrum Team.
 
 Product Backlog items must be small enough to be Done within one Cycle, so that every Cycle produces finished work that can be compared. The Product Developers who will be doing the work are responsible for sizing it. The Outcome Owner may influence them by helping them understand and select trade-offs.
 
-#### Commitment: Product Goal
+### Commitment: Product Goal
 
 The Product Goal describes a future state of the product, and serves as a target for the Scrum Team to plan against. The Product Goal is in the Product Backlog. The rest of the Product Backlog emerges to define what will fulfil the Product Goal.
 
@@ -323,13 +323,13 @@ A product is a vehicle to deliver value. It has a clear boundary, known stakehol
 
 The Scrum Team focuses on one objective at a time. They must fulfil (or abandon) one Product Goal before taking on the next.
 
-#### Cycle Backlog
+### Cycle Backlog
 
 The Cycle Backlog is composed of the Cycle Goal (why), the Product Backlog items selected for the Cycle (what), and an actionable plan for delivering the Increment (how).
 
 The Cycle Backlog is a plan by and for the Product Developers. It is a highly visible, real-time picture of the work that the Product Developers plan to accomplish during the Cycle in order to achieve the Cycle Goal. Consequently, the Cycle Backlog is updated throughout the Cycle as more is learned. It should have enough detail that the Product Developers can inspect their progress.
 
-#### Commitment: Cycle Goal
+### Commitment: Cycle Goal
 
 The Cycle Goal is the single objective for the Cycle. Although the Cycle Goal is a commitment by the Product Developers, it provides flexibility in terms of the exact work needed to achieve it.
 
@@ -337,7 +337,7 @@ The Cycle Goal is a focus, not an inventory of the work. It does not have to acc
 
 This flexibility allows the Scrum Team to act on what it learns during the Cycle. When the work turns out to be different from what the Product Developers expected, they collaborate with the Outcome Owner to negotiate the scope of the Cycle Backlog, without affecting the Cycle Goal.
 
-#### Increment
+### Increment
 
 An Increment is a concrete stepping stone toward the Product Goal. Each is additive to all prior Increments and thoroughly verified, so that all Increments work together.
 
@@ -347,7 +347,7 @@ Work cannot be considered part of an Increment unless it meets the Definition of
 
 Multiple Increments may be created within a Cycle. The sum of the Increments is inspected in the Direction Loop. An Increment may be delivered to stakeholders as soon as it is ready. No loop should be considered a gate to releasing value.
 
-#### Commitment: Definition of Done
+### Commitment: Definition of Done
 
 The Definition of Done is a formal description of the state of the Increment when it meets the quality measures required for the product. The moment an item meets it, an Increment is born.
 
