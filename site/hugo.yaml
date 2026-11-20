@@ -106,6 +106,12 @@ languages:
     title: 스크럼 가이드
     params:
       description: 스크럼 가이드의 발행된 모든 버전을 한곳에, 그 위에 쌓아 올린 구현 가이드와 함께.
+  zh-hant:
+    label: 繁體中文
+    weight: 50
+    title: Scrum 指南
+    params:
+      description: Scrum 指南已發布的每一個版本匯於一處，並附上以其為基礎的實作指南。
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

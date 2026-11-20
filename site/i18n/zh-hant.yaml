@@ -1,0 +1,586 @@
+# Interface strings, Traditional Chinese.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "文件"
+
+- id: guides_section_title
+  translation: "指南"
+
+- id: implementations_section_title
+  translation: "實作指南"
+
+- id: implementations_section_description
+  translation: "在特定情境中運用 Scrum 的方式。每一份都停留在 Scrum 意圖之內，並為某種情形補充指引——多個團隊共同開發一個產品、管理流動、剛剛起步——而不改變 Scrum 的要求。"
+
+- id: extensions_section_title
+  translation: "擴充"
+
+- id: extensions_section_description
+  translation: "超出 Scrum 所處理範圍的實務。擴充不聲稱自己是 Scrum，也不改變它；它承擔 Scrum 留待解決的議題，例如衡量產品所交付的價值。"
+
+- id: extensions_section_empty
+  translation: "暫無。"
+
+- id: foundation_section_title
+  translation: "指南"
+
+- id: history_page_title
+  translation: "歷史"
+
+- id: translations_page_title
+  translation: "翻譯"
+
+- id: changes_section_title
+  translation: "有何變化"
+
+- id: changes_from_label
+  translation: "相對於以下版本的變化"
+
+- id: lineage_section_title
+  translation: "脈絡"
+
+- id: adapted_from_label
+  translation: "改編自"
+
+- id: conforms_to_label
+  translation: "符合"
+
+- id: conforming_guides_title
+  translation: "符合該版本的指南"
+
+- id: conditions_section_title
+  translation: "條件"
+
+- id: condition_falsifier_label
+  translation: "不滿足的情形"
+
+- id: current_version_label
+  translation: "目前版本"
+
+- id: older_version_label
+  translation: "較早版本"
+
+- id: version_notice_older
+  translation: "這不是本指南的目前版本。"
+
+- id: view_latest_label
+  translation: "檢視目前版本"
+
+- id: read_time_label
+  translation: "分鐘閱讀"
+
+- id: badge_english_only
+  translation: "僅英文"
+
+- id: badge_english_only_title
+  translation: "本指南尚未翻譯成該語言。"
+
+- id: badge_not_in_production
+  translation: "不在生產環境"
+
+- id: badge_not_in_production_title
+  translation: "本指南已從生產建置中排除。"
+
+- id: badge_not_in_preview
+  translation: "不在預覽環境"
+
+- id: badge_not_in_preview_title
+  translation: "本指南已從預覽建置中排除。"
+
+- id: licence_label
+  translation: "授權"
+
+- id: canonical_source_label
+  translation: "權威來源"
+
+- id: pending_licence_check
+  translation: "正文待授權核實"
+
+- id: guide_join_discussion
+  translation: "討論本指南"
+
+- id: guide_version_current
+  translation: "目前"
+
+- id: guide_version_latest
+  translation: "最新"
+
+- id: guide_version_select
+  translation: "選擇版本"
+
+- id: guide_version_dropdown_label
+  translation: "版本"
+
+- id: guide_historical_version_notice_title
+  translation: "這不是目前版本。"
+
+- id: guide_historical_version_notice_text
+  translation: "你正在閱讀本指南的較早版本。"
+
+- id: guide_historical_version_notice_link
+  translation: "閱讀目前版本"
+
+- id: guide_historical_version_notice_suffix
+  translation: "。"
+
+- id: guide_preview_link
+  translation: "在預覽網站檢視"
+
+- id: guide_translation_preview_note
+  translation: "翻譯預覽。"
+
+- id: guide_translation_preview_message
+  translation: "該翻譯仍在審閱中，可能不完整。"
+
+- id: contributors_label
+  translation: "貢獻者"
+
+- id: translators_label
+  translation: "譯者"
+
+- id: reportTranslationError
+  translation: "回報翻譯錯誤"
+
+- id: nav_details
+  translation: "關於本指南"
+
+- id: nav_translations
+  translation: "翻譯"
+
+- id: download_table_written_by
+  translation: "撰寫"
+
+- id: download_table_contributed_by
+  translation: "貢獻"
+
+- id: download_table_status
+  translation: "狀態"
+
+- id: download_discussion_action
+  translation: "討論"
+
+- id: download_preview_action
+  translation: "預覽"
+
+- id: download_preview_status
+  translation: "預覽中"
+
+- id: download_preview_description
+  translation: "該翻譯尚未發布，可在預覽網站閱讀。"
+
+- id: download_preview_translations
+  translation: "預覽中的翻譯"
+
+- id: download_visit_preview
+  translation: "開啟預覽網站"
+
+- id: download_pdf_only_status
+  translation: "僅 PDF"
+
+- id: download_stub_status
+  translation: "尚未開始"
+
+- id: site_wordmark
+  translation: "Scrum 指南"
+
+- id: nav_the_guide
+  translation: "指南"
+
+- id: nav_versions
+  translation: "版本"
+
+- id: nav_implementations
+  translation: "實作"
+
+- id: guide_pdf_not_available
+  translation: "PDF 不可用"
+
+- id: share_label
+  translation: "分享"
+
+- id: share_copy_link
+  translation: "複製連結"
+
+- id: share_copied
+  translation: "已複製到剪貼簿！"
+
+- id: share_close
+  translation: "關閉"
+
+- id: role_creator
+  translation: "創建者"
+
+- id: role_contributor
+  translation: "貢獻者"
+
+- id: role_reviewer
+  translation: "審閱者"
+
+- id: role_translator
+  translation: "譯者"
+
+- id: role_involved
+  translation: "參與者"
+
+- id: and
+  translation: "和"
+
+- id: breadcrumb_home
+  translation: "首頁"
+
+- id: read_online_title
+  translation: "線上閱讀"
+
+- id: read_online_description
+  translation: "以數位方式取用完整指南，具備互動功能與便捷導覽。"
+
+- id: read_online_button
+  translation: "線上閱讀"
+
+- id: translations_title
+  translation: "翻譯"
+
+- id: translations_description
+  translation: "以多種語言閱讀本指南，並為翻譯出一份力。"
+
+- id: translations_button
+  translation: "檢視翻譯"
+
+- id: history_title
+  translation: "歷史"
+
+- id: history_description
+  translation: "了解本指南的演進與歷史。"
+
+- id: history_button
+  translation: "檢視歷史"
+
+- id: what_is_guides_title
+  translation: "{{ .Site.Title }} 是什麼？"
+
+- id: open_source_title
+  translation: "開源，由社群推動"
+
+- id: open_source_description
+  translation: "這是一個依靠社群協作的開源專案。無論你想提出改進、回報問題還是貢獻內容，都歡迎參與。部分指南不接受貢獻，但仍列於此處作為參考。我們可以共同讓這些資源對全世界的實踐者，以及任何希望提升工作流效率與價值交付的人，更有價值。"
+
+- id: at_a_glance_title
+  translation: "概覽"
+
+- id: join_discussion_button
+  translation: "加入討論"
+
+- id: join_discussion_title
+  translation: "加入 {{ .Site.Title }} 的討論"
+
+- id: join_discussion_description
+  translation: "與社群交流，分享你的見解，協助塑造 {{ .Site.Title }} 的未來。你們的貢獻對於讓這些指南成為實踐者的完整資源不可或缺。"
+
+- id: guides_intro_text
+  translation: "了解有效的實務，以及如何運用它們，在任何流程中最佳化工作流與價值交付。這裡是知識與良好實務的完整資源。{{ .Site.Title }} 是實用指南之家：一個免費、由社群推動的參考，用於在知識工作中運用經過驗證的方法。這些指南界定了改善流動、最佳化價值交付、增強團隊永續性所需的核心實務與度量。它們支持在各行各業中可擴充的採用，並與其他現代工作流方法互為補充。"
+
+- id: guide_content_not_found
+  translation: "找不到指南內容"
+
+- id: nav_read_guide
+  translation: "閱讀指南"
+
+- id: nav_history
+  translation: "歷史"
+
+- id: nav_overview
+  translation: "概覽"
+
+- id: guide_pdf_download_button
+  translation: "下載 PDF"
+
+- id: guide_pdf_intro_text
+  translation: "你也可以下載本指南的 PDF，以便離線閱讀。"
+
+- id: guide_pdf_intro_link
+  translation: "下載 PDF"
+
+- id: download_page_title
+  translation: "閱讀並下載官方 {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} 在此由以下各方定義"
+
+- id: download_page_originators
+  translation: "，{{ .Title }} 的創建者。"
+
+- id: download_translations_provided
+  translation: "翻譯由下列熱心的個人與團體提供。請選擇你希望下載的語言版本。"
+
+- id: download_translation_error
+  translation: "如果你在 {{ .Title }} 中發現疑似翻譯錯誤，請直接聯絡該譯者。如需進一步協助，請透過以下方式聯絡我們"
+
+- id: download_official_version
+  translation: "官方版本"
+
+- id: download_community_translations
+  translation: "社群翻譯"
+
+- id: download_current_version_released
+  translation: "{{ .Site.Title }} 的目前官方版本發布於"
+
+- id: download_older_translations_notice
+  translation: "日期較早的 {{ .Site.Title }} 翻譯可能不包含最新資訊。"
+
+- id: download_table_language
+  translation: "語言"
+
+- id: download_table_translations_by
+  translation: "翻譯"
+
+- id: download_table_action
+  translation: "操作"
+
+- id: download_official_current_version
+  translation: "官方目前版本"
+
+- id: download_button_text
+  translation: "下載"
+
+- id: download_coming_soon
+  translation: "即將推出"
+
+- id: download_missing_language
+  translation: "沒有你的語言？"
+
+- id: download_contribute_translation
+  translation: "貢獻一份新翻譯，為社群出一份力。"
+
+- id: download_add_translation
+  translation: "新增翻譯"
+
+- id: download_community_contributors
+  translation: "社群貢獻者"
+
+- id: contributors_description
+  translation: "下列貢獻者是所有指南、所有版本貢獻者的匯總。"
+
+- id: read_online_action
+  translation: "線上閱讀"
+
+- id: guide_table_of_contents
+  translation: "目錄"
+
+- id: guide_coming_soon
+  translation: "本指南即將推出，敬請關注。"
+
+- id: guide_no_content_available
+  translation: "該語言的內容尚不可用。"
+
+- id: guide_pdf_en
+  translation: "PDF（EN）"
+
+- id: guide_pdf_en_us
+  translation: "PDF（EN-US）"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF（EN）不可用"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF（EN-US）不可用"
+
+- id: guide_coming_label
+  translation: "即將："
+
+- id: guide_updated_label
+  translation: "更新："
+
+- id: guide_version_label
+  translation: "版本："
+
+- id: guide_content_unavailable_note
+  translation: "注意："
+
+- id: guide_content_unavailable_message
+  translation: "本頁內容暫無 {{ .Language }} 版本。下面顯示指南的預設內容。"
+
+- id: guide_content_unavailable_title
+  translation: "內容不可用："
+
+- id: guide_content_unavailable_description
+  translation: "本頁內容無法載入，且沒有可用的預設內容。請"
+
+- id: guide_report_issue_link
+  translation: "回報該問題"
+
+- id: guide_report_issue_message
+  translation: "以便我們修正。"
+
+- id: guide_back_to_home
+  translation: "← 返回首頁"
+
+- id: not_sure_which_to_use_title
+  translation: "不確定該用哪一份？"
+
+- id: get_started_title
+  translation: "開始"
+
+- id: community_driven_label
+  translation: "由社群推動"
+
+- id: coming_soon
+  translation: "即將推出"
+
+- id: purpose_title
+  translation: "目的"
+
+- id: ethos_title
+  translation: "理念"
+
+- id: audience_title
+  translation: "讀者"
+
+- id: use_case_title
+  translation: "適用情境"
+
+- id: content_title
+  translation: "內容"
+
+- id: update_model_title
+  translation: "更新方式"
+
+- id: guide_overview_title
+  translation: "指南概覽"
+
+- id: guide_overview_description
+  translation: "本指南的主要特點"
+
+- id: when_to_use_title
+  translation: "何時使用本指南"
+
+- id: when_to_use_description
+  translation: "選擇適合你所處情境的方式"
+
+- id: quick_decision_guide_title
+  translation: "快速選擇"
+
+- id: getting_started_title
+  translation: "入門"
+
+- id: for_practitioners_title
+  translation: "面向實踐者"
+
+- id: current_information_title
+  translation: "目前資訊"
+
+- id: current_information_description
+  translation: "版本詳情與社群貢獻者"
+
+- id: current_version_title
+  translation: "目前版本"
+
+- id: current_version_updated_label
+  translation: "更新"
+
+- id: current_version_description
+  translation: "這是本指南目前生效的版本。"
+
+- id: read_current_version_button
+  translation: "閱讀目前版本"
+
+- id: version_info_not_available
+  translation: "版本資訊不可用"
+
+- id: contributors_title
+  translation: "貢獻者"
+
+- id: contributors_description_card
+  translation: "塑造本指南的社群成員"
+
+- id: contributors_thank_you
+  translation: "感謝所有讓本指南變得更好的貢獻者。"
+
+- id: join_community_button
+  translation: "加入社群"
+
+- id: no_contributors_found
+  translation: "找不到貢獻者"
+
+- id: version_history_title
+  translation: "版本歷史"
+
+- id: version_history_description
+  translation: "較早的版本及其演進"
+
+- id: no_previous_versions_title
+  translation: "沒有更早的版本"
+
+- id: no_previous_versions_description
+  translation: "本指南剛剛開始。請稍後再來檢視歷史版本。"
+
+- id: what_is_guide_title
+  translation: "本指南是什麼？"
+
+- id: license_title
+  translation: "授權"
+
+- id: view_on_github_button
+  translation: "在 GitHub 上檢視"
+
+- id: current_open_guide_label
+  translation: "目前 Open Guide"
+
+- id: active_status_label
+  translation: "有效"
+
+- id: current_fork_label
+  translation: "目前分支"
+
+- id: active_fork_label
+  translation: "分支"
+
+- id: fork_indicator
+  translation: "分支自："
+
+- id: forked_from_indicator
+  translation: "分支自："
+
+- id: this_is_fork_label
+  translation: "這是一個分支"
+
+- id: available_languages_label
+  translation: "可用語言"
+
+- id: pdf_downloads_label
+  translation: "PDF 下載"
+
+- id: living_document_updated_label
+  translation: "活文件已更新"
+
+- id: active_fork_updated_label
+  translation: "活躍分支已更新"
+
+- id: historical_fork_label
+  translation: "歷史分支自"
+
+- id: historical_version_label
+  translation: "歷史版本"
+
+- id: read_guide_button
+  translation: "閱讀指南"
+
+- id: translations_button_small
+  translation: "翻譯"
+
+- id: read_fork_button
+  translation: "閱讀分支"
+
+- id: view_archive_button
+  translation: "檢視封存"
+
+- id: download_reference_status
+  translation: "參考"
