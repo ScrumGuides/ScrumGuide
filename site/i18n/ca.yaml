@@ -1,0 +1,586 @@
+# Interface strings, Catalan.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Documents"
+
+- id: guides_section_title
+  translation: "Guies"
+
+- id: implementations_section_title
+  translation: "Guies d'implementació"
+
+- id: implementations_section_description
+  translation: "Maneres de fer servir Scrum en un context determinat. Cadascuna es manté dins de la intenció de Scrum i afegeix orientació per a una situació - diversos equips en un producte, gestionar el flux, començar - sense canviar què demana Scrum."
+
+- id: extensions_section_title
+  translation: "Extensions"
+
+- id: extensions_section_description
+  translation: "Pràctiques que van més enllà d'allò de què s'ocupa Scrum. Una extensió no es presenta com a Scrum ni el canvia; pren una qüestió que Scrum deixa oberta, com mesurar el valor que lliura un producte."
+
+- id: extensions_section_empty
+  translation: "Cap encara."
+
+- id: foundation_section_title
+  translation: "La guia"
+
+- id: history_page_title
+  translation: "Història"
+
+- id: translations_page_title
+  translation: "Traduccions"
+
+- id: changes_section_title
+  translation: "Què ha canviat"
+
+- id: changes_from_label
+  translation: "Canvis respecte de"
+
+- id: lineage_section_title
+  translation: "Línia"
+
+- id: adapted_from_label
+  translation: "Adaptat de"
+
+- id: conforms_to_label
+  translation: "Compleix"
+
+- id: conforming_guides_title
+  translation: "Guies que compleixen aquesta versió"
+
+- id: conditions_section_title
+  translation: "Condicions"
+
+- id: condition_falsifier_label
+  translation: "No es compleix quan"
+
+- id: current_version_label
+  translation: "Versió actual"
+
+- id: older_version_label
+  translation: "Versió anterior"
+
+- id: version_notice_older
+  translation: "Aquesta no és la versió actual d'aquesta guia."
+
+- id: view_latest_label
+  translation: "Vegeu la versió actual"
+
+- id: read_time_label
+  translation: "min de lectura"
+
+- id: badge_english_only
+  translation: "Només en anglès"
+
+- id: badge_english_only_title
+  translation: "Aquesta guia encara no s'ha traduït a aquesta llengua."
+
+- id: badge_not_in_production
+  translation: "No en producció"
+
+- id: badge_not_in_production_title
+  translation: "Aquesta guia queda fora de la compilació de producció."
+
+- id: badge_not_in_preview
+  translation: "No en previsualització"
+
+- id: badge_not_in_preview_title
+  translation: "Aquesta guia queda fora de la compilació de previsualització."
+
+- id: licence_label
+  translation: "Llicència"
+
+- id: canonical_source_label
+  translation: "Font autoritzada"
+
+- id: pending_licence_check
+  translation: "El text principal espera la comprovació de llicència"
+
+- id: guide_join_discussion
+  translation: "Debateu aquesta guia"
+
+- id: guide_version_current
+  translation: "Actual"
+
+- id: guide_version_latest
+  translation: "La més nova"
+
+- id: guide_version_select
+  translation: "Trieu una versió"
+
+- id: guide_version_dropdown_label
+  translation: "Versió"
+
+- id: guide_historical_version_notice_title
+  translation: "Aquesta no és la versió actual."
+
+- id: guide_historical_version_notice_text
+  translation: "Esteu llegint una versió anterior d'aquesta guia."
+
+- id: guide_historical_version_notice_link
+  translation: "Llegiu la versió actual"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Vegeu-ho al lloc de previsualització"
+
+- id: guide_translation_preview_note
+  translation: "Previsualització de traducció."
+
+- id: guide_translation_preview_message
+  translation: "Aquesta traducció encara es revisa i pot ser incompleta."
+
+- id: contributors_label
+  translation: "Col·laboradors"
+
+- id: translators_label
+  translation: "Traductors"
+
+- id: reportTranslationError
+  translation: "Informeu d'un error de traducció"
+
+- id: nav_details
+  translation: "Sobre aquesta guia"
+
+- id: nav_translations
+  translation: "Traduccions"
+
+- id: download_table_written_by
+  translation: "Escrita per"
+
+- id: download_table_contributed_by
+  translation: "Amb col·laboració de"
+
+- id: download_table_status
+  translation: "Estat"
+
+- id: download_discussion_action
+  translation: "Debateu"
+
+- id: download_preview_action
+  translation: "Previsualitzeu"
+
+- id: download_preview_status
+  translation: "En previsualització"
+
+- id: download_preview_description
+  translation: "Aquesta traducció encara no s'ha publicat i es pot llegir al lloc de previsualització."
+
+- id: download_preview_translations
+  translation: "Traduccions en previsualització"
+
+- id: download_visit_preview
+  translation: "Obriu el lloc de previsualització"
+
+- id: download_pdf_only_status
+  translation: "Només PDF"
+
+- id: download_stub_status
+  translation: "No començada"
+
+- id: site_wordmark
+  translation: "Guies Scrum"
+
+- id: nav_the_guide
+  translation: "La guia"
+
+- id: nav_versions
+  translation: "Versions"
+
+- id: nav_implementations
+  translation: "Implementacions"
+
+- id: guide_pdf_not_available
+  translation: "PDF no disponible"
+
+- id: share_label
+  translation: "Comparteix"
+
+- id: share_copy_link
+  translation: "Copia l'enllaç"
+
+- id: share_copied
+  translation: "Copiat al porta-retalls!"
+
+- id: share_close
+  translation: "Tanca"
+
+- id: role_creator
+  translation: "Creador"
+
+- id: role_contributor
+  translation: "Col·laborador"
+
+- id: role_reviewer
+  translation: "Revisor"
+
+- id: role_translator
+  translation: "Traductor"
+
+- id: role_involved
+  translation: "Participant"
+
+- id: and
+  translation: "i"
+
+- id: breadcrumb_home
+  translation: "Inici"
+
+- id: read_online_title
+  translation: "Llegiu en línia"
+
+- id: read_online_description
+  translation: "Accediu a tota la guia en format digital, amb funcions interactives i navegació fàcil."
+
+- id: read_online_button
+  translation: "Llegiu en línia"
+
+- id: translations_title
+  translation: "Traduccions"
+
+- id: translations_description
+  translation: "Llegiu aquesta guia en diverses llengües i ajudeu amb les traduccions."
+
+- id: translations_button
+  translation: "Vegeu les traduccions"
+
+- id: history_title
+  translation: "Història"
+
+- id: history_description
+  translation: "Seguiu l'evolució i la història d'aquesta guia."
+
+- id: history_button
+  translation: "Vegeu la història"
+
+- id: what_is_guides_title
+  translation: "Què és {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Codi obert, impulsat per la comunitat"
+
+- id: open_source_description
+  translation: "Aquest és un projecte de codi obert que viu de la col·laboració de la comunitat. Si voleu proposar millores, informar de problemes o aportar contingut, hi sou benvinguts. Algunes guies no accepten aportacions, però hi són com a referència. Junts podem fer aquests recursos més valuosos per a qui ho practica arreu del món i per a qualsevol que vulgui millorar l'eficiència del flux de treball i el lliurament de valor."
+
+- id: at_a_glance_title
+  translation: "En poques paraules"
+
+- id: join_discussion_button
+  translation: "Uniu-vos al debat"
+
+- id: join_discussion_title
+  translation: "Uniu-vos al debat sobre {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Trobeu-vos amb la comunitat, compartiu què veieu i ajudeu a donar forma al futur de {{ .Site.Title }}. Les vostres aportacions són indispensables perquè aquestes guies siguin el cos complet per a qui ho practica."
+
+- id: guides_intro_text
+  translation: "Apreneu les pràctiques que funcionen i com fer-les servir per optimitzar el flux de treball i el lliurament de valor en qualsevol procés. Aquí hi ha tot el cos de coneixement i de bones pràctiques. {{ .Site.Title }} és la casa de les guies pràctiques: una referència lliure, impulsada per la comunitat, per fer servir mètodes provats en el treball del coneixement. Les guies delimiten les pràctiques i les mesures bàsiques que calen per millorar el flux, optimitzar el lliurament de valor i reforçar la sostenibilitat de l'equip. Donen suport a una adopció escalable en tots els sectors i complementen altres mètodes moderns de flux de treball."
+
+- id: guide_content_not_found
+  translation: "No s'ha trobat el contingut de la guia"
+
+- id: nav_read_guide
+  translation: "Llegiu la guia"
+
+- id: nav_history
+  translation: "Història"
+
+- id: nav_overview
+  translation: "Visió general"
+
+- id: guide_pdf_download_button
+  translation: "Baixeu el PDF"
+
+- id: guide_pdf_intro_text
+  translation: "També podeu baixar aquesta guia en PDF i llegir-la sense connexió."
+
+- id: guide_pdf_intro_link
+  translation: "Baixeu el PDF"
+
+- id: download_page_title
+  translation: "Llegiu i baixeu la {{ .Title }} oficial"
+
+- id: download_page_description
+  translation: "{{ .Title }} queda definida aquí per"
+
+- id: download_page_originators
+  translation: ", els creadors de {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Les traduccions les han posat a disposició les persones i els grups de bona voluntat de sota. Trieu la llengua que vulgueu baixar."
+
+- id: download_translation_error
+  translation: "Si trobeu a {{ .Title }} alguna cosa que creieu que és un error de traducció, adreceu-vos directament a aquell traductor. Si us cal més ajuda, escriviu-nos a"
+
+- id: download_official_version
+  translation: "Versió oficial"
+
+- id: download_community_translations
+  translation: "Traduccions de la comunitat"
+
+- id: download_current_version_released
+  translation: "La versió oficial actual de {{ .Site.Title }} va sortir el"
+
+- id: download_older_translations_notice
+  translation: "Les traduccions anteriors de {{ .Site.Title }} poden no contenir la informació més nova."
+
+- id: download_table_language
+  translation: "Llengua"
+
+- id: download_table_translations_by
+  translation: "Traduïda per"
+
+- id: download_table_action
+  translation: "Acció"
+
+- id: download_official_current_version
+  translation: "Versió oficial actual"
+
+- id: download_button_text
+  translation: "Baixeu"
+
+- id: download_coming_soon
+  translation: "Aviat"
+
+- id: download_missing_language
+  translation: "Hi falta la vostra llengua?"
+
+- id: download_contribute_translation
+  translation: "Aporteu una traducció nova i ajudeu la comunitat."
+
+- id: download_add_translation
+  translation: "Afegiu una traducció"
+
+- id: download_community_contributors
+  translation: "Col·laboradors de la comunitat"
+
+- id: contributors_description
+  translation: "Els col·laboradors de sota són aplegats de totes les guies i totes les versions."
+
+- id: read_online_action
+  translation: "Llegiu en línia"
+
+- id: guide_table_of_contents
+  translation: "Continguts"
+
+- id: guide_coming_soon
+  translation: "Aquesta guia està en camí. Estigueu-hi atents."
+
+- id: guide_no_content_available
+  translation: "En aquesta llengua encara no hi ha contingut."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) no disponible"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) no disponible"
+
+- id: guide_coming_label
+  translation: "Ve:"
+
+- id: guide_updated_label
+  translation: "Actualitzada:"
+
+- id: guide_version_label
+  translation: "Versió:"
+
+- id: guide_content_unavailable_note
+  translation: "Nota:"
+
+- id: guide_content_unavailable_message
+  translation: "El contingut d'aquesta pàgina encara no hi és en {{ .Language }}. A sota es mostra el contingut per defecte de la guia."
+
+- id: guide_content_unavailable_title
+  translation: "Contingut no disponible:"
+
+- id: guide_content_unavailable_description
+  translation: "El contingut d'aquesta pàgina no s'ha pogut carregar i no hi ha contingut per defecte per mostrar. Informeu, si us plau,"
+
+- id: guide_report_issue_link
+  translation: "Informeu d'aquest problema"
+
+- id: guide_report_issue_message
+  translation: "perquè el puguem esmenar."
+
+- id: guide_back_to_home
+  translation: "← Torna a l'inici"
+
+- id: not_sure_which_to_use_title
+  translation: "No sabeu quina fer servir?"
+
+- id: get_started_title
+  translation: "Comenceu"
+
+- id: community_driven_label
+  translation: "Impulsat per la comunitat"
+
+- id: coming_soon
+  translation: "Aviat"
+
+- id: purpose_title
+  translation: "Propòsit"
+
+- id: ethos_title
+  translation: "Punt de partida"
+
+- id: audience_title
+  translation: "Per a qui"
+
+- id: use_case_title
+  translation: "Quan es fa servir"
+
+- id: content_title
+  translation: "Contingut"
+
+- id: update_model_title
+  translation: "Com s'actualitza"
+
+- id: guide_overview_title
+  translation: "Visió general de la guia"
+
+- id: guide_overview_description
+  translation: "Els trets principals d'aquesta guia"
+
+- id: when_to_use_title
+  translation: "Quan fer servir aquesta guia"
+
+- id: when_to_use_description
+  translation: "Trieu l'enfocament que s'adigui al vostre context"
+
+- id: quick_decision_guide_title
+  translation: "Tria ràpida"
+
+- id: getting_started_title
+  translation: "Primeres passes"
+
+- id: for_practitioners_title
+  translation: "Per a qui ho practica"
+
+- id: current_information_title
+  translation: "Informació actual"
+
+- id: current_information_description
+  translation: "Detalls de la versió i col·laboradors de la comunitat"
+
+- id: current_version_title
+  translation: "Versió actual"
+
+- id: current_version_updated_label
+  translation: "Actualitzada"
+
+- id: current_version_description
+  translation: "Aquesta és la versió de la guia que val ara."
+
+- id: read_current_version_button
+  translation: "Llegiu la versió actual"
+
+- id: version_info_not_available
+  translation: "La informació de la versió no és disponible"
+
+- id: contributors_title
+  translation: "Col·laboradors"
+
+- id: contributors_description_card
+  translation: "Membres de la comunitat que han donat forma a aquesta guia"
+
+- id: contributors_thank_you
+  translation: "Gràcies a tothom que ha fet millor aquesta guia."
+
+- id: join_community_button
+  translation: "Uniu-vos a la comunitat"
+
+- id: no_contributors_found
+  translation: "No s'han trobat col·laboradors"
+
+- id: version_history_title
+  translation: "Història de versions"
+
+- id: version_history_description
+  translation: "Versions anteriors i la seva evolució"
+
+- id: no_previous_versions_title
+  translation: "Cap versió anterior"
+
+- id: no_previous_versions_description
+  translation: "Aquesta guia tot just ha començat. Torneu més tard per a les versions anteriors."
+
+- id: what_is_guide_title
+  translation: "Què és aquesta guia?"
+
+- id: license_title
+  translation: "Llicència"
+
+- id: view_on_github_button
+  translation: "Vegeu-ho a GitHub"
+
+- id: current_open_guide_label
+  translation: "Open Guide actual"
+
+- id: active_status_label
+  translation: "Vigent"
+
+- id: current_fork_label
+  translation: "Fork actual"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Forkat de:"
+
+- id: forked_from_indicator
+  translation: "Forkat de:"
+
+- id: this_is_fork_label
+  translation: "Això és un fork"
+
+- id: available_languages_label
+  translation: "Llengües disponibles"
+
+- id: pdf_downloads_label
+  translation: "Baixades en PDF"
+
+- id: living_document_updated_label
+  translation: "Document viu actualitzat"
+
+- id: active_fork_updated_label
+  translation: "Fork actiu actualitzat"
+
+- id: historical_fork_label
+  translation: "Fork històric de"
+
+- id: historical_version_label
+  translation: "Versió històrica"
+
+- id: read_guide_button
+  translation: "Llegiu la guia"
+
+- id: translations_button_small
+  translation: "Traduccions"
+
+- id: read_fork_button
+  translation: "Llegiu el fork"
+
+- id: view_archive_button
+  translation: "Vegeu l'arxiu"
+
+- id: download_reference_status
+  translation: "Referència"

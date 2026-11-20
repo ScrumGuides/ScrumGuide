@@ -62,3 +62,5 @@ languages:
     disabled: true
   tr:
     disabled: true
+  ca:
+    disabled: true

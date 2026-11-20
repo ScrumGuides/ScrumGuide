@@ -154,6 +154,12 @@ languages:
     title: Scrum Kılavuzu
     params:
       description: Scrum Kılavuzu'nun yayımlanmış her sürümü tek bir yerde, üzerine kurulan uygulama kılavuzlarıyla birlikte.
+  ca:
+    label: Català
+    weight: 8
+    title: La Guia Scrum
+    params:
+      description: Cada versió publicada de la Guia Scrum en un sol lloc, amb les guies d'implementació que s'hi basen.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
