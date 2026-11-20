@@ -26,6 +26,11 @@ languages:
   fr:
     label: Français
     weight: 19
+    title: Le Guide Scrum
+    params:
+      seo_title: "Le Guide Scrum | Toutes les versions, une seule filiation"
+      description: Toutes les versions publiées du Guide Scrum en un seul endroit, depuis 2010, avec les guides de mise en œuvre qui s'appuient sur lui.
+      keywords: Guide Scrum, Scrum, versions du Guide Scrum, historique du Guide Scrum, Guide Scrum 2026, contrôle empirique des processus, conditions Scrum, guides de mise en œuvre, Guide Kanban pour les Scrum Teams
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
