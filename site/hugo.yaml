@@ -121,6 +121,9 @@ languages:
   nb:
     label: Norsk bokmål
     weight: 31
+  fi:
+    label: Suomi
+    weight: 16
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

@@ -48,3 +48,5 @@ languages:
     disabled: true
   nb:
     disabled: true
+  fi:
+    disabled: true

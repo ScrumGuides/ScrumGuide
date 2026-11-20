@@ -1,0 +1,586 @@
+# Interface strings, Finnish.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Asiakirjat"
+
+- id: guides_section_title
+  translation: "Oppaat"
+
+- id: implementations_section_title
+  translation: "Toteutusoppaat"
+
+- id: implementations_section_description
+  translation: "Tapoja käyttää Scrumia tietyssä asiayhteydessä. Jokainen niistä pysyy Scrumin tarkoituksen sisällä ja lisää ohjausta johonkin tilanteeseen - useita tiimejä yhdellä tuotteella, virtauksen ohjaaminen, alkuun pääseminen - muuttamatta sitä, mitä Scrum vaatii."
+
+- id: extensions_section_title
+  translation: "Laajennukset"
+
+- id: extensions_section_description
+  translation: "Käytäntöjä, jotka ulottuvat sen ulkopuolelle, mistä Scrum huolehtii. Laajennus ei esiinny Scrumina eikä muuta sitä; se tarttuu kysymykseen, jonka Scrum jättää avoimeksi, kuten tuotteen tuottaman arvon mittaamiseen."
+
+- id: extensions_section_empty
+  translation: "Ei vielä yhtään."
+
+- id: foundation_section_title
+  translation: "Opas"
+
+- id: history_page_title
+  translation: "Historia"
+
+- id: translations_page_title
+  translation: "Käännökset"
+
+- id: changes_section_title
+  translation: "Mikä muuttui"
+
+- id: changes_from_label
+  translation: "Muutokset versiosta"
+
+- id: lineage_section_title
+  translation: "Jatkumo"
+
+- id: adapted_from_label
+  translation: "Mukautettu lähteestä"
+
+- id: conforms_to_label
+  translation: "Noudattaa"
+
+- id: conforming_guides_title
+  translation: "Tätä versiota noudattavat oppaat"
+
+- id: conditions_section_title
+  translation: "Ehdot"
+
+- id: condition_falsifier_label
+  translation: "Ei täyty kun"
+
+- id: current_version_label
+  translation: "Nykyinen versio"
+
+- id: older_version_label
+  translation: "Vanhempi versio"
+
+- id: version_notice_older
+  translation: "Tämä ei ole tämän oppaan nykyinen versio."
+
+- id: view_latest_label
+  translation: "Katso nykyinen versio"
+
+- id: read_time_label
+  translation: "min lukuaika"
+
+- id: badge_english_only
+  translation: "Vain englanniksi"
+
+- id: badge_english_only_title
+  translation: "Tätä opasta ei ole vielä käännetty tälle kielelle."
+
+- id: badge_not_in_production
+  translation: "Ei tuotannossa"
+
+- id: badge_not_in_production_title
+  translation: "Tämä opas on jätetty pois tuotantokoonnoksesta."
+
+- id: badge_not_in_preview
+  translation: "Ei esikatselussa"
+
+- id: badge_not_in_preview_title
+  translation: "Tämä opas on jätetty pois esikatselukoonnoksesta."
+
+- id: licence_label
+  translation: "Lisenssi"
+
+- id: canonical_source_label
+  translation: "Arvovaltainen lähde"
+
+- id: pending_licence_check
+  translation: "Leipäteksti odottaa lisenssitarkistusta"
+
+- id: guide_join_discussion
+  translation: "Keskustele tästä oppaasta"
+
+- id: guide_version_current
+  translation: "Nykyinen"
+
+- id: guide_version_latest
+  translation: "Uusin"
+
+- id: guide_version_select
+  translation: "Valitse versio"
+
+- id: guide_version_dropdown_label
+  translation: "Versio"
+
+- id: guide_historical_version_notice_title
+  translation: "Tämä ei ole nykyinen versio."
+
+- id: guide_historical_version_notice_text
+  translation: "Luet tämän oppaan vanhempaa versiota."
+
+- id: guide_historical_version_notice_link
+  translation: "Lue nykyinen versio"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Katso esikatselusivustolla"
+
+- id: guide_translation_preview_note
+  translation: "Käännöksen esikatselu."
+
+- id: guide_translation_preview_message
+  translation: "Tämä käännös on vielä tarkastettavana ja voi olla keskeneräinen."
+
+- id: contributors_label
+  translation: "Avustajat"
+
+- id: translators_label
+  translation: "Kääntäjät"
+
+- id: reportTranslationError
+  translation: "Ilmoita käännösvirheestä"
+
+- id: nav_details
+  translation: "Tästä oppaasta"
+
+- id: nav_translations
+  translation: "Käännökset"
+
+- id: download_table_written_by
+  translation: "Kirjoittanut"
+
+- id: download_table_contributed_by
+  translation: "Avustanut"
+
+- id: download_table_status
+  translation: "Tila"
+
+- id: download_discussion_action
+  translation: "Keskustele"
+
+- id: download_preview_action
+  translation: "Esikatsele"
+
+- id: download_preview_status
+  translation: "Esikatselussa"
+
+- id: download_preview_description
+  translation: "Tätä käännöstä ei ole vielä julkaistu, ja sen voi lukea esikatselusivustolla."
+
+- id: download_preview_translations
+  translation: "Käännökset esikatselussa"
+
+- id: download_visit_preview
+  translation: "Avaa esikatselusivusto"
+
+- id: download_pdf_only_status
+  translation: "Vain PDF"
+
+- id: download_stub_status
+  translation: "Ei aloitettu"
+
+- id: site_wordmark
+  translation: "Scrum-opas"
+
+- id: nav_the_guide
+  translation: "Opas"
+
+- id: nav_versions
+  translation: "Versiot"
+
+- id: nav_implementations
+  translation: "Toteutukset"
+
+- id: guide_pdf_not_available
+  translation: "PDF ei saatavilla"
+
+- id: share_label
+  translation: "Jaa"
+
+- id: share_copy_link
+  translation: "Kopioi linkki"
+
+- id: share_copied
+  translation: "Kopioitu leikepöydälle!"
+
+- id: share_close
+  translation: "Sulje"
+
+- id: role_creator
+  translation: "Luoja"
+
+- id: role_contributor
+  translation: "Avustaja"
+
+- id: role_reviewer
+  translation: "Tarkastaja"
+
+- id: role_translator
+  translation: "Kääntäjä"
+
+- id: role_involved
+  translation: "Osallistuja"
+
+- id: and
+  translation: "ja"
+
+- id: breadcrumb_home
+  translation: "Etusivu"
+
+- id: read_online_title
+  translation: "Lue verkossa"
+
+- id: read_online_description
+  translation: "Käytä koko opasta digitaalisesti vuorovaikutteisin toiminnoin ja helpoin liikkumisen."
+
+- id: read_online_button
+  translation: "Lue verkossa"
+
+- id: translations_title
+  translation: "Käännökset"
+
+- id: translations_description
+  translation: "Lue tämä opas useilla kielillä ja auta käännöksissä."
+
+- id: translations_button
+  translation: "Katso käännökset"
+
+- id: history_title
+  translation: "Historia"
+
+- id: history_description
+  translation: "Seuraa tämän oppaan kehitystä ja historiaa."
+
+- id: history_button
+  translation: "Katso historia"
+
+- id: what_is_guides_title
+  translation: "Mikä {{ .Site.Title }} on?"
+
+- id: open_source_title
+  translation: "Avointa lähdekoodia, yhteisön ylläpitämä"
+
+- id: open_source_description
+  translation: "Tämä on avoimen lähdekoodin hanke, joka elää yhteisön yhteistyöstä. Jos haluat ehdottaa parannuksia, ilmoittaa ongelmista tai tuottaa sisältöä, olet tervetullut. Jotkin oppaat eivät ota vastaan panoksia, mutta ovat täällä viitteenä. Yhdessä voimme tehdä näistä aineistoista arvokkaampia harjoittajille kaikkialla maailmassa ja kaikille, jotka haluavat parantaa työnkulun tehokkuutta ja arvontuottoa."
+
+- id: at_a_glance_title
+  translation: "Lyhyesti"
+
+- id: join_discussion_button
+  translation: "Liity keskusteluun"
+
+- id: join_discussion_title
+  translation: "Liity keskusteluun teoksesta {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Kohtaa yhteisö, jaa näkemyksesi ja auta muovaamaan teoksen {{ .Site.Title }} tulevaisuutta. Panoksenne on välttämätön, jotta näistä oppaista tulee harjoittajien koko kokoelma."
+
+- id: guides_intro_text
+  translation: "Opi käytännöt, jotka toimivat, ja miten käytät niitä työnkulun ja arvontuoton optimointiin missä tahansa prosessissa. Tässä on koko tiedon ja hyvien käytäntöjen kokoelma. {{ .Site.Title }} on käytännöllisten oppaiden koti: vapaa, yhteisön ylläpitämä lähdeteos todistettujen menetelmien käyttöön tietotyössä. Oppaat rajaavat ne ydinkäytännöt ja mittarit, joita virtauksen parantaminen, arvontuoton optimointi ja tiimin kestävyyden vahvistaminen vaativat. Ne tukevat skaalautuvaa käyttöönottoa toimialojen yli ja täydentävät muita nykyaikaisia työnkulun menetelmiä."
+
+- id: guide_content_not_found
+  translation: "Oppaan sisältöä ei löytynyt"
+
+- id: nav_read_guide
+  translation: "Lue opas"
+
+- id: nav_history
+  translation: "Historia"
+
+- id: nav_overview
+  translation: "Yleiskuva"
+
+- id: guide_pdf_download_button
+  translation: "Lataa PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Voit myös ladata tämän oppaan PDF-muodossa ja lukea sen verkottomana."
+
+- id: guide_pdf_intro_link
+  translation: "Lataa PDF"
+
+- id: download_page_title
+  translation: "Lue ja lataa virallinen {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} on tässä määritelty, ja sen määrittelevät"
+
+- id: download_page_originators
+  translation: ", teoksen {{ .Title }} luojat."
+
+- id: download_translations_provided
+  translation: "Käännökset ovat alla lueteltujen auliiden henkilöiden ja ryhmien tarjoamia. Valitse kieli, jonka haluat ladata."
+
+- id: download_translation_error
+  translation: "Jos löydät jotakin, mikä mielestäsi on käännösvirhe teoksessa {{ .Title }}, ota yhteyttä suoraan kyseiseen kääntäjään. Jos tarvitset lisäapua, ota meihin yhteyttä osoitteessa"
+
+- id: download_official_version
+  translation: "Virallinen versio"
+
+- id: download_community_translations
+  translation: "Yhteisön käännökset"
+
+- id: download_current_version_released
+  translation: "Teoksen {{ .Site.Title }} nykyinen virallinen versio ilmestyi"
+
+- id: download_older_translations_notice
+  translation: "Teoksen {{ .Site.Title }} vanhemmat käännökset eivät välttämättä sisällä uusimpia tietoja."
+
+- id: download_table_language
+  translation: "Kieli"
+
+- id: download_table_translations_by
+  translation: "Kääntänyt"
+
+- id: download_table_action
+  translation: "Toiminto"
+
+- id: download_official_current_version
+  translation: "Virallinen nykyinen versio"
+
+- id: download_button_text
+  translation: "Lataa"
+
+- id: download_coming_soon
+  translation: "Tulossa pian"
+
+- id: download_missing_language
+  translation: "Puuttuuko kielesi?"
+
+- id: download_contribute_translation
+  translation: "Tee uusi käännös ja auta yhteisöä."
+
+- id: download_add_translation
+  translation: "Lisää käännös"
+
+- id: download_community_contributors
+  translation: "Yhteisön avustajat"
+
+- id: contributors_description
+  translation: "Alla olevat avustajat on koottu kaikista oppaista ja kaikista versioista."
+
+- id: read_online_action
+  translation: "Lue verkossa"
+
+- id: guide_table_of_contents
+  translation: "Sisällys"
+
+- id: guide_coming_soon
+  translation: "Tämä opas on tulossa. Pidä sitä silmällä."
+
+- id: guide_no_content_available
+  translation: "Tällä kielellä ei ole vielä sisältöä."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) ei saatavilla"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) ei saatavilla"
+
+- id: guide_coming_label
+  translation: "Tulossa:"
+
+- id: guide_updated_label
+  translation: "Päivitetty:"
+
+- id: guide_version_label
+  translation: "Versio:"
+
+- id: guide_content_unavailable_note
+  translation: "Huomaa:"
+
+- id: guide_content_unavailable_message
+  translation: "Tämän sivun sisältöä ei ole vielä kielellä {{ .Language }}. Oppaan oletussisältö näkyy alla."
+
+- id: guide_content_unavailable_title
+  translation: "Sisältö ei ole saatavilla:"
+
+- id: guide_content_unavailable_description
+  translation: "Tämän sivun sisältöä ei voitu ladata, eikä näytettävää oletussisältöä ole. Ilmoita"
+
+- id: guide_report_issue_link
+  translation: "Ilmoita tästä ongelmasta"
+
+- id: guide_report_issue_message
+  translation: "jotta voimme korjata sen."
+
+- id: guide_back_to_home
+  translation: "← Takaisin etusivulle"
+
+- id: not_sure_which_to_use_title
+  translation: "Etkö ole varma, mitä käyttää?"
+
+- id: get_started_title
+  translation: "Pääse alkuun"
+
+- id: community_driven_label
+  translation: "Yhteisön ylläpitämä"
+
+- id: coming_soon
+  translation: "Tulossa pian"
+
+- id: purpose_title
+  translation: "Tarkoitus"
+
+- id: ethos_title
+  translation: "Perusasenne"
+
+- id: audience_title
+  translation: "Lukijat"
+
+- id: use_case_title
+  translation: "Milloin sitä käytetään"
+
+- id: content_title
+  translation: "Sisältö"
+
+- id: update_model_title
+  translation: "Näin sitä päivitetään"
+
+- id: guide_overview_title
+  translation: "Oppaan yleiskuva"
+
+- id: guide_overview_description
+  translation: "Tämän oppaan pääpiirteet"
+
+- id: when_to_use_title
+  translation: "Milloin käytät tätä opasta"
+
+- id: when_to_use_description
+  translation: "Valitse lähestymistapa, joka sopii asiayhteyteesi"
+
+- id: quick_decision_guide_title
+  translation: "Nopea valinta"
+
+- id: getting_started_title
+  translation: "Alkuun pääseminen"
+
+- id: for_practitioners_title
+  translation: "Harjoittajille"
+
+- id: current_information_title
+  translation: "Nykyiset tiedot"
+
+- id: current_information_description
+  translation: "Version tiedot ja yhteisön avustajat"
+
+- id: current_version_title
+  translation: "Nykyinen versio"
+
+- id: current_version_updated_label
+  translation: "Päivitetty"
+
+- id: current_version_description
+  translation: "Tämä on oppaan versio, joka on nyt voimassa."
+
+- id: read_current_version_button
+  translation: "Lue nykyinen versio"
+
+- id: version_info_not_available
+  translation: "Versiotiedot eivät ole saatavilla"
+
+- id: contributors_title
+  translation: "Avustajat"
+
+- id: contributors_description_card
+  translation: "Yhteisön jäsenet, jotka muovasivat tämän oppaan"
+
+- id: contributors_thank_you
+  translation: "Kiitos kaikille, jotka ovat tehneet tästä oppaasta paremman."
+
+- id: join_community_button
+  translation: "Liity yhteisöön"
+
+- id: no_contributors_found
+  translation: "Avustajia ei löytynyt"
+
+- id: version_history_title
+  translation: "Versiohistoria"
+
+- id: version_history_description
+  translation: "Aiemmat versiot ja niiden kehitys"
+
+- id: no_previous_versions_title
+  translation: "Ei aiempia versioita"
+
+- id: no_previous_versions_description
+  translation: "Tämä opas on juuri alkanut. Palaa myöhemmin katsomaan aiempia versioita."
+
+- id: what_is_guide_title
+  translation: "Mikä tämä opas on?"
+
+- id: license_title
+  translation: "Lisenssi"
+
+- id: view_on_github_button
+  translation: "Katso GitHubissa"
+
+- id: current_open_guide_label
+  translation: "Nykyinen Open Guide"
+
+- id: active_status_label
+  translation: "Voimassa"
+
+- id: current_fork_label
+  translation: "Nykyinen haara"
+
+- id: active_fork_label
+  translation: "Haara"
+
+- id: fork_indicator
+  translation: "Haarautettu lähteestä:"
+
+- id: forked_from_indicator
+  translation: "Haarautettu lähteestä:"
+
+- id: this_is_fork_label
+  translation: "Tämä on haara"
+
+- id: available_languages_label
+  translation: "Saatavilla olevat kielet"
+
+- id: pdf_downloads_label
+  translation: "PDF-lataukset"
+
+- id: living_document_updated_label
+  translation: "Elävä asiakirja päivitetty"
+
+- id: active_fork_updated_label
+  translation: "Aktiivinen haara päivitetty"
+
+- id: historical_fork_label
+  translation: "Historiallinen haara lähteestä"
+
+- id: historical_version_label
+  translation: "Historiallinen versio"
+
+- id: read_guide_button
+  translation: "Lue opas"
+
+- id: translations_button_small
+  translation: "Käännökset"
+
+- id: read_fork_button
+  translation: "Lue haara"
+
+- id: view_archive_button
+  translation: "Katso arkisto"
+
+- id: download_reference_status
+  translation: "Viite"
