@@ -183,3 +183,20 @@
 
 - id: download_stub_status
   translation: "Not started"
+
+# ---------------------------------------------------------------------------
+# Header menu labels. The menu partial used to hardcode these in English, so a
+# translated page still showed an English header.
+# ---------------------------------------------------------------------------
+
+- id: site_wordmark
+  translation: "Scrum Guide"
+
+- id: nav_the_guide
+  translation: "The Guide"
+
+- id: nav_versions
+  translation: "Versions"
+
+- id: nav_implementations
+  translation: "Implementations"

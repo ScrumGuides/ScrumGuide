@@ -1,16 +1,17 @@
 ---
-title: Translations
+title: Traductions
 layout: translations
 type: guide
-description: Translations of the Scrum Guide.
+description: Traductions du Guide Scrum.
 ---
 
-Translations are the work of the translators credited against each language by the publishers.
-Every one of them carries the same Creative Commons Attribution ShareAlike 4.0 notice as the
-English document, so the files are hosted here rather than linked away, unchanged and with
-their own notices intact.
+Les traductions sont l'œuvre des traductrices et traducteurs crédités par les éditeurs pour
+chaque langue. Toutes portent la même mention Creative Commons Attribution Partage dans les
+mêmes conditions 4.0 que le document anglais : les fichiers sont donc hébergés ici plutôt que
+liés ailleurs, inchangés et accompagnés de leurs propres mentions.
 
-A language listed as PDF only has its translated document here but not its text as a page.
-If you find an error in a translation, raise it with that translator or with the publisher.
+Une langue signalée « PDF uniquement » a son document traduit ici, mais pas son texte sous
+forme de page. Si vous trouvez une erreur dans une traduction, signalez-la à la personne qui
+l'a traduite ou à l'éditeur.
 
-The publishers' own directory is at [scrumguides.org](https://scrumguides.org/download.html).
+Le répertoire des éditeurs se trouve sur [scrumguides.org](https://scrumguides.org/download.html).

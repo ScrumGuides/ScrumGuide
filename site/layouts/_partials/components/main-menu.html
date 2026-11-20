@@ -3,37 +3,47 @@
   language switcher.
 
   Document-first: a wordmark and a short, flat set of links. No mega menu.
+
+  Every label comes from the interface catalogue and every link is built with
+  relLangURL, so the menu reads and navigates in the language being viewed.
+  Hardcoded English labels and root-relative hrefs left the whole header in
+  English on a translated page, and pointed its links back at the English site.
 */}}
 
 <a href="{{ (.Site.GetPage "/").Permalink }}" class="navbar-brand" title="{{ .Site.Title }}">
   {{- with .Site.Params.menu_logo }}
     <img src="{{ . }}" alt="" aria-hidden="true" />
   {{- end }}
-  <span>Scrum Guide</span>
+  <span>{{ i18n "site_wordmark" | default "Scrum Guide" }}</span>
 </a>
 
 <ul class="nav nav-pills align-items-center">
   {{- $current := .RelPermalink }}
 
-  {{- $inHistory := eq $current "/scrum-guide/history/" }}
-  {{- $inTranslations := eq $current "/scrum-guide/translations/" }}
+  {{- $guideLatest := "scrum-guide/latest/" | relLangURL }}
+  {{- $guideRoot := "scrum-guide/" | relLangURL }}
+  {{- $historyUrl := "scrum-guide/history/" | relLangURL }}
+  {{- $translationsUrl := "scrum-guide/translations/" | relLangURL }}
+
+  {{- $inHistory := eq $current $historyUrl }}
+  {{- $inTranslations := eq $current $translationsUrl }}
 
   <li class="nav-item">
-    <a class="nav-link{{ if and (hasPrefix $current "/scrum-guide/") (not $inHistory) (not $inTranslations) }} active{{ end }}" href="/scrum-guide/latest/">The Guide</a>
+    <a class="nav-link{{ if and (hasPrefix $current $guideRoot) (not $inHistory) (not $inTranslations) }} active{{ end }}" href="{{ $guideLatest }}">{{ i18n "nav_the_guide" | default "The Guide" }}</a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link{{ if $inHistory }} active{{ end }}" href="/scrum-guide/history/">Versions</a>
+    <a class="nav-link{{ if $inHistory }} active{{ end }}" href="{{ $historyUrl }}">{{ i18n "nav_versions" | default "Versions" }}</a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link{{ if $inTranslations }} active{{ end }}" href="/scrum-guide/translations/">Translations</a>
+    <a class="nav-link{{ if $inTranslations }} active{{ end }}" href="{{ $translationsUrl }}">{{ i18n "translations_page_title" | default "Translations" }}</a>
   </li>
 
   {{- /* Implementation guides are a category, not a folder. See spec §4.2. */}}
   {{- with .Site.GetPage "/categories/implementation" }}
     <li class="nav-item">
-      <a class="nav-link{{ if eq $current .RelPermalink }} active{{ end }}" href="{{ .RelPermalink }}">Implementations</a>
+      <a class="nav-link{{ if eq $current .RelPermalink }} active{{ end }}" href="{{ .RelPermalink }}">{{ i18n "nav_implementations" | default "Implementations" }}</a>
     </li>
   {{- end }}
 

@@ -1,10 +1,10 @@
 ---
-title: "History"
+title: "Historique"
 layout: history
 type: guide
-description: Every published version of the Scrum Guide, from November 2009 onward.
+description: Toutes les versions publiées du Guide Scrum, depuis novembre 2009.
 ---
 
-The Scrum Guide has been revised seven times since November 2009. Each version is an
-edition of the same guide, not a separate document, so the timeline below is its
-whole lineage.
+Le Guide Scrum a été révisé sept fois depuis novembre 2009. Chaque version est une version
+d'un même guide, et non un document distinct : la chronologie ci-dessous constitue donc sa
+filiation complète.

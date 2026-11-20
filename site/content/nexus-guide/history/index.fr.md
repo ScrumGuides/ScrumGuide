@@ -1,10 +1,11 @@
 ---
-title: "History"
+title: "Historique"
 layout: history
 type: guide
-description: Every published version of the Nexus Guide, from August 2015 onward.
+description: Toutes les versions publiées du Guide Nexus, depuis août 2015.
 ---
 
-The Nexus Guide has been revised twice since August 2015. Each version is an edition of the
-same guide, not a separate document, so the timeline below is its whole lineage. The August
-2015 edition reserves all rights, so its page links the document rather than carrying its text.
+Le Guide Nexus a été révisé deux fois depuis août 2015. Chaque version est une version d'un
+même guide, et non un document distinct : la chronologie ci-dessous constitue donc sa
+filiation complète. La version d'août 2015 réserve tous les droits : sa page renvoie vers le
+document au lieu d'en reproduire le texte.

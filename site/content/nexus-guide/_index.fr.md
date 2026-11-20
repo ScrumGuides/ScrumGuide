@@ -1,10 +1,10 @@
 ---
 title: Le Guide Nexus™
-short_title: Scaling for Scrum Teams
+short_title: Mise à l'échelle pour les Scrum Teams
 slug: nexus-guide
 Type: "guide"
 Layout: "root"
-description: The definition of Nexus, the framework for several Scrum Teams working together on one product.
+description: La définition de Nexus, le cadre de travail pour plusieurs Scrum Teams travaillant ensemble sur un même produit.
 weight: 20
 categories:
   - Implementation
@@ -16,19 +16,21 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  An implementation guide. Nexus is a framework for three to nine Scrum Teams working from a
-  single Product Backlog on a single product, adding the minimum needed to make the
-  dependencies between them visible and to produce one Integrated Increment each Sprint.
+  Un guide de mise en œuvre. Nexus est un cadre de travail destiné à trois à neuf Scrum Teams
+  travaillant à partir d'un seul Product Backlog sur un seul produit. Il ajoute le minimum
+  nécessaire pour rendre visibles les dépendances entre elles et pour produire un Increment
+  intégré à chaque Sprint.
 
-  The Nexus Guide is published by Scrum.org, and Nexus was created by Ken Schwaber. This site
-  is not published by them. The canonical source is
+  Le Guide Nexus est publié par Scrum.org, et Nexus a été créé par Ken Schwaber. Ce site
+  n'est pas publié par eux. La source canonique est
   [scrum.org](https://www.scrum.org/resources/nexus-guide).
 
-  **Licence: CC BY-SA 4.0 from January 2018 onward.** Those editions carry their full text
-  here, with the document's own notice on the page. The August 2015 edition reserves all
-  rights, so its page links Scrum.org's file instead. Each edition states its licence at the top.
+  **Licence : CC BY-SA 4.0 à partir de janvier 2018.** Ces versions sont reproduites ici dans
+  leur intégralité, avec la mention propre au document sur la page. La version d'août 2015
+  réserve tous les droits : sa page renvoie vers le fichier de Scrum.org. Chaque version
+  indique sa licence en haut de page.
 guide_overview: |
-  The framework for several Scrum Teams working together on one product, from the first version in 2015 onward.
+  Le cadre de travail pour plusieurs Scrum Teams travaillant ensemble sur un même produit, depuis la première version en 2015.
 
 # Run 3: once Scrum Guide 2026 (edition 2026.1) publishes its conditions, add the
 # conformance claim. See docs/specification.md §5.7.
