@@ -1,0 +1,278 @@
+{{/*
+  The experiment notice: a banner that is always present, and the modal it opens.
+
+  Included from components/main-menu.html, which the module's baseof calls on
+  every page, so both appear site-wide without the site having to take over
+  baseof itself.
+
+  Behaviour: the modal opens by itself on a first visit. Closing it, by any
+  route, records that; after that it only opens when the reader asks for it from
+  the banner. The banner never goes away.
+
+  Self-contained on purpose: markup, styles and script live here, so the whole
+  component can be removed by deleting this file and its one include.
+  Bootstrap's JS bundle is already loaded by the module's baseof.
+*/}}
+
+<div class="experiment-banner">
+  <i class="fa-solid fa-flask" aria-hidden="true"></i>
+  <span>This site exists to gain
+    <a href="#" class="experiment-banner__link" data-experiment-open>feedback on a hypothesis</a>
+  </span>
+</div>
+
+<div class="modal fade experiment-notice" id="experimentNotice" tabindex="-1"
+     aria-labelledby="experimentNoticeTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h2 class="modal-title" id="experimentNoticeTitle">This site is an experiment</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <p class="experiment-notice__lead">
+          It exists to test one idea about the Scrum Guide, and to make that idea
+          arguable rather than hypothetical. Nothing here is published by Scrum.org
+          or by the authors of the Scrum Guide.
+        </p>
+
+        <h3>The hypothesis</h3>
+        <p>
+          <strong>The diagnosis.</strong> Some &mdash; perhaps all &mdash; of the decline in
+          Scrum usage is that Scrum is not seen as viable on its intents, because the
+          implementation rules get in the way. People aren't rejecting what Scrum is
+          <em>for</em>. They're rejecting the mechanics, and the Guide gives them no way to
+          separate the two.
+        </p>
+        <p>
+          <strong>The prognosis.</strong> The same problem is about to get much worse. Teams
+          working with agentic tooling are already breaking the mechanics &mdash; sprint
+          length, team size, the fifteen minutes, one person per accountability &mdash; while
+          still achieving what those mechanics were for. As it stands, the Guide has to call
+          those teams not-Scrum. That is the Guide failing, not the teams.
+        </p>
+        <p>
+          So: the Scrum Guide is no longer served by its implementation constraints, and has
+          to be reduced to its intent to stay viable.
+        </p>
+
+        <h3>What is here, and what it honestly is</h3>
+        <ul>
+          <li>
+            <strong>Scrum Guide 2026</strong> &mdash; states what each element must achieve,
+            deliberately silent on how. <strong>This draft is synthesised, and is not what
+            anyone would intend to release.</strong>
+          </li>
+          <li>
+            <strong><a href="/getting-started-for-scrum-teams/">Getting Started for Scrum
+            Teams</a></strong> &mdash; <strong>a straight copy of the 2020 Scrum Guide,
+            unchanged.</strong> It is not a new guide, and no work has gone into it as one.
+            It is here to show that everything taken out of the base lands intact somewhere,
+            with nothing left over and nothing lost.
+          </li>
+        </ul>
+        <p>Neither is finished work.</p>
+
+        <h3>The structure</h3>
+        <p>The Scrum Guide as a base class, with concrete things beneath it:</p>
+        <ul>
+          <li>
+            <strong>Implementations</strong> supply the how, for a context. An implementation
+            can add to what the base requires, or constrain it further. It cannot override or
+            weaken it.
+          </li>
+          <li>
+            <strong>Extensions</strong> reach beyond what Scrum addresses and make no claim to
+            be Scrum.
+          </li>
+        </ul>
+        <p>
+          Two teams can both be doing Scrum correctly and differ on every page of their
+          implementation guide. Neither can differ on the Scrum Guide.
+        </p>
+
+        <h3>Where the opportunity is</h3>
+        <p>
+          Today every mechanic is welded to the definition, so changing the fifteen minutes
+          means changing the Scrum Guide. Once the mechanics live in an implementation guide,
+          that guide can be revised in small increments, as often as practice moves, while the
+          Scrum Guide stays still and keeps meaning the same thing. The base gets stability;
+          the practice gets to move. Today they share one release cycle and both suffer for it.
+        </p>
+
+        <h3>What would prove it wrong</h3>
+        <p>This is what the experiment is asking for:</p>
+        <ul>
+          <li>Teams that dropped Scrum because they rejected the <em>intent</em>, not the mechanics. That kills the diagnosis outright.</li>
+          <li>A better explanation of the decline: certification, how Scrum gets imposed, the decay of &ldquo;agile&rdquo; as a brand &mdash; something where the rules aren't the cause.</li>
+          <li>A constraint in the 2020 Guide that isn't mechanical: where the number <em>is</em> the intent, and removing it destroys something.</li>
+          <li>A statement in the 2020 Guide that contradicts an intent in 2026 &mdash; then either the base is wrong or the 2020 Guide isn't a conforming implementation, and both are interesting.</li>
+          <li>An argument that reducing to intent makes Scrum unfalsifiable &mdash; that the constraints are exactly what make conformance checkable.</li>
+          <li>Evidence that agentic teams aren't straining the constraints, or that this is no different from distributed teams or DevOps, which the Guide absorbed without changing shape.</li>
+        </ul>
+        <p class="experiment-notice__ask">
+          Read the 2026 draft against the 2020 Guide and try to break the hypothesis &mdash;
+          not polish the prose. One solid counter-example beats a full review.
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <a class="btn btn-outline-secondary btn-sm"
+           href="https://github.com/ScrumGuides/ScrumGuide/discussions">Argue with it</a>
+        <button type="button" class="btn btn-primary btn-sm" data-bs-dismiss="modal">Read the site</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<style>
+  /* A bar across the top of the header. The header lays its children out with
+     flex, so claiming the whole basis and ordering first puts this above the
+     logo and navigation without baseof having to change.
+
+     It sits inside the header's .container, so it spans that rather than the
+     whole viewport. Breaking out to 100vw would overflow by the width of the
+     scrollbar and give the page a horizontal scroll. */
+  .experiment-banner {
+    flex: 0 0 100%;
+    order: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    margin: -0.75rem 0 1rem;
+    padding: 0.7rem 1rem;
+    border-radius: 4px;
+    background: var(--sg-accent);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .experiment-banner .fa-flask {
+    font-size: 0.95rem;
+    opacity: 0.85;
+  }
+
+  .experiment-banner__link {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em;
+  }
+
+  .experiment-banner__link:hover,
+  .experiment-banner__link:focus {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  @media (max-width: 575.98px) {
+    .experiment-banner {
+      font-size: 0.9rem;
+      padding: 0.6rem 0.75rem;
+    }
+  }
+
+  .experiment-notice .modal-content {
+    background: var(--sg-paper);
+    color: var(--sg-ink);
+    border: 1px solid var(--sg-rule);
+  }
+
+  .experiment-notice .modal-header,
+  .experiment-notice .modal-footer {
+    border-color: var(--sg-rule);
+  }
+
+  .experiment-notice .modal-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .experiment-notice .modal-body {
+    max-width: none;
+  }
+
+  /* Reads as a standfirst, so the reader knows what the page is before the
+     argument starts. */
+  .experiment-notice__lead {
+    font-size: 1.05rem;
+    color: var(--sg-ink-soft);
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid var(--sg-rule);
+  }
+
+  .experiment-notice h3 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--sg-ink-faint);
+    margin-top: var(--sg-step);
+    margin-bottom: 0.5rem;
+  }
+
+  .experiment-notice p,
+  .experiment-notice li {
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  .experiment-notice li {
+    margin-bottom: 0.35rem;
+  }
+
+  .experiment-notice__ask {
+    background: var(--sg-accent-wash);
+    border-left: 3px solid var(--sg-accent);
+    padding: 0.75rem 1rem;
+    margin-top: var(--sg-step);
+  }
+</style>
+
+<script>
+  (function () {
+    var KEY = 'sg-experiment-notice-seen';
+
+    // Private browsing and blocked site data make localStorage throw rather
+    // than return nothing. Treat that as "not seen": showing the notice twice
+    // is a far smaller fault than never showing it at all.
+    function seen() {
+      try { return window.localStorage.getItem(KEY) === '1'; } catch (e) { return false; }
+    }
+    function remember() {
+      try { window.localStorage.setItem(KEY, '1'); } catch (e) { /* nothing to do */ }
+    }
+
+    function start() {
+      var el = document.getElementById('experimentNotice');
+      if (!el || !window.bootstrap) { return; }
+      var modal = bootstrap.Modal.getOrCreateInstance(el);
+
+      // Closing it at all is the dismissal, whichever control did it.
+      el.addEventListener('hidden.bs.modal', remember);
+
+      // The banner opens it on demand, dismissed or not.
+      document.querySelectorAll('[data-experiment-open]').forEach(function (trigger) {
+        trigger.addEventListener('click', function (event) {
+          event.preventDefault();
+          modal.show();
+        });
+      });
+
+      if (!seen()) { modal.show(); }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', start);
+    } else {
+      start();
+    }
+  })();
+</script>

@@ -10,6 +10,10 @@
   English on a translated page, and pointed its links back at the English site.
 */}}
 
+{{/* Always present, on every page: baseof calls this partial from the header
+     block, which is the only site-owned injection point above the page body. */}}
+{{ partial "components/experiment-notice.html" . }}
+
 <a href="{{ (.Site.GetPage "/").Permalink }}" class="navbar-brand" title="{{ .Site.Title }}">
   {{- with .Site.Params.menu_logo }}
     <img src="{{ . }}" alt="" aria-hidden="true" />
