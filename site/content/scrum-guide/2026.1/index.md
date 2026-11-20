@@ -11,12 +11,12 @@ keywords:
   - Foundations
 changes_from: 2020.11
 changes:
-  - title: The foundations are separated from the Constitution
+  - title: The foundations are stated first and separately
     content: |
-      The edition is in two parts. The first states the principles Scrum is
-      based on, which are not Scrum's own. The second states what Scrum
-      defines, and gives the reason in the foundations where there is one
-      rather than inventing one.
+      The edition opens with the principles Scrum is based on, which are not
+      Scrum's own. Everything after them states what Scrum defines, and gives
+      the reason in the foundations where there is one rather than inventing
+      one.
   - title: The foundations are stated as checkable principles
     content: |
       The 2020 edition says Scrum is founded on empiricism and lean thinking.
@@ -88,7 +88,7 @@ aliases:
 
 ## Foundations
 
-Scrum is based on the principles below. They are not Scrum's own, and any approach to work whose outcome cannot be known in advance arrives at something like them. What Scrum adds is in the next part.
+Scrum is based on the principles below. They are not Scrum's own, and any approach to work whose outcome cannot be known in advance arrives at something like them. What Scrum adds is in the sections that follow.
 
 Each can be checked by anyone who does not take this Guide's word for it, either by examining the terms or by observation. Each says where it stops applying.
 
@@ -148,9 +148,7 @@ Where that knowledge summarises without loss and reaches a distant decider in ti
 
 ---
 
-## The Constitution
-
-### Scrum Definition
+## Scrum Definition
 
 Scrum is purposefully incomplete. It defines only the parts required to implement the Foundations, and the rest is built by the collective intelligence of the people using it. Its rules guide relationships and interactions rather than give detailed instructions.
 
@@ -158,11 +156,11 @@ Scrum is a minimum, not a maximum. It states the least that must be in place, an
 
 Various processes, techniques and methods can be employed within the framework. Scrum wraps around existing practices or renders them unnecessary, and makes the relative efficacy of current management, environment and work techniques visible, so that improvements can be made.
 
-### Scope
+## Scope
 
 Scrum is for complex work, meaning work whose outcome cannot be known in advance.
 
-### Scrum Values
+## Scrum Values
 
 Scrum defines five values. Successful use of Scrum depends on people becoming more proficient in living these values:
 
@@ -172,7 +170,7 @@ The Scrum Team commits to achieving its outcomes and to supporting each other. I
 
 These values give direction to the Scrum Team with regard to its work, actions and behavior. The decisions made, the steps taken and the way Scrum is used should reinforce them, not diminish or undermine them. Scrum depends on people, and these values describe the behavior expected of them.
 
-### Scrum Team
+## Scrum Team
 
 The fundamental unit of Scrum is a small team of people, a Scrum Team. It is a cohesive unit of professionals focused on one objective at a time, the Product Goal.
 
@@ -224,7 +222,7 @@ The Practice Owner has the authority to require that a loop closes and to act on
 
 The Practice Owner has this authority so that the person accountable for the Scrum Team's effectiveness is able to act on it.
 
-### Scrum Cycle
+## Scrum Cycle
 The Cycle is a container for all the loops. It is a recurring period during which one Cycle Goal does not change.
 
 Cycles limit the risk of cost and effort to the length of one Cycle. They enable predictability by ensuring that decisions are revisited at the end of every Cycle.
@@ -237,7 +235,7 @@ Within a Cycle, no change is made that would endanger the Cycle Goal, and qualit
 
 A Cycle may be abandoned if the Cycle Goal becomes obsolete. Only the Product Owner has the authority to abandon a Cycle, as the Product Owner is accountable for value.
 
-### Scrum Loops
+## Scrum Loops
 
 Each loop in Scrum is a formal opportunity to compare evidence with what was intended and to act on the result. A loop remains open until both have been done.
 
@@ -290,7 +288,7 @@ The Understanding Loop is an ongoing activity. It compares what the Scrum Team h
 
 Work that is too vague or too large to learn from is made clear enough to attempt, or is discarded. If a Cycle produces no evidence, the other loops cannot be closed.
 
-### Scrum Artifacts
+## Scrum Artifacts
 
 Scrum's artifacts make work and value visible. Each is designed to maximize the transparency of key information, so that everyone inspecting them has the same basis for adaptation.
 
@@ -334,11 +332,11 @@ An Increment exists only when it meets its commitment, the Definition of Done.
 
 Multiple Increments may be created within a Cycle. The sum of the Increments is inspected in the Direction Loop. An Increment may be delivered to stakeholders as soon as it is ready. No loop should be considered a gate to releasing value.
 
-### Commitments
+## Commitments
 
 Each artifact has one commitment. The artifact makes something transparent; the commitment states what that transparency is for, so that progress is measured against something stated rather than merely observed.
 
-**Product Goal**
+### Product Goal
 
 The Product Goal describes a future state of the product, and serves as a target for the Scrum Team to plan against. The Product Goal is in the Product Backlog. The rest of the Product Backlog emerges to define what will fulfil the Product Goal.
 
@@ -346,7 +344,7 @@ A product is a vehicle to deliver value. It has a clear boundary, known stakehol
 
 The Scrum Team focuses on one objective at a time. They must fulfil (or abandon) one Product Goal before taking on the next.
 
-**Cycle Goal**
+### Cycle Goal
 
 The Cycle Goal is the single objective for the Cycle. Although the Cycle Goal is a commitment by the Product Developers, it provides flexibility in terms of the exact work needed to achieve it.
 
@@ -354,7 +352,7 @@ The Cycle Goal is a focus, not an inventory of the work. It does not have to acc
 
 This flexibility allows the Scrum Team to act on what it learns during the Cycle. When the work turns out to be different from what the Product Developers expected, they collaborate with the Product Owner to negotiate the scope of the Cycle Backlog, without affecting the Cycle Goal.
 
-**Definition of Done**
+### Definition of Done
 
 The Definition of Done is a formal description of the state of the Increment when it meets the quality measures required for the product. The moment an item meets it, an Increment is born.
 
@@ -364,7 +362,7 @@ The Definition of Done makes the Increment trustworthy as evidence. If unfinishe
 
 If the Definition of Done is part of the standards of the organization, all Scrum Teams must follow it as a minimum. If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriate for the product. The Product Developers are required to conform to the Definition of Done. If multiple Scrum Teams work together on one product, they must mutually define and comply with the same Definition of Done.
 
-### End Note
+## End Note
 
 Scrum consists of its accountabilities, its loops, the Cycle, and its artifacts with their commitments. Each element serves a specific purpose that the other elements depend on.
 
