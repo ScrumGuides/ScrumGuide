@@ -58,6 +58,12 @@ languages:
     title: Przewodnik Scrum
     params:
       description: Każda opublikowana wersja Przewodnika Scrum w jednym miejscu, razem z przewodnikami wdrożeniowymi, które na nim się opierają.
+  es-419:
+    label: Español (Latinoamérica)
+    weight: 14
+    title: La Guía Scrum
+    params:
+      description: Todas las versiones publicadas de la Guía Scrum en un mismo lugar, junto con las guías de implementación que se apoyan en ella.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
