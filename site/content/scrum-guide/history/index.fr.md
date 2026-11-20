@@ -1,5 +1,5 @@
 ---
-title: "Historique"
+title: Historique
 layout: history
 type: guide
 description: Toutes les versions publiées du Guide Scrum, depuis novembre 2009.

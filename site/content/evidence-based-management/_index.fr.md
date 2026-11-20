@@ -4,7 +4,7 @@ short_title: Evidence-Based Management
 slug: evidence-based-management
 Type: "guide"
 Layout: "root"
-description: Un cadre de travail pour mesurer et améliorer la valeur qu'une organisation retire de ses produits.
+description: "Un cadre de travail pour mesurer et améliorer la valeur qu'une organisation retire de ses produits."
 weight: 30
 categories:
   - Extension

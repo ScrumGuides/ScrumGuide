@@ -1,6 +1,6 @@
 ---
 title: Le Guide Nexus™
-short_title: Mise à l'échelle pour les Scrum Teams
+short_title: "Mise à l'échelle pour les Scrum Teams"
 slug: nexus-guide
 Type: "guide"
 Layout: "root"
@@ -31,7 +31,6 @@ guide_whatis: |
   indique sa licence en haut de page.
 guide_overview: |
   Le cadre de travail pour plusieurs Scrum Teams travaillant ensemble sur un même produit, depuis la première version en 2015.
-
 # Run 3: once Scrum Guide 2026 (edition 2026.1) publishes its conditions, add the
 # conformance claim. See docs/specification.md §5.7.
 #

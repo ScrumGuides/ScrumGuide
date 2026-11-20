@@ -4,7 +4,7 @@ short_title: Kanban pour les Scrum Teams
 slug: kanban-guide-for-scrum-teams
 Type: "guide"
 Layout: "root"
-description: Comment les Scrum Teams utilisent les pratiques Kanban pour améliorer le flux, sans changer ce que Scrum exige d'elles.
+description: "Comment les Scrum Teams utilisent les pratiques Kanban pour améliorer le flux, sans changer ce que Scrum exige d'elles."
 weight: 10
 categories:
   - Implementation
@@ -32,7 +32,6 @@ guide_whatis: |
   annuler ni les affaiblir.
 guide_overview: |
   Comment les Scrum Teams utilisent les pratiques Kanban pour améliorer le flux, sans changer ce que Scrum exige d'elles.
-
 # Run 3: once Scrum Guide 2026 (edition 2026.1) publishes its conditions, add the
 # conformance claim and the derivation record. See docs/specification.md §5.7.
 #

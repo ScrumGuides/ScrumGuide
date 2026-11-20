@@ -1,5 +1,5 @@
 ---
-title: "Historique"
+title: Historique
 layout: history
 type: guide
 description: Les versions publiées du Guide Evidence-Based Management.
