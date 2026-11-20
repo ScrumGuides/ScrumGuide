@@ -1,7 +1,7 @@
 ---
-title: Le Guide Kanban pour les Scrum Teams
+title: Kanban Guide for Scrum Teams (2026)
 short_title: Kanban for Scrum Teams
-description: Comment les Scrum Teams utilisent les pratiques Kanban pour améliorer le flux, sans changer ce que Scrum exige d'elles.
+description: How Scrum Teams use Kanban practices to improve flow.
 date: 2026-01-01T09:00:00Z
 version: 2026.1
 type: guide
@@ -22,10 +22,3 @@ keywords:
 # /kanban-guide-for-scrum-teams/latest alias here from 2021.1.
 draft: true
 ---
-
-> **Cette version n'est pas traduite en français.**
-> Aucun document français n'a été publié pour cette version : cette page présente donc la version et renvoie vers le texte anglais.
-
-## Lire cette version en anglais
-
-- [Kanban Guide for Scrum Teams (2026)](/kanban-guide-for-scrum-teams/2026.1/)

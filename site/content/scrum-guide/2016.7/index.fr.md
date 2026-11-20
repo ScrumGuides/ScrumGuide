@@ -1,7 +1,7 @@
 ---
-title: Le Guide Scrum
+title: The Scrum Guide (July 2016)
 short_title: Scrum Guide
-description: La définition de Scrum. Toutes les versions publiées depuis novembre 2009, en une seule filiation.
+description: The July 2016 version of the Scrum Guide, by Ken Schwaber and Jeff Sutherland.
 date: 2016-07-01T09:00:00Z
 version: 2016.7
 type: guide
@@ -15,14 +15,3 @@ changes_from: 2013.7
 #     content: |
 #       ...
 ---
-
-> **Licence: CC BY-SA 4.0** — ©2016 Scrum.Org and ScrumInc..
-> *The Definitive Guide to Scrum: The Rules of the Game* — July 2016.
-> **Cette version n'est pas traduite en français.**
-> Aucun document français n'a été publié pour cette version : cette page présente donc la version et renvoie vers le texte anglais.
->
-> Source canonique: [scrumguides.org](https://scrumguides.org/)
-
-## Lire cette version en anglais
-
-- [The Scrum Guide (July 2016)](/scrum-guide/2016.7/)

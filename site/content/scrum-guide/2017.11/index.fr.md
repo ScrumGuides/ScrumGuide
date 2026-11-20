@@ -1,7 +1,7 @@
 ---
-title: Le Guide Scrum
+title: The Scrum Guide (November 2017)
 short_title: Scrum Guide
-description: La définition de Scrum. Toutes les versions publiées depuis novembre 2009, en une seule filiation.
+description: The November 2017 version of the Scrum Guide, by Ken Schwaber and Jeff Sutherland.
 date: 2017-11-01T09:00:00Z
 version: 2017.11
 type: guide
@@ -15,14 +15,3 @@ changes_from: 2016.7
 #     content: |
 #       ...
 ---
-
-> **Licence: CC BY-SA 4.0** — ©2017 Ken Schwaber and Jeff Sutherland.
-> *The Definitive Guide to Scrum: The Rules of the Game* — November 2017.
-> **Cette version n'est pas traduite en français.**
-> Aucun document français n'a été publié pour cette version : cette page présente donc la version et renvoie vers le texte anglais.
->
-> Source canonique: [scrumguides.org](https://scrumguides.org/)
-
-## Lire cette version en anglais
-
-- [The Scrum Guide (November 2017)](/scrum-guide/2017.11/)
