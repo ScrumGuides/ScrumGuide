@@ -208,6 +208,12 @@ languages:
     title: Scrum নির্দেশিকা
     params:
       description: Scrum নির্দেশিকার প্রকাশিত প্রতিটি সংস্করণ এক জায়গায়, তার উপরে দাঁড়ানো প্রয়োগ-নির্দেশিকাগুলির সঙ্গে।
+  bs:
+    label: Bosanski
+    weight: 7
+    title: Vodič za Scrum
+    params:
+      description: Svako objavljeno izdanje Vodiča za Scrum na jednom mjestu, uz vodiče za primjenu koji se na njega naslanjaju.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

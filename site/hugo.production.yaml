@@ -80,3 +80,5 @@ languages:
     disabled: true
   bn:
     disabled: true
+  bs:
+    disabled: true
