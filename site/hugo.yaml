@@ -112,6 +112,9 @@ languages:
     title: Scrum 指南
     params:
       description: Scrum 指南已發布的每一個版本匯於一處，並附上以其為基礎的實作指南。
+  da:
+    label: Dansk
+    weight: 11
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

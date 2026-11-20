@@ -42,3 +42,5 @@ languages:
     disabled: true
   zh-hant:
     disabled: true
+  da:
+    disabled: true
