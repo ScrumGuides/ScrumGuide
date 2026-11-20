@@ -172,6 +172,12 @@ languages:
     title: Vodič za Scrum
     params:
       description: Svaka objavljena verzija Vodiča za Scrum na jednom mjestu, zajedno s vodičima za primjenu koji se na njega naslanjaju.
+  sr:
+    label: Српски
+    weight: 41
+    title: Водич за Scrum
+    params:
+      description: Свако објављено издање Водича за Scrum на једном месту, уз водиче за примену који се на њега наслањају.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

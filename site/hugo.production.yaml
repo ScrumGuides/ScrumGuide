@@ -68,3 +68,5 @@ languages:
     disabled: true
   hr:
     disabled: true
+  sr:
+    disabled: true
