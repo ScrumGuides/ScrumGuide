@@ -1,7 +1,7 @@
 ---
-title: The Nexus Guide (August 2015)
+title: Le Guide Nexus™
 short_title: Nexus
-description: The August 2015 version of the Nexus Guide, by Ken Schwaber and Scrum.org.
+description: La définition de Nexus, le cadre de travail pour plusieurs Scrum Teams travaillant ensemble sur un même produit.
 date: 2015-08-01T09:00:00Z
 version: 2015.8
 type: guide
@@ -17,7 +17,7 @@ keywords:
 > **Cette version n'est pas traduite en français.**
 > Aucun document français n'a été publié pour cette version : cette page présente donc la version et renvoie vers le texte anglais.
 >
-> Canonical source: [scrum.org](https://www.scrum.org/resources/nexus-guide)
+> Source canonique: [scrum.org](https://www.scrum.org/resources/nexus-guide)
 
 ## Lire cette version en anglais
 

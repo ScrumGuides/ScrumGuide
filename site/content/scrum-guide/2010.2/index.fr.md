@@ -1,7 +1,7 @@
 ---
-title: The Scrum Guide (February 2010)
+title: Le Guide Scrum
 short_title: Scrum Guide
-description: The February 2010 version of the Scrum Guide, by Ken Schwaber and Jeff Sutherland.
+description: La définition de Scrum. Toutes les versions publiées depuis novembre 2009, en une seule filiation.
 date: 2010-02-01T09:00:00Z
 version: 2010.2
 type: guide
@@ -17,7 +17,7 @@ changes_from: 2009.11
 > **Cette version n'est pas traduite en français.**
 > Aucun document français n'a été publié pour cette version : cette page présente donc la version et renvoie vers le texte anglais.
 >
-> Canonical source: [scrumguides.org](https://scrumguides.org/)
+> Source canonique: [scrumguides.org](https://scrumguides.org/)
 
 ## Lire cette version en anglais
 

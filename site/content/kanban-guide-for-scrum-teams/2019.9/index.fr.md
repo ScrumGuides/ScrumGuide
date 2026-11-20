@@ -1,7 +1,7 @@
 ---
-title: Kanban Guide for Scrum Teams (September 2019)
+title: Le Guide Kanban pour les Scrum Teams
 short_title: Kanban for Scrum Teams
-description: The September 2019 version of the Kanban Guide for Scrum Teams, by Scrum.org, Daniel Vacanti and Yuval Yeret.
+description: Comment les Scrum Teams utilisent les pratiques Kanban pour améliorer le flux, sans changer ce que Scrum exige d'elles.
 date: 2019-09-01T09:00:00Z
 version: 2019.9
 type: guide
@@ -18,7 +18,7 @@ changes_from: 2018.4
 > **Cette version n'est pas traduite en français.**
 > Aucun document français n'a été publié pour cette version : cette page présente donc la version et renvoie vers le texte anglais.
 >
-> Canonical source: [scrum.org](https://www.scrum.org/resources/kanban-guide-scrum-teams)
+> Source canonique: [scrum.org](https://www.scrum.org/resources/kanban-guide-scrum-teams)
 
 ## Lire cette version en anglais
 

@@ -1,7 +1,7 @@
 ---
-title: The Evidence-Based Management Guide (2024)
+title: Le Guide Evidence-Based Management
 short_title: Evidence-Based Management
-description: The 2024 version of the Evidence-Based Management Guide, by Ken Schwaber and Scrum.org.
+description: Un cadre de travail pour mesurer et améliorer la valeur qu'une organisation retire de ses produits.
 date: 2024-05-07T09:00:00Z
 version: 2024.5
 type: guide

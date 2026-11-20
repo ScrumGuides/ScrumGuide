@@ -62,7 +62,13 @@ Bien que souvent contre‐intuitif, la mise à l’échelle de la valeur fournie
 
 Nexus s'appuie sur Scrum en améliorant les éléments fondamentaux de Scrum de manière à résoudre les problèmes de dépendance et de la collaboration inter‐équipes. Nexus (voir figure 1) révèle un processus empirique qui reflète étroitement Scrum.
 
-###### Nexus étend Scrum de la manière suivante :  Responsabilités : La Nexus Integration Team s'assure que Nexus fournit un Integrated Increment utile et de valeur au moins une fois par Sprint. La Nexus Integration Team est composée d’un Product Owner, d'un Scrum Master et des membres de la Nexus Integration Team.  Événements : Les événements sont ajoutés, placés autour, ou remplacent les événements Scrum réguliers pour les augmenter. Tels que modifiés, ils servent à la fois l'effort global de toutes les Scrum Teams dans le Nexus, et chaque équipe individuelle. L’Objectif de Sprint Nexus est l’objectif pour le Sprint.  Artefacts : Toutes les Scrum Teams utilisent le même et l’unique Product Backlog. Au fur et à mesure que les éléments du Product Backlog sont affinés et prêts, les indicateurs permettant de savoir quelle équipe fera le plus probablement le travail dans le cadre d'un sprint sont rendus transparents. Un Nexus Sprint Backlog existe pour permettre la transparence durant le Sprint. L’Integrated Increment représente la somme actuelle de tous les travaux intégrés réalisés par un Nexus.
+Nexus étend Scrum de la manière suivante :
+
+- Responsabilités : La Nexus Integration Team s'assure que Nexus fournit un Integrated Increment utile et de valeur au moins une fois par Sprint. La Nexus Integration Team est composée d’un Product Owner, d'un Scrum Master et des membres de la Nexus Integration Team.
+
+- Événements : Les événements sont ajoutés, placés autour, ou remplacent les événements Scrum réguliers pour les augmenter. Tels que modifiés, ils servent à la fois l'effort global de toutes les Scrum Teams dans le Nexus, et chaque équipe individuelle. L’Objectif de Sprint Nexus est l’objectif pour le Sprint.
+
+- Artefacts : Toutes les Scrum Teams utilisent le même et l’unique Product Backlog. Au fur et à mesure que les éléments du Product Backlog sont affinés et prêts, les indicateurs permettant de savoir quelle équipe fera le plus probablement le travail dans le cadre d'un sprint sont rendus transparents. Un Nexus Sprint Backlog existe pour permettre la transparence durant le Sprint. L’Integrated Increment représente la somme actuelle de tous les travaux intégrés réalisés par un Nexus.
 
 Figure 1 : Le cadre de travail Nexus
 
