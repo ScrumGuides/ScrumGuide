@@ -9,12 +9,7 @@ keywords:
   - Scrum
   - Getting Started
   - Implementation
-derived_from:
-  - title: The Scrum Guide
-    edition: 2020.11
-    url: https://scrumguides.org/
-    holder: Ken Schwaber and Jeff Sutherland
-    licence: CC BY-SA 4.0
+forked_from: scrum-guide/2020.11
 aliases:
   - /getting-started-for-scrum-teams/latest
 ---
