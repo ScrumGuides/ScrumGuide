@@ -22,10 +22,3 @@ keywords:
 # /kanban-guide-for-scrum-teams/latest alias here from 2021.1.
 draft: true
 ---
-
-> **Esta versión no está traducida al español.**
-> No se ha publicado ningún documento en español para esta versión, por lo que esta página presenta la versión y remite al texto en inglés.
-
-## Leer esta versión en inglés
-
-- [Kanban Guide for Scrum Teams (2026)](/kanban-guide-for-scrum-teams/2026.1/)

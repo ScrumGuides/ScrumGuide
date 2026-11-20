@@ -15,14 +15,3 @@ changes_from: 2016.7
 #     content: |
 #       ...
 ---
-
-> **Licence: CC BY-SA 4.0** — ©2017 Ken Schwaber and Jeff Sutherland.
-> *The Definitive Guide to Scrum: The Rules of the Game* — November 2017.
-> **Esta versión no está traducida al español.**
-> No se ha publicado ningún documento en español para esta versión, por lo que esta página presenta la versión y remite al texto en inglés.
->
-> Canonical source: [scrumguides.org](https://scrumguides.org/)
-
-## Leer esta versión en inglés
-
-- [The Scrum Guide (November 2017)](/scrum-guide/2017.11/)

@@ -15,14 +15,3 @@ changes_from: 2013.7
 #     content: |
 #       ...
 ---
-
-> **Licence: CC BY-SA 4.0** — ©2016 Scrum.Org and ScrumInc..
-> *The Definitive Guide to Scrum: The Rules of the Game* — July 2016.
-> **Esta versión no está traducida al español.**
-> No se ha publicado ningún documento en español para esta versión, por lo que esta página presenta la versión y remite al texto en inglés.
->
-> Canonical source: [scrumguides.org](https://scrumguides.org/)
-
-## Leer esta versión en inglés
-
-- [The Scrum Guide (July 2016)](/scrum-guide/2016.7/)
