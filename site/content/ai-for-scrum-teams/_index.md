@@ -4,7 +4,7 @@ short_title: AI for Scrum Teams
 slug: ai-for-scrum-teams
 Type: "guide"
 Layout: "root"
-description: How a small team that builds with AI tooling runs Scrum, as Scrum Guide 2026 defines it.
+description: How a Scrum Team using AI tooling delivers a viable product in its own environment.
 weight: 15
 categories:
   - Implementation
@@ -16,28 +16,22 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  **Draft.** This guide has not been reviewed or approved. Read it as a proposal.
+  **Draft.** This guide has not been reviewed or approved.
 
-  An implementation guide, for a team building a product in which most production work is
-  carried out by AI tooling under the direction of the people on the team. Scrum Guide 2026
-  states what each element of Scrum must achieve and deliberately says nothing about how.
-  This guide is one how.
+  For a Scrum Team that uses AI tooling to build a product. Its subject is how such a team
+  delivers a viable product in its own environment: a product that works where it is used,
+  and that the team can continue to change.
 
-  It sets no intervals, no timeboxes and no sizes. For each loop it supplies what closes it,
-  what does not, and the signal a team reads to settle its own interval. Cost of Correction
-  says that interval is settled by observation and differs by work, so a number printed here
-  would be a guess at another team's ratio — and this tooling changes that ratio faster than
-  a guide can be revised.
-
-  It differs from [Getting Started for Scrum Teams](/getting-started-for-scrum-teams/) in the
-  ratio it is built for. The mechanics most teams run were settled when producing work was
-  expensive and inspecting it was cheap. For this team the ratio is reversed, and what
-  follows from that is what this guide is about.
+  Producing work costs little in this environment and verifying it costs what it always did,
+  so the judgement of the people on the team is the scarce resource. The guide states what
+  each element must achieve and the evidence that shows it is not being achieved. Intervals,
+  timeboxes and sizes are settled by the team against what it observes in its own
+  environment.
 
   Implementation guides add guidance for a particular context. They may add to the parent
   guide's conditions and may constrain them further. They may not override or weaken them.
 guide_overview: |
-  How a small team that builds with AI tooling runs Scrum, as Scrum Guide 2026 defines it.
+  How a Scrum Team using AI tooling delivers a viable product in its own environment.
 sitemap:
   priority: 0.7
 ---
