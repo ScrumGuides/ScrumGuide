@@ -52,3 +52,5 @@ languages:
     disabled: true
   cs:
     disabled: true
+  sk:
+    disabled: true
