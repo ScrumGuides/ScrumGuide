@@ -190,7 +190,7 @@
   translation: "Не начато"
 
 - id: site_wordmark
-  translation: "Руководство по Scrum"
+  translation: "Руководства по Scrum"
 
 - id: nav_the_guide
   translation: "Руководство"
@@ -230,6 +230,27 @@
 
 - id: role_involved
   translation: "Причастен"
+
+- id: nav_getting_started
+  translation: "Первые шаги"
+
+- id: nav_the_scrum_guide
+  translation: "Руководство по Scrum"
+
+- id: home_action_getting_started
+  translation: "Читать Первые шаги для Scrum Team онлайн"
+
+- id: home_action_scrum_guide
+  translation: "Читать официальное Руководство по Scrum онлайн"
+
+- id: home_action_translations
+  translation: "Скачать официальное Руководство по Scrum более чем на 30 языках"
+
+- id: home_action_read_online
+  translation: "Читать онлайн"
+
+- id: home_action_select_language
+  translation: "Выбрать язык и скачать"
 
 - id: and
   translation: "и"
@@ -584,26 +605,3 @@
 
 - id: download_reference_status
   translation: "Для справки"
-
-# Added with the Getting Started entry point. English text pending translation.
-
-- id: nav_getting_started
-  translation: "Getting Started"
-
-- id: nav_the_scrum_guide
-  translation: "The Scrum Guide"
-
-- id: home_action_getting_started
-  translation: "Read the Getting Started for Scrum Teams online"
-
-- id: home_action_scrum_guide
-  translation: "Read the official Scrum Guide online"
-
-- id: home_action_translations
-  translation: "Download the official Scrum Guide in over 30 different languages"
-
-- id: home_action_read_online
-  translation: "Read online"
-
-- id: home_action_select_language
-  translation: "Select language & download"

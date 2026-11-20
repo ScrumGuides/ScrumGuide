@@ -231,6 +231,27 @@
 - id: role_involved
   translation: "Укључен"
 
+- id: nav_getting_started
+  translation: "Први кораци"
+
+- id: nav_the_scrum_guide
+  translation: "Водич за Scrum"
+
+- id: home_action_getting_started
+  translation: "Прочитајте Прве кораке за Scrum тимове на мрежи"
+
+- id: home_action_scrum_guide
+  translation: "Прочитајте службени Водич за Scrum на мрежи"
+
+- id: home_action_translations
+  translation: "Преузмите службени Водич за Scrum на више од 30 језика"
+
+- id: home_action_read_online
+  translation: "Читајте на мрежи"
+
+- id: home_action_select_language
+  translation: "Изаберите језик и преузмите"
+
 - id: and
   translation: "и"
 
@@ -584,26 +605,3 @@
 
 - id: download_reference_status
   translation: "Референца"
-
-# Added with the Getting Started entry point. English text pending translation.
-
-- id: nav_getting_started
-  translation: "Getting Started"
-
-- id: nav_the_scrum_guide
-  translation: "The Scrum Guide"
-
-- id: home_action_getting_started
-  translation: "Read the Getting Started for Scrum Teams online"
-
-- id: home_action_scrum_guide
-  translation: "Read the official Scrum Guide online"
-
-- id: home_action_translations
-  translation: "Download the official Scrum Guide in over 30 different languages"
-
-- id: home_action_read_online
-  translation: "Read online"
-
-- id: home_action_select_language
-  translation: "Select language & download"

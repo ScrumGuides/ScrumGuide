@@ -231,6 +231,27 @@
 - id: role_involved
   translation: "Participant"
 
+- id: nav_getting_started
+  translation: "Primeres passes"
+
+- id: nav_the_scrum_guide
+  translation: "La Guia Scrum"
+
+- id: home_action_getting_started
+  translation: "Llegiu Primeres passes per a Scrum Teams en línia"
+
+- id: home_action_scrum_guide
+  translation: "Llegiu la Guia Scrum oficial en línia"
+
+- id: home_action_translations
+  translation: "Baixeu la Guia Scrum oficial en més de 30 llengües"
+
+- id: home_action_read_online
+  translation: "Llegiu en línia"
+
+- id: home_action_select_language
+  translation: "Trieu llengua i baixeu"
+
 - id: and
   translation: "i"
 
@@ -584,26 +605,3 @@
 
 - id: download_reference_status
   translation: "Referència"
-
-# Added with the Getting Started entry point. English text pending translation.
-
-- id: nav_getting_started
-  translation: "Getting Started"
-
-- id: nav_the_scrum_guide
-  translation: "The Scrum Guide"
-
-- id: home_action_getting_started
-  translation: "Read the Getting Started for Scrum Teams online"
-
-- id: home_action_scrum_guide
-  translation: "Read the official Scrum Guide online"
-
-- id: home_action_translations
-  translation: "Download the official Scrum Guide in over 30 different languages"
-
-- id: home_action_read_online
-  translation: "Read online"
-
-- id: home_action_select_language
-  translation: "Select language & download"

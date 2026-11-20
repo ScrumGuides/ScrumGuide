@@ -231,6 +231,27 @@
 - id: role_involved
   translation: "Résztvevő"
 
+- id: nav_getting_started
+  translation: "Kezdő lépések"
+
+- id: nav_the_scrum_guide
+  translation: "Scrum Útmutató"
+
+- id: home_action_getting_started
+  translation: "Olvassa el online a Kezdő lépések Scrum Teamek számára útmutatót"
+
+- id: home_action_scrum_guide
+  translation: "Olvassa el a hivatalos Scrum Útmutatót online"
+
+- id: home_action_translations
+  translation: "Töltse le a hivatalos Scrum Útmutatót több mint 30 nyelven"
+
+- id: home_action_read_online
+  translation: "Olvasás online"
+
+- id: home_action_select_language
+  translation: "Nyelv választása és letöltés"
+
 - id: and
   translation: "és"
 
@@ -584,26 +605,3 @@
 
 - id: download_reference_status
   translation: "Hivatkozás"
-
-# Added with the Getting Started entry point. English text pending translation.
-
-- id: nav_getting_started
-  translation: "Getting Started"
-
-- id: nav_the_scrum_guide
-  translation: "The Scrum Guide"
-
-- id: home_action_getting_started
-  translation: "Read the Getting Started for Scrum Teams online"
-
-- id: home_action_scrum_guide
-  translation: "Read the official Scrum Guide online"
-
-- id: home_action_translations
-  translation: "Download the official Scrum Guide in over 30 different languages"
-
-- id: home_action_read_online
-  translation: "Read online"
-
-- id: home_action_select_language
-  translation: "Select language & download"

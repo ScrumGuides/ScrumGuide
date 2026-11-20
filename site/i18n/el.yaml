@@ -231,6 +231,27 @@
 - id: role_involved
   translation: "Συμμετέχων"
 
+- id: nav_getting_started
+  translation: "Ξεκινώντας"
+
+- id: nav_the_scrum_guide
+  translation: "Ο Οδηγός Scrum"
+
+- id: home_action_getting_started
+  translation: "Διαβάστε το Ξεκινώντας για Scrum Teams online"
+
+- id: home_action_scrum_guide
+  translation: "Διαβάστε τον επίσημο Οδηγό Scrum online"
+
+- id: home_action_translations
+  translation: "Κατεβάστε τον επίσημο Οδηγό Scrum σε πάνω από 30 γλώσσες"
+
+- id: home_action_read_online
+  translation: "Διαβάστε online"
+
+- id: home_action_select_language
+  translation: "Επιλέξτε γλώσσα και κατεβάστε"
+
 - id: and
   translation: "και"
 
@@ -584,26 +605,3 @@
 
 - id: download_reference_status
   translation: "Αναφορά"
-
-# Added with the Getting Started entry point. English text pending translation.
-
-- id: nav_getting_started
-  translation: "Getting Started"
-
-- id: nav_the_scrum_guide
-  translation: "The Scrum Guide"
-
-- id: home_action_getting_started
-  translation: "Read the Getting Started for Scrum Teams online"
-
-- id: home_action_scrum_guide
-  translation: "Read the official Scrum Guide online"
-
-- id: home_action_translations
-  translation: "Download the official Scrum Guide in over 30 different languages"
-
-- id: home_action_read_online
-  translation: "Read online"
-
-- id: home_action_select_language
-  translation: "Select language & download"

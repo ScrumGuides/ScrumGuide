@@ -231,6 +231,27 @@
 - id: role_involved
   translation: "Katılan"
 
+- id: nav_getting_started
+  translation: "Başlangıç"
+
+- id: nav_the_scrum_guide
+  translation: "Scrum Kılavuzu"
+
+- id: home_action_getting_started
+  translation: "Scrum Team'ler için Başlangıç'ı çevrimiçi okuyun"
+
+- id: home_action_scrum_guide
+  translation: "Resmî Scrum Kılavuzu'nu çevrimiçi okuyun"
+
+- id: home_action_translations
+  translation: "Resmî Scrum Kılavuzu'nu 30'dan fazla dilde indirin"
+
+- id: home_action_read_online
+  translation: "Çevrimiçi okuyun"
+
+- id: home_action_select_language
+  translation: "Dil seçip indir"
+
 - id: and
   translation: "ve"
 
@@ -584,26 +605,3 @@
 
 - id: download_reference_status
   translation: "Başvuru"
-
-# Added with the Getting Started entry point. English text pending translation.
-
-- id: nav_getting_started
-  translation: "Getting Started"
-
-- id: nav_the_scrum_guide
-  translation: "The Scrum Guide"
-
-- id: home_action_getting_started
-  translation: "Read the Getting Started for Scrum Teams online"
-
-- id: home_action_scrum_guide
-  translation: "Read the official Scrum Guide online"
-
-- id: home_action_translations
-  translation: "Download the official Scrum Guide in over 30 different languages"
-
-- id: home_action_read_online
-  translation: "Read online"
-
-- id: home_action_select_language
-  translation: "Select language & download"

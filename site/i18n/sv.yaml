@@ -190,7 +190,7 @@
   translation: "Inte påbörjad"
 
 - id: site_wordmark
-  translation: "Scrumguiden"
+  translation: "Scrumguider"
 
 - id: nav_the_guide
   translation: "Guiden"
@@ -230,6 +230,27 @@
 
 - id: role_involved
   translation: "Medverkande"
+
+- id: nav_getting_started
+  translation: "Kom igång"
+
+- id: nav_the_scrum_guide
+  translation: "Scrumguiden"
+
+- id: home_action_getting_started
+  translation: "Läs Kom igång för Scrum Teams online"
+
+- id: home_action_scrum_guide
+  translation: "Läs den officiella Scrumguiden online"
+
+- id: home_action_translations
+  translation: "Ladda ner den officiella Scrumguiden på mer än 30 språk"
+
+- id: home_action_read_online
+  translation: "Läs online"
+
+- id: home_action_select_language
+  translation: "Välj språk och ladda ner"
 
 - id: and
   translation: "och"
@@ -584,26 +605,3 @@
 
 - id: download_reference_status
   translation: "Referens"
-
-# Added with the Getting Started entry point. English text pending translation.
-
-- id: nav_getting_started
-  translation: "Getting Started"
-
-- id: nav_the_scrum_guide
-  translation: "The Scrum Guide"
-
-- id: home_action_getting_started
-  translation: "Read the Getting Started for Scrum Teams online"
-
-- id: home_action_scrum_guide
-  translation: "Read the official Scrum Guide online"
-
-- id: home_action_translations
-  translation: "Download the official Scrum Guide in over 30 different languages"
-
-- id: home_action_read_online
-  translation: "Read online"
-
-- id: home_action_select_language
-  translation: "Select language & download"
