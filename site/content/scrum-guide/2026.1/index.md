@@ -46,6 +46,14 @@ changes:
       looking and discussing close nothing. There are five, each the only one
       that can make its own change, and one of them, Understanding, had no
       event in 2020.
+  - title: The Sprint is not an element
+    content: |
+      In the 2020 edition the Sprint is the container that forces everything
+      else to close. Here each loop is defined by what closes it, so the
+      container has nothing left to do. A Cycle is the span between two
+      closures of the Objective Loop, and the word is kept only where it
+      marks what a goal or a backlog belongs to. A cycle is a behaviour, not
+      a thing a team can stand inside.
   - title: Elements are renamed
     content: |
       Sprint to Cycle, Sprint Goal to Cycle Goal, Sprint Backlog to Cycle
@@ -222,20 +230,8 @@ The Practice Owner has the authority to require that a loop closes and to act on
 
 The Practice Owner has this authority so that the person accountable for the Scrum Team's effectiveness is able to act on it.
 
-## Scrum Cycle
-The Cycle is a container for all the loops. It is a recurring period during which one Cycle Goal does not change.
-
-Cycles limit the risk of cost and effort to the length of one Cycle. They enable predictability by ensuring that decisions are revisited at the end of every Cycle.
-
-The length of a Cycle is limited by the amount of risk the Scrum Team can accept. A Cycle is long enough to produce something worth inspecting and short enough that the Cycle Goal remains valid and risk remains limited.
-
-All the work necessary to achieve the Product Goal, including every loop, happens within Cycles. A new Cycle starts immediately after the conclusion of the previous Cycle, so that the work always has a Cycle Goal and a point at which decisions are revisited.
-
-Within a Cycle, no change is made that would endanger the Cycle Goal, and quality does not decrease.
-
-A Cycle may be abandoned if the Cycle Goal becomes obsolete. Only the Product Owner has the authority to abandon a Cycle, as the Product Owner is accountable for value.
-
 ## Scrum Loops
+
 
 Each loop in Scrum is a formal opportunity to compare evidence with what was intended and to act on the result. A loop remains open until both have been done.
 
@@ -245,24 +241,30 @@ Scrum defines five loops. Each closes on something no other loop closes, and tog
 
 | Loop | Changes | Closed by |
 |---|---|---|
-| Objective | The objective the Scrum Team takes on | Taking on an objective, with a selection of work and the Scrum Team's own approach to it |
-| Plan | The work in flight under that objective | Re-planning, so that the plan reflects what is now known |
+| Objective | The Cycle Goal the Scrum Team takes on | Setting a Cycle Goal, with a selection of work and the Scrum Team's own approach to it |
+| Plan | The work in flight under that Cycle Goal | Re-planning, so that the plan reflects what is now known |
 | Understanding | What is understood about what comes next | Work becoming clear enough to attempt, or an idea being discarded |
 | Direction | The Product Goal being pursued | Changing the Product Goal, or reaffirming it against what stakeholders did with the Increment |
 | Practice | How the Scrum Team works | Changing the way of working |
 
 Scrum does not define how long a loop takes. It defines only how often each loop closes relative to the others.
 
-- The Understanding Loop closes ahead of the Objective Loop, so that the objective is assembled from work that can be inspected.
+- The Understanding Loop closes ahead of the Objective Loop, so that the Cycle Goal is assembled from work that can be inspected.
 - The Plan Loop closes more often than the Objective Loop, so that errors are detected before they accumulate.
-- The Direction Loop closes at least as often as the Objective Loop, so that the Scrum Team knows whether its last Increment was valuable before it takes on another objective.
-- The Practice Loop closes before the Objective Loop, so that known problems are not carried into the next objective.
+- The Direction Loop closes at least as often as the Objective Loop, so that the Scrum Team knows whether its last Increment was valuable before it takes on another Cycle Goal.
+- The Practice Loop closes before the Objective Loop, so that known problems are not carried into the next Cycle.
 
 ### Objective Loop
 
-The purpose of the Objective Loop is to set an objective for the Scrum Team, with a selection of work and the Scrum Team's approach to that work. It gathers no evidence of its own and relies on what the other loops have made available.
+The purpose of the Objective Loop is to set the Cycle Goal for the Scrum Team, with a selection of work and the Scrum Team's approach to that work. It gathers no evidence of its own and relies on what the other loops have made available.
 
-The objective is set by the collaborative work of the entire Scrum Team, as the knowledge it requires is held by different members.
+The Cycle Goal is set by the collaborative work of the entire Scrum Team, as the knowledge it requires is held by different members.
+
+The span between two closures of this loop is a Cycle. One Cycle Goal holds for its whole length, and a new Cycle begins as the previous one ends, so that the work always has a Cycle Goal and a point at which decisions are revisited. All the work necessary to achieve the Product Goal, including every loop, happens within Cycles.
+
+A Cycle is long enough to produce something worth inspecting and short enough that the Cycle Goal remains valid. Its length is limited by the amount of risk the Scrum Team can accept, and it limits the risk of cost and effort to that length. Within a Cycle, no change is made that would endanger the Cycle Goal, and quality does not decrease.
+
+A Cycle may be abandoned if the Cycle Goal becomes obsolete. Only the Product Owner has the authority to abandon a Cycle, as the Product Owner is accountable for value.
 
 ### Plan Loop
 
@@ -342,7 +344,7 @@ The Product Goal describes a future state of the product, and serves as a target
 
 A product is a vehicle to deliver value. It has a clear boundary, known stakeholders, and well-defined users or customers. A product could be a service, a physical product, or something more abstract.
 
-The Scrum Team focuses on one objective at a time. They must fulfil (or abandon) one Product Goal before taking on the next.
+The Scrum Team focuses on one Product Goal at a time. They must fulfil (or abandon) one Product Goal before taking on the next.
 
 ### Cycle Goal
 
@@ -364,6 +366,6 @@ If the Definition of Done is part of the standards of the organization, all Scru
 
 ## End Note
 
-Scrum consists of its accountabilities, its loops, the Cycle, and its artifacts with their commitments. Each element serves a specific purpose that the other elements depend on.
+Scrum consists of its accountabilities, its loops, and its artifacts with their commitments. Each element serves a specific purpose that the other elements depend on.
 
 Scrum is immutable as a minimum. Adding to it is expected, and Scrum functions well as a container for other techniques, methodologies and practices. While implementing only parts of Scrum is possible, the result is not Scrum.
