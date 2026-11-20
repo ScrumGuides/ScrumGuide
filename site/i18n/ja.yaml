@@ -1,0 +1,586 @@
+# Interface strings, Japanese.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "ドキュメント"
+
+- id: guides_section_title
+  translation: "ガイド"
+
+- id: implementations_section_title
+  translation: "実装ガイド"
+
+- id: implementations_section_description
+  translation: "特定の文脈でスクラムを適用する方法。いずれもスクラムが目指すものの範囲にとどまり、ある状況に向けた手引きを加える。一つのプロダクトに複数のチーム、フローの管理、始め方など。スクラムが求めるものは変えない。"
+
+- id: extensions_section_title
+  translation: "拡張"
+
+- id: extensions_section_description
+  translation: "スクラムが扱う範囲を超えるプラクティス。拡張はスクラムであるとは主張せず、スクラムを変えない。プロダクトが届ける価値の測定など、スクラムが未決のままにしている関心事を引き受ける。"
+
+- id: extensions_section_empty
+  translation: "まだありません。"
+
+- id: foundation_section_title
+  translation: "ガイド"
+
+- id: history_page_title
+  translation: "履歴"
+
+- id: translations_page_title
+  translation: "翻訳"
+
+- id: changes_section_title
+  translation: "変更点"
+
+- id: changes_from_label
+  translation: "変更の起点"
+
+- id: lineage_section_title
+  translation: "系譜"
+
+- id: adapted_from_label
+  translation: "派生元"
+
+- id: conforms_to_label
+  translation: "準拠"
+
+- id: conforming_guides_title
+  translation: "このバージョンに準拠するガイド"
+
+- id: conditions_section_title
+  translation: "条件"
+
+- id: condition_falsifier_label
+  translation: "満たされないのは"
+
+- id: current_version_label
+  translation: "現在のバージョン"
+
+- id: older_version_label
+  translation: "以前のバージョン"
+
+- id: version_notice_older
+  translation: "これは本ガイドの現在のバージョンではありません。"
+
+- id: view_latest_label
+  translation: "現在のバージョンを見る"
+
+- id: read_time_label
+  translation: "分で読めます"
+
+- id: badge_english_only
+  translation: "英語のみ"
+
+- id: badge_english_only_title
+  translation: "本ガイドはこの言語にまだ翻訳されていません。"
+
+- id: badge_not_in_production
+  translation: "本番には含まれません"
+
+- id: badge_not_in_production_title
+  translation: "本ガイドは本番ビルドから除外されています。"
+
+- id: badge_not_in_preview
+  translation: "プレビューには含まれません"
+
+- id: badge_not_in_preview_title
+  translation: "本ガイドはプレビュービルドから除外されています。"
+
+- id: licence_label
+  translation: "ライセンス"
+
+- id: canonical_source_label
+  translation: "正典"
+
+- id: pending_licence_check
+  translation: "ライセンス確認待ちの本文"
+
+- id: guide_join_discussion
+  translation: "本ガイドについて議論する"
+
+- id: guide_version_current
+  translation: "現在"
+
+- id: guide_version_latest
+  translation: "最新"
+
+- id: guide_version_select
+  translation: "バージョンを選ぶ"
+
+- id: guide_version_dropdown_label
+  translation: "バージョン"
+
+- id: guide_historical_version_notice_title
+  translation: "これは現在のバージョンではありません。"
+
+- id: guide_historical_version_notice_text
+  translation: "本ガイドの以前のバージョンを読んでいます。"
+
+- id: guide_historical_version_notice_link
+  translation: "現在のバージョンを読む"
+
+- id: guide_historical_version_notice_suffix
+  translation: "ことができます。"
+
+- id: guide_preview_link
+  translation: "これをプレビューサイトで見る"
+
+- id: guide_translation_preview_note
+  translation: "翻訳のプレビュー。"
+
+- id: guide_translation_preview_message
+  translation: "この翻訳はまだレビュー中で、不完全な場合があります。"
+
+- id: contributors_label
+  translation: "貢献者"
+
+- id: translators_label
+  translation: "翻訳者"
+
+- id: reportTranslationError
+  translation: "翻訳の誤りを報告する"
+
+- id: nav_details
+  translation: "本ガイドについて"
+
+- id: nav_translations
+  translation: "翻訳"
+
+- id: download_table_written_by
+  translation: "執筆"
+
+- id: download_table_contributed_by
+  translation: "協力"
+
+- id: download_table_status
+  translation: "状態"
+
+- id: download_discussion_action
+  translation: "議論"
+
+- id: download_preview_action
+  translation: "プレビュー"
+
+- id: download_preview_status
+  translation: "プレビュー中"
+
+- id: download_preview_description
+  translation: "この翻訳はまだ公開されていません。プレビューサイトで読むことができます。"
+
+- id: download_preview_translations
+  translation: "プレビュー中の翻訳"
+
+- id: download_visit_preview
+  translation: "プレビューサイトを開く"
+
+- id: download_pdf_only_status
+  translation: "PDFのみ"
+
+- id: download_stub_status
+  translation: "未着手"
+
+- id: site_wordmark
+  translation: "スクラムガイド"
+
+- id: nav_the_guide
+  translation: "ガイド"
+
+- id: nav_versions
+  translation: "バージョン"
+
+- id: nav_implementations
+  translation: "実装"
+
+- id: guide_pdf_not_available
+  translation: "PDFは利用できません"
+
+- id: share_label
+  translation: "共有"
+
+- id: share_copy_link
+  translation: "リンクをコピー"
+
+- id: share_copied
+  translation: "をクリップボードにコピーしました"
+
+- id: share_close
+  translation: "閉じる"
+
+- id: role_creator
+  translation: "考案者"
+
+- id: role_contributor
+  translation: "貢献者"
+
+- id: role_reviewer
+  translation: "レビュアー"
+
+- id: role_translator
+  translation: "翻訳者"
+
+- id: role_involved
+  translation: "関係者"
+
+- id: and
+  translation: "および"
+
+- id: breadcrumb_home
+  translation: "ホーム"
+
+- id: read_online_title
+  translation: "オンラインで読む"
+
+- id: read_online_description
+  translation: "対話的な機能とわかりやすい案内で、ガイドの全文にデジタルでアクセスできます。"
+
+- id: read_online_button
+  translation: "オンラインで読む"
+
+- id: translations_title
+  translation: "翻訳"
+
+- id: translations_description
+  translation: "本ガイドを複数の言語で読み、翻訳に力を貸してください。"
+
+- id: translations_button
+  translation: "翻訳を見る"
+
+- id: history_title
+  translation: "履歴"
+
+- id: history_description
+  translation: "本ガイドの変遷と歴史をたどります。"
+
+- id: history_button
+  translation: "履歴を見る"
+
+- id: what_is_guides_title
+  translation: "{{ .Site.Title }}とは"
+
+- id: open_source_title
+  translation: "オープンソースとコミュニティ主導"
+
+- id: open_source_description
+  translation: "これはコミュニティの協働によって成り立つオープンソースのプロジェクトです。改善の提案、問題の報告、内容の寄与、いずれも歓迎します。一部のガイドは寄与を受け付けていませんが、参考として掲載しています。ともに、世界中で実践する方々や、ワークフローの効率と価値の提供を高めたいすべての方にとって、これらの資料をさらに有用なものにできます。"
+
+- id: at_a_glance_title
+  translation: "概要"
+
+- id: join_discussion_button
+  translation: "議論に参加する"
+
+- id: join_discussion_title
+  translation: "{{ .Site.Title }}の議論に参加する"
+
+- id: join_discussion_description
+  translation: "コミュニティと交わり、気づきを共有し、{{ .Site.Title }}の今後をかたちづくることに力を貸してください。これらのガイドが実践する方にとって総合的な情報源であるために、皆さんの寄与は欠かせません。"
+
+- id: guides_intro_text
+  translation: "どのようなプロセスであっても、ワークフローと価値の提供を最適化するために役立つ実践と、その適用の仕方を学べます。知識と良い実践をまとめた総合的な情報源です。{{ .Site.Title }}は実践的なガイドの拠点であり、知識労働に実証済みの方法を適用するための、無償でコミュニティ主導の参照先です。各ガイドは、フローを改善し、価値の提供を最適化し、チームの持続可能性を高めるために必要な中核的実践と指標を定めています。多様な業種における拡張可能な導入を支え、ワークフローに関する他の現代的な取り組みを補完します。"
+
+- id: guide_content_not_found
+  translation: "ガイドの内容が見つかりません"
+
+- id: nav_read_guide
+  translation: "ガイドを読む"
+
+- id: nav_history
+  translation: "履歴"
+
+- id: nav_overview
+  translation: "概要"
+
+- id: guide_pdf_download_button
+  translation: "PDFをダウンロード"
+
+- id: guide_pdf_intro_text
+  translation: "本ガイドはPDFでもダウンロードでき、オフラインで読むことができます。"
+
+- id: guide_pdf_intro_link
+  translation: "PDFをダウンロード"
+
+- id: download_page_title
+  translation: "公式の{{ .Title }}を読む・ダウンロードする"
+
+- id: download_page_description
+  translation: "{{ .Title }}はここで次により定義されています"
+
+- id: download_page_originators
+  translation: "、{{ .Title }}の考案者です。"
+
+- id: download_translations_provided
+  translation: "下に挙げる方々や団体のご厚意により提供された翻訳です。ダウンロードしたい言語のガイドを選んでください。"
+
+- id: download_translation_error
+  translation: "{{ .Title }}に翻訳の誤りと思われる箇所を見つけた場合は、翻訳した方に直接ご連絡ください。さらに支援が必要な場合は、次までご連絡ください"
+
+- id: download_official_version
+  translation: "公式バージョン"
+
+- id: download_community_translations
+  translation: "コミュニティによる翻訳"
+
+- id: download_current_version_released
+  translation: "{{ .Site.Title }}の現在の公式バージョンが公開されたのは"
+
+- id: download_older_translations_notice
+  translation: "日付の古い{{ .Site.Title }}の翻訳には、最新の情報が含まれていない場合があります。"
+
+- id: download_table_language
+  translation: "言語"
+
+- id: download_table_translations_by
+  translation: "翻訳"
+
+- id: download_table_action
+  translation: "操作"
+
+- id: download_official_current_version
+  translation: "公式の現在のバージョン"
+
+- id: download_button_text
+  translation: "ダウンロード"
+
+- id: download_coming_soon
+  translation: "近日公開"
+
+- id: download_missing_language
+  translation: "お探しの言語がありませんか。"
+
+- id: download_contribute_translation
+  translation: "新しい翻訳を寄せてコミュニティに力を貸してください。"
+
+- id: download_add_translation
+  translation: "翻訳を追加する"
+
+- id: download_community_contributors
+  translation: "コミュニティの貢献者"
+
+- id: contributors_description
+  translation: "下に挙げる貢献者は、すべてのガイドとすべてのバージョンの貢献者を合わせたものです。"
+
+- id: read_online_action
+  translation: "オンラインで読む"
+
+- id: guide_table_of_contents
+  translation: "目次"
+
+- id: guide_coming_soon
+  translation: "本ガイドは近日公開です。お待ちください。"
+
+- id: guide_no_content_available
+  translation: "この言語の内容はまだ利用できません。"
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) は利用できません"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) は利用できません"
+
+- id: guide_coming_label
+  translation: "公開予定:"
+
+- id: guide_updated_label
+  translation: "更新:"
+
+- id: guide_version_label
+  translation: "バージョン:"
+
+- id: guide_content_unavailable_note
+  translation: "注記:"
+
+- id: guide_content_unavailable_message
+  translation: "このページの内容は{{ .Language }}では利用できません。以下にガイドの既定の内容を表示しています。"
+
+- id: guide_content_unavailable_title
+  translation: "内容を利用できません:"
+
+- id: guide_content_unavailable_description
+  translation: "このページの内容を読み込めず、既定の内容もありません。お手数ですが"
+
+- id: guide_report_issue_link
+  translation: "この問題を報告する"
+
+- id: guide_report_issue_message
+  translation: "ことで修正に役立ちます。"
+
+- id: guide_back_to_home
+  translation: "← ホームに戻る"
+
+- id: not_sure_which_to_use_title
+  translation: "どれを使うか迷っていますか。"
+
+- id: get_started_title
+  translation: "はじめる"
+
+- id: community_driven_label
+  translation: "コミュニティ主導"
+
+- id: coming_soon
+  translation: "近日公開"
+
+- id: purpose_title
+  translation: "目的"
+
+- id: ethos_title
+  translation: "姿勢"
+
+- id: audience_title
+  translation: "対象"
+
+- id: use_case_title
+  translation: "用途"
+
+- id: content_title
+  translation: "内容"
+
+- id: update_model_title
+  translation: "更新の方針"
+
+- id: guide_overview_title
+  translation: "ガイドの概要"
+
+- id: guide_overview_description
+  translation: "本ガイドの主な特徴"
+
+- id: when_to_use_title
+  translation: "本ガイドを使うとき"
+
+- id: when_to_use_description
+  translation: "自分の文脈に合った進め方を選んでください"
+
+- id: quick_decision_guide_title
+  translation: "選び方の早見"
+
+- id: getting_started_title
+  translation: "最初の一歩"
+
+- id: for_practitioners_title
+  translation: "実践する方へ"
+
+- id: current_information_title
+  translation: "現在の情報"
+
+- id: current_information_description
+  translation: "バージョンの詳細とコミュニティの貢献者"
+
+- id: current_version_title
+  translation: "現在のバージョン"
+
+- id: current_version_updated_label
+  translation: "更新"
+
+- id: current_version_description
+  translation: "これは本ガイドの現在有効なバージョンです。"
+
+- id: read_current_version_button
+  translation: "現在のバージョンを読む"
+
+- id: version_info_not_available
+  translation: "バージョンの情報は利用できません"
+
+- id: contributors_title
+  translation: "貢献者"
+
+- id: contributors_description_card
+  translation: "本ガイドをかたちづくるコミュニティの方々"
+
+- id: contributors_thank_you
+  translation: "本ガイドをよりよくしてくださるすべての貢献者に感謝します。"
+
+- id: join_community_button
+  translation: "コミュニティに参加する"
+
+- id: no_contributors_found
+  translation: "貢献者が見つかりません"
+
+- id: version_history_title
+  translation: "バージョンの履歴"
+
+- id: version_history_description
+  translation: "以前のバージョンとその変遷"
+
+- id: no_previous_versions_title
+  translation: "以前のバージョンはありません"
+
+- id: no_previous_versions_description
+  translation: "本ガイドは始まったばかりです。以前のバージョンについては後ほどご確認ください。"
+
+- id: what_is_guide_title
+  translation: "本ガイドとは"
+
+- id: license_title
+  translation: "ライセンス"
+
+- id: view_on_github_button
+  translation: "GitHubで見る"
+
+- id: current_open_guide_label
+  translation: "現在のOpen Guide"
+
+- id: active_status_label
+  translation: "有効"
+
+- id: current_fork_label
+  translation: "現在のフォーク"
+
+- id: active_fork_label
+  translation: "フォーク"
+
+- id: fork_indicator
+  translation: "フォーク元:"
+
+- id: forked_from_indicator
+  translation: "フォーク元:"
+
+- id: this_is_fork_label
+  translation: "これはフォークです"
+
+- id: available_languages_label
+  translation: "利用できる言語"
+
+- id: pdf_downloads_label
+  translation: "PDFのダウンロード"
+
+- id: living_document_updated_label
+  translation: "生きた文書の更新"
+
+- id: active_fork_updated_label
+  translation: "有効なフォークの更新"
+
+- id: historical_fork_label
+  translation: "過去のフォーク元"
+
+- id: historical_version_label
+  translation: "過去のバージョン"
+
+- id: read_guide_button
+  translation: "ガイドを読む"
+
+- id: translations_button_small
+  translation: "翻訳"
+
+- id: read_fork_button
+  translation: "フォークを読む"
+
+- id: view_archive_button
+  translation: "アーカイブを見る"
+
+- id: download_reference_status
+  translation: "参考"
