@@ -1,0 +1,319 @@
+# Interface strings, German.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as the German Scrum Guide leaves them: Scrum Team,
+# Product Owner, Scrum Master, Sprint, Product Backlog, Sprint Backlog,
+# Increment and Developer are not translated in that document, so they are not
+# translated here either.
+
+- id: documents
+  translation: "Dokumente"
+
+- id: guides_section_title
+  translation: "Guides"
+
+- id: implementations_section_title
+  translation: "Umsetzungsguides"
+
+- id: implementations_section_description
+  translation: "Wege, Scrum in einem bestimmten Kontext anzuwenden. Jeder bleibt innerhalb dessen, was Scrum erreichen soll, und ergänzt Hinweise für eine bestimmte Situation — mehrere Teams an einem Produkt, Steuerung des Flusses, der Anfang — ohne zu ändern, was Scrum verlangt."
+
+- id: extensions_section_title
+  translation: "Erweiterungen"
+
+- id: extensions_section_description
+  translation: "Praktiken, die über das hinausgehen, was Scrum behandelt. Eine Erweiterung erhebt nicht den Anspruch, Scrum zu sein, und ändert Scrum nicht; sie nimmt sich eines Themas an, das Scrum offenlässt, etwa der Messung des Werts, den ein Produkt liefert."
+
+- id: extensions_section_empty
+  translation: "Noch keine vorhanden."
+
+- id: foundation_section_title
+  translation: "Der Guide"
+
+- id: history_page_title
+  translation: "Verlauf"
+
+- id: translations_page_title
+  translation: "Übersetzungen"
+
+- id: changes_section_title
+  translation: "Was sich geändert hat"
+
+- id: changes_from_label
+  translation: "Änderungen gegenüber"
+
+- id: lineage_section_title
+  translation: "Entwicklungslinie"
+
+- id: adapted_from_label
+  translation: "Abgeleitet von"
+
+- id: conforms_to_label
+  translation: "Entspricht"
+
+- id: conforming_guides_title
+  translation: "Guides, die dieser Fassung entsprechen"
+
+- id: conditions_section_title
+  translation: "Bedingungen"
+
+- id: condition_falsifier_label
+  translation: "Nicht erfüllt, wenn"
+
+- id: current_version_label
+  translation: "Aktuelle Fassung"
+
+- id: older_version_label
+  translation: "Ältere Fassung"
+
+- id: version_notice_older
+  translation: "Dies ist nicht die aktuelle Fassung dieses Guides."
+
+- id: view_latest_label
+  translation: "Aktuelle Fassung ansehen"
+
+- id: read_time_label
+  translation: "Min. Lesezeit"
+
+- id: badge_english_only
+  translation: "Nur Englisch"
+
+- id: badge_english_only_title
+  translation: "Dieser Guide wurde noch nicht in diese Sprache übersetzt."
+
+- id: badge_not_in_production
+  translation: "Nicht in der Produktion"
+
+- id: badge_not_in_production_title
+  translation: "Dieser Guide ist vom Produktions-Build ausgeschlossen."
+
+- id: badge_not_in_preview
+  translation: "Nicht in der Vorschau"
+
+- id: badge_not_in_preview_title
+  translation: "Dieser Guide ist vom Vorschau-Build ausgeschlossen."
+
+- id: licence_label
+  translation: "Lizenz"
+
+- id: canonical_source_label
+  translation: "Ursprungsquelle"
+
+- id: pending_licence_check
+  translation: "Text bis zur Lizenzprüfung zurückgehalten"
+
+- id: guide_join_discussion
+  translation: "Diesen Guide diskutieren"
+
+- id: guide_version_current
+  translation: "Aktuell"
+
+- id: guide_version_latest
+  translation: "Neueste"
+
+- id: guide_version_select
+  translation: "Fassung auswählen"
+
+- id: guide_version_dropdown_label
+  translation: "Fassung"
+
+- id: guide_historical_version_notice_title
+  translation: "Dies ist nicht die aktuelle Fassung."
+
+- id: guide_historical_version_notice_text
+  translation: "Sie lesen eine frühere Fassung dieses Guides."
+
+- id: guide_historical_version_notice_link
+  translation: "Aktuelle Fassung lesen"
+
+- id: guide_historical_version_notice_suffix
+  translation: "stattdessen."
+
+- id: guide_preview_link
+  translation: "Dies auf der Vorschau-Website ansehen"
+
+- id: guide_translation_preview_note
+  translation: "Vorschau der Übersetzung."
+
+- id: guide_translation_preview_message
+  translation: "Diese Übersetzung wird noch geprüft und kann unvollständig sein."
+
+- id: contributors_label
+  translation: "Mitwirkende"
+
+- id: translators_label
+  translation: "Übersetzerinnen und Übersetzer"
+
+- id: reportTranslationError
+  translation: "Übersetzungsfehler melden"
+
+- id: nav_details
+  translation: "Über diesen Guide"
+
+- id: nav_translations
+  translation: "Übersetzungen"
+
+- id: download_table_written_by
+  translation: "Geschrieben von"
+
+- id: download_table_contributed_by
+  translation: "Mit Beiträgen von"
+
+- id: download_table_status
+  translation: "Status"
+
+- id: download_discussion_action
+  translation: "Diskutieren"
+
+- id: download_preview_action
+  translation: "Vorschau"
+
+- id: download_preview_status
+  translation: "In der Vorschau"
+
+- id: download_preview_description
+  translation: "Diese Übersetzung ist noch nicht veröffentlicht. Sie kann auf der Vorschau-Website gelesen werden."
+
+- id: download_preview_translations
+  translation: "Übersetzungen in der Vorschau"
+
+- id: download_visit_preview
+  translation: "Vorschau-Website öffnen"
+
+- id: download_pdf_only_status
+  translation: "Nur PDF"
+
+- id: download_stub_status
+  translation: "Nicht begonnen"
+
+- id: site_wordmark
+  translation: "Scrum Guide"
+
+- id: nav_the_guide
+  translation: "Der Guide"
+
+- id: nav_versions
+  translation: "Fassungen"
+
+- id: nav_implementations
+  translation: "Umsetzungen"
+
+# ---------------------------------------------------------------------------
+# Keys the platform module's templates call for. Its own catalogue supplies
+# them in English, so English renders without them and any other language
+# shows an [i18n] placeholder instead. The {{ ... }} placeholders are the
+# template's own and are left exactly as they are.
+# ---------------------------------------------------------------------------
+
+- id: read_online_action
+  translation: "Online lesen"
+
+- id: download_button_text
+  translation: "Herunterladen"
+
+- id: download_table_translations_by
+  translation: "Übersetzt von"
+
+- id: download_community_contributors
+  translation: "Mitwirkende aus der Community"
+
+- id: breadcrumb_home
+  translation: "Startseite"
+
+- id: translations_button
+  translation: "Übersetzungen ansehen"
+
+- id: guide_table_of_contents
+  translation: "Inhaltsverzeichnis"
+
+- id: nav_read_guide
+  translation: "Guide lesen"
+
+- id: guide_pdf_download_button
+  translation: "PDF herunterladen"
+
+- id: nav_history
+  translation: "Verlauf"
+
+- id: download_table_action
+  translation: "Aktion"
+
+- id: download_table_language
+  translation: "Sprache"
+
+- id: guide_updated_label
+  translation: "Aktualisiert:"
+
+- id: guide_version_label
+  translation: "Fassung:"
+
+- id: download_missing_language
+  translation: "Ihre Sprache fehlt?"
+
+- id: download_official_current_version
+  translation: "Offizielle aktuelle Fassung"
+
+- id: download_contribute_translation
+  translation: "Helfen Sie der Community mit einer neuen Übersetzung."
+
+- id: download_add_translation
+  translation: "Übersetzung hinzufügen"
+
+- id: guide_back_to_home
+  translation: "← Zurück zur Startseite"
+
+- id: pdf_downloads_label
+  translation: "PDF-Downloads"
+
+- id: read_guide_button
+  translation: "Guide lesen"
+
+- id: living_document_updated_label
+  translation: "Lebendes Dokument aktualisiert"
+
+- id: active_status_label
+  translation: "Aktiv"
+
+- id: download_translation_error
+  translation: "Wenn Sie einen möglichen Übersetzungsfehler im {{ .Title }} gefunden haben, wenden Sie sich bitte direkt an die übersetzende Person. Wenn Sie weitere Unterstützung brauchen, erreichen Sie uns über"
+
+- id: download_page_title
+  translation: "Den offiziellen {{ .Title }} lesen und herunterladen"
+
+- id: download_page_originators
+  translation: ", den Urhebern des {{ .Title }}."
+
+- id: download_page_description
+  translation: "{{ .Title }} wird hier definiert von"
+
+- id: download_older_translations_notice
+  translation: "Übersetzungen des {{ .Site.Title }} mit älterem Datum enthalten möglicherweise nicht die neuesten Informationen."
+
+- id: download_official_version
+  translation: "Offizielle Fassung"
+
+- id: download_current_version_released
+  translation: "Die aktuelle offizielle Fassung des {{ .Site.Title }} erschien im"
+
+- id: download_community_translations
+  translation: "Übersetzungen aus der Community"
+
+- id: current_open_guide_label
+  translation: "Aktueller Open Guide"
+
+- id: available_languages_label
+  translation: "Verfügbar in"
+
+- id: download_translations_provided
+  translation: "Übersetzungen, bereitgestellt von den unten aufgeführten großzügigen Personen und Gruppen. Bitte wählen Sie den Guide in der Sprache, in der Sie ihn herunterladen möchten."
+
+- id: translations_button_small
+  translation: "Übersetzungen"
+
+# Shown on a guide that has no document in the language being viewed.
+- id: guide_pdf_not_available
+  translation: "PDF nicht verfügbar"

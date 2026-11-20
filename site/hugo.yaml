@@ -31,6 +31,12 @@ languages:
       seo_title: "Le Guide Scrum | Toutes les versions, une seule filiation"
       description: Toutes les versions publiées du Guide Scrum en un seul endroit, depuis 2010, avec les guides de mise en œuvre qui s'appuient sur lui.
       keywords: Guide Scrum, Scrum, versions du Guide Scrum, historique du Guide Scrum, Guide Scrum 2026, contrôle empirique des processus, conditions Scrum, guides de mise en œuvre, Guide Kanban pour les Scrum Teams
+  de:
+    label: Deutsch
+    weight: 12
+    title: Der Scrum Guide
+    params:
+      description: Jede veröffentlichte Fassung des Scrum Guide an einem Ort, zusammen mit den Umsetzungsguides, die darauf aufbauen.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
