@@ -14,8 +14,7 @@ changes_from: 2017.11
 #   - title: ...
 #     content: |
 #       ...
-aliases:
-  - /scrum-guide/latest
+# The /scrum-guide/latest alias belongs to 2026.1, the latest published edition.
 ---
 
 > **Licence: CC BY-SA 4.0** — © 2020 Ken Schwaber and Jeff Sutherland.

@@ -59,7 +59,7 @@ changes:
 # be assessable without prescribing how it is met.
 #
 # Editorial authority over these is specification.md 10, question 6, and is
-# unanswered. They are published with the edition in draft and are not settled.
+# unanswered. They are published with the edition and are not settled.
 conditions:
   - id: SG26-C1
     element: "The Scrum Team"
@@ -69,7 +69,7 @@ conditions:
       Asked separately, members of the team name different holders for one
       accountability, or cannot name one at all.
   - id: SG26-C2
-    element: "Where authority must sit"
+    element: "Authority"
     statement: >-
       No accountability is divided between two people.
     falsifier: >-
@@ -128,16 +128,16 @@ conditions:
     falsifier: >-
       An obstruction identified, within the organisation's gift to remove, and
       left in place because nobody had the authority to act.
-# Draft. The text is written but not editorially settled: open questions remain
-# on the one-month ceiling, the multi-team rule, and whether the Practice loop
-# should close on a verified improvement rather than any change. A review also
-# found claims in it that are false or unsupported, and the conditions above
-# have no agreed editorial owner.
+# Published as the latest edition, so this edition owns /scrum-guide/latest and
+# 2020.11 no longer does, per specification.md 4.1 and 5.4.
 #
-# Draft and future editions must not own /scrum-guide/latest, so that alias
-# stays on 2020.11. When this edition is settled: remove `draft`, and move the
-# alias here from 2020.11, per specification.md 4.1 and 5.4.
-draft: true
+# Not editorially settled. Open questions remain on the one-month ceiling, the
+# multi-team rule, and whether the Practice loop should close on a verified
+# improvement rather than any change. A review found claims in it that are
+# false or unsupported, and the conditions above have no agreed editorial
+# owner. Publishing it does not close those.
+aliases:
+  - /scrum-guide/latest
 ---
 
 > **A derived work by Martin Hinshelwood.**
@@ -156,35 +156,35 @@ draft: true
 
 Scrum exists to generate value through adaptive solutions for complex problems.
 
-Value is judged by the people receiving the work. It is not judged by the people doing it, and it is not the same as the amount of work done.
+Value is judged by the people receiving the work, not by the people doing it, and not by the amount of work done.
 
-## What cannot be known
+## Complexity
 
 In complex work, what will happen is unknown.
 
 Only what has already happened may be used for forward-looking decision making. Knowledge comes from experience, and decisions are made on what is observed.
 
-## What evidence obliges
+## Empiricism
 
-Evidence is worthless unless it is acted on. That obligation has three parts, and each makes the next possible.
+Scrum is founded on empiricism.
 
-The work and the process must be **visible**, to those performing the work and to those receiving it, because a decision can only rest on what is perceived.
+The work and the process must be visible, to those performing the work and to those receiving it. A decision can rest only on what is perceived.
 
-What is visible must be **compared** with what was intended, frequently and diligently, to detect potentially undesirable variances or problems.
+What is visible must be compared with what was intended, frequently and diligently, to detect potentially undesirable variances or problems.
 
-Where the comparison shows a process deviating outside acceptable limits, or shows what was produced to be unacceptable, the process or the product of it must be **adjusted**, and as soon as possible, because delay lets the deviation grow.
+Where the comparison shows a process deviating outside acceptable limits, or shows what was produced to be unacceptable, the process or the product of it must be adjusted, and as soon as possible, because delay lets the deviation grow.
 
-## Where authority must sit
+Visibility enables comparison. Comparison enables adjustment. Either one without the next is waste.
 
-"As soon as possible" has a consequence. If the people who observe cannot act, then adjustment waits on someone who did not observe, and the obligation above fails. So authority sits where the knowledge is.
+Scrum employs an iterative, incremental approach. Without something produced to observe, repeatedly, there is nothing to compare, so predictability cannot be optimized and risk cannot be controlled.
 
-To this Scrum adds one stipulation that follows from nothing above: **accountability is held undivided.** An accountability split between two people is held by neither.
+Scrum engages groups of people who collectively have all the skills and expertise to do the work, and who share or acquire such skills as needed.
 
-## What follows from them
+## Authority
 
-A group that must act on its own observations needs, between its members, all the skills and expertise to do the work, and must share or acquire such skills as needed.
+Authority sits where the knowledge is. If the people who observe cannot act, adjustment waits on someone who did not observe, and it comes too late.
 
-The work must proceed so as to produce something observable, repeatedly. An iterative, incremental approach is not a preference; without it there is nothing to compare, so predictability cannot be optimized and risk cannot be controlled.
+Accountability is held undivided. An accountability split between two people is held by neither.
 
 ---
 
@@ -192,31 +192,31 @@ The work must proceed so as to produce something observable, repeatedly. An iter
 
 ## The framework
 
-Scrum is purposefully incomplete. It defines only the parts required to implement the First Principles, and the rest is built by the collective intelligence of the people using it. That is why its rules guide relationships and interactions rather than give detailed instructions.
+Scrum is purposefully incomplete. It defines only the parts required to implement the First Principles, and the rest is built by the collective intelligence of the people using it. Its rules guide relationships and interactions rather than give detailed instructions.
 
-Because the framework is incomplete, other processes, techniques and methods are employed within it. Scrum wraps around existing practices or renders them unnecessary, and in doing so it makes the relative efficacy of current management, environment and work techniques visible, so that improvements can be made.
+Various processes, techniques and methods are employed within it. Scrum wraps around existing practices or renders them unnecessary, and makes the relative efficacy of current management, environment and work techniques visible, so that improvements can be made.
 
-## Where Scrum applies
+## Scope
 
-Scrum applies wherever the First Principles hold: work whose outcome cannot be known in advance.
+Scrum is for complex work: work whose outcome cannot be known in advance.
 
 ## The Values
 
-Scrum chooses five values, and holds that successful use of it depends on people becoming more proficient in living them: **Commitment, Focus, Openness, Respect and Courage.**
+Scrum chooses five values. Successful use of it depends on people becoming more proficient in living them: **Commitment, Focus, Openness, Respect and Courage.**
 
 The Scrum Team commits to achieving its outcomes and to supporting each other. Its primary focus is on the work of the Cycle, to make the best possible progress toward those outcomes. The team and the people it works with are open about the work and the challenges. Team members respect each other to be capable, independent people, and are respected as such. They have the courage to do the right thing and to work on tough problems.
 
-The values give direction to work, actions and behavior, so the decisions made, the steps taken and the way Scrum is used should reinforce them, not diminish or undermine them.
+The values give direction to work, actions and behavior. The decisions made, the steps taken and the way Scrum is used should reinforce them, not diminish or undermine them.
 
-An obligation to make work visible and act on what it shows is met or evaded by human beings, and these five name what meeting it takes.
+Scrum depends on people, and the values name what it asks of them.
 
 ## The Scrum Team
 
 The fundamental unit of Scrum is a Scrum Team: one small, cohesive team of professionals focused on one objective at a time, the Enduring Outcome.
 
-One small group can hold the skills, the authority and the accountability together, which is why Scrum makes it the unit.
+Scrum makes one small group the unit, because one group can hold the skills, the authority and the accountability together.
 
-The team is **cross-functional**, its members having all the skills necessary to create value each Cycle; it is **self-managing**, deciding internally who does what, when and how; and there are **no sub-teams or hierarchies** within it, because nothing inside the team may divide an accountability. The organization structures and empowers the team to manage its own work.
+The team is **cross-functional**, its members having all the skills necessary to create value each Cycle. It is **self-managing**, deciding internally who does what, when and how. There are **no sub-teams or hierarchies** within it, because nothing inside the team may divide an accountability. The organization structures and empowers the team to manage its own work.
 
 The entire Scrum Team is accountable for creating a valuable, useful Increment every Cycle, and is responsible for every activity the outcome depends on.
 
@@ -226,29 +226,31 @@ These are accountabilities, not job titles, not roles, and not people. At any ti
 
 ### Outcome Developers
 
-Outcome Developer is the accountability for the Increment, held by everyone in the Scrum Team who is committed to creating any aspect of a usable Increment each Cycle. The skills it calls for are often broad and vary with the domain of work. What it requires does not vary: a plan for the Cycle, the Cycle Backlog; quality, instilled by adhering to a Definition of Done; adapting that plan toward the Cycle Outcome as more is learned; and holding each other accountable as professionals.
+Outcome Developer is the accountability for the Increment. It is held by everyone in the Scrum Team who is committed to creating any aspect of a usable Increment each Cycle. The skills it calls for are often broad and vary with the domain of work. What it requires does not vary: a plan for the Cycle, the Cycle Backlog; quality, instilled by adhering to a Definition of Done; adapting that plan toward the Cycle Outcome as more is learned; and holding each other accountable as professionals.
 
-The people doing the work hold the plan because they are the ones who observe, and so the ones who must be able to act.
+The people doing the work hold the plan. They are the ones who observe, and so the ones who must be able to act.
 
 ### Outcome Owner
 
 The Outcome Owner is accountable for maximizing the value resulting from the work of the Scrum Team.
 
-Decisions about value need a single, identifiable point of accountability, which the entire organization respects. Value is judged by those receiving the work, so someone must be answerable for bringing that judgement to bear, and because accountability is held undivided it cannot be spread across a committee. The Outcome Owner may represent the needs of many stakeholders, and anyone wanting the Backlog changed does so by convincing the Outcome Owner. The decisions themselves are transparent: they are visible in the content and ordering of the Backlog and in the inspectable Increment.
+Decisions about value need a single, identifiable point of accountability, which the entire organization respects. Value is judged by those receiving the work, so someone must be answerable for bringing that judgement to bear. The Outcome Owner may represent the needs of many stakeholders, and anyone wanting the Backlog changed does so by convincing the Outcome Owner. Those decisions are visible in the content and ordering of the Backlog and in the inspectable Increment.
 
-From this follows accountability for effective Backlog management: that the Enduring Outcome is developed and explicitly communicated, that Backlog items are created, clearly communicated and ordered, and that the Backlog is transparent, visible and understood. The work may be delegated. The accountability may not.
+The Outcome Owner is also accountable for effective Backlog management: that the Enduring Outcome is developed and explicitly communicated, that Backlog items are created, clearly communicated and ordered, and that the Backlog is transparent, visible and understood. The work may be delegated. The accountability may not.
 
 ### Practice Owner
 
-The Practice Owner is accountable for the Scrum Team's effectiveness: that the loops close, that what obstructs them is removed, and that Scrum is established and understood within the team and beyond it. The accountability carries authority, to require that a loop closes and to act on whatever prevents it. That authority is over how the work works, not over what is pursued or how the work is done; those belong to the Outcome Owner and the Outcome Developers.
+The Practice Owner is accountable for the Scrum Team's effectiveness: that the loops close, that what obstructs them is removed, and that Scrum is established and understood within the team and beyond it.
 
-An accountability for effectiveness with no power to act on what prevents it would sit away from the knowledge, and the obligation to adjust at once would wait on someone else.
+The accountability carries authority, to require that a loop closes and to act on whatever prevents it. That authority is over how the work works, not over what is pursued or how the work is done; those belong to the Outcome Owner and the Outcome Developers.
+
+The authority goes with the accountability. Without it, the team's effectiveness would depend on someone who is not answerable for it.
 
 ## The Cycle
 
 Scrum bounds the work in a Cycle: a recurring span of fixed length, inside which the loops run and across which one outcome is held steady.
 
-Scrum chooses a bounded, recurring span for two reasons: exposure to being wrong is limited to its length, and re-deciding happens on a known rhythm whether or not anyone calls for it.
+A Cycle limits exposure to being wrong to its own length, and brings re-deciding round on a known rhythm whether or not anyone calls for it.
 
 A Cycle's length is bounded by how long the team can afford to be wrong: long enough to produce something worth inspecting, short enough that the outcome stays valid and risk stays contained.
 
@@ -260,7 +262,7 @@ A Cycle may be abandoned when its outcome becomes obsolete. Obsolescence is a ju
 
 ## The Loops
 
-A loop is open until the evidence it gathers has been compared with what was intended and acted on. Acting usually means changing something; it may instead mean concluding, against the evidence, that what was intended still holds. Looking does not close a loop. Nor does discussing.
+A loop is open until the evidence it gathers has been compared with what was intended and acted on. Acting usually means changing something; it may instead mean concluding, against the evidence, that what was intended still holds. Looking at the evidence does not close a loop, and neither does discussing it.
 
 Scrum chooses five loops, each the only one that can make its own change:
 
@@ -281,21 +283,21 @@ The loops have no fixed durations. Their periods are ordered against one another
 
 ### The Objective loop
 
-It senses nothing of its own: it takes what the other loops have made available and converts it into an objective, a selection of work, and an approach to that work. The whole Scrum Team takes part, because what the loop integrates belongs to different people.
+The Objective loop senses nothing of its own. It takes what the other loops have made available and turns it into an objective, a selection of work, and the team's approach to that work. The whole Scrum Team takes part, because what it integrates belongs to different people.
 
 ### The Plan loop
 
-Its horizon reaches to the next time it closes. It belongs to the people doing the work, because they are the only ones positioned to act on what it returns, so its form is theirs to choose.
+The Plan loop belongs to the people doing the work. They are the only ones positioned to act on what it returns, so its form is theirs to choose, and its horizon reaches to the next time it closes.
 
-It is not the only moment adaptation is permitted. Adaptation happens the moment something is learned, and this loop is what makes certain it happens at all.
+Adaptation happens the moment something is learned. This loop makes certain it happens at all.
 
 ### The Direction loop
 
 The Direction loop is the only one that reaches outside the team, and so the only one that can establish whether what the team made matters.
 
-It takes in how the people it is for respond to a usable Increment, how far the work has progressed toward the Enduring Outcome, and what has changed in the environment. What it can change is the Enduring Outcome; the Backlog is reordered as a consequence.
+It takes in how the people it is for respond to a usable Increment, how far the work has progressed toward the Enduring Outcome, and what has changed in the environment. What it can change is the Enduring Outcome, and the Backlog is reordered as a consequence.
 
-It is an exchange and not a delivery: showing people the work and returning to the same Backlog leaves the loop open.
+It is an exchange and not a delivery. Showing people the work and returning to the same Backlog leaves the loop open.
 
 ### The Practice loop
 
@@ -305,15 +307,15 @@ The Practice loop is the only one turned on the team rather than the outcome, an
 
 The Understanding loop never stops. It reconciles what the team has done against what it believes comes next.
 
-What it rules out is work so vague or so large that finishing it would teach nothing, because then the Cycle produces no evidence and every other loop has nothing to close on.
+It rules out work so vague or so large that finishing it would teach nothing. A Cycle that produces no evidence leaves every other loop nothing to close on.
 
 ## The Artifacts
 
-The artifacts are what Scrum makes visible.
+The artifacts are what Scrum makes visible. Each represents work or value and is designed to maximize the transparency of key information, so that everyone inspecting it has the same basis for adaptation. Scrum chooses three.
 
-Each represents work or value and is designed to maximize the transparency of key information, so that everyone inspecting it has the same basis for adaptation. Scrum chooses three.
+Each artifact carries a commitment, which gives it focus and something against which progress can be measured: the Enduring Outcome for the Backlog, the Cycle Outcome for the Cycle Backlog, the Definition of Done for the Increment.
 
-Each carries a commitment, which gives it focus and something against which progress can be measured: the Enduring Outcome for the Backlog, the Cycle Outcome for the Cycle Backlog, the Definition of Done for the Increment. Each commitment is tested by a loop, and changed there if the evidence requires it: the Enduring Outcome by the Direction loop, the Cycle Outcome by the Objective loop, the Definition of Done by the Practice loop.
+A loop tests each commitment and changes it if the evidence requires: the Enduring Outcome in the Direction loop, the Cycle Outcome in the Objective loop, the Definition of Done in the Practice loop.
 
 ### The Backlog
 
@@ -327,25 +329,25 @@ The Enduring Outcome describes a future state of what is being created, and serv
 
 An Enduring Outcome has a clear boundary, known stakeholders, and well-defined users or customers.
 
-Because the team focuses on one objective at a time, one is fulfilled or abandoned before the next is taken on.
+The Scrum Team focuses on one objective at a time, so one Enduring Outcome is fulfilled or abandoned before the next is taken on.
 
 ### The Cycle Backlog
 
 The Cycle Backlog is composed of the Cycle Outcome (why), the Backlog items selected for the Cycle (what), and an actionable plan for delivering the Increment (how).
 
-It is a plan by and for the Outcome Developers: a highly visible, real-time picture of the work they plan to accomplish during the Cycle in order to achieve the Cycle Outcome. To stay a picture of the present it is updated throughout the Cycle as more is learned, and it carries enough detail that the Outcome Developers can inspect their own progress.
+It is a plan by and for the Outcome Developers: a highly visible, real-time picture of the work they plan to accomplish during the Cycle in order to achieve the Cycle Outcome. It is updated throughout the Cycle as more is learned, and carries enough detail that the Outcome Developers can inspect their own progress.
 
 ### Cycle Outcome
 
 The Cycle Outcome is the single objective for the Cycle. It is a commitment by the Outcome Developers, yet it leaves flexibility in the exact work needed to achieve it. It creates coherence and focus, encouraging the Scrum Team to work together rather than on separate initiatives.
 
-The flexibility is what lets a Cycle absorb learning. When the work turns out to be different from what the Outcome Developers expected, they collaborate with the Outcome Owner to negotiate the scope of the Cycle Backlog, without affecting the Cycle Outcome.
+That flexibility is what lets a Cycle absorb learning. When the work turns out to be different from what the Outcome Developers expected, they collaborate with the Outcome Owner to negotiate the scope of the Cycle Backlog, without affecting the Cycle Outcome.
 
 ### Increment
 
 An Increment is a concrete stepping stone toward the Enduring Outcome. Each is additive to all prior Increments and thoroughly verified, so that all Increments work together.
 
-An Increment must be usable. Only what has happened is evidence, and an Increment nobody can use has not happened in any sense that bears on value.
+An Increment must be usable. One that nobody can use provides no value and leaves nothing real to inspect.
 
 Work cannot be considered part of an Increment unless it meets the Definition of Done.
 
@@ -355,10 +357,10 @@ More than one Increment may be created within a Cycle, and the sum of them is wh
 
 The Definition of Done is a formal description of the state of the Increment when it meets the quality measures required for what is being created. The moment an item meets it, an Increment is born.
 
-It creates transparency by giving everyone a shared understanding of what work was actually completed. An item that does not meet it cannot be released, nor taken in by the Direction loop; it returns to the Backlog for future consideration.
+It creates transparency by giving everyone a shared understanding of what work was actually completed. An item that does not meet it cannot be released, nor taken in by the Direction loop. It returns to the Backlog for future consideration.
 
-Evidence must be trustworthy to be worth comparing, and unfinished work compared as though it were finished teaches the wrong thing. Quality is not renegotiated team by team or item by item, because otherwise "done" carries no information. Where a Definition of Done is part of the standards of the organization, every Scrum Team follows it as a minimum; where it is not, the Scrum Team creates one appropriate for what it is creating. The Outcome Developers are required to conform to it, and Scrum Teams working toward one Enduring Outcome mutually define and comply with the same one.
+Evidence must be trustworthy to be worth comparing, and unfinished work compared as though it were finished teaches the wrong thing. Quality is not renegotiated team by team or item by item, because otherwise "done" carries no information. Where a Definition of Done is part of the standards of the organization, every Scrum Team follows it as a minimum. Where it is not, the Scrum Team creates one appropriate for what it is creating. The Outcome Developers are required to conform to it, and Scrum Teams working toward one Enduring Outcome mutually define and comply with the same one.
 
-## What the word Scrum denotes
+## The name
 
-Scrum is the Constitution: these accountabilities, these loops, this Cycle, these artifacts and their commitments. Each element serves a purpose the others depend on, so implementing only parts of it is possible, but the result is something else.
+Scrum is these accountabilities, these loops, this Cycle, these artifacts and their commitments. Each element serves a purpose the others depend on, so implementing only parts of it is possible, but the result is something else.
