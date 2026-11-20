@@ -313,3 +313,8 @@
 
 - id: translations_button_small
   translation: "Traductions"
+
+# Shown on a guide that has no document in the language being viewed. Reached
+# only once every guide has a framing page in every language.
+- id: guide_pdf_not_available
+  translation: "PDF non disponible"
