@@ -221,8 +221,7 @@ The Practice Owner has the authority to require that a loop closes and to act on
 
 The Practice Owner has this authority so that the person accountable for the Scrum Team's effectiveness is able to act on it.
 
-### The Cycle
-
+### Scrum Cycle
 The Cycle is a container for all the loops. It is a recurring period during which one Cycle Outcome does not change.
 
 Cycles limit the risk of cost and effort to the length of one Cycle. They enable predictability by ensuring that decisions are revisited at the end of every Cycle.
