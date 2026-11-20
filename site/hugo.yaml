@@ -64,6 +64,12 @@ languages:
     title: La Guía Scrum
     params:
       description: Todas las versiones publicadas de la Guía Scrum en un mismo lugar, junto con las guías de implementación que se apoyan en ella.
+  pt-br:
+    label: Português (Brasil)
+    weight: 34
+    title: O Guia do Scrum
+    params:
+      description: Todas as versões publicadas do Guia do Scrum em um só lugar, junto com os guias de implementação que se apoiam nele.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

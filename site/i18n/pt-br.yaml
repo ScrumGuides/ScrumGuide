@@ -1,0 +1,586 @@
+# Interface strings, Brazilian Portuguese.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "documentos"
+
+- id: guides_section_title
+  translation: "Guias"
+
+- id: implementations_section_title
+  translation: "Guias de implementação"
+
+- id: implementations_section_description
+  translation: "Formas de aplicar o Scrum em um contexto específico. Cada uma permanece dentro do que o Scrum se propõe e acrescenta orientações para uma situação — vários times em um único produto, a gestão do fluxo, o começo — sem mudar o que o Scrum exige."
+
+- id: extensions_section_title
+  translation: "Extensões"
+
+- id: extensions_section_description
+  translation: "Práticas que vão além do que o Scrum trata. Uma extensão não pretende ser Scrum e não o altera; ela assume uma questão que o Scrum deixa aberta, como medir o valor que um produto entrega."
+
+- id: extensions_section_empty
+  translation: "Nenhuma por enquanto."
+
+- id: foundation_section_title
+  translation: "O guia"
+
+- id: history_page_title
+  translation: "Histórico"
+
+- id: translations_page_title
+  translation: "Traduções"
+
+- id: changes_section_title
+  translation: "O que mudou"
+
+- id: changes_from_label
+  translation: "Mudanças em relação a"
+
+- id: lineage_section_title
+  translation: "Linhagem"
+
+- id: adapted_from_label
+  translation: "Adaptado de"
+
+- id: conforms_to_label
+  translation: "Conforme a"
+
+- id: conforming_guides_title
+  translation: "Guias conformes a esta versão"
+
+- id: conditions_section_title
+  translation: "Condições"
+
+- id: condition_falsifier_label
+  translation: "Não satisfeita quando"
+
+- id: current_version_label
+  translation: "Versão atual"
+
+- id: older_version_label
+  translation: "Versão anterior"
+
+- id: version_notice_older
+  translation: "Esta não é a versão atual deste guia."
+
+- id: view_latest_label
+  translation: "Ver a versão atual"
+
+- id: read_time_label
+  translation: "min de leitura"
+
+- id: badge_english_only
+  translation: "Somente em inglês"
+
+- id: badge_english_only_title
+  translation: "Este guia ainda não foi traduzido para este idioma."
+
+- id: badge_not_in_production
+  translation: "Fora da produção"
+
+- id: badge_not_in_production_title
+  translation: "Este guia está excluído da build de produção."
+
+- id: badge_not_in_preview
+  translation: "Fora da prévia"
+
+- id: badge_not_in_preview_title
+  translation: "Este guia está excluído da build de prévia."
+
+- id: licence_label
+  translation: "Licença"
+
+- id: canonical_source_label
+  translation: "Fonte canônica"
+
+- id: pending_licence_check
+  translation: "Texto aguardando verificação da licença"
+
+- id: guide_join_discussion
+  translation: "Discutir este guia"
+
+- id: guide_version_current
+  translation: "Atual"
+
+- id: guide_version_latest
+  translation: "Mais recente"
+
+- id: guide_version_select
+  translation: "Escolher uma versão"
+
+- id: guide_version_dropdown_label
+  translation: "Versão"
+
+- id: guide_historical_version_notice_title
+  translation: "Esta não é a versão atual."
+
+- id: guide_historical_version_notice_text
+  translation: "Você está lendo uma versão anterior deste guia."
+
+- id: guide_historical_version_notice_link
+  translation: "Leia a versão atual"
+
+- id: guide_historical_version_notice_suffix
+  translation: "em vez desta."
+
+- id: guide_preview_link
+  translation: "Ver isto no site de prévia"
+
+- id: guide_translation_preview_note
+  translation: "Prévia da tradução."
+
+- id: guide_translation_preview_message
+  translation: "Esta tradução ainda está em revisão e pode estar incompleta."
+
+- id: contributors_label
+  translation: "Colaboradores"
+
+- id: translators_label
+  translation: "Tradutores"
+
+- id: reportTranslationError
+  translation: "Relatar um erro de tradução"
+
+- id: nav_details
+  translation: "Sobre este guia"
+
+- id: nav_translations
+  translation: "Traduções"
+
+- id: download_table_written_by
+  translation: "Escrito por"
+
+- id: download_table_contributed_by
+  translation: "Com a colaboração de"
+
+- id: download_table_status
+  translation: "Situação"
+
+- id: download_discussion_action
+  translation: "Discutir"
+
+- id: download_preview_action
+  translation: "Prévia"
+
+- id: download_preview_status
+  translation: "Em prévia"
+
+- id: download_preview_description
+  translation: "Esta tradução ainda não foi publicada. Pode ser lida no site de prévia."
+
+- id: download_preview_translations
+  translation: "Traduções em prévia"
+
+- id: download_visit_preview
+  translation: "Abrir o site de prévia"
+
+- id: download_pdf_only_status
+  translation: "Somente PDF"
+
+- id: download_stub_status
+  translation: "Não iniciada"
+
+- id: site_wordmark
+  translation: "Guia do Scrum"
+
+- id: nav_the_guide
+  translation: "O Guia"
+
+- id: nav_versions
+  translation: "Versões"
+
+- id: nav_implementations
+  translation: "Implementações"
+
+- id: guide_pdf_not_available
+  translation: "PDF não disponível"
+
+- id: share_label
+  translation: "Compartilhar"
+
+- id: share_copy_link
+  translation: "Copiar o link"
+
+- id: share_copied
+  translation: "copiado para a área de transferência!"
+
+- id: share_close
+  translation: "Fechar"
+
+- id: role_creator
+  translation: "Criador"
+
+- id: role_contributor
+  translation: "Colaborador"
+
+- id: role_reviewer
+  translation: "Revisor"
+
+- id: role_translator
+  translation: "Tradutor"
+
+- id: role_involved
+  translation: "Envolvido"
+
+- id: and
+  translation: "e"
+
+- id: breadcrumb_home
+  translation: "Início"
+
+- id: read_online_title
+  translation: "Ler online"
+
+- id: read_online_description
+  translation: "Acesse o guia completo em formato digital, com recursos interativos e navegação simples."
+
+- id: read_online_button
+  translation: "Ler online"
+
+- id: translations_title
+  translation: "Traduções"
+
+- id: translations_description
+  translation: "Leia este guia em vários idiomas e ajude com as traduções."
+
+- id: translations_button
+  translation: "Ver as traduções"
+
+- id: history_title
+  translation: "Histórico"
+
+- id: history_description
+  translation: "Acompanhe a evolução e a história deste guia."
+
+- id: history_button
+  translation: "Ver o histórico"
+
+- id: what_is_guides_title
+  translation: "O que é {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Código aberto e conduzido pela comunidade"
+
+- id: open_source_description
+  translation: "Este é um projeto de código aberto que vive da colaboração da comunidade. Se você quer propor melhorias, relatar problemas ou contribuir com conteúdo, sua participação é bem-vinda. Alguns guias não estão abertos a contribuições, mas estão aqui como referência. Juntos podemos tornar estes recursos ainda mais valiosos para quem pratica no mundo todo e para qualquer pessoa que queira melhorar a eficiência do fluxo de trabalho e a entrega de valor."
+
+- id: at_a_glance_title
+  translation: "Em resumo"
+
+- id: join_discussion_button
+  translation: "Participe da conversa"
+
+- id: join_discussion_title
+  translation: "Participe da conversa sobre {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Converse com a comunidade, compartilhe o que sabe e ajude a dar forma ao futuro do {{ .Site.Title }}. As contribuições de vocês são indispensáveis para que estes guias sejam recursos completos para quem pratica."
+
+- id: guides_intro_text
+  translation: "Conheça práticas eficazes e como aplicá-las para otimizar o fluxo de trabalho e a entrega de valor em qualquer processo. Este é o seu recurso completo de conhecimento e boas práticas. {{ .Site.Title }} é a casa dos guias práticos: uma referência gratuita, conduzida pela comunidade, para aplicar métodos comprovados ao trabalho do conhecimento. Os guias definem as práticas fundamentais e as métricas necessárias para melhorar o fluxo, otimizar a entrega de valor e reforçar a sustentabilidade dos times. Eles apoiam adoções escaláveis em setores variados e complementam outras abordagens modernas de fluxo de trabalho."
+
+- id: guide_content_not_found
+  translation: "Conteúdo do guia não encontrado"
+
+- id: nav_read_guide
+  translation: "Ler o guia"
+
+- id: nav_history
+  translation: "Histórico"
+
+- id: nav_overview
+  translation: "Visão geral"
+
+- id: guide_pdf_download_button
+  translation: "Baixar o PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Você também pode baixar este guia em PDF para ler offline."
+
+- id: guide_pdf_intro_link
+  translation: "Baixar o PDF"
+
+- id: download_page_title
+  translation: "Leia e baixe o {{ .Title }} oficial"
+
+- id: download_page_description
+  translation: "{{ .Title }} é definido aqui por"
+
+- id: download_page_originators
+  translation: ", os criadores do {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Traduções fornecidas pelas pessoas e pelos grupos generosos listados abaixo. Escolha o guia no idioma em que quer baixá-lo."
+
+- id: download_translation_error
+  translation: "Se você encontrou um possível erro de tradução em {{ .Title }}, entre em contato diretamente com quem a traduziu. Se precisar de mais apoio, fale conosco em"
+
+- id: download_official_version
+  translation: "Versão oficial"
+
+- id: download_community_translations
+  translation: "Traduções da comunidade"
+
+- id: download_current_version_released
+  translation: "A versão oficial atual do {{ .Site.Title }} saiu em"
+
+- id: download_older_translations_notice
+  translation: "Traduções do {{ .Site.Title }} com datas mais antigas podem não conter as informações mais recentes."
+
+- id: download_table_language
+  translation: "Idioma"
+
+- id: download_table_translations_by
+  translation: "Traduzido por"
+
+- id: download_table_action
+  translation: "Ação"
+
+- id: download_official_current_version
+  translation: "Versão oficial atual"
+
+- id: download_button_text
+  translation: "Baixar"
+
+- id: download_coming_soon
+  translation: "Em breve"
+
+- id: download_missing_language
+  translation: "Falta o seu idioma?"
+
+- id: download_contribute_translation
+  translation: "Ajude a comunidade contribuindo com uma nova tradução."
+
+- id: download_add_translation
+  translation: "Adicionar tradução"
+
+- id: download_community_contributors
+  translation: "Colaboradores da comunidade"
+
+- id: contributors_description
+  translation: "Os colaboradores listados abaixo são o conjunto de todos os colaboradores de todos os guias e versões."
+
+- id: read_online_action
+  translation: "Ler online"
+
+- id: guide_table_of_contents
+  translation: "Sumário"
+
+- id: guide_coming_soon
+  translation: "Este guia chega em breve. Fique de olho."
+
+- id: guide_no_content_available
+  translation: "Conteúdo ainda não disponível neste idioma."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) não disponível"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) não disponível"
+
+- id: guide_coming_label
+  translation: "Em breve:"
+
+- id: guide_updated_label
+  translation: "Atualizado:"
+
+- id: guide_version_label
+  translation: "Versão:"
+
+- id: guide_content_unavailable_note
+  translation: "Observação:"
+
+- id: guide_content_unavailable_message
+  translation: "O conteúdo desta página não está disponível em {{ .Language }}. Abaixo é exibido o conteúdo padrão do guia."
+
+- id: guide_content_unavailable_title
+  translation: "Conteúdo não disponível:"
+
+- id: guide_content_unavailable_description
+  translation: "O conteúdo desta página não pôde ser carregado e não há conteúdo padrão disponível. Por favor,"
+
+- id: guide_report_issue_link
+  translation: "relate este problema"
+
+- id: guide_report_issue_message
+  translation: "para que possamos corrigi-lo."
+
+- id: guide_back_to_home
+  translation: "← Voltar ao início"
+
+- id: not_sure_which_to_use_title
+  translation: "Não sabe qual usar?"
+
+- id: get_started_title
+  translation: "Começar"
+
+- id: community_driven_label
+  translation: "Conduzido pela comunidade"
+
+- id: coming_soon
+  translation: "Em breve"
+
+- id: purpose_title
+  translation: "Propósito"
+
+- id: ethos_title
+  translation: "Postura"
+
+- id: audience_title
+  translation: "Público"
+
+- id: use_case_title
+  translation: "Caso de uso"
+
+- id: content_title
+  translation: "Conteúdo"
+
+- id: update_model_title
+  translation: "Modelo de atualização"
+
+- id: guide_overview_title
+  translation: "Visão geral do guia"
+
+- id: guide_overview_description
+  translation: "As características essenciais deste guia"
+
+- id: when_to_use_title
+  translation: "Quando usar este guia"
+
+- id: when_to_use_description
+  translation: "Escolha a abordagem adequada ao seu contexto"
+
+- id: quick_decision_guide_title
+  translation: "Ajuda rápida para decidir"
+
+- id: getting_started_title
+  translation: "Primeiros passos"
+
+- id: for_practitioners_title
+  translation: "Para quem pratica"
+
+- id: current_information_title
+  translation: "Informações atuais"
+
+- id: current_information_description
+  translation: "Dados da versão e colaboradores da comunidade"
+
+- id: current_version_title
+  translation: "Versão atual"
+
+- id: current_version_updated_label
+  translation: "Atualizado"
+
+- id: current_version_description
+  translation: "Esta é a versão ativa atual do guia."
+
+- id: read_current_version_button
+  translation: "Ler a versão atual"
+
+- id: version_info_not_available
+  translation: "Informações da versão não disponíveis"
+
+- id: contributors_title
+  translation: "Colaboradores"
+
+- id: contributors_description_card
+  translation: "Pessoas da comunidade que dão forma a este guia"
+
+- id: contributors_thank_you
+  translation: "Obrigado a todas as pessoas cuja contribuição melhora este guia."
+
+- id: join_community_button
+  translation: "Junte-se à comunidade"
+
+- id: no_contributors_found
+  translation: "Nenhum colaborador encontrado"
+
+- id: version_history_title
+  translation: "Histórico de versões"
+
+- id: version_history_description
+  translation: "As versões anteriores e sua evolução"
+
+- id: no_previous_versions_title
+  translation: "Nenhuma versão anterior"
+
+- id: no_previous_versions_description
+  translation: "Este guia está apenas começando. Volte mais adiante para ver versões anteriores."
+
+- id: what_is_guide_title
+  translation: "O que é este guia?"
+
+- id: license_title
+  translation: "Licença"
+
+- id: view_on_github_button
+  translation: "Ver no GitHub"
+
+- id: current_open_guide_label
+  translation: "Open Guide atual"
+
+- id: active_status_label
+  translation: "Ativo"
+
+- id: current_fork_label
+  translation: "Fork atual"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Fork de:"
+
+- id: forked_from_indicator
+  translation: "Fork de:"
+
+- id: this_is_fork_label
+  translation: "Este é um fork"
+
+- id: available_languages_label
+  translation: "Disponível em"
+
+- id: pdf_downloads_label
+  translation: "Downloads em PDF"
+
+- id: living_document_updated_label
+  translation: "Documento vivo atualizado"
+
+- id: active_fork_updated_label
+  translation: "Fork ativo atualizado"
+
+- id: historical_fork_label
+  translation: "Fork histórico de"
+
+- id: historical_version_label
+  translation: "Versão histórica de"
+
+- id: read_guide_button
+  translation: "Ler o guia"
+
+- id: translations_button_small
+  translation: "Traduções"
+
+- id: read_fork_button
+  translation: "Ler o fork"
+
+- id: view_archive_button
+  translation: "Ver o arquivo"
+
+- id: download_reference_status
+  translation: "Referência"

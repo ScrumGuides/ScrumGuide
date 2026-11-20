@@ -26,3 +26,5 @@ languages:
     disabled: true
   es-419:
     disabled: true
+  pt-br:
+    disabled: true
