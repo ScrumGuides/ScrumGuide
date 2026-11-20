@@ -166,6 +166,12 @@ languages:
     title: Ръководството за Scrum
     params:
       description: Всяка публикувана версия на Ръководството за Scrum на едно място, заедно с ръководствата за прилагане, които стъпват върху него.
+  hr:
+    label: Hrvatski
+    weight: 18
+    title: Vodič za Scrum
+    params:
+      description: Svaka objavljena verzija Vodiča za Scrum na jednom mjestu, zajedno s vodičima za primjenu koji se na njega naslanjaju.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

@@ -66,3 +66,5 @@ languages:
     disabled: true
   bg:
     disabled: true
+  hr:
+    disabled: true
