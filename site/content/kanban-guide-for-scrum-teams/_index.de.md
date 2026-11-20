@@ -33,7 +33,6 @@ guide_whatis: |
   oder abschwächen.
 guide_overview: |
   Wie Scrum Teams Kanban-Praktiken nutzen, um den Fluss zu verbessern, ohne zu ändern, was Scrum von ihnen verlangt.
-
 # Run 3: once Scrum Guide 2026 (edition 2026.1) publishes its conditions, add the
 # conformance claim and the derivation record. See docs/specification.md §5.7.
 #

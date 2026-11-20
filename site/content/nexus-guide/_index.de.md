@@ -31,7 +31,6 @@ guide_whatis: |
   nennt ihre Lizenz oben auf der Seite.
 guide_overview: |
   Das Rahmenwerk für mehrere Scrum Teams, die gemeinsam an einem Produkt arbeiten, seit der ersten Fassung von 2015.
-
 # Run 3: once Scrum Guide 2026 (edition 2026.1) publishes its conditions, add the
 # conformance claim. See docs/specification.md §5.7.
 #

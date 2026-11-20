@@ -1,5 +1,5 @@
 ---
-title: "Verlauf"
+title: Verlauf
 layout: history
 type: guide
 description: Jede veröffentlichte Fassung des Nexus Guide seit August 2015.

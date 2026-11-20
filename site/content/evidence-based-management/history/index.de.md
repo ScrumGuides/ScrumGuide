@@ -1,5 +1,5 @@
 ---
-title: "Verlauf"
+title: Verlauf
 layout: history
 type: guide
 description: Die veröffentlichten Fassungen des Evidence-Based Management Guide.

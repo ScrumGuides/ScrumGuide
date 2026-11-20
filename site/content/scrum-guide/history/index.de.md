@@ -1,5 +1,5 @@
 ---
-title: "Verlauf"
+title: Verlauf
 layout: history
 type: guide
 description: Jede veröffentlichte Fassung des Scrum Guide seit November 2009.
