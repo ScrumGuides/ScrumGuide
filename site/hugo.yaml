@@ -52,6 +52,12 @@ languages:
     title: De Scrum Gids
     params:
       description: Elke gepubliceerde versie van de Scrum Gids op één plek, samen met de implementatiegidsen die daarop voortbouwen.
+  pl:
+    label: Polski
+    weight: 33
+    title: Przewodnik Scrum
+    params:
+      description: Każda opublikowana wersja Przewodnika Scrum w jednym miejscu, razem z przewodnikami wdrożeniowymi, które na nim się opierają.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
