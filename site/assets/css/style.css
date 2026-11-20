@@ -1049,6 +1049,15 @@ h4:hover .heading-anchor,
   margin-bottom: var(--sg-step);
 }
 
+/* Each group after the first needs air above it. The preceding list's last
+   entry carries a bottom border, so without this the next heading sits flush
+   against that rule and reads as a sub-heading of the group above rather than
+   as a group of its own. Applies to any later group, not just Extensions, and
+   leaves the first heading flush with the top of the column. */
+.home-columns__side > * + .section-heading {
+  margin-top: calc(var(--sg-step) * 2);
+}
+
 /* What a group of guides IS, under its heading. Sits between the heading's
    rule and the list, so it reads as a definition of the group rather than as
    the first entry in it. */
