@@ -1,5 +1,11 @@
 baseURL: "https://ashy-glacier-04fc55110-preview.centralus.5.azurestaticapps.net/"
 Environment: "preview"
 
+# Preview is where unfinished editions are read before they publish, so it
+# builds drafts. Production does not. An edition marked draft therefore
+# appears here and nowhere public, and still cannot own /latest, which the
+# platform keeps on the newest non-draft edition.
+buildDrafts: true
+
 minify:
   minifyOutput: true
