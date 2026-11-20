@@ -37,6 +37,12 @@ languages:
     title: Der Scrum Guide
     params:
       description: Jede veröffentlichte Fassung des Scrum Guide an einem Ort, zusammen mit den Umsetzungsguides, die darauf aufbauen.
+  es-es:
+    label: Español (España)
+    weight: 17
+    title: La Guía Scrum
+    params:
+      description: Todas las versiones publicadas de la Guía Scrum en un mismo lugar, junto con las guías de implementación que se apoyan en ella.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
