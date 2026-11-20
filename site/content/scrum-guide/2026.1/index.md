@@ -381,7 +381,9 @@ The Cycle Backlog is a plan by and for the Outcome Developers. It is a highly vi
 
 #### Commitment: Cycle Outcome
 
-The Cycle Outcome is the single objective for the Cycle. Although the Cycle Outcome is a commitment by the Outcome Developers, it provides flexibility in terms of the exact work needed to achieve it. It creates coherence and focus, encouraging the Scrum Team to work together rather than on separate initiatives.
+The Cycle Outcome is the single objective for the Cycle. Although the Cycle Outcome is a commitment by the Outcome Developers, it provides flexibility in terms of the exact work needed to achieve it.
+
+The Cycle Outcome is a focus, not an inventory of the work. It does not have to account for every item in the Cycle Backlog. It gives the Scrum Team one objective to work toward together rather than on separate initiatives, and it communicates to stakeholders why the Cycle is valuable.
 
 This flexibility allows the Scrum Team to act on what it learns during the Cycle. When the work turns out to be different from what the Outcome Developers expected, they collaborate with the Outcome Owner to negotiate the scope of the Cycle Backlog, without affecting the Cycle Outcome.
 
