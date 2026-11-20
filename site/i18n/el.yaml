@@ -1,0 +1,586 @@
+# Interface strings, Greek.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Έγγραφα"
+
+- id: guides_section_title
+  translation: "Οδηγοί"
+
+- id: implementations_section_title
+  translation: "Οδηγοί υλοποίησης"
+
+- id: implementations_section_description
+  translation: "Τρόποι χρήσης του Scrum σε ένα συγκεκριμένο πλαίσιο. Καθένας από αυτούς μένει εντός της πρόθεσης του Scrum και προσθέτει καθοδήγηση για μια κατάσταση - πολλές ομάδες σε ένα προϊόν, η διαχείριση της ροής, η αρχή - χωρίς να αλλάζει τι απαιτεί το Scrum."
+
+- id: extensions_section_title
+  translation: "Επεκτάσεις"
+
+- id: extensions_section_description
+  translation: "Πρακτικές που φτάνουν πέρα από αυτό που αναλαμβάνει το Scrum. Μια επέκταση δεν παρουσιάζεται ως Scrum και δεν το αλλάζει· αναλαμβάνει ένα ζήτημα που το Scrum αφήνει ανοιχτό, όπως τη μέτρηση της αξίας που παραδίδει ένα προϊόν."
+
+- id: extensions_section_empty
+  translation: "Καμία ακόμη."
+
+- id: foundation_section_title
+  translation: "Ο οδηγός"
+
+- id: history_page_title
+  translation: "Ιστορικό"
+
+- id: translations_page_title
+  translation: "Μεταφράσεις"
+
+- id: changes_section_title
+  translation: "Τι άλλαξε"
+
+- id: changes_from_label
+  translation: "Αλλαγές από"
+
+- id: lineage_section_title
+  translation: "Γραμμή"
+
+- id: adapted_from_label
+  translation: "Προσαρμοσμένο από"
+
+- id: conforms_to_label
+  translation: "Συμμορφώνεται με"
+
+- id: conforming_guides_title
+  translation: "Οδηγοί που συμμορφώνονται με αυτήν την έκδοση"
+
+- id: conditions_section_title
+  translation: "Προϋποθέσεις"
+
+- id: condition_falsifier_label
+  translation: "Δεν ικανοποιείται όταν"
+
+- id: current_version_label
+  translation: "Τρέχουσα έκδοση"
+
+- id: older_version_label
+  translation: "Παλαιότερη έκδοση"
+
+- id: version_notice_older
+  translation: "Αυτή δεν είναι η τρέχουσα έκδοση αυτού του οδηγού."
+
+- id: view_latest_label
+  translation: "Δείτε την τρέχουσα έκδοση"
+
+- id: read_time_label
+  translation: "λεπτά ανάγνωσης"
+
+- id: badge_english_only
+  translation: "Μόνο στα αγγλικά"
+
+- id: badge_english_only_title
+  translation: "Αυτός ο οδηγός δεν έχει μεταφραστεί ακόμη σε αυτή τη γλώσσα."
+
+- id: badge_not_in_production
+  translation: "Εκτός παραγωγής"
+
+- id: badge_not_in_production_title
+  translation: "Αυτός ο οδηγός εξαιρείται από το build παραγωγής."
+
+- id: badge_not_in_preview
+  translation: "Εκτός προεπισκόπησης"
+
+- id: badge_not_in_preview_title
+  translation: "Αυτός ο οδηγός εξαιρείται από το build προεπισκόπησης."
+
+- id: licence_label
+  translation: "Άδεια"
+
+- id: canonical_source_label
+  translation: "Έγκυρη πηγή"
+
+- id: pending_licence_check
+  translation: "Το κύριο κείμενο αναμένει έλεγχο άδειας"
+
+- id: guide_join_discussion
+  translation: "Συζητήστε αυτόν τον οδηγό"
+
+- id: guide_version_current
+  translation: "Τρέχουσα"
+
+- id: guide_version_latest
+  translation: "Πιο πρόσφατη"
+
+- id: guide_version_select
+  translation: "Επιλέξτε έκδοση"
+
+- id: guide_version_dropdown_label
+  translation: "Έκδοση"
+
+- id: guide_historical_version_notice_title
+  translation: "Αυτή δεν είναι η τρέχουσα έκδοση."
+
+- id: guide_historical_version_notice_text
+  translation: "Διαβάζετε μια παλαιότερη έκδοση αυτού του οδηγού."
+
+- id: guide_historical_version_notice_link
+  translation: "Διαβάστε την τρέχουσα έκδοση"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Δείτε στον ιστότοπο προεπισκόπησης"
+
+- id: guide_translation_preview_note
+  translation: "Προεπισκόπηση μετάφρασης."
+
+- id: guide_translation_preview_message
+  translation: "Αυτή η μετάφραση ελέγχεται ακόμη και μπορεί να είναι ατελής."
+
+- id: contributors_label
+  translation: "Συνεισφέροντες"
+
+- id: translators_label
+  translation: "Μεταφραστές"
+
+- id: reportTranslationError
+  translation: "Αναφέρετε λάθος μετάφρασης"
+
+- id: nav_details
+  translation: "Για αυτόν τον οδηγό"
+
+- id: nav_translations
+  translation: "Μεταφράσεις"
+
+- id: download_table_written_by
+  translation: "Γράφτηκε από"
+
+- id: download_table_contributed_by
+  translation: "Συνεισφορά από"
+
+- id: download_table_status
+  translation: "Κατάσταση"
+
+- id: download_discussion_action
+  translation: "Συζητήστε"
+
+- id: download_preview_action
+  translation: "Προεπισκόπηση"
+
+- id: download_preview_status
+  translation: "Σε προεπισκόπηση"
+
+- id: download_preview_description
+  translation: "Αυτή η μετάφραση δεν έχει δημοσιευθεί ακόμη και μπορεί να διαβαστεί στον ιστότοπο προεπισκόπησης."
+
+- id: download_preview_translations
+  translation: "Μεταφράσεις σε προεπισκόπηση"
+
+- id: download_visit_preview
+  translation: "Ανοίξτε τον ιστότοπο προεπισκόπησης"
+
+- id: download_pdf_only_status
+  translation: "Μόνο PDF"
+
+- id: download_stub_status
+  translation: "Δεν έχει ξεκινήσει"
+
+- id: site_wordmark
+  translation: "Οδηγοί Scrum"
+
+- id: nav_the_guide
+  translation: "Ο οδηγός"
+
+- id: nav_versions
+  translation: "Εκδόσεις"
+
+- id: nav_implementations
+  translation: "Υλοποιήσεις"
+
+- id: guide_pdf_not_available
+  translation: "Το PDF δεν είναι διαθέσιμο"
+
+- id: share_label
+  translation: "Κοινοποίηση"
+
+- id: share_copy_link
+  translation: "Αντιγραφή συνδέσμου"
+
+- id: share_copied
+  translation: "Αντιγράφηκε στο πρόχειρο!"
+
+- id: share_close
+  translation: "Κλείσιμο"
+
+- id: role_creator
+  translation: "Δημιουργός"
+
+- id: role_contributor
+  translation: "Συνεισφέρων"
+
+- id: role_reviewer
+  translation: "Αναγνώστης ελέγχου"
+
+- id: role_translator
+  translation: "Μεταφραστής"
+
+- id: role_involved
+  translation: "Συμμετέχων"
+
+- id: and
+  translation: "και"
+
+- id: breadcrumb_home
+  translation: "Αρχική"
+
+- id: read_online_title
+  translation: "Διαβάστε online"
+
+- id: read_online_description
+  translation: "Αποκτήστε πρόσβαση σε ολόκληρο τον οδηγό ψηφιακά, με διαδραστικές δυνατότητες και εύκολη πλοήγηση."
+
+- id: read_online_button
+  translation: "Διαβάστε online"
+
+- id: translations_title
+  translation: "Μεταφράσεις"
+
+- id: translations_description
+  translation: "Διαβάστε αυτόν τον οδηγό σε πολλές γλώσσες και βοηθήστε με τις μεταφράσεις."
+
+- id: translations_button
+  translation: "Δείτε τις μεταφράσεις"
+
+- id: history_title
+  translation: "Ιστορικό"
+
+- id: history_description
+  translation: "Παρακολουθήστε την εξέλιξη και το ιστορικό αυτού του οδηγού."
+
+- id: history_button
+  translation: "Δείτε το ιστορικό"
+
+- id: what_is_guides_title
+  translation: "Τι είναι το {{ .Site.Title }};"
+
+- id: open_source_title
+  translation: "Ανοιχτού κώδικα, καθοδηγούμενο από την κοινότητα"
+
+- id: open_source_description
+  translation: "Αυτό είναι ένα έργο ανοιχτού κώδικα που ζει από τη συνεργασία της κοινότητας. Αν θέλετε να προτείνετε βελτιώσεις, να αναφέρετε προβλήματα ή να συνεισφέρετε περιεχόμενο, είστε ευπρόσδεκτοι. Ορισμένοι οδηγοί δεν δέχονται συνεισφορές, αλλά βρίσκονται εδώ ως αναφορά. Μαζί μπορούμε να κάνουμε αυτούς τους πόρους πιο πολύτιμους για όσους ασκούν σε όλον τον κόσμο και για οποιονδήποτε θέλει να βελτιώσει την αποδοτικότητα της ροής εργασίας και την παράδοση αξίας."
+
+- id: at_a_glance_title
+  translation: "Με μια ματιά"
+
+- id: join_discussion_button
+  translation: "Μπείτε στη συζήτηση"
+
+- id: join_discussion_title
+  translation: "Μπείτε στη συζήτηση για το {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Συναντήστε την κοινότητα, μοιραστείτε αυτά που βλέπετε και βοηθήστε να διαμορφωθεί το μέλλον του {{ .Site.Title }}. Οι συνεισφορές σας είναι απαραίτητες για να γίνουν αυτοί οι οδηγοί το πλήρες σώμα για όσους ασκούν."
+
+- id: guides_intro_text
+  translation: "Μάθετε τις πρακτικές που δουλεύουν και πώς να τις χρησιμοποιείτε για να βελτιστοποιείτε τη ροή εργασίας και την παράδοση αξίας σε κάθε διεργασία. Εδώ βρίσκεται ολόκληρο το σώμα γνώσης και καλών πρακτικών. Το {{ .Site.Title }} είναι η έδρα των πρακτικών οδηγών: μια ελεύθερη αναφορά, καθοδηγούμενη από την κοινότητα, για τη χρήση δοκιμασμένων μεθόδων στην εργασία γνώσης. Οι οδηγοί περιγράφουν τις βασικές πρακτικές και τα μέτρα που χρειάζονται για να βελτιωθεί η ροή, να βελτιστοποιηθεί η παράδοση αξίας και να ενισχυθεί η βιωσιμότητα της ομάδας. Υποστηρίζουν κλιμακούμενη υιοθέτηση σε όλους τους κλάδους και συμπληρώνουν άλλες σύγχρονες μεθόδους ροής εργασίας."
+
+- id: guide_content_not_found
+  translation: "Το περιεχόμενο του οδηγού δεν βρέθηκε"
+
+- id: nav_read_guide
+  translation: "Διαβάστε τον οδηγό"
+
+- id: nav_history
+  translation: "Ιστορικό"
+
+- id: nav_overview
+  translation: "Επισκόπηση"
+
+- id: guide_pdf_download_button
+  translation: "Κατεβάστε PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Μπορείτε επίσης να κατεβάσετε αυτόν τον οδηγό σε PDF και να τον διαβάσετε εκτός σύνδεσης."
+
+- id: guide_pdf_intro_link
+  translation: "Κατεβάστε το PDF"
+
+- id: download_page_title
+  translation: "Διαβάστε και κατεβάστε το επίσημο {{ .Title }}"
+
+- id: download_page_description
+  translation: "Το {{ .Title }} ορίζεται εδώ από"
+
+- id: download_page_originators
+  translation: ", οι δημιουργοί του {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Οι μεταφράσεις διατέθηκαν από τα πρόθυμα άτομα και τις ομάδες παρακάτω. Επιλέξτε τη γλώσσα που θέλετε να κατεβάσετε."
+
+- id: download_translation_error
+  translation: "Αν βρείτε στο {{ .Title }} κάτι που θεωρείτε λάθος μετάφρασης, απευθυνθείτε απευθείας σε εκείνον τον μεταφραστή. Αν χρειάζεστε περαιτέρω βοήθεια, επικοινωνήστε μαζί μας στο"
+
+- id: download_official_version
+  translation: "Επίσημη έκδοση"
+
+- id: download_community_translations
+  translation: "Μεταφράσεις από την κοινότητα"
+
+- id: download_current_version_released
+  translation: "Η τρέχουσα επίσημη έκδοση του {{ .Site.Title }} βγήκε"
+
+- id: download_older_translations_notice
+  translation: "Οι παλαιότερες μεταφράσεις του {{ .Site.Title }} μπορεί να μην περιέχουν τις πιο πρόσφατες πληροφορίες."
+
+- id: download_table_language
+  translation: "Γλώσσα"
+
+- id: download_table_translations_by
+  translation: "Μετάφραση από"
+
+- id: download_table_action
+  translation: "Ενέργεια"
+
+- id: download_official_current_version
+  translation: "Επίσημη τρέχουσα έκδοση"
+
+- id: download_button_text
+  translation: "Κατεβάστε"
+
+- id: download_coming_soon
+  translation: "Έρχεται σύντομα"
+
+- id: download_missing_language
+  translation: "Λείπει η γλώσσα σας;"
+
+- id: download_contribute_translation
+  translation: "Συνεισφέρετε μια νέα μετάφραση και βοηθήστε την κοινότητα."
+
+- id: download_add_translation
+  translation: "Προσθέστε μια μετάφραση"
+
+- id: download_community_contributors
+  translation: "Συνεισφέροντες από την κοινότητα"
+
+- id: contributors_description
+  translation: "Οι συνεισφέροντες παρακάτω είναι συγκεντρωμένοι από όλους τους οδηγούς και όλες τις εκδόσεις."
+
+- id: read_online_action
+  translation: "Διαβάστε online"
+
+- id: guide_table_of_contents
+  translation: "Περιεχόμενα"
+
+- id: guide_coming_soon
+  translation: "Αυτός ο οδηγός έρχεται. Παρακολουθήστε τον."
+
+- id: guide_no_content_available
+  translation: "Σε αυτή τη γλώσσα δεν υπάρχει ακόμη περιεχόμενο."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "Το PDF (EN) δεν είναι διαθέσιμο"
+
+- id: guide_pdf_en_us_not_available
+  translation: "Το PDF (EN-US) δεν είναι διαθέσιμο"
+
+- id: guide_coming_label
+  translation: "Έρχεται:"
+
+- id: guide_updated_label
+  translation: "Ενημερώθηκε:"
+
+- id: guide_version_label
+  translation: "Έκδοση:"
+
+- id: guide_content_unavailable_note
+  translation: "Σημείωση:"
+
+- id: guide_content_unavailable_message
+  translation: "Το περιεχόμενο αυτής της σελίδας δεν υπάρχει ακόμη στα {{ .Language }}. Παρακάτω εμφανίζεται το προεπιλεγμένο περιεχόμενο του οδηγού."
+
+- id: guide_content_unavailable_title
+  translation: "Το περιεχόμενο δεν είναι διαθέσιμο:"
+
+- id: guide_content_unavailable_description
+  translation: "Το περιεχόμενο αυτής της σελίδας δεν μπόρεσε να φορτωθεί και δεν υπάρχει προεπιλεγμένο περιεχόμενο να εμφανιστεί. Παρακαλούμε αναφέρετε"
+
+- id: guide_report_issue_link
+  translation: "Αναφέρετε αυτό το πρόβλημα"
+
+- id: guide_report_issue_message
+  translation: "ώστε να το διορθώσουμε."
+
+- id: guide_back_to_home
+  translation: "← Πίσω στην αρχική"
+
+- id: not_sure_which_to_use_title
+  translation: "Δεν είστε βέβαιοι ποιον να χρησιμοποιήσετε;"
+
+- id: get_started_title
+  translation: "Ξεκινήστε"
+
+- id: community_driven_label
+  translation: "Καθοδηγείται από την κοινότητα"
+
+- id: coming_soon
+  translation: "Έρχεται σύντομα"
+
+- id: purpose_title
+  translation: "Σκοπός"
+
+- id: ethos_title
+  translation: "Αφετηρία"
+
+- id: audience_title
+  translation: "Για ποιους"
+
+- id: use_case_title
+  translation: "Πότε χρησιμοποιείται"
+
+- id: content_title
+  translation: "Περιεχόμενο"
+
+- id: update_model_title
+  translation: "Πώς ενημερώνεται"
+
+- id: guide_overview_title
+  translation: "Επισκόπηση του οδηγού"
+
+- id: guide_overview_description
+  translation: "Τα κύρια γνωρίσματα αυτού του οδηγού"
+
+- id: when_to_use_title
+  translation: "Πότε να χρησιμοποιήσετε αυτόν τον οδηγό"
+
+- id: when_to_use_description
+  translation: "Επιλέξτε την προσέγγιση που ταιριάζει στο πλαίσιό σας"
+
+- id: quick_decision_guide_title
+  translation: "Γρήγορη επιλογή"
+
+- id: getting_started_title
+  translation: "Ξεκινώντας"
+
+- id: for_practitioners_title
+  translation: "Για όσους ασκούν"
+
+- id: current_information_title
+  translation: "Τρέχουσες πληροφορίες"
+
+- id: current_information_description
+  translation: "Λεπτομέρειες της έκδοσης και συνεισφέροντες από την κοινότητα"
+
+- id: current_version_title
+  translation: "Τρέχουσα έκδοση"
+
+- id: current_version_updated_label
+  translation: "Ενημερώθηκε"
+
+- id: current_version_description
+  translation: "Αυτή είναι η έκδοση του οδηγού που ισχύει τώρα."
+
+- id: read_current_version_button
+  translation: "Διαβάστε την τρέχουσα έκδοση"
+
+- id: version_info_not_available
+  translation: "Οι πληροφορίες της έκδοσης δεν είναι διαθέσιμες"
+
+- id: contributors_title
+  translation: "Συνεισφέροντες"
+
+- id: contributors_description_card
+  translation: "Μέλη της κοινότητας που διαμόρφωσαν αυτόν τον οδηγό"
+
+- id: contributors_thank_you
+  translation: "Ευχαριστούμε όλους όσοι έκαναν αυτόν τον οδηγό καλύτερο."
+
+- id: join_community_button
+  translation: "Μπείτε στην κοινότητα"
+
+- id: no_contributors_found
+  translation: "Δεν βρέθηκαν συνεισφέροντες"
+
+- id: version_history_title
+  translation: "Ιστορικό εκδόσεων"
+
+- id: version_history_description
+  translation: "Προηγούμενες εκδόσεις και η εξέλιξή τους"
+
+- id: no_previous_versions_title
+  translation: "Καμία προηγούμενη έκδοση"
+
+- id: no_previous_versions_description
+  translation: "Αυτός ο οδηγός μόλις ξεκίνησε. Ελάτε πάλι αργότερα για τις προηγούμενες εκδόσεις."
+
+- id: what_is_guide_title
+  translation: "Τι είναι αυτός ο οδηγός;"
+
+- id: license_title
+  translation: "Άδεια"
+
+- id: view_on_github_button
+  translation: "Δείτε στο GitHub"
+
+- id: current_open_guide_label
+  translation: "Τρέχον Open Guide"
+
+- id: active_status_label
+  translation: "Σε ισχύ"
+
+- id: current_fork_label
+  translation: "Τρέχον fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Forked από:"
+
+- id: forked_from_indicator
+  translation: "Forked από:"
+
+- id: this_is_fork_label
+  translation: "Αυτό είναι ένα fork"
+
+- id: available_languages_label
+  translation: "Διαθέσιμες γλώσσες"
+
+- id: pdf_downloads_label
+  translation: "Λήψεις PDF"
+
+- id: living_document_updated_label
+  translation: "Το ζωντανό έγγραφο ενημερώθηκε"
+
+- id: active_fork_updated_label
+  translation: "Το ενεργό fork ενημερώθηκε"
+
+- id: historical_fork_label
+  translation: "Ιστορικό fork από"
+
+- id: historical_version_label
+  translation: "Ιστορική έκδοση"
+
+- id: read_guide_button
+  translation: "Διαβάστε τον οδηγό"
+
+- id: translations_button_small
+  translation: "Μεταφράσεις"
+
+- id: read_fork_button
+  translation: "Διαβάστε το fork"
+
+- id: view_archive_button
+  translation: "Δείτε το αρχείο"
+
+- id: download_reference_status
+  translation: "Αναφορά"
