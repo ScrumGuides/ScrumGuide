@@ -1,0 +1,586 @@
+# Interface strings, Dutch.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "documenten"
+
+- id: guides_section_title
+  translation: "Gidsen"
+
+- id: implementations_section_title
+  translation: "Implementatiegidsen"
+
+- id: implementations_section_description
+  translation: "Manieren om Scrum in een bepaalde context toe te passen. Elke gids blijft binnen wat Scrum beoogt en voegt aanwijzingen toe voor een situatie — meerdere teams aan één product, het beheersen van flow, de start — zonder te veranderen wat Scrum vereist."
+
+- id: extensions_section_title
+  translation: "Uitbreidingen"
+
+- id: extensions_section_description
+  translation: "Praktijken die verder gaan dan waar Scrum over gaat. Een uitbreiding pretendeert niet Scrum te zijn en verandert Scrum niet; ze pakt een vraagstuk op dat Scrum openlaat, zoals het meten van de waarde die een product oplevert."
+
+- id: extensions_section_empty
+  translation: "Nog geen."
+
+- id: foundation_section_title
+  translation: "De gids"
+
+- id: history_page_title
+  translation: "Geschiedenis"
+
+- id: translations_page_title
+  translation: "Vertalingen"
+
+- id: changes_section_title
+  translation: "Wat er is veranderd"
+
+- id: changes_from_label
+  translation: "Wijzigingen ten opzichte van"
+
+- id: lineage_section_title
+  translation: "Herkomst"
+
+- id: adapted_from_label
+  translation: "Afgeleid van"
+
+- id: conforms_to_label
+  translation: "Conform"
+
+- id: conforming_guides_title
+  translation: "Gidsen die aan deze versie voldoen"
+
+- id: conditions_section_title
+  translation: "Voorwaarden"
+
+- id: condition_falsifier_label
+  translation: "Niet voldaan wanneer"
+
+- id: current_version_label
+  translation: "Huidige versie"
+
+- id: older_version_label
+  translation: "Oudere versie"
+
+- id: version_notice_older
+  translation: "Dit is niet de huidige versie van deze gids."
+
+- id: view_latest_label
+  translation: "Bekijk de huidige versie"
+
+- id: read_time_label
+  translation: "min leestijd"
+
+- id: badge_english_only
+  translation: "Alleen Engels"
+
+- id: badge_english_only_title
+  translation: "Deze gids is nog niet in deze taal vertaald."
+
+- id: badge_not_in_production
+  translation: "Niet in productie"
+
+- id: badge_not_in_production_title
+  translation: "Deze gids is uitgesloten van de productiebuild."
+
+- id: badge_not_in_preview
+  translation: "Niet in de preview"
+
+- id: badge_not_in_preview_title
+  translation: "Deze gids is uitgesloten van de previewbuild."
+
+- id: licence_label
+  translation: "Licentie"
+
+- id: canonical_source_label
+  translation: "Canonieke bron"
+
+- id: pending_licence_check
+  translation: "Tekst in afwachting van licentiecontrole"
+
+- id: guide_join_discussion
+  translation: "Praat mee over deze gids"
+
+- id: guide_version_current
+  translation: "Huidig"
+
+- id: guide_version_latest
+  translation: "Nieuwste"
+
+- id: guide_version_select
+  translation: "Kies een versie"
+
+- id: guide_version_dropdown_label
+  translation: "Versie"
+
+- id: guide_historical_version_notice_title
+  translation: "Dit is niet de huidige versie."
+
+- id: guide_historical_version_notice_text
+  translation: "Je leest een eerdere versie van deze gids."
+
+- id: guide_historical_version_notice_link
+  translation: "Lees de huidige versie"
+
+- id: guide_historical_version_notice_suffix
+  translation: "in plaats daarvan."
+
+- id: guide_preview_link
+  translation: "Bekijk dit op de previewsite"
+
+- id: guide_translation_preview_note
+  translation: "Preview van de vertaling."
+
+- id: guide_translation_preview_message
+  translation: "Deze vertaling wordt nog beoordeeld en kan onvolledig zijn."
+
+- id: contributors_label
+  translation: "Bijdragers"
+
+- id: translators_label
+  translation: "Vertalers"
+
+- id: reportTranslationError
+  translation: "Een vertaalfout melden"
+
+- id: nav_details
+  translation: "Over deze gids"
+
+- id: nav_translations
+  translation: "Vertalingen"
+
+- id: download_table_written_by
+  translation: "Geschreven door"
+
+- id: download_table_contributed_by
+  translation: "Met bijdragen van"
+
+- id: download_table_status
+  translation: "Status"
+
+- id: download_discussion_action
+  translation: "Praat mee"
+
+- id: download_preview_action
+  translation: "Preview"
+
+- id: download_preview_status
+  translation: "In preview"
+
+- id: download_preview_description
+  translation: "Deze vertaling is nog niet gepubliceerd. Ze is te lezen op de previewsite."
+
+- id: download_preview_translations
+  translation: "Vertalingen in preview"
+
+- id: download_visit_preview
+  translation: "Open de previewsite"
+
+- id: download_pdf_only_status
+  translation: "Alleen PDF"
+
+- id: download_stub_status
+  translation: "Niet begonnen"
+
+- id: site_wordmark
+  translation: "Scrum Gids"
+
+- id: nav_the_guide
+  translation: "De Gids"
+
+- id: nav_versions
+  translation: "Versies"
+
+- id: nav_implementations
+  translation: "Implementaties"
+
+- id: guide_pdf_not_available
+  translation: "PDF niet beschikbaar"
+
+- id: share_label
+  translation: "Delen"
+
+- id: share_copy_link
+  translation: "Link kopiëren"
+
+- id: share_copied
+  translation: "gekopieerd naar het klembord!"
+
+- id: share_close
+  translation: "Sluiten"
+
+- id: role_creator
+  translation: "Bedenker"
+
+- id: role_contributor
+  translation: "Bijdrager"
+
+- id: role_reviewer
+  translation: "Beoordelaar"
+
+- id: role_translator
+  translation: "Vertaler"
+
+- id: role_involved
+  translation: "Betrokken"
+
+- id: and
+  translation: "en"
+
+- id: breadcrumb_home
+  translation: "Home"
+
+- id: read_online_title
+  translation: "Online lezen"
+
+- id: read_online_description
+  translation: "Lees de volledige gids digitaal, met interactieve functies en eenvoudige navigatie."
+
+- id: read_online_button
+  translation: "Online lezen"
+
+- id: translations_title
+  translation: "Vertalingen"
+
+- id: translations_description
+  translation: "Lees deze gids in meerdere talen en help mee met vertalen."
+
+- id: translations_button
+  translation: "Bekijk de vertalingen"
+
+- id: history_title
+  translation: "Geschiedenis"
+
+- id: history_description
+  translation: "Volg de ontwikkeling en geschiedenis van deze gids."
+
+- id: history_button
+  translation: "Bekijk de geschiedenis"
+
+- id: what_is_guides_title
+  translation: "Wat is {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Opensource en gedragen door de community"
+
+- id: open_source_description
+  translation: "Dit is een opensourceproject dat leeft van samenwerking in de community. Of je verbeteringen wilt voorstellen, problemen wilt melden of inhoud wilt bijdragen: je deelname is welkom. Sommige gidsen staan niet open voor bijdragen maar staan hier als naslag. Samen kunnen we deze bronnen nog waardevoller maken voor de praktijk wereldwijd en voor iedereen die workflow en waardelevering wil verbeteren."
+
+- id: at_a_glance_title
+  translation: "In één oogopslag"
+
+- id: join_discussion_button
+  translation: "Praat mee"
+
+- id: join_discussion_title
+  translation: "Praat mee over {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Ga in gesprek met de community, deel je inzichten en help de toekomst van {{ .Site.Title }} vormgeven. Jullie bijdragen zijn onmisbaar om deze gidsen tot volledige bronnen voor de praktijk te maken."
+
+- id: guides_intro_text
+  translation: "Leer effectieve praktijken kennen en hoe je ze toepast om workflow en waardelevering te optimaliseren, door welk proces heen ook. Dit is je volledige bron voor kennis en goede praktijken. {{ .Site.Title }} is het thuis van praktische gidsen: een gratis, door de community gedragen naslagwerk voor het toepassen van bewezen methoden in kenniswerk. De gidsen beschrijven de kernpraktijken en de metrieken die nodig zijn om flow te verbeteren, waardelevering te optimaliseren en teams houdbaar te houden. Ze ondersteunen opschaalbare invoering in uiteenlopende sectoren en vullen andere moderne benaderingen van workflow aan."
+
+- id: guide_content_not_found
+  translation: "Inhoud van de gids niet gevonden"
+
+- id: nav_read_guide
+  translation: "Gids lezen"
+
+- id: nav_history
+  translation: "Geschiedenis"
+
+- id: nav_overview
+  translation: "Overzicht"
+
+- id: guide_pdf_download_button
+  translation: "PDF downloaden"
+
+- id: guide_pdf_intro_text
+  translation: "Je kunt deze gids ook als PDF downloaden om offline te lezen."
+
+- id: guide_pdf_intro_link
+  translation: "PDF downloaden"
+
+- id: download_page_title
+  translation: "Lees en download de officiële {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} wordt hier gedefinieerd door"
+
+- id: download_page_originators
+  translation: ", de bedenkers van {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Vertalingen aangeleverd door de ruimhartige personen en groepen die hieronder staan. Kies de gids in de taal waarin je hem wilt downloaden."
+
+- id: download_translation_error
+  translation: "Heb je een mogelijke vertaalfout in {{ .Title }} gevonden, neem dan direct contact op met de vertaler. Heb je meer hulp nodig, bereik ons dan via"
+
+- id: download_official_version
+  translation: "Officiële versie"
+
+- id: download_community_translations
+  translation: "Vertalingen uit de community"
+
+- id: download_current_version_released
+  translation: "De huidige officiële versie van {{ .Site.Title }} verscheen in"
+
+- id: download_older_translations_notice
+  translation: "Vertalingen van {{ .Site.Title }} met een oudere datum bevatten mogelijk niet de meest recente informatie."
+
+- id: download_table_language
+  translation: "Taal"
+
+- id: download_table_translations_by
+  translation: "Vertaald door"
+
+- id: download_table_action
+  translation: "Actie"
+
+- id: download_official_current_version
+  translation: "Officiële huidige versie"
+
+- id: download_button_text
+  translation: "Downloaden"
+
+- id: download_coming_soon
+  translation: "Binnenkort"
+
+- id: download_missing_language
+  translation: "Staat jouw taal er niet bij?"
+
+- id: download_contribute_translation
+  translation: "Help de community met een nieuwe vertaling."
+
+- id: download_add_translation
+  translation: "Vertaling toevoegen"
+
+- id: download_community_contributors
+  translation: "Bijdragers uit de community"
+
+- id: contributors_description
+  translation: "De bijdragers hieronder vormen het geheel van alle bijdragers aan alle gidsen en versies."
+
+- id: read_online_action
+  translation: "Online lezen"
+
+- id: guide_table_of_contents
+  translation: "Inhoud"
+
+- id: guide_coming_soon
+  translation: "Deze gids komt binnenkort. Houd het in de gaten."
+
+- id: guide_no_content_available
+  translation: "Inhoud nog niet beschikbaar in deze taal."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) niet beschikbaar"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) niet beschikbaar"
+
+- id: guide_coming_label
+  translation: "Komt:"
+
+- id: guide_updated_label
+  translation: "Bijgewerkt:"
+
+- id: guide_version_label
+  translation: "Versie:"
+
+- id: guide_content_unavailable_note
+  translation: "Let op:"
+
+- id: guide_content_unavailable_message
+  translation: "De inhoud van deze pagina is niet beschikbaar in {{ .Language }}. Hieronder staat de standaardinhoud van de gids."
+
+- id: guide_content_unavailable_title
+  translation: "Inhoud niet beschikbaar:"
+
+- id: guide_content_unavailable_description
+  translation: "De inhoud van deze pagina kon niet worden geladen en er is geen standaardinhoud beschikbaar. Wil je"
+
+- id: guide_report_issue_link
+  translation: "dit probleem melden"
+
+- id: guide_report_issue_message
+  translation: "zodat we het kunnen verhelpen."
+
+- id: guide_back_to_home
+  translation: "← Terug naar home"
+
+- id: not_sure_which_to_use_title
+  translation: "Weet je niet welke je moet gebruiken?"
+
+- id: get_started_title
+  translation: "Beginnen"
+
+- id: community_driven_label
+  translation: "Gedragen door de community"
+
+- id: coming_soon
+  translation: "Binnenkort"
+
+- id: purpose_title
+  translation: "Doel"
+
+- id: ethos_title
+  translation: "Houding"
+
+- id: audience_title
+  translation: "Publiek"
+
+- id: use_case_title
+  translation: "Toepassing"
+
+- id: content_title
+  translation: "Inhoud"
+
+- id: update_model_title
+  translation: "Bijwerkmodel"
+
+- id: guide_overview_title
+  translation: "Overzicht van de gids"
+
+- id: guide_overview_description
+  translation: "De kenmerken van deze gids"
+
+- id: when_to_use_title
+  translation: "Wanneer je deze gids gebruikt"
+
+- id: when_to_use_description
+  translation: "Kies de aanpak die bij jouw context past"
+
+- id: quick_decision_guide_title
+  translation: "Snel kiezen"
+
+- id: getting_started_title
+  translation: "Eerste stappen"
+
+- id: for_practitioners_title
+  translation: "Voor de praktijk"
+
+- id: current_information_title
+  translation: "Huidige informatie"
+
+- id: current_information_description
+  translation: "Gegevens over de versie en bijdragers uit de community"
+
+- id: current_version_title
+  translation: "Huidige versie"
+
+- id: current_version_updated_label
+  translation: "Bijgewerkt"
+
+- id: current_version_description
+  translation: "Dit is de huidige actieve versie van de gids."
+
+- id: read_current_version_button
+  translation: "Lees de huidige versie"
+
+- id: version_info_not_available
+  translation: "Versiegegevens niet beschikbaar"
+
+- id: contributors_title
+  translation: "Bijdragers"
+
+- id: contributors_description_card
+  translation: "Mensen uit de community die deze gids vormgeven"
+
+- id: contributors_thank_you
+  translation: "Dank aan iedereen wiens bijdrage deze gids beter maakt."
+
+- id: join_community_button
+  translation: "Sluit je aan bij de community"
+
+- id: no_contributors_found
+  translation: "Geen bijdragers gevonden"
+
+- id: version_history_title
+  translation: "Versiegeschiedenis"
+
+- id: version_history_description
+  translation: "Eerdere versies en hun ontwikkeling"
+
+- id: no_previous_versions_title
+  translation: "Geen eerdere versies"
+
+- id: no_previous_versions_description
+  translation: "Deze gids is net begonnen. Kom later terug voor eerdere versies."
+
+- id: what_is_guide_title
+  translation: "Wat is deze gids?"
+
+- id: license_title
+  translation: "Licentie"
+
+- id: view_on_github_button
+  translation: "Bekijk op GitHub"
+
+- id: current_open_guide_label
+  translation: "Huidige Open Guide"
+
+- id: active_status_label
+  translation: "Actief"
+
+- id: current_fork_label
+  translation: "Huidige fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Fork van:"
+
+- id: forked_from_indicator
+  translation: "Fork van:"
+
+- id: this_is_fork_label
+  translation: "Dit is een fork"
+
+- id: available_languages_label
+  translation: "Beschikbaar in"
+
+- id: pdf_downloads_label
+  translation: "PDF-downloads"
+
+- id: living_document_updated_label
+  translation: "Levend document bijgewerkt"
+
+- id: active_fork_updated_label
+  translation: "Actieve fork bijgewerkt"
+
+- id: historical_fork_label
+  translation: "Historische fork van"
+
+- id: historical_version_label
+  translation: "Historische versie van"
+
+- id: read_guide_button
+  translation: "Gids lezen"
+
+- id: translations_button_small
+  translation: "Vertalingen"
+
+- id: read_fork_button
+  translation: "Lees de fork"
+
+- id: view_archive_button
+  translation: "Bekijk het archief"
+
+- id: download_reference_status
+  translation: "Referentie"

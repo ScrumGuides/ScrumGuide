@@ -46,6 +46,12 @@ languages:
   it:
     label: Italiano
     weight: 22
+  nl:
+    label: Nederlands
+    weight: 32
+    title: De Scrum Gids
+    params:
+      description: Elke gepubliceerde versie van de Scrum Gids op één plek, samen met de implementatiegidsen die daarop voortbouwen.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
