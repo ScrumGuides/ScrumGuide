@@ -48,11 +48,15 @@ changes:
       event in 2020.
   - title: Elements are renamed
     content: |
-      Sprint to Cycle, Product Goal to Enduring Outcome, Sprint Goal to Cycle
-      Outcome, Product Backlog to the Backlog, Sprint Backlog to the Cycle
-      Backlog, Product Owner to Outcome Owner, Developers to Outcome
-      Developers, Scrum Master to Practice Owner. The old terms tie the
-      framework to one implementation of it.
+      Sprint to Cycle, Sprint Goal to Cycle Goal, Sprint Backlog to Cycle
+      Backlog, Product Owner to Outcome Owner, Developers to Product
+      Developers, Scrum Master to Practice Owner. Each of those old terms
+      misleads. Sprint implies haste, against Scrum's own sustainable pace.
+      Developers reads as software coders, which is why the 2020 edition
+      needs a paragraph defending it. Master asserts an authority that the
+      2020 edition withholds. Product, Product Goal and Product Backlog are
+      kept, because 2020 already defines a product broadly enough that the
+      word misleads nobody.
   - title: Accountabilities are stated as accountabilities
     content: |
       Not job titles, not roles, not people. Each is held whole, who holds one
@@ -171,41 +175,41 @@ These values give direction to the Scrum Team with regard to its work, actions a
 
 ### Scrum Team
 
-The fundamental unit of Scrum is a small team of people, a Scrum Team. It is a cohesive unit of professionals focused on one objective at a time, the Enduring Outcome.
+The fundamental unit of Scrum is a small team of people, a Scrum Team. It is a cohesive unit of professionals focused on one objective at a time, the Product Goal.
 
 The Scrum Team is the unit so that the skills, the authority and the accountability are kept together.
 
 Scrum Teams are cross-functional, meaning the members have all the skills necessary to create value each Cycle. They are also self-managing, meaning they internally decide who does what, when, and how. Within a Scrum Team, there are no sub-teams or hierarchies, so that no accountability is divided. The organization structures and empowers the Scrum Team to manage its own work.
 
-The entire Scrum Team is accountable for creating a valuable, useful Increment every Cycle, and is responsible for every activity the Enduring Outcome depends on.
+The entire Scrum Team is accountable for creating a valuable, useful Increment every Cycle, and is responsible for all product-related activities.
 
 Scrum defines four accountabilities. The Scrum Team is accountable as a whole, and within it three accountabilities are held: for the Increment, for the Outcome, and for the Practice. These are accountabilities, not job titles, roles or people. The Scrum Team can always identify who holds each accountability, and each accountability is held in its entirety. The person holding an accountability may change, and one person may hold more than one accountability.
 
-#### Outcome Developers
+#### Product Developers
 
-The Outcome Developers are accountable for the Increment. They are the people in the Scrum Team committed to creating any aspect of a usable Increment each Cycle.
+The Product Developers are accountable for the Increment. They are the people in the Scrum Team committed to creating any aspect of a usable Increment each Cycle.
 
-The specific skills needed are often broad and will vary with the domain of work. However, the Outcome Developers are always accountable for:
+The specific skills needed are often broad and will vary with the domain of work. However, the Product Developers are always accountable for:
 
 - Creating a plan for the Cycle, the Cycle Backlog;
 - Instilling quality by adhering to a Definition of Done;
-- Adapting their plan toward the Cycle Outcome as more is learned; and,
+- Adapting their plan toward the Cycle Goal as more is learned; and,
 - Holding each other accountable as professionals.
 
-The Outcome Developers own the plan for the Cycle. They observe the work, so they must be able to adjust it.
+The Product Developers own the plan for the Cycle. They observe the work, so they must be able to adjust it.
 
 #### Outcome Owner
 
 The Outcome Owner is accountable for maximizing the value resulting from the work of the Scrum Team.
 
-The Outcome Owner is the single, identifiable point of accountability for decisions about value. For the Outcome Owner to succeed, the entire organization must respect those decisions. Value is determined by the people receiving the work, and the Outcome Owner is accountable for representing their judgement. The Outcome Owner may represent the needs of many stakeholders, and anyone wanting the Backlog changed does so by convincing the Outcome Owner. The Outcome Owner's decisions are visible in the content and ordering of the Backlog, and through the inspectable Increment.
+The Outcome Owner is the single, identifiable point of accountability for decisions about value. For the Outcome Owner to succeed, the entire organization must respect those decisions. Value is determined by the people receiving the work, and the Outcome Owner is accountable for representing their judgement. The Outcome Owner may represent the needs of many stakeholders, and anyone wanting the Product Backlog changed does so by convincing the Outcome Owner. The Outcome Owner's decisions are visible in the content and ordering of the Product Backlog, and through the inspectable Increment.
 
-The Outcome Owner is also accountable for effective Backlog management, which includes:
+The Outcome Owner is also accountable for effective Product Backlog management, which includes:
 
-- Developing and explicitly communicating the Enduring Outcome;
-- Creating and clearly communicating Backlog items;
-- Ordering Backlog items; and,
-- Ensuring that the Backlog is transparent, visible and understood.
+- Developing and explicitly communicating the Product Goal;
+- Creating and clearly communicating Product Backlog items;
+- Ordering Product Backlog items; and,
+- Ensuring that the Product Backlog is transparent, visible and understood.
 
 The Outcome Owner may do the above work or may delegate the responsibility to others. Regardless, the Outcome Owner remains accountable.
 
@@ -217,22 +221,22 @@ The Practice Owner is accountable for the Scrum Team's effectiveness, which incl
 - Causing the removal of anything that prevents a loop from closing; and,
 - Establishing Scrum and helping everyone understand it, both within the Scrum Team and the organization.
 
-The Practice Owner has the authority to require that a loop closes and to act on anything that prevents it from closing. This authority covers how the Scrum Team works. It does not extend to what the Scrum Team pursues, which is decided by the Outcome Owner, or to how the work is done, which is decided by the Outcome Developers.
+The Practice Owner has the authority to require that a loop closes and to act on anything that prevents it from closing. This authority covers how the Scrum Team works. It does not extend to what the Scrum Team pursues, which is decided by the Outcome Owner, or to how the work is done, which is decided by the Product Developers.
 
 The Practice Owner has this authority so that the person accountable for the Scrum Team's effectiveness is able to act on it.
 
 ### Scrum Cycle
-The Cycle is a container for all the loops. It is a recurring period during which one Cycle Outcome does not change.
+The Cycle is a container for all the loops. It is a recurring period during which one Cycle Goal does not change.
 
 Cycles limit the risk of cost and effort to the length of one Cycle. They enable predictability by ensuring that decisions are revisited at the end of every Cycle.
 
-The length of a Cycle is limited by the amount of risk the Scrum Team can accept. A Cycle is long enough to produce something worth inspecting and short enough that the Cycle Outcome remains valid and risk remains limited.
+The length of a Cycle is limited by the amount of risk the Scrum Team can accept. A Cycle is long enough to produce something worth inspecting and short enough that the Cycle Goal remains valid and risk remains limited.
 
-All the work necessary to achieve the Enduring Outcome, including every loop, happens within Cycles. A new Cycle starts immediately after the conclusion of the previous Cycle, so that the work always has a Cycle Outcome and a point at which decisions are revisited.
+All the work necessary to achieve the Product Goal, including every loop, happens within Cycles. A new Cycle starts immediately after the conclusion of the previous Cycle, so that the work always has a Cycle Goal and a point at which decisions are revisited.
 
-Within a Cycle, no change is made that would endanger the Cycle Outcome, and quality does not decrease.
+Within a Cycle, no change is made that would endanger the Cycle Goal, and quality does not decrease.
 
-A Cycle may be abandoned if the Cycle Outcome becomes obsolete. Only the Outcome Owner has the authority to abandon a Cycle, as the Outcome Owner is accountable for value.
+A Cycle may be abandoned if the Cycle Goal becomes obsolete. Only the Outcome Owner has the authority to abandon a Cycle, as the Outcome Owner is accountable for value.
 
 ### Scrum Loops
 
@@ -247,7 +251,7 @@ Scrum defines five loops. Each closes on something no other loop closes, and tog
 | Objective | The objective the Scrum Team takes on | Taking on an objective, with a selection of work and the Scrum Team's own approach to it |
 | Plan | The work in flight under that objective | Re-planning, so that the plan reflects what is now known |
 | Understanding | What is understood about what comes next | Work becoming clear enough to attempt, or an idea being discarded |
-| Direction | The Enduring Outcome being pursued | Changing the Enduring Outcome, or reaffirming it against what stakeholders did with the Increment |
+| Direction | The Product Goal being pursued | Changing the Product Goal, or reaffirming it against what stakeholders did with the Increment |
 | Practice | How the Scrum Team works | Changing the way of working |
 
 Scrum does not define how long a loop takes. It defines only how often each loop closes relative to the others.
@@ -265,15 +269,15 @@ The objective is set by the collaborative work of the entire Scrum Team, as the 
 
 #### Plan Loop
 
-The Plan Loop is for the Outcome Developers. Only the Outcome Developers can act on what the Plan Loop shows, so they can select whatever structure they want for it. Their plan covers the work until the Plan Loop next closes.
+The Plan Loop is for the Product Developers. Only the Product Developers can act on what the Plan Loop shows, so they can select whatever structure they want for it. Their plan covers the work until the Plan Loop next closes.
 
-The Outcome Developers are expected to adapt the moment they learn anything new. The Plan Loop is not the only time they adjust their plan, but it ensures that they do.
+The Product Developers are expected to adapt the moment they learn anything new. The Plan Loop is not the only time they adjust their plan, but it ensures that they do.
 
 #### Direction Loop
 
 The purpose of the Direction Loop is to determine whether the Increment is valuable to stakeholders. It is the only loop that involves people outside the Scrum Team.
 
-The Scrum Team and its stakeholders inspect what stakeholders did with a usable Increment, the progress toward the Enduring Outcome, and what has changed in their environment. The Direction Loop may change the Enduring Outcome. The Backlog is then adjusted accordingly.
+The Scrum Team and its stakeholders inspect what stakeholders did with a usable Increment, the progress toward the Product Goal, and what has changed in their environment. The Direction Loop may change the Product Goal. The Product Backlog is then adjusted accordingly.
 
 The Direction Loop is a working exchange between the Scrum Team and stakeholders. An Increment that has been shown but not used provides no evidence of value, and the loop remains open.
 
@@ -291,51 +295,51 @@ Work that is too vague or too large to learn from is made clear enough to attemp
 
 Scrum's artifacts make work and value visible. Each is designed to maximize the transparency of key information, so that everyone inspecting them has the same basis for adaptation.
 
-What has happened, what is happening and what is intended must all be transparent. Scrum defines one artifact for each: the Increment, the Cycle Backlog and the Backlog.
+What has happened, what is happening and what is intended must all be transparent. Scrum defines one artifact for each: the Increment, the Cycle Backlog and the Product Backlog.
 
 Each artifact contains a commitment, which gives it focus and something against which progress can be measured:
 
-- For the Backlog it is the Enduring Outcome.
-- For the Cycle Backlog it is the Cycle Outcome.
+- For the Product Backlog it is the Product Goal.
+- For the Cycle Backlog it is the Cycle Goal.
 - For the Increment it is the Definition of Done.
 
 Each commitment is tested in one loop and is changed there if the evidence requires it:
 
-- The Enduring Outcome in the Direction Loop.
-- The Cycle Outcome in the Objective Loop.
+- The Product Goal in the Direction Loop.
+- The Cycle Goal in the Objective Loop.
 - The Definition of Done in the Practice Loop.
 
-#### Backlog
+#### Product Backlog
 
-The Backlog is an emergent, ordered list of what is needed to advance the Enduring Outcome, and the single source of work undertaken by the Scrum Team.
+The Product Backlog is an emergent, ordered list of what is needed to improve the product, and the single source of work undertaken by the Scrum Team.
 
-Backlog items must be small enough to be Done within one Cycle, so that every Cycle produces finished work that can be compared. The Outcome Developers who will be doing the work are responsible for sizing it. The Outcome Owner may influence them by helping them understand and select trade-offs.
+Product Backlog items must be small enough to be Done within one Cycle, so that every Cycle produces finished work that can be compared. The Product Developers who will be doing the work are responsible for sizing it. The Outcome Owner may influence them by helping them understand and select trade-offs.
 
-#### Commitment: Enduring Outcome
+#### Commitment: Product Goal
 
-The Enduring Outcome describes a future state of what is being created, and serves as a target for the Scrum Team to plan against. The Enduring Outcome is in the Backlog. The rest of the Backlog emerges to define what will fulfil the Enduring Outcome.
+The Product Goal describes a future state of the product, and serves as a target for the Scrum Team to plan against. The Product Goal is in the Product Backlog. The rest of the Product Backlog emerges to define what will fulfil the Product Goal.
 
-An Enduring Outcome has a clear boundary, known stakeholders, and well-defined users or customers.
+A product is a vehicle to deliver value. It has a clear boundary, known stakeholders, and well-defined users or customers. A product could be a service, a physical product, or something more abstract.
 
-The Scrum Team focuses on one objective at a time. They must fulfil (or abandon) one Enduring Outcome before taking on the next.
+The Scrum Team focuses on one objective at a time. They must fulfil (or abandon) one Product Goal before taking on the next.
 
 #### Cycle Backlog
 
-The Cycle Backlog is composed of the Cycle Outcome (why), the Backlog items selected for the Cycle (what), and an actionable plan for delivering the Increment (how).
+The Cycle Backlog is composed of the Cycle Goal (why), the Product Backlog items selected for the Cycle (what), and an actionable plan for delivering the Increment (how).
 
-The Cycle Backlog is a plan by and for the Outcome Developers. It is a highly visible, real-time picture of the work that the Outcome Developers plan to accomplish during the Cycle in order to achieve the Cycle Outcome. Consequently, the Cycle Backlog is updated throughout the Cycle as more is learned. It should have enough detail that the Outcome Developers can inspect their progress.
+The Cycle Backlog is a plan by and for the Product Developers. It is a highly visible, real-time picture of the work that the Product Developers plan to accomplish during the Cycle in order to achieve the Cycle Goal. Consequently, the Cycle Backlog is updated throughout the Cycle as more is learned. It should have enough detail that the Product Developers can inspect their progress.
 
-#### Commitment: Cycle Outcome
+#### Commitment: Cycle Goal
 
-The Cycle Outcome is the single objective for the Cycle. Although the Cycle Outcome is a commitment by the Outcome Developers, it provides flexibility in terms of the exact work needed to achieve it.
+The Cycle Goal is the single objective for the Cycle. Although the Cycle Goal is a commitment by the Product Developers, it provides flexibility in terms of the exact work needed to achieve it.
 
-The Cycle Outcome is a focus, not an inventory of the work. It does not have to account for every item in the Cycle Backlog. It gives the Scrum Team one objective to work toward together rather than on separate initiatives, and it communicates to stakeholders why the Cycle is valuable.
+The Cycle Goal is a focus, not an inventory of the work. It does not have to account for every item in the Cycle Backlog. It gives the Scrum Team one objective to work toward together rather than on separate initiatives, and it communicates to stakeholders why the Cycle is valuable.
 
-This flexibility allows the Scrum Team to act on what it learns during the Cycle. When the work turns out to be different from what the Outcome Developers expected, they collaborate with the Outcome Owner to negotiate the scope of the Cycle Backlog, without affecting the Cycle Outcome.
+This flexibility allows the Scrum Team to act on what it learns during the Cycle. When the work turns out to be different from what the Product Developers expected, they collaborate with the Outcome Owner to negotiate the scope of the Cycle Backlog, without affecting the Cycle Goal.
 
 #### Increment
 
-An Increment is a concrete stepping stone toward the Enduring Outcome. Each is additive to all prior Increments and thoroughly verified, so that all Increments work together.
+An Increment is a concrete stepping stone toward the Product Goal. Each is additive to all prior Increments and thoroughly verified, so that all Increments work together.
 
 In order to provide value and to be inspected, the Increment must be usable.
 
@@ -345,13 +349,13 @@ Multiple Increments may be created within a Cycle. The sum of the Increments is 
 
 #### Commitment: Definition of Done
 
-The Definition of Done is a formal description of the state of the Increment when it meets the quality measures required for what is being created. The moment an item meets it, an Increment is born.
+The Definition of Done is a formal description of the state of the Increment when it meets the quality measures required for the product. The moment an item meets it, an Increment is born.
 
-The Definition of Done creates transparency by providing everyone a shared understanding of what work was completed as part of the Increment. If an item does not meet the Definition of Done, it cannot be released or even inspected in the Direction Loop. It returns to the Backlog for future consideration.
+The Definition of Done creates transparency by providing everyone a shared understanding of what work was completed as part of the Increment. If an item does not meet the Definition of Done, it cannot be released or even inspected in the Direction Loop. It returns to the Product Backlog for future consideration.
 
 The Definition of Done makes the Increment trustworthy as evidence. If unfinished work is treated as finished, the Scrum Team may draw the wrong conclusions from it. The Definition of Done applies to every item and every Scrum Team, so that Done has the same meaning wherever it is used.
 
-If the Definition of Done is part of the standards of the organization, all Scrum Teams must follow it as a minimum. If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriate for what it is creating. The Outcome Developers are required to conform to the Definition of Done. If multiple Scrum Teams work toward one Enduring Outcome, they must mutually define and comply with the same Definition of Done.
+If the Definition of Done is part of the standards of the organization, all Scrum Teams must follow it as a minimum. If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriate for the product. The Product Developers are required to conform to the Definition of Done. If multiple Scrum Teams work together on one product, they must mutually define and comply with the same Definition of Done.
 
 ### End Note
 

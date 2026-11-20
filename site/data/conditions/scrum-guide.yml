@@ -63,17 +63,17 @@
     element: Definition of Done
     statement: >-
       Done is one standard. All work in a Cycle is held to one Definition of
-      Done, and Scrum Teams pursuing one Enduring Outcome share it.
+      Done, and Scrum Teams pursuing one Product Goal share it.
     falsifier: >-
       Two items in one Cycle held to different standards of done, or two Scrum
-      Teams on one Enduring Outcome applying different definitions.
+      Teams on one Product Goal applying different definitions.
   - id: SG26-C8
-    element: Enduring Outcome
+    element: Product Goal
     statement: >-
-      One Enduring Outcome is pursued at a time, and is fulfilled or abandoned
+      One Product Goal is pursued at a time, and is fulfilled or abandoned
       before the next is taken on.
     falsifier: >-
-      A Scrum Team pursuing two Enduring Outcomes at once.
+      A Scrum Team pursuing two Product Goals at once.
   - id: SG26-C9
     element: Practice Owner
     statement: >-
