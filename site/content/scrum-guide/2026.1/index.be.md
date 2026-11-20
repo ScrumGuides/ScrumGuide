@@ -1,0 +1,85 @@
+---
+title: The Scrum Guide 2026
+short_title: Scrum Guide 2026
+description: A derived edition stating the foundations Scrum is based on and the minimum Scrum defines, with implementation removed.
+date: 2026-11-19T09:00:00Z
+version: 2026.1
+type: guide
+keywords:
+  - Scrum
+  - Scrum Guide
+  - Foundations
+changes_from: 2020.11
+changes:
+  - title: The foundations are stated first and separately
+    content: |
+      The edition opens with the principles Scrum is based on, which are not
+      Scrum's own. Everything after them states what Scrum defines, and gives
+      the reason in the foundations where there is one rather than inventing
+      one.
+  - title: The foundations are stated as checkable principles
+    content: |
+      The 2020 edition says Scrum is founded on empiricism and lean thinking.
+      This edition states seven principles, each of which can be checked by
+      someone who does not take the Guide's word for it, and each of which
+      says where it stops applying. Lean thinking is not among them: nothing
+      in this edition derives from it, and the claim that Scrum has rested on
+      it since its earliest editions is false, since the term appears only in
+      the 2020 edition.
+  - title: Scrum is stated as a minimum, not a maximum
+    content: |
+      Scrum states the least that must be in place, and a Scrum Team adds
+      whatever else its work requires. This is why the framework is
+      purposefully incomplete: a complete prescription would need more
+      variety of response than can be written in advance. Immutability is
+      therefore immutability of the minimum. Adding to Scrum is expected;
+      going below it produces something that is not Scrum.
+  - title: Implementation is removed
+    content: |
+      Timeboxes, team-size figures, meeting agendas, prescribed techniques and
+      sequencing statements are gone. They differ between teams that are both
+      doing Scrum, so they belong to an implementation guide.
+  - title: Events become loops
+    content: |
+      An event is satisfied by occurring. A loop is open until the evidence it
+      gathers has been compared with what was intended and acted on, so
+      looking and discussing close nothing. There are five, each the only one
+      that can make its own change, and one of them, Understanding, had no
+      event in 2020.
+  - title: The Sprint is not an element
+    content: |
+      In the 2020 edition the Sprint is the container that forces everything
+      else to close. Here each loop is defined by what closes it, so the
+      container has nothing left to do. A Cycle is the span between two
+      closures of the Objective Loop, and the word is kept only where it
+      marks what a goal or a backlog belongs to. A cycle is a behaviour, not
+      a thing a team can stand inside.
+  - title: Elements are renamed
+    content: |
+      Sprint to Cycle, Sprint Goal to Cycle Goal, Sprint Backlog to Cycle
+      Backlog, Developers to Product Developers, Scrum Master to Practice
+      Owner. Each of those old terms misleads. Sprint implies haste, against
+      Scrum's own sustainable pace. Developers reads as software coders,
+      which is why the 2020 edition needs a paragraph defending it. Master
+      asserts an authority that the 2020 edition withholds. Product Owner,
+      Product Goal and Product Backlog are kept, because 2020 already
+      defines a product broadly enough that the word misleads nobody.
+  - title: Accountabilities are stated as accountabilities
+    content: |
+      Not job titles, not roles, not people. Each is held whole, who holds one
+      may change, and one person may hold more than one. A team of three in
+      which each person holds an accountability is doing Scrum exactly as a
+      team of nine in which no one holds two.
+  - title: The Practice Owner carries authority
+    content: |
+      Authority to require that a loop closes and to act on whatever prevents
+      it. The Scrum Guide gives that accountability no authority. This is a
+      change to Scrum, not a clearer statement of it.
+  - title: Conditions are published with the edition
+    content: |
+      The edition states the conditions against which an application of Scrum
+      can be assessed, each with an identifier and a stated falsifier, so that
+      implementation guides and any future validation read one source.
+aliases:
+  - /scrum-guide/latest
+---

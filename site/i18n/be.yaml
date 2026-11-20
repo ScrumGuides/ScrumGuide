@@ -1,0 +1,607 @@
+# Interface strings, Belarusian.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Дакументы"
+
+- id: guides_section_title
+  translation: "Даведнікі"
+
+- id: implementations_section_title
+  translation: "Даведнікі ўкаранення"
+
+- id: implementations_section_description
+  translation: "Спосабы ўжываць Scrum у пэўных умовах. Кожны з іх застаецца ўнутры намеру Scrum і дадае ўказанні для якогась становішча — некалькі камандаў над адным прадуктам, кіраванне плынню, пачатак — не мяняючы таго, чаго Scrum вымагае."
+
+- id: extensions_section_title
+  translation: "Пашырэнні"
+
+- id: extensions_section_description
+  translation: "Практыкі, якія дасягаюць за тое, чым займаецца Scrum. Пашырэнне не падаецца за Scrum і яго не мяняе; яно бярэ пытанне, якое Scrum пакідае адкрытым, як вымярэнне вартасці, якую дае прадукт."
+
+- id: extensions_section_empty
+  translation: "Пакуль ні аднаго."
+
+- id: foundation_section_title
+  translation: "Даведнік"
+
+- id: history_page_title
+  translation: "Гісторыя"
+
+- id: translations_page_title
+  translation: "Пераклады"
+
+- id: changes_section_title
+  translation: "Што змянілася"
+
+- id: changes_from_label
+  translation: "Змены ў адносінах да"
+
+- id: lineage_section_title
+  translation: "Лінія"
+
+- id: adapted_from_label
+  translation: "Прыстасавана з"
+
+- id: conforms_to_label
+  translation: "Адпавядае"
+
+- id: conforming_guides_title
+  translation: "Даведнікі, якія адпавядаюць гэтаму выданню"
+
+- id: conditions_section_title
+  translation: "Умовы"
+
+- id: condition_falsifier_label
+  translation: "Не выконваецца, калі"
+
+- id: current_version_label
+  translation: "Цяперашняе выданне"
+
+- id: older_version_label
+  translation: "Старэйшае выданне"
+
+- id: version_notice_older
+  translation: "Гэта не цяперашняе выданне гэтага даведніка."
+
+- id: view_latest_label
+  translation: "Паглядзець цяперашняе выданне"
+
+- id: read_time_label
+  translation: "хв чытання"
+
+- id: badge_english_only
+  translation: "Толькі па-англійску"
+
+- id: badge_english_only_title
+  translation: "Гэты даведнік пакуль не перакладзены на гэтую мову."
+
+- id: badge_not_in_production
+  translation: "Не ў вытворчасці"
+
+- id: badge_not_in_production_title
+  translation: "Гэты даведнік пакінуты па-за зборкай вытворчасці."
+
+- id: badge_not_in_preview
+  translation: "Не ў перадпраглядзе"
+
+- id: badge_not_in_preview_title
+  translation: "Гэты даведнік пакінуты па-за зборкай перадпрагляду."
+
+- id: licence_label
+  translation: "Ліцэнзія"
+
+- id: canonical_source_label
+  translation: "Надзейная крыніца"
+
+- id: pending_licence_check
+  translation: "Галоўны тэкст чакае праверкі ліцэнзіі"
+
+- id: guide_join_discussion
+  translation: "Абмяркуйце гэты даведнік"
+
+- id: guide_version_current
+  translation: "Цяперашняе"
+
+- id: guide_version_latest
+  translation: "Найноўшае"
+
+- id: guide_version_select
+  translation: "Выберыце выданне"
+
+- id: guide_version_dropdown_label
+  translation: "Выданне"
+
+- id: guide_historical_version_notice_title
+  translation: "Гэта не цяперашняе выданне."
+
+- id: guide_historical_version_notice_text
+  translation: "Вы чытаеце старэйшае выданне гэтага даведніка."
+
+- id: guide_historical_version_notice_link
+  translation: "Прачытайце цяперашняе выданне"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Паглядзець на сайце перадпрагляду"
+
+- id: guide_translation_preview_note
+  translation: "Перадпрагляд перакладу."
+
+- id: guide_translation_preview_message
+  translation: "Гэты пераклад яшчэ праглядаецца і можа быць няпоўным."
+
+- id: contributors_label
+  translation: "Удзельнікі"
+
+- id: translators_label
+  translation: "Перакладчыкі"
+
+- id: reportTranslationError
+  translation: "Паведаміце пра памылку перакладу"
+
+- id: nav_details
+  translation: "Пра гэты даведнік"
+
+- id: nav_translations
+  translation: "Пераклады"
+
+- id: download_table_written_by
+  translation: "Напісалі"
+
+- id: download_table_contributed_by
+  translation: "Паўдзельнічалі"
+
+- id: download_table_status
+  translation: "Стан"
+
+- id: download_discussion_action
+  translation: "Абмеркаваць"
+
+- id: download_preview_action
+  translation: "Перадпрагляд"
+
+- id: download_preview_status
+  translation: "У перадпраглядзе"
+
+- id: download_preview_description
+  translation: "Гэты пераклад яшчэ не выпушчаны і яго можна чытаць на сайце перадпрагляду."
+
+- id: download_preview_translations
+  translation: "Пераклады ў перадпраглядзе"
+
+- id: download_visit_preview
+  translation: "Адкрыць сайт перадпрагляду"
+
+- id: download_pdf_only_status
+  translation: "Толькі PDF"
+
+- id: download_stub_status
+  translation: "Не пачаты"
+
+- id: site_wordmark
+  translation: "Даведнікі па Scrum"
+
+- id: nav_the_guide
+  translation: "Даведнік"
+
+- id: nav_versions
+  translation: "Выданні"
+
+- id: nav_implementations
+  translation: "Укараненні"
+
+- id: guide_pdf_not_available
+  translation: "PDF недаступны"
+
+- id: share_label
+  translation: "Падзяліцца"
+
+- id: share_copy_link
+  translation: "Скапіяваць пасылку"
+
+- id: share_copied
+  translation: "Скапіявана ў буфер абмену!"
+
+- id: share_close
+  translation: "Закрыць"
+
+- id: role_creator
+  translation: "Тварэц"
+
+- id: role_contributor
+  translation: "Удзельнік"
+
+- id: role_reviewer
+  translation: "Праглядальнік"
+
+- id: role_translator
+  translation: "Перакладчык"
+
+- id: role_involved
+  translation: "Задзейнічаны"
+
+- id: nav_getting_started
+  translation: "Першыя крокі"
+
+- id: nav_the_scrum_guide
+  translation: "Даведнік па Scrum"
+
+- id: home_action_getting_started
+  translation: "Прачытайце Першыя крокі для Scrum Team у сетцы"
+
+- id: home_action_scrum_guide
+  translation: "Прачытайце афіцыйны Даведнік па Scrum у сетцы"
+
+- id: home_action_translations
+  translation: "Спампуйце афіцыйны Даведнік па Scrum больш як на 30 мовах"
+
+- id: home_action_read_online
+  translation: "Чытаць у сетцы"
+
+- id: home_action_select_language
+  translation: "Выбраць мову і спампаваць"
+
+- id: and
+  translation: "і"
+
+- id: breadcrumb_home
+  translation: "Галоўная"
+
+- id: read_online_title
+  translation: "Чытаць у сетцы"
+
+- id: read_online_description
+  translation: "Дастаньцеся да ўсяго даведніка ў цыфравым выглядзе, з інтэрактыўнымі магчымасцямі і лёгкім рухам."
+
+- id: read_online_button
+  translation: "Чытаць у сетцы"
+
+- id: translations_title
+  translation: "Пераклады"
+
+- id: translations_description
+  translation: "Чытайце гэты даведнік на некалькіх мовах і дапамажыце з перакладамі."
+
+- id: translations_button
+  translation: "Паглядзець пераклады"
+
+- id: history_title
+  translation: "Гісторыя"
+
+- id: history_description
+  translation: "Сачыце за развіццём і гісторыяй гэтага даведніка."
+
+- id: history_button
+  translation: "Паглядзець гісторыю"
+
+- id: what_is_guides_title
+  translation: "Што такое {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Адкрытая крыніца, вядзе супольнасць"
+
+- id: open_source_description
+  translation: "Гэта праект з адкрытай крыніцай, які жыве са супрацы супольнасці. Калі хочаце прапанаваць палепшанні, паведаміць пра турботы ці паўдзельнічаць змесцівам, вы жаданыя. Некаторыя даведнікі ўдзелаў не прымаюць, але стаяць тут як пасылка. Разам мы можам зрабіць гэтыя крыніцы больш вартымі для тых, хто ўжывае па ўсім свеце, і для кожнага, хто хоча палепшыць дзейнасць плыні працы і данне вартасці."
+
+- id: at_a_glance_title
+  translation: "Коратка"
+
+- id: join_discussion_button
+  translation: "Далучыцеся да абмеркавання"
+
+- id: join_discussion_title
+  translation: "Далучыцеся да абмеркавання пра {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Спаткайце супольнасць, падзяліцеся тым, што бачыце, і дапамажыце сфармаваць будучыну {{ .Site.Title }}. Вашы ўдзелы незаменныя, каб гэтыя даведнікі сталі поўным корпусам для тых, хто ўжывае."
+
+- id: guides_intro_text
+  translation: "Вывучыце практыкі, якія працуюць, і як іх ужываць, каб найлепш наладзіць плынь працы данне вартасці ў кожным працэсе. Тут увесь корпус знання і добрых практык. {{ .Site.Title }} — дом практычных даведнікаў: вольная, вядзеная супольнасцю пасылка для ўжывання правераных спосабаў у працы са знаннем. Даведнікі абмяжоўваюць тыя асноўныя практыкі і меры, якія трэба, каб палепшыць плынь, найлепш наладзіць данне вартасці і ўмацаваць трываласць каманды. Яны падтрымліваюць пашыральнае прыняцце ў розных галінах і дапаўняюць іншыя сучасныя спосабы плыні працы."
+
+- id: guide_content_not_found
+  translation: "Змест даведніка не знойдзены"
+
+- id: nav_read_guide
+  translation: "Прачытайце даведнік"
+
+- id: nav_history
+  translation: "Гісторыя"
+
+- id: nav_overview
+  translation: "Агульны погляд"
+
+- id: guide_pdf_download_button
+  translation: "Спампаваць PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Гэты даведнік можна таксама спампаваць у PDF і чытаць без сеткі."
+
+- id: guide_pdf_intro_link
+  translation: "Спампуйце PDF"
+
+- id: download_page_title
+  translation: "Прачытайце і спампуйце афіцыйны {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} тут вызначаюць"
+
+- id: download_page_originators
+  translation: " — тварцы {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Пераклады падалі зычлівыя людзі і групы, пералічаныя ніжэй. Выберыце мову, якую хочаце спампаваць."
+
+- id: download_translation_error
+  translation: "Калі знайдзеце ў {{ .Title }} нешта, што лічыце памылкай перакладу, звярніцеся проста да таго перакладчыка. Калі трэба больш дапамогі, напішыце нам на"
+
+- id: download_official_version
+  translation: "Афіцыйнае выданне"
+
+- id: download_community_translations
+  translation: "Пераклады са супольнасці"
+
+- id: download_current_version_released
+  translation: "Цяперашняе афіцыйнае выданне {{ .Site.Title }} выйшла"
+
+- id: download_older_translations_notice
+  translation: "Старэйшыя пераклады {{ .Site.Title }} могуць не мець найноўшых звестак."
+
+- id: download_table_language
+  translation: "Мова"
+
+- id: download_table_translations_by
+  translation: "Пераклалі"
+
+- id: download_table_action
+  translation: "Дзеянне"
+
+- id: download_official_current_version
+  translation: "Афіцыйнае цяперашняе выданне"
+
+- id: download_button_text
+  translation: "Спампаваць"
+
+- id: download_coming_soon
+  translation: "Неўзабаве"
+
+- id: download_missing_language
+  translation: "Няма вашай мовы?"
+
+- id: download_contribute_translation
+  translation: "Паўдзельнічайце новым перакладам і дапамажыце супольнасці."
+
+- id: download_add_translation
+  translation: "Дадайце пераклад"
+
+- id: download_community_contributors
+  translation: "Удзельнікі са супольнасці"
+
+- id: contributors_description
+  translation: "Удзельнікі ніжэй сабраныя з усіх даведнікаў і ўсіх выданняў."
+
+- id: read_online_action
+  translation: "Чытаць у сетцы"
+
+- id: guide_table_of_contents
+  translation: "Змест"
+
+- id: guide_coming_soon
+  translation: "Гэты даведнік у дарозе. Сачыце за ім."
+
+- id: guide_no_content_available
+  translation: "На гэтай мове пакуль няма змесціва."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) недаступны"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) недаступны"
+
+- id: guide_coming_label
+  translation: "Ідзе:"
+
+- id: guide_updated_label
+  translation: "Абноўлена:"
+
+- id: guide_version_label
+  translation: "Выданне:"
+
+- id: guide_content_unavailable_note
+  translation: "Увага:"
+
+- id: guide_content_unavailable_message
+  translation: "Змесціва гэтай старонкі пакуль няма на мове {{ .Language }}. Ніжэй паказваецца змесціва даведніка па змаўчанні."
+
+- id: guide_content_unavailable_title
+  translation: "Змесціва недаступнае:"
+
+- id: guide_content_unavailable_description
+  translation: "Змест гэтай старонкі не загрузіўся, і няма змесціва па змаўчанні, каб паказаць. Паведаміце, калі ласка,"
+
+- id: guide_report_issue_link
+  translation: "Паведаміце пра гэтую турботу"
+
+- id: guide_report_issue_message
+  translation: "каб мы маглі яе выправіць."
+
+- id: guide_back_to_home
+  translation: "← Назад на галоўную"
+
+- id: not_sure_which_to_use_title
+  translation: "Не ўпэўненыя, які ўжыць?"
+
+- id: get_started_title
+  translation: "Пачніце"
+
+- id: community_driven_label
+  translation: "Вядзе супольнасць"
+
+- id: coming_soon
+  translation: "Неўзабаве"
+
+- id: purpose_title
+  translation: "Прызначэнне"
+
+- id: ethos_title
+  translation: "Пункт выхаду"
+
+- id: audience_title
+  translation: "Для каго"
+
+- id: use_case_title
+  translation: "Калі ўжываецца"
+
+- id: content_title
+  translation: "Змест"
+
+- id: update_model_title
+  translation: "Як ён абнаўляецца"
+
+- id: guide_overview_title
+  translation: "Агульны погляд на даведнік"
+
+- id: guide_overview_description
+  translation: "Галоўныя рысы гэтага даведніка"
+
+- id: when_to_use_title
+  translation: "Калі ўжываць гэты даведнік"
+
+- id: when_to_use_description
+  translation: "Выберыце падыход, які адпавядае вашым умовам"
+
+- id: quick_decision_guide_title
+  translation: "Хуткі выбар"
+
+- id: getting_started_title
+  translation: "Першыя крокі"
+
+- id: for_practitioners_title
+  translation: "Тым, хто ўжывае"
+
+- id: current_information_title
+  translation: "Цяперашнія звесткі"
+
+- id: current_information_description
+  translation: "Падрабязнасці выдання і ўдзельнікі са супольнасці"
+
+- id: current_version_title
+  translation: "Цяперашняе выданне"
+
+- id: current_version_updated_label
+  translation: "Абноўлена"
+
+- id: current_version_description
+  translation: "Гэта выданне даведніка, якое чыннае зараз."
+
+- id: read_current_version_button
+  translation: "Прачытайце цяперашняе выданне"
+
+- id: version_info_not_available
+  translation: "Звесткі выдання недаступныя"
+
+- id: contributors_title
+  translation: "Удзельнікі"
+
+- id: contributors_description_card
+  translation: "Сябры супольнасці, якія сфармавалі гэты даведнік"
+
+- id: contributors_thank_you
+  translation: "Дзякуй усім, хто зрабіў гэты даведнік лепшым."
+
+- id: join_community_button
+  translation: "Далучыцеся да супольнасці"
+
+- id: no_contributors_found
+  translation: "Удзельнікі не знойдзеныя"
+
+- id: version_history_title
+  translation: "Гісторыя выданняў"
+
+- id: version_history_description
+  translation: "Ранейшыя выданні і іх развіццё"
+
+- id: no_previous_versions_title
+  translation: "Ранейшых выданняў няма"
+
+- id: no_previous_versions_description
+  translation: "Гэты даведнік толькі пачаўся. Завітайце пазней па ранейшыя выданні."
+
+- id: what_is_guide_title
+  translation: "Што такое гэты даведнік?"
+
+- id: license_title
+  translation: "Ліцэнзія"
+
+- id: view_on_github_button
+  translation: "Паглядзець на GitHub"
+
+- id: current_open_guide_label
+  translation: "Цяперашні Open Guide"
+
+- id: active_status_label
+  translation: "Чынны"
+
+- id: current_fork_label
+  translation: "Цяперашні fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Fork з:"
+
+- id: forked_from_indicator
+  translation: "Fork з:"
+
+- id: this_is_fork_label
+  translation: "Гэта fork"
+
+- id: available_languages_label
+  translation: "Наяўныя мовы"
+
+- id: pdf_downloads_label
+  translation: "Спампоўкі PDF"
+
+- id: living_document_updated_label
+  translation: "Жывы дакумент абноўлены"
+
+- id: active_fork_updated_label
+  translation: "Чынны fork абноўлены"
+
+- id: historical_fork_label
+  translation: "Гістарычны fork з"
+
+- id: historical_version_label
+  translation: "Гістарычнае выданне"
+
+- id: read_guide_button
+  translation: "Прачытайце даведнік"
+
+- id: translations_button_small
+  translation: "Пераклады"
+
+- id: read_fork_button
+  translation: "Прачытайце fork"
+
+- id: view_archive_button
+  translation: "Паглядзець архіў"
+
+- id: download_reference_status
+  translation: "Пасылка"

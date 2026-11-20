@@ -76,3 +76,5 @@ languages:
     disabled: true
   az:
     disabled: true
+  be:
+    disabled: true
