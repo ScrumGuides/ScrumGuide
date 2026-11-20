@@ -1,0 +1,607 @@
+# Interface strings, Amharic.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "ሰነዶች"
+
+- id: guides_section_title
+  translation: "መምሪያዎች"
+
+- id: implementations_section_title
+  translation: "የትግበራ መምሪያዎች"
+
+- id: implementations_section_description
+  translation: "Scrumን በተወሰነ ሁኔታ ለመጠቀም የሚቻሉ መንገዶች። ከእነሱ ሁሉም በScrum ዓላማ ውስጥ ይቀራል እና Scrum ለሚጠይቀው ሳይቀይር ለአንድ ሁኔታ አመራር ይጨምራል — በአንድ ውጤት ላይ በርካታ ቡድኖች፣ ፍሰቱን ማስተዳደር፣ መጀመር።"
+
+- id: extensions_section_title
+  translation: "ማስፋፊያዎች"
+
+- id: extensions_section_description
+  translation: "Scrum ከሚሠራበት ወሰን ባሻገር የሚደርሱ ልማዶች። ማስፋፊያ ራሱን Scrum አድርጎ አያቀርብም፣ እሱንም አይቀይርም፤ Scrum ክፍት የሚተወውን ጥያቄ ይይዛል፣ እንደ ውጤት የሚሰጠውን ጥቅም መለካት።"
+
+- id: extensions_section_empty
+  translation: "እስካሁን አንዳቸውም።"
+
+- id: foundation_section_title
+  translation: "መምሪያው"
+
+- id: history_page_title
+  translation: "ታሪክ"
+
+- id: translations_page_title
+  translation: "ትርጉሞች"
+
+- id: changes_section_title
+  translation: "ምን ተለወጠ"
+
+- id: changes_from_label
+  translation: "ከዚህ የተደረጉ ለውጦች"
+
+- id: lineage_section_title
+  translation: "መስመር"
+
+- id: adapted_from_label
+  translation: "ከዚህ የተስተካከለ"
+
+- id: conforms_to_label
+  translation: "ለዚህ ይስማማል"
+
+- id: conforming_guides_title
+  translation: "ለዚህ እትም የሚስማሙ መምሪያዎች"
+
+- id: conditions_section_title
+  translation: "ሁኔታዎች"
+
+- id: condition_falsifier_label
+  translation: "አይሟላም፣ መቼ"
+
+- id: current_version_label
+  translation: "አሁን ያለው እትም"
+
+- id: older_version_label
+  translation: "ይበልጥ ያረጀ እትም"
+
+- id: version_notice_older
+  translation: "ይህ የዚህ መምሪያ አሁን ያለው እትም አይደለም።"
+
+- id: view_latest_label
+  translation: "አሁን ያለውን እትም ይመልከቱ"
+
+- id: read_time_label
+  translation: "ደቂቃ ንባብ"
+
+- id: badge_english_only
+  translation: "እንግሊዝኛ ብቻ"
+
+- id: badge_english_only_title
+  translation: "ይህ መምሪያ እስካሁን ወደዚህ ቋንቋ አልተተረጎመም።"
+
+- id: badge_not_in_production
+  translation: "በምርት ላይ የለም"
+
+- id: badge_not_in_production_title
+  translation: "ይህ መምሪያ ከምርት ግንባታ ውጭ ተትቷል።"
+
+- id: badge_not_in_preview
+  translation: "በቅድመ እይታ የለም"
+
+- id: badge_not_in_preview_title
+  translation: "ይህ መምሪያ ከቅድመ እይታ ግንባታ ውጭ ተትቷል።"
+
+- id: licence_label
+  translation: "ፈቃድ"
+
+- id: canonical_source_label
+  translation: "አስተማማኝ ምንጭ"
+
+- id: pending_licence_check
+  translation: "ዋናው ጽሑፍ የፈቃድ ምርመራ ይጠብቃል"
+
+- id: guide_join_discussion
+  translation: "ይህን መምሪያ ይወያዩበት"
+
+- id: guide_version_current
+  translation: "አሁን ያለው"
+
+- id: guide_version_latest
+  translation: "እጅግ አዲሱ"
+
+- id: guide_version_select
+  translation: "እትም ይምረጡ"
+
+- id: guide_version_dropdown_label
+  translation: "እትም"
+
+- id: guide_historical_version_notice_title
+  translation: "ይህ አሁን ያለው እትም አይደለም።"
+
+- id: guide_historical_version_notice_text
+  translation: "የዚህን መምሪያ ይበልጥ ያረጀ እትም እያነበቡ ነው።"
+
+- id: guide_historical_version_notice_link
+  translation: "አሁን ያለውን እትም ያንብቡ"
+
+- id: guide_historical_version_notice_suffix
+  translation: "።"
+
+- id: guide_preview_link
+  translation: "በቅድመ እይታ ጣቢያ ላይ ይመልከቱ"
+
+- id: guide_translation_preview_note
+  translation: "የትርጉም ቅድመ እይታ።"
+
+- id: guide_translation_preview_message
+  translation: "ይህ ትርጉም እስካሁን ይገመገማል እና ያልተሟላ ሊሆን ይችላል።"
+
+- id: contributors_label
+  translation: "አስተዋጽኦ አድራጊዎች"
+
+- id: translators_label
+  translation: "ተርጓሚዎች"
+
+- id: reportTranslationError
+  translation: "የትርጉም ስህተት ያሳውቁ"
+
+- id: nav_details
+  translation: "ስለዚህ መምሪያ"
+
+- id: nav_translations
+  translation: "ትርጉሞች"
+
+- id: download_table_written_by
+  translation: "የጻፉት"
+
+- id: download_table_contributed_by
+  translation: "አስተዋጽኦ ያደረጉት"
+
+- id: download_table_status
+  translation: "ሁኔታ"
+
+- id: download_discussion_action
+  translation: "ውይይት"
+
+- id: download_preview_action
+  translation: "ቅድመ እይታ"
+
+- id: download_preview_status
+  translation: "በቅድመ እይታ"
+
+- id: download_preview_description
+  translation: "ይህ ትርጉም እስካሁን አልታተመም እና በቅድመ እይታ ጣቢያ ላይ ሊነበብ ይችላል።"
+
+- id: download_preview_translations
+  translation: "በቅድመ እይታ ያሉ ትርጉሞች"
+
+- id: download_visit_preview
+  translation: "የቅድመ እይታ ጣቢያውን ይክፈቱ"
+
+- id: download_pdf_only_status
+  translation: "PDF ብቻ"
+
+- id: download_stub_status
+  translation: "አልተጀመረም"
+
+- id: site_wordmark
+  translation: "የScrum መምሪያዎች"
+
+- id: nav_the_guide
+  translation: "መምሪያው"
+
+- id: nav_versions
+  translation: "እትሞች"
+
+- id: nav_implementations
+  translation: "ትግበራዎች"
+
+- id: guide_pdf_not_available
+  translation: "PDF የለም"
+
+- id: share_label
+  translation: "ማጋራት"
+
+- id: share_copy_link
+  translation: "አገናኙን ይቅዱ"
+
+- id: share_copied
+  translation: "ወደ ቅንጥብ ሰሌዳ ተቀድቷል!"
+
+- id: share_close
+  translation: "ዝጋ"
+
+- id: role_creator
+  translation: "ፈጣሪ"
+
+- id: role_contributor
+  translation: "አስተዋጽኦ አድራጊ"
+
+- id: role_reviewer
+  translation: "ገምጋሚ"
+
+- id: role_translator
+  translation: "ተርጓሚ"
+
+- id: role_involved
+  translation: "ተሳታፊ"
+
+- id: nav_getting_started
+  translation: "የመጀመሪያ ርምጃዎች"
+
+- id: nav_the_scrum_guide
+  translation: "የScrum መምሪያ"
+
+- id: home_action_getting_started
+  translation: "ለScrum Team የመጀመሪያ ርምጃዎችን በመረብ ላይ ያንብቡ"
+
+- id: home_action_scrum_guide
+  translation: "ይፋዊውን የScrum መምሪያ በመረብ ላይ ያንብቡ"
+
+- id: home_action_translations
+  translation: "ይፋዊውን የScrum መምሪያ ከ30 በላይ በሆኑ ቋንቋዎች ያውርዱ"
+
+- id: home_action_read_online
+  translation: "በመረብ ላይ ማንበብ"
+
+- id: home_action_select_language
+  translation: "ቋንቋ መርጠው ያውርዱ"
+
+- id: and
+  translation: "እና"
+
+- id: breadcrumb_home
+  translation: "መነሻ"
+
+- id: read_online_title
+  translation: "በመረብ ላይ ማንበብ"
+
+- id: read_online_description
+  translation: "ሙሉውን መምሪያ በዲጂታል መልክ፣ ከተገባቢ ገጽታዎችና ከቀላል እንቅስቃሴ ጋር ያግኙ።"
+
+- id: read_online_button
+  translation: "በመረብ ላይ ማንበብ"
+
+- id: translations_title
+  translation: "ትርጉሞች"
+
+- id: translations_description
+  translation: "ይህን መምሪያ በበርካታ ቋንቋዎች ያንብቡና በትርጉሞቹ ይርዱ።"
+
+- id: translations_button
+  translation: "ትርጉሞቹን ይመልከቱ"
+
+- id: history_title
+  translation: "ታሪክ"
+
+- id: history_description
+  translation: "የዚህን መምሪያ እድገትና ታሪክ ይከታተሉ።"
+
+- id: history_button
+  translation: "ታሪኩን ይመልከቱ"
+
+- id: what_is_guides_title
+  translation: "{{ .Site.Title }} ምን ነው?"
+
+- id: open_source_title
+  translation: "ክፍት ምንጭ፣ ኅብረተሰቡ ይመራዋል"
+
+- id: open_source_description
+  translation: "ይህ በኅብረተሰቡ ትብብር የሚኖር ክፍት ምንጭ ፕሮጀክት ነው። ማሻሻያዎች ማቅረብ፣ ችግሮች ማሳወቅ ወይም በይዘት አስተዋጽኦ ማድረግ ከፈለጉ፣ እንኳን ደህና መጡ። አንዳንድ መምሪያዎች አስተዋጽኦ አይቀበሉም፣ ግን እዚህ እንደ ማጣቀሻ ይቆማሉ። አንድ ላይ እነዚህን ምንጮች በዓለም ዙሪያ ለሚተገብሩና የሥራ ፍሰት ውጤታማነትንና ጥቅም ማድረስን ለማሻሻል ለሚፈልግ ለማንኛውም ሰው ይበልጥ ጠቃሚ ማድረግ እንችላለን።"
+
+- id: at_a_glance_title
+  translation: "በአጭሩ"
+
+- id: join_discussion_button
+  translation: "ውይይቱን ይቀላቀሉ"
+
+- id: join_discussion_title
+  translation: "ስለ {{ .Site.Title }} ውይይቱን ይቀላቀሉ"
+
+- id: join_discussion_description
+  translation: "ኅብረተሰቡን ያግኙ፣ የሚያዩትን ያጋሩ፣ እና የ{{ .Site.Title }} መጪውን ጊዜ ለመቅረጽ ይርዱ። እነዚህ መምሪያዎች ለሚተገብሩ ሙሉ አካል እንዲሆኑ የእርስዎ አስተዋጽኦ የማይተካ ነው።"
+
+- id: guides_intro_text
+  translation: "የሚሠሩትን ልማዶች፣ እና በማንኛውም ሂደት ውስጥ የሥራ ፍሰቱንና ጥቅም ማድረሱን ይበልጥ ለማሳመር እንዴት እንደሚጠቀሙባቸው ይማሩ። እዚህ ሁሉም የእውቀትና የመልካም ልማዶች አካል አለ። {{ .Site.Title }} የተግባራዊ መምሪያዎች ቤት ነው፦ በእውቀት ሥራ ውስጥ የተረጋገጡ ዘዴዎችን ለመጠቀም ነጻ፣ በኅብረተሰቡ የሚመራ ማጣቀሻ። መምሪያዎቹ ፍሰቱን ለማሻሻል፣ ጥቅም ማድረሱን ይበልጥ ለማሳመርና የቡድኑን ጽናት ለማጠናከር የሚያስፈልጉትን ዋና ልማዶችና መለኪያዎች ይገድባሉ። በተለያዩ ዘርፎች ሊሰፋ የሚችል ተቀባይነትን ይደግፋሉ እና የሥራ ፍሰት ሌሎች ዘመናዊ ዘዴዎችን ያሟላሉ።"
+
+- id: guide_content_not_found
+  translation: "የመምሪያው ይዘት አልተገኘም"
+
+- id: nav_read_guide
+  translation: "መምሪያውን ያንብቡ"
+
+- id: nav_history
+  translation: "ታሪክ"
+
+- id: nav_overview
+  translation: "አጠቃላይ እይታ"
+
+- id: guide_pdf_download_button
+  translation: "PDF ያውርዱ"
+
+- id: guide_pdf_intro_text
+  translation: "ይህን መምሪያ በPDF ደግሞ አውርደው ያለ መረብ ማንበብ ይችላሉ።"
+
+- id: guide_pdf_intro_link
+  translation: "PDFን ያውርዱ"
+
+- id: download_page_title
+  translation: "ይፋዊውን {{ .Title }} ያንብቡና ያውርዱ"
+
+- id: download_page_description
+  translation: "{{ .Title }} እዚህ በሚከተሉት ይተረጎማል"
+
+- id: download_page_originators
+  translation: " — የ{{ .Title }} ፈጣሪዎች።"
+
+- id: download_translations_provided
+  translation: "ትርጉሞቹን ከታች የተዘረዘሩት ደግ ሰዎችና ቡድኖች አቅርበዋቸዋል። ማውረድ የሚፈልጉትን ቋንቋ ይምረጡ።"
+
+- id: download_translation_error
+  translation: "በ{{ .Title }} ውስጥ የትርጉም ስህተት ነው ብለው የሚያስቡትን ነገር ካገኙ፣ በቀጥታ ለዚያ ተርጓሚ ይጻፉ። ተጨማሪ እገዛ ከፈለጉ፣ በዚህ ያግኙን"
+
+- id: download_official_version
+  translation: "ይፋዊ እትም"
+
+- id: download_community_translations
+  translation: "ከኅብረተሰቡ ትርጉሞች"
+
+- id: download_current_version_released
+  translation: "የ{{ .Site.Title }} አሁን ያለው ይፋዊ እትም የወጣው"
+
+- id: download_older_translations_notice
+  translation: "የ{{ .Site.Title }} ይበልጥ ያረጁ ትርጉሞች እጅግ አዲሱን መረጃ ሊይዙ አይችሉም።"
+
+- id: download_table_language
+  translation: "ቋንቋ"
+
+- id: download_table_translations_by
+  translation: "የተረጎሙት"
+
+- id: download_table_action
+  translation: "ተግባር"
+
+- id: download_official_current_version
+  translation: "ይፋዊው አሁን ያለው እትም"
+
+- id: download_button_text
+  translation: "ያውርዱ"
+
+- id: download_coming_soon
+  translation: "በቅርቡ"
+
+- id: download_missing_language
+  translation: "ቋንቋዎ የለም?"
+
+- id: download_contribute_translation
+  translation: "አዲስ ትርጉም በማቅረብ አስተዋጽኦ ያድርጉና ኅብረተሰቡን ይርዱ።"
+
+- id: download_add_translation
+  translation: "ትርጉም ይጨምሩ"
+
+- id: download_community_contributors
+  translation: "ከኅብረተሰቡ አስተዋጽኦ አድራጊዎች"
+
+- id: contributors_description
+  translation: "ከታች ያሉት አስተዋጽኦ አድራጊዎች ከሁሉም መምሪያዎችና ከሁሉም እትሞች ተሰብስበዋል።"
+
+- id: read_online_action
+  translation: "በመረብ ላይ ማንበብ"
+
+- id: guide_table_of_contents
+  translation: "ማውጫ"
+
+- id: guide_coming_soon
+  translation: "ይህ መምሪያ በመንገድ ላይ ነው። ይከታተሉት።"
+
+- id: guide_no_content_available
+  translation: "በዚህ ቋንቋ እስካሁን ይዘት የለም።"
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) የለም"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) የለም"
+
+- id: guide_coming_label
+  translation: "ይመጣል፦"
+
+- id: guide_updated_label
+  translation: "ተዘምኗል፦"
+
+- id: guide_version_label
+  translation: "እትም፦"
+
+- id: guide_content_unavailable_note
+  translation: "ማስታወሻ፦"
+
+- id: guide_content_unavailable_message
+  translation: "የዚህ ገጽ ይዘት እስካሁን በ{{ .Language }} የለም። ከታች የመምሪያው ነባሪ ይዘት ይታያል።"
+
+- id: guide_content_unavailable_title
+  translation: "ይዘት የለም፦"
+
+- id: guide_content_unavailable_description
+  translation: "የዚህ ገጽ ይዘት መጫን አልቻለም፣ እና ለማሳየት ነባሪ ይዘት የለም። እባክዎ ያሳውቁ"
+
+- id: guide_report_issue_link
+  translation: "ይህን ችግር ያሳውቁ"
+
+- id: guide_report_issue_message
+  translation: "እንድናስተካክለው።"
+
+- id: guide_back_to_home
+  translation: "← ወደ መነሻ ይመለሱ"
+
+- id: not_sure_which_to_use_title
+  translation: "የትኛውን መጠቀም እንዳለብዎ እርግጠኛ አይደሉም?"
+
+- id: get_started_title
+  translation: "ይጀምሩ"
+
+- id: community_driven_label
+  translation: "ኅብረተሰቡ ይመራዋል"
+
+- id: coming_soon
+  translation: "በቅርቡ"
+
+- id: purpose_title
+  translation: "ዓላማ"
+
+- id: ethos_title
+  translation: "መነሻ ነጥብ"
+
+- id: audience_title
+  translation: "ለማን"
+
+- id: use_case_title
+  translation: "መቼ እንደሚጠቀሙበት"
+
+- id: content_title
+  translation: "ይዘት"
+
+- id: update_model_title
+  translation: "እንዴት እንደሚዘምን"
+
+- id: guide_overview_title
+  translation: "የመምሪያው አጠቃላይ እይታ"
+
+- id: guide_overview_description
+  translation: "የዚህ መምሪያ ዋና መልኮች"
+
+- id: when_to_use_title
+  translation: "ይህን መምሪያ መቼ መጠቀም"
+
+- id: when_to_use_description
+  translation: "ለሁኔታዎ የሚስማማውን አቀራረብ ይምረጡ"
+
+- id: quick_decision_guide_title
+  translation: "ፈጣን ምርጫ"
+
+- id: getting_started_title
+  translation: "የመጀመሪያ ርምጃዎች"
+
+- id: for_practitioners_title
+  translation: "ለሚተገብሩ"
+
+- id: current_information_title
+  translation: "አሁን ያለው መረጃ"
+
+- id: current_information_description
+  translation: "የእትሙ ዝርዝሮችና ከኅብረተሰቡ አስተዋጽኦ አድራጊዎች"
+
+- id: current_version_title
+  translation: "አሁን ያለው እትም"
+
+- id: current_version_updated_label
+  translation: "ተዘምኗል"
+
+- id: current_version_description
+  translation: "ይህ አሁን በሥራ ላይ ያለው የመምሪያው እትም ነው።"
+
+- id: read_current_version_button
+  translation: "አሁን ያለውን እትም ያንብቡ"
+
+- id: version_info_not_available
+  translation: "የእትሙ መረጃ የለም"
+
+- id: contributors_title
+  translation: "አስተዋጽኦ አድራጊዎች"
+
+- id: contributors_description_card
+  translation: "ይህን መምሪያ የቀረጹ የኅብረተሰቡ አባላት"
+
+- id: contributors_thank_you
+  translation: "ይህን መምሪያ ይበልጥ የተሻለ ያደረጉ ሁሉ ይመስገኑ።"
+
+- id: join_community_button
+  translation: "ኅብረተሰቡን ይቀላቀሉ"
+
+- id: no_contributors_found
+  translation: "አስተዋጽኦ አድራጊዎች አልተገኙም"
+
+- id: version_history_title
+  translation: "የእትሞች ታሪክ"
+
+- id: version_history_description
+  translation: "የቀደሙ እትሞችና እድገታቸው"
+
+- id: no_previous_versions_title
+  translation: "የቀደሙ እትሞች የሉም"
+
+- id: no_previous_versions_description
+  translation: "ይህ መምሪያ አሁን ነው የተጀመረው። ለቀደሙት እትሞች ቆይተው ይምጡ።"
+
+- id: what_is_guide_title
+  translation: "ይህ መምሪያ ምን ነው?"
+
+- id: license_title
+  translation: "ፈቃድ"
+
+- id: view_on_github_button
+  translation: "በGitHub ላይ ይመልከቱ"
+
+- id: current_open_guide_label
+  translation: "አሁን ያለው Open Guide"
+
+- id: active_status_label
+  translation: "በሥራ ላይ"
+
+- id: current_fork_label
+  translation: "አሁን ያለው fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "ከዚህ fork ተደርጓል፦"
+
+- id: forked_from_indicator
+  translation: "ከዚህ fork ተደርጓል፦"
+
+- id: this_is_fork_label
+  translation: "ይህ fork ነው"
+
+- id: available_languages_label
+  translation: "ያሉት ቋንቋዎች"
+
+- id: pdf_downloads_label
+  translation: "የPDF ማውረጃዎች"
+
+- id: living_document_updated_label
+  translation: "ሕያው ሰነድ ተዘምኗል"
+
+- id: active_fork_updated_label
+  translation: "በሥራ ላይ ያለው fork ተዘምኗል"
+
+- id: historical_fork_label
+  translation: "ከዚህ ታሪካዊ fork፦"
+
+- id: historical_version_label
+  translation: "ታሪካዊ እትም"
+
+- id: read_guide_button
+  translation: "መምሪያውን ያንብቡ"
+
+- id: translations_button_small
+  translation: "ትርጉሞች"
+
+- id: read_fork_button
+  translation: "forkን ያንብቡ"
+
+- id: view_archive_button
+  translation: "መዝገቡን ይመልከቱ"
+
+- id: download_reference_status
+  translation: "ማጣቀሻ"

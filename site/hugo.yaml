@@ -184,6 +184,12 @@ languages:
     title: Vodnik po Scrumu
     params:
       description: Vsaka objavljena različica Vodnika po Scrumu na enem mestu, skupaj z vodniki za uvedbo, ki se naslanjajo nanj.
+  am:
+    label: አማርኛ
+    weight: 2
+    title: የScrum መምሪያ
+    params:
+      description: የScrum መምሪያ የታተመ ሁሉም እትም በአንድ ቦታ፣ በእሱ ላይ ከሚመሠረቱ የትግበራ መምሪያዎች ጋር።
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

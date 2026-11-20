@@ -72,3 +72,5 @@ languages:
     disabled: true
   sl:
     disabled: true
+  am:
+    disabled: true
