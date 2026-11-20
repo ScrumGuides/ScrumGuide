@@ -7,6 +7,11 @@
 # The acknowledgements inside each edition thank other people for their part
 # in Scrum itself over the years. They are not authors of this guide, so they
 # are not listed here.
+#
+# Edition 2026.1 is different. It is a derived work, written by Martin
+# Hinshelwood from the November 2020 edition under CC BY-SA 4.0, and it is not
+# published or endorsed by Ken Schwaber or Jeff Sutherland. They are not
+# credited with it, and he is not credited with any edition before it.
 
 - name: Ken Schwaber
   role: creator
@@ -34,3 +39,8 @@
     - "2016.7"
     - "2017.11"
     - "2020.11"
+- name: Martin Hinshelwood
+  role: creator
+  weight: 3
+  contributions:
+    - "2026.1"
