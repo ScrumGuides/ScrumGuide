@@ -1,0 +1,586 @@
+# Interface strings, Ukrainian.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "документи"
+
+- id: guides_section_title
+  translation: "Посібники"
+
+- id: implementations_section_title
+  translation: "Посібники з упровадження"
+
+- id: implementations_section_description
+  translation: "Способи застосовувати Скрам у конкретному контексті. Кожен залишається в межах того, до чого прагне Скрам, і додає вказівки для певної ситуації — кілька команд над одним продуктом, керування потоком, початок роботи — не змінюючи того, що Скрам вимагає."
+
+- id: extensions_section_title
+  translation: "Розширення"
+
+- id: extensions_section_description
+  translation: "Практики, що виходять за межі того, чим займається Скрам. Розширення не претендує на те, щоб бути Скрамом, і не змінює його; воно береться за питання, яке Скрам залишає відкритим, наприклад вимірювання цінності, яку дає продукт."
+
+- id: extensions_section_empty
+  translation: "Поки жодного."
+
+- id: foundation_section_title
+  translation: "Посібник"
+
+- id: history_page_title
+  translation: "Історія"
+
+- id: translations_page_title
+  translation: "Переклади"
+
+- id: changes_section_title
+  translation: "Що змінилося"
+
+- id: changes_from_label
+  translation: "Зміни щодо"
+
+- id: lineage_section_title
+  translation: "Лінія розвитку"
+
+- id: adapted_from_label
+  translation: "Адаптовано з"
+
+- id: conforms_to_label
+  translation: "Відповідає"
+
+- id: conforming_guides_title
+  translation: "Посібники, що відповідають цій версії"
+
+- id: conditions_section_title
+  translation: "Умови"
+
+- id: condition_falsifier_label
+  translation: "Не виконано, коли"
+
+- id: current_version_label
+  translation: "Поточна версія"
+
+- id: older_version_label
+  translation: "Давніша версія"
+
+- id: version_notice_older
+  translation: "Це не поточна версія цього посібника."
+
+- id: view_latest_label
+  translation: "Переглянути поточну версію"
+
+- id: read_time_label
+  translation: "хв читання"
+
+- id: badge_english_only
+  translation: "Лише англійською"
+
+- id: badge_english_only_title
+  translation: "Цей посібник ще не перекладено цією мовою."
+
+- id: badge_not_in_production
+  translation: "Не в продакшені"
+
+- id: badge_not_in_production_title
+  translation: "Цей посібник виключено зі збірки продакшену."
+
+- id: badge_not_in_preview
+  translation: "Не в превʼю"
+
+- id: badge_not_in_preview_title
+  translation: "Цей посібник виключено зі збірки превʼю."
+
+- id: licence_label
+  translation: "Ліцензія"
+
+- id: canonical_source_label
+  translation: "Канонічне джерело"
+
+- id: pending_licence_check
+  translation: "Текст очікує перевірки ліцензії"
+
+- id: guide_join_discussion
+  translation: "Обговорити цей посібник"
+
+- id: guide_version_current
+  translation: "Поточна"
+
+- id: guide_version_latest
+  translation: "Остання"
+
+- id: guide_version_select
+  translation: "Вибрати версію"
+
+- id: guide_version_dropdown_label
+  translation: "Версія"
+
+- id: guide_historical_version_notice_title
+  translation: "Це не поточна версія."
+
+- id: guide_historical_version_notice_text
+  translation: "Ви читаєте давнішу версію цього посібника."
+
+- id: guide_historical_version_notice_link
+  translation: "Читати поточну версію"
+
+- id: guide_historical_version_notice_suffix
+  translation: "замість неї."
+
+- id: guide_preview_link
+  translation: "Переглянути це на сайті превʼю"
+
+- id: guide_translation_preview_note
+  translation: "Превʼю перекладу."
+
+- id: guide_translation_preview_message
+  translation: "Цей переклад ще перевіряють, і він може бути неповним."
+
+- id: contributors_label
+  translation: "Учасники"
+
+- id: translators_label
+  translation: "Перекладачі"
+
+- id: reportTranslationError
+  translation: "Повідомити про помилку перекладу"
+
+- id: nav_details
+  translation: "Про цей посібник"
+
+- id: nav_translations
+  translation: "Переклади"
+
+- id: download_table_written_by
+  translation: "Автори"
+
+- id: download_table_contributed_by
+  translation: "За участі"
+
+- id: download_table_status
+  translation: "Стан"
+
+- id: download_discussion_action
+  translation: "Обговорити"
+
+- id: download_preview_action
+  translation: "Превʼю"
+
+- id: download_preview_status
+  translation: "У превʼю"
+
+- id: download_preview_description
+  translation: "Цей переклад ще не опублікований. Його можна прочитати на сайті превʼю."
+
+- id: download_preview_translations
+  translation: "Переклади у превʼю"
+
+- id: download_visit_preview
+  translation: "Відкрити сайт превʼю"
+
+- id: download_pdf_only_status
+  translation: "Лише PDF"
+
+- id: download_stub_status
+  translation: "Не розпочато"
+
+- id: site_wordmark
+  translation: "Посібник зі Скраму"
+
+- id: nav_the_guide
+  translation: "Посібник"
+
+- id: nav_versions
+  translation: "Версії"
+
+- id: nav_implementations
+  translation: "Упровадження"
+
+- id: guide_pdf_not_available
+  translation: "PDF недоступний"
+
+- id: share_label
+  translation: "Поділитися"
+
+- id: share_copy_link
+  translation: "Скопіювати посилання"
+
+- id: share_copied
+  translation: "скопійовано до буфера обміну!"
+
+- id: share_close
+  translation: "Закрити"
+
+- id: role_creator
+  translation: "Творець"
+
+- id: role_contributor
+  translation: "Учасник"
+
+- id: role_reviewer
+  translation: "Рецензент"
+
+- id: role_translator
+  translation: "Перекладач"
+
+- id: role_involved
+  translation: "Дотичний"
+
+- id: and
+  translation: "і"
+
+- id: breadcrumb_home
+  translation: "Головна"
+
+- id: read_online_title
+  translation: "Читати онлайн"
+
+- id: read_online_description
+  translation: "Повний посібник у цифровому вигляді — з інтерактивними можливостями та простою навігацією."
+
+- id: read_online_button
+  translation: "Читати онлайн"
+
+- id: translations_title
+  translation: "Переклади"
+
+- id: translations_description
+  translation: "Читайте цей посібник кількома мовами й допомагайте з перекладами."
+
+- id: translations_button
+  translation: "Переглянути переклади"
+
+- id: history_title
+  translation: "Історія"
+
+- id: history_description
+  translation: "Прослідкуйте розвиток та історію цього посібника."
+
+- id: history_button
+  translation: "Переглянути історію"
+
+- id: what_is_guides_title
+  translation: "Що таке {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Відкритий код і спільнота"
+
+- id: open_source_description
+  translation: "Це проєкт з відкритим кодом, який живе співпрацею спільноти. Хочете запропонувати покращення, повідомити про проблеми або додати матеріали — ваша участь на вітання. Деякі посібники закриті для правок, але наведені тут для довідки. Разом ми можемо зробити ці матеріали ще кориснішими для практиків у всьому світі й для всіх, хто хоче покращити ефективність потоку роботи та доставлення цінності."
+
+- id: at_a_glance_title
+  translation: "Коротко"
+
+- id: join_discussion_button
+  translation: "Долучитися до обговорення"
+
+- id: join_discussion_title
+  translation: "Долучайтеся до обговорення {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Спілкуйтеся зі спільнотою, діліться своїми спостереженнями й допомагайте формувати майбутнє {{ .Site.Title }}. Ваш внесок незамінний, щоб ці посібники були повноцінним джерелом для практиків."
+
+- id: guides_intro_text
+  translation: "Дізнайтеся про дієві практики й те, як застосовувати їх для оптимізації потоку роботи та доставлення цінності в будь-якому процесі. Це ваше повне джерело знань і добрих практик. {{ .Site.Title }} — дім практичних посібників: безкоштовний, створюваний спільнотою орієнтир для застосування перевірених методів у роботі зі знанням. Посібники описують основні практики й метрики, потрібні для покращення потоку, оптимізації доставлення цінності та зміцнення стійкості команд. Вони підтримують масштабоване впровадження в різних галузях і доповнюють інші сучасні підходи до потоку роботи."
+
+- id: guide_content_not_found
+  translation: "Вміст посібника не знайдено"
+
+- id: nav_read_guide
+  translation: "Читати посібник"
+
+- id: nav_history
+  translation: "Історія"
+
+- id: nav_overview
+  translation: "Огляд"
+
+- id: guide_pdf_download_button
+  translation: "Завантажити PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Цей посібник можна також завантажити у PDF, щоб читати без інтернету."
+
+- id: guide_pdf_intro_link
+  translation: "Завантажити PDF"
+
+- id: download_page_title
+  translation: "Читати та завантажити офіційний {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} визначається тут"
+
+- id: download_page_originators
+  translation: ", творцям {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Переклади надали щедрі люди та групи, перелічені нижче. Виберіть посібник тією мовою, якою хочете його завантажити."
+
+- id: download_translation_error
+  translation: "Якщо ви знайшли можливу помилку перекладу в {{ .Title }}, звʼяжіться напряму з тим, хто його зробив. Якщо потрібна додаткова допомога, напишіть нам на"
+
+- id: download_official_version
+  translation: "Офіційна версія"
+
+- id: download_community_translations
+  translation: "Переклади спільноти"
+
+- id: download_current_version_released
+  translation: "Поточна офіційна версія {{ .Site.Title }} вийшла у"
+
+- id: download_older_translations_notice
+  translation: "Переклади {{ .Site.Title }} з давнішими датами можуть не містити найсвіжішої інформації."
+
+- id: download_table_language
+  translation: "Мова"
+
+- id: download_table_translations_by
+  translation: "Переклад"
+
+- id: download_table_action
+  translation: "Дія"
+
+- id: download_official_current_version
+  translation: "Офіційна поточна версія"
+
+- id: download_button_text
+  translation: "Завантажити"
+
+- id: download_coming_soon
+  translation: "Невдовзі"
+
+- id: download_missing_language
+  translation: "Немає вашої мови?"
+
+- id: download_contribute_translation
+  translation: "Допоможіть спільноті — зробіть новий переклад."
+
+- id: download_add_translation
+  translation: "Додати переклад"
+
+- id: download_community_contributors
+  translation: "Учасники спільноти"
+
+- id: contributors_description
+  translation: "Перелічені нижче учасники — це всі учасники всіх посібників і всіх версій."
+
+- id: read_online_action
+  translation: "Читати онлайн"
+
+- id: guide_table_of_contents
+  translation: "Зміст"
+
+- id: guide_coming_soon
+  translation: "Цей посібник скоро зʼявиться. Слідкуйте за оновленнями."
+
+- id: guide_no_content_available
+  translation: "Вміст цією мовою поки недоступний."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) недоступний"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) недоступний"
+
+- id: guide_coming_label
+  translation: "Очікується:"
+
+- id: guide_updated_label
+  translation: "Оновлено:"
+
+- id: guide_version_label
+  translation: "Версія:"
+
+- id: guide_content_unavailable_note
+  translation: "Примітка:"
+
+- id: guide_content_unavailable_message
+  translation: "Вміст цієї сторінки недоступний мовою {{ .Language }}. Нижче показано вміст посібника за замовчуванням."
+
+- id: guide_content_unavailable_title
+  translation: "Вміст недоступний:"
+
+- id: guide_content_unavailable_description
+  translation: "Вміст цієї сторінки не вдалося завантажити, і вмісту за замовчуванням немає. Будь ласка,"
+
+- id: guide_report_issue_link
+  translation: "повідомте про цю проблему"
+
+- id: guide_report_issue_message
+  translation: "щоб ми могли її виправити."
+
+- id: guide_back_to_home
+  translation: "← Повернутися на головну"
+
+- id: not_sure_which_to_use_title
+  translation: "Не знаєте, який вибрати?"
+
+- id: get_started_title
+  translation: "Почати"
+
+- id: community_driven_label
+  translation: "Створюється спільнотою"
+
+- id: coming_soon
+  translation: "Невдовзі"
+
+- id: purpose_title
+  translation: "Призначення"
+
+- id: ethos_title
+  translation: "Підхід"
+
+- id: audience_title
+  translation: "Для кого"
+
+- id: use_case_title
+  translation: "Сценарій використання"
+
+- id: content_title
+  translation: "Вміст"
+
+- id: update_model_title
+  translation: "Модель оновлення"
+
+- id: guide_overview_title
+  translation: "Огляд посібника"
+
+- id: guide_overview_description
+  translation: "Ключові особливості цього посібника"
+
+- id: when_to_use_title
+  translation: "Коли використовувати цей посібник"
+
+- id: when_to_use_description
+  translation: "Виберіть підхід, що відповідає вашому контексту"
+
+- id: quick_decision_guide_title
+  translation: "Швидкий вибір"
+
+- id: getting_started_title
+  translation: "Перші кроки"
+
+- id: for_practitioners_title
+  translation: "Для практиків"
+
+- id: current_information_title
+  translation: "Поточні відомості"
+
+- id: current_information_description
+  translation: "Дані версії та учасники спільноти"
+
+- id: current_version_title
+  translation: "Поточна версія"
+
+- id: current_version_updated_label
+  translation: "Оновлено"
+
+- id: current_version_description
+  translation: "Це поточна активна версія посібника."
+
+- id: read_current_version_button
+  translation: "Читати поточну версію"
+
+- id: version_info_not_available
+  translation: "Відомості про версію недоступні"
+
+- id: contributors_title
+  translation: "Учасники"
+
+- id: contributors_description_card
+  translation: "Люди зі спільноти, які формують цей посібник"
+
+- id: contributors_thank_you
+  translation: "Дякуємо всім, чий внесок робить цей посібник кращим."
+
+- id: join_community_button
+  translation: "Долучитися до спільноти"
+
+- id: no_contributors_found
+  translation: "Учасників не знайдено"
+
+- id: version_history_title
+  translation: "Історія версій"
+
+- id: version_history_description
+  translation: "Давніші версії та їхній розвиток"
+
+- id: no_previous_versions_title
+  translation: "Давніших версій немає"
+
+- id: no_previous_versions_description
+  translation: "Цей посібник лише починається. Зазирніть пізніше за давнішими версіями."
+
+- id: what_is_guide_title
+  translation: "Що це за посібник?"
+
+- id: license_title
+  translation: "Ліцензія"
+
+- id: view_on_github_button
+  translation: "Переглянути на GitHub"
+
+- id: current_open_guide_label
+  translation: "Поточний Open Guide"
+
+- id: active_status_label
+  translation: "Активно"
+
+- id: current_fork_label
+  translation: "Поточний форк"
+
+- id: active_fork_label
+  translation: "Форк"
+
+- id: fork_indicator
+  translation: "Форк від:"
+
+- id: forked_from_indicator
+  translation: "Форк від:"
+
+- id: this_is_fork_label
+  translation: "Це форк"
+
+- id: available_languages_label
+  translation: "Доступно"
+
+- id: pdf_downloads_label
+  translation: "Завантаження PDF"
+
+- id: living_document_updated_label
+  translation: "Живий документ оновлено"
+
+- id: active_fork_updated_label
+  translation: "Активний форк оновлено"
+
+- id: historical_fork_label
+  translation: "Історичний форк від"
+
+- id: historical_version_label
+  translation: "Історична версія від"
+
+- id: read_guide_button
+  translation: "Читати посібник"
+
+- id: translations_button_small
+  translation: "Переклади"
+
+- id: read_fork_button
+  translation: "Читати форк"
+
+- id: view_archive_button
+  translation: "Переглянути архів"
+
+- id: download_reference_status
+  translation: "Для довідки"

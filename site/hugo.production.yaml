@@ -32,3 +32,5 @@ languages:
     disabled: true
   ru:
     disabled: true
+  uk:
+    disabled: true

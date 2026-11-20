@@ -82,6 +82,12 @@ languages:
     title: Руководство по Scrum
     params:
       description: Все опубликованные версии Руководства по Scrum в одном месте, вместе с руководствами по внедрению, которые на него опираются.
+  uk:
+    label: Українська
+    weight: 45
+    title: Посібник зі Скраму
+    params:
+      description: Усі опубліковані версії Посібника зі Скраму в одному місці, разом із посібниками з упровадження, що на нього спираються.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
