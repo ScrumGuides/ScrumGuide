@@ -124,6 +124,9 @@ languages:
   fi:
     label: Suomi
     weight: 16
+  cs:
+    label: Čeština
+    weight: 9
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

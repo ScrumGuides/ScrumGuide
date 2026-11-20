@@ -1,0 +1,586 @@
+# Interface strings, Czech.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Dokumenty"
+
+- id: guides_section_title
+  translation: "Příručky"
+
+- id: implementations_section_title
+  translation: "Implementační příručky"
+
+- id: implementations_section_description
+  translation: "Způsoby, jak používat Scrum v určitém kontextu. Každá z nich zůstává v rámci záměru Scrumu a přidává pokyny pro určitou situaci - více teamů na jednom produktu, řízení toku, začátky - aniž by se měnilo, co Scrum vyžaduje."
+
+- id: extensions_section_title
+  translation: "Rozšíření"
+
+- id: extensions_section_description
+  translation: "Praktiky, které sahají za to, o co se stará Scrum. Rozšíření se nevydává za Scrum ani jej nemění; bere si na starost otázku, kterou Scrum nechává otevřenou, jako je měření hodnoty, kterou produkt přináší."
+
+- id: extensions_section_empty
+  translation: "Zatím žádná."
+
+- id: foundation_section_title
+  translation: "Příručka"
+
+- id: history_page_title
+  translation: "Historie"
+
+- id: translations_page_title
+  translation: "Překlady"
+
+- id: changes_section_title
+  translation: "Co se změnilo"
+
+- id: changes_from_label
+  translation: "Změny od verze"
+
+- id: lineage_section_title
+  translation: "Linie"
+
+- id: adapted_from_label
+  translation: "Zpracováno z"
+
+- id: conforms_to_label
+  translation: "Odpovídá"
+
+- id: conforming_guides_title
+  translation: "Příručky odpovídající této verzi"
+
+- id: conditions_section_title
+  translation: "Podmínky"
+
+- id: condition_falsifier_label
+  translation: "Nesplněno, když"
+
+- id: current_version_label
+  translation: "Současná verze"
+
+- id: older_version_label
+  translation: "Starší verze"
+
+- id: version_notice_older
+  translation: "Toto není současná verze této příručky."
+
+- id: view_latest_label
+  translation: "Zobrazit současnou verzi"
+
+- id: read_time_label
+  translation: "min čtení"
+
+- id: badge_english_only
+  translation: "Pouze anglicky"
+
+- id: badge_english_only_title
+  translation: "Tato příručka ještě není přeložena do tohoto jazyka."
+
+- id: badge_not_in_production
+  translation: "Není v produkci"
+
+- id: badge_not_in_production_title
+  translation: "Tato příručka je vyňata z produkčního buildu."
+
+- id: badge_not_in_preview
+  translation: "Není v náhledu"
+
+- id: badge_not_in_preview_title
+  translation: "Tato příručka je vyňata z náhledového buildu."
+
+- id: licence_label
+  translation: "Licence"
+
+- id: canonical_source_label
+  translation: "Autoritativní zdroj"
+
+- id: pending_licence_check
+  translation: "Hlavní text čeká na kontrolu licence"
+
+- id: guide_join_discussion
+  translation: "Diskutovat o této příručce"
+
+- id: guide_version_current
+  translation: "Současná"
+
+- id: guide_version_latest
+  translation: "Nejnovější"
+
+- id: guide_version_select
+  translation: "Vybrat verzi"
+
+- id: guide_version_dropdown_label
+  translation: "Verze"
+
+- id: guide_historical_version_notice_title
+  translation: "Toto není současná verze."
+
+- id: guide_historical_version_notice_text
+  translation: "Čtete starší verzi této příručky."
+
+- id: guide_historical_version_notice_link
+  translation: "Přečíst současnou verzi"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Zobrazit na náhledovém webu"
+
+- id: guide_translation_preview_note
+  translation: "Náhled překladu."
+
+- id: guide_translation_preview_message
+  translation: "Tento překlad se stále recenzuje a může být neúplný."
+
+- id: contributors_label
+  translation: "Přispěvatelé"
+
+- id: translators_label
+  translation: "Překladatelé"
+
+- id: reportTranslationError
+  translation: "Nahlásit chybu v překladu"
+
+- id: nav_details
+  translation: "O této příručce"
+
+- id: nav_translations
+  translation: "Překlady"
+
+- id: download_table_written_by
+  translation: "Napsali"
+
+- id: download_table_contributed_by
+  translation: "Přispěli"
+
+- id: download_table_status
+  translation: "Stav"
+
+- id: download_discussion_action
+  translation: "Diskutovat"
+
+- id: download_preview_action
+  translation: "Náhled"
+
+- id: download_preview_status
+  translation: "V náhledu"
+
+- id: download_preview_description
+  translation: "Tento překlad ještě není vydán a lze si jej přečíst na náhledovém webu."
+
+- id: download_preview_translations
+  translation: "Překlady v náhledu"
+
+- id: download_visit_preview
+  translation: "Otevřít náhledový web"
+
+- id: download_pdf_only_status
+  translation: "Pouze PDF"
+
+- id: download_stub_status
+  translation: "Nezahájeno"
+
+- id: site_wordmark
+  translation: "Scrum Guides"
+
+- id: nav_the_guide
+  translation: "Příručka"
+
+- id: nav_versions
+  translation: "Verze"
+
+- id: nav_implementations
+  translation: "Implementace"
+
+- id: guide_pdf_not_available
+  translation: "PDF není dostupné"
+
+- id: share_label
+  translation: "Sdílet"
+
+- id: share_copy_link
+  translation: "Kopírovat odkaz"
+
+- id: share_copied
+  translation: "Zkopírováno do schránky!"
+
+- id: share_close
+  translation: "Zavřít"
+
+- id: role_creator
+  translation: "Tvůrce"
+
+- id: role_contributor
+  translation: "Přispěvatel"
+
+- id: role_reviewer
+  translation: "Recenzent"
+
+- id: role_translator
+  translation: "Překladatel"
+
+- id: role_involved
+  translation: "Zapojen"
+
+- id: and
+  translation: "a"
+
+- id: breadcrumb_home
+  translation: "Domů"
+
+- id: read_online_title
+  translation: "Číst online"
+
+- id: read_online_description
+  translation: "Získejte celou příručku digitálně s interaktivními funkcemi a snadnou navigací."
+
+- id: read_online_button
+  translation: "Číst online"
+
+- id: translations_title
+  translation: "Překlady"
+
+- id: translations_description
+  translation: "Přečtěte si tuto příručku v několika jazycích a pomozte s překlady."
+
+- id: translations_button
+  translation: "Zobrazit překlady"
+
+- id: history_title
+  translation: "Historie"
+
+- id: history_description
+  translation: "Sledujte vývoj a historii této příručky."
+
+- id: history_button
+  translation: "Zobrazit historii"
+
+- id: what_is_guides_title
+  translation: "Co je {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Open source, vedeno komunitou"
+
+- id: open_source_description
+  translation: "Toto je open source projekt, který žije ze spolupráce komunity. Chcete-li navrhnout zlepšení, nahlásit problémy nebo přispět obsahem, jste vítáni. Některé příručky přispění nepřijímají, ale jsou zde jako reference. Společně můžeme tyto zdroje učinit cennějšími pro praktiky po celém světě a pro každého, kdo chce zvýšit účinnost pracovního toku a doručování hodnoty."
+
+- id: at_a_glance_title
+  translation: "Ve zkratce"
+
+- id: join_discussion_button
+  translation: "Připojit se k diskusi"
+
+- id: join_discussion_title
+  translation: "Připojte se k diskusi o {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Potkejte komunitu, podělte se o své poznatky a pomozte utvářet budoucnost {{ .Site.Title }}. Vaše přispění je nezbytné, aby se tyto příručky staly úplným souborem pro praktiky."
+
+- id: guides_intro_text
+  translation: "Naučte se praktiky, které fungují, a jak je používat k optimalizaci pracovního toku a doručování hodnoty v jakémkoli procesu. Zde je celý soubor znalostí a dobrých praktik. {{ .Site.Title }} je domovem praktických příruček: svobodného, komunitou vedeného zdroje pro používání prověřených metod v znalostní práci. Příručky vymezují základní praktiky a měřítka potřebná k lepšímu toku, k optimalizaci doručování hodnoty a k posílení udržitelnosti teamu. Podporují škálovatelné přijetí v různých odvětvích a doplňují další moderní metody pracovního toku."
+
+- id: guide_content_not_found
+  translation: "Obsah příručky nenalezen"
+
+- id: nav_read_guide
+  translation: "Číst příručku"
+
+- id: nav_history
+  translation: "Historie"
+
+- id: nav_overview
+  translation: "Přehled"
+
+- id: guide_pdf_download_button
+  translation: "Stáhnout PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Tuto příručku si můžete také stáhnout v PDF a číst ji offline."
+
+- id: guide_pdf_intro_link
+  translation: "Stáhnout PDF"
+
+- id: download_page_title
+  translation: "Přečtěte si a stáhněte oficiální {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} zde definují"
+
+- id: download_page_originators
+  translation: ", tvůrci {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Překlady poskytli ochotní lidé a skupiny uvedení níže. Vyberte jazyk, který si chcete stáhnout."
+
+- id: download_translation_error
+  translation: "Najdete-li v {{ .Title }} něco, co považujete za chybu v překladu, obraťte se přímo na toho překladatele. Potřebujete-li další pomoc, kontaktujte nás na"
+
+- id: download_official_version
+  translation: "Oficiální verze"
+
+- id: download_community_translations
+  translation: "Překlady z komunity"
+
+- id: download_current_version_released
+  translation: "Současná oficiální verze {{ .Site.Title }} vyšla"
+
+- id: download_older_translations_notice
+  translation: "Starší překlady {{ .Site.Title }} nemusí obsahovat nejnovější informace."
+
+- id: download_table_language
+  translation: "Jazyk"
+
+- id: download_table_translations_by
+  translation: "Přeložili"
+
+- id: download_table_action
+  translation: "Akce"
+
+- id: download_official_current_version
+  translation: "Oficiální současná verze"
+
+- id: download_button_text
+  translation: "Stáhnout"
+
+- id: download_coming_soon
+  translation: "Již brzy"
+
+- id: download_missing_language
+  translation: "Chybí váš jazyk?"
+
+- id: download_contribute_translation
+  translation: "Přispějte novým překladem a pomozte komunitě."
+
+- id: download_add_translation
+  translation: "Přidat překlad"
+
+- id: download_community_contributors
+  translation: "Přispěvatelé z komunity"
+
+- id: contributors_description
+  translation: "Přispěvatelé níže jsou shromážděni ze všech příruček a všech verzí."
+
+- id: read_online_action
+  translation: "Číst online"
+
+- id: guide_table_of_contents
+  translation: "Obsah"
+
+- id: guide_coming_soon
+  translation: "Tato příručka se připravuje. Sledujte ji."
+
+- id: guide_no_content_available
+  translation: "V tomto jazyce ještě není žádný obsah."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) není dostupné"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) není dostupné"
+
+- id: guide_coming_label
+  translation: "Připravuje se:"
+
+- id: guide_updated_label
+  translation: "Aktualizováno:"
+
+- id: guide_version_label
+  translation: "Verze:"
+
+- id: guide_content_unavailable_note
+  translation: "Poznámka:"
+
+- id: guide_content_unavailable_message
+  translation: "Obsah této stránky ještě není v jazyce {{ .Language }}. Níže se zobrazuje výchozí obsah příručky."
+
+- id: guide_content_unavailable_title
+  translation: "Obsah není dostupný:"
+
+- id: guide_content_unavailable_description
+  translation: "Obsah této stránky se nepodařilo načíst a není k zobrazení žádný výchozí obsah. Nahlaste prosím"
+
+- id: guide_report_issue_link
+  translation: "Nahlásit tento problém"
+
+- id: guide_report_issue_message
+  translation: "abychom to mohli opravit."
+
+- id: guide_back_to_home
+  translation: "← Zpět na domovskou stránku"
+
+- id: not_sure_which_to_use_title
+  translation: "Nejste si jisti, kterou použít?"
+
+- id: get_started_title
+  translation: "Začněte"
+
+- id: community_driven_label
+  translation: "Vedeno komunitou"
+
+- id: coming_soon
+  translation: "Již brzy"
+
+- id: purpose_title
+  translation: "Účel"
+
+- id: ethos_title
+  translation: "Východisko"
+
+- id: audience_title
+  translation: "Pro koho"
+
+- id: use_case_title
+  translation: "Kdy se používá"
+
+- id: content_title
+  translation: "Obsah"
+
+- id: update_model_title
+  translation: "Jak se aktualizuje"
+
+- id: guide_overview_title
+  translation: "Přehled příručky"
+
+- id: guide_overview_description
+  translation: "Hlavní rysy této příručky"
+
+- id: when_to_use_title
+  translation: "Kdy použít tuto příručku"
+
+- id: when_to_use_description
+  translation: "Vyberte přístup, který odpovídá vašemu kontextu"
+
+- id: quick_decision_guide_title
+  translation: "Rychlá volba"
+
+- id: getting_started_title
+  translation: "Začínáme"
+
+- id: for_practitioners_title
+  translation: "Pro praktiky"
+
+- id: current_information_title
+  translation: "Současné informace"
+
+- id: current_information_description
+  translation: "Podrobnosti o verzi a přispěvatelé z komunity"
+
+- id: current_version_title
+  translation: "Současná verze"
+
+- id: current_version_updated_label
+  translation: "Aktualizováno"
+
+- id: current_version_description
+  translation: "Toto je verze příručky, která platí nyní."
+
+- id: read_current_version_button
+  translation: "Přečíst současnou verzi"
+
+- id: version_info_not_available
+  translation: "Informace o verzi nejsou dostupné"
+
+- id: contributors_title
+  translation: "Přispěvatelé"
+
+- id: contributors_description_card
+  translation: "Členové komunity, kteří tuto příručku utvářeli"
+
+- id: contributors_thank_you
+  translation: "Děkujeme všem, kdo tuto příručku zlepšili."
+
+- id: join_community_button
+  translation: "Připojit se ke komunitě"
+
+- id: no_contributors_found
+  translation: "Nenalezeni žádní přispěvatelé"
+
+- id: version_history_title
+  translation: "Historie verzí"
+
+- id: version_history_description
+  translation: "Předchozí verze a jejich vývoj"
+
+- id: no_previous_versions_title
+  translation: "Žádné předchozí verze"
+
+- id: no_previous_versions_description
+  translation: "Tato příručka právě začala. Vraťte se později a podívejte se na předchozí verze."
+
+- id: what_is_guide_title
+  translation: "Co je tato příručka?"
+
+- id: license_title
+  translation: "Licence"
+
+- id: view_on_github_button
+  translation: "Zobrazit na GitHubu"
+
+- id: current_open_guide_label
+  translation: "Současný Open Guide"
+
+- id: active_status_label
+  translation: "Platná"
+
+- id: current_fork_label
+  translation: "Současný fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Forkováno z:"
+
+- id: forked_from_indicator
+  translation: "Forkováno z:"
+
+- id: this_is_fork_label
+  translation: "Toto je fork"
+
+- id: available_languages_label
+  translation: "Dostupné jazyky"
+
+- id: pdf_downloads_label
+  translation: "Soubory PDF ke stažení"
+
+- id: living_document_updated_label
+  translation: "Živý dokument aktualizován"
+
+- id: active_fork_updated_label
+  translation: "Aktivní fork aktualizován"
+
+- id: historical_fork_label
+  translation: "Historický fork z"
+
+- id: historical_version_label
+  translation: "Historická verze"
+
+- id: read_guide_button
+  translation: "Číst příručku"
+
+- id: translations_button_small
+  translation: "Překlady"
+
+- id: read_fork_button
+  translation: "Přečíst fork"
+
+- id: view_archive_button
+  translation: "Zobrazit archiv"
+
+- id: download_reference_status
+  translation: "Reference"

@@ -50,3 +50,5 @@ languages:
     disabled: true
   fi:
     disabled: true
+  cs:
+    disabled: true
