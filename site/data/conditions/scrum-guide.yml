@@ -1,0 +1,84 @@
+# Normative conditions for The Scrum Guide, by edition.
+#
+# Here rather than in edition front matter so that there is one copy. The
+# specification asks for conditions "so the edition page, the implementation
+# pages and any future validation read one source" (5.2); front matter is
+# duplicated into every language page, which is 49 copies and no source.
+#
+# Each condition states what must hold and what would show it does not. A
+# condition everything satisfies does no work, and a condition that is a
+# mechanism in disguise reintroduces the implementation the edition removed,
+# so each is written to be assessable without prescribing how it is met (9.3).
+#
+# Editorial authority over these is open question 6 and is unanswered. They
+# are published with the edition and are not settled.
+
+"2026.1":
+  - id: SG26-C1
+    element: Scrum Team
+    statement: >-
+      Each of the three accountabilities has a holder the Scrum Team can name.
+    falsifier: >-
+      Asked separately, members of the Scrum Team name different holders for
+      one accountability, or cannot name one at all.
+  - id: SG26-C2
+    element: Scrum Team
+    statement: >-
+      No accountability is divided between two people.
+    falsifier: >-
+      Two people each describe themselves as jointly holding one
+      accountability, with neither answerable for it alone.
+  - id: SG26-C3
+    element: Scrum Loops
+    statement: >-
+      Every loop closes. Its most recent occurrence ended in a change, or in a
+      conclusion recorded against evidence that no change was needed.
+    falsifier: >-
+      A loop whose most recent occurrence produced neither a change nor a
+      recorded conclusion.
+  - id: SG26-C4
+    element: Scrum Loops
+    statement: >-
+      The loop periods are ordered. Plan closes more often than Objective,
+      Direction at least as often as Objective, Practice before each Objective
+      closure, and Understanding ahead of it.
+    falsifier: >-
+      An Objective Loop that closed with no Practice Loop closure since the
+      previous one.
+  - id: SG26-C5
+    element: Direction Loop
+    statement: >-
+      The Direction Loop reaches outside the Scrum Team. Stakeholders used a
+      usable Increment, and what they did with it was taken in.
+    falsifier: >-
+      A Cycle in which the Increment was shown to stakeholders but not used by
+      them, or not seen by them at all.
+  - id: SG26-C6
+    element: Increment
+    statement: >-
+      The Increment is usable by the people it is for.
+    falsifier: >-
+      An Increment that nobody outside the Scrum Team could put to use.
+  - id: SG26-C7
+    element: Definition of Done
+    statement: >-
+      Done is one standard. All work in a Cycle is held to one Definition of
+      Done, and Scrum Teams pursuing one Enduring Outcome share it.
+    falsifier: >-
+      Two items in one Cycle held to different standards of done, or two Scrum
+      Teams on one Enduring Outcome applying different definitions.
+  - id: SG26-C8
+    element: Enduring Outcome
+    statement: >-
+      One Enduring Outcome is pursued at a time, and is fulfilled or abandoned
+      before the next is taken on.
+    falsifier: >-
+      A Scrum Team pursuing two Enduring Outcomes at once.
+  - id: SG26-C9
+    element: Practice Owner
+    statement: >-
+      Obstruction is acted on. Whoever holds the Practice accountability can
+      require a loop to close and act on what prevents it.
+    falsifier: >-
+      An obstruction identified, within the organisation's gift to remove, and
+      left in place because nobody had the authority to act.
