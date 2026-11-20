@@ -44,3 +44,5 @@ languages:
     disabled: true
   da:
     disabled: true
+  sv:
+    disabled: true

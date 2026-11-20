@@ -1,0 +1,586 @@
+# Interface strings, Swedish.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Dokument"
+
+- id: guides_section_title
+  translation: "Guider"
+
+- id: implementations_section_title
+  translation: "Implementeringsguider"
+
+- id: implementations_section_description
+  translation: "Sätt att använda Scrum i ett bestämt sammanhang. Var och en håller sig inom Scrums avsikt och lägger till vägledning för en situation - flera team på en produkt, att styra flödet, att komma igång - utan att ändra vad Scrum kräver."
+
+- id: extensions_section_title
+  translation: "Utvidgningar"
+
+- id: extensions_section_description
+  translation: "Praktiker som sträcker sig utanför vad Scrum tar hand om. En utvidgning utger sig inte för att vara Scrum och ändrar det inte; den tar sig an en fråga som Scrum lämnar öppen, som att mäta det värde en produkt levererar."
+
+- id: extensions_section_empty
+  translation: "Inga ännu."
+
+- id: foundation_section_title
+  translation: "Guiden"
+
+- id: history_page_title
+  translation: "Historik"
+
+- id: translations_page_title
+  translation: "Översättningar"
+
+- id: changes_section_title
+  translation: "Vad som ändrades"
+
+- id: changes_from_label
+  translation: "Ändringar från"
+
+- id: lineage_section_title
+  translation: "Linje"
+
+- id: adapted_from_label
+  translation: "Bearbetad från"
+
+- id: conforms_to_label
+  translation: "Följer"
+
+- id: conforming_guides_title
+  translation: "Guider som följer den här versionen"
+
+- id: conditions_section_title
+  translation: "Villkor"
+
+- id: condition_falsifier_label
+  translation: "Inte uppfyllt när"
+
+- id: current_version_label
+  translation: "Nuvarande version"
+
+- id: older_version_label
+  translation: "Äldre version"
+
+- id: version_notice_older
+  translation: "Det här är inte den nuvarande versionen av den här guiden."
+
+- id: view_latest_label
+  translation: "Se den nuvarande versionen"
+
+- id: read_time_label
+  translation: "min läsning"
+
+- id: badge_english_only
+  translation: "Endast engelska"
+
+- id: badge_english_only_title
+  translation: "Den här guiden är ännu inte översatt till det här språket."
+
+- id: badge_not_in_production
+  translation: "Inte i produktion"
+
+- id: badge_not_in_production_title
+  translation: "Den här guiden är utesluten från produktionsbygget."
+
+- id: badge_not_in_preview
+  translation: "Inte i förhandsvisning"
+
+- id: badge_not_in_preview_title
+  translation: "Den här guiden är utesluten från förhandsvisningsbygget."
+
+- id: licence_label
+  translation: "Licens"
+
+- id: canonical_source_label
+  translation: "Auktoritativ källa"
+
+- id: pending_licence_check
+  translation: "Brödtext inväntar licenskontroll"
+
+- id: guide_join_discussion
+  translation: "Diskutera den här guiden"
+
+- id: guide_version_current
+  translation: "Nuvarande"
+
+- id: guide_version_latest
+  translation: "Senaste"
+
+- id: guide_version_select
+  translation: "Välj version"
+
+- id: guide_version_dropdown_label
+  translation: "Version"
+
+- id: guide_historical_version_notice_title
+  translation: "Det här är inte den nuvarande versionen."
+
+- id: guide_historical_version_notice_text
+  translation: "Du läser en äldre version av den här guiden."
+
+- id: guide_historical_version_notice_link
+  translation: "Läs den nuvarande versionen"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Se på förhandsvisningssajten"
+
+- id: guide_translation_preview_note
+  translation: "Förhandsvisning av översättning."
+
+- id: guide_translation_preview_message
+  translation: "Den här översättningen granskas fortfarande och kan vara ofullständig."
+
+- id: contributors_label
+  translation: "Bidragsgivare"
+
+- id: translators_label
+  translation: "Översättare"
+
+- id: reportTranslationError
+  translation: "Rapportera ett översättningsfel"
+
+- id: nav_details
+  translation: "Om den här guiden"
+
+- id: nav_translations
+  translation: "Översättningar"
+
+- id: download_table_written_by
+  translation: "Skriven av"
+
+- id: download_table_contributed_by
+  translation: "Bidrag av"
+
+- id: download_table_status
+  translation: "Status"
+
+- id: download_discussion_action
+  translation: "Diskutera"
+
+- id: download_preview_action
+  translation: "Förhandsvisa"
+
+- id: download_preview_status
+  translation: "I förhandsvisning"
+
+- id: download_preview_description
+  translation: "Den här översättningen är ännu inte publicerad och kan läsas på förhandsvisningssajten."
+
+- id: download_preview_translations
+  translation: "Översättningar i förhandsvisning"
+
+- id: download_visit_preview
+  translation: "Öppna förhandsvisningssajten"
+
+- id: download_pdf_only_status
+  translation: "Endast PDF"
+
+- id: download_stub_status
+  translation: "Inte påbörjad"
+
+- id: site_wordmark
+  translation: "Scrumguiden"
+
+- id: nav_the_guide
+  translation: "Guiden"
+
+- id: nav_versions
+  translation: "Versioner"
+
+- id: nav_implementations
+  translation: "Implementeringar"
+
+- id: guide_pdf_not_available
+  translation: "PDF inte tillgänglig"
+
+- id: share_label
+  translation: "Dela"
+
+- id: share_copy_link
+  translation: "Kopiera länk"
+
+- id: share_copied
+  translation: "Kopierat till urklipp!"
+
+- id: share_close
+  translation: "Stäng"
+
+- id: role_creator
+  translation: "Upphovsman"
+
+- id: role_contributor
+  translation: "Bidragsgivare"
+
+- id: role_reviewer
+  translation: "Granskare"
+
+- id: role_translator
+  translation: "Översättare"
+
+- id: role_involved
+  translation: "Medverkande"
+
+- id: and
+  translation: "och"
+
+- id: breadcrumb_home
+  translation: "Start"
+
+- id: read_online_title
+  translation: "Läs online"
+
+- id: read_online_description
+  translation: "Få tillgång till hela guiden digitalt med interaktiva funktioner och enkel navigering."
+
+- id: read_online_button
+  translation: "Läs online"
+
+- id: translations_title
+  translation: "Översättningar"
+
+- id: translations_description
+  translation: "Läs den här guiden på flera språk och hjälp till med översättningarna."
+
+- id: translations_button
+  translation: "Se översättningar"
+
+- id: history_title
+  translation: "Historik"
+
+- id: history_description
+  translation: "Följ den här guidens utveckling och historik."
+
+- id: history_button
+  translation: "Se historiken"
+
+- id: what_is_guides_title
+  translation: "Vad är {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Open source och driven av gemenskapen"
+
+- id: open_source_description
+  translation: "Det här är ett open source-projekt som lever av samarbetet i gemenskapen. Vill du föreslå förbättringar, rapportera problem eller bidra med innehåll är du välkommen. Vissa guider tar inte emot bidrag men står här som referens. Tillsammans kan vi göra dessa resurser mer värda för praktiker över hela världen och för alla som vill förbättra arbetsflödets effektivitet och värdeleveransen."
+
+- id: at_a_glance_title
+  translation: "I korthet"
+
+- id: join_discussion_button
+  translation: "Delta i diskussionen"
+
+- id: join_discussion_title
+  translation: "Delta i diskussionen om {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Möt gemenskapen, dela din insikt och hjälp till att forma framtiden för {{ .Site.Title }}. Era bidrag är avgörande för att dessa guider ska bli hela samlingen för praktiker."
+
+- id: guides_intro_text
+  translation: "Lär dig de praktiker som fungerar och hur du använder dem för att optimera arbetsflöde och värdeleverans i varje process. Här finns hela samlingen av kunskap och goda praktiker. {{ .Site.Title }} är hemmet för praktiska guider: en fri, gemenskapsdriven referens för att använda beprövade metoder i kunskapsarbete. Guiderna avgränsar de kärnpraktiker och mått som krävs för att förbättra flödet, optimera värdeleveransen och stärka teamets uthållighet. De stöder skalbar adoption över branscher och kompletterar andra moderna arbetsflödesmetoder."
+
+- id: guide_content_not_found
+  translation: "Guideinnehåll hittades inte"
+
+- id: nav_read_guide
+  translation: "Läs guiden"
+
+- id: nav_history
+  translation: "Historik"
+
+- id: nav_overview
+  translation: "Översikt"
+
+- id: guide_pdf_download_button
+  translation: "Ladda ner PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Du kan också ladda ner den här guiden som PDF och läsa den offline."
+
+- id: guide_pdf_intro_link
+  translation: "Ladda ner PDF:en"
+
+- id: download_page_title
+  translation: "Läs och ladda ner den officiella {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} definieras här av"
+
+- id: download_page_originators
+  translation: ", upphovsmännen till {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Översättningarna har tillhandahållits av de hjälpsamma personer och grupper nedan. Välj det språk du vill ladda ner."
+
+- id: download_translation_error
+  translation: "Hittar du något du tror är ett översättningsfel i {{ .Title }}, kontakta den översättaren direkt. Behöver du mer hjälp, kontakta oss på"
+
+- id: download_official_version
+  translation: "Officiell version"
+
+- id: download_community_translations
+  translation: "Översättningar från gemenskapen"
+
+- id: download_current_version_released
+  translation: "Den nuvarande officiella versionen av {{ .Site.Title }} kom ut"
+
+- id: download_older_translations_notice
+  translation: "Äldre översättningar av {{ .Site.Title }} innehåller kanske inte den senaste informationen."
+
+- id: download_table_language
+  translation: "Språk"
+
+- id: download_table_translations_by
+  translation: "Översatt av"
+
+- id: download_table_action
+  translation: "Åtgärd"
+
+- id: download_official_current_version
+  translation: "Officiell nuvarande version"
+
+- id: download_button_text
+  translation: "Ladda ner"
+
+- id: download_coming_soon
+  translation: "Kommer snart"
+
+- id: download_missing_language
+  translation: "Saknas ditt språk?"
+
+- id: download_contribute_translation
+  translation: "Bidra med en ny översättning och hjälp gemenskapen."
+
+- id: download_add_translation
+  translation: "Lägg till en översättning"
+
+- id: download_community_contributors
+  translation: "Bidragsgivare från gemenskapen"
+
+- id: contributors_description
+  translation: "Bidragsgivarna nedan är sammanställda över alla guider och alla versioner."
+
+- id: read_online_action
+  translation: "Läs online"
+
+- id: guide_table_of_contents
+  translation: "Innehåll"
+
+- id: guide_coming_soon
+  translation: "Den här guiden är på väg. Håll utkik efter den."
+
+- id: guide_no_content_available
+  translation: "Det finns ännu inget innehåll på det här språket."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) inte tillgänglig"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) inte tillgänglig"
+
+- id: guide_coming_label
+  translation: "Kommer:"
+
+- id: guide_updated_label
+  translation: "Uppdaterad:"
+
+- id: guide_version_label
+  translation: "Version:"
+
+- id: guide_content_unavailable_note
+  translation: "Observera:"
+
+- id: guide_content_unavailable_message
+  translation: "Innehållet till den här sidan finns ännu inte på {{ .Language }}. Guidens standardinnehåll visas nedan."
+
+- id: guide_content_unavailable_title
+  translation: "Innehåll inte tillgängligt:"
+
+- id: guide_content_unavailable_description
+  translation: "Innehållet till den här sidan kunde inte läsas in, och det finns inget standardinnehåll att visa. Rapportera gärna"
+
+- id: guide_report_issue_link
+  translation: "Rapportera det här problemet"
+
+- id: guide_report_issue_message
+  translation: "så att vi kan rätta det."
+
+- id: guide_back_to_home
+  translation: "← Tillbaka till startsidan"
+
+- id: not_sure_which_to_use_title
+  translation: "Osäker på vilken du ska använda?"
+
+- id: get_started_title
+  translation: "Kom igång"
+
+- id: community_driven_label
+  translation: "Driven av gemenskapen"
+
+- id: coming_soon
+  translation: "Kommer snart"
+
+- id: purpose_title
+  translation: "Syfte"
+
+- id: ethos_title
+  translation: "Grundhållning"
+
+- id: audience_title
+  translation: "Läsare"
+
+- id: use_case_title
+  translation: "När den används"
+
+- id: content_title
+  translation: "Innehåll"
+
+- id: update_model_title
+  translation: "Så uppdateras den"
+
+- id: guide_overview_title
+  translation: "Översikt över guiden"
+
+- id: guide_overview_description
+  translation: "Huvuddragen i den här guiden"
+
+- id: when_to_use_title
+  translation: "När du använder den här guiden"
+
+- id: when_to_use_description
+  translation: "Välj det angreppssätt som passar ditt sammanhang"
+
+- id: quick_decision_guide_title
+  translation: "Snabbt val"
+
+- id: getting_started_title
+  translation: "Kom igång"
+
+- id: for_practitioners_title
+  translation: "För praktiker"
+
+- id: current_information_title
+  translation: "Nuvarande information"
+
+- id: current_information_description
+  translation: "Versionsdetaljer och bidragsgivare från gemenskapen"
+
+- id: current_version_title
+  translation: "Nuvarande version"
+
+- id: current_version_updated_label
+  translation: "Uppdaterad"
+
+- id: current_version_description
+  translation: "Det här är den version av guiden som gäller nu."
+
+- id: read_current_version_button
+  translation: "Läs den nuvarande versionen"
+
+- id: version_info_not_available
+  translation: "Versionsinformation inte tillgänglig"
+
+- id: contributors_title
+  translation: "Bidragsgivare"
+
+- id: contributors_description_card
+  translation: "Medlemmar i gemenskapen som formade den här guiden"
+
+- id: contributors_thank_you
+  translation: "Tack till alla som har gjort den här guiden bättre."
+
+- id: join_community_button
+  translation: "Gå med i gemenskapen"
+
+- id: no_contributors_found
+  translation: "Inga bidragsgivare hittades"
+
+- id: version_history_title
+  translation: "Versionshistorik"
+
+- id: version_history_description
+  translation: "Tidigare versioner och deras utveckling"
+
+- id: no_previous_versions_title
+  translation: "Inga tidigare versioner"
+
+- id: no_previous_versions_description
+  translation: "Den här guiden har just börjat. Kom tillbaka senare för att se tidigare versioner."
+
+- id: what_is_guide_title
+  translation: "Vad är den här guiden?"
+
+- id: license_title
+  translation: "Licens"
+
+- id: view_on_github_button
+  translation: "Se på GitHub"
+
+- id: current_open_guide_label
+  translation: "Nuvarande Open Guide"
+
+- id: active_status_label
+  translation: "Aktiv"
+
+- id: current_fork_label
+  translation: "Nuvarande fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Forkad från:"
+
+- id: forked_from_indicator
+  translation: "Forkad från:"
+
+- id: this_is_fork_label
+  translation: "Det här är en fork"
+
+- id: available_languages_label
+  translation: "Tillgängliga språk"
+
+- id: pdf_downloads_label
+  translation: "PDF-nedladdningar"
+
+- id: living_document_updated_label
+  translation: "Levande dokument uppdaterat"
+
+- id: active_fork_updated_label
+  translation: "Aktiv fork uppdaterad"
+
+- id: historical_fork_label
+  translation: "Historisk fork från"
+
+- id: historical_version_label
+  translation: "Historisk version"
+
+- id: read_guide_button
+  translation: "Läs guiden"
+
+- id: translations_button_small
+  translation: "Översättningar"
+
+- id: read_fork_button
+  translation: "Läs forken"
+
+- id: view_archive_button
+  translation: "Se arkivet"
+
+- id: download_reference_status
+  translation: "Referens"
