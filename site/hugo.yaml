@@ -23,6 +23,9 @@ languages:
       seo_title: "The Scrum Guide | Every version, one lineage"
       description: Every published version of the Scrum Guide in one place, from 2010 onward, with the implementation guides that build on it.
       keywords: Scrum Guide, Scrum, Scrum Guide versions, Scrum Guide history, Scrum Guide 2026, empirical process control, Scrum conditions, implementation guides, Kanban Guide for Scrum Teams
+  fr:
+    label: Français
+    weight: 19
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

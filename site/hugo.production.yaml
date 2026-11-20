@@ -8,3 +8,9 @@ printI18nWarnings: false
 
 minify:
   minifyOutput: true
+
+# Languages carrying a published translation. Each stays disabled in
+# production until promotion is separately approved; preview renders them.
+languages:
+  fr:
+    disabled: true
