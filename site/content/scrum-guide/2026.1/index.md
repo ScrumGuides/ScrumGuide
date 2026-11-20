@@ -258,7 +258,7 @@ Scrum does not define how long a loop takes. It defines only how often each loop
 
 The purpose of the Objective Loop is to state what the Scrum Team is trying to achieve next, so that the other loops have something to compare results against and stakeholders know what to expect. Correction requires a standard; without a stated intention, no difference can be called an error. This loop produces that standard, which is why it gathers no evidence of its own and relies on what the other loops have made available.
 
-Once set, the Cycle Goal informs the work without controlling it. Procedure can bound a response but cannot be the response, so the Cycle Goal states what the Scrum Team is trying to achieve and leaves the Product Developers to decide what to do about it.
+Once set, the Cycle Goal informs the work without controlling it. It is stated before the work, so that results are judged against an intention that was not chosen to fit them, and the Product Developers decide what to do about it.
 
 The span between two closures of this loop is a Cycle. One Cycle Goal holds for its whole length, and a new Cycle begins as the previous one ends. All the work necessary to achieve the Product Goal, including every loop, happens within Cycles.
 
@@ -346,7 +346,7 @@ The Scrum Team focuses on one Product Goal at a time. They must fulfil (or aband
 
 The Cycle Goal is the single objective for the Cycle. Although the Cycle Goal is a commitment by the Product Developers, it provides flexibility in terms of the exact work needed to achieve it.
 
-The Cycle Goal is a focus, not an inventory of the work. It does not have to account for every item in the Cycle Backlog. It gives the Scrum Team one objective to work toward together rather than on separate initiatives, and it communicates to stakeholders why the Cycle is valuable.
+The Cycle Goal is a focus, not an inventory of the work. Completing every selected item does not by itself satisfy it, and it may be satisfied by work that was not selected. A Cycle Goal that all the selected work would necessarily satisfy is the Cycle Backlog restated, and makes the commitment empty. It gives the Scrum Team one objective to work toward together rather than on separate initiatives, and it communicates to stakeholders why the Cycle is valuable.
 
 This flexibility allows the Scrum Team to act on what it learns during the Cycle. When the work turns out to be different from what the Product Developers expected, they collaborate with the Product Owner to negotiate the scope of the Cycle Backlog, without affecting the Cycle Goal.
 
