@@ -190,12 +190,6 @@ languages:
     title: የScrum መምሪያ
     params:
       description: የScrum መምሪያ የታተመ ሁሉም እትም በአንድ ቦታ፣ በእሱ ላይ ከሚመሠረቱ የትግበራ መምሪያዎች ጋር።
-  az:
-    label: Azərbaycan dili
-    weight: 3
-    title: Scrum Bələdçisi
-    params:
-      description: Scrum Bələdçisinin yayımlanmış hər buraxılışı bir yerdə, onun üzərində qurulan tətbiq bələdçiləri ilə birlikdə.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
