@@ -78,3 +78,5 @@ languages:
     disabled: true
   be:
     disabled: true
+  bn:
+    disabled: true

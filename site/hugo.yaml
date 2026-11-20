@@ -202,6 +202,12 @@ languages:
     title: Даведнік па Scrum
     params:
       description: Кожнае выданне Даведніка па Scrum у адным месцы, разам з даведнікамі ўкаранення, якія на ім стаяць.
+  bn:
+    label: বাংলা
+    weight: 6
+    title: Scrum নির্দেশিকা
+    params:
+      description: Scrum নির্দেশিকার প্রকাশিত প্রতিটি সংস্করণ এক জায়গায়, তার উপরে দাঁড়ানো প্রয়োগ-নির্দেশিকাগুলির সঙ্গে।
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
