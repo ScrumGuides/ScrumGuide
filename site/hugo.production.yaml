@@ -38,3 +38,5 @@ languages:
     disabled: true
   zh-hans:
     disabled: true
+  ko:
+    disabled: true

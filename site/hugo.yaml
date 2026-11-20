@@ -100,6 +100,12 @@ languages:
     title: Scrum 指南
     params:
       description: Scrum 指南已发布的每一个版本汇于一处，并附上以其为基础的实施指南。
+  ko:
+    label: 한국어
+    weight: 26
+    title: 스크럼 가이드
+    params:
+      description: 스크럼 가이드의 발행된 모든 버전을 한곳에, 그 위에 쌓아 올린 구현 가이드와 함께.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

@@ -1,0 +1,586 @@
+# Interface strings, Korean.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "문서"
+
+- id: guides_section_title
+  translation: "가이드"
+
+- id: implementations_section_title
+  translation: "구현 가이드"
+
+- id: implementations_section_description
+  translation: "특정 맥락에서 스크럼을 적용하는 방법들. 각각은 스크럼이 이루려는 범위 안에 머물면서 어떤 상황을 위한 안내를 더한다. 하나의 제품에 여러 팀, 흐름의 관리, 시작하기 같은 것이다. 스크럼이 요구하는 것은 바꾸지 않는다."
+
+- id: extensions_section_title
+  translation: "확장"
+
+- id: extensions_section_description
+  translation: "스크럼이 다루는 범위를 넘어서는 실천법. 확장은 스크럼이라고 주장하지 않고 스크럼을 바꾸지도 않는다. 제품이 전달하는 가치의 측정처럼, 스크럼이 열어 둔 문제를 다룬다."
+
+- id: extensions_section_empty
+  translation: "아직 없습니다."
+
+- id: foundation_section_title
+  translation: "가이드"
+
+- id: history_page_title
+  translation: "연혁"
+
+- id: translations_page_title
+  translation: "번역"
+
+- id: changes_section_title
+  translation: "달라진 점"
+
+- id: changes_from_label
+  translation: "변경 기준"
+
+- id: lineage_section_title
+  translation: "계보"
+
+- id: adapted_from_label
+  translation: "원작"
+
+- id: conforms_to_label
+  translation: "준수"
+
+- id: conforming_guides_title
+  translation: "이 버전을 준수하는 가이드"
+
+- id: conditions_section_title
+  translation: "조건"
+
+- id: condition_falsifier_label
+  translation: "충족되지 않는 경우"
+
+- id: current_version_label
+  translation: "현재 버전"
+
+- id: older_version_label
+  translation: "이전 버전"
+
+- id: version_notice_older
+  translation: "이것은 이 가이드의 현재 버전이 아닙니다."
+
+- id: view_latest_label
+  translation: "현재 버전 보기"
+
+- id: read_time_label
+  translation: "분 분량"
+
+- id: badge_english_only
+  translation: "영어만"
+
+- id: badge_english_only_title
+  translation: "이 가이드는 이 언어로 아직 번역되지 않았습니다."
+
+- id: badge_not_in_production
+  translation: "프로덕션에 없음"
+
+- id: badge_not_in_production_title
+  translation: "이 가이드는 프로덕션 빌드에서 제외되었습니다."
+
+- id: badge_not_in_preview
+  translation: "프리뷰에 없음"
+
+- id: badge_not_in_preview_title
+  translation: "이 가이드는 프리뷰 빌드에서 제외되었습니다."
+
+- id: licence_label
+  translation: "라이선스"
+
+- id: canonical_source_label
+  translation: "정본 출처"
+
+- id: pending_licence_check
+  translation: "라이선스 확인을 기다리는 본문"
+
+- id: guide_join_discussion
+  translation: "이 가이드에 대해 이야기하기"
+
+- id: guide_version_current
+  translation: "현재"
+
+- id: guide_version_latest
+  translation: "최신"
+
+- id: guide_version_select
+  translation: "버전 고르기"
+
+- id: guide_version_dropdown_label
+  translation: "버전"
+
+- id: guide_historical_version_notice_title
+  translation: "이것은 현재 버전이 아닙니다."
+
+- id: guide_historical_version_notice_text
+  translation: "이 가이드의 이전 버전을 읽고 있습니다."
+
+- id: guide_historical_version_notice_link
+  translation: "현재 버전 읽기"
+
+- id: guide_historical_version_notice_suffix
+  translation: "를 권합니다."
+
+- id: guide_preview_link
+  translation: "프리뷰 사이트에서 보기"
+
+- id: guide_translation_preview_note
+  translation: "번역 프리뷰."
+
+- id: guide_translation_preview_message
+  translation: "이 번역은 아직 검토 중이며 완전하지 않을 수 있습니다."
+
+- id: contributors_label
+  translation: "기여자"
+
+- id: translators_label
+  translation: "번역자"
+
+- id: reportTranslationError
+  translation: "번역 오류 알리기"
+
+- id: nav_details
+  translation: "이 가이드에 대하여"
+
+- id: nav_translations
+  translation: "번역"
+
+- id: download_table_written_by
+  translation: "집필"
+
+- id: download_table_contributed_by
+  translation: "도움 주신 분"
+
+- id: download_table_status
+  translation: "상태"
+
+- id: download_discussion_action
+  translation: "이야기하기"
+
+- id: download_preview_action
+  translation: "프리뷰"
+
+- id: download_preview_status
+  translation: "프리뷰 중"
+
+- id: download_preview_description
+  translation: "이 번역은 아직 발행되지 않았습니다. 프리뷰 사이트에서 읽을 수 있습니다."
+
+- id: download_preview_translations
+  translation: "프리뷰 중인 번역"
+
+- id: download_visit_preview
+  translation: "프리뷰 사이트 열기"
+
+- id: download_pdf_only_status
+  translation: "PDF만"
+
+- id: download_stub_status
+  translation: "시작 전"
+
+- id: site_wordmark
+  translation: "스크럼 가이드"
+
+- id: nav_the_guide
+  translation: "가이드"
+
+- id: nav_versions
+  translation: "버전"
+
+- id: nav_implementations
+  translation: "구현"
+
+- id: guide_pdf_not_available
+  translation: "PDF를 제공하지 않습니다"
+
+- id: share_label
+  translation: "공유"
+
+- id: share_copy_link
+  translation: "링크 복사"
+
+- id: share_copied
+  translation: "을(를) 클립보드에 복사했습니다"
+
+- id: share_close
+  translation: "닫기"
+
+- id: role_creator
+  translation: "창안자"
+
+- id: role_contributor
+  translation: "기여자"
+
+- id: role_reviewer
+  translation: "검토자"
+
+- id: role_translator
+  translation: "번역자"
+
+- id: role_involved
+  translation: "참여자"
+
+- id: and
+  translation: "및"
+
+- id: breadcrumb_home
+  translation: "홈"
+
+- id: read_online_title
+  translation: "온라인으로 읽기"
+
+- id: read_online_description
+  translation: "대화형 기능과 간편한 탐색으로 가이드 전문을 디지털로 이용하세요."
+
+- id: read_online_button
+  translation: "온라인으로 읽기"
+
+- id: translations_title
+  translation: "번역"
+
+- id: translations_description
+  translation: "이 가이드를 여러 언어로 읽고 번역에 힘을 보태 주세요."
+
+- id: translations_button
+  translation: "번역 보기"
+
+- id: history_title
+  translation: "연혁"
+
+- id: history_description
+  translation: "이 가이드의 변화와 역사를 따라가 보세요."
+
+- id: history_button
+  translation: "연혁 보기"
+
+- id: what_is_guides_title
+  translation: "{{ .Site.Title }}은 무엇인가"
+
+- id: open_source_title
+  translation: "오픈 소스, 커뮤니티가 이끄는"
+
+- id: open_source_description
+  translation: "이것은 커뮤니티의 협력으로 살아가는 오픈 소스 프로젝트입니다. 개선을 제안하든, 문제를 알리든, 내용을 보태든 여러분의 참여를 환영합니다. 일부 가이드는 기여를 받지 않지만 참고를 위해 함께 실었습니다. 우리는 함께 이 자료들을 전 세계 실무자와, 워크플로의 효율과 가치 전달을 높이고자 하는 모든 이에게 더 값진 것으로 만들 수 있습니다."
+
+- id: at_a_glance_title
+  translation: "한눈에"
+
+- id: join_discussion_button
+  translation: "이야기에 참여하기"
+
+- id: join_discussion_title
+  translation: "{{ .Site.Title }} 이야기에 참여하기"
+
+- id: join_discussion_description
+  translation: "커뮤니티와 이야기 나누고, 알게 된 바를 공유하고, {{ .Site.Title }}의 앞날을 만들어 가는 데 힘을 보태 주세요. 이 가이드들이 실무자를 위한 온전한 자료가 되려면 여러분의 기여가 꼭 필요합니다."
+
+- id: guides_intro_text
+  translation: "어떤 프로세스에서든 워크플로와 가치 전달을 최적화하도록 돕는 효과적인 실천법과 그 적용 방법을 알아보세요. 지식과 좋은 실천법을 모은 종합 자료입니다. {{ .Site.Title }}은 실용적인 가이드의 보금자리이며, 지식 노동에 검증된 방법을 적용하기 위한 무료의, 커뮤니티가 이끄는 참고 자료입니다. 각 가이드는 흐름을 개선하고 가치 전달을 최적화하며 팀의 지속 가능성을 높이는 데 필요한 핵심 실천법과 지표를 규정합니다. 여러 업종에서 확장 가능한 도입을 뒷받침하고, 워크플로에 관한 다른 현대적 접근을 보완합니다."
+
+- id: guide_content_not_found
+  translation: "가이드 내용을 찾을 수 없습니다"
+
+- id: nav_read_guide
+  translation: "가이드 읽기"
+
+- id: nav_history
+  translation: "연혁"
+
+- id: nav_overview
+  translation: "개요"
+
+- id: guide_pdf_download_button
+  translation: "PDF 내려받기"
+
+- id: guide_pdf_intro_text
+  translation: "이 가이드는 PDF로도 내려받아 오프라인에서 읽을 수 있습니다."
+
+- id: guide_pdf_intro_link
+  translation: "PDF 내려받기"
+
+- id: download_page_title
+  translation: "공식 {{ .Title }} 읽기 및 내려받기"
+
+- id: download_page_description
+  translation: "{{ .Title }}은 여기서 다음에 의해 정의됩니다"
+
+- id: download_page_originators
+  translation: ", {{ .Title }}의 창안자입니다."
+
+- id: download_translations_provided
+  translation: "아래에 적힌 분들과 단체의 호의로 제공된 번역입니다. 내려받으실 언어의 가이드를 골라 주세요."
+
+- id: download_translation_error
+  translation: "{{ .Title }}에서 번역 오류로 보이는 곳을 찾았다면 번역한 분에게 직접 알려 주세요. 추가 도움이 필요하면 다음으로 연락해 주세요"
+
+- id: download_official_version
+  translation: "공식 버전"
+
+- id: download_community_translations
+  translation: "커뮤니티 번역"
+
+- id: download_current_version_released
+  translation: "{{ .Site.Title }}의 현재 공식 버전이 나온 시점은"
+
+- id: download_older_translations_notice
+  translation: "날짜가 오래된 {{ .Site.Title }} 번역에는 최신 정보가 담겨 있지 않을 수 있습니다."
+
+- id: download_table_language
+  translation: "언어"
+
+- id: download_table_translations_by
+  translation: "번역"
+
+- id: download_table_action
+  translation: "작업"
+
+- id: download_official_current_version
+  translation: "공식 현재 버전"
+
+- id: download_button_text
+  translation: "내려받기"
+
+- id: download_coming_soon
+  translation: "준비 중"
+
+- id: download_missing_language
+  translation: "원하는 언어가 없나요?"
+
+- id: download_contribute_translation
+  translation: "새 번역을 보태 커뮤니티를 도와주세요."
+
+- id: download_add_translation
+  translation: "번역 추가하기"
+
+- id: download_community_contributors
+  translation: "커뮤니티 기여자"
+
+- id: contributors_description
+  translation: "아래 기여자는 모든 가이드와 모든 버전의 기여자를 모은 것입니다."
+
+- id: read_online_action
+  translation: "온라인으로 읽기"
+
+- id: guide_table_of_contents
+  translation: "목차"
+
+- id: guide_coming_soon
+  translation: "이 가이드는 곧 나옵니다. 조금만 기다려 주세요."
+
+- id: guide_no_content_available
+  translation: "이 언어의 내용은 아직 제공되지 않습니다."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN)를 제공하지 않습니다"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US)를 제공하지 않습니다"
+
+- id: guide_coming_label
+  translation: "예정:"
+
+- id: guide_updated_label
+  translation: "갱신:"
+
+- id: guide_version_label
+  translation: "버전:"
+
+- id: guide_content_unavailable_note
+  translation: "참고:"
+
+- id: guide_content_unavailable_message
+  translation: "이 페이지의 내용은 {{ .Language }}로 제공되지 않습니다. 아래에 가이드의 기본 내용을 보여 줍니다."
+
+- id: guide_content_unavailable_title
+  translation: "내용을 제공하지 않습니다:"
+
+- id: guide_content_unavailable_description
+  translation: "이 페이지의 내용을 불러올 수 없고 기본 내용도 없습니다. 번거로우시겠지만"
+
+- id: guide_report_issue_link
+  translation: "이 문제를 알려 주시면"
+
+- id: guide_report_issue_message
+  translation: "바로잡는 데 도움이 됩니다."
+
+- id: guide_back_to_home
+  translation: "← 홈으로 돌아가기"
+
+- id: not_sure_which_to_use_title
+  translation: "어느 것을 쓸지 모르겠나요?"
+
+- id: get_started_title
+  translation: "시작하기"
+
+- id: community_driven_label
+  translation: "커뮤니티가 이끄는"
+
+- id: coming_soon
+  translation: "준비 중"
+
+- id: purpose_title
+  translation: "목적"
+
+- id: ethos_title
+  translation: "태도"
+
+- id: audience_title
+  translation: "대상"
+
+- id: use_case_title
+  translation: "쓰이는 상황"
+
+- id: content_title
+  translation: "내용"
+
+- id: update_model_title
+  translation: "갱신 방식"
+
+- id: guide_overview_title
+  translation: "가이드 개요"
+
+- id: guide_overview_description
+  translation: "이 가이드의 주요 특징"
+
+- id: when_to_use_title
+  translation: "이 가이드를 쓸 때"
+
+- id: when_to_use_description
+  translation: "자신의 맥락에 맞는 방식을 고르세요"
+
+- id: quick_decision_guide_title
+  translation: "빠른 선택 도움"
+
+- id: getting_started_title
+  translation: "첫걸음"
+
+- id: for_practitioners_title
+  translation: "실무자를 위해"
+
+- id: current_information_title
+  translation: "현재 정보"
+
+- id: current_information_description
+  translation: "버전 정보와 커뮤니티 기여자"
+
+- id: current_version_title
+  translation: "현재 버전"
+
+- id: current_version_updated_label
+  translation: "갱신"
+
+- id: current_version_description
+  translation: "이것은 이 가이드의 현재 유효한 버전입니다."
+
+- id: read_current_version_button
+  translation: "현재 버전 읽기"
+
+- id: version_info_not_available
+  translation: "버전 정보를 제공하지 않습니다"
+
+- id: contributors_title
+  translation: "기여자"
+
+- id: contributors_description_card
+  translation: "이 가이드를 만들어 가는 커뮤니티 구성원"
+
+- id: contributors_thank_you
+  translation: "이 가이드를 더 좋게 만들어 주신 모든 분께 감사합니다."
+
+- id: join_community_button
+  translation: "커뮤니티에 참여하기"
+
+- id: no_contributors_found
+  translation: "기여자를 찾을 수 없습니다"
+
+- id: version_history_title
+  translation: "버전 연혁"
+
+- id: version_history_description
+  translation: "이전 버전과 그 변화"
+
+- id: no_previous_versions_title
+  translation: "이전 버전이 없습니다"
+
+- id: no_previous_versions_description
+  translation: "이 가이드는 막 시작되었습니다. 이전 버전은 나중에 다시 확인해 주세요."
+
+- id: what_is_guide_title
+  translation: "이 가이드는 무엇인가"
+
+- id: license_title
+  translation: "라이선스"
+
+- id: view_on_github_button
+  translation: "GitHub에서 보기"
+
+- id: current_open_guide_label
+  translation: "현재 Open Guide"
+
+- id: active_status_label
+  translation: "유효"
+
+- id: current_fork_label
+  translation: "현재 포크"
+
+- id: active_fork_label
+  translation: "포크"
+
+- id: fork_indicator
+  translation: "포크 출처:"
+
+- id: forked_from_indicator
+  translation: "포크 출처:"
+
+- id: this_is_fork_label
+  translation: "이것은 포크입니다"
+
+- id: available_languages_label
+  translation: "제공 언어"
+
+- id: pdf_downloads_label
+  translation: "PDF 내려받기"
+
+- id: living_document_updated_label
+  translation: "살아 있는 문서 갱신"
+
+- id: active_fork_updated_label
+  translation: "유효한 포크 갱신"
+
+- id: historical_fork_label
+  translation: "과거 포크 출처"
+
+- id: historical_version_label
+  translation: "과거 버전"
+
+- id: read_guide_button
+  translation: "가이드 읽기"
+
+- id: translations_button_small
+  translation: "번역"
+
+- id: read_fork_button
+  translation: "포크 읽기"
+
+- id: view_archive_button
+  translation: "아카이브 보기"
+
+- id: download_reference_status
+  translation: "참고"
