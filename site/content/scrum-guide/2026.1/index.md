@@ -10,8 +10,15 @@ keywords:
   - Scrum Guide
   - First Principles
 changes_from: 2020.11
-aliases:
-  - /scrum-guide/latest
+# Draft. The text is written but not editorially settled: open questions remain
+# on the one-month ceiling, the multi-team rule, lean thinking's place, and
+# whether the Practice loop should close on a verified improvement. A review
+# also found claims in it that are false or unsupported.
+#
+# Draft and future editions must not own /scrum-guide/latest, so that alias
+# stays on 2020.11. When this edition is settled: remove `draft`, and move the
+# alias here from 2020.11, per specification.md 4.1 and 5.4.
+draft: true
 ---
 
 > **A derived work by Martin Hinshelwood.**
