@@ -1,0 +1,28 @@
+# Credits for Getting Started for Scrum Teams.
+#
+# The text of this guide is the November 2020 Scrum Guide, reproduced unaltered
+# under CC BY-SA 4.0. Ken Schwaber and Jeff Sutherland wrote it and are its
+# authors. Reproducing their text here as an implementation guide does not make
+# anyone else its author.
+#
+# Martin Hinshelwood assembled the guide and wrote its framing: the standing
+# notice, the guide overview, and the relationship it states to Scrum Guide
+# 2026. That is a contribution, not authorship of the text.
+
+- name: Ken Schwaber
+  role: creator
+  founder: true
+  weight: 1
+  contributions:
+    - "2026.1"
+- name: Jeff Sutherland
+  role: creator
+  founder: true
+  weight: 2
+  contributions:
+    - "2026.1"
+- name: Martin Hinshelwood
+  role: contributor
+  weight: 3
+  contributions:
+    - "2026.1"
