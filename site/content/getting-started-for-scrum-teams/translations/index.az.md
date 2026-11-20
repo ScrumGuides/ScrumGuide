@@ -1,0 +1,16 @@
+---
+title: Tərcümələr
+layout: translations
+type: guide
+description: Scrum Team-lər üçün ilk addımların tərcümələri.
+---
+
+Bu bələdçinin əsas mətni 2020-ci ilin noyabrındaki Scrum Bələdçisidir, buna görə onun tərcümələri o
+sənədin tərcümələridir: onları Ken Şvaber və Ceff Sazerlendin hər dil üçün adlandırdığı tərcüməçilər
+etmişdir. Onların hər biri İngilis sənədindəki həmin Creative Commons İstinad - Eyni şərtlə paylaş
+4.0 bəyanını daşıyır.
+
+Yalnız PDF kimi işarələnmiş dillər üçün tərcümə olunmuş sənəd buradadır, lakin əsas mətnin şəbəkə
+buraxılışı yoxdur. Tərcümədə səhv tapsanız, o tərcüməçiyə və ya yayımçıya bildirin.
+
+Yayımçının siyahısı [scrumguides.org](https://scrumguides.org/) saytındadır.

@@ -74,3 +74,5 @@ languages:
     disabled: true
   am:
     disabled: true
+  az:
+    disabled: true

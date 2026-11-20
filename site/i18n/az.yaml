@@ -1,0 +1,607 @@
+# Interface strings, Azerbaijani.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Sənədlər"
+
+- id: guides_section_title
+  translation: "Bələdçilər"
+
+- id: implementations_section_title
+  translation: "Tətbiq bələdçiləri"
+
+- id: implementations_section_description
+  translation: "Scrum-u müəyyən şəraitdə işlətmə yolları. Onların hər biri Scrum-un niyyətinin içində qalır və hər hansı vəziyyət üçün yol göstərir — bir məhsulda bir neçə komanda, axını idarə etmə, başlama — Scrum-un tələb etdiyini dəyişdirmədən."
+
+- id: extensions_section_title
+  translation: "Genişlənmələr"
+
+- id: extensions_section_description
+  translation: "Scrum-un məşğul olduğu hüdudun kənarına çatan təcrübələr. Genişlənmə özünü Scrum kimi göstərmir və onu dəyişdirmir; o Scrum-un açıq qoyduğu sualı götürür, bir məhsulun verdiyi dəyəri ölçmək kimi."
+
+- id: extensions_section_empty
+  translation: "Hələ heç biri."
+
+- id: foundation_section_title
+  translation: "Bələdçi"
+
+- id: history_page_title
+  translation: "Tarix"
+
+- id: translations_page_title
+  translation: "Tərcümələr"
+
+- id: changes_section_title
+  translation: "Nə dəyişdi"
+
+- id: changes_from_label
+  translation: "Buna nisbətən dəyişikliklər"
+
+- id: lineage_section_title
+  translation: "Xətt"
+
+- id: adapted_from_label
+  translation: "Bundan uyğunlaşdırılmış"
+
+- id: conforms_to_label
+  translation: "Buna uyğundur"
+
+- id: conforming_guides_title
+  translation: "Bu buraxılışa uyğun bələdçilər"
+
+- id: conditions_section_title
+  translation: "Şərtlər"
+
+- id: condition_falsifier_label
+  translation: "Yerinə yetmir, o halda ki"
+
+- id: current_version_label
+  translation: "Hazırkı buraxılış"
+
+- id: older_version_label
+  translation: "Daha köhnə buraxılış"
+
+- id: version_notice_older
+  translation: "Bu həmin bələdçinin hazırkı buraxılışı deyil."
+
+- id: view_latest_label
+  translation: "Hazırkı buraxılışa baxın"
+
+- id: read_time_label
+  translation: "dəq oxu"
+
+- id: badge_english_only
+  translation: "Yalnız İngilis dilində"
+
+- id: badge_english_only_title
+  translation: "Bu bələdçi hələ bu dilə tərcümə olunmamışdır."
+
+- id: badge_not_in_production
+  translation: "İstehsalatda yoxdur"
+
+- id: badge_not_in_production_title
+  translation: "Bu bələdçi istehsalat qurulmasından kənarda qoyulmuşdur."
+
+- id: badge_not_in_preview
+  translation: "Önbaxışda yoxdur"
+
+- id: badge_not_in_preview_title
+  translation: "Bu bələdçi önbaxış qurulmasından kənarda qoyulmuşdur."
+
+- id: licence_label
+  translation: "Lisenziya"
+
+- id: canonical_source_label
+  translation: "Etibarlı qaynaq"
+
+- id: pending_licence_check
+  translation: "Əsas mətn lisenziya yoxlamasını gözləyir"
+
+- id: guide_join_discussion
+  translation: "Bu bələdçini müzakirə edin"
+
+- id: guide_version_current
+  translation: "Hazırkı"
+
+- id: guide_version_latest
+  translation: "Ən yeni"
+
+- id: guide_version_select
+  translation: "Buraxılışı seçin"
+
+- id: guide_version_dropdown_label
+  translation: "Buraxılış"
+
+- id: guide_historical_version_notice_title
+  translation: "Bu hazırkı buraxılış deyil."
+
+- id: guide_historical_version_notice_text
+  translation: "Bu bələdçinin daha köhnə buraxılışını oxuyursunuz."
+
+- id: guide_historical_version_notice_link
+  translation: "Hazırkı buraxılışı oxuyun"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Önbaxış saytında görün"
+
+- id: guide_translation_preview_note
+  translation: "Tərcümənin önbaxışı."
+
+- id: guide_translation_preview_message
+  translation: "Bu tərcümə hələ nəzərdən keçirilir və tam olmaya bilər."
+
+- id: contributors_label
+  translation: "Töhfə verənlər"
+
+- id: translators_label
+  translation: "Tərcüməçilər"
+
+- id: reportTranslationError
+  translation: "Tərcümə səhvi barədə bildirin"
+
+- id: nav_details
+  translation: "Bu bələdçi barədə"
+
+- id: nav_translations
+  translation: "Tərcümələr"
+
+- id: download_table_written_by
+  translation: "Yazanlar"
+
+- id: download_table_contributed_by
+  translation: "Töhfə verənlər"
+
+- id: download_table_status
+  translation: "Vəziyyət"
+
+- id: download_discussion_action
+  translation: "Müzakirə"
+
+- id: download_preview_action
+  translation: "Önbaxış"
+
+- id: download_preview_status
+  translation: "Önbaxışda"
+
+- id: download_preview_description
+  translation: "Bu tərcümə hələ yayımlanmamışdır və önbaxış saytında oxuna bilər."
+
+- id: download_preview_translations
+  translation: "Önbaxışdaki tərcümələr"
+
+- id: download_visit_preview
+  translation: "Önbaxış saytını açın"
+
+- id: download_pdf_only_status
+  translation: "Yalnız PDF"
+
+- id: download_stub_status
+  translation: "Başlanmamış"
+
+- id: site_wordmark
+  translation: "Scrum Bələdçiləri"
+
+- id: nav_the_guide
+  translation: "Bələdçi"
+
+- id: nav_versions
+  translation: "Buraxılışlar"
+
+- id: nav_implementations
+  translation: "Tətbiqlər"
+
+- id: guide_pdf_not_available
+  translation: "PDF yoxdur"
+
+- id: share_label
+  translation: "Paylaş"
+
+- id: share_copy_link
+  translation: "Keçidi köçür"
+
+- id: share_copied
+  translation: "Mübadilə yaddaşına köçürüldü!"
+
+- id: share_close
+  translation: "Bağla"
+
+- id: role_creator
+  translation: "Yaradan"
+
+- id: role_contributor
+  translation: "Töhfə verən"
+
+- id: role_reviewer
+  translation: "Nəzərdən keçirən"
+
+- id: role_translator
+  translation: "Tərcüməçi"
+
+- id: role_involved
+  translation: "İştirak edən"
+
+- id: nav_getting_started
+  translation: "İlk addımlar"
+
+- id: nav_the_scrum_guide
+  translation: "Scrum Bələdçisi"
+
+- id: home_action_getting_started
+  translation: "Scrum Team-lər üçün ilk addımları şəbəkədə oxuyun"
+
+- id: home_action_scrum_guide
+  translation: "Rəsmi Scrum Bələdçisini şəbəkədə oxuyun"
+
+- id: home_action_translations
+  translation: "Rəsmi Scrum Bələdçisini 30-dan çox dildə yükləyin"
+
+- id: home_action_read_online
+  translation: "Şəbəkədə oxu"
+
+- id: home_action_select_language
+  translation: "Dil seçib yüklə"
+
+- id: and
+  translation: "və"
+
+- id: breadcrumb_home
+  translation: "Ana səhifə"
+
+- id: read_online_title
+  translation: "Şəbəkədə oxu"
+
+- id: read_online_description
+  translation: "Bütün bələdçiyə rəqəmsal şəkildə, qarşılıqlı imkanlar və asan gəzinti ilə çatın."
+
+- id: read_online_button
+  translation: "Şəbəkədə oxu"
+
+- id: translations_title
+  translation: "Tərcümələr"
+
+- id: translations_description
+  translation: "Bu bələdçini bir neçə dildə oxuyun və tərcümələrə kömək edin."
+
+- id: translations_button
+  translation: "Tərcümələrə baxın"
+
+- id: history_title
+  translation: "Tarix"
+
+- id: history_description
+  translation: "Bu bələdçinin inkişafını və tarixini izləyin."
+
+- id: history_button
+  translation: "Tarixə baxın"
+
+- id: what_is_guides_title
+  translation: "{{ .Site.Title }} nədir?"
+
+- id: open_source_title
+  translation: "Açıq qaynaq, birlik aparır"
+
+- id: open_source_description
+  translation: "Bu birliyin birgə işindən yaşayan açıq qaynaqlı layihədir. Yaxşılaşdırmalar təklif etmək, problemlər barədə bildirmək və ya mündəricatla töhfə vermək istəyirsinizsə, xoş gəlmisiniz. Bəzi bələdçilər töhfə qəbul etmir, lakin burada istinad kimi durur. Birlikdə biz bu qaynaqları bütün dünyadaki tətbiq edənlər üçün və iş axınının səmərəsini ilə dəyər çatdırmanı yaxşılaşdırmaq istəyən hər kəs üçün daha dəyərli edə bilərik."
+
+- id: at_a_glance_title
+  translation: "Qısaca"
+
+- id: join_discussion_button
+  translation: "Müzakirəyə qoşulun"
+
+- id: join_discussion_title
+  translation: "{{ .Site.Title }} barədə müzakirəyə qoşulun"
+
+- id: join_discussion_description
+  translation: "Birliklə görüşün, gördüyünüzü paylaşın və {{ .Site.Title }} -nin gələcəyini biçimləndirməyə kömək edin. Bu bələdçilərin tətbiq edənlər üçün tam bədən olması üçün sizin töhfəniz əvəzsizdir."
+
+- id: guides_intro_text
+  translation: "İşləyən təcrübələri və onları hər hansı prosesdə iş axını ilə dəyər çatdırmanı ən yaxşı hala salmaq üçün necə işlətməyi öyrənin. Burada bilik və yaxşı təcrübələrin bütün bədəni var. {{ .Site.Title }} praktik bələdçilərin evidir: bilik işində sübut olunmuş üsulları işlətmək üçün azad, birliyin apardığı istinad. Bələdçilər axını yaxşılaşdırmaq, dəyər çatdırmanı ən yaxşı hala salmaq və komandanın davamlılığını möhkəmlətmək üçün gərəkli olan əsas təcrübələri və ölçüləri hüdudlandırır. Onlar müxtəlif sahədə böyüdülə bilən qəbulu dəstəkləyir və iş axınının başqa müasir üsullarını tamamlayır."
+
+- id: guide_content_not_found
+  translation: "Bələdçinin mündəricatı tapılmadı"
+
+- id: nav_read_guide
+  translation: "Bələdçini oxuyun"
+
+- id: nav_history
+  translation: "Tarix"
+
+- id: nav_overview
+  translation: "Ümumi baxış"
+
+- id: guide_pdf_download_button
+  translation: "PDF yüklə"
+
+- id: guide_pdf_intro_text
+  translation: "Bu bələdçini PDF kimi də yükləyib şəbəkəsiz oxuya bilərsiniz."
+
+- id: guide_pdf_intro_link
+  translation: "PDF-i yükləyin"
+
+- id: download_page_title
+  translation: "Rəsmi {{ .Title }} -ni oxuyun və yükləyin"
+
+- id: download_page_description
+  translation: "{{ .Title }} burada aşağıdakılar tərəfindən müəyyən edilir"
+
+- id: download_page_originators
+  translation: " — {{ .Title }} -ni yaradanlar."
+
+- id: download_translations_provided
+  translation: "Tərcümələri aşağıda sadalanan xeyirxah insanlar və qruplar vermişdir. Yükləmək istədiyiniz dili seçin."
+
+- id: download_translation_error
+  translation: "{{ .Title }} içində tərcümə səhvi saydığınız bir şey tapsanız, birbaşa o tərcüməçiyə müraciət edin. Əlavə kömək lazımdırsa, bizimlə bu vasitə ilə əlaqə saxlayın"
+
+- id: download_official_version
+  translation: "Rəsmi buraxılış"
+
+- id: download_community_translations
+  translation: "Birlikdən tərcümələr"
+
+- id: download_current_version_released
+  translation: "{{ .Site.Title }} -nin hazırkı rəsmi buraxılışı çıxdı"
+
+- id: download_older_translations_notice
+  translation: "{{ .Site.Title }} -nin daha köhnə tərcümələrində ən yeni məlumat olmaya bilər."
+
+- id: download_table_language
+  translation: "Dil"
+
+- id: download_table_translations_by
+  translation: "Tərcümə edənlər"
+
+- id: download_table_action
+  translation: "Əməl"
+
+- id: download_official_current_version
+  translation: "Rəsmi hazırkı buraxılış"
+
+- id: download_button_text
+  translation: "Yüklə"
+
+- id: download_coming_soon
+  translation: "Tezliklə"
+
+- id: download_missing_language
+  translation: "Diliniz yoxdur?"
+
+- id: download_contribute_translation
+  translation: "Yeni tərcümə ilə töhfə verin və birliyə kömək edin."
+
+- id: download_add_translation
+  translation: "Tərcümə əlavə edin"
+
+- id: download_community_contributors
+  translation: "Birlikdən töhfə verənlər"
+
+- id: contributors_description
+  translation: "Aşağıdaki töhfə verənlər bütün bələdçilərdən və bütün buraxılışlardan yığılmışdır."
+
+- id: read_online_action
+  translation: "Şəbəkədə oxu"
+
+- id: guide_table_of_contents
+  translation: "Mündəricat"
+
+- id: guide_coming_soon
+  translation: "Bu bələdçi yoldadır. Onu izləyin."
+
+- id: guide_no_content_available
+  translation: "Bu dildə hələ mündəricat yoxdur."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) yoxdur"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) yoxdur"
+
+- id: guide_coming_label
+  translation: "Gəlir:"
+
+- id: guide_updated_label
+  translation: "Yeniləndi:"
+
+- id: guide_version_label
+  translation: "Buraxılış:"
+
+- id: guide_content_unavailable_note
+  translation: "Qeyd:"
+
+- id: guide_content_unavailable_message
+  translation: "Bu səhifənin mündəricatı {{ .Language }} dilində hələ yoxdur. Aşağıda bələdçinin ilkin mündəricatı göstərilir."
+
+- id: guide_content_unavailable_title
+  translation: "Mündəricat mövcud deyil:"
+
+- id: guide_content_unavailable_description
+  translation: "Bu səhifənin mündəricatı yüklənmədi, və göstərmək üçün ilkin mündəricat yoxdur. Xahiş edirik bildirin"
+
+- id: guide_report_issue_link
+  translation: "Bu problem barədə bildirin"
+
+- id: guide_report_issue_message
+  translation: "düzəldə bilək deyə."
+
+- id: guide_back_to_home
+  translation: "← Ana səhifəyə qayıt"
+
+- id: not_sure_which_to_use_title
+  translation: "Hansını işlədəcəyinizə əmin deyilsiniz?"
+
+- id: get_started_title
+  translation: "Başlayın"
+
+- id: community_driven_label
+  translation: "Birlik aparır"
+
+- id: coming_soon
+  translation: "Tezliklə"
+
+- id: purpose_title
+  translation: "Məqsədi"
+
+- id: ethos_title
+  translation: "Çıxış nöqtəsi"
+
+- id: audience_title
+  translation: "Kimə"
+
+- id: use_case_title
+  translation: "Nə vaxt işlədilir"
+
+- id: content_title
+  translation: "Mündəricat"
+
+- id: update_model_title
+  translation: "Necə yenilənir"
+
+- id: guide_overview_title
+  translation: "Bələdçiyə ümumi baxış"
+
+- id: guide_overview_description
+  translation: "Bu bələdçinin əsas cizgiləri"
+
+- id: when_to_use_title
+  translation: "Bu bələdçini nə vaxt işlətmək"
+
+- id: when_to_use_description
+  translation: "Şəraitinizə uyğun yolu seçin"
+
+- id: quick_decision_guide_title
+  translation: "Tez seçim"
+
+- id: getting_started_title
+  translation: "İlk addımlar"
+
+- id: for_practitioners_title
+  translation: "Tətbiq edənlərə"
+
+- id: current_information_title
+  translation: "Hazırkı məlumat"
+
+- id: current_information_description
+  translation: "Buraxılışın təfərrüatları və birlikdən töhfə verənlər"
+
+- id: current_version_title
+  translation: "Hazırkı buraxılış"
+
+- id: current_version_updated_label
+  translation: "Yeniləndi"
+
+- id: current_version_description
+  translation: "Bu bələdçinin indi qüvvədə olan buraxılışıdır."
+
+- id: read_current_version_button
+  translation: "Hazırkı buraxılışı oxuyun"
+
+- id: version_info_not_available
+  translation: "Buraxılışın məlumatı yoxdur"
+
+- id: contributors_title
+  translation: "Töhfə verənlər"
+
+- id: contributors_description_card
+  translation: "Bu bələdçini biçimləndirən birlik üzvləri"
+
+- id: contributors_thank_you
+  translation: "Bu bələdçini yaxşılaşdıranların hamısına təşəkkür."
+
+- id: join_community_button
+  translation: "Birliyə qoşulun"
+
+- id: no_contributors_found
+  translation: "Töhfə verənlər tapılmadı"
+
+- id: version_history_title
+  translation: "Buraxılışların tarixi"
+
+- id: version_history_description
+  translation: "Əvvəlki buraxılışlar və onların inkişafı"
+
+- id: no_previous_versions_title
+  translation: "Əvvəlki buraxılış yoxdur"
+
+- id: no_previous_versions_description
+  translation: "Bu bələdçi indicə başladı. Əvvəlki buraxılışlar üçün sonra gəlin."
+
+- id: what_is_guide_title
+  translation: "Bu bələdçi nədir?"
+
+- id: license_title
+  translation: "Lisenziya"
+
+- id: view_on_github_button
+  translation: "GitHub-da görün"
+
+- id: current_open_guide_label
+  translation: "Hazırkı Open Guide"
+
+- id: active_status_label
+  translation: "Qüvvədə"
+
+- id: current_fork_label
+  translation: "Hazırkı fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Bundan fork edilmiş:"
+
+- id: forked_from_indicator
+  translation: "Bundan fork edilmiş:"
+
+- id: this_is_fork_label
+  translation: "Bu bir fork-dur"
+
+- id: available_languages_label
+  translation: "Mövcud dillər"
+
+- id: pdf_downloads_label
+  translation: "PDF yükləmələri"
+
+- id: living_document_updated_label
+  translation: "Canlı sənəd yeniləndi"
+
+- id: active_fork_updated_label
+  translation: "Fəal fork yeniləndi"
+
+- id: historical_fork_label
+  translation: "Bundan tarixi fork:"
+
+- id: historical_version_label
+  translation: "Tarixi buraxılış"
+
+- id: read_guide_button
+  translation: "Bələdçini oxuyun"
+
+- id: translations_button_small
+  translation: "Tərcümələr"
+
+- id: read_fork_button
+  translation: "Fork-u oxuyun"
+
+- id: view_archive_button
+  translation: "Arxivə baxın"
+
+- id: download_reference_status
+  translation: "İstinad"

@@ -285,3 +285,9 @@ markup:
     # 2020 and 2017 editions also gain their commitment headings here.
     endLevel: 4
     ordered: false
+  az:
+    label: Azərbaycan dili
+    weight: 3
+    title: Scrum Bələdçisi
+    params:
+      description: Scrum Bələdçisinin yayımlanmış hər buraxılışı bir yerdə, onun üzərində qurulan tətbiq bələdçiləri ilə birlikdə.
