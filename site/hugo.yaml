@@ -1,4 +1,4 @@
-title: The Scrum Guide
+title: Scrum Guides
 
 buildFuture: true
 publishDir: ../public
@@ -18,9 +18,9 @@ languages:
     # the old key and warn on every build; this one does not.
     label: English
     weight: 1
-    title: The Scrum Guide
+    title: Scrum Guides
     params:
-      seo_title: "The Scrum Guide | Every version, one lineage"
+      seo_title: "Scrum Guides | Every version, one lineage"
       description: Every published version of the Scrum Guide in one place, from 2010 onward, with the implementation guides that build on it.
       keywords: Scrum Guide, Scrum, Scrum Guide versions, Scrum Guide history, Scrum Guide 2026, empirical process control, Scrum conditions, implementation guides, Kanban Guide for Scrum Teams
   fr:

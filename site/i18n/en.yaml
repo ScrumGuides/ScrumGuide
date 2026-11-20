@@ -190,7 +190,7 @@
 # ---------------------------------------------------------------------------
 
 - id: site_wordmark
-  translation: "Scrum Guide"
+  translation: "Scrum Guides"
 
 - id: nav_the_guide
   translation: "The Guide"
