@@ -19,7 +19,6 @@ home_actions:
     icon: fa-solid fa-language
     url: /de/scrum-guide/translations/
 
-# The left-hand column.
 home_panels:
   - title: Was ist Scrum?
     content: |
