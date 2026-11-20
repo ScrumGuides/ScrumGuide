@@ -22,31 +22,40 @@ home_actions:
 home_panels:
   - title: ¿Qué es Scrum?
     content: |
-      Scrum es un marco de trabajo ligero que ayuda a generar valor ante problemas complejos.
-      La Guía Scrum es su definición: las responsabilidades, los eventos, los artefactos y las
-      reglas que los unen.
+      content: |
+        Scrum es un marco de trabajo ligero que ayuda a generar valor ante problemas complejos.
+        La Guía Scrum es su definición: las responsabilidades, los eventos, los artefactos y las
+        reglas que los unen.
 
-      Este sitio reúne todas las versiones publicadas de esa definición como un único linaje.
-      Puedes leer la versión actual o seguir cómo ha cambiado desde febrero de 2010.
+        Este sitio reúne todas las versiones publicadas de esa definición como un único linaje.
+        Puedes leer la versión actual o seguir cómo ha cambiado desde febrero de 2010.
+      cta:
+        label: Ver todas las versiones
+        url: /es-es/scrum-guide/history/
     cta:
       label: Ver todas las versiones
       url: /es-es/scrum-guide/history/
 
   - title: Comparte tus ideas
     content: |
-      Este sitio se construye en abierto. Si tienes una idea para la guía, para una guía de
-      implementación o para el sitio mismo, plantéala donde todo el mundo pueda verla y
-      discutirla.
+      content: |
+        Este sitio se construye en abierto. Si tienes una idea para la guía, para una guía de
+        implementación o para el sitio mismo, plantéala donde todo el mundo pueda verla y
+        discutirla.
+      cta:
+        label: Proponer una idea
+        url: https://github.com/ScrumGuides/ScrumGuide/discussions
     cta:
       label: Proponer una idea
       url: https://github.com/ScrumGuides/ScrumGuide/discussions
 
   - title: Sobre los creadores de Scrum
     content: |
-      Scrum fue creado por **Ken Schwaber** y **Jeff Sutherland** a principios de los años
-      noventa. Son ellos quienes escriben y mantienen la Guía Scrum, y la respaldan.
+      content: |
+        Scrum fue creado por **Ken Schwaber** y **Jeff Sutherland** a principios de los años
+        noventa. Son ellos quienes escriben y mantienen la Guía Scrum, y la respaldan.
 
-      Este sitio no está publicado por ellos. La fuente canónica de la Guía Scrum es
-      [scrumguides.org](https://scrumguides.org/), y cada versión que aparece aquí nombra a sus
-      autores y remite a esa fuente.
+        Este sitio no está publicado por ellos. La fuente canónica de la Guía Scrum es
+        [scrumguides.org](https://scrumguides.org/), y cada versión que aparece aquí nombra a sus
+        autores y remite a esa fuente.
 ---
