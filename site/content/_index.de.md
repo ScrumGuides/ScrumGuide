@@ -19,46 +19,38 @@ home_actions:
     icon: fa-solid fa-language
     url: /de/scrum-guide/translations/
 
+# The left-hand column.
 home_panels:
   - title: Was ist Scrum?
     content: |
-      content: |
-        Scrum ist ein leichtgewichtiges Rahmenwerk, das dabei hilft, in komplexen
-        Problemstellungen Wert zu schaffen. Der Scrum Guide ist seine Definition —
-        die Verantwortlichkeiten, die Events, die Artefakte und die Regeln, die
-        sie zusammenhalten.
+      Scrum ist ein leichtgewichtiges Rahmenwerk, das dabei hilft, in komplexen
+      Problemstellungen Wert zu schaffen. Der Scrum Guide ist seine Definition —
+      die Verantwortlichkeiten, die Events, die Artefakte und die Regeln, die
+      sie zusammenhalten.
 
-        Diese Website führt jede veröffentlichte Fassung dieser Definition zu
-        einer einzigen Entwicklungslinie zusammen. Sie können die aktuelle Fassung
-        lesen oder nachvollziehen, wie sie sich seit Februar 2010 verändert hat.
-      cta:
-        label: Alle Fassungen ansehen
-        url: /de/scrum-guide/history/
+      Diese Website führt jede veröffentlichte Fassung dieser Definition zu
+      einer einzigen Entwicklungslinie zusammen. Sie können die aktuelle Fassung
+      lesen oder nachvollziehen, wie sie sich seit Februar 2010 verändert hat.
     cta:
       label: Alle Fassungen ansehen
       url: /de/scrum-guide/history/
 
   - title: Teilen Sie Ihre Ideen
     content: |
-      content: |
-        Diese Website entsteht offen. Wenn Sie eine Idee für den Guide, für einen
-        Umsetzungsguide oder für die Website selbst haben, bringen Sie sie dort
-        ein, wo alle sie sehen und darüber streiten können.
-      cta:
-        label: Eine Idee einbringen
-        url: https://github.com/ScrumGuides/ScrumGuide/discussions
+      Diese Website entsteht offen. Wenn Sie eine Idee für den Guide, für einen
+      Umsetzungsguide oder für die Website selbst haben, bringen Sie sie dort
+      ein, wo alle sie sehen und darüber streiten können.
     cta:
       label: Eine Idee einbringen
       url: https://github.com/ScrumGuides/ScrumGuide/discussions
 
   - title: Über die Urheber von Scrum
     content: |
-      content: |
-        Scrum wurde Anfang der 1990er Jahre von **Ken Schwaber** und
-        **Jeff Sutherland** entwickelt. Sie schreiben und pflegen den Scrum Guide
-        und stehen hinter ihm.
+      Scrum wurde Anfang der 1990er Jahre von **Ken Schwaber** und
+      **Jeff Sutherland** entwickelt. Sie schreiben und pflegen den Scrum Guide
+      und stehen hinter ihm.
 
-        Diese Website wird nicht von ihnen veröffentlicht. Die Ursprungsquelle des
-        Scrum Guide ist [scrumguides.org](https://scrumguides.org/), und jede hier
-        gezeigte Fassung nennt ihre Autoren und verweist dorthin zurück.
+      Diese Website wird nicht von ihnen veröffentlicht. Die Ursprungsquelle des
+      Scrum Guide ist [scrumguides.org](https://scrumguides.org/), und jede hier
+      gezeigte Fassung nennt ihre Autoren und verweist dorthin zurück.
 ---

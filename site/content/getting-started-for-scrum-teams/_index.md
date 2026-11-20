@@ -1,6 +1,6 @@
 ---
 title: Getting Started for Scrum Teams
-short_title: Getting Started
+short_title: Getting Started for Scrum Teams
 slug: getting-started-for-scrum-teams
 Type: "guide"
 Layout: "root"
