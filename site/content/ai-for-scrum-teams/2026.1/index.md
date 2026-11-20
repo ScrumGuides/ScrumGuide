@@ -1,7 +1,7 @@
 ---
 title: AI Guide for Scrum Teams
 short_title: AI for Scrum Teams
-description: An implementation of Scrum Guide 2026 for a small team that builds with AI tooling.
+description: An implementation of Scrum Guide 2026 for a team that builds with AI tooling.
 date: 2026-11-20T09:00:00Z
 version: 2026.1
 type: guide
@@ -16,8 +16,7 @@ aliases:
   - /ai-for-scrum-teams/latest
 ---
 
-> **Draft.** This guide has not been reviewed or approved. Every figure in it — team
-> size, Cycle length, timeboxes, limits — is a proposal, not a decision.
+> **Draft.** This guide has not been reviewed or approved.
 >
 > **An implementation guide.** [Scrum Guide 2026](/scrum-guide/2026.1/) states what each
 > element of Scrum must achieve and says nothing about how. This guide is one how, for one
@@ -28,172 +27,176 @@ aliases:
 
 ## Scope
 
-This guide is for a team of three to five people building a product in which most
-production work is carried out by AI tooling under the direction of the people on the team.
+This guide is for a team building a product in which most production work is carried out by
+AI tooling under the direction of the people on the team.
 
-It stops applying where the tooling is incidental to how the work gets done, where the team
-is larger than five people, or where the team cannot put a finished Increment in front of
-the people who use it without another group's permission. The mechanics below assume all
-three, and none of them is a claim about Scrum.
+It stops applying where the tooling is incidental to how the work gets done, or where the
+team cannot put a finished Increment in front of the people who use it without another
+group's permission.
+
+## What this guide supplies, and what it refuses to
+
+This guide sets no intervals, no timeboxes and no sizes.
+
+Cost of Correction says the interval between corrections sits where two costs meet: the risk
+carried by looking less often, and the effort consumed by looking more often. It also says
+that nothing in the Foundations fixes that interval, that it is settled by observation, and
+that it differs by work. A number printed in a guide is not an observation. It is a guess at
+another team's ratio, and this tooling changes that ratio faster than a guide can be revised.
+
+So what this guide supplies for each loop is the **signal** a team reads to settle its own
+interval, and the evidence that tells it the interval is wrong. That is the part a team
+cannot work out from first principles on a Monday morning, and the part that does not expire.
 
 ## Why this work needs its own implementation
 
-Three things change when a small team builds this way. Each bears on a Foundation in Scrum
-Guide 2026, and each moves a mechanic that most teams inherited from a different ratio of
-costs.
+Three things change when a team builds this way. Each bears on a Foundation in Scrum Guide
+2026.
 
 ### Producing is cheap. Verifying is not.
 
-Cost of Correction says the interval between corrections sits where two costs meet: the risk
-carried by looking less often, and the effort consumed by looking more often. For this team
-the second cost has nearly vanished. A candidate can be produced, discarded and produced
-again in minutes.
+For this team the cost of looking more often has nearly vanished on one side and not moved on
+the other. A machine check costs almost nothing to run again. A person's judgement costs
+exactly what it always did.
 
-What has not become cheap is deciding whether the result is right. The constraint moves off
-production and onto verification, and the mechanics follow it: look continuously, and spend
-the team's scarce attention on judgement rather than on producing.
+That splits the interval in two. Everything a machine can check runs continuously, because
+there is no longer a reason to batch it. Human attention is the scarce thing, and it is what
+the loops exist to ration.
 
 ### Volume of output is not evidence.
 
-Evidence says only what has already happened is knowledge of the outcome. Tooling can
-produce a great deal that reads as finished and is not. Unverified work now accumulates
-faster than a team can inspect it, and everything done since the last correction is
-unverified.
+Evidence says only what has already happened is knowledge of the outcome. Tooling can produce
+a great deal that reads as finished and is not, and everything done since the last correction
+is unverified.
 
-So the Definition of Done carries more load in this context than anywhere else. It is the
-only thing standing between the team and a large quantity of work that looks complete.
+So the quantity that matters to this team is **work produced and not yet verified**. It is
+the one thing this way of working generates for free, and the one thing that most readily
+goes unseen.
 
 ### Context must be written down to be used.
 
 Knowledge says the knowledge needed to decide well moves less easily than the right to
-decide. Tooling decides nothing, but it acts on what it is given. Whatever the team knows
-and has not written down, the tooling does not have.
+decide. Tooling decides nothing, but it acts on what it is given. Whatever the team knows and
+has not written down, the tooling does not have.
 
-That makes the team's instructions to its tooling part of the work, not a convenience. They
-are maintained with the same care as the product.
+That makes the team's instructions to its tooling part of the work, not a convenience.
 
 ## The Scrum Team
 
-Three to five people.
+**Tooling is not a member of the Scrum Team.** It holds no accountability. Nothing it produces
+is Done until a person has accepted it against the Definition of Done. Judgement says a set of
+responses chosen in advance has less variety than the disturbances a team meets, and procedure
+can bound a response but cannot be the response. Whoever answers for the work must be able to
+produce an answer nobody prescribed.
 
-At that size every person is in every conversation without a structure to carry it, which is
-what makes a continuous Understanding Loop possible at all.
-
-**Tooling is not a member of the Scrum Team.** It holds no accountability. Nothing it
-produces is Done until a person has accepted it against the Definition of Done. Judgement
-says a set of responses chosen in advance has less variety than the disturbances a team
-meets, and procedure can bound a response but cannot be the response. Whoever answers for
-the work must be able to produce an answer nobody prescribed.
-
-Each of the three accountabilities is held by a named person the team can identify.
-
-- **The Outcome Owner** decides value and is available every day the team is working. At
-  this cadence a decision about value that waits a week is a week of unverified work.
-- **The Outcome Developers** are everyone who produces the Increment. In this context that
-  means everyone who directs tooling and everyone who reviews what it produces, which is
-  usually the same people.
-- **The Practice Owner** is accountable for the team's effectiveness and holds the authority
-  Scrum Guide 2026 gives that accountability. Here it is used mostly on one thing: requiring
-  that work stop being carried as unverified.
-
-One person commonly holds two of the three. That is Scrum. In this guide one person does not
-hold all three, because there is then no one positioned to disagree with a decision about
-value.
+Each of the three accountabilities is held by a named person the team can identify, as Scrum
+Guide 2026 requires. One thing follows from the pace of this work rather than from Scrum: the
+Outcome Owner has to be reachable at the speed the team produces. A decision about value that
+waits is not a pause. It is unverified work accumulating against an assumption nobody has
+tested.
 
 ## The Cycle
 
-One week, starting on the same day each week.
+Scrum Guide 2026 says a Cycle is long enough to produce something worth inspecting and short
+enough that the Cycle Outcome remains valid. This guide adds no number to that, and offers
+two observations instead.
 
-A Cycle is long enough to produce something worth inspecting and short enough that the Cycle
-Outcome stays valid. A week of this work produces a great deal worth inspecting, and a Cycle
-Outcome set two weeks out is routinely overtaken by what the first week shows.
+The team's Cycle is too long when the Cycle Outcome is routinely overtaken by what the work
+reveals before the Cycle ends — the team spends the remainder serving an objective it already
+knows is wrong, because the objective does not change within a Cycle.
 
-Within the Cycle the Cycle Outcome does not change, quality does not decrease, and no more
-than one Backlog item per person is in flight at a time.
+It is too short when the team reaches the end with nothing a stakeholder can use, so the
+Direction Loop has no evidence to close on.
+
+Both are observable within two Cycles. Neither is a matter of opinion.
 
 ## The loops
 
-Scrum Guide 2026 defines five loops and says how often each closes relative to the others.
-This guide sets the cadence and the timebox.
+Scrum Guide 2026 defines five loops, says what each closes on, and fixes how often each
+closes relative to the others. It does not set their frequency, and neither does this guide.
 
-| Loop | Closes | Timebox |
-|---|---|---|
-| Understanding | Continuously, plus one scheduled hour each Cycle | 1 hour scheduled |
-| Objective | At the start of each Cycle | 1 hour |
-| Plan | Daily at a fixed time, and at the end of any working session that produced work the team means to keep | 15 minutes daily |
-| Direction | At the end of each Cycle | 1 hour |
-| Practice | At the end of each Cycle, before the next Objective Loop | 45 minutes |
-
-A timebox is a maximum. A loop that closes in less time is closed.
+For each loop below: what closes it, what does not, and the signal that says the interval is
+wrong.
 
 ### Objective Loop
 
-The whole team, one hour at the start of the Cycle. The team sets the Cycle Outcome, selects
-the Backlog items it believes it can finish and verify, and decides its own approach —
-including which parts of the work it intends to give to tooling and which it intends to do
-by hand.
+The whole team sets the Cycle Outcome, selects the Backlog items it believes it can finish
+and verify, and decides its own approach — including which parts of the work it intends to
+give to tooling and which it intends to do by hand. That last decision is made here, in the
+open, and not left to whoever picks the work up.
 
-Closed when the Cycle Backlog exists and the team has taken on the Cycle Outcome. Not closed
-by a list of selected items with no stated outcome.
+**Closed by** the Cycle Backlog existing and the team having taken on the Cycle Outcome. **Not
+closed by** a list of selected items with no stated outcome.
 
 ### Plan Loop
 
-The Outcome Developers, fifteen minutes a day at a fixed time, and again at the end of any
-working session that produced work the team means to keep.
+The Outcome Developers compare what is Done against what the Cycle Outcome needs, and name
+what has been produced and not yet verified.
 
-The evidence is what is Done against what the Cycle Outcome needs, and what has been
-produced and not yet verified. The second of those is named and counted here. If it grows
-Cycle over Cycle, the Definition of Done or the team's capacity to review is the problem,
-and the Practice Loop takes it.
-
-Closed by a changed plan, or by a stated decision that the plan stands. Not closed by each
+**Closed by** a changed plan, or a stated decision that the plan stands. **Not closed by** each
 person reporting what they did.
+
+**The signal.** The quantity of unverified work standing at the moment the team looks. If it is
+larger than the team can review before it next looks, the team is looking too rarely, and the
+excess is risk it has already taken on. Because producing is cheap here, that quantity grows
+between looks faster than most teams expect, which is what pushes this loop toward closing
+whenever a working session produces work the team means to keep, rather than on a clock.
+
+If the quantity grows Cycle over Cycle whatever the team does, the interval is not the
+problem: the Definition of Done or the team's capacity to review is, and the Practice Loop
+takes it.
 
 ### Understanding Loop
 
-Ongoing, with one scheduled hour each Cycle for whatever the ongoing work has not reached.
+Work is made clear enough to attempt or is discarded. In this context clear enough to attempt
+means the team can state what would show the item is finished, because that statement is both
+the acceptance check and the instruction the tooling needs. If the team cannot say what
+finished looks like, the item is not ready — whoever or whatever would do the work.
 
-Work is made clear enough to attempt or is discarded. In this context clear enough to
-attempt means the team can state what would show the item is finished, because that
-statement is both the acceptance check and the instruction the tooling needs. If the team
-cannot say what finished looks like, the item is not ready — whoever or whatever would do
-the work.
+**Closed by** items becoming attemptable or being discarded. **Not closed by** discussing them.
 
-Closed by items becoming attemptable or being discarded. Not closed by discussing them.
+**The signal.** Items arriving at the Objective Loop for which nobody can state what finished
+looks like. Each one is an item the team is about to attempt without an acceptance check, and
+with tooling it will come back looking finished.
 
 ### Direction Loop
 
-The team and its stakeholders, one hour at the end of each Cycle.
+The team and its stakeholders inspect what stakeholders did with a usable Increment, the
+progress toward the Enduring Outcome, and what has changed around them.
 
-The evidence is what stakeholders did with a usable Increment. A demonstration is not use. A
-summary of the work written by tooling is not evidence of value.
+A demonstration is not use. A summary of the work written by tooling is not evidence of
+value.
 
-Closed when the Enduring Outcome has been changed, or reaffirmed against what stakeholders
-did, and the Backlog adjusted accordingly. Not closed by a meeting in which the Increment
-was shown.
+**Closed by** the Enduring Outcome being changed, or reaffirmed against what stakeholders did,
+and the Backlog adjusted accordingly. **Not closed by** a meeting in which the Increment was
+shown.
+
+**The signal.** The team discovering that stakeholders had stopped using something, or wanted
+something else, after it had already built on the assumption they hadn't. That is the cost of
+the interval, paid in work.
 
 ### Practice Loop
 
-The whole team, forty-five minutes at the end of each Cycle and before the next Objective
-Loop.
+The team inspects how it worked. Three parts of the way of working are under the most
+pressure in this context, and are the ones to examine first: the Definition of Done, the
+team's instructions to its tooling, and how the team verifies what the tooling produces.
 
-The team inspects how it worked. Every Cycle that inspection covers at least one of three
-things: the Definition of Done, the team's instructions to its tooling, or how the team
-verifies what the tooling produces. These are the parts of the way of working that this
-context puts under the most pressure.
+**Closed by** a change to the way of working, carried into the next Cycle, or a stated decision
+that nothing changes. **Not closed by** a list of complaints.
 
-Closed by a change to the way of working, carried into the next Cycle, or by a stated
-decision that nothing changes. Not closed by a list of complaints.
+**The signal.** The same impediment surviving more than one objective. The Practice Owner has
+the authority to act on it and is accountable for doing so.
 
 ## The artifacts
 
 ### The Backlog
 
-Ordered, emergent, the single source of the team's work. Items are small enough to be Done
-within one Cycle.
+Ordered, emergent, the single source of the team's work.
 
-An item is sized by how long it takes to verify, not by how long it takes to produce.
-Producing is no longer the part that takes the time.
+Scrum Guide 2026 requires items small enough to be Done within one Cycle, and puts sizing
+with the Outcome Developers who will do the work. Here, size by how long an item takes to
+**verify**. Producing is no longer the part that takes the time, so sizing by production
+effort will systematically undersize the work.
 
 ### The Cycle Backlog
 
@@ -210,18 +213,19 @@ released as soon as it is ready. No loop is a gate on releasing value.
 **Every check a machine can make is made by a machine, and runs before a person reviews the
 work.**
 
-A person then reviews what the machine cannot check: whether the work does what was
-intended, and whether it is the right thing to have built. Nothing is Done on an assertion
-by whoever or whatever produced it.
+A person then reviews what the machine cannot check: whether the work does what was intended,
+and whether it was the right thing to build. Nothing is Done on an assertion by whoever or
+whatever produced it.
 
-The Definition of Done is what makes the Increment trustworthy as evidence. When producing
-is cheap and reviewing is not, an unexecuted check is not a check.
+The Definition of Done is what makes the Increment trustworthy as evidence. When producing is
+cheap and reviewing is not, an unexecuted check is not a check — it is a sentence about work
+nobody has looked at.
 
 ### Commitment: Cycle Outcome
 
 One objective for the Cycle, set in the Objective Loop, unchanged within the Cycle. Written
 where the tooling reads it, so that the work the tooling is asked to do is bounded by the
-same objective the team committed to.
+objective the team committed to.
 
 ### Commitment: Enduring Outcome
 
@@ -231,39 +235,32 @@ team fulfils or abandons one before taking on the next.
 ## What this guide adds
 
 Scrum Guide 2026 is a minimum, and a team adds what its work requires. This guide adds three
-things.
+things, none of them a quantity.
 
-1. **The team's instructions to its tooling are part of the product.** They are kept with
-   it, changed through the same review as it, and inspected in the Practice Loop. Knowledge
-   the team holds and has not written down does not reach the tooling.
-2. **Unverified work is named and counted in the Plan Loop.** It is the quantity this
-   context produces most easily and the one that most readily goes unseen.
-3. **The Definition of Done is executable.** See above.
-
-## What this guide constrains further
-
-Four constraints, all of them permitted by Scrum Guide 2026 and none of them required by it.
-
-1. Three to five people.
-2. A one-week Cycle.
-3. One Backlog item in flight per person.
-4. No one person holds all three accountabilities.
-
-A team that drops any of these is still doing Scrum. It is no longer following this guide.
+1. **The team's instructions to its tooling are part of the product.** They are kept with it,
+   changed through the same review as it, and examined in the Practice Loop. Knowledge the
+   team holds and has not written down does not reach the tooling.
+2. **Work produced and not yet verified is named in the Plan Loop.** It is this context's
+   characteristic risk and its characteristic blind spot.
+3. **The Definition of Done is executable.** Every check a machine can make is made by a
+   machine, and runs before a person looks.
 
 ## What this guide does not decide
 
-Which tools. Which models. How to instruct them. Which technical practices produce work
-worth keeping. How the team's own review is organised.
+Which tools. Which models. How to instruct them. How many people are on the team. How long a
+Cycle runs. How often a loop closes, or how long it takes when it does. How the team's own
+review is organised. Which technical practices produce work worth keeping.
 
-These differ between teams that are both following this guide, and they change faster than a
-guide can be revised.
+Some of these differ between teams that are both following this guide. The rest are settled
+by observation, by the team, against the signals above. A guide that fixed them would be
+substituting a guess for the evidence the team already has.
 
 ## End note
 
-This guide supplies the how for one context: a small team, building with tooling that has
-made producing cheap and left verifying expensive. Two teams can both be following Scrum
-Guide 2026 and differ on every page of this one.
+This guide supplies the how for one context: a team building with tooling that has made
+producing cheap and left verifying expensive. It supplies mechanism and signal, and no
+magnitudes. Two teams can both be following Scrum Guide 2026 and this guide and still share
+not one number.
 
 Nothing here is a change to Scrum. If any of it reads as one, Scrum Guide 2026 governs and
 this guide is wrong.
