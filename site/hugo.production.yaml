@@ -70,3 +70,5 @@ languages:
     disabled: true
   sr:
     disabled: true
+  sl:
+    disabled: true

@@ -1,0 +1,586 @@
+# Interface strings, Slovenian.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Dokumenti"
+
+- id: guides_section_title
+  translation: "Vodniki"
+
+- id: implementations_section_title
+  translation: "Vodniki za uvedbo"
+
+- id: implementations_section_description
+  translation: "Načini uporabe Scruma v določenem okviru. Vsak od njih ostaja znotraj namena Scruma in dodaja napotke za neki položaj - več ekip na enem izdelku, upravljanje pretoka, prvi koraki - ne da bi spremenil, kaj Scrum zahteva."
+
+- id: extensions_section_title
+  translation: "Razširitve"
+
+- id: extensions_section_description
+  translation: "Prakse, ki segajo čez tisto, s čimer se ukvarja Scrum. Razširitev se ne predstavlja kot Scrum in ga ne spreminja; loti se vprašanja, ki ga Scrum pušča odprto, kot je merjenje vrednosti, ki jo izdelek prinaša."
+
+- id: extensions_section_empty
+  translation: "Še nobene."
+
+- id: foundation_section_title
+  translation: "Vodnik"
+
+- id: history_page_title
+  translation: "Zgodovina"
+
+- id: translations_page_title
+  translation: "Prevodi"
+
+- id: changes_section_title
+  translation: "Kaj se je spremenilo"
+
+- id: changes_from_label
+  translation: "Spremembe glede na"
+
+- id: lineage_section_title
+  translation: "Črta"
+
+- id: adapted_from_label
+  translation: "Prirejeno po"
+
+- id: conforms_to_label
+  translation: "Ustreza"
+
+- id: conforming_guides_title
+  translation: "Vodniki, ki ustrezajo tej različici"
+
+- id: conditions_section_title
+  translation: "Pogoji"
+
+- id: condition_falsifier_label
+  translation: "Ni izpolnjeno, ko"
+
+- id: current_version_label
+  translation: "Sedanja različica"
+
+- id: older_version_label
+  translation: "Starejša različica"
+
+- id: version_notice_older
+  translation: "To ni sedanja različica tega vodnika."
+
+- id: view_latest_label
+  translation: "Poglejte sedanjo različico"
+
+- id: read_time_label
+  translation: "min branja"
+
+- id: badge_english_only
+  translation: "Samo angleško"
+
+- id: badge_english_only_title
+  translation: "Ta vodnik še ni preveden v ta jezik."
+
+- id: badge_not_in_production
+  translation: "Ni v produkciji"
+
+- id: badge_not_in_production_title
+  translation: "Ta vodnik je izpuščen iz produkcijske gradnje."
+
+- id: badge_not_in_preview
+  translation: "Ni v predogledu"
+
+- id: badge_not_in_preview_title
+  translation: "Ta vodnik je izpuščen iz gradnje za predogled."
+
+- id: licence_label
+  translation: "Licenca"
+
+- id: canonical_source_label
+  translation: "Verodostojni vir"
+
+- id: pending_licence_check
+  translation: "Glavno besedilo čaka preverjanje licence"
+
+- id: guide_join_discussion
+  translation: "Pogovorite se o tem vodniku"
+
+- id: guide_version_current
+  translation: "Sedanja"
+
+- id: guide_version_latest
+  translation: "Najnovejša"
+
+- id: guide_version_select
+  translation: "Izberite različico"
+
+- id: guide_version_dropdown_label
+  translation: "Različica"
+
+- id: guide_historical_version_notice_title
+  translation: "To ni sedanja različica."
+
+- id: guide_historical_version_notice_text
+  translation: "Berete starejšo različico tega vodnika."
+
+- id: guide_historical_version_notice_link
+  translation: "Preberite sedanjo različico"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Poglejte na mestu za predogled"
+
+- id: guide_translation_preview_note
+  translation: "Predogled prevoda."
+
+- id: guide_translation_preview_message
+  translation: "Ta prevod se še pregleduje in je lahko nepopoln."
+
+- id: contributors_label
+  translation: "Sodelavci"
+
+- id: translators_label
+  translation: "Prevajalci"
+
+- id: reportTranslationError
+  translation: "Sporočite napako v prevodu"
+
+- id: nav_details
+  translation: "O tem vodniku"
+
+- id: nav_translations
+  translation: "Prevodi"
+
+- id: download_table_written_by
+  translation: "Napisali"
+
+- id: download_table_contributed_by
+  translation: "Prispevali"
+
+- id: download_table_status
+  translation: "Stanje"
+
+- id: download_discussion_action
+  translation: "Pogovor"
+
+- id: download_preview_action
+  translation: "Predogled"
+
+- id: download_preview_status
+  translation: "V predogledu"
+
+- id: download_preview_description
+  translation: "Ta prevod še ni objavljen in ga je mogoče brati na mestu za predogled."
+
+- id: download_preview_translations
+  translation: "Prevodi v predogledu"
+
+- id: download_visit_preview
+  translation: "Odprite mesto za predogled"
+
+- id: download_pdf_only_status
+  translation: "Samo PDF"
+
+- id: download_stub_status
+  translation: "Ni začet"
+
+- id: site_wordmark
+  translation: "Vodniki po Scrumu"
+
+- id: nav_the_guide
+  translation: "Vodnik"
+
+- id: nav_versions
+  translation: "Različice"
+
+- id: nav_implementations
+  translation: "Uvedbe"
+
+- id: guide_pdf_not_available
+  translation: "PDF ni na voljo"
+
+- id: share_label
+  translation: "Delite"
+
+- id: share_copy_link
+  translation: "Kopiraj povezavo"
+
+- id: share_copied
+  translation: "Kopirano v odložišče!"
+
+- id: share_close
+  translation: "Zapri"
+
+- id: role_creator
+  translation: "Snovalec"
+
+- id: role_contributor
+  translation: "Sodelavec"
+
+- id: role_reviewer
+  translation: "Pregledovalec"
+
+- id: role_translator
+  translation: "Prevajalec"
+
+- id: role_involved
+  translation: "Udeleženec"
+
+- id: and
+  translation: "in"
+
+- id: breadcrumb_home
+  translation: "Domov"
+
+- id: read_online_title
+  translation: "Berite na spletu"
+
+- id: read_online_description
+  translation: "Dostopajte do celotnega vodnika digitalno, z interaktivnimi možnostmi in lahkim krmarjenjem."
+
+- id: read_online_button
+  translation: "Berite na spletu"
+
+- id: translations_title
+  translation: "Prevodi"
+
+- id: translations_description
+  translation: "Berite ta vodnik v več jezikih in pomagajte s prevodi."
+
+- id: translations_button
+  translation: "Poglejte prevode"
+
+- id: history_title
+  translation: "Zgodovina"
+
+- id: history_description
+  translation: "Spremljajte razvoj in zgodovino tega vodnika."
+
+- id: history_button
+  translation: "Poglejte zgodovino"
+
+- id: what_is_guides_title
+  translation: "Kaj je {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Odprta izvorna koda, vodi jo skupnost"
+
+- id: open_source_description
+  translation: "To je projekt odprte izvorne kode, ki živi od sodelovanja skupnosti. Če želite predlagati izboljšave, sporočiti težave ali prispevati vsebino, ste dobrodošli. Nekateri vodniki prispevkov ne sprejemajo, a stojijo tukaj kot sklic. Skupaj lahko naredimo to gradivo dragocenejše za tiste, ki ga izvajajo po vsem svetu, in za vsakogar, ki želi izboljšati učinkovitost poteka dela in dostavljanje vrednosti."
+
+- id: at_a_glance_title
+  translation: "Na kratko"
+
+- id: join_discussion_button
+  translation: "Pridružite se pogovoru"
+
+- id: join_discussion_title
+  translation: "Pridružite se pogovoru o {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Spoznajte skupnost, delite, kar vidite, in pomagajte oblikovati prihodnost {{ .Site.Title }}. Vaši prispevki so nepogrešljivi, da ti vodniki postanejo celotno telo za tiste, ki ga izvajajo."
+
+- id: guides_intro_text
+  translation: "Spoznajte prakse, ki delujejo, in kako jih uporabiti za optimizacijo poteka dela in dostavljanja vrednosti v vsakem procesu. Tukaj je celotno telo znanja in dobrih praks. {{ .Site.Title }} je dom praktičnih vodnikov: prosto, od skupnosti vodeno gradivo za uporabo preverjenih metod pri delu z znanjem. Vodniki začrtajo temeljne prakse in mere, potrebne za izboljšanje pretoka, za optimizacijo dostavljanja vrednosti in za krepitev vzdržnosti ekipe. Podpirajo širljivo uvajanje v vseh panogah in dopolnjujejo druge sodobne metode poteka dela."
+
+- id: guide_content_not_found
+  translation: "Vsebine vodnika ni mogoče najti"
+
+- id: nav_read_guide
+  translation: "Preberite vodnik"
+
+- id: nav_history
+  translation: "Zgodovina"
+
+- id: nav_overview
+  translation: "Pregled"
+
+- id: guide_pdf_download_button
+  translation: "Prenesi PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Ta vodnik lahko prenesete tudi v PDF in ga berete brez povezave."
+
+- id: guide_pdf_intro_link
+  translation: "Prenesite PDF"
+
+- id: download_page_title
+  translation: "Preberite in prenesite uradni {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} tukaj opredeljujeta"
+
+- id: download_page_originators
+  translation: ", snovalca {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Prevode so dali na voljo ustrežljivi ljudje in skupine, navedeni spodaj. Izberite jezik, ki ga želite prenesti."
+
+- id: download_translation_error
+  translation: "Če v {{ .Title }} najdete kaj, za kar menite, da je napaka v prevodu, se obrnite naravnost na tistega prevajalca. Če potrebujete več pomoči, nam pišite na"
+
+- id: download_official_version
+  translation: "Uradna različica"
+
+- id: download_community_translations
+  translation: "Prevodi iz skupnosti"
+
+- id: download_current_version_released
+  translation: "Sedanja uradna različica {{ .Site.Title }} je izšla"
+
+- id: download_older_translations_notice
+  translation: "Starejši prevodi {{ .Site.Title }} morda ne vsebujejo najnovejših podatkov."
+
+- id: download_table_language
+  translation: "Jezik"
+
+- id: download_table_translations_by
+  translation: "Prevedli"
+
+- id: download_table_action
+  translation: "Dejanje"
+
+- id: download_official_current_version
+  translation: "Uradna sedanja različica"
+
+- id: download_button_text
+  translation: "Prenesi"
+
+- id: download_coming_soon
+  translation: "Kmalu"
+
+- id: download_missing_language
+  translation: "Manjka vaš jezik?"
+
+- id: download_contribute_translation
+  translation: "Prispevajte nov prevod in pomagajte skupnosti."
+
+- id: download_add_translation
+  translation: "Dodajte prevod"
+
+- id: download_community_contributors
+  translation: "Sodelavci iz skupnosti"
+
+- id: contributors_description
+  translation: "Sodelavci spodaj so zbrani iz vseh vodnikov in vseh različic."
+
+- id: read_online_action
+  translation: "Berite na spletu"
+
+- id: guide_table_of_contents
+  translation: "Vsebina"
+
+- id: guide_coming_soon
+  translation: "Ta vodnik prihaja. Spremljajte ga."
+
+- id: guide_no_content_available
+  translation: "V tem jeziku še ni vsebine."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) ni na voljo"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) ni na voljo"
+
+- id: guide_coming_label
+  translation: "Prihaja:"
+
+- id: guide_updated_label
+  translation: "Prenovljeno:"
+
+- id: guide_version_label
+  translation: "Različica:"
+
+- id: guide_content_unavailable_note
+  translation: "Opomba:"
+
+- id: guide_content_unavailable_message
+  translation: "Vsebine te strani še ni v jeziku {{ .Language }}. Spodaj je prikazana privzeta vsebina vodnika."
+
+- id: guide_content_unavailable_title
+  translation: "Vsebina ni na voljo:"
+
+- id: guide_content_unavailable_description
+  translation: "Vsebine te strani ni bilo mogoče naložiti in ni privzete vsebine za prikaz. Prosimo, sporočite"
+
+- id: guide_report_issue_link
+  translation: "Sporočite to težavo"
+
+- id: guide_report_issue_message
+  translation: "da jo lahko popravimo."
+
+- id: guide_back_to_home
+  translation: "← Nazaj na domov"
+
+- id: not_sure_which_to_use_title
+  translation: "Niste prepričani, katerega uporabiti?"
+
+- id: get_started_title
+  translation: "Začnite"
+
+- id: community_driven_label
+  translation: "Vodi ga skupnost"
+
+- id: coming_soon
+  translation: "Kmalu"
+
+- id: purpose_title
+  translation: "Namen"
+
+- id: ethos_title
+  translation: "Izhodišče"
+
+- id: audience_title
+  translation: "Za koga"
+
+- id: use_case_title
+  translation: "Kdaj se uporablja"
+
+- id: content_title
+  translation: "Vsebina"
+
+- id: update_model_title
+  translation: "Kako se prenavlja"
+
+- id: guide_overview_title
+  translation: "Pregled vodnika"
+
+- id: guide_overview_description
+  translation: "Glavne poteze tega vodnika"
+
+- id: when_to_use_title
+  translation: "Kdaj uporabiti ta vodnik"
+
+- id: when_to_use_description
+  translation: "Izberite pristop, ki ustreza vašemu okviru"
+
+- id: quick_decision_guide_title
+  translation: "Hitra izbira"
+
+- id: getting_started_title
+  translation: "Prvi koraki"
+
+- id: for_practitioners_title
+  translation: "Za tiste, ki ga izvajajo"
+
+- id: current_information_title
+  translation: "Sedanji podatki"
+
+- id: current_information_description
+  translation: "Podrobnosti o različici in sodelavci iz skupnosti"
+
+- id: current_version_title
+  translation: "Sedanja različica"
+
+- id: current_version_updated_label
+  translation: "Prenovljeno"
+
+- id: current_version_description
+  translation: "To je različica vodnika, ki velja zdaj."
+
+- id: read_current_version_button
+  translation: "Preberite sedanjo različico"
+
+- id: version_info_not_available
+  translation: "Podatki o različici niso na voljo"
+
+- id: contributors_title
+  translation: "Sodelavci"
+
+- id: contributors_description_card
+  translation: "Člani skupnosti, ki so oblikovali ta vodnik"
+
+- id: contributors_thank_you
+  translation: "Hvala vsem, ki so ta vodnik naredili boljši."
+
+- id: join_community_button
+  translation: "Pridružite se skupnosti"
+
+- id: no_contributors_found
+  translation: "Nobenega sodelavca ni bilo mogoče najti"
+
+- id: version_history_title
+  translation: "Zgodovina različic"
+
+- id: version_history_description
+  translation: "Prejšnje različice in njihov razvoj"
+
+- id: no_previous_versions_title
+  translation: "Ni prejšnjih različic"
+
+- id: no_previous_versions_description
+  translation: "Ta vodnik se je šele začel. Vrnite se pozneje za prejšnje različice."
+
+- id: what_is_guide_title
+  translation: "Kaj je ta vodnik?"
+
+- id: license_title
+  translation: "Licenca"
+
+- id: view_on_github_button
+  translation: "Poglejte na GitHubu"
+
+- id: current_open_guide_label
+  translation: "Sedanji Open Guide"
+
+- id: active_status_label
+  translation: "V veljavi"
+
+- id: current_fork_label
+  translation: "Sedanji fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Forkano iz:"
+
+- id: forked_from_indicator
+  translation: "Forkano iz:"
+
+- id: this_is_fork_label
+  translation: "To je fork"
+
+- id: available_languages_label
+  translation: "Jeziki na voljo"
+
+- id: pdf_downloads_label
+  translation: "Prenosi v PDF"
+
+- id: living_document_updated_label
+  translation: "Živi dokument prenovljen"
+
+- id: active_fork_updated_label
+  translation: "Dejavni fork prenovljen"
+
+- id: historical_fork_label
+  translation: "Zgodovinski fork iz"
+
+- id: historical_version_label
+  translation: "Zgodovinska različica"
+
+- id: read_guide_button
+  translation: "Preberite vodnik"
+
+- id: translations_button_small
+  translation: "Prevodi"
+
+- id: read_fork_button
+  translation: "Preberite fork"
+
+- id: view_archive_button
+  translation: "Poglejte arhiv"
+
+- id: download_reference_status
+  translation: "Sklic"

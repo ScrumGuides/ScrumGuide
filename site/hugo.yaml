@@ -178,6 +178,12 @@ languages:
     title: Водич за Scrum
     params:
       description: Свако објављено издање Водича за Scrum на једном месту, уз водиче за примену који се на њега наслањају.
+  sl:
+    label: Slovenščina
+    weight: 39
+    title: Vodnik po Scrumu
+    params:
+      description: Vsaka objavljena različica Vodnika po Scrumu na enem mestu, skupaj z vodniki za uvedbo, ki se naslanjajo nanj.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
