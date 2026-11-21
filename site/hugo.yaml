@@ -226,6 +226,12 @@ languages:
     title: Scrum-ի ուղեցույցը
     params:
       description: Scrum-ի ուղեցույցի հրատարակված ամեն տարբերակը մեկ տեղում, իրենց վրա կառուցվող կիրառման ուղեցույցների հետ միասին.
+  id:
+    label: Bahasa Indonesia
+    weight: 21
+    title: Panduan Scrum
+    params:
+      description: Setiap versi Panduan Scrum yang pernah diterbitkan di satu tempat, bersama panduan penerapan yang berpijak padanya.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

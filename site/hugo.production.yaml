@@ -86,3 +86,5 @@ languages:
     disabled: true
   hy:
     disabled: true
+  id:
+    disabled: true

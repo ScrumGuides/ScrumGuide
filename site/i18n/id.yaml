@@ -1,0 +1,607 @@
+# Interface strings, Indonesian.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Dokumen"
+
+- id: guides_section_title
+  translation: "Panduan"
+
+- id: implementations_section_title
+  translation: "Panduan penerapan"
+
+- id: implementations_section_description
+  translation: "Cara memakai Scrum dalam suatu keadaan tertentu. Masing-masing tetap berada di dalam maksud Scrum dan menambahkan tuntunan untuk sebuah situasi - beberapa tim pada satu produk, mengelola aliran, memulai - tanpa mengubah apa yang Scrum tuntut."
+
+- id: extensions_section_title
+  translation: "Perluasan"
+
+- id: extensions_section_description
+  translation: "Praktik yang menjangkau melampaui apa yang ditangani Scrum. Sebuah perluasan tidak mengaku sebagai Scrum dan tidak mengubahnya; ia mengambil soal yang dibiarkan terbuka oleh Scrum, seperti mengukur nilai yang dihantarkan sebuah produk."
+
+- id: extensions_section_empty
+  translation: "Belum ada."
+
+- id: foundation_section_title
+  translation: "Panduan"
+
+- id: history_page_title
+  translation: "Riwayat"
+
+- id: translations_page_title
+  translation: "Terjemahan"
+
+- id: changes_section_title
+  translation: "Apa yang berubah"
+
+- id: changes_from_label
+  translation: "Perubahan dari"
+
+- id: lineage_section_title
+  translation: "Garis"
+
+- id: adapted_from_label
+  translation: "Disesuaikan dari"
+
+- id: conforms_to_label
+  translation: "Sesuai dengan"
+
+- id: conforming_guides_title
+  translation: "Panduan yang sesuai dengan versi ini"
+
+- id: conditions_section_title
+  translation: "Syarat"
+
+- id: condition_falsifier_label
+  translation: "Tidak terpenuhi bila"
+
+- id: current_version_label
+  translation: "Versi sekarang"
+
+- id: older_version_label
+  translation: "Versi lebih lama"
+
+- id: version_notice_older
+  translation: "Ini bukan versi panduan ini yang sekarang."
+
+- id: view_latest_label
+  translation: "Lihat versi sekarang"
+
+- id: read_time_label
+  translation: "menit baca"
+
+- id: badge_english_only
+  translation: "Hanya Inggris"
+
+- id: badge_english_only_title
+  translation: "Panduan ini belum diterjemahkan ke bahasa ini."
+
+- id: badge_not_in_production
+  translation: "Tidak di produksi"
+
+- id: badge_not_in_production_title
+  translation: "Panduan ini ditinggalkan dari bangunan produksi."
+
+- id: badge_not_in_preview
+  translation: "Tidak di pratinjau"
+
+- id: badge_not_in_preview_title
+  translation: "Panduan ini ditinggalkan dari bangunan pratinjau."
+
+- id: licence_label
+  translation: "Lisensi"
+
+- id: canonical_source_label
+  translation: "Sumber sahih"
+
+- id: pending_licence_check
+  translation: "Naskah utama menunggu pemeriksaan lisensi"
+
+- id: guide_join_discussion
+  translation: "Bicarakan panduan ini"
+
+- id: guide_version_current
+  translation: "Sekarang"
+
+- id: guide_version_latest
+  translation: "Terbaru"
+
+- id: guide_version_select
+  translation: "Pilih versi"
+
+- id: guide_version_dropdown_label
+  translation: "Versi"
+
+- id: guide_historical_version_notice_title
+  translation: "Ini bukan versi yang sekarang."
+
+- id: guide_historical_version_notice_text
+  translation: "Anda sedang membaca versi panduan ini yang lebih lama."
+
+- id: guide_historical_version_notice_link
+  translation: "Baca versi sekarang"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Lihat di situs pratinjau"
+
+- id: guide_translation_preview_note
+  translation: "Pratinjau terjemahan."
+
+- id: guide_translation_preview_message
+  translation: "Terjemahan ini masih ditinjau dan mungkin belum lengkap."
+
+- id: contributors_label
+  translation: "Penyumbang"
+
+- id: translators_label
+  translation: "Penerjemah"
+
+- id: reportTranslationError
+  translation: "Laporkan kesalahan terjemahan"
+
+- id: nav_details
+  translation: "Tentang panduan ini"
+
+- id: nav_translations
+  translation: "Terjemahan"
+
+- id: download_table_written_by
+  translation: "Ditulis oleh"
+
+- id: download_table_contributed_by
+  translation: "Disumbang oleh"
+
+- id: download_table_status
+  translation: "Keadaan"
+
+- id: download_discussion_action
+  translation: "Bicarakan"
+
+- id: download_preview_action
+  translation: "Pratinjau"
+
+- id: download_preview_status
+  translation: "Dalam pratinjau"
+
+- id: download_preview_description
+  translation: "Terjemahan ini belum diterbitkan dan dapat dibaca di situs pratinjau."
+
+- id: download_preview_translations
+  translation: "Terjemahan dalam pratinjau"
+
+- id: download_visit_preview
+  translation: "Buka situs pratinjau"
+
+- id: download_pdf_only_status
+  translation: "Hanya PDF"
+
+- id: download_stub_status
+  translation: "Belum dimulai"
+
+- id: site_wordmark
+  translation: "Panduan Scrum"
+
+- id: nav_the_guide
+  translation: "Panduan"
+
+- id: nav_versions
+  translation: "Versi"
+
+- id: nav_implementations
+  translation: "Penerapan"
+
+- id: guide_pdf_not_available
+  translation: "PDF tidak ada"
+
+- id: share_label
+  translation: "Bagikan"
+
+- id: share_copy_link
+  translation: "Salin tautan"
+
+- id: share_copied
+  translation: "Tersalin ke papan klip!"
+
+- id: share_close
+  translation: "Tutup"
+
+- id: role_creator
+  translation: "Pencipta"
+
+- id: role_contributor
+  translation: "Penyumbang"
+
+- id: role_reviewer
+  translation: "Peninjau"
+
+- id: role_translator
+  translation: "Penerjemah"
+
+- id: role_involved
+  translation: "Terlibat"
+
+- id: nav_getting_started
+  translation: "Langkah Awal"
+
+- id: nav_the_scrum_guide
+  translation: "Panduan Scrum"
+
+- id: home_action_getting_started
+  translation: "Baca Langkah Awal untuk Scrum Team secara daring"
+
+- id: home_action_scrum_guide
+  translation: "Baca Panduan Scrum resmi secara daring"
+
+- id: home_action_translations
+  translation: "Unduh Panduan Scrum resmi dalam lebih dari 30 bahasa"
+
+- id: home_action_read_online
+  translation: "Baca daring"
+
+- id: home_action_select_language
+  translation: "Pilih bahasa dan unduh"
+
+- id: and
+  translation: "dan"
+
+- id: breadcrumb_home
+  translation: "Beranda"
+
+- id: read_online_title
+  translation: "Baca daring"
+
+- id: read_online_description
+  translation: "Jangkau seluruh panduan secara digital, dengan fitur interaktif dan penelusuran yang mudah."
+
+- id: read_online_button
+  translation: "Baca daring"
+
+- id: translations_title
+  translation: "Terjemahan"
+
+- id: translations_description
+  translation: "Baca panduan ini dalam beberapa bahasa dan bantulah dengan terjemahannya."
+
+- id: translations_button
+  translation: "Lihat terjemahan"
+
+- id: history_title
+  translation: "Riwayat"
+
+- id: history_description
+  translation: "Ikuti perkembangan dan riwayat panduan ini."
+
+- id: history_button
+  translation: "Lihat riwayat"
+
+- id: what_is_guides_title
+  translation: "Apa itu {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Sumber terbuka, digerakkan komunitas"
+
+- id: open_source_description
+  translation: "Ini adalah proyek sumber terbuka yang hidup dari kerja sama komunitas. Kalau Anda hendak mengusulkan perbaikan, melaporkan masalah, atau menyumbang isi, Anda disambut. Beberapa panduan tidak menerima sumbangan, tetapi berdiri di sini sebagai acuan. Bersama kita dapat membuat sumber-sumber ini lebih bernilai bagi yang menjalankannya di seluruh dunia dan bagi siapa pun yang hendak memperbaiki keefektifan alur kerja dan penghantaran nilai."
+
+- id: at_a_glance_title
+  translation: "Sekilas"
+
+- id: join_discussion_button
+  translation: "Gabung dalam pembicaraan"
+
+- id: join_discussion_title
+  translation: "Gabung dalam pembicaraan tentang {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Jumpailah komunitasnya, bagikan apa yang Anda lihat, dan bantulah membentuk masa depan {{ .Site.Title }}. Sumbangan Anda tak tergantikan agar panduan-panduan ini menjadi himpunan yang lengkap bagi yang menjalankannya."
+
+- id: guides_intro_text
+  translation: "Pelajari praktik yang berjalan dan cara memakainya untuk mengoptimalkan alur kerja dan penghantaran nilai dalam proses apa pun. Di sini ada seluruh himpunan pengetahuan dan praktik yang baik. {{ .Site.Title }} adalah rumah panduan praktis: acuan bebas yang digerakkan komunitas untuk memakai cara yang terbukti dalam kerja pengetahuan. Panduan-panduan ini membatasi praktik dan ukuran pokok yang diperlukan untuk memperbaiki aliran, mengoptimalkan penghantaran nilai, dan memperkuat daya tahan tim. Mereka mendukung penerapan yang dapat dibesarkan di berbagai bidang dan melengkapi cara alur kerja modern lainnya."
+
+- id: guide_content_not_found
+  translation: "Isi panduan tidak ditemukan"
+
+- id: nav_read_guide
+  translation: "Baca panduan"
+
+- id: nav_history
+  translation: "Riwayat"
+
+- id: nav_overview
+  translation: "Ikhtisar"
+
+- id: guide_pdf_download_button
+  translation: "Unduh PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Panduan ini juga dapat Anda unduh dalam PDF dan baca tanpa jaringan."
+
+- id: guide_pdf_intro_link
+  translation: "Unduh PDF-nya"
+
+- id: download_page_title
+  translation: "Baca dan unduh {{ .Title }} resmi"
+
+- id: download_page_description
+  translation: "{{ .Title }} di sini dibatasi oleh"
+
+- id: download_page_originators
+  translation: ", para pencipta {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Terjemahan disediakan oleh orang-orang dan kelompok yang bersedia membantu di bawah ini. Pilih bahasa yang hendak Anda unduh."
+
+- id: download_translation_error
+  translation: "Kalau Anda menemukan sesuatu dalam {{ .Title }} yang Anda kira kesalahan terjemahan, hubungilah langsung penerjemah itu. Kalau perlu bantuan lebih lanjut, hubungi kami di"
+
+- id: download_official_version
+  translation: "Versi resmi"
+
+- id: download_community_translations
+  translation: "Terjemahan dari komunitas"
+
+- id: download_current_version_released
+  translation: "Versi resmi {{ .Site.Title }} yang sekarang keluar pada"
+
+- id: download_older_translations_notice
+  translation: "Terjemahan {{ .Site.Title }} yang lebih lama mungkin tidak memuat keterangan terbaru."
+
+- id: download_table_language
+  translation: "Bahasa"
+
+- id: download_table_translations_by
+  translation: "Diterjemahkan oleh"
+
+- id: download_table_action
+  translation: "Tindakan"
+
+- id: download_official_current_version
+  translation: "Versi resmi sekarang"
+
+- id: download_button_text
+  translation: "Unduh"
+
+- id: download_coming_soon
+  translation: "Segera"
+
+- id: download_missing_language
+  translation: "Bahasa Anda tidak ada?"
+
+- id: download_contribute_translation
+  translation: "Sumbangkan terjemahan baru dan bantulah komunitas."
+
+- id: download_add_translation
+  translation: "Tambahkan terjemahan"
+
+- id: download_community_contributors
+  translation: "Penyumbang dari komunitas"
+
+- id: contributors_description
+  translation: "Penyumbang di bawah ini dihimpun dari semua panduan dan semua versi."
+
+- id: read_online_action
+  translation: "Baca daring"
+
+- id: guide_table_of_contents
+  translation: "Isi"
+
+- id: guide_coming_soon
+  translation: "Panduan ini sedang di jalan. Pantau terus."
+
+- id: guide_no_content_available
+  translation: "Dalam bahasa ini belum ada isi."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) tidak ada"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) tidak ada"
+
+- id: guide_coming_label
+  translation: "Akan datang:"
+
+- id: guide_updated_label
+  translation: "Diperbarui:"
+
+- id: guide_version_label
+  translation: "Versi:"
+
+- id: guide_content_unavailable_note
+  translation: "Catatan:"
+
+- id: guide_content_unavailable_message
+  translation: "Isi halaman ini belum ada dalam bahasa {{ .Language }}. Di bawah ini ditampilkan isi bawaan panduan."
+
+- id: guide_content_unavailable_title
+  translation: "Isi tidak tersedia:"
+
+- id: guide_content_unavailable_description
+  translation: "Isi halaman ini tidak dapat dimuat, dan tidak ada isi bawaan untuk ditampilkan. Mohon laporkan"
+
+- id: guide_report_issue_link
+  translation: "Laporkan masalah ini"
+
+- id: guide_report_issue_message
+  translation: "agar kami dapat memperbaikinya."
+
+- id: guide_back_to_home
+  translation: "← Kembali ke beranda"
+
+- id: not_sure_which_to_use_title
+  translation: "Belum yakin mana yang dipakai?"
+
+- id: get_started_title
+  translation: "Mulailah"
+
+- id: community_driven_label
+  translation: "Digerakkan komunitas"
+
+- id: coming_soon
+  translation: "Segera"
+
+- id: purpose_title
+  translation: "Maksud"
+
+- id: ethos_title
+  translation: "Titik tolak"
+
+- id: audience_title
+  translation: "Untuk siapa"
+
+- id: use_case_title
+  translation: "Kapan ia dipakai"
+
+- id: content_title
+  translation: "Isi"
+
+- id: update_model_title
+  translation: "Bagaimana ia diperbarui"
+
+- id: guide_overview_title
+  translation: "Ikhtisar panduan"
+
+- id: guide_overview_description
+  translation: "Garis besar panduan ini"
+
+- id: when_to_use_title
+  translation: "Kapan memakai panduan ini"
+
+- id: when_to_use_description
+  translation: "Pilih pendekatan yang cocok dengan keadaan Anda"
+
+- id: quick_decision_guide_title
+  translation: "Pilihan cepat"
+
+- id: getting_started_title
+  translation: "Langkah awal"
+
+- id: for_practitioners_title
+  translation: "Bagi yang menjalankan"
+
+- id: current_information_title
+  translation: "Keterangan sekarang"
+
+- id: current_information_description
+  translation: "Rincian versi dan penyumbang dari komunitas"
+
+- id: current_version_title
+  translation: "Versi sekarang"
+
+- id: current_version_updated_label
+  translation: "Diperbarui"
+
+- id: current_version_description
+  translation: "Ini adalah versi panduan yang berlaku sekarang."
+
+- id: read_current_version_button
+  translation: "Baca versi sekarang"
+
+- id: version_info_not_available
+  translation: "Keterangan versi tidak ada"
+
+- id: contributors_title
+  translation: "Penyumbang"
+
+- id: contributors_description_card
+  translation: "Anggota komunitas yang membentuk panduan ini"
+
+- id: contributors_thank_you
+  translation: "Terima kasih kepada semua yang membuat panduan ini lebih baik."
+
+- id: join_community_button
+  translation: "Gabung dengan komunitas"
+
+- id: no_contributors_found
+  translation: "Penyumbang tidak ditemukan"
+
+- id: version_history_title
+  translation: "Riwayat versi"
+
+- id: version_history_description
+  translation: "Versi sebelumnya dan perkembangannya"
+
+- id: no_previous_versions_title
+  translation: "Tidak ada versi sebelumnya"
+
+- id: no_previous_versions_description
+  translation: "Panduan ini baru saja mulai. Datanglah lagi nanti untuk versi sebelumnya."
+
+- id: what_is_guide_title
+  translation: "Apa itu panduan ini?"
+
+- id: license_title
+  translation: "Lisensi"
+
+- id: view_on_github_button
+  translation: "Lihat di GitHub"
+
+- id: current_open_guide_label
+  translation: "Open Guide sekarang"
+
+- id: active_status_label
+  translation: "Berlaku"
+
+- id: current_fork_label
+  translation: "Fork sekarang"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Difork dari:"
+
+- id: forked_from_indicator
+  translation: "Difork dari:"
+
+- id: this_is_fork_label
+  translation: "Ini sebuah fork"
+
+- id: available_languages_label
+  translation: "Bahasa yang ada"
+
+- id: pdf_downloads_label
+  translation: "Unduhan PDF"
+
+- id: living_document_updated_label
+  translation: "Dokumen hidup diperbarui"
+
+- id: active_fork_updated_label
+  translation: "Fork aktif diperbarui"
+
+- id: historical_fork_label
+  translation: "Fork bersejarah dari"
+
+- id: historical_version_label
+  translation: "Versi bersejarah"
+
+- id: read_guide_button
+  translation: "Baca panduan"
+
+- id: translations_button_small
+  translation: "Terjemahan"
+
+- id: read_fork_button
+  translation: "Baca fork-nya"
+
+- id: view_archive_button
+  translation: "Lihat arsip"
+
+- id: download_reference_status
+  translation: "Acuan"
