@@ -1,0 +1,607 @@
+# Interface strings, Uzbek (Latin).
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Hujjatlar"
+
+- id: guides_section_title
+  translation: "Qoʻllanmalar"
+
+- id: implementations_section_title
+  translation: "Joriy etish qoʻllanmalari"
+
+- id: implementations_section_description
+  translation: "Scrum-ni muayyan sharoitda ishlatish yoʻllari. Ularning har biri Scrum-ning niyati ichida qoladi va biror holat uchun yoʻl koʻrsatadi — bitta mahsulotda bir necha guruh, oqimni boshqarish, boshlash — Scrum nimani talab qilishini oʻzgartirmay."
+
+- id: extensions_section_title
+  translation: "Kengaytmalar"
+
+- id: extensions_section_description
+  translation: "Scrum shugʻullanadigan chegaradan tashqariga yetadigan amaliyotlar. Kengaytma oʻzini Scrum deb koʻrsatmaydi va uni oʻzgartirmaydi; u Scrum ochiq qoldiradigan savolni oladi, mahsulot beradigan qiymatni oʻlchash kabi."
+
+- id: extensions_section_empty
+  translation: "Hozircha birortasi ham yoʻq."
+
+- id: foundation_section_title
+  translation: "Qoʻllanma"
+
+- id: history_page_title
+  translation: "Tarix"
+
+- id: translations_page_title
+  translation: "Tarjimalar"
+
+- id: changes_section_title
+  translation: "Nima oʻzgardi"
+
+- id: changes_from_label
+  translation: "Shunga nisbatan oʻzgarishlar"
+
+- id: lineage_section_title
+  translation: "Chiziq"
+
+- id: adapted_from_label
+  translation: "Shundan moslashtirilgan"
+
+- id: conforms_to_label
+  translation: "Shunga mos"
+
+- id: conforming_guides_title
+  translation: "Bu nashrga mos qoʻllanmalar"
+
+- id: conditions_section_title
+  translation: "Shartlar"
+
+- id: condition_falsifier_label
+  translation: "Bajarilmaydi, qachonki"
+
+- id: current_version_label
+  translation: "Hozirgi nashr"
+
+- id: older_version_label
+  translation: "Eskiroq nashr"
+
+- id: version_notice_older
+  translation: "Bu shu qoʻllanmaning hozirgi nashri emas."
+
+- id: view_latest_label
+  translation: "Hozirgi nashrni koʻrish"
+
+- id: read_time_label
+  translation: "daq oʻqish"
+
+- id: badge_english_only
+  translation: "Faqat inglizcha"
+
+- id: badge_english_only_title
+  translation: "Bu qoʻllanma bu tilga hozircha tarjima qilinmagan."
+
+- id: badge_not_in_production
+  translation: "Ishlab chiqarishda yoʻq"
+
+- id: badge_not_in_production_title
+  translation: "Bu qoʻllanma ishlab chiqarish qurilishidan tashqarida qoldirilgan."
+
+- id: badge_not_in_preview
+  translation: "Oldindan koʻrishda yoʻq"
+
+- id: badge_not_in_preview_title
+  translation: "Bu qoʻllanma oldindan koʻrish qurilishidan tashqarida qoldirilgan."
+
+- id: licence_label
+  translation: "Litsenziya"
+
+- id: canonical_source_label
+  translation: "Ishonchli manba"
+
+- id: pending_licence_check
+  translation: "Asosiy matn litsenziya tekshiruvini kutib turibdi"
+
+- id: guide_join_discussion
+  translation: "Shu qoʻllanmani muhokama qiling"
+
+- id: guide_version_current
+  translation: "Hozirgi"
+
+- id: guide_version_latest
+  translation: "Eng yangi"
+
+- id: guide_version_select
+  translation: "Nashrni tanlang"
+
+- id: guide_version_dropdown_label
+  translation: "Nashr"
+
+- id: guide_historical_version_notice_title
+  translation: "Bu hozirgi nashr emas."
+
+- id: guide_historical_version_notice_text
+  translation: "Shu qoʻllanmaning eskiroq nashrini oʻqib turasiz."
+
+- id: guide_historical_version_notice_link
+  translation: "Hozirgi nashrni oʻqing"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Oldindan koʻrish saytida koʻring"
+
+- id: guide_translation_preview_note
+  translation: "Tarjimani oldindan koʻrish."
+
+- id: guide_translation_preview_message
+  translation: "Bu tarjima hali koʻrib chiqilmoqda va toʻliq boʻlmasligi mumkin."
+
+- id: contributors_label
+  translation: "Hissa qoʻshganlar"
+
+- id: translators_label
+  translation: "Tarjimonlar"
+
+- id: reportTranslationError
+  translation: "Tarjima xatosi haqida xabar bering"
+
+- id: nav_details
+  translation: "Shu qoʻllanma haqida"
+
+- id: nav_translations
+  translation: "Tarjimalar"
+
+- id: download_table_written_by
+  translation: "Yozganlar"
+
+- id: download_table_contributed_by
+  translation: "Hissa qoʻshganlar"
+
+- id: download_table_status
+  translation: "Holati"
+
+- id: download_discussion_action
+  translation: "Muhokama"
+
+- id: download_preview_action
+  translation: "Oldindan koʻrish"
+
+- id: download_preview_status
+  translation: "Oldindan koʻrishda"
+
+- id: download_preview_description
+  translation: "Bu tarjima hozircha chiqmagan va oldindan koʻrish saytida oʻqish mumkin."
+
+- id: download_preview_translations
+  translation: "Oldindan koʻrishdagi tarjimalar"
+
+- id: download_visit_preview
+  translation: "Oldindan koʻrish saytini ochish"
+
+- id: download_pdf_only_status
+  translation: "Faqat PDF"
+
+- id: download_stub_status
+  translation: "Boshlanmagan"
+
+- id: site_wordmark
+  translation: "Scrum qoʻllanmalari"
+
+- id: nav_the_guide
+  translation: "Qoʻllanma"
+
+- id: nav_versions
+  translation: "Nashrlar"
+
+- id: nav_implementations
+  translation: "Joriy etishlar"
+
+- id: guide_pdf_not_available
+  translation: "PDF yoʻq"
+
+- id: share_label
+  translation: "Ulashish"
+
+- id: share_copy_link
+  translation: "Havolani koʻchirish"
+
+- id: share_copied
+  translation: "Vaqtinchalik xotiraga koʻchirildi!"
+
+- id: share_close
+  translation: "Yopish"
+
+- id: role_creator
+  translation: "Yaratuvchi"
+
+- id: role_contributor
+  translation: "Hissa qoʻshgan"
+
+- id: role_reviewer
+  translation: "Koʻrib chiqqan"
+
+- id: role_translator
+  translation: "Tarjimon"
+
+- id: role_involved
+  translation: "Qatnashgan"
+
+- id: nav_getting_started
+  translation: "Dastlabki qadamlar"
+
+- id: nav_the_scrum_guide
+  translation: "Scrum qoʻllanmasi"
+
+- id: home_action_getting_started
+  translation: "Scrum Team-lar uchun dastlabki qadamlarni tarmoqda oʻqing"
+
+- id: home_action_scrum_guide
+  translation: "Rasmiy Scrum qoʻllanmasini tarmoqda oʻqing"
+
+- id: home_action_translations
+  translation: "Rasmiy Scrum qoʻllanmasini 30 dan ortiq tilda yuklab oling"
+
+- id: home_action_read_online
+  translation: "Tarmoqda oʻqish"
+
+- id: home_action_select_language
+  translation: "Til tanlab yuklab olish"
+
+- id: and
+  translation: "va"
+
+- id: breadcrumb_home
+  translation: "Bosh sahifa"
+
+- id: read_online_title
+  translation: "Tarmoqda oʻqish"
+
+- id: read_online_description
+  translation: "Butun qoʻllanmaga raqamli holda, oʻzaro ishlash imkoniyatlari va yengil yurish bilan yetib boring."
+
+- id: read_online_button
+  translation: "Tarmoqda oʻqish"
+
+- id: translations_title
+  translation: "Tarjimalar"
+
+- id: translations_description
+  translation: "Shu qoʻllanmani bir necha tilda oʻqing va tarjimalarga yordam bering."
+
+- id: translations_button
+  translation: "Tarjimalarni koʻrish"
+
+- id: history_title
+  translation: "Tarix"
+
+- id: history_description
+  translation: "Shu qoʻllanmaning rivojini va tarixini kuzatib boring."
+
+- id: history_button
+  translation: "Tarixni koʻrish"
+
+- id: what_is_guides_title
+  translation: "{{ .Site.Title }} nima?"
+
+- id: open_source_title
+  translation: "Ochiq manba, jamoa yuritadi"
+
+- id: open_source_description
+  translation: "Bu jamoaning hamkorligidan yashaydigan ochiq manbali loyiha. Yaxshilashlar taklif qilmoqchi, muammolar haqida xabar bermoqchi yoki mundarija bilan hissa qoʻshmoqchi boʻlsangiz, xush kelibsiz. Baʼzi qoʻllanmalar hissa qabul qilmaydi, lekin shu yerda havola sifatida turadi. Birga biz shu manbalarni butun dunyodagi qoʻllovchilar uchun va ish oqimining samarasini hamda qiymat yetkazishni yaxshilamoqchi boʻlgan har kim uchun qimmatliroq qila olamiz."
+
+- id: at_a_glance_title
+  translation: "Qisqacha"
+
+- id: join_discussion_button
+  translation: "Muhokamaga qoʻshiling"
+
+- id: join_discussion_title
+  translation: "{{ .Site.Title }} haqidagi muhokamaga qoʻshiling"
+
+- id: join_discussion_description
+  translation: "Jamoa bilan uchrashing, koʻrganingizni ulashing va {{ .Site.Title }} kelajagini shakllantirishga yordam bering. Shu qoʻllanmalar qoʻllovchilar uchun toʻliq tana boʻlishi uchun sizlarning hissangiz oʻrnini bosa olmaydi."
+
+- id: guides_intro_text
+  translation: "Ishlaydigan amaliyotlarni va ularni har qanday jarayonda ish oqimi hamda qiymat yetkazishni eng qulay qilish uchun qanday ishlatishni oʻrganing. Shu yerda bilim va yaxshi amaliyotlarning butun tanasi. {{ .Site.Title }} — amaliy qoʻllanmalarning uyi: bilim ishida isbotlangan usullarni ishlatish uchun erkin, jamoa yuritadigan havola. Qoʻllanmalar oqimni yaxshilash, qiymat yetkazishni eng qulay qilish va guruhning chidamini mustahkamlash uchun kerak boʻlgan asosiy amaliyotlar va oʻlchovlarni chegaralaydi. Ular turli sohada kattalashtiriladigan qabulni qoʻllab-quvvatlaydi va ish oqimining boshqa zamonaviy usullarini toʻldiradi."
+
+- id: guide_content_not_found
+  translation: "Qoʻllanmaning mundarijasi topilmadi"
+
+- id: nav_read_guide
+  translation: "Qoʻllanmani oʻqing"
+
+- id: nav_history
+  translation: "Tarix"
+
+- id: nav_overview
+  translation: "Umumiy qarash"
+
+- id: guide_pdf_download_button
+  translation: "PDF yuklab olish"
+
+- id: guide_pdf_intro_text
+  translation: "Shu qoʻllanmani PDF holida ham yuklab olib, tarmoqsiz oʻqishingiz mumkin."
+
+- id: guide_pdf_intro_link
+  translation: "PDF ni yuklab oling"
+
+- id: download_page_title
+  translation: "Rasmiy {{ .Title }} ni oʻqing va yuklab oling"
+
+- id: download_page_description
+  translation: "{{ .Title }} shu yerda quyidagilar tomonidan belgilanadi"
+
+- id: download_page_originators
+  translation: " — {{ .Title }} yaratuvchilari."
+
+- id: download_translations_provided
+  translation: "Tarjimalarni pastda sanab oʻtilgan xayrixoh odamlar va guruhlar bergan. Yuklab olmoqchi boʻlgan tilni tanlang."
+
+- id: download_translation_error
+  translation: "Agar {{ .Title }} ichidan tarjima xatosi deb hisoblagan biror narsani topsangiz, toʻgʻridan-toʻgʻri oʻsha tarjimonga murojaat qiling. Qoʻshimcha yordam kerak boʻlsa, biz bilan shu orqali bogʻlaning"
+
+- id: download_official_version
+  translation: "Rasmiy nashr"
+
+- id: download_community_translations
+  translation: "Jamoadan tarjimalar"
+
+- id: download_current_version_released
+  translation: "{{ .Site.Title }} ning hozirgi rasmiy nashri chiqqan kun"
+
+- id: download_older_translations_notice
+  translation: "{{ .Site.Title }} ning eskiroq tarjimalarida eng yangi maʼlumot boʻlmasligi mumkin."
+
+- id: download_table_language
+  translation: "Til"
+
+- id: download_table_translations_by
+  translation: "Tarjima qilganlar"
+
+- id: download_table_action
+  translation: "Amal"
+
+- id: download_official_current_version
+  translation: "Rasmiy hozirgi nashr"
+
+- id: download_button_text
+  translation: "Yuklab olish"
+
+- id: download_coming_soon
+  translation: "Tez kunda"
+
+- id: download_missing_language
+  translation: "Tilingiz yoʻqmi?"
+
+- id: download_contribute_translation
+  translation: "Yangi tarjima bilan hissa qoʻshib, jamoaga yordam bering."
+
+- id: download_add_translation
+  translation: "Tarjima qoʻshish"
+
+- id: download_community_contributors
+  translation: "Jamoadan hissa qoʻshganlar"
+
+- id: contributors_description
+  translation: "Pastdagi hissa qoʻshganlar barcha qoʻllanmalardan va barcha nashrlardan yigʻilgan."
+
+- id: read_online_action
+  translation: "Tarmoqda oʻqish"
+
+- id: guide_table_of_contents
+  translation: "Mundarija"
+
+- id: guide_coming_soon
+  translation: "Bu qoʻllanma yoʻlda. Uni kuzatib boring."
+
+- id: guide_no_content_available
+  translation: "Bu tilda hozircha mundarija yoʻq."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) yoʻq"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) yoʻq"
+
+- id: guide_coming_label
+  translation: "Keladi:"
+
+- id: guide_updated_label
+  translation: "Yangilandi:"
+
+- id: guide_version_label
+  translation: "Nashr:"
+
+- id: guide_content_unavailable_note
+  translation: "Eslatma:"
+
+- id: guide_content_unavailable_message
+  translation: "Shu sahifaning mundarijasi {{ .Language }} tilida hozircha yoʻq. Pastda qoʻllanmaning boshlangʻich mundarijasi koʻrsatiladi."
+
+- id: guide_content_unavailable_title
+  translation: "Mundarija mavjud emas:"
+
+- id: guide_content_unavailable_description
+  translation: "Shu sahifaning mundarijasi yuklanmadi, va koʻrsatish uchun boshlangʻich mundarija yoʻq. Iltimos, xabar bering"
+
+- id: guide_report_issue_link
+  translation: "Shu muammo haqida xabar bering"
+
+- id: guide_report_issue_message
+  translation: "toʻgʻrilay olishimiz uchun."
+
+- id: guide_back_to_home
+  translation: "← Bosh sahifaga qaytish"
+
+- id: not_sure_which_to_use_title
+  translation: "Qaysi birini ishlatishga ishonchingiz yoʻqmi?"
+
+- id: get_started_title
+  translation: "Boshlang"
+
+- id: community_driven_label
+  translation: "Jamoa yuritadi"
+
+- id: coming_soon
+  translation: "Tez kunda"
+
+- id: purpose_title
+  translation: "Maqsadi"
+
+- id: ethos_title
+  translation: "Chiqish nuqtasi"
+
+- id: audience_title
+  translation: "Kimga"
+
+- id: use_case_title
+  translation: "Qachon ishlatiladi"
+
+- id: content_title
+  translation: "Mundarija"
+
+- id: update_model_title
+  translation: "Qanday yangilanadi"
+
+- id: guide_overview_title
+  translation: "Qoʻllanmaga umumiy qarash"
+
+- id: guide_overview_description
+  translation: "Shu qoʻllanmaning asosiy belgilari"
+
+- id: when_to_use_title
+  translation: "Shu qoʻllanmani qachon ishlatish kerak"
+
+- id: when_to_use_description
+  translation: "Sharoitingizga mos yoʻlni tanlang"
+
+- id: quick_decision_guide_title
+  translation: "Tez tanlov"
+
+- id: getting_started_title
+  translation: "Dastlabki qadamlar"
+
+- id: for_practitioners_title
+  translation: "Qoʻllovchilarga"
+
+- id: current_information_title
+  translation: "Hozirgi maʼlumot"
+
+- id: current_information_description
+  translation: "Nashrning tafsilotlari va jamoadan hissa qoʻshganlar"
+
+- id: current_version_title
+  translation: "Hozirgi nashr"
+
+- id: current_version_updated_label
+  translation: "Yangilandi"
+
+- id: current_version_description
+  translation: "Bu qoʻllanmaning hozir kuchda turgan nashri."
+
+- id: read_current_version_button
+  translation: "Hozirgi nashrni oʻqing"
+
+- id: version_info_not_available
+  translation: "Nashrning maʼlumoti yoʻq"
+
+- id: contributors_title
+  translation: "Hissa qoʻshganlar"
+
+- id: contributors_description_card
+  translation: "Shu qoʻllanmani shakllantirgan jamoa aʼzolari"
+
+- id: contributors_thank_you
+  translation: "Shu qoʻllanmani yaxshilaganlarning barchasiga rahmat."
+
+- id: join_community_button
+  translation: "Jamoaga qoʻshiling"
+
+- id: no_contributors_found
+  translation: "Hissa qoʻshganlar topilmadi"
+
+- id: version_history_title
+  translation: "Nashrlar tarixi"
+
+- id: version_history_description
+  translation: "Oldingi nashrlar va ularning rivoji"
+
+- id: no_previous_versions_title
+  translation: "Oldingi nashrlar yoʻq"
+
+- id: no_previous_versions_description
+  translation: "Bu qoʻllanma hozirgina boshlandi. Oldingi nashrlar uchun keyinroq keling."
+
+- id: what_is_guide_title
+  translation: "Bu qoʻllanma nima?"
+
+- id: license_title
+  translation: "Litsenziya"
+
+- id: view_on_github_button
+  translation: "GitHub da koʻrish"
+
+- id: current_open_guide_label
+  translation: "Hozirgi Open Guide"
+
+- id: active_status_label
+  translation: "Kuchda"
+
+- id: current_fork_label
+  translation: "Hozirgi fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Shundan fork qilingan:"
+
+- id: forked_from_indicator
+  translation: "Shundan fork qilingan:"
+
+- id: this_is_fork_label
+  translation: "Bu fork"
+
+- id: available_languages_label
+  translation: "Mavjud tillar"
+
+- id: pdf_downloads_label
+  translation: "PDF yuklamalari"
+
+- id: living_document_updated_label
+  translation: "Tirik hujjat yangilandi"
+
+- id: active_fork_updated_label
+  translation: "Faol fork yangilandi"
+
+- id: historical_fork_label
+  translation: "Shundan tarixiy fork:"
+
+- id: historical_version_label
+  translation: "Tarixiy nashr"
+
+- id: read_guide_button
+  translation: "Qoʻllanmani oʻqing"
+
+- id: translations_button_small
+  translation: "Tarjimalar"
+
+- id: read_fork_button
+  translation: "Fork ni oʻqing"
+
+- id: view_archive_button
+  translation: "Arxivni koʻrish"
+
+- id: download_reference_status
+  translation: "Havola"

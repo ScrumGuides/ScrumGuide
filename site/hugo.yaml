@@ -280,6 +280,12 @@ languages:
     title: Дастури Scrum
     params:
       description: Ҳар нашри интишорёфтаи Дастури Scrum дар як ҷой, якҷо бо дастурҳои татбиқ, ки бар он такя мекунанд.
+  uz-latn:
+    label: Oʻzbekcha
+    weight: 47
+    title: Scrum qoʻllanmasi
+    params:
+      description: Scrum qoʻllanmasining chiqqan har bir nashri bir joyda, unga tayanadigan joriy etish qoʻllanmalari bilan birga.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

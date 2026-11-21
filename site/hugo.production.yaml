@@ -104,3 +104,5 @@ languages:
     disabled: true
   tg:
     disabled: true
+  uz-latn:
+    disabled: true
