@@ -102,3 +102,5 @@ languages:
     disabled: true
   sq:
     disabled: true
+  tg:
+    disabled: true

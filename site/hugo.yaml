@@ -274,6 +274,12 @@ languages:
     title: Udhëzuesi i Scrum
     params:
       description: Çdo botim i Udhëzuesit të Scrum në një vend, bashkë me udhëzuesat e zbatimit që ngrihen mbi të.
+  tg:
+    label: Тоҷикӣ
+    weight: 43
+    title: Дастури Scrum
+    params:
+      description: Ҳар нашри интишорёфтаи Дастури Scrum дар як ҷой, якҷо бо дастурҳои татбиқ, ки бар он такя мекунанд.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

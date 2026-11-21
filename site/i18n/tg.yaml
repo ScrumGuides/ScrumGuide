@@ -1,0 +1,607 @@
+# Interface strings, Tajik.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Ҳуҷҷатҳо"
+
+- id: guides_section_title
+  translation: "Дастурҳо"
+
+- id: implementations_section_title
+  translation: "Дастурҳои татбиқ"
+
+- id: implementations_section_description
+  translation: "Роҳҳои истифодаи Scrum дар шароити муайян. Ҳар яке аз онҳо дар дохили ниёти Scrum мемонад ва барои ҳолате роҳнамоӣ меафзояд — якчанд гурӯҳ бар як маҳсулот, идораи ҷараён, оғоз — бидуни тағйири он чи Scrum талаб мекунад."
+
+- id: extensions_section_title
+  translation: "Густаришҳо"
+
+- id: extensions_section_description
+  translation: "Таҷрибаҳое, ки ба берун аз он мерасанд, ки Scrum бо он сарукор дорад. Густариш худро Scrum намегӯяд ва онро тағйир намедиҳад; он саволе мегирад, ки Scrum кушода мегузорад, мисли чен кардани арзише, ки маҳсулот медиҳад."
+
+- id: extensions_section_empty
+  translation: "Ҳанӯз ҳеҷ яке."
+
+- id: foundation_section_title
+  translation: "Дастур"
+
+- id: history_page_title
+  translation: "Таърих"
+
+- id: translations_page_title
+  translation: "Тарҷумаҳо"
+
+- id: changes_section_title
+  translation: "Чӣ тағйир ёфт"
+
+- id: changes_from_label
+  translation: "Тағйирот нисбат ба"
+
+- id: lineage_section_title
+  translation: "Хат"
+
+- id: adapted_from_label
+  translation: "Мутобиқшуда аз"
+
+- id: conforms_to_label
+  translation: "Ба ин мувофиқ аст"
+
+- id: conforming_guides_title
+  translation: "Дастурҳое, ки ба ин нашр мувофиқанд"
+
+- id: conditions_section_title
+  translation: "Шартҳо"
+
+- id: condition_falsifier_label
+  translation: "Иҷро намешавад вақте ки"
+
+- id: current_version_label
+  translation: "Нашри ҳозира"
+
+- id: older_version_label
+  translation: "Нашри кӯҳнатар"
+
+- id: version_notice_older
+  translation: "Ин нашри ҳозираи ин дастур нест."
+
+- id: view_latest_label
+  translation: "Нашри ҳозираро бинед"
+
+- id: read_time_label
+  translation: "дақ хониш"
+
+- id: badge_english_only
+  translation: "Танҳо англисӣ"
+
+- id: badge_english_only_title
+  translation: "Ин дастур ҳанӯз ба ин забон тарҷума нашудааст."
+
+- id: badge_not_in_production
+  translation: "Дар истеҳсолот нест"
+
+- id: badge_not_in_production_title
+  translation: "Ин дастур аз сохтмони истеҳсолот берун монда шудааст."
+
+- id: badge_not_in_preview
+  translation: "Дар пешнамоиш нест"
+
+- id: badge_not_in_preview_title
+  translation: "Ин дастур аз сохтмони пешнамоиш берун монда шудааст."
+
+- id: licence_label
+  translation: "Иҷозатнома"
+
+- id: canonical_source_label
+  translation: "Сарчашмаи боваринак"
+
+- id: pending_licence_check
+  translation: "Матни асосӣ санҷиши иҷозатномаро интизор аст"
+
+- id: guide_join_discussion
+  translation: "Ин дастурро муҳокима кунед"
+
+- id: guide_version_current
+  translation: "Ҳозира"
+
+- id: guide_version_latest
+  translation: "Навтарин"
+
+- id: guide_version_select
+  translation: "Нашрро интихоб кунед"
+
+- id: guide_version_dropdown_label
+  translation: "Нашр"
+
+- id: guide_historical_version_notice_title
+  translation: "Ин нашри ҳозира нест."
+
+- id: guide_historical_version_notice_text
+  translation: "Шумо нашри кӯҳнатари ин дастурро мехонед."
+
+- id: guide_historical_version_notice_link
+  translation: "Нашри ҳозираро бихонед"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Дар сайти пешнамоиш бинед"
+
+- id: guide_translation_preview_note
+  translation: "Пешнамоиши тарҷума."
+
+- id: guide_translation_preview_message
+  translation: "Ин тарҷума ҳанӯз аз назар гузаронда мешавад ва метавонад нопурра бошад."
+
+- id: contributors_label
+  translation: "Саҳмгузорон"
+
+- id: translators_label
+  translation: "Тарҷумонҳо"
+
+- id: reportTranslationError
+  translation: "Дар бораи хатои тарҷума хабар диҳед"
+
+- id: nav_details
+  translation: "Дар бораи ин дастур"
+
+- id: nav_translations
+  translation: "Тарҷумаҳо"
+
+- id: download_table_written_by
+  translation: "Навиштаанд"
+
+- id: download_table_contributed_by
+  translation: "Саҳм гузоштаанд"
+
+- id: download_table_status
+  translation: "Ҳолат"
+
+- id: download_discussion_action
+  translation: "Муҳокима"
+
+- id: download_preview_action
+  translation: "Пешнамоиш"
+
+- id: download_preview_status
+  translation: "Дар пешнамоиш"
+
+- id: download_preview_description
+  translation: "Ин тарҷума ҳанӯз нашр нашудааст ва дар сайти пешнамоиш хонда мешавад."
+
+- id: download_preview_translations
+  translation: "Тарҷумаҳо дар пешнамоиш"
+
+- id: download_visit_preview
+  translation: "Сайти пешнамоишро кушоед"
+
+- id: download_pdf_only_status
+  translation: "Танҳо PDF"
+
+- id: download_stub_status
+  translation: "Оғоз нашудааст"
+
+- id: site_wordmark
+  translation: "Дастурҳои Scrum"
+
+- id: nav_the_guide
+  translation: "Дастур"
+
+- id: nav_versions
+  translation: "Нашрҳо"
+
+- id: nav_implementations
+  translation: "Татбиқҳо"
+
+- id: guide_pdf_not_available
+  translation: "PDF нест"
+
+- id: share_label
+  translation: "Мубодила"
+
+- id: share_copy_link
+  translation: "Пайвандро нусха бардоштан"
+
+- id: share_copied
+  translation: "Ба ҳофизаи муваққатӣ нусха бардошта шуд!"
+
+- id: share_close
+  translation: "Пӯшидан"
+
+- id: role_creator
+  translation: "Офаранда"
+
+- id: role_contributor
+  translation: "Саҳмгузор"
+
+- id: role_reviewer
+  translation: "Азназаргузаронанда"
+
+- id: role_translator
+  translation: "Тарҷумон"
+
+- id: role_involved
+  translation: "Иштирокчӣ"
+
+- id: nav_getting_started
+  translation: "Қадамҳои аввал"
+
+- id: nav_the_scrum_guide
+  translation: "Дастури Scrum"
+
+- id: home_action_getting_started
+  translation: "Қадамҳои аввал барои Scrum Team-ҳоро дар шабака хонед"
+
+- id: home_action_scrum_guide
+  translation: "Дастури расмии Scrum-ро дар шабака хонед"
+
+- id: home_action_translations
+  translation: "Дастури расмии Scrum-ро ба зиёда аз 30 забон боргирӣ кунед"
+
+- id: home_action_read_online
+  translation: "Хондан дар шабака"
+
+- id: home_action_select_language
+  translation: "Забонро интихоб ва боргирӣ кунед"
+
+- id: and
+  translation: "ва"
+
+- id: breadcrumb_home
+  translation: "Саҳифаи асосӣ"
+
+- id: read_online_title
+  translation: "Хондан дар шабака"
+
+- id: read_online_description
+  translation: "Ба тамоми дастур ба таври рақамӣ, бо имкониятҳои ҳамкорӣ ва ҳаракати осон расед."
+
+- id: read_online_button
+  translation: "Хондан дар шабака"
+
+- id: translations_title
+  translation: "Тарҷумаҳо"
+
+- id: translations_description
+  translation: "Ин дастурро ба якчанд забон бихонед ва ба тарҷумаҳо кумак кунед."
+
+- id: translations_button
+  translation: "Тарҷумаҳоро бинед"
+
+- id: history_title
+  translation: "Таърих"
+
+- id: history_description
+  translation: "Инкишоф ва таърихи ин дастурро пайгирӣ кунед."
+
+- id: history_button
+  translation: "Таърихро бинед"
+
+- id: what_is_guides_title
+  translation: "{{ .Site.Title }} чист?"
+
+- id: open_source_title
+  translation: "Сарчашмаи кушод, ҷамоат пеш мебарад"
+
+- id: open_source_description
+  translation: "Ин лоиҳаи сарчашмаи кушод аст, ки аз ҳамкории ҷамоат зиндагӣ мекунад. Агар беҳтаркуниҳо пешниҳод кардан, дар бораи мушкилот хабар додан ё бо мундариҷа саҳм гузоштан хоҳед, хуш омадед. Баъзе дастурҳо саҳм қабул намекунанд, вале дар ин ҷо ҳамчун иқтибос мемонанд. Якҷоя мо метавонем ин сарчашмаҳоро барои татбиқкунандагон дар тамоми ҷаҳон ва барои ҳар касе, ки самаранокии ҷараёни кор ва расонидани арзишро беҳтар кардан мехоҳад, арзишмандтар кунем."
+
+- id: at_a_glance_title
+  translation: "Мухтасар"
+
+- id: join_discussion_button
+  translation: "Ба муҳокима ҳамроҳ шавед"
+
+- id: join_discussion_title
+  translation: "Ба муҳокима дар бораи {{ .Site.Title }} ҳамроҳ шавед"
+
+- id: join_discussion_description
+  translation: "Бо ҷамоат вохӯред, он чи мебинед мубодила кунед ва ба шакл додани ояндаи {{ .Site.Title }} кумак кунед. Саҳми шумо ҷойивазнашаванда аст, то ин дастурҳо ҷисми пурра барои татбиқкунандагон шаванд."
+
+- id: guides_intro_text
+  translation: "Таҷрибаҳое, ки кор мекунанд, ва чӣ гуна онҳоро барои беҳтар кардани ҷараёни кор ва расонидани арзиш дар ҳар раванд истифода бурдан, омӯзед. Дар ин ҷо тамоми ҷисми дониш ва таҷрибаҳои нек аст. {{ .Site.Title }} хонаи дастурҳои амалӣ аст: иқтибоси озод, ки ҷамоат онро пеш мебарад, барои истифодаи усулҳои собитшуда дар кори дониш. Дастурҳо он таҷрибаҳо ва ченакҳои асосиро маҳдуд мекунанд, ки барои беҳтар кардани ҷараён, беҳтар кардани расонидани арзиш ва мустаҳкам кардани устувории гурӯҳ лозим мебошанд. Онҳо қабули васеъшавандаро дар соҳаҳои гуногун дастгирӣ мекунанд ва усулҳои дигари муосири ҷараёни корро пурра мекунанд."
+
+- id: guide_content_not_found
+  translation: "Мундариҷаи дастур ёфт нашуд"
+
+- id: nav_read_guide
+  translation: "Дастурро бихонед"
+
+- id: nav_history
+  translation: "Таърих"
+
+- id: nav_overview
+  translation: "Нигоҳи умумӣ"
+
+- id: guide_pdf_download_button
+  translation: "PDF боргирӣ кардан"
+
+- id: guide_pdf_intro_text
+  translation: "Ин дастурро ҳамчунин дар шакли PDF боргирӣ карда, бе шабака хонда метавонед."
+
+- id: guide_pdf_intro_link
+  translation: "PDF-ро боргирӣ кунед"
+
+- id: download_page_title
+  translation: "{{ .Title }}-и расмиро бихонед ва боргирӣ кунед"
+
+- id: download_page_description
+  translation: "{{ .Title }} дар ин ҷо бо инҳо муайян мешавад"
+
+- id: download_page_originators
+  translation: " — офарандагони {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Тарҷумаҳоро шахсон ва гурӯҳҳои хайрхоҳи дар поён овардашуда пешкаш кардаанд. Забоне, ки боргирӣ кардан мехоҳед, интихоб кунед."
+
+- id: download_translation_error
+  translation: "Агар дар {{ .Title }} чизе ёбед, ки онро хатои тарҷума мепиндоред, рост ба он тарҷумон муроҷиат кунед. Агар кумаки бештар даркор бошад, бо мо дар ин ҷо тамос гиред"
+
+- id: download_official_version
+  translation: "Нашри расмӣ"
+
+- id: download_community_translations
+  translation: "Тарҷумаҳо аз ҷамоат"
+
+- id: download_current_version_released
+  translation: "Нашри расмии ҳозираи {{ .Site.Title }} баромад"
+
+- id: download_older_translations_notice
+  translation: "Тарҷумаҳои кӯҳнатари {{ .Site.Title }} метавонанд маълумоти навтаринро надошта бошанд."
+
+- id: download_table_language
+  translation: "Забон"
+
+- id: download_table_translations_by
+  translation: "Тарҷума кардаанд"
+
+- id: download_table_action
+  translation: "Амал"
+
+- id: download_official_current_version
+  translation: "Нашри расмии ҳозира"
+
+- id: download_button_text
+  translation: "Боргирӣ"
+
+- id: download_coming_soon
+  translation: "Ба наздикӣ"
+
+- id: download_missing_language
+  translation: "Забони шумо нест?"
+
+- id: download_contribute_translation
+  translation: "Бо тарҷумаи нав саҳм гузоред ва ба ҷамоат кумак кунед."
+
+- id: download_add_translation
+  translation: "Тарҷума илова кардан"
+
+- id: download_community_contributors
+  translation: "Саҳмгузорон аз ҷамоат"
+
+- id: contributors_description
+  translation: "Саҳмгузорони поён аз ҳамаи дастурҳо ва ҳамаи нашрҳо ҷамъ оварда шудаанд."
+
+- id: read_online_action
+  translation: "Хондан дар шабака"
+
+- id: guide_table_of_contents
+  translation: "Мундариҷа"
+
+- id: guide_coming_soon
+  translation: "Ин дастур дар роҳ аст. Онро пайгирӣ кунед."
+
+- id: guide_no_content_available
+  translation: "Ба ин забон ҳанӯз мундариҷа нест."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) нест"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) нест"
+
+- id: guide_coming_label
+  translation: "Меояд:"
+
+- id: guide_updated_label
+  translation: "Нав карда шуд:"
+
+- id: guide_version_label
+  translation: "Нашр:"
+
+- id: guide_content_unavailable_note
+  translation: "Қайд:"
+
+- id: guide_content_unavailable_message
+  translation: "Мундариҷаи ин саҳифа ҳанӯз ба забони {{ .Language }} нест. Дар поён мундариҷаи пешфарзи дастур нишон дода мешавад."
+
+- id: guide_content_unavailable_title
+  translation: "Мундариҷа дастрас нест:"
+
+- id: guide_content_unavailable_description
+  translation: "Мундариҷаи ин саҳифа бор нашуд, ва мундариҷаи пешфарз барои нишон додан нест. Хоҳишмандем, хабар диҳед"
+
+- id: guide_report_issue_link
+  translation: "Дар бораи ин мушкил хабар диҳед"
+
+- id: guide_report_issue_message
+  translation: "то онро ислоҳ кунем."
+
+- id: guide_back_to_home
+  translation: "← Бозгашт ба саҳифаи асосӣ"
+
+- id: not_sure_which_to_use_title
+  translation: "Боварӣ надоред, ки кадомро истифода баред?"
+
+- id: get_started_title
+  translation: "Оғоз кунед"
+
+- id: community_driven_label
+  translation: "Ҷамоат пеш мебарад"
+
+- id: coming_soon
+  translation: "Ба наздикӣ"
+
+- id: purpose_title
+  translation: "Ҳадаф"
+
+- id: ethos_title
+  translation: "Нуқтаи оғоз"
+
+- id: audience_title
+  translation: "Барои кӣ"
+
+- id: use_case_title
+  translation: "Кай истифода мешавад"
+
+- id: content_title
+  translation: "Мундариҷа"
+
+- id: update_model_title
+  translation: "Чӣ гуна нав карда мешавад"
+
+- id: guide_overview_title
+  translation: "Нигоҳи умумӣ ба дастур"
+
+- id: guide_overview_description
+  translation: "Хислатҳои асосии ин дастур"
+
+- id: when_to_use_title
+  translation: "Кай ин дастурро истифода бурдан"
+
+- id: when_to_use_description
+  translation: "Равише интихоб кунед, ки ба шароити шумо мувофиқ аст"
+
+- id: quick_decision_guide_title
+  translation: "Интихоби тез"
+
+- id: getting_started_title
+  translation: "Қадамҳои аввал"
+
+- id: for_practitioners_title
+  translation: "Барои татбиқкунандагон"
+
+- id: current_information_title
+  translation: "Маълумоти ҳозира"
+
+- id: current_information_description
+  translation: "Тафсилоти нашр ва саҳмгузорон аз ҷамоат"
+
+- id: current_version_title
+  translation: "Нашри ҳозира"
+
+- id: current_version_updated_label
+  translation: "Нав карда шуд"
+
+- id: current_version_description
+  translation: "Ин нашри дастур аст, ки ҳоло дар қувва аст."
+
+- id: read_current_version_button
+  translation: "Нашри ҳозираро бихонед"
+
+- id: version_info_not_available
+  translation: "Маълумоти нашр дастрас нест"
+
+- id: contributors_title
+  translation: "Саҳмгузорон"
+
+- id: contributors_description_card
+  translation: "Аъзоёни ҷамоат, ки ин дастурро шакл додаанд"
+
+- id: contributors_thank_you
+  translation: "Ташаккур ба ҳамаи онҳое, ки ин дастурро беҳтар кардаанд."
+
+- id: join_community_button
+  translation: "Ба ҷамоат ҳамроҳ шавед"
+
+- id: no_contributors_found
+  translation: "Саҳмгузорон ёфт нашуданд"
+
+- id: version_history_title
+  translation: "Таърихи нашрҳо"
+
+- id: version_history_description
+  translation: "Нашрҳои пештара ва инкишофи онҳо"
+
+- id: no_previous_versions_title
+  translation: "Нашрҳои пештара нестанд"
+
+- id: no_previous_versions_description
+  translation: "Ин дастур нав оғоз шудааст. Барои нашрҳои пештара дертар биёед."
+
+- id: what_is_guide_title
+  translation: "Ин дастур чист?"
+
+- id: license_title
+  translation: "Иҷозатнома"
+
+- id: view_on_github_button
+  translation: "Дар GitHub бинед"
+
+- id: current_open_guide_label
+  translation: "Open Guide-и ҳозира"
+
+- id: active_status_label
+  translation: "Дар қувва"
+
+- id: current_fork_label
+  translation: "Fork-и ҳозира"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Аз ин fork шудааст:"
+
+- id: forked_from_indicator
+  translation: "Аз ин fork шудааст:"
+
+- id: this_is_fork_label
+  translation: "Ин fork аст"
+
+- id: available_languages_label
+  translation: "Забонҳои мавҷуд"
+
+- id: pdf_downloads_label
+  translation: "Боргириҳои PDF"
+
+- id: living_document_updated_label
+  translation: "Ҳуҷҷати зинда нав карда шуд"
+
+- id: active_fork_updated_label
+  translation: "Fork-и фаъол нав карда шуд"
+
+- id: historical_fork_label
+  translation: "Fork-и таърихӣ аз"
+
+- id: historical_version_label
+  translation: "Нашри таърихӣ"
+
+- id: read_guide_button
+  translation: "Дастурро бихонед"
+
+- id: translations_button_small
+  translation: "Тарҷумаҳо"
+
+- id: read_fork_button
+  translation: "Fork-ро бихонед"
+
+- id: view_archive_button
+  translation: "Бойгониро бинед"
+
+- id: download_reference_status
+  translation: "Иқтибос"
