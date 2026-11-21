@@ -96,3 +96,5 @@ languages:
     disabled: true
   lt:
     disabled: true
+  lv:
+    disabled: true

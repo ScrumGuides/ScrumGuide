@@ -256,6 +256,12 @@ languages:
     title: Scrum vadovas
     params:
       description: Kiekviena išleista Scrum vadovo redakcija vienoje vietoje, su įgyvendinimo vadovais, kurie ant jo stovi.
+  lv:
+    label: Latviešu
+    weight: 29
+    title: Scrum ceļvedis
+    params:
+      description: Katrs izdotais Scrum ceļveža laidiens vienā vietā, kopā ar ieviešanas ceļvežiem, kas uz tā balstās.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

@@ -1,0 +1,607 @@
+# Interface strings, Latvian.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Dokumenti"
+
+- id: guides_section_title
+  translation: "Ceļveži"
+
+- id: implementations_section_title
+  translation: "Ieviešanas ceļveži"
+
+- id: implementations_section_description
+  translation: "Veidi, kā lietot Scrum noteiktā vidē. Katrs no tiem paliek Scrum nodoma iekšienē un pievieno norādes kādam stāvoklim - vairākas komandas pie viena produkta, plūsmas vadīšana, sākums - nemainot to, ko Scrum prasa."
+
+- id: extensions_section_title
+  translation: "Paplašinājumi"
+
+- id: extensions_section_description
+  translation: "Prakses, kas sniedzas ārpus tā, ar ko nodarbojas Scrum. Paplašinājums neuzdodas par Scrum un to nemaina; tas uzņemas jautājumu, ko Scrum atstāj atklātu, piemēram, vērtības, ko produkts dod, mērīšanu."
+
+- id: extensions_section_empty
+  translation: "Vēl neviena."
+
+- id: foundation_section_title
+  translation: "Ceļvedis"
+
+- id: history_page_title
+  translation: "Vēsture"
+
+- id: translations_page_title
+  translation: "Tulkojumi"
+
+- id: changes_section_title
+  translation: "Kas mainījās"
+
+- id: changes_from_label
+  translation: "Izmaiņas pret"
+
+- id: lineage_section_title
+  translation: "Līnija"
+
+- id: adapted_from_label
+  translation: "Pielāgots no"
+
+- id: conforms_to_label
+  translation: "Atbilst"
+
+- id: conforming_guides_title
+  translation: "Ceļveži, kas atbilst šim laidienam"
+
+- id: conditions_section_title
+  translation: "Nosacījumi"
+
+- id: condition_falsifier_label
+  translation: "Nav izpildīts, kad"
+
+- id: current_version_label
+  translation: "Tagadējais laidiens"
+
+- id: older_version_label
+  translation: "Vecāks laidiens"
+
+- id: version_notice_older
+  translation: "Šis nav šā ceļveža tagadējais laidiens."
+
+- id: view_latest_label
+  translation: "Skatiet tagadējo laidienu"
+
+- id: read_time_label
+  translation: "min lasīšanas"
+
+- id: badge_english_only
+  translation: "Tikai angliski"
+
+- id: badge_english_only_title
+  translation: "Šis ceļvedis vēl nav tulkots šajā valodā."
+
+- id: badge_not_in_production
+  translation: "Nav ražošanā"
+
+- id: badge_not_in_production_title
+  translation: "Šis ceļvedis ir atstāts ārpus ražošanas būvējuma."
+
+- id: badge_not_in_preview
+  translation: "Nav priekšskatījumā"
+
+- id: badge_not_in_preview_title
+  translation: "Šis ceļvedis ir atstāts ārpus priekšskatījuma būvējuma."
+
+- id: licence_label
+  translation: "Licence"
+
+- id: canonical_source_label
+  translation: "Ticamais avots"
+
+- id: pending_licence_check
+  translation: "Galvenais teksts gaida licences pārbaudi"
+
+- id: guide_join_discussion
+  translation: "Runājiet par šo ceļvedi"
+
+- id: guide_version_current
+  translation: "Tagadējais"
+
+- id: guide_version_latest
+  translation: "Jaunākais"
+
+- id: guide_version_select
+  translation: "Izvēlieties laidienu"
+
+- id: guide_version_dropdown_label
+  translation: "Laidiens"
+
+- id: guide_historical_version_notice_title
+  translation: "Šis nav tagadējais laidiens."
+
+- id: guide_historical_version_notice_text
+  translation: "Jūs lasāt vecāku šā ceļveža laidienu."
+
+- id: guide_historical_version_notice_link
+  translation: "Lasiet tagadējo laidienu"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Skatiet priekšskatījuma vietā"
+
+- id: guide_translation_preview_note
+  translation: "Tulkojuma priekšskatījums."
+
+- id: guide_translation_preview_message
+  translation: "Šis tulkojums vēl tiek pārlūkots un var būt nepilnīgs."
+
+- id: contributors_label
+  translation: "Devumu sniedzēji"
+
+- id: translators_label
+  translation: "Tulkotāji"
+
+- id: reportTranslationError
+  translation: "Ziņojiet par tulkojuma kļūdu"
+
+- id: nav_details
+  translation: "Par šo ceļvedi"
+
+- id: nav_translations
+  translation: "Tulkojumi"
+
+- id: download_table_written_by
+  translation: "Rakstījuši"
+
+- id: download_table_contributed_by
+  translation: "Devumu snieguši"
+
+- id: download_table_status
+  translation: "Stāvoklis"
+
+- id: download_discussion_action
+  translation: "Runājiet"
+
+- id: download_preview_action
+  translation: "Priekšskatīt"
+
+- id: download_preview_status
+  translation: "Priekšskatījumā"
+
+- id: download_preview_description
+  translation: "Šis tulkojums vēl nav izdots un to var lasīt priekšskatījuma vietā."
+
+- id: download_preview_translations
+  translation: "Tulkojumi priekšskatījumā"
+
+- id: download_visit_preview
+  translation: "Atveriet priekšskatījuma vietu"
+
+- id: download_pdf_only_status
+  translation: "Tikai PDF"
+
+- id: download_stub_status
+  translation: "Nav sākts"
+
+- id: site_wordmark
+  translation: "Scrum ceļveži"
+
+- id: nav_the_guide
+  translation: "Ceļvedis"
+
+- id: nav_versions
+  translation: "Laidieni"
+
+- id: nav_implementations
+  translation: "Ieviešanas"
+
+- id: guide_pdf_not_available
+  translation: "PDF nav"
+
+- id: share_label
+  translation: "Kopīgot"
+
+- id: share_copy_link
+  translation: "Kopēt saiti"
+
+- id: share_copied
+  translation: "Nokopēts starpliktuvē!"
+
+- id: share_close
+  translation: "Aizvērt"
+
+- id: role_creator
+  translation: "Radītājs"
+
+- id: role_contributor
+  translation: "Devumu sniedzis"
+
+- id: role_reviewer
+  translation: "Pārlūkotājs"
+
+- id: role_translator
+  translation: "Tulkotājs"
+
+- id: role_involved
+  translation: "Iesaistīts"
+
+- id: nav_getting_started
+  translation: "Pirmie soļi"
+
+- id: nav_the_scrum_guide
+  translation: "Scrum ceļvedis"
+
+- id: home_action_getting_started
+  translation: "Lasiet Pirmie soļi Scrum komandām tiešsaistē"
+
+- id: home_action_scrum_guide
+  translation: "Lasiet oficiālo Scrum ceļvedi tiešsaistē"
+
+- id: home_action_translations
+  translation: "Lejupielādējiet oficiālo Scrum ceļvedi vairāk nekā 30 valodās"
+
+- id: home_action_read_online
+  translation: "Lasiet tiešsaistē"
+
+- id: home_action_select_language
+  translation: "Izvēlieties valodu un lejupielādējiet"
+
+- id: and
+  translation: "un"
+
+- id: breadcrumb_home
+  translation: "Sākums"
+
+- id: read_online_title
+  translation: "Lasiet tiešsaistē"
+
+- id: read_online_description
+  translation: "Piekļūstiet visam ceļvedim ciparu veidā, ar mijiedarbības iespējām un vieglu pārvietošanos."
+
+- id: read_online_button
+  translation: "Lasiet tiešsaistē"
+
+- id: translations_title
+  translation: "Tulkojumi"
+
+- id: translations_description
+  translation: "Lasiet šo ceļvedi vairākās valodās un palīdziet ar tulkojumiem."
+
+- id: translations_button
+  translation: "Skatiet tulkojumus"
+
+- id: history_title
+  translation: "Vēsture"
+
+- id: history_description
+  translation: "Sekojiet šā ceļveža attīstībai un vēsturei."
+
+- id: history_button
+  translation: "Skatiet vēsturi"
+
+- id: what_is_guides_title
+  translation: "Kas ir {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Atvērtais pirmkods, vada kopiena"
+
+- id: open_source_description
+  translation: "Šis ir atvērtā pirmkoda darbs, kas dzīvo no kopienas sadarbības. Ja vēlaties ieteikt uzlabojumus, ziņot par nebūšanām vai sniegt devumu ar saturu, esat gaidīti. Daži ceļveži devumus nepieņem, bet stāv šeit kā atsauce. Kopā mēs varam padarīt šos avotus vērtīgākus praktizējošiem visā pasaulē un ikvienam, kas vēlas uzlabot darba plūsmas iedarbību un vērtības piegādi."
+
+- id: at_a_glance_title
+  translation: "Īsumā"
+
+- id: join_discussion_button
+  translation: "Pievienojieties sarunai"
+
+- id: join_discussion_title
+  translation: "Pievienojieties sarunai par {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Satiecieties ar kopienu, dalieties ar to, ko redzat, un palīdziet veidot {{ .Site.Title }} nākotni. Jūsu devums ir neatsverams, lai šie ceļveži kļūtu par pilnu kopumu praktizējošiem."
+
+- id: guides_intro_text
+  translation: "Mācieties prakses, kas strādā, un to, kā tās lietot, lai optimizētu darba plūsmu un vērtības piegādi ikvienā procesā. Šeit ir viss zināšanu un labo prakšu kopums. {{ .Site.Title }} ir praktisko ceļvežu mājas: brīva, kopienas vadīta atsauce pierādītu paņēmienu lietošanai zināšanu darbā. Ceļveži norobežo pamata prakses un mērus, kas vajadzīgi, lai uzlabotu plūsmu, optimizētu vērtības piegādi un stiprinātu komandas izturību. Tie atbalsta mērogojamu pārņemšanu dažādās nozarēs un papildina citus mūsdienu darba plūsmas paņēmienus."
+
+- id: guide_content_not_found
+  translation: "Ceļveža saturs nav atrasts"
+
+- id: nav_read_guide
+  translation: "Lasiet ceļvedi"
+
+- id: nav_history
+  translation: "Vēsture"
+
+- id: nav_overview
+  translation: "Pārskats"
+
+- id: guide_pdf_download_button
+  translation: "Lejupielādēt PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Šo ceļvedi varat lejupielādēt arī PDF formātā un lasīt bez tīkla."
+
+- id: guide_pdf_intro_link
+  translation: "Lejupielādējiet PDF"
+
+- id: download_page_title
+  translation: "Lasiet un lejupielādējiet oficiālo {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} šeit nosaka"
+
+- id: download_page_originators
+  translation: ", {{ .Title }} radītāji."
+
+- id: download_translations_provided
+  translation: "Tulkojumus devuši zemāk uzskaitītie atsaucīgie cilvēki un grupas. Izvēlieties valodu, ko vēlaties lejupielādēt."
+
+- id: download_translation_error
+  translation: "Ja {{ .Title }} atrodat kaut ko, ko uzskatāt par tulkojuma kļūdu, vērsieties tieši pie tā tulkotāja. Ja vajag vairāk palīdzības, rakstiet mums uz"
+
+- id: download_official_version
+  translation: "Oficiālais laidiens"
+
+- id: download_community_translations
+  translation: "Tulkojumi no kopienas"
+
+- id: download_current_version_released
+  translation: "Tagadējais oficiālais {{ .Site.Title }} laidiens iznāca"
+
+- id: download_older_translations_notice
+  translation: "Vecākos {{ .Site.Title }} tulkojumos var nebūt jaunāko ziņu."
+
+- id: download_table_language
+  translation: "Valoda"
+
+- id: download_table_translations_by
+  translation: "Tulkojuši"
+
+- id: download_table_action
+  translation: "Darbība"
+
+- id: download_official_current_version
+  translation: "Oficiālais tagadējais laidiens"
+
+- id: download_button_text
+  translation: "Lejupielādēt"
+
+- id: download_coming_soon
+  translation: "Jau drīz"
+
+- id: download_missing_language
+  translation: "Nav jūsu valodas?"
+
+- id: download_contribute_translation
+  translation: "Sniedziet devumu ar jaunu tulkojumu un palīdziet kopienai."
+
+- id: download_add_translation
+  translation: "Pievienojiet tulkojumu"
+
+- id: download_community_contributors
+  translation: "Devumu sniedzēji no kopienas"
+
+- id: contributors_description
+  translation: "Zemāk esošie devumu sniedzēji savākti no visiem ceļvežiem un visiem laidieniem."
+
+- id: read_online_action
+  translation: "Lasiet tiešsaistē"
+
+- id: guide_table_of_contents
+  translation: "Saturs"
+
+- id: guide_coming_soon
+  translation: "Šis ceļvedis ir ceļā. Vērojiet to."
+
+- id: guide_no_content_available
+  translation: "Šajā valodā vēl nav satura."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) nav"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) nav"
+
+- id: guide_coming_label
+  translation: "Nāk:"
+
+- id: guide_updated_label
+  translation: "Atjaunots:"
+
+- id: guide_version_label
+  translation: "Laidiens:"
+
+- id: guide_content_unavailable_note
+  translation: "Ievērojiet:"
+
+- id: guide_content_unavailable_message
+  translation: "Šīs lapas satura vēl nav {{ .Language }} valodā. Zemāk tiek rādīts ceļveža noklusētais saturs."
+
+- id: guide_content_unavailable_title
+  translation: "Saturs nav pieejams:"
+
+- id: guide_content_unavailable_description
+  translation: "Šīs lapas saturu nevarēja ielādēt, un nav noklusētā satura, ko parādīt. Lūdzu, ziņojiet"
+
+- id: guide_report_issue_link
+  translation: "Ziņojiet par šo nebūšanu"
+
+- id: guide_report_issue_message
+  translation: "lai mēs to izlabotu."
+
+- id: guide_back_to_home
+  translation: "← Atpakaļ uz sākumu"
+
+- id: not_sure_which_to_use_title
+  translation: "Nezināt, kuru lietot?"
+
+- id: get_started_title
+  translation: "Sāciet"
+
+- id: community_driven_label
+  translation: "Vada kopiena"
+
+- id: coming_soon
+  translation: "Jau drīz"
+
+- id: purpose_title
+  translation: "Nolūks"
+
+- id: ethos_title
+  translation: "Izejas punkts"
+
+- id: audience_title
+  translation: "Kam"
+
+- id: use_case_title
+  translation: "Kad to lieto"
+
+- id: content_title
+  translation: "Saturs"
+
+- id: update_model_title
+  translation: "Kā tas tiek atjaunots"
+
+- id: guide_overview_title
+  translation: "Ceļveža pārskats"
+
+- id: guide_overview_description
+  translation: "Šā ceļveža galvenās iezīmes"
+
+- id: when_to_use_title
+  translation: "Kad lietot šo ceļvedi"
+
+- id: when_to_use_description
+  translation: "Izvēlieties pieeju, kas der jūsu videi"
+
+- id: quick_decision_guide_title
+  translation: "Ātra izvēle"
+
+- id: getting_started_title
+  translation: "Pirmie soļi"
+
+- id: for_practitioners_title
+  translation: "Praktizējošiem"
+
+- id: current_information_title
+  translation: "Tagadējās ziņas"
+
+- id: current_information_description
+  translation: "Laidiena sīkumi un devumu sniedzēji no kopienas"
+
+- id: current_version_title
+  translation: "Tagadējais laidiens"
+
+- id: current_version_updated_label
+  translation: "Atjaunots"
+
+- id: current_version_description
+  translation: "Šis ir ceļveža laidiens, kas ir spēkā tagad."
+
+- id: read_current_version_button
+  translation: "Lasiet tagadējo laidienu"
+
+- id: version_info_not_available
+  translation: "Laidiena ziņu nav"
+
+- id: contributors_title
+  translation: "Devumu sniedzēji"
+
+- id: contributors_description_card
+  translation: "Kopienas dalībnieki, kas veidoja šo ceļvedi"
+
+- id: contributors_thank_you
+  translation: "Paldies visiem, kas padarīja šo ceļvedi labāku."
+
+- id: join_community_button
+  translation: "Pievienojieties kopienai"
+
+- id: no_contributors_found
+  translation: "Devumu sniedzēji nav atrasti"
+
+- id: version_history_title
+  translation: "Laidienu vēsture"
+
+- id: version_history_description
+  translation: "Agrākie laidieni un to attīstība"
+
+- id: no_previous_versions_title
+  translation: "Agrāku laidienu nav"
+
+- id: no_previous_versions_description
+  translation: "Šis ceļvedis tikko sācis. Nāciet vēlāk pēc agrākiem laidieniem."
+
+- id: what_is_guide_title
+  translation: "Kas ir šis ceļvedis?"
+
+- id: license_title
+  translation: "Licence"
+
+- id: view_on_github_button
+  translation: "Skatiet GitHub"
+
+- id: current_open_guide_label
+  translation: "Tagadējais Open Guide"
+
+- id: active_status_label
+  translation: "Spēkā"
+
+- id: current_fork_label
+  translation: "Tagadējais fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Forkots no:"
+
+- id: forked_from_indicator
+  translation: "Forkots no:"
+
+- id: this_is_fork_label
+  translation: "Šis ir fork"
+
+- id: available_languages_label
+  translation: "Esošās valodas"
+
+- id: pdf_downloads_label
+  translation: "PDF lejupielādes"
+
+- id: living_document_updated_label
+  translation: "Dzīvais dokuments atjaunots"
+
+- id: active_fork_updated_label
+  translation: "Darbīgais fork atjaunots"
+
+- id: historical_fork_label
+  translation: "Vēsturisks fork no"
+
+- id: historical_version_label
+  translation: "Vēsturisks laidiens"
+
+- id: read_guide_button
+  translation: "Lasiet ceļvedi"
+
+- id: translations_button_small
+  translation: "Tulkojumi"
+
+- id: read_fork_button
+  translation: "Lasiet fork"
+
+- id: view_archive_button
+  translation: "Skatiet arhīvu"
+
+- id: download_reference_status
+  translation: "Atsauce"
