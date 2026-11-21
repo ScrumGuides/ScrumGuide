@@ -1,0 +1,607 @@
+# Interface strings, Vietnamese.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Tài liệu"
+
+- id: guides_section_title
+  translation: "Các hướng dẫn"
+
+- id: implementations_section_title
+  translation: "Hướng dẫn triển khai"
+
+- id: implementations_section_description
+  translation: "Những cách dùng Scrum trong một hoàn cảnh nhất định. Mỗi hướng dẫn đều ở trong ý định của Scrum và thêm chỉ dẫn cho một tình huống - nhiều nhóm trên một sản phẩm, quản dòng chảy, bắt đầu - mà không thay đổi điều Scrum đòi hỏi."
+
+- id: extensions_section_title
+  translation: "Phần mở rộng"
+
+- id: extensions_section_description
+  translation: "Những thực hành vươn ra ngoài phạm vi Scrum lo. Một phần mở rộng không nhận mình là Scrum và không làm thay đổi nó; nó nhận lấy một câu hỏi Scrum để mở, như đo giá trị mà một sản phẩm mang lại."
+
+- id: extensions_section_empty
+  translation: "Chưa có."
+
+- id: foundation_section_title
+  translation: "Hướng dẫn"
+
+- id: history_page_title
+  translation: "Lịch sử"
+
+- id: translations_page_title
+  translation: "Bản dịch"
+
+- id: changes_section_title
+  translation: "Điều gì đã thay đổi"
+
+- id: changes_from_label
+  translation: "Thay đổi so với"
+
+- id: lineage_section_title
+  translation: "Mạch"
+
+- id: adapted_from_label
+  translation: "Dựa theo"
+
+- id: conforms_to_label
+  translation: "Theo đúng"
+
+- id: conforming_guides_title
+  translation: "Các hướng dẫn theo đúng bản này"
+
+- id: conditions_section_title
+  translation: "Điều kiện"
+
+- id: condition_falsifier_label
+  translation: "Không đạt khi"
+
+- id: current_version_label
+  translation: "Bản hiện hành"
+
+- id: older_version_label
+  translation: "Bản cũ hơn"
+
+- id: version_notice_older
+  translation: "Đây không phải bản hiện hành của hướng dẫn này."
+
+- id: view_latest_label
+  translation: "Xem bản hiện hành"
+
+- id: read_time_label
+  translation: "phút đọc"
+
+- id: badge_english_only
+  translation: "Chỉ tiếng Anh"
+
+- id: badge_english_only_title
+  translation: "Hướng dẫn này chưa được dịch sang thứ tiếng này."
+
+- id: badge_not_in_production
+  translation: "Không ở bản chạy thật"
+
+- id: badge_not_in_production_title
+  translation: "Hướng dẫn này bị để ngoài bản dựng chạy thật."
+
+- id: badge_not_in_preview
+  translation: "Không ở bản xem trước"
+
+- id: badge_not_in_preview_title
+  translation: "Hướng dẫn này bị để ngoài bản dựng xem trước."
+
+- id: licence_label
+  translation: "Giấy phép"
+
+- id: canonical_source_label
+  translation: "Nguồn đáng tin"
+
+- id: pending_licence_check
+  translation: "Phần chính đang chờ soát giấy phép"
+
+- id: guide_join_discussion
+  translation: "Bàn về hướng dẫn này"
+
+- id: guide_version_current
+  translation: "Hiện hành"
+
+- id: guide_version_latest
+  translation: "Mới nhất"
+
+- id: guide_version_select
+  translation: "Chọn bản"
+
+- id: guide_version_dropdown_label
+  translation: "Bản"
+
+- id: guide_historical_version_notice_title
+  translation: "Đây không phải bản hiện hành."
+
+- id: guide_historical_version_notice_text
+  translation: "Bạn đang đọc một bản cũ hơn của hướng dẫn này."
+
+- id: guide_historical_version_notice_link
+  translation: "Đọc bản hiện hành"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Xem ở trang xem trước"
+
+- id: guide_translation_preview_note
+  translation: "Xem trước bản dịch."
+
+- id: guide_translation_preview_message
+  translation: "Bản dịch này còn đang được soát và có thể chưa đủ."
+
+- id: contributors_label
+  translation: "Những người góp"
+
+- id: translators_label
+  translation: "Những người dịch"
+
+- id: reportTranslationError
+  translation: "Báo một lỗi dịch"
+
+- id: nav_details
+  translation: "Về hướng dẫn này"
+
+- id: nav_translations
+  translation: "Bản dịch"
+
+- id: download_table_written_by
+  translation: "Viết bởi"
+
+- id: download_table_contributed_by
+  translation: "Góp bởi"
+
+- id: download_table_status
+  translation: "Trạng thái"
+
+- id: download_discussion_action
+  translation: "Bàn luận"
+
+- id: download_preview_action
+  translation: "Xem trước"
+
+- id: download_preview_status
+  translation: "Đang xem trước"
+
+- id: download_preview_description
+  translation: "Bản dịch này chưa được công bố và có thể đọc ở trang xem trước."
+
+- id: download_preview_translations
+  translation: "Bản dịch đang xem trước"
+
+- id: download_visit_preview
+  translation: "Mở trang xem trước"
+
+- id: download_pdf_only_status
+  translation: "Chỉ có PDF"
+
+- id: download_stub_status
+  translation: "Chưa bắt đầu"
+
+- id: site_wordmark
+  translation: "Các Hướng dẫn Scrum"
+
+- id: nav_the_guide
+  translation: "Hướng dẫn"
+
+- id: nav_versions
+  translation: "Các bản"
+
+- id: nav_implementations
+  translation: "Triển khai"
+
+- id: guide_pdf_not_available
+  translation: "Không có PDF"
+
+- id: share_label
+  translation: "Chia sẻ"
+
+- id: share_copy_link
+  translation: "Sao liên kết"
+
+- id: share_copied
+  translation: "Đã sao vào bảng tạm!"
+
+- id: share_close
+  translation: "Đóng"
+
+- id: role_creator
+  translation: "Người tạo"
+
+- id: role_contributor
+  translation: "Người góp"
+
+- id: role_reviewer
+  translation: "Người soát"
+
+- id: role_translator
+  translation: "Người dịch"
+
+- id: role_involved
+  translation: "Có tham gia"
+
+- id: nav_getting_started
+  translation: "Bắt đầu"
+
+- id: nav_the_scrum_guide
+  translation: "Hướng dẫn Scrum"
+
+- id: home_action_getting_started
+  translation: "Đọc Bắt đầu cho Scrum Team trên mạng"
+
+- id: home_action_scrum_guide
+  translation: "Đọc Hướng dẫn Scrum chính thức trên mạng"
+
+- id: home_action_translations
+  translation: "Tải Hướng dẫn Scrum chính thức bằng hơn 30 thứ tiếng"
+
+- id: home_action_read_online
+  translation: "Đọc trên mạng"
+
+- id: home_action_select_language
+  translation: "Chọn tiếng và tải về"
+
+- id: and
+  translation: "và"
+
+- id: breadcrumb_home
+  translation: "Trang chính"
+
+- id: read_online_title
+  translation: "Đọc trên mạng"
+
+- id: read_online_description
+  translation: "Hãy tới toàn bộ hướng dẫn ở dạng số, với các tính năng tương tác và việc đi lại dễ dàng."
+
+- id: read_online_button
+  translation: "Đọc trên mạng"
+
+- id: translations_title
+  translation: "Bản dịch"
+
+- id: translations_description
+  translation: "Hãy đọc hướng dẫn này bằng nhiều thứ tiếng và giúp với các bản dịch."
+
+- id: translations_button
+  translation: "Xem các bản dịch"
+
+- id: history_title
+  translation: "Lịch sử"
+
+- id: history_description
+  translation: "Dõi theo sự phát triển và lịch sử của hướng dẫn này."
+
+- id: history_button
+  translation: "Xem lịch sử"
+
+- id: what_is_guides_title
+  translation: "{{ .Site.Title }} là gì?"
+
+- id: open_source_title
+  translation: "Nguồn mở, do cộng đồng dẫn dắt"
+
+- id: open_source_description
+  translation: "Đây là một dự án nguồn mở sống nhờ sự cộng tác của cộng đồng. Nếu bạn muốn đề nghị cải thiện, báo vấn đề hay góp nội dung, bạn được chào đón. Một số hướng dẫn không nhận phần góp, nhưng vẫn ở đây để tham chiếu. Cùng nhau chúng ta có thể làm những nguồn này đáng giá hơn cho người thực hành khắp thế giới và cho bất cứ ai muốn cải thiện hiệu lực của luồng công việc và việc mang lại giá trị."
+
+- id: at_a_glance_title
+  translation: "Nhìn nhanh"
+
+- id: join_discussion_button
+  translation: "Vào cuộc bàn luận"
+
+- id: join_discussion_title
+  translation: "Vào cuộc bàn luận về {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Hãy gặp cộng đồng, chia sẻ điều bạn thấy, và giúp tạo hình cho tương lai của {{ .Site.Title }}. Phần góp của các bạn là không thể thiếu để những hướng dẫn này thành khối đầy đủ cho người thực hành."
+
+- id: guides_intro_text
+  translation: "Hãy học những thực hành chạy được và cách dùng chúng để tối ưu luồng công việc và việc mang lại giá trị trong bất cứ quy trình nào. Ở đây là toàn bộ khối kiến thức và thực hành tốt. {{ .Site.Title }} là nhà của những hướng dẫn thiết thực: một nguồn tham khảo tự do, do cộng đồng dẫn dắt, để dùng những phương pháp đã được chứng tỏ trong công việc tri thức. Các hướng dẫn vạch ra những thực hành và thước đo cốt yếu cần có để cải thiện dòng chảy, tối ưu việc mang lại giá trị và làm bền sức của nhóm. Chúng hỗ trợ việc tiếp nhận có thể mở rộng khắp các ngành và bổ sung cho những phương pháp luồng công việc hiện đại khác."
+
+- id: guide_content_not_found
+  translation: "Không tìm thấy nội dung hướng dẫn"
+
+- id: nav_read_guide
+  translation: "Đọc hướng dẫn"
+
+- id: nav_history
+  translation: "Lịch sử"
+
+- id: nav_overview
+  translation: "Tổng quan"
+
+- id: guide_pdf_download_button
+  translation: "Tải PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Bạn cũng có thể tải hướng dẫn này về dạng PDF và đọc khi không có mạng."
+
+- id: guide_pdf_intro_link
+  translation: "Tải PDF về"
+
+- id: download_page_title
+  translation: "Đọc và tải {{ .Title }} chính thức"
+
+- id: download_page_description
+  translation: "{{ .Title }} ở đây được định nghĩa bởi"
+
+- id: download_page_originators
+  translation: ", những người tạo ra {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Các bản dịch do những người và nhóm nhiệt tình dưới đây cung cấp. Hãy chọn thứ tiếng bạn muốn tải về."
+
+- id: download_translation_error
+  translation: "Nếu bạn thấy trong {{ .Title }} điều gì mà bạn cho là lỗi dịch, hãy liên hệ trực tiếp người dịch ấy. Nếu cần giúp thêm, hãy liên hệ chúng tôi tại"
+
+- id: download_official_version
+  translation: "Bản chính thức"
+
+- id: download_community_translations
+  translation: "Bản dịch từ cộng đồng"
+
+- id: download_current_version_released
+  translation: "Bản chính thức hiện hành của {{ .Site.Title }} ra vào"
+
+- id: download_older_translations_notice
+  translation: "Các bản dịch cũ hơn của {{ .Site.Title }} có thể không có thông tin mới nhất."
+
+- id: download_table_language
+  translation: "Thứ tiếng"
+
+- id: download_table_translations_by
+  translation: "Dịch bởi"
+
+- id: download_table_action
+  translation: "Hành động"
+
+- id: download_official_current_version
+  translation: "Bản chính thức hiện hành"
+
+- id: download_button_text
+  translation: "Tải về"
+
+- id: download_coming_soon
+  translation: "Sắp có"
+
+- id: download_missing_language
+  translation: "Thiếu thứ tiếng của bạn?"
+
+- id: download_contribute_translation
+  translation: "Hãy góp một bản dịch mới và giúp cộng đồng."
+
+- id: download_add_translation
+  translation: "Thêm một bản dịch"
+
+- id: download_community_contributors
+  translation: "Người góp từ cộng đồng"
+
+- id: contributors_description
+  translation: "Những người góp dưới đây được gom từ mọi hướng dẫn và mọi bản."
+
+- id: read_online_action
+  translation: "Đọc trên mạng"
+
+- id: guide_table_of_contents
+  translation: "Mục lục"
+
+- id: guide_coming_soon
+  translation: "Hướng dẫn này đang trên đường. Hãy để mắt tới nó."
+
+- id: guide_no_content_available
+  translation: "Bằng thứ tiếng này còn chưa có nội dung."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "Không có PDF (EN)"
+
+- id: guide_pdf_en_us_not_available
+  translation: "Không có PDF (EN-US)"
+
+- id: guide_coming_label
+  translation: "Sắp tới:"
+
+- id: guide_updated_label
+  translation: "Cập nhật:"
+
+- id: guide_version_label
+  translation: "Bản:"
+
+- id: guide_content_unavailable_note
+  translation: "Lưu ý:"
+
+- id: guide_content_unavailable_message
+  translation: "Nội dung của trang này chưa có bằng {{ .Language }}. Dưới đây hiện nội dung mặc định của hướng dẫn."
+
+- id: guide_content_unavailable_title
+  translation: "Không có nội dung:"
+
+- id: guide_content_unavailable_description
+  translation: "Không nạp được nội dung của trang này, và không có nội dung mặc định để hiện. Xin hãy báo"
+
+- id: guide_report_issue_link
+  translation: "Báo vấn đề này"
+
+- id: guide_report_issue_message
+  translation: "để chúng tôi sửa được."
+
+- id: guide_back_to_home
+  translation: "← Về trang chính"
+
+- id: not_sure_which_to_use_title
+  translation: "Chưa rõ nên dùng bản nào?"
+
+- id: get_started_title
+  translation: "Hãy bắt đầu"
+
+- id: community_driven_label
+  translation: "Cộng đồng dẫn dắt"
+
+- id: coming_soon
+  translation: "Sắp có"
+
+- id: purpose_title
+  translation: "Mục đích"
+
+- id: ethos_title
+  translation: "Điểm khởi"
+
+- id: audience_title
+  translation: "Dành cho ai"
+
+- id: use_case_title
+  translation: "Khi nào dùng"
+
+- id: content_title
+  translation: "Nội dung"
+
+- id: update_model_title
+  translation: "Cách nó được cập nhật"
+
+- id: guide_overview_title
+  translation: "Tổng quan hướng dẫn"
+
+- id: guide_overview_description
+  translation: "Những nét chính của hướng dẫn này"
+
+- id: when_to_use_title
+  translation: "Khi nào dùng hướng dẫn này"
+
+- id: when_to_use_description
+  translation: "Hãy chọn cách phù hợp với hoàn cảnh của bạn"
+
+- id: quick_decision_guide_title
+  translation: "Chọn nhanh"
+
+- id: getting_started_title
+  translation: "Bắt đầu"
+
+- id: for_practitioners_title
+  translation: "Cho người thực hành"
+
+- id: current_information_title
+  translation: "Thông tin hiện hành"
+
+- id: current_information_description
+  translation: "Chi tiết của bản và những người góp từ cộng đồng"
+
+- id: current_version_title
+  translation: "Bản hiện hành"
+
+- id: current_version_updated_label
+  translation: "Cập nhật"
+
+- id: current_version_description
+  translation: "Đây là bản của hướng dẫn đang có hiệu lực."
+
+- id: read_current_version_button
+  translation: "Đọc bản hiện hành"
+
+- id: version_info_not_available
+  translation: "Không có thông tin về bản"
+
+- id: contributors_title
+  translation: "Những người góp"
+
+- id: contributors_description_card
+  translation: "Những người trong cộng đồng đã tạo hình cho hướng dẫn này"
+
+- id: contributors_thank_you
+  translation: "Cảm ơn tất cả những ai đã làm hướng dẫn này tốt hơn."
+
+- id: join_community_button
+  translation: "Vào cộng đồng"
+
+- id: no_contributors_found
+  translation: "Không tìm thấy người góp"
+
+- id: version_history_title
+  translation: "Lịch sử các bản"
+
+- id: version_history_description
+  translation: "Các bản trước và sự phát triển của chúng"
+
+- id: no_previous_versions_title
+  translation: "Chưa có bản trước"
+
+- id: no_previous_versions_description
+  translation: "Hướng dẫn này vừa mới bắt đầu. Hãy trở lại sau để xem các bản trước."
+
+- id: what_is_guide_title
+  translation: "Hướng dẫn này là gì?"
+
+- id: license_title
+  translation: "Giấy phép"
+
+- id: view_on_github_button
+  translation: "Xem trên GitHub"
+
+- id: current_open_guide_label
+  translation: "Open Guide hiện hành"
+
+- id: active_status_label
+  translation: "Đang có hiệu lực"
+
+- id: current_fork_label
+  translation: "Fork hiện hành"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Fork từ:"
+
+- id: forked_from_indicator
+  translation: "Fork từ:"
+
+- id: this_is_fork_label
+  translation: "Đây là một fork"
+
+- id: available_languages_label
+  translation: "Những thứ tiếng có sẵn"
+
+- id: pdf_downloads_label
+  translation: "Các tệp PDF tải về"
+
+- id: living_document_updated_label
+  translation: "Tài liệu sống đã cập nhật"
+
+- id: active_fork_updated_label
+  translation: "Fork đang dùng đã cập nhật"
+
+- id: historical_fork_label
+  translation: "Fork lịch sử từ"
+
+- id: historical_version_label
+  translation: "Bản lịch sử"
+
+- id: read_guide_button
+  translation: "Đọc hướng dẫn"
+
+- id: translations_button_small
+  translation: "Bản dịch"
+
+- id: read_fork_button
+  translation: "Đọc fork"
+
+- id: view_archive_button
+  translation: "Xem lưu trữ"
+
+- id: download_reference_status
+  translation: "Tham chiếu"

@@ -106,3 +106,5 @@ languages:
     disabled: true
   uz-latn:
     disabled: true
+  vi:
+    disabled: true
