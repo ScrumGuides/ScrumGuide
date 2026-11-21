@@ -250,6 +250,12 @@ languages:
     title: Scrum колдонмосу
     params:
       description: Scrum колдонмосунун жарыяланган ар бир басылышы бир жерде, ага таянган киргизүү колдонмолору менен кошо.
+  lt:
+    label: Lietuvių
+    weight: 28
+    title: Scrum vadovas
+    params:
+      description: Kiekviena išleista Scrum vadovo redakcija vienoje vietoje, su įgyvendinimo vadovais, kurie ant jo stovi.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

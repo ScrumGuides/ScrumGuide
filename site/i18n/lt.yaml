@@ -1,0 +1,607 @@
+# Interface strings, Lithuanian.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Dokumentai"
+
+- id: guides_section_title
+  translation: "Vadovai"
+
+- id: implementations_section_title
+  translation: "Įgyvendinimo vadovai"
+
+- id: implementations_section_description
+  translation: "Būdai naudoti Scrum tam tikroje aplinkoje. Kiekvienas iš jų lieka Scrum tikslo viduje ir prideda nurodymų kokiai nors padėčiai - kelios komandos prie vieno produkto, tekėjimo valdymas, pradžia - nekeisdamas to, ko Scrum reikalauja."
+
+- id: extensions_section_title
+  translation: "Išplėtimai"
+
+- id: extensions_section_description
+  translation: "Praktikos, kurios siekia už to, kuo užsiima Scrum. Išplėtimas nesidaro Scrum ir jo nekeičia; jis imasi klausimo, kurį Scrum palieka atvirą, pavyzdžiui vertės, kurią produktas duoda, matavimo."
+
+- id: extensions_section_empty
+  translation: "Kol kas nė vieno."
+
+- id: foundation_section_title
+  translation: "Vadovas"
+
+- id: history_page_title
+  translation: "Istorija"
+
+- id: translations_page_title
+  translation: "Vertimai"
+
+- id: changes_section_title
+  translation: "Kas pasikeitė"
+
+- id: changes_from_label
+  translation: "Pakeitimai nuo"
+
+- id: lineage_section_title
+  translation: "Linija"
+
+- id: adapted_from_label
+  translation: "Pritaikyta iš"
+
+- id: conforms_to_label
+  translation: "Atitinka"
+
+- id: conforming_guides_title
+  translation: "Vadovai, atitinkantys šią redakciją"
+
+- id: conditions_section_title
+  translation: "Sąlygos"
+
+- id: condition_falsifier_label
+  translation: "Neįvykdyta, kai"
+
+- id: current_version_label
+  translation: "Dabartinė redakcija"
+
+- id: older_version_label
+  translation: "Senesnė redakcija"
+
+- id: version_notice_older
+  translation: "Tai nėra dabartinė šio vadovo redakcija."
+
+- id: view_latest_label
+  translation: "Žiūrėkite dabartinę redakciją"
+
+- id: read_time_label
+  translation: "min skaitymo"
+
+- id: badge_english_only
+  translation: "Tik angliškai"
+
+- id: badge_english_only_title
+  translation: "Šis vadovas dar neišverstas į šią kalbą."
+
+- id: badge_not_in_production
+  translation: "Ne gamyboje"
+
+- id: badge_not_in_production_title
+  translation: "Šis vadovas paliktas už gamybinio darinio."
+
+- id: badge_not_in_preview
+  translation: "Ne peržiūroje"
+
+- id: badge_not_in_preview_title
+  translation: "Šis vadovas paliktas už peržiūros darinio."
+
+- id: licence_label
+  translation: "Licencija"
+
+- id: canonical_source_label
+  translation: "Patikimas šaltinis"
+
+- id: pending_licence_check
+  translation: "Pagrindinis tekstas laukia licencijos tikrinimo"
+
+- id: guide_join_discussion
+  translation: "Kalbėkite apie šį vadovą"
+
+- id: guide_version_current
+  translation: "Dabartinė"
+
+- id: guide_version_latest
+  translation: "Naujausia"
+
+- id: guide_version_select
+  translation: "Pasirinkite redakciją"
+
+- id: guide_version_dropdown_label
+  translation: "Redakcija"
+
+- id: guide_historical_version_notice_title
+  translation: "Tai nėra dabartinė redakcija."
+
+- id: guide_historical_version_notice_text
+  translation: "Skaitote senesnę šio vadovo redakciją."
+
+- id: guide_historical_version_notice_link
+  translation: "Skaitykite dabartinę redakciją"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Žiūrėkite peržiūros vietoje"
+
+- id: guide_translation_preview_note
+  translation: "Vertimo peržiūra."
+
+- id: guide_translation_preview_message
+  translation: "Šis vertimas dar peržiūrimas ir gali būti nepilnas."
+
+- id: contributors_label
+  translation: "Prisidėjusieji"
+
+- id: translators_label
+  translation: "Vertėjai"
+
+- id: reportTranslationError
+  translation: "Pranešti apie vertimo klaidą"
+
+- id: nav_details
+  translation: "Apie šį vadovą"
+
+- id: nav_translations
+  translation: "Vertimai"
+
+- id: download_table_written_by
+  translation: "Parašė"
+
+- id: download_table_contributed_by
+  translation: "Prisidėjo"
+
+- id: download_table_status
+  translation: "Būvis"
+
+- id: download_discussion_action
+  translation: "Kalbėkite"
+
+- id: download_preview_action
+  translation: "Peržiūrėti"
+
+- id: download_preview_status
+  translation: "Peržiūroje"
+
+- id: download_preview_description
+  translation: "Šis vertimas dar neišleistas ir gali būti skaitomas peržiūros vietoje."
+
+- id: download_preview_translations
+  translation: "Vertimai peržiūroje"
+
+- id: download_visit_preview
+  translation: "Atverkite peržiūros vietą"
+
+- id: download_pdf_only_status
+  translation: "Tik PDF"
+
+- id: download_stub_status
+  translation: "Nepradėta"
+
+- id: site_wordmark
+  translation: "Scrum vadovai"
+
+- id: nav_the_guide
+  translation: "Vadovas"
+
+- id: nav_versions
+  translation: "Redakcijos"
+
+- id: nav_implementations
+  translation: "Įgyvendinimai"
+
+- id: guide_pdf_not_available
+  translation: "PDF nėra"
+
+- id: share_label
+  translation: "Bendrinti"
+
+- id: share_copy_link
+  translation: "Kopijuoti nuorodą"
+
+- id: share_copied
+  translation: "Nukopijuota į iškarpinę!"
+
+- id: share_close
+  translation: "Užverti"
+
+- id: role_creator
+  translation: "Kūrėjas"
+
+- id: role_contributor
+  translation: "Prisidėjęs"
+
+- id: role_reviewer
+  translation: "Peržiūrėjęs"
+
+- id: role_translator
+  translation: "Vertėjas"
+
+- id: role_involved
+  translation: "Dalyvavęs"
+
+- id: nav_getting_started
+  translation: "Pirmieji žingsniai"
+
+- id: nav_the_scrum_guide
+  translation: "Scrum vadovas"
+
+- id: home_action_getting_started
+  translation: "Skaitykite Pirmieji žingsniai Scrum komandoms tinkle"
+
+- id: home_action_scrum_guide
+  translation: "Skaitykite oficialų Scrum vadovą tinkle"
+
+- id: home_action_translations
+  translation: "Atsisiųskite oficialų Scrum vadovą daugiau nei 30 kalbų"
+
+- id: home_action_read_online
+  translation: "Skaitykite tinkle"
+
+- id: home_action_select_language
+  translation: "Pasirinkite kalbą ir atsisiųskite"
+
+- id: and
+  translation: "ir"
+
+- id: breadcrumb_home
+  translation: "Pradžia"
+
+- id: read_online_title
+  translation: "Skaitykite tinkle"
+
+- id: read_online_description
+  translation: "Pasiekite visą vadovą skaitmeniškai, su sąveikos galimybėmis ir lengvu judėjimu."
+
+- id: read_online_button
+  translation: "Skaitykite tinkle"
+
+- id: translations_title
+  translation: "Vertimai"
+
+- id: translations_description
+  translation: "Skaitykite šį vadovą keliomis kalbomis ir padėkite su vertimais."
+
+- id: translations_button
+  translation: "Žiūrėkite vertimus"
+
+- id: history_title
+  translation: "Istorija"
+
+- id: history_description
+  translation: "Sekite šio vadovo plėtotę ir istoriją."
+
+- id: history_button
+  translation: "Žiūrėkite istoriją"
+
+- id: what_is_guides_title
+  translation: "Kas yra {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Atviras kodas, veda bendruomenė"
+
+- id: open_source_description
+  translation: "Tai atviro kodo darbas, kuris gyvena iš bendruomenės bendradarbiavimo. Jei norite pasiūlyti pagerinimų, pranešti apie bėdas ar prisidėti turiniu, esate laukiami. Kai kurie vadovai prisidėjimų nepriima, bet stovi čia kaip nuoroda. Drauge galime šiuos šaltinius padaryti vertingesnius praktikuojantiems visame pasaulyje ir visiems, kas nori pagerinti darbo tekėjimo veiksmingumą ir vertės pateikimą."
+
+- id: at_a_glance_title
+  translation: "Trumpai"
+
+- id: join_discussion_button
+  translation: "Prisijunkite prie kalbos"
+
+- id: join_discussion_title
+  translation: "Prisijunkite prie kalbos apie {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Susitikite su bendruomene, pasidalykite tuo, ką matote, ir padėkite lipdyti {{ .Site.Title }} ateitį. Jūsų prisidėjimas būtinas, kad šie vadovai taptų visu kūnu praktikuojantiems."
+
+- id: guides_intro_text
+  translation: "Išmokite praktikų, kurios veikia, ir kaip jas naudoti darbo tekėjimui bei vertės pateikimui bet kuriame procese optimizuoti. Čia yra visas žinių ir gerų praktikų kūnas. {{ .Site.Title }} yra praktinių vadovų namai: laisvas, bendruomenės vedamas šaltinis įrodytiems metodams naudoti žinių darbe. Vadovai apibrėžia pamatines praktikas ir matus, kurių reikia tekėjimui pagerinti, vertės pateikimui optimizuoti ir komandos ištvermei sustiprinti. Jie palaiko mastelį turintį perėmimą įvairiose srityse ir papildo kitus šiuolaikinius darbo tekėjimo metodus."
+
+- id: guide_content_not_found
+  translation: "Vadovo turinys nerastas"
+
+- id: nav_read_guide
+  translation: "Skaitykite vadovą"
+
+- id: nav_history
+  translation: "Istorija"
+
+- id: nav_overview
+  translation: "Apžvalga"
+
+- id: guide_pdf_download_button
+  translation: "Atsisiųsti PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Šį vadovą taip pat galite atsisiųsti PDF formatu ir skaityti be tinklo."
+
+- id: guide_pdf_intro_link
+  translation: "Atsisiųskite PDF"
+
+- id: download_page_title
+  translation: "Skaitykite ir atsisiųskite oficialų {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} čia apibrėžia"
+
+- id: download_page_originators
+  translation: ", {{ .Title }} kūrėjai."
+
+- id: download_translations_provided
+  translation: "Vertimus suteikė žemiau išvardyti paslankūs žmonės ir grupės. Pasirinkite kalbą, kurią norite atsisiųsti."
+
+- id: download_translation_error
+  translation: "Jei {{ .Title }} rasite kažką, kas, jūsų manymu, yra vertimo klaida, kreipkitės tiesiai į tą vertėją. Jei reikia daugiau pagalbos, rašykite mums į"
+
+- id: download_official_version
+  translation: "Oficiali redakcija"
+
+- id: download_community_translations
+  translation: "Vertimai iš bendruomenės"
+
+- id: download_current_version_released
+  translation: "Dabartinė oficiali {{ .Site.Title }} redakcija išėjo"
+
+- id: download_older_translations_notice
+  translation: "Senesniuose {{ .Site.Title }} vertimuose gali nebūti naujausių duomenų."
+
+- id: download_table_language
+  translation: "Kalba"
+
+- id: download_table_translations_by
+  translation: "Išvertė"
+
+- id: download_table_action
+  translation: "Veiksmas"
+
+- id: download_official_current_version
+  translation: "Oficiali dabartinė redakcija"
+
+- id: download_button_text
+  translation: "Atsisiųsti"
+
+- id: download_coming_soon
+  translation: "Jau greitai"
+
+- id: download_missing_language
+  translation: "Nėra jūsų kalbos?"
+
+- id: download_contribute_translation
+  translation: "Prisidėkite nauju vertimu ir padėkite bendruomenei."
+
+- id: download_add_translation
+  translation: "Pridėkite vertimą"
+
+- id: download_community_contributors
+  translation: "Prisidėjusieji iš bendruomenės"
+
+- id: contributors_description
+  translation: "Žemiau esantys prisidėjusieji sutelkti iš visų vadovų ir visų redakcijų."
+
+- id: read_online_action
+  translation: "Skaitykite tinkle"
+
+- id: guide_table_of_contents
+  translation: "Turinys"
+
+- id: guide_coming_soon
+  translation: "Šis vadovas pakeliui. Stebėkite jį."
+
+- id: guide_no_content_available
+  translation: "Šia kalba dar nėra turinio."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) nėra"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) nėra"
+
+- id: guide_coming_label
+  translation: "Ateina:"
+
+- id: guide_updated_label
+  translation: "Atnaujinta:"
+
+- id: guide_version_label
+  translation: "Redakcija:"
+
+- id: guide_content_unavailable_note
+  translation: "Atkreipkite dėmesį:"
+
+- id: guide_content_unavailable_message
+  translation: "Šio lapo turinio dar nėra {{ .Language }} kalba. Žemiau rodomas numatytas vadovo turinys."
+
+- id: guide_content_unavailable_title
+  translation: "Turinio nėra:"
+
+- id: guide_content_unavailable_description
+  translation: "Šio lapo turinio nepavyko įkelti, ir nėra numatyto turinio, kurį būtų galima parodyti. Prašome pranešti"
+
+- id: guide_report_issue_link
+  translation: "Praneškite apie šią bėdą"
+
+- id: guide_report_issue_message
+  translation: "kad galėtume ją ištaisyti."
+
+- id: guide_back_to_home
+  translation: "← Atgal į pradžią"
+
+- id: not_sure_which_to_use_title
+  translation: "Nesate tikri, kurį naudoti?"
+
+- id: get_started_title
+  translation: "Pradėkite"
+
+- id: community_driven_label
+  translation: "Veda bendruomenė"
+
+- id: coming_soon
+  translation: "Jau greitai"
+
+- id: purpose_title
+  translation: "Paskirtis"
+
+- id: ethos_title
+  translation: "Išeities taškas"
+
+- id: audience_title
+  translation: "Kam"
+
+- id: use_case_title
+  translation: "Kada naudojamas"
+
+- id: content_title
+  translation: "Turinys"
+
+- id: update_model_title
+  translation: "Kaip atnaujinamas"
+
+- id: guide_overview_title
+  translation: "Vadovo apžvalga"
+
+- id: guide_overview_description
+  translation: "Pagrindiniai šio vadovo bruožai"
+
+- id: when_to_use_title
+  translation: "Kada naudoti šį vadovą"
+
+- id: when_to_use_description
+  translation: "Pasirinkite būdą, kuris tinka jūsų aplinkai"
+
+- id: quick_decision_guide_title
+  translation: "Greitas pasirinkimas"
+
+- id: getting_started_title
+  translation: "Pirmieji žingsniai"
+
+- id: for_practitioners_title
+  translation: "Praktikuojantiems"
+
+- id: current_information_title
+  translation: "Dabartiniai duomenys"
+
+- id: current_information_description
+  translation: "Redakcijos smulkmenos ir prisidėjusieji iš bendruomenės"
+
+- id: current_version_title
+  translation: "Dabartinė redakcija"
+
+- id: current_version_updated_label
+  translation: "Atnaujinta"
+
+- id: current_version_description
+  translation: "Tai yra vadovo redakcija, kuri galioja dabar."
+
+- id: read_current_version_button
+  translation: "Skaitykite dabartinę redakciją"
+
+- id: version_info_not_available
+  translation: "Redakcijos duomenų nėra"
+
+- id: contributors_title
+  translation: "Prisidėjusieji"
+
+- id: contributors_description_card
+  translation: "Bendruomenės nariai, kurie šį vadovą lipdė"
+
+- id: contributors_thank_you
+  translation: "Dėkui visiems, kurie šį vadovą pagerino."
+
+- id: join_community_button
+  translation: "Prisijunkite prie bendruomenės"
+
+- id: no_contributors_found
+  translation: "Prisidėjusiųjų nerasta"
+
+- id: version_history_title
+  translation: "Redakcijų istorija"
+
+- id: version_history_description
+  translation: "Ankstesnės redakcijos ir jų plėtotė"
+
+- id: no_previous_versions_title
+  translation: "Ankstesnių redakcijų nėra"
+
+- id: no_previous_versions_description
+  translation: "Šis vadovas ką tik pradėjo. Užeikite vėliau dėl ankstesnių redakcijų."
+
+- id: what_is_guide_title
+  translation: "Kas yra šis vadovas?"
+
+- id: license_title
+  translation: "Licencija"
+
+- id: view_on_github_button
+  translation: "Žiūrėkite GitHub"
+
+- id: current_open_guide_label
+  translation: "Dabartinis Open Guide"
+
+- id: active_status_label
+  translation: "Galioja"
+
+- id: current_fork_label
+  translation: "Dabartinis fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Forkinta iš:"
+
+- id: forked_from_indicator
+  translation: "Forkinta iš:"
+
+- id: this_is_fork_label
+  translation: "Tai yra fork"
+
+- id: available_languages_label
+  translation: "Esamos kalbos"
+
+- id: pdf_downloads_label
+  translation: "PDF atsisiuntimai"
+
+- id: living_document_updated_label
+  translation: "Gyvas dokumentas atnaujintas"
+
+- id: active_fork_updated_label
+  translation: "Veikiantis fork atnaujintas"
+
+- id: historical_fork_label
+  translation: "Istorinis fork iš"
+
+- id: historical_version_label
+  translation: "Istorinė redakcija"
+
+- id: read_guide_button
+  translation: "Skaitykite vadovą"
+
+- id: translations_button_small
+  translation: "Vertimai"
+
+- id: read_fork_button
+  translation: "Skaitykite fork"
+
+- id: view_archive_button
+  translation: "Žiūrėkite archyvą"
+
+- id: download_reference_status
+  translation: "Nuoroda"

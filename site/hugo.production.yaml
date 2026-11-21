@@ -94,3 +94,5 @@ languages:
     disabled: true
   ky:
     disabled: true
+  lt:
+    disabled: true
