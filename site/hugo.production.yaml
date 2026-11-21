@@ -108,3 +108,5 @@ languages:
     disabled: true
   vi:
     disabled: true
+  uz-cyrl:
+    disabled: true

@@ -1,0 +1,607 @@
+# Interface strings, Uzbek (Cyrillic).
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Ҳужжатлар"
+
+- id: guides_section_title
+  translation: "Қўлланмалар"
+
+- id: implementations_section_title
+  translation: "Жорий етиш қўлланмалари"
+
+- id: implementations_section_description
+  translation: "Scrum-ни муайян шароитда ишлатиш ёʻллари. Уларнинг ҳар бири Scrum-нинг нияти ичида қолади ва бирор ҳолат учун ёʻл кўрсатади — битта маҳсулотда бир неча гуруҳ, оқимни бошқариш, бошлаш — Scrum нимани талаб қилишини ўзгартирмай."
+
+- id: extensions_section_title
+  translation: "Кенгайтмалар"
+
+- id: extensions_section_description
+  translation: "Scrum шуғулланадиган чегарадан ташқарига етадиган амалиётлар. Кенгайтма ўзини Scrum деб кўрсатмайди ва уни ўзгартирмайди; у Scrum очиқ қолдирадиган саволни олади, маҳсулот берадиган қийматни ўлчаш каби."
+
+- id: extensions_section_empty
+  translation: "Ҳозирча бирортаси ҳам ёʻқ."
+
+- id: foundation_section_title
+  translation: "Қўлланма"
+
+- id: history_page_title
+  translation: "Тарих"
+
+- id: translations_page_title
+  translation: "Таржималар"
+
+- id: changes_section_title
+  translation: "Нима ўзгарди"
+
+- id: changes_from_label
+  translation: "Шунга нисбатан ўзгаришлар"
+
+- id: lineage_section_title
+  translation: "Чизиқ"
+
+- id: adapted_from_label
+  translation: "Шундан мослаштирилган"
+
+- id: conforms_to_label
+  translation: "Шунга мос"
+
+- id: conforming_guides_title
+  translation: "Бу нашрга мос қўлланмалар"
+
+- id: conditions_section_title
+  translation: "Шартлар"
+
+- id: condition_falsifier_label
+  translation: "Бажарилмайди, қачонки"
+
+- id: current_version_label
+  translation: "Ҳозирги нашр"
+
+- id: older_version_label
+  translation: "Эскироқ нашр"
+
+- id: version_notice_older
+  translation: "Бу шу қўлланманинг ҳозирги нашри емас."
+
+- id: view_latest_label
+  translation: "Ҳозирги нашрни кўриш"
+
+- id: read_time_label
+  translation: "дақ ўқиш"
+
+- id: badge_english_only
+  translation: "Фақат инглизча"
+
+- id: badge_english_only_title
+  translation: "Бу қўлланма бу тилга ҳозирча таржима қилинмаган."
+
+- id: badge_not_in_production
+  translation: "Ишлаб чиқаришда ёʻқ"
+
+- id: badge_not_in_production_title
+  translation: "Бу қўлланма ишлаб чиқариш қурилишидан ташқарида қолдирилган."
+
+- id: badge_not_in_preview
+  translation: "Олдиндан кўришда ёʻқ"
+
+- id: badge_not_in_preview_title
+  translation: "Бу қўлланма олдиндан кўриш қурилишидан ташқарида қолдирилган."
+
+- id: licence_label
+  translation: "Лицензия"
+
+- id: canonical_source_label
+  translation: "Ишончли манба"
+
+- id: pending_licence_check
+  translation: "Асосий матн лицензия текширувини кутиб турибди"
+
+- id: guide_join_discussion
+  translation: "Шу қўлланмани муҳокама қилинг"
+
+- id: guide_version_current
+  translation: "Ҳозирги"
+
+- id: guide_version_latest
+  translation: "Энг янги"
+
+- id: guide_version_select
+  translation: "Нашрни танланг"
+
+- id: guide_version_dropdown_label
+  translation: "Нашр"
+
+- id: guide_historical_version_notice_title
+  translation: "Бу ҳозирги нашр емас."
+
+- id: guide_historical_version_notice_text
+  translation: "Шу қўлланманинг ескироқ нашрини ўқиб турасиз."
+
+- id: guide_historical_version_notice_link
+  translation: "Ҳозирги нашрни ўқинг"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Олдиндан кўриш сайтида кўринг"
+
+- id: guide_translation_preview_note
+  translation: "Таржимани олдиндан кўриш."
+
+- id: guide_translation_preview_message
+  translation: "Бу таржима ҳали кўриб чиқилмоқда ва тўлиқ бўлмаслиги мумкин."
+
+- id: contributors_label
+  translation: "Ҳисса қўшганлар"
+
+- id: translators_label
+  translation: "Таржимонлар"
+
+- id: reportTranslationError
+  translation: "Таржима хатоси ҳақида хабар беринг"
+
+- id: nav_details
+  translation: "Шу қўлланма ҳақида"
+
+- id: nav_translations
+  translation: "Таржималар"
+
+- id: download_table_written_by
+  translation: "Ёзганлар"
+
+- id: download_table_contributed_by
+  translation: "Ҳисса қўшганлар"
+
+- id: download_table_status
+  translation: "Ҳолати"
+
+- id: download_discussion_action
+  translation: "Муҳокама"
+
+- id: download_preview_action
+  translation: "Олдиндан кўриш"
+
+- id: download_preview_status
+  translation: "Олдиндан кўришда"
+
+- id: download_preview_description
+  translation: "Бу таржима ҳозирча чиқмаган ва олдиндан кўриш сайтида ўқиш мумкин."
+
+- id: download_preview_translations
+  translation: "Олдиндан кўришдаги таржималар"
+
+- id: download_visit_preview
+  translation: "Олдиндан кўриш сайтини очиш"
+
+- id: download_pdf_only_status
+  translation: "Фақат PDF"
+
+- id: download_stub_status
+  translation: "Бошланмаган"
+
+- id: site_wordmark
+  translation: "Scrum қўлланмалари"
+
+- id: nav_the_guide
+  translation: "Қўлланма"
+
+- id: nav_versions
+  translation: "Нашрлар"
+
+- id: nav_implementations
+  translation: "Жорий етишлар"
+
+- id: guide_pdf_not_available
+  translation: "PDF ёʻқ"
+
+- id: share_label
+  translation: "Улашиш"
+
+- id: share_copy_link
+  translation: "Ҳаволани кўчириш"
+
+- id: share_copied
+  translation: "Вақтинчалик хотирага кўчирилди!"
+
+- id: share_close
+  translation: "Ёпиш"
+
+- id: role_creator
+  translation: "Яратувчи"
+
+- id: role_contributor
+  translation: "Ҳисса қўшган"
+
+- id: role_reviewer
+  translation: "Кўриб чиққан"
+
+- id: role_translator
+  translation: "Таржимон"
+
+- id: role_involved
+  translation: "Қатнашган"
+
+- id: nav_getting_started
+  translation: "Дастлабки қадамлар"
+
+- id: nav_the_scrum_guide
+  translation: "Scrum қўлланмаси"
+
+- id: home_action_getting_started
+  translation: "Scrum Team-лар учун дастлабки қадамларни тармоқда ўқинг"
+
+- id: home_action_scrum_guide
+  translation: "Расмий Scrum қўлланмасини тармоқда ўқинг"
+
+- id: home_action_translations
+  translation: "Расмий Scrum қўлланмасини 30 дан ортиқ тилда юклаб олинг"
+
+- id: home_action_read_online
+  translation: "Тармоқда ўқиш"
+
+- id: home_action_select_language
+  translation: "Тил танлаб юклаб олиш"
+
+- id: and
+  translation: "ва"
+
+- id: breadcrumb_home
+  translation: "Бош саҳифа"
+
+- id: read_online_title
+  translation: "Тармоқда ўқиш"
+
+- id: read_online_description
+  translation: "Бутун қўлланмага рақамли ҳолда, ўзаро ишлаш имкониятлари ва енгил юриш билан етиб боринг."
+
+- id: read_online_button
+  translation: "Тармоқда ўқиш"
+
+- id: translations_title
+  translation: "Таржималар"
+
+- id: translations_description
+  translation: "Шу қўлланмани бир неча тилда ўқинг ва таржималарга ёрдам беринг."
+
+- id: translations_button
+  translation: "Таржималарни кўриш"
+
+- id: history_title
+  translation: "Тарих"
+
+- id: history_description
+  translation: "Шу қўлланманинг ривожини ва тарихини кузатиб боринг."
+
+- id: history_button
+  translation: "Тарихни кўриш"
+
+- id: what_is_guides_title
+  translation: "{{ .Site.Title }} нима?"
+
+- id: open_source_title
+  translation: "Очиқ манба, жамоа юритади"
+
+- id: open_source_description
+  translation: "Бу жамоанинг ҳамкорлигидан яшайдиган очиқ манбали лойиҳа. Яхшилашлар таклиф қилмоқчи, муаммолар ҳақида хабар бермоқчи ёки мундарижа билан ҳисса қўшмоқчи бўлсангиз, хуш келибсиз. Баъзи қўлланмалар ҳисса қабул қилмайди, лекин шу ерда ҳавола сифатида туради. Бирга биз шу манбаларни бутун дунёдаги қўлловчилар учун ва иш оқимининг самарасини ҳамда қиймат етказишни яхшиламоқчи бўлган ҳар ким учун қимматлироқ қила оламиз."
+
+- id: at_a_glance_title
+  translation: "Қисқача"
+
+- id: join_discussion_button
+  translation: "Муҳокамага қўшилинг"
+
+- id: join_discussion_title
+  translation: "{{ .Site.Title }} ҳақидаги муҳокамага қўшилинг"
+
+- id: join_discussion_description
+  translation: "Жамоа билан учрашинг, кўрганингизни улашинг ва {{ .Site.Title }} келажагини шакллантиришга ёрдам беринг. Шу қўлланмалар қўлловчилар учун тўлиқ тана бўлиши учун сизларнинг ҳиссангиз ўрнини боса олмайди."
+
+- id: guides_intro_text
+  translation: "Ишлайдиган амалиётларни ва уларни ҳар қандай жараёнда иш оқими ҳамда қиймат етказишни енг қулай қилиш учун қандай ишлатишни ўрганинг. Шу ерда билим ва яхши амалиётларнинг бутун танаси. {{ .Site.Title }} — амалий қўлланмаларнинг уйи: билим ишида исботланган усулларни ишлатиш учун еркин, жамоа юритадиган ҳавола. Қўлланмалар оқимни яхшилаш, қиймат етказишни енг қулай қилиш ва гуруҳнинг чидамини мустаҳкамлаш учун керак бўлган асосий амалиётлар ва ўлчовларни чегаралайди. Улар турли соҳада катталаштириладиган қабулни қўллаб-қувватлайди ва иш оқимининг бошқа замонавий усулларини тўлдиради."
+
+- id: guide_content_not_found
+  translation: "Қўлланманинг мундарижаси топилмади"
+
+- id: nav_read_guide
+  translation: "Қўлланмани ўқинг"
+
+- id: nav_history
+  translation: "Тарих"
+
+- id: nav_overview
+  translation: "Умумий қараш"
+
+- id: guide_pdf_download_button
+  translation: "PDF юклаб олиш"
+
+- id: guide_pdf_intro_text
+  translation: "Шу қўлланмани PDF ҳолида ҳам юклаб олиб, тармоқсиз ўқишингиз мумкин."
+
+- id: guide_pdf_intro_link
+  translation: "PDF ни юклаб олинг"
+
+- id: download_page_title
+  translation: "Расмий {{ .Title }} ни ўқинг ва юклаб олинг"
+
+- id: download_page_description
+  translation: "{{ .Title }} шу ерда қуйидагилар томонидан белгиланади"
+
+- id: download_page_originators
+  translation: " — {{ .Title }} яратувчилари."
+
+- id: download_translations_provided
+  translation: "Таржималарни пастда санаб ўтилган хайрихоҳ одамлар ва гуруҳлар берган. Юклаб олмоқчи бўлган тилни танланг."
+
+- id: download_translation_error
+  translation: "Агар {{ .Title }} ичидан таржима хатоси деб ҳисоблаган бирор нарсани топсангиз, тўғридан-тўғри ўша таржимонга мурожаат қилинг. Қўшимча ёрдам керак бўлса, биз билан шу орқали боғланинг"
+
+- id: download_official_version
+  translation: "Расмий нашр"
+
+- id: download_community_translations
+  translation: "Жамоадан таржималар"
+
+- id: download_current_version_released
+  translation: "{{ .Site.Title }} нинг ҳозирги расмий нашри чиққан кун"
+
+- id: download_older_translations_notice
+  translation: "{{ .Site.Title }} нинг ескироқ таржималарида енг янги маълумот бўлмаслиги мумкин."
+
+- id: download_table_language
+  translation: "Тил"
+
+- id: download_table_translations_by
+  translation: "Таржима қилганлар"
+
+- id: download_table_action
+  translation: "Амал"
+
+- id: download_official_current_version
+  translation: "Расмий ҳозирги нашр"
+
+- id: download_button_text
+  translation: "Юклаб олиш"
+
+- id: download_coming_soon
+  translation: "Тез кунда"
+
+- id: download_missing_language
+  translation: "Тилингиз ёʻқми?"
+
+- id: download_contribute_translation
+  translation: "Янги таржима билан ҳисса қўшиб, жамоага ёрдам беринг."
+
+- id: download_add_translation
+  translation: "Таржима қўшиш"
+
+- id: download_community_contributors
+  translation: "Жамоадан ҳисса қўшганлар"
+
+- id: contributors_description
+  translation: "Пастдаги ҳисса қўшганлар барча қўлланмалардан ва барча нашрлардан йиғилган."
+
+- id: read_online_action
+  translation: "Тармоқда ўқиш"
+
+- id: guide_table_of_contents
+  translation: "Мундарижа"
+
+- id: guide_coming_soon
+  translation: "Бу қўлланма ёʻлда. Уни кузатиб боринг."
+
+- id: guide_no_content_available
+  translation: "Бу тилда ҳозирча мундарижа ёʻқ."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) ёʻқ"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) ёʻқ"
+
+- id: guide_coming_label
+  translation: "Келади:"
+
+- id: guide_updated_label
+  translation: "Янгиланди:"
+
+- id: guide_version_label
+  translation: "Нашр:"
+
+- id: guide_content_unavailable_note
+  translation: "Эслатма:"
+
+- id: guide_content_unavailable_message
+  translation: "Шу саҳифанинг мундарижаси {{ .Language }} тилида ҳозирча ёʻқ. Пастда қўлланманинг бошланғич мундарижаси кўрсатилади."
+
+- id: guide_content_unavailable_title
+  translation: "Мундарижа мавжуд емас:"
+
+- id: guide_content_unavailable_description
+  translation: "Шу саҳифанинг мундарижаси юкланмади, ва кўрсатиш учун бошланғич мундарижа ёʻқ. Илтимос, хабар беринг"
+
+- id: guide_report_issue_link
+  translation: "Шу муаммо ҳақида хабар беринг"
+
+- id: guide_report_issue_message
+  translation: "тўғрилай олишимиз учун."
+
+- id: guide_back_to_home
+  translation: "← Бош саҳифага қайтиш"
+
+- id: not_sure_which_to_use_title
+  translation: "Қайси бирини ишлатишга ишончингиз ёʻқми?"
+
+- id: get_started_title
+  translation: "Бошланг"
+
+- id: community_driven_label
+  translation: "Жамоа юритади"
+
+- id: coming_soon
+  translation: "Тез кунда"
+
+- id: purpose_title
+  translation: "Мақсади"
+
+- id: ethos_title
+  translation: "Чиқиш нуқтаси"
+
+- id: audience_title
+  translation: "Кимга"
+
+- id: use_case_title
+  translation: "Қачон ишлатилади"
+
+- id: content_title
+  translation: "Мундарижа"
+
+- id: update_model_title
+  translation: "Қандай янгиланади"
+
+- id: guide_overview_title
+  translation: "Қўлланмага умумий қараш"
+
+- id: guide_overview_description
+  translation: "Шу қўлланманинг асосий белгилари"
+
+- id: when_to_use_title
+  translation: "Шу қўлланмани қачон ишлатиш керак"
+
+- id: when_to_use_description
+  translation: "Шароитингизга мос ёʻлни танланг"
+
+- id: quick_decision_guide_title
+  translation: "Тез танлов"
+
+- id: getting_started_title
+  translation: "Дастлабки қадамлар"
+
+- id: for_practitioners_title
+  translation: "Қўлловчиларга"
+
+- id: current_information_title
+  translation: "Ҳозирги маълумот"
+
+- id: current_information_description
+  translation: "Нашрнинг тафсилотлари ва жамоадан ҳисса қўшганлар"
+
+- id: current_version_title
+  translation: "Ҳозирги нашр"
+
+- id: current_version_updated_label
+  translation: "Янгиланди"
+
+- id: current_version_description
+  translation: "Бу қўлланманинг ҳозир кучда турган нашри."
+
+- id: read_current_version_button
+  translation: "Ҳозирги нашрни ўқинг"
+
+- id: version_info_not_available
+  translation: "Нашрнинг маълумоти ёʻқ"
+
+- id: contributors_title
+  translation: "Ҳисса қўшганлар"
+
+- id: contributors_description_card
+  translation: "Шу қўлланмани шакллантирган жамоа аъзолари"
+
+- id: contributors_thank_you
+  translation: "Шу қўлланмани яхшилаганларнинг барчасига раҳмат."
+
+- id: join_community_button
+  translation: "Жамоага қўшилинг"
+
+- id: no_contributors_found
+  translation: "Ҳисса қўшганлар топилмади"
+
+- id: version_history_title
+  translation: "Нашрлар тарихи"
+
+- id: version_history_description
+  translation: "Олдинги нашрлар ва уларнинг ривожи"
+
+- id: no_previous_versions_title
+  translation: "Олдинги нашрлар ёʻқ"
+
+- id: no_previous_versions_description
+  translation: "Бу қўлланма ҳозиргина бошланди. Олдинги нашрлар учун кейинроқ келинг."
+
+- id: what_is_guide_title
+  translation: "Бу қўлланма нима?"
+
+- id: license_title
+  translation: "Лицензия"
+
+- id: view_on_github_button
+  translation: "GitHub да кўриш"
+
+- id: current_open_guide_label
+  translation: "Ҳозирги Open Guide"
+
+- id: active_status_label
+  translation: "Кучда"
+
+- id: current_fork_label
+  translation: "Ҳозирги fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Шундан fork қилинган:"
+
+- id: forked_from_indicator
+  translation: "Шундан fork қилинган:"
+
+- id: this_is_fork_label
+  translation: "Бу fork"
+
+- id: available_languages_label
+  translation: "Мавжуд тиллар"
+
+- id: pdf_downloads_label
+  translation: "PDF юкламалари"
+
+- id: living_document_updated_label
+  translation: "Тирик ҳужжат янгиланди"
+
+- id: active_fork_updated_label
+  translation: "Фаол fork янгиланди"
+
+- id: historical_fork_label
+  translation: "Шундан тарихий fork:"
+
+- id: historical_version_label
+  translation: "Тарихий нашр"
+
+- id: read_guide_button
+  translation: "Қўлланмани ўқинг"
+
+- id: translations_button_small
+  translation: "Таржималар"
+
+- id: read_fork_button
+  translation: "Fork ни ўқинг"
+
+- id: view_archive_button
+  translation: "Архивни кўриш"
+
+- id: download_reference_status
+  translation: "Ҳавола"
