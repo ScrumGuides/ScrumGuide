@@ -100,3 +100,5 @@ languages:
     disabled: true
   mk:
     disabled: true
+  sq:
+    disabled: true

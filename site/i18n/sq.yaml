@@ -1,0 +1,607 @@
+# Interface strings, Albanian.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Dokumentet"
+
+- id: guides_section_title
+  translation: "Udhëzuesat"
+
+- id: implementations_section_title
+  translation: "Udhëzuesat e zbatimit"
+
+- id: implementations_section_description
+  translation: "Mënyra për të përdorur Scrum në një kontekst të caktuar. Secili nga ata mbetet brenda qëllimit të Scrum dhe shton udhërrëfim për një gjendje - disa ekipe në një produkt, drejtimi i rrjedhës, nisja - pa ndryshuar çfarë kërkon Scrum."
+
+- id: extensions_section_title
+  translation: "Shtrirjet"
+
+- id: extensions_section_description
+  translation: "Praktika që shkojnë përtej atij me të cilin merret Scrum. Një shtrirje nuk paraqitet si Scrum dhe nuk e ndryshon; merr përsipër një çështje që Scrum e lë hapur, si matja e vlerës që një produkt jep."
+
+- id: extensions_section_empty
+  translation: "Asnjë ende."
+
+- id: foundation_section_title
+  translation: "Udhëzuesi"
+
+- id: history_page_title
+  translation: "Historiku"
+
+- id: translations_page_title
+  translation: "Përkthimet"
+
+- id: changes_section_title
+  translation: "Çfarë ndryshoi"
+
+- id: changes_from_label
+  translation: "Ndryshime ndaj"
+
+- id: lineage_section_title
+  translation: "Vija"
+
+- id: adapted_from_label
+  translation: "Përshtatur nga"
+
+- id: conforms_to_label
+  translation: "Përputhet me"
+
+- id: conforming_guides_title
+  translation: "Udhëzuesat që përputhen me këtë botim"
+
+- id: conditions_section_title
+  translation: "Kushtet"
+
+- id: condition_falsifier_label
+  translation: "Nuk përmbushet kur"
+
+- id: current_version_label
+  translation: "Botimi i tanishëm"
+
+- id: older_version_label
+  translation: "Botim më i vjetër"
+
+- id: version_notice_older
+  translation: "Ky nuk është botimi i tanishëm i këtij udhëzuesi."
+
+- id: view_latest_label
+  translation: "Shihni botimin e tanishëm"
+
+- id: read_time_label
+  translation: "min lexim"
+
+- id: badge_english_only
+  translation: "Vetëm anglisht"
+
+- id: badge_english_only_title
+  translation: "Ky udhëzues nuk është përkthyer ende në këtë gjuhë."
+
+- id: badge_not_in_production
+  translation: "Jo në prodhim"
+
+- id: badge_not_in_production_title
+  translation: "Ky udhëzues është lënë jashtë ndërtimit të prodhimit."
+
+- id: badge_not_in_preview
+  translation: "Jo në parashikim"
+
+- id: badge_not_in_preview_title
+  translation: "Ky udhëzues është lënë jashtë ndërtimit të parashikimit."
+
+- id: licence_label
+  translation: "Licenca"
+
+- id: canonical_source_label
+  translation: "Burim i besueshëm"
+
+- id: pending_licence_check
+  translation: "Teksti kryesor pret kontrollin e licencës"
+
+- id: guide_join_discussion
+  translation: "Bisedoni për këtë udhëzues"
+
+- id: guide_version_current
+  translation: "I tanishëm"
+
+- id: guide_version_latest
+  translation: "Më i riu"
+
+- id: guide_version_select
+  translation: "Zgjidhni botimin"
+
+- id: guide_version_dropdown_label
+  translation: "Botimi"
+
+- id: guide_historical_version_notice_title
+  translation: "Ky nuk është botimi i tanishëm."
+
+- id: guide_historical_version_notice_text
+  translation: "Po lexoni një botim më të vjetër të këtij udhëzuesi."
+
+- id: guide_historical_version_notice_link
+  translation: "Lexoni botimin e tanishëm"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Shihni në faqen e parashikimit"
+
+- id: guide_translation_preview_note
+  translation: "Parashikim i përkthimit."
+
+- id: guide_translation_preview_message
+  translation: "Ky përkthim po shqyrtohet ende dhe mund të jetë i papërfunduar."
+
+- id: contributors_label
+  translation: "Bashkëpunëtorët"
+
+- id: translators_label
+  translation: "Përkthyesat"
+
+- id: reportTranslationError
+  translation: "Raportoni një gabim përkthimi"
+
+- id: nav_details
+  translation: "Për këtë udhëzues"
+
+- id: nav_translations
+  translation: "Përkthimet"
+
+- id: download_table_written_by
+  translation: "Shkruar nga"
+
+- id: download_table_contributed_by
+  translation: "Bashkëpunuar nga"
+
+- id: download_table_status
+  translation: "Gjendja"
+
+- id: download_discussion_action
+  translation: "Bisedoni"
+
+- id: download_preview_action
+  translation: "Parashikoni"
+
+- id: download_preview_status
+  translation: "Në parashikim"
+
+- id: download_preview_description
+  translation: "Ky përkthim nuk është botuar ende dhe mund të lexohet në faqen e parashikimit."
+
+- id: download_preview_translations
+  translation: "Përkthimet në parashikim"
+
+- id: download_visit_preview
+  translation: "Hapni faqen e parashikimit"
+
+- id: download_pdf_only_status
+  translation: "Vetëm PDF"
+
+- id: download_stub_status
+  translation: "Nuk ka nisur"
+
+- id: site_wordmark
+  translation: "Udhëzuesat e Scrum"
+
+- id: nav_the_guide
+  translation: "Udhëzuesi"
+
+- id: nav_versions
+  translation: "Botimet"
+
+- id: nav_implementations
+  translation: "Zbatimet"
+
+- id: guide_pdf_not_available
+  translation: "PDF nuk ka"
+
+- id: share_label
+  translation: "Ndani"
+
+- id: share_copy_link
+  translation: "Kopjoni lidhjen"
+
+- id: share_copied
+  translation: "U kopjua në kujtesë!"
+
+- id: share_close
+  translation: "Mbyllni"
+
+- id: role_creator
+  translation: "Krijues"
+
+- id: role_contributor
+  translation: "Bashkëpunëtor"
+
+- id: role_reviewer
+  translation: "Shqyrtues"
+
+- id: role_translator
+  translation: "Përkthyes"
+
+- id: role_involved
+  translation: "Përfshirë"
+
+- id: nav_getting_started
+  translation: "Hapat e parë"
+
+- id: nav_the_scrum_guide
+  translation: "Udhëzuesi i Scrum"
+
+- id: home_action_getting_started
+  translation: "Lexoni Hapat e parë për Scrum Teams në internet"
+
+- id: home_action_scrum_guide
+  translation: "Lexoni Udhëzuesin zyrtar të Scrum në internet"
+
+- id: home_action_translations
+  translation: "Shkarkoni Udhëzuesin zyrtar të Scrum në më shumë se 30 gjuhë"
+
+- id: home_action_read_online
+  translation: "Lexoni në internet"
+
+- id: home_action_select_language
+  translation: "Zgjidhni gjuhën dhe shkarkoni"
+
+- id: and
+  translation: "dhe"
+
+- id: breadcrumb_home
+  translation: "Kreu"
+
+- id: read_online_title
+  translation: "Lexoni në internet"
+
+- id: read_online_description
+  translation: "Arrini të gjithë udhëzuesin në formë numerike, me veti ndërveprimi dhe lëvizje të lehtë."
+
+- id: read_online_button
+  translation: "Lexoni në internet"
+
+- id: translations_title
+  translation: "Përkthimet"
+
+- id: translations_description
+  translation: "Lexoni këtë udhëzues në disa gjuhë dhe ndihmoni me përkthimet."
+
+- id: translations_button
+  translation: "Shihni përkthimet"
+
+- id: history_title
+  translation: "Historiku"
+
+- id: history_description
+  translation: "Ndiqni zhvillimin dhe historikun e këtij udhëzuesi."
+
+- id: history_button
+  translation: "Shihni historikun"
+
+- id: what_is_guides_title
+  translation: "Çfarë është {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Kod i hapur, e drejton bashkësia"
+
+- id: open_source_description
+  translation: "Ky është një projekt me kod të hapur që rron nga bashkëpunimi i bashkësisë. Nëse doni të propozoni përmirësime, të raportoni shqetësime ose të jepni përmbajtje, jeni të mirëpritur. Disa udhëzuesa nuk pranojnë dhurata, por ndodhen këtu si referencë. Bashkë mund t'i bëjmë këta burime më të vlefshme për ushtruesat nëpër botë dhe për këdo që do të përmirësojë efektshmërinë e rrjedhës së punës dhe dorëzimin e vlerës."
+
+- id: at_a_glance_title
+  translation: "Shkurt"
+
+- id: join_discussion_button
+  translation: "Bashkohuni me bisedën"
+
+- id: join_discussion_title
+  translation: "Bashkohuni me bisedën për {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Takoni bashkësinë, ndani atë që shihni dhe ndihmoni t'i dhuroni formë së ardhmes së {{ .Site.Title }}. Dhuratat e tua janë të domosdoshme që këta udhëzuesa të bëhen trupi i plotë për ushtruesat."
+
+- id: guides_intro_text
+  translation: "Mësoni praktikat që funksionojnë dhe si t'i përdorni për të optimizuar rrjedhën e punës dhe dorëzimin e vlerës në çdo proces. Këtu është i gjithë trupi i dijes dhe i praktikave të mira. {{ .Site.Title }} është shtëpia e udhëzuesave praktikë: një referencë e lirë, e drejtuar nga bashkësia, për të përdorur metoda të provuara në punën me dije. Udhëzuesat rrethojnë praktikat dhe masat themelore që duhen për të përmirësuar rrjedhën, për të optimizuar dorëzimin e vlerës dhe për të forcuar qëndrueshmërinë e ekipit. Mbështesin marrjen e shkallëzueshme nëpër degë dhe plotësojnë metoda të tjera bashkëkohore të rrjedhës së punës."
+
+- id: guide_content_not_found
+  translation: "Përmbajtja e udhëzuesit nuk u gjet"
+
+- id: nav_read_guide
+  translation: "Lexoni udhëzuesin"
+
+- id: nav_history
+  translation: "Historiku"
+
+- id: nav_overview
+  translation: "Pamje"
+
+- id: guide_pdf_download_button
+  translation: "Shkarkoni PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Këtë udhëzues mund ta shkarkoni edhe në PDF dhe ta lexoni pa lidhje."
+
+- id: guide_pdf_intro_link
+  translation: "Shkarkoni PDF-in"
+
+- id: download_page_title
+  translation: "Lexoni dhe shkarkoni {{ .Title }} zyrtar"
+
+- id: download_page_description
+  translation: "{{ .Title }} përcaktohet këtu nga"
+
+- id: download_page_originators
+  translation: ", krijuesat e {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Përkthimet janë vënë në dispozicion nga njerëzit dhe grupet e gatshme më poshtë. Zgjidhni gjuhën që doni të shkarkoni."
+
+- id: download_translation_error
+  translation: "Nëse gjeni në {{ .Title }} diçka që mendoni se është gabim përkthimi, drejtohuni drejt atij përkthyesi. Nëse kini nevojë për më shumë ndihmë, shkruajini neve në"
+
+- id: download_official_version
+  translation: "Botim zyrtar"
+
+- id: download_community_translations
+  translation: "Përkthime nga bashkësia"
+
+- id: download_current_version_released
+  translation: "Botimi zyrtar i tanishëm i {{ .Site.Title }} u nxor"
+
+- id: download_older_translations_notice
+  translation: "Përkthimet më të vjetra të {{ .Site.Title }} mund të nuk përmbajnë të dhënat më të reja."
+
+- id: download_table_language
+  translation: "Gjuha"
+
+- id: download_table_translations_by
+  translation: "Përkthyer nga"
+
+- id: download_table_action
+  translation: "Veprim"
+
+- id: download_official_current_version
+  translation: "Botimi zyrtar i tanishëm"
+
+- id: download_button_text
+  translation: "Shkarkoni"
+
+- id: download_coming_soon
+  translation: "Së shpejti"
+
+- id: download_missing_language
+  translation: "Mungon gjuha e jote?"
+
+- id: download_contribute_translation
+  translation: "Jepni një përkthim të re dhe ndihmoni bashkësinë."
+
+- id: download_add_translation
+  translation: "Shtoni një përkthim"
+
+- id: download_community_contributors
+  translation: "Bashkëpunëtorë nga bashkësia"
+
+- id: contributors_description
+  translation: "Bashkëpunëtorët më poshtë janë mbledhur nga të gjithë udhëzuesat dhe të gjitha botimet."
+
+- id: read_online_action
+  translation: "Lexoni në internet"
+
+- id: guide_table_of_contents
+  translation: "Përmbajtja"
+
+- id: guide_coming_soon
+  translation: "Ky udhëzues është në rrugë. Ndiqeni."
+
+- id: guide_no_content_available
+  translation: "Në këtë gjuhë nuk ka ende përmbajtje."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) nuk ka"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) nuk ka"
+
+- id: guide_coming_label
+  translation: "Vjen:"
+
+- id: guide_updated_label
+  translation: "Përtërirë:"
+
+- id: guide_version_label
+  translation: "Botimi:"
+
+- id: guide_content_unavailable_note
+  translation: "Shënim:"
+
+- id: guide_content_unavailable_message
+  translation: "Përmbajtja e kësaj faqeje nuk është ende në {{ .Language }}. Më poshtë shfaqet përmbajtja e parazgjedhur e udhëzuesit."
+
+- id: guide_content_unavailable_title
+  translation: "Përmbajtja nuk ka:"
+
+- id: guide_content_unavailable_description
+  translation: "Përmbajtja e kësaj faqeje nuk mundi të ngarkohej, dhe nuk ka përmbajtje të parazgjedhur për t'u shfaqur. Raportoni, ju lutem,"
+
+- id: guide_report_issue_link
+  translation: "Raportoni këtë shqetësim"
+
+- id: guide_report_issue_message
+  translation: "që ta ndreqim."
+
+- id: guide_back_to_home
+  translation: "← Kthehu në kreu"
+
+- id: not_sure_which_to_use_title
+  translation: "Nuk je i sigurt cilin të përdorësh?"
+
+- id: get_started_title
+  translation: "Nisni"
+
+- id: community_driven_label
+  translation: "E drejton bashkësia"
+
+- id: coming_soon
+  translation: "Së shpejti"
+
+- id: purpose_title
+  translation: "Qëllimi"
+
+- id: ethos_title
+  translation: "Pikënisja"
+
+- id: audience_title
+  translation: "Për kë"
+
+- id: use_case_title
+  translation: "Kur përdoret"
+
+- id: content_title
+  translation: "Përmbajtja"
+
+- id: update_model_title
+  translation: "Si përtërihet"
+
+- id: guide_overview_title
+  translation: "Pamje e udhëzuesit"
+
+- id: guide_overview_description
+  translation: "Tiparet kryesore të këtij udhëzuesi"
+
+- id: when_to_use_title
+  translation: "Kur të përdorni këtë udhëzues"
+
+- id: when_to_use_description
+  translation: "Zgjidhni mënyrën që i përshtatet kontekstit tuaj"
+
+- id: quick_decision_guide_title
+  translation: "Zgjedhje e shpejtë"
+
+- id: getting_started_title
+  translation: "Hapat e parë"
+
+- id: for_practitioners_title
+  translation: "Për ushtruesat"
+
+- id: current_information_title
+  translation: "Të dhënat e tanishme"
+
+- id: current_information_description
+  translation: "Hollësi për botimin dhe bashkëpunëtorë nga bashkësia"
+
+- id: current_version_title
+  translation: "Botimi i tanishëm"
+
+- id: current_version_updated_label
+  translation: "Përtërirë"
+
+- id: current_version_description
+  translation: "Ky është botimi i udhëzuesit që vlen tani."
+
+- id: read_current_version_button
+  translation: "Lexoni botimin e tanishëm"
+
+- id: version_info_not_available
+  translation: "Të dhënat e botimit nuk ka"
+
+- id: contributors_title
+  translation: "Bashkëpunëtorët"
+
+- id: contributors_description_card
+  translation: "Anëtarë të bashkësisë që i dhanë formë këtij udhëzuesi"
+
+- id: contributors_thank_you
+  translation: "Faleminderit të gjithëve që e bënë këtë udhëzues më të mirë."
+
+- id: join_community_button
+  translation: "Bashkohuni me bashkësinë"
+
+- id: no_contributors_found
+  translation: "Nuk u gjetën bashkëpunëtorë"
+
+- id: version_history_title
+  translation: "Historiku i botimeve"
+
+- id: version_history_description
+  translation: "Botimet e mëparshme dhe zhvillimi i tyre"
+
+- id: no_previous_versions_title
+  translation: "Nuk ka botime të mëparshme"
+
+- id: no_previous_versions_description
+  translation: "Ky udhëzues sapo ka nisur. Kthehuni më vonë për botimet e mëparshme."
+
+- id: what_is_guide_title
+  translation: "Çfarë është ky udhëzues?"
+
+- id: license_title
+  translation: "Licenca"
+
+- id: view_on_github_button
+  translation: "Shihni në GitHub"
+
+- id: current_open_guide_label
+  translation: "Open Guide i tanishëm"
+
+- id: active_status_label
+  translation: "Në fuqi"
+
+- id: current_fork_label
+  translation: "Fork-u i tanishëm"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Forkuar nga:"
+
+- id: forked_from_indicator
+  translation: "Forkuar nga:"
+
+- id: this_is_fork_label
+  translation: "Ky është një fork"
+
+- id: available_languages_label
+  translation: "Gjuhët që ka"
+
+- id: pdf_downloads_label
+  translation: "Shkarkimet në PDF"
+
+- id: living_document_updated_label
+  translation: "Dokumenti i gjallë u përtëri"
+
+- id: active_fork_updated_label
+  translation: "Fork-u aktiv u përtëri"
+
+- id: historical_fork_label
+  translation: "Fork historik nga"
+
+- id: historical_version_label
+  translation: "Botim historik"
+
+- id: read_guide_button
+  translation: "Lexoni udhëzuesin"
+
+- id: translations_button_small
+  translation: "Përkthimet"
+
+- id: read_fork_button
+  translation: "Lexoni fork-un"
+
+- id: view_archive_button
+  translation: "Shihni arkivin"
+
+- id: download_reference_status
+  translation: "Referencë"

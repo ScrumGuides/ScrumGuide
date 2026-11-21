@@ -268,6 +268,12 @@ languages:
     title: Водичот за Scrum
     params:
       description: Секое објавено издание на Водичот за Scrum на едно место, заедно со водичите за примена што се потпираат на него.
+  sq:
+    label: Shqip
+    weight: 40
+    title: Udhëzuesi i Scrum
+    params:
+      description: Çdo botim i Udhëzuesit të Scrum në një vend, bashkë me udhëzuesat e zbatimit që ngrihen mbi të.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
