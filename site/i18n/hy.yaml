@@ -1,0 +1,607 @@
+# Interface strings, Armenian.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Փաստաթղթեր"
+
+- id: guides_section_title
+  translation: "Ուղեցույցներ"
+
+- id: implementations_section_title
+  translation: "Կիրառման ուղեցույցներ"
+
+- id: implementations_section_description
+  translation: "Scrum-ը որոշակի համատեքստում օգտագործելու եղանակներ։ Նրանցից յուրաքանչյուրը մնում է Scrum-ի մտադրության ներսում և ավելացնում է ուղղորդում ինչ-որ իրավիճակի համար՝ մի քանի թիմ մեկ արտադրանքի վրա, հոսքի կառավարում, սկիզբ՝ առանց փոխելու այն, ինչ Scrum-ը պահանջում է։"
+
+- id: extensions_section_title
+  translation: "Ընդլայնումներ"
+
+- id: extensions_section_description
+  translation: "Փորձեր, որ հասնում են այն սահմաններից դուրս, որով զբաղվում է Scrum-ը։ Ընդլայնումը իրեն Scrum չի ներկայացնում և չի փոխում այն. ստանձնում է հարց, որ Scrum-ը բաց է թողնում, ինչպես արտադրանքի տված արժեքի չափումը։"
+
+- id: extensions_section_empty
+  translation: "Դեռ ոչ մեկը։"
+
+- id: foundation_section_title
+  translation: "Ուղեցույցը"
+
+- id: history_page_title
+  translation: "Պատմություն"
+
+- id: translations_page_title
+  translation: "Թարգմանություններ"
+
+- id: changes_section_title
+  translation: "Ինչ փոխվեց"
+
+- id: changes_from_label
+  translation: "Փոփոխություններ՝ համեմատած"
+
+- id: lineage_section_title
+  translation: "Գիծ"
+
+- id: adapted_from_label
+  translation: "Հարմարեցված՝"
+
+- id: conforms_to_label
+  translation: "Համապատասխանում է"
+
+- id: conforming_guides_title
+  translation: "Ուղեցույցներ, որ համապատասխանում են այս տարբերակին"
+
+- id: conditions_section_title
+  translation: "Պայմաններ"
+
+- id: condition_falsifier_label
+  translation: "Չի բավարարվում, երբ"
+
+- id: current_version_label
+  translation: "Ներկա տարբերակը"
+
+- id: older_version_label
+  translation: "Ավելի հին տարբերակ"
+
+- id: version_notice_older
+  translation: "Սա այս ուղեցույցի ներկա տարբերակը չէ։"
+
+- id: view_latest_label
+  translation: "Տեսնել ներկա տարբերակը"
+
+- id: read_time_label
+  translation: "ր ընթերցում"
+
+- id: badge_english_only
+  translation: "Միայն անգլերեն"
+
+- id: badge_english_only_title
+  translation: "Այս ուղեցույցը դեռ չի թարգմանված այս լեզվով։"
+
+- id: badge_not_in_production
+  translation: "Արտադրության մեջ չէ"
+
+- id: badge_not_in_production_title
+  translation: "Այս ուղեցույցը թողնված է արտադրության կառուցումից դուրս։"
+
+- id: badge_not_in_preview
+  translation: "Նախադիտման մեջ չէ"
+
+- id: badge_not_in_preview_title
+  translation: "Այս ուղեցույցը թողնված է նախադիտման կառուցումից դուրս։"
+
+- id: licence_label
+  translation: "Արտոնագիր"
+
+- id: canonical_source_label
+  translation: "Վստահելի աղբյուր"
+
+- id: pending_licence_check
+  translation: "Հիմնական տեքստը սպասում է արտոնագրի ստուգմանը"
+
+- id: guide_join_discussion
+  translation: "Քննարկեք այս ուղեցույցը"
+
+- id: guide_version_current
+  translation: "Ներկա"
+
+- id: guide_version_latest
+  translation: "Ամենանորը"
+
+- id: guide_version_select
+  translation: "Ընտրեք տարբերակը"
+
+- id: guide_version_dropdown_label
+  translation: "Տարբերակ"
+
+- id: guide_historical_version_notice_title
+  translation: "Սա ներկա տարբերակը չէ։"
+
+- id: guide_historical_version_notice_text
+  translation: "Կարդում եք այս ուղեցույցի ավելի հին տարբերակը։"
+
+- id: guide_historical_version_notice_link
+  translation: "Կարդացեք ներկա տարբերակը"
+
+- id: guide_historical_version_notice_suffix
+  translation: "։"
+
+- id: guide_preview_link
+  translation: "Տեսնել նախադիտման կայքում"
+
+- id: guide_translation_preview_note
+  translation: "Թարգմանության նախադիտում։"
+
+- id: guide_translation_preview_message
+  translation: "Այս թարգմանությունը դեռ վերանայվում է և կարող է թերի լինել։"
+
+- id: contributors_label
+  translation: "Մասնակիցներ"
+
+- id: translators_label
+  translation: "Թարգմանիչներ"
+
+- id: reportTranslationError
+  translation: "Հայտնել թարգմանության սխալի մասին"
+
+- id: nav_details
+  translation: "Այս ուղեցույցի մասին"
+
+- id: nav_translations
+  translation: "Թարգմանություններ"
+
+- id: download_table_written_by
+  translation: "Գրել են"
+
+- id: download_table_contributed_by
+  translation: "Մասնակցել են"
+
+- id: download_table_status
+  translation: "Վիճակ"
+
+- id: download_discussion_action
+  translation: "Քննարկել"
+
+- id: download_preview_action
+  translation: "Նախադիտել"
+
+- id: download_preview_status
+  translation: "Նախադիտման մեջ"
+
+- id: download_preview_description
+  translation: "Այս թարգմանությունը դեռ հրատարակված չէ և կարելի է կարդալ նախադիտման կայքում։"
+
+- id: download_preview_translations
+  translation: "Թարգմանություններ նախադիտման մեջ"
+
+- id: download_visit_preview
+  translation: "Բացել նախադիտման կայքը"
+
+- id: download_pdf_only_status
+  translation: "Միայն PDF"
+
+- id: download_stub_status
+  translation: "Սկսված չէ"
+
+- id: site_wordmark
+  translation: "Scrum-ի ուղեցույցներ"
+
+- id: nav_the_guide
+  translation: "Ուղեցույցը"
+
+- id: nav_versions
+  translation: "Տարբերակներ"
+
+- id: nav_implementations
+  translation: "Կիրառումներ"
+
+- id: guide_pdf_not_available
+  translation: "PDF-ը հասանելի չէ"
+
+- id: share_label
+  translation: "Կիսվել"
+
+- id: share_copy_link
+  translation: "Պատճենել հղումը"
+
+- id: share_copied
+  translation: "Պատճենվեց սեղմատախտակին։"
+
+- id: share_close
+  translation: "Փակել"
+
+- id: role_creator
+  translation: "Ստեղծող"
+
+- id: role_contributor
+  translation: "Մասնակից"
+
+- id: role_reviewer
+  translation: "Վերանայող"
+
+- id: role_translator
+  translation: "Թարգմանիչ"
+
+- id: role_involved
+  translation: "Ներգրավված"
+
+- id: nav_getting_started
+  translation: "Առաջին քայլերը"
+
+- id: nav_the_scrum_guide
+  translation: "Scrum-ի ուղեցույցը"
+
+- id: home_action_getting_started
+  translation: "Կարդացեք Առաջին քայլերը Scrum Team-երի համար ցանցում"
+
+- id: home_action_scrum_guide
+  translation: "Կարդացեք Scrum-ի պաշտոնական ուղեցույցը ցանցում"
+
+- id: home_action_translations
+  translation: "Ներբեռնեք Scrum-ի պաշտոնական ուղեցույցը ավելի քան 30 լեզվով"
+
+- id: home_action_read_online
+  translation: "Կարդալ ցանցում"
+
+- id: home_action_select_language
+  translation: "Ընտրել լեզուն և ներբեռնել"
+
+- id: and
+  translation: "և"
+
+- id: breadcrumb_home
+  translation: "Գլխավոր"
+
+- id: read_online_title
+  translation: "Կարդալ ցանցում"
+
+- id: read_online_description
+  translation: "Հասեք ամբողջ ուղեցույցին թվայնորեն՝ փոխգործուն հնարավորություններով և հեշտ շարժով։"
+
+- id: read_online_button
+  translation: "Կարդալ ցանցում"
+
+- id: translations_title
+  translation: "Թարգմանություններ"
+
+- id: translations_description
+  translation: "Կարդացեք այս ուղեցույցը մի քանի լեզվով և օգնեք թարգմանություններին։"
+
+- id: translations_button
+  translation: "Տեսնել թարգմանությունները"
+
+- id: history_title
+  translation: "Պատմություն"
+
+- id: history_description
+  translation: "Հետևեք այս ուղեցույցի զարգացմանը և պատմությանը։"
+
+- id: history_button
+  translation: "Տեսնել պատմությունը"
+
+- id: what_is_guides_title
+  translation: "Ի՞նչ է {{ .Site.Title }}-ը"
+
+- id: open_source_title
+  translation: "Բաց աղբյուր, համայնքն է վարում"
+
+- id: open_source_description
+  translation: "Սա բաց աղբյուրի նախագիծ է, որ ապրում է համայնքի համագործակցությամբ։ Եթե ուզում եք բարելավումներ առաջարկել, խնդիրների մասին հայտնել կամ բովանդակություն ներդրել, բարի եկաք։ Որոշ ուղեցույցներ ներդրումներ չեն ընդունում, բայց կանգնած են այստեղ որպես հղում։ Միասին կարող ենք այս աղբյուրները ավելի արժեքավոր դարձնել կիրառողների համար ամբողջ աշխարհում և բոլորի համար, ով ուզում է բարելավել աշխատանքի հոսքի արդյունավետությունը և արժեքի մատուցումը։"
+
+- id: at_a_glance_title
+  translation: "Համառոտ"
+
+- id: join_discussion_button
+  translation: "Միացեք քննարկմանը"
+
+- id: join_discussion_title
+  translation: "Միացեք {{ .Site.Title }}-ի մասին քննարկմանը"
+
+- id: join_discussion_description
+  translation: "Հանդիպեք համայնքին, կիսվեք այն ամենով, ինչ տեսնում եք, և օգնեք ձևավորել {{ .Site.Title }}-ի ապագան։ Ձեր ներդրումները անփոխարինելի են, որպեսզի այս ուղեցույցները դառնան ամբողջ մարմինը կիրառողների համար։"
+
+- id: guides_intro_text
+  translation: "Սովորեք այն փորձերը, որ աշխատում են, և ինչպես օգտագործել դրանք՝ աշխատանքի հոսքը և արժեքի մատուցումը ամեն գործընթացում լավարկելու համար։ Այստեղ է գիտելիքի և լավ փորձերի ամբողջ մարմինը։ {{ .Site.Title }}-ը գործնական ուղեցույցների տունն է՝ ազատ, համայնքի վարած հղում՝ ապացուցված մեթոդները գիտելիքի աշխատանքում օգտագործելու համար։ Ուղեցույցները սահմանազատում են այն հիմնական փորձերը և չափումները, որ պետք են հոսքը բարելավելու, արժեքի մատուցումը լավարկելու և թիմի կայունությունը ամրացնելու համար։ Նրանք աջակցում են մասշտաբավորվող ընդունումը տարբեր ոլորտներում և լրացնում են աշխատանքի հոսքի այլ ժամանակակից մեթոդները։"
+
+- id: guide_content_not_found
+  translation: "Ուղեցույցի բովանդակությունը չի գտնվել"
+
+- id: nav_read_guide
+  translation: "Կարդացեք ուղեցույցը"
+
+- id: nav_history
+  translation: "Պատմություն"
+
+- id: nav_overview
+  translation: "Ընդհանուր պատկեր"
+
+- id: guide_pdf_download_button
+  translation: "Ներբեռնել PDF"
+
+- id: guide_pdf_intro_text
+  translation: "Այս ուղեցույցը կարող եք նաև ներբեռնել PDF-ով և կարդալ առանց ցանցի։"
+
+- id: guide_pdf_intro_link
+  translation: "Ներբեռնեք PDF-ը"
+
+- id: download_page_title
+  translation: "Կարդացեք և ներբեռնեք պաշտոնական {{ .Title }}-ը"
+
+- id: download_page_description
+  translation: "{{ .Title }}-ը այստեղ սահմանում են"
+
+- id: download_page_originators
+  translation: "՝ {{ .Title }}-ի ստեղծողները։"
+
+- id: download_translations_provided
+  translation: "Թարգմանությունները տրամադրել են ներքևում նշված բարյացակամ մարդիկ և խմբերը։ Ընտրեք այն լեզուն, որ ուզում եք ներբեռնել։"
+
+- id: download_translation_error
+  translation: "Եթե {{ .Title }}-ում գտնեք մի բան, որ համարում եք թարգմանության սխալ, դիմեք ուղղակի այդ թարգմանչին։ Եթե լրացուցիչ օգնություն է պետք, կապվեք մեզ հետ՝"
+
+- id: download_official_version
+  translation: "Պաշտոնական տարբերակ"
+
+- id: download_community_translations
+  translation: "Թարգմանություններ համայնքից"
+
+- id: download_current_version_released
+  translation: "{{ .Site.Title }}-ի ներկա պաշտոնական տարբերակը դուրս է եկել"
+
+- id: download_older_translations_notice
+  translation: "{{ .Site.Title }}-ի ավելի հին թարգմանությունները կարող են չպարունակել ամենանոր տեղեկությունը։"
+
+- id: download_table_language
+  translation: "Լեզու"
+
+- id: download_table_translations_by
+  translation: "Թարգմանել են"
+
+- id: download_table_action
+  translation: "Գործողություն"
+
+- id: download_official_current_version
+  translation: "Պաշտոնական ներկա տարբերակը"
+
+- id: download_button_text
+  translation: "Ներբեռնել"
+
+- id: download_coming_soon
+  translation: "Շուտով"
+
+- id: download_missing_language
+  translation: "Ձեր լեզուն բացակայո՞ւմ է"
+
+- id: download_contribute_translation
+  translation: "Ներդրեք նոր թարգմանություն և օգնեք համայնքին։"
+
+- id: download_add_translation
+  translation: "Ավելացնել թարգմանություն"
+
+- id: download_community_contributors
+  translation: "Մասնակիցներ համայնքից"
+
+- id: contributors_description
+  translation: "Ներքևի մասնակիցները հավաքված են բոլոր ուղեցույցներից և բոլոր տարբերակներից։"
+
+- id: read_online_action
+  translation: "Կարդալ ցանցում"
+
+- id: guide_table_of_contents
+  translation: "Բովանդակություն"
+
+- id: guide_coming_soon
+  translation: "Այս ուղեցույցը ճանապարհին է։ Հետևեք նրան։"
+
+- id: guide_no_content_available
+  translation: "Այս լեզվով դեռ բովանդակություն չկա։"
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN)-ը հասանելի չէ"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US)-ը հասանելի չէ"
+
+- id: guide_coming_label
+  translation: "Գալիս է՝"
+
+- id: guide_updated_label
+  translation: "Թարմացվել է՝"
+
+- id: guide_version_label
+  translation: "Տարբերակ՝"
+
+- id: guide_content_unavailable_note
+  translation: "Նշում՝"
+
+- id: guide_content_unavailable_message
+  translation: "Այս էջի բովանդակությունը դեռ չկա {{ .Language }} լեզվով։ Ներքևում ցուցադրվում է ուղեցույցի լռելյայն բովանդակությունը։"
+
+- id: guide_content_unavailable_title
+  translation: "Բովանդակությունը հասանելի չէ՝"
+
+- id: guide_content_unavailable_description
+  translation: "Այս էջի բովանդակությունը չի կարողացել բեռնվել, և ցուցադրելու լռելյայն բովանդակություն չկա։ Խնդրում ենք հայտնել"
+
+- id: guide_report_issue_link
+  translation: "Հայտնեք այս խնդրի մասին"
+
+- id: guide_report_issue_message
+  translation: "որպեսզի կարողանանք ուղղել։"
+
+- id: guide_back_to_home
+  translation: "← Ետ՝ գլխավոր"
+
+- id: not_sure_which_to_use_title
+  translation: "Վստահ չե՞ք, թե որը օգտագործել"
+
+- id: get_started_title
+  translation: "Սկսեք"
+
+- id: community_driven_label
+  translation: "Համայնքն է վարում"
+
+- id: coming_soon
+  translation: "Շուտով"
+
+- id: purpose_title
+  translation: "Նպատակ"
+
+- id: ethos_title
+  translation: "Ելակետ"
+
+- id: audience_title
+  translation: "Ում համար"
+
+- id: use_case_title
+  translation: "Երբ է օգտագործվում"
+
+- id: content_title
+  translation: "Բովանդակություն"
+
+- id: update_model_title
+  translation: "Ինչպես է թարմացվում"
+
+- id: guide_overview_title
+  translation: "Ուղեցույցի ընդհանուր պատկերը"
+
+- id: guide_overview_description
+  translation: "Այս ուղեցույցի հիմնական գծերը"
+
+- id: when_to_use_title
+  translation: "Երբ օգտագործել այս ուղեցույցը"
+
+- id: when_to_use_description
+  translation: "Ընտրեք այն մոտեցումը, որ համապատասխանում է ձեր համատեքստին"
+
+- id: quick_decision_guide_title
+  translation: "Արագ ընտրություն"
+
+- id: getting_started_title
+  translation: "Առաջին քայլերը"
+
+- id: for_practitioners_title
+  translation: "Կիրառողների համար"
+
+- id: current_information_title
+  translation: "Ներկա տեղեկությունը"
+
+- id: current_information_description
+  translation: "Տարբերակի մանրամասները և մասնակիցներ համայնքից"
+
+- id: current_version_title
+  translation: "Ներկա տարբերակը"
+
+- id: current_version_updated_label
+  translation: "Թարմացվել է"
+
+- id: current_version_description
+  translation: "Սա ուղեցույցի այն տարբերակն է, որ ուժի մեջ է հիմա։"
+
+- id: read_current_version_button
+  translation: "Կարդացեք ներկա տարբերակը"
+
+- id: version_info_not_available
+  translation: "Տարբերակի տեղեկությունը հասանելի չէ"
+
+- id: contributors_title
+  translation: "Մասնակիցներ"
+
+- id: contributors_description_card
+  translation: "Համայնքի անդամներ, որ ձևավորել են այս ուղեցույցը"
+
+- id: contributors_thank_you
+  translation: "Շնորհակալություն բոլորին, որ այս ուղեցույցը ավելի լավ են դարձրել։"
+
+- id: join_community_button
+  translation: "Միացեք համայնքին"
+
+- id: no_contributors_found
+  translation: "Մասնակիցներ չեն գտնվել"
+
+- id: version_history_title
+  translation: "Տարբերակների պատմությունը"
+
+- id: version_history_description
+  translation: "Նախորդ տարբերակները և նրանց զարգացումը"
+
+- id: no_previous_versions_title
+  translation: "Նախորդ տարբերակներ չկան"
+
+- id: no_previous_versions_description
+  translation: "Այս ուղեցույցը հենց նոր է սկսվել։ Վերադարձեք ավելի ուշ՝ նախորդ տարբերակների համար։"
+
+- id: what_is_guide_title
+  translation: "Ի՞նչ է այս ուղեցույցը"
+
+- id: license_title
+  translation: "Արտոնագիր"
+
+- id: view_on_github_button
+  translation: "Տեսնել GitHub-ում"
+
+- id: current_open_guide_label
+  translation: "Ներկա Open Guide"
+
+- id: active_status_label
+  translation: "Ուժի մեջ"
+
+- id: current_fork_label
+  translation: "Ներկա fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Fork արված՝"
+
+- id: forked_from_indicator
+  translation: "Fork արված՝"
+
+- id: this_is_fork_label
+  translation: "Սա fork է"
+
+- id: available_languages_label
+  translation: "Հասանելի լեզուներ"
+
+- id: pdf_downloads_label
+  translation: "PDF ներբեռնումներ"
+
+- id: living_document_updated_label
+  translation: "Կենդանի փաստաթուղթը թարմացվել է"
+
+- id: active_fork_updated_label
+  translation: "Գործուն fork-ը թարմացվել է"
+
+- id: historical_fork_label
+  translation: "Պատմական fork՝"
+
+- id: historical_version_label
+  translation: "Պատմական տարբերակ"
+
+- id: read_guide_button
+  translation: "Կարդացեք ուղեցույցը"
+
+- id: translations_button_small
+  translation: "Թարգմանություններ"
+
+- id: read_fork_button
+  translation: "Կարդացեք fork-ը"
+
+- id: view_archive_button
+  translation: "Տեսնել արխիվը"
+
+- id: download_reference_status
+  translation: "Հղում"

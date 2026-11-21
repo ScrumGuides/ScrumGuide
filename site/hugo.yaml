@@ -220,6 +220,12 @@ languages:
     title: Y Canllaw Scrum
     params:
       description: Pob fersiwn o'r Canllaw Scrum a gyhoeddwyd mewn un lle, gyda'r canllawiau gweithredu sy'n codi arno.
+  hy:
+    label: Հայերեն
+    weight: 20
+    title: Scrum-ի ուղեցույցը
+    params:
+      description: Scrum-ի ուղեցույցի հրատարակված ամեն տարբերակը մեկ տեղում, իրենց վրա կառուցվող կիրառման ուղեցույցների հետ միասին.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

@@ -84,3 +84,5 @@ languages:
     disabled: true
   cy:
     disabled: true
+  hy:
+    disabled: true
