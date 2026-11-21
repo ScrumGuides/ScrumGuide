@@ -244,6 +244,12 @@ languages:
     title: Scrum нұсқаулығы
     params:
       description: Scrum нұсқаулығының жарияланған әр нұсқасы бір жерде, оған сүйенетін енгізу нұсқаулықтарымен бірге.
+  ky:
+    label: Кыргызча
+    weight: 27
+    title: Scrum колдонмосу
+    params:
+      description: Scrum колдонмосунун жарыяланган ар бир басылышы бир жерде, ага таянган киргизүү колдонмолору менен кошо.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.

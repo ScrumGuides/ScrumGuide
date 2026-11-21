@@ -92,3 +92,5 @@ languages:
     disabled: true
   kk:
     disabled: true
+  ky:
+    disabled: true

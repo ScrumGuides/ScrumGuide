@@ -1,0 +1,607 @@
+# Interface strings, Kyrgyz.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Документтер"
+
+- id: guides_section_title
+  translation: "Колдонмолор"
+
+- id: implementations_section_title
+  translation: "Киргизүү колдонмолору"
+
+- id: implementations_section_description
+  translation: "Scrum'ду белгилүү бир шартта колдонуу жолдору. Алардын ар бири Scrum'дун ниетинин ичинде калат жана кандайдыр бир жагдай үчүн багыт кошот — бир өнүмдө бир нече топ, агымды башкаруу, баштоо — Scrum эмнени талап кылганын өзгөртпөй."
+
+- id: extensions_section_title
+  translation: "Кеңейтүүлөр"
+
+- id: extensions_section_description
+  translation: "Scrum алектенген чектин сыртына жеткен тажрыйбалар. Кеңейтүү өзүн Scrum деп көрсөтпөйт жана аны өзгөртпөйт; ал Scrum ачык калтырган суроону алат, өнүмдүн берген баалуулугун өлчөө сыяктуу."
+
+- id: extensions_section_empty
+  translation: "Азырынча бири да жок."
+
+- id: foundation_section_title
+  translation: "Колдонмо"
+
+- id: history_page_title
+  translation: "Тарых"
+
+- id: translations_page_title
+  translation: "Котормолор"
+
+- id: changes_section_title
+  translation: "Эмне өзгөрдү"
+
+- id: changes_from_label
+  translation: "Мунуна салыштырмалуу өзгөрүүлөр"
+
+- id: lineage_section_title
+  translation: "Сызык"
+
+- id: adapted_from_label
+  translation: "Мунудан ылайыкташтырылган"
+
+- id: conforms_to_label
+  translation: "Мунуна туура келет"
+
+- id: conforming_guides_title
+  translation: "Бул басылышка туура келген колдонмолор"
+
+- id: conditions_section_title
+  translation: "Шарттар"
+
+- id: condition_falsifier_label
+  translation: "Мына качан аткарылбайт"
+
+- id: current_version_label
+  translation: "Азыркы басылыш"
+
+- id: older_version_label
+  translation: "Эскирээк басылыш"
+
+- id: version_notice_older
+  translation: "Бул ушул колдонмонун азыркы басылышы эмес."
+
+- id: view_latest_label
+  translation: "Азыркы басылышты көрүү"
+
+- id: read_time_label
+  translation: "мүн окуу"
+
+- id: badge_english_only
+  translation: "Англисче гана"
+
+- id: badge_english_only_title
+  translation: "Бул колдонмо бул тилге азырынча которулган эмес."
+
+- id: badge_not_in_production
+  translation: "Өндүрүштө жок"
+
+- id: badge_not_in_production_title
+  translation: "Бул колдонмо өндүрүш курулушунан тышкары калтырылган."
+
+- id: badge_not_in_preview
+  translation: "Алдын ала көрүүдө жок"
+
+- id: badge_not_in_preview_title
+  translation: "Бул колдонмо алдын ала көрүү курулушунан тышкары калтырылган."
+
+- id: licence_label
+  translation: "Лицензия"
+
+- id: canonical_source_label
+  translation: "Ишенимдүү булак"
+
+- id: pending_licence_check
+  translation: "Негизги текст лицензия текшерүүсүн күтүп турат"
+
+- id: guide_join_discussion
+  translation: "Ушул колдонмону талкуулаңыз"
+
+- id: guide_version_current
+  translation: "Азыркы"
+
+- id: guide_version_latest
+  translation: "Эң жаңы"
+
+- id: guide_version_select
+  translation: "Басылышты тандаңыз"
+
+- id: guide_version_dropdown_label
+  translation: "Басылыш"
+
+- id: guide_historical_version_notice_title
+  translation: "Бул азыркы басылыш эмес."
+
+- id: guide_historical_version_notice_text
+  translation: "Ушул колдонмонун эскирээк басылышын окуп турасыз."
+
+- id: guide_historical_version_notice_link
+  translation: "Азыркы басылышты окуңуз"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Алдын ала көрүү сайтында көрүңүз"
+
+- id: guide_translation_preview_note
+  translation: "Котормону алдын ала көрүү."
+
+- id: guide_translation_preview_message
+  translation: "Бул котормо дагы эле каралып жатат жана толук эмес болушу мүмкүн."
+
+- id: contributors_label
+  translation: "Салым кошкондор"
+
+- id: translators_label
+  translation: "Котормочулар"
+
+- id: reportTranslationError
+  translation: "Котормо жаңылышын билдириңиз"
+
+- id: nav_details
+  translation: "Ушул колдонмо жөнүндө"
+
+- id: nav_translations
+  translation: "Котормолор"
+
+- id: download_table_written_by
+  translation: "Жазгандар"
+
+- id: download_table_contributed_by
+  translation: "Салым кошкондор"
+
+- id: download_table_status
+  translation: "Абалы"
+
+- id: download_discussion_action
+  translation: "Талкуу"
+
+- id: download_preview_action
+  translation: "Алдын ала көрүү"
+
+- id: download_preview_status
+  translation: "Алдын ала көрүүдө"
+
+- id: download_preview_description
+  translation: "Бул котормо азырынча чыккан эмес жана алдын ала көрүү сайтында окууга болот."
+
+- id: download_preview_translations
+  translation: "Алдын ала көрүүдөгү котормолор"
+
+- id: download_visit_preview
+  translation: "Алдын ала көрүү сайтын ачуу"
+
+- id: download_pdf_only_status
+  translation: "PDF гана"
+
+- id: download_stub_status
+  translation: "Башталган эмес"
+
+- id: site_wordmark
+  translation: "Scrum колдонмолору"
+
+- id: nav_the_guide
+  translation: "Колдонмо"
+
+- id: nav_versions
+  translation: "Басылыштар"
+
+- id: nav_implementations
+  translation: "Киргизүүлөр"
+
+- id: guide_pdf_not_available
+  translation: "PDF жок"
+
+- id: share_label
+  translation: "Бөлүшүү"
+
+- id: share_copy_link
+  translation: "Шилтемени көчүрүү"
+
+- id: share_copied
+  translation: "Алмашуу буферине көчүрүлдү!"
+
+- id: share_close
+  translation: "Жабуу"
+
+- id: role_creator
+  translation: "Жаратуучу"
+
+- id: role_contributor
+  translation: "Салым кошкон"
+
+- id: role_reviewer
+  translation: "Карап чыккан"
+
+- id: role_translator
+  translation: "Котормочу"
+
+- id: role_involved
+  translation: "Катышкан"
+
+- id: nav_getting_started
+  translation: "Алгачкы кадамдар"
+
+- id: nav_the_scrum_guide
+  translation: "Scrum колдонмосу"
+
+- id: home_action_getting_started
+  translation: "Scrum Team'дер үчүн алгачкы кадамдарды тармакта окуңуз"
+
+- id: home_action_scrum_guide
+  translation: "Расмий Scrum колдонмосун тармакта окуңуз"
+
+- id: home_action_translations
+  translation: "Расмий Scrum колдонмосун 30дан ашык тилде жүктөп алыңыз"
+
+- id: home_action_read_online
+  translation: "Тармакта окуу"
+
+- id: home_action_select_language
+  translation: "Тил тандап жүктөп алуу"
+
+- id: and
+  translation: "жана"
+
+- id: breadcrumb_home
+  translation: "Башкы бет"
+
+- id: read_online_title
+  translation: "Тармакта окуу"
+
+- id: read_online_description
+  translation: "Бүт колдонмого санариптик түрдө, өз ара аракеттешүү мүмкүнчүлүктөрү жана жеңил жүрүү менен жетиңиз."
+
+- id: read_online_button
+  translation: "Тармакта окуу"
+
+- id: translations_title
+  translation: "Котормолор"
+
+- id: translations_description
+  translation: "Ушул колдонмону бир нече тилде окуңуз жана котормолорго жардам бериңиз."
+
+- id: translations_button
+  translation: "Котормолорду көрүү"
+
+- id: history_title
+  translation: "Тарых"
+
+- id: history_description
+  translation: "Ушул колдонмонун өнүгүшүн жана тарыхын көзөмөлдөңүз."
+
+- id: history_button
+  translation: "Тарыхты көрүү"
+
+- id: what_is_guides_title
+  translation: "{{ .Site.Title }} эмне?"
+
+- id: open_source_title
+  translation: "Ачык булак, жамаат жүргүзөт"
+
+- id: open_source_description
+  translation: "Бул жамааттын кошо иштешинен жашаган ачык булактуу долбоор. Жакшыртууларды сунуштагыңыз, көйгөйлөрдү билдиргиңиз же мазмун менен салым кошкуңуз келсе, кош келиңиз. Айрым колдонмолор салым кабыл албайт, бирок ушул жерде шилтеме катары турат. Кошо биз ушул булактарды бүт дүйнөдөгү колдонуучулар үчүн жана иш агымынын натыйжалуулугун жана баалуулук жеткирүүнү жакшыртууну каалаган ар ким үчүн баалуураак кыла алабыз."
+
+- id: at_a_glance_title
+  translation: "Кыскача"
+
+- id: join_discussion_button
+  translation: "Талкууга кошулуңуз"
+
+- id: join_discussion_title
+  translation: "{{ .Site.Title }} жөнүндө талкууга кошулуңуз"
+
+- id: join_discussion_description
+  translation: "Жамаат менен таанышыңыз, көргөнүңүздү бөлүшүңүз жана {{ .Site.Title }} келечегин калыптандырууга жардам бериңиз. Ушул колдонмолордун колдонуучулар үчүн толук дене болушу үчүн силердин салымыңар алмаштырылгыс."
+
+- id: guides_intro_text
+  translation: "Иштеген тажрыйбаларды жана аларды кайсы процессте болсо да иш агымын жана баалуулук жеткирүүнү эң ыңгайлуу кылууга кантип колдонууну үйрөнүңүз. Ушул жерде билимдин жана жакшы тажрыйбалардын бүт денеси. {{ .Site.Title }} — тажрыйбалык колдонмолордун үйү: билим ишинде далилденген ыкмаларды колдонуу үчүн эркин, жамаат жүргүзгөн шилтеме. Колдонмолор агымды жакшыртуу, баалуулук жеткирүүнү эң ыңгайлуу кылуу жана топтун туруктуулугун бекемдөө үчүн керектүү негизги тажрыйбалар менен ченөөлөрдү чектейт. Алар ар кыл тармакта чоңойтулуучу кабыл алууну колдойт жана иш агымынын башка заманбап ыкмаларын толуктайт."
+
+- id: guide_content_not_found
+  translation: "Колдонмонун мазмуну табылган жок"
+
+- id: nav_read_guide
+  translation: "Колдонмону окуңуз"
+
+- id: nav_history
+  translation: "Тарых"
+
+- id: nav_overview
+  translation: "Жалпы көз караш"
+
+- id: guide_pdf_download_button
+  translation: "PDF жүктөп алуу"
+
+- id: guide_pdf_intro_text
+  translation: "Ушул колдонмону PDF түрүндө да жүктөп алып, тармаксыз окуй аласыз."
+
+- id: guide_pdf_intro_link
+  translation: "PDF жүктөп алыңыз"
+
+- id: download_page_title
+  translation: "Расмий {{ .Title }} окуп, жүктөп алыңыз"
+
+- id: download_page_description
+  translation: "{{ .Title }} ушул жерде мына булар менен аныкталат"
+
+- id: download_page_originators
+  translation: " — {{ .Title }} жаратуучулары."
+
+- id: download_translations_provided
+  translation: "Котормолорду төмөндө аталган кайрымдуу адамдар менен топтор берди. Жүктөп алгыңыз келген тилди тандаңыз."
+
+- id: download_translation_error
+  translation: "{{ .Title }} ичинен котормо жаңылышы деп эсептеген бир нерсе тапсаңыз, түздөн-түз ошол котормочуга барыңыз. Кошумча жардам керек болсо, бизге мына аркылуу кайрылыңыз"
+
+- id: download_official_version
+  translation: "Расмий басылыш"
+
+- id: download_community_translations
+  translation: "Жамааттан котормолор"
+
+- id: download_current_version_released
+  translation: "{{ .Site.Title }} азыркы расмий басылышы чыккан күн"
+
+- id: download_older_translations_notice
+  translation: "{{ .Site.Title }} эскирээк котормолорунда эң жаңы маалымат болбошу мүмкүн."
+
+- id: download_table_language
+  translation: "Тил"
+
+- id: download_table_translations_by
+  translation: "Котормочулар"
+
+- id: download_table_action
+  translation: "Иш"
+
+- id: download_official_current_version
+  translation: "Расмий азыркы басылыш"
+
+- id: download_button_text
+  translation: "Жүктөп алуу"
+
+- id: download_coming_soon
+  translation: "Жакында"
+
+- id: download_missing_language
+  translation: "Тилиңиз жок беле?"
+
+- id: download_contribute_translation
+  translation: "Жаңы котормо менен салым кошуп, жамаатка жардам бериңиз."
+
+- id: download_add_translation
+  translation: "Котормо кошуу"
+
+- id: download_community_contributors
+  translation: "Жамааттан салым кошкондор"
+
+- id: contributors_description
+  translation: "Төмөндөгү салым кошкондор бардык колдонмолордон жана бардык басылыштардан жыйналган."
+
+- id: read_online_action
+  translation: "Тармакта окуу"
+
+- id: guide_table_of_contents
+  translation: "Мазмуну"
+
+- id: guide_coming_soon
+  translation: "Бул колдонмо жолдо. Аны көзөмөлдөңүз."
+
+- id: guide_no_content_available
+  translation: "Бул тилде азырынча мазмун жок."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) жок"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) жок"
+
+- id: guide_coming_label
+  translation: "Келет:"
+
+- id: guide_updated_label
+  translation: "Жаңыртылды:"
+
+- id: guide_version_label
+  translation: "Басылыш:"
+
+- id: guide_content_unavailable_note
+  translation: "Эскертүү:"
+
+- id: guide_content_unavailable_message
+  translation: "Ушул беттин мазмуну {{ .Language }} тилинде азырынча жок. Төмөндө колдонмонун демейки мазмуну көрсөтүлөт."
+
+- id: guide_content_unavailable_title
+  translation: "Мазмун жеткиликсиз:"
+
+- id: guide_content_unavailable_description
+  translation: "Ушул беттин мазмуну жүктөлгөн жок, жана көрсөтүүгө демейки мазмун жок. Билдириңиз, өтүнөмүз,"
+
+- id: guide_report_issue_link
+  translation: "Ушул көйгөйдү билдириңиз"
+
+- id: guide_report_issue_message
+  translation: "түзөтө алышыбыз үчүн."
+
+- id: guide_back_to_home
+  translation: "← Башкы бетке кайтуу"
+
+- id: not_sure_which_to_use_title
+  translation: "Кайсынысын колдоноруңузга ишенбей турасызбы?"
+
+- id: get_started_title
+  translation: "Баштаңыз"
+
+- id: community_driven_label
+  translation: "Жамаат жүргүзөт"
+
+- id: coming_soon
+  translation: "Жакында"
+
+- id: purpose_title
+  translation: "Багыты"
+
+- id: ethos_title
+  translation: "Чыгуу чекити"
+
+- id: audience_title
+  translation: "Кимге"
+
+- id: use_case_title
+  translation: "Качан колдонулат"
+
+- id: content_title
+  translation: "Мазмун"
+
+- id: update_model_title
+  translation: "Кантип жаңыртылат"
+
+- id: guide_overview_title
+  translation: "Колдонмого жалпы көз караш"
+
+- id: guide_overview_description
+  translation: "Ушул колдонмонун негизги белгилери"
+
+- id: when_to_use_title
+  translation: "Ушул колдонмону качан колдонуу керек"
+
+- id: when_to_use_description
+  translation: "Шартыңызга туура келген жолду тандаңыз"
+
+- id: quick_decision_guide_title
+  translation: "Тез тандоо"
+
+- id: getting_started_title
+  translation: "Алгачкы кадамдар"
+
+- id: for_practitioners_title
+  translation: "Колдонуучуларга"
+
+- id: current_information_title
+  translation: "Азыркы маалымат"
+
+- id: current_information_description
+  translation: "Басылыштын чоо-жайы жана жамааттан салым кошкондор"
+
+- id: current_version_title
+  translation: "Азыркы басылыш"
+
+- id: current_version_updated_label
+  translation: "Жаңыртылды"
+
+- id: current_version_description
+  translation: "Бул колдонмонун азыр күчүндө турган басылышы."
+
+- id: read_current_version_button
+  translation: "Азыркы басылышты окуңуз"
+
+- id: version_info_not_available
+  translation: "Басылыштын маалыматы жок"
+
+- id: contributors_title
+  translation: "Салым кошкондор"
+
+- id: contributors_description_card
+  translation: "Ушул колдонмону калыптандырган жамаат мүчөлөрү"
+
+- id: contributors_thank_you
+  translation: "Ушул колдонмону жакшыртканлардын баарына ыраазычылык."
+
+- id: join_community_button
+  translation: "Жамаатка кошулуңуз"
+
+- id: no_contributors_found
+  translation: "Салым кошкондор табылган жок"
+
+- id: version_history_title
+  translation: "Басылыштардын тарыхы"
+
+- id: version_history_description
+  translation: "Мурунку басылыштар жана алардын өнүгүшү"
+
+- id: no_previous_versions_title
+  translation: "Мурунку басылыштар жок"
+
+- id: no_previous_versions_description
+  translation: "Бул колдонмо жаңы эле башталды. Мурунку басылыштар үчүн кийинчерээк келиңиз."
+
+- id: what_is_guide_title
+  translation: "Бул колдонмо эмне?"
+
+- id: license_title
+  translation: "Лицензия"
+
+- id: view_on_github_button
+  translation: "GitHub'да көрүү"
+
+- id: current_open_guide_label
+  translation: "Азыркы Open Guide"
+
+- id: active_status_label
+  translation: "Күчүндө"
+
+- id: current_fork_label
+  translation: "Азыркы fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Мунудан fork жасалган:"
+
+- id: forked_from_indicator
+  translation: "Мунудан fork жасалган:"
+
+- id: this_is_fork_label
+  translation: "Бул fork"
+
+- id: available_languages_label
+  translation: "Бар тилдер"
+
+- id: pdf_downloads_label
+  translation: "PDF жүктөөлөрү"
+
+- id: living_document_updated_label
+  translation: "Тирүү документ жаңыртылды"
+
+- id: active_fork_updated_label
+  translation: "Жигердүү fork жаңыртылды"
+
+- id: historical_fork_label
+  translation: "Мунудан тарыхый fork:"
+
+- id: historical_version_label
+  translation: "Тарыхый басылыш"
+
+- id: read_guide_button
+  translation: "Колдонмону окуңуз"
+
+- id: translations_button_small
+  translation: "Котормолор"
+
+- id: read_fork_button
+  translation: "Fork'ту окуңуз"
+
+- id: view_archive_button
+  translation: "Архивди көрүү"
+
+- id: download_reference_status
+  translation: "Шилтеме"
