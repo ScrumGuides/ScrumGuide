@@ -262,6 +262,12 @@ languages:
     title: Scrum ceļvedis
     params:
       description: Katrs izdotais Scrum ceļveža laidiens vienā vietā, kopā ar ieviešanas ceļvežiem, kas uz tā balstās.
+  mk:
+    label: Македонски
+    weight: 30
+    title: Водичот за Scrum
+    params:
+      description: Секое објавено издание на Водичот за Scrum на едно место, заедно со водичите за примена што се потпираат на него.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
