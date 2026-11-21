@@ -1,0 +1,607 @@
+# Interface strings, Georgian.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "დოკუმენტები"
+
+- id: guides_section_title
+  translation: "სახელმძღვანელოები"
+
+- id: implementations_section_title
+  translation: "დანერგვის სახელმძღვანელოები"
+
+- id: implementations_section_description
+  translation: "Scrum-ის გარკვეულ კონტექსტში გამოყენების გზები. თითოეული მათგანი რჩება Scrum-ის ზრახვის შიგნით და ამატებს მითითებებს რაიმე მდგომარეობისთვის - რამდენიმე გუნდი ერთ პროდუქტზე, ნაკადის მართვა, დაწყება - იმის შეუცვლელად, რასაც Scrum მოითხოვს."
+
+- id: extensions_section_title
+  translation: "გაფართოებები"
+
+- id: extensions_section_description
+  translation: "პრაქტიკები, რომლებიც სწვდებიან იმის მიღმა, რითაც Scrum არის დაკავებული. გაფართოება თავს Scrum-ად არ აცხადებს და არ ცვლის მას; ის იკიდებს საკითხს, რომელსაც Scrum ღიად ტოვებს, როგორიცაა პროდუქტის მიტანილი ღირებულების გაზომვა."
+
+- id: extensions_section_empty
+  translation: "ჯერ არც ერთი."
+
+- id: foundation_section_title
+  translation: "სახელმძღვანელო"
+
+- id: history_page_title
+  translation: "ისტორია"
+
+- id: translations_page_title
+  translation: "თარგმანები"
+
+- id: changes_section_title
+  translation: "რა შეიცვალა"
+
+- id: changes_from_label
+  translation: "ცვლილებები შედარებით"
+
+- id: lineage_section_title
+  translation: "ხაზი"
+
+- id: adapted_from_label
+  translation: "მორგებულია"
+
+- id: conforms_to_label
+  translation: "შეესაბამება"
+
+- id: conforming_guides_title
+  translation: "სახელმძღვანელოები, რომლებიც ამ ვერსიას შეესაბამება"
+
+- id: conditions_section_title
+  translation: "პირობები"
+
+- id: condition_falsifier_label
+  translation: "არ სრულდება, როცა"
+
+- id: current_version_label
+  translation: "ამჟამინდელი ვერსია"
+
+- id: older_version_label
+  translation: "უფრო ძველი ვერსია"
+
+- id: version_notice_older
+  translation: "ეს არ არის ამ სახელმძღვანელოს ამჟამინდელი ვერსია."
+
+- id: view_latest_label
+  translation: "იხილეთ ამჟამინდელი ვერსია"
+
+- id: read_time_label
+  translation: "წთ კითხვა"
+
+- id: badge_english_only
+  translation: "მხოლოდ ინგლისურად"
+
+- id: badge_english_only_title
+  translation: "ეს სახელმძღვანელო ამ ენაზე ჯერ არ არის ნათარგმნი."
+
+- id: badge_not_in_production
+  translation: "არ არის წარმოებაში"
+
+- id: badge_not_in_production_title
+  translation: "ეს სახელმძღვანელო დატოვებულია წარმოების აწყობის გარეთ."
+
+- id: badge_not_in_preview
+  translation: "არ არის წინასწარ ჩვენებაში"
+
+- id: badge_not_in_preview_title
+  translation: "ეს სახელმძღვანელო დატოვებულია წინასწარი ჩვენების აწყობის გარეთ."
+
+- id: licence_label
+  translation: "ლიცენზია"
+
+- id: canonical_source_label
+  translation: "სანდო წყარო"
+
+- id: pending_licence_check
+  translation: "მთავარი ტექსტი ელოდება ლიცენზიის შემოწმებას"
+
+- id: guide_join_discussion
+  translation: "განიხილეთ ეს სახელმძღვანელო"
+
+- id: guide_version_current
+  translation: "ამჟამინდელი"
+
+- id: guide_version_latest
+  translation: "უახლესი"
+
+- id: guide_version_select
+  translation: "აირჩიეთ ვერსია"
+
+- id: guide_version_dropdown_label
+  translation: "ვერსია"
+
+- id: guide_historical_version_notice_title
+  translation: "ეს არ არის ამჟამინდელი ვერსია."
+
+- id: guide_historical_version_notice_text
+  translation: "კითხულობთ ამ სახელმძღვანელოს უფრო ძველ ვერსიას."
+
+- id: guide_historical_version_notice_link
+  translation: "წაიკითხეთ ამჟამინდელი ვერსია"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "იხილეთ წინასწარი ჩვენების საიტზე"
+
+- id: guide_translation_preview_note
+  translation: "თარგმანის წინასწარი ჩვენება."
+
+- id: guide_translation_preview_message
+  translation: "ეს თარგმანი ჯერ კიდევ გადაიხედება და შეიძლება არასრული იყოს."
+
+- id: contributors_label
+  translation: "წვლილის შემტანები"
+
+- id: translators_label
+  translation: "მთარგმნელები"
+
+- id: reportTranslationError
+  translation: "შეატყობინეთ თარგმანის შეცდომის შესახებ"
+
+- id: nav_details
+  translation: "ამ სახელმძღვანელოს შესახებ"
+
+- id: nav_translations
+  translation: "თარგმანები"
+
+- id: download_table_written_by
+  translation: "დაწერეს"
+
+- id: download_table_contributed_by
+  translation: "წვლილი შეიტანეს"
+
+- id: download_table_status
+  translation: "მდგომარეობა"
+
+- id: download_discussion_action
+  translation: "განხილვა"
+
+- id: download_preview_action
+  translation: "წინასწარი ჩვენება"
+
+- id: download_preview_status
+  translation: "წინასწარ ჩვენებაში"
+
+- id: download_preview_description
+  translation: "ეს თარგმანი ჯერ არ არის გამოცემული და შეიძლება წაიკითხოთ წინასწარი ჩვენების საიტზე."
+
+- id: download_preview_translations
+  translation: "თარგმანები წინასწარ ჩვენებაში"
+
+- id: download_visit_preview
+  translation: "გახსენით წინასწარი ჩვენების საიტი"
+
+- id: download_pdf_only_status
+  translation: "მხოლოდ PDF"
+
+- id: download_stub_status
+  translation: "არ დაწყებულა"
+
+- id: site_wordmark
+  translation: "Scrum-ის სახელმძღვანელოები"
+
+- id: nav_the_guide
+  translation: "სახელმძღვანელო"
+
+- id: nav_versions
+  translation: "ვერსიები"
+
+- id: nav_implementations
+  translation: "დანერგვები"
+
+- id: guide_pdf_not_available
+  translation: "PDF მიუწვდომელია"
+
+- id: share_label
+  translation: "გაზიარება"
+
+- id: share_copy_link
+  translation: "ბმულის კოპირება"
+
+- id: share_copied
+  translation: "დაკოპირდა გაცვლის ბუფერში!"
+
+- id: share_close
+  translation: "დახურვა"
+
+- id: role_creator
+  translation: "შემქმნელი"
+
+- id: role_contributor
+  translation: "წვლილის შემტანი"
+
+- id: role_reviewer
+  translation: "გადამხედველი"
+
+- id: role_translator
+  translation: "მთარგმნელი"
+
+- id: role_involved
+  translation: "ჩართული"
+
+- id: nav_getting_started
+  translation: "პირველი ნაბიჯები"
+
+- id: nav_the_scrum_guide
+  translation: "Scrum-ის სახელმძღვანელო"
+
+- id: home_action_getting_started
+  translation: "წაიკითხეთ პირველი ნაბიჯები Scrum Team-ებისთვის ონლაინ"
+
+- id: home_action_scrum_guide
+  translation: "წაიკითხეთ Scrum-ის ოფიციალური სახელმძღვანელო ონლაინ"
+
+- id: home_action_translations
+  translation: "ჩამოტვირთეთ Scrum-ის ოფიციალური სახელმძღვანელო 30-ზე მეტ ენაზე"
+
+- id: home_action_read_online
+  translation: "წაკითხვა ონლაინ"
+
+- id: home_action_select_language
+  translation: "აირჩიეთ ენა და ჩამოტვირთეთ"
+
+- id: and
+  translation: "და"
+
+- id: breadcrumb_home
+  translation: "მთავარი"
+
+- id: read_online_title
+  translation: "წაკითხვა ონლაინ"
+
+- id: read_online_description
+  translation: "მიწვდით მთელ სახელმძღვანელოს ციფრულად, ურთიერთქმედი შესაძლებლობებითა და მარტივი მოძრაობით."
+
+- id: read_online_button
+  translation: "წაკითხვა ონლაინ"
+
+- id: translations_title
+  translation: "თარგმანები"
+
+- id: translations_description
+  translation: "წაიკითხეთ ეს სახელმძღვანელო რამდენიმე ენაზე და დაეხმარეთ თარგმანებს."
+
+- id: translations_button
+  translation: "იხილეთ თარგმანები"
+
+- id: history_title
+  translation: "ისტორია"
+
+- id: history_description
+  translation: "თვალი ადევნეთ ამ სახელმძღვანელოს განვითარებასა და ისტორიას."
+
+- id: history_button
+  translation: "იხილეთ ისტორია"
+
+- id: what_is_guides_title
+  translation: "რა არის {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "ღია წყარო, თემი ატარებს"
+
+- id: open_source_description
+  translation: "ეს ღია წყაროს პროექტია, რომელიც თემის თანამშრომლობით ცხოვრობს. თუ გსურთ გაუმჯობესებების შემოთავაზება, ხარვეზების შეტყობინება ან შინაარსით წვლილის შეტანა, მოგესალმებით. ზოგი სახელმძღვანელო წვლილს არ იღებს, მაგრამ აქ დგას მიმართვად. ერთად შეგვიძლია ეს წყაროები უფრო ღირებული გავხადოთ მათთვის, ვინც იყენებს მთელ მსოფლიოში, და ყველასთვის, ვისაც სურს სამუშაო ნაკადის ქმედითობისა და ღირებულების მიტანის გაუმჯობესება."
+
+- id: at_a_glance_title
+  translation: "მოკლედ"
+
+- id: join_discussion_button
+  translation: "შემოუერთდით განხილვას"
+
+- id: join_discussion_title
+  translation: "შემოუერთდით განხილვას {{ .Site.Title }}-ის შესახებ"
+
+- id: join_discussion_description
+  translation: "შეხვდით თემს, გაგვიზიარეთ, რასაც ხედავთ, და დაეხმარეთ {{ .Site.Title }}-ის მომავლის ჩამოყალიბებაში. თქვენი წვლილი შეუცვლელია, რათა ეს სახელმძღვანელოები გახდეს სრული სხეული მათთვის, ვინც იყენებს."
+
+- id: guides_intro_text
+  translation: "შეისწავლეთ პრაქტიკები, რომლებიც მუშაობს, და როგორ გამოიყენოთ ისინი სამუშაო ნაკადისა და ღირებულების მიტანის ოპტიმიზაციისთვის ყოველ პროცესში. აქაა ცოდნისა და კარგი პრაქტიკების მთელი სხეული. {{ .Site.Title }} პრაქტიკული სახელმძღვანელოების სახლია: თავისუფალი, თემის მიერ ტარებული მიმართვა დადასტურებული მეთოდების ცოდნის სამუშაოში გამოყენებისთვის. სახელმძღვანელოები შემოფარგლავენ იმ ძირითად პრაქტიკებსა და საზომებს, რომლებიც საჭიროა ნაკადის გასაუმჯობესებლად, ღირებულების მიტანის ოპტიმიზაციისთვის და გუნდის მდგრადობის გასამყარებლად. ისინი უჭერენ მხარს მასშტაბირებად მიღებას სხვადასხვა დარგში და ავსებენ სამუშაო ნაკადის სხვა თანამედროვე მეთოდებს."
+
+- id: guide_content_not_found
+  translation: "სახელმძღვანელოს შინაარსი ვერ მოიძებნა"
+
+- id: nav_read_guide
+  translation: "წაიკითხეთ სახელმძღვანელო"
+
+- id: nav_history
+  translation: "ისტორია"
+
+- id: nav_overview
+  translation: "მიმოხილვა"
+
+- id: guide_pdf_download_button
+  translation: "ჩამოტვირთეთ PDF"
+
+- id: guide_pdf_intro_text
+  translation: "ამ სახელმძღვანელოს ასევე შეგიძლიათ ჩამოტვირთოთ PDF-ად და წაიკითხოთ ქსელის გარეშე."
+
+- id: guide_pdf_intro_link
+  translation: "ჩამოტვირთეთ PDF"
+
+- id: download_page_title
+  translation: "წაიკითხეთ და ჩამოტვირთეთ ოფიციალური {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }}-ს აქ განსაზღვრავენ"
+
+- id: download_page_originators
+  translation: ", {{ .Title }}-ის შემქმნელები."
+
+- id: download_translations_provided
+  translation: "თარგმანები ხელმისაწვდომი გახადეს ქვემოთ ჩამოთვლილმა გულისხმიერმა ადამიანებმა და ჯგუფებმა. აირჩიეთ ენა, რომლის ჩამოტვირთვაც გსურთ."
+
+- id: download_translation_error
+  translation: "თუ {{ .Title }}-ში აღმოაჩენთ რაიმეს, რასაც თარგმანის შეცდომად მიიჩნევთ, მიმართეთ პირდაპირ იმ მთარგმნელს. თუ მეტი დახმარება გჭირდებათ, დაგვიკავშირდით"
+
+- id: download_official_version
+  translation: "ოფიციალური ვერსია"
+
+- id: download_community_translations
+  translation: "თარგმანები თემიდან"
+
+- id: download_current_version_released
+  translation: "{{ .Site.Title }}-ის ამჟამინდელი ოფიციალური ვერსია გამოვიდა"
+
+- id: download_older_translations_notice
+  translation: "{{ .Site.Title }}-ის უფრო ძველ თარგმანებს შეიძლება არ ჰქონდეს უახლესი ინფორმაცია."
+
+- id: download_table_language
+  translation: "ენა"
+
+- id: download_table_translations_by
+  translation: "თარგმნეს"
+
+- id: download_table_action
+  translation: "მოქმედება"
+
+- id: download_official_current_version
+  translation: "ოფიციალური ამჟამინდელი ვერსია"
+
+- id: download_button_text
+  translation: "ჩამოტვირთვა"
+
+- id: download_coming_soon
+  translation: "მალე"
+
+- id: download_missing_language
+  translation: "თქვენი ენა არ არის?"
+
+- id: download_contribute_translation
+  translation: "შეიტანეთ ახალი თარგმანი და დაეხმარეთ თემს."
+
+- id: download_add_translation
+  translation: "დაამატეთ თარგმანი"
+
+- id: download_community_contributors
+  translation: "წვლილის შემტანები თემიდან"
+
+- id: contributors_description
+  translation: "ქვემოთ მოცემული წვლილის შემტანები თავმოყრილია ყველა სახელმძღვანელოდან და ყველა ვერსიიდან."
+
+- id: read_online_action
+  translation: "წაკითხვა ონლაინ"
+
+- id: guide_table_of_contents
+  translation: "შინაარსი"
+
+- id: guide_coming_soon
+  translation: "ეს სახელმძღვანელო გზაშია. თვალი ადევნეთ."
+
+- id: guide_no_content_available
+  translation: "ამ ენაზე ჯერ შინაარსი არ არის."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) მიუწვდომელია"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) მიუწვდომელია"
+
+- id: guide_coming_label
+  translation: "მოდის:"
+
+- id: guide_updated_label
+  translation: "განახლდა:"
+
+- id: guide_version_label
+  translation: "ვერსია:"
+
+- id: guide_content_unavailable_note
+  translation: "შენიშვნა:"
+
+- id: guide_content_unavailable_message
+  translation: "ამ გვერდის შინაარსი ჯერ არ არის {{ .Language }} ენაზე. ქვემოთ ნაჩვენებია სახელმძღვანელოს ნაგულისხმევი შინაარსი."
+
+- id: guide_content_unavailable_title
+  translation: "შინაარსი მიუწვდომელია:"
+
+- id: guide_content_unavailable_description
+  translation: "ამ გვერდის შინაარსი ვერ ჩაიტვირთა, და საჩვენებლად ნაგულისხმევი შინაარსი არ არის. გთხოვთ, შეატყობინოთ"
+
+- id: guide_report_issue_link
+  translation: "შეატყობინეთ ამ ხარვეზის შესახებ"
+
+- id: guide_report_issue_message
+  translation: "რომ გავასწოროთ."
+
+- id: guide_back_to_home
+  translation: "← უკან მთავარზე"
+
+- id: not_sure_which_to_use_title
+  translation: "არ ხართ დარწმუნებული, რომელი გამოიყენოთ?"
+
+- id: get_started_title
+  translation: "დაიწყეთ"
+
+- id: community_driven_label
+  translation: "თემი ატარებს"
+
+- id: coming_soon
+  translation: "მალე"
+
+- id: purpose_title
+  translation: "დანიშნულება"
+
+- id: ethos_title
+  translation: "ამოსავალი"
+
+- id: audience_title
+  translation: "ვისთვის"
+
+- id: use_case_title
+  translation: "როდის გამოიყენება"
+
+- id: content_title
+  translation: "შინაარსი"
+
+- id: update_model_title
+  translation: "როგორ ახლდება"
+
+- id: guide_overview_title
+  translation: "სახელმძღვანელოს მიმოხილვა"
+
+- id: guide_overview_description
+  translation: "ამ სახელმძღვანელოს მთავარი ნიშნები"
+
+- id: when_to_use_title
+  translation: "როდის გამოიყენოთ ეს სახელმძღვანელო"
+
+- id: when_to_use_description
+  translation: "აირჩიეთ მიდგომა, რომელიც თქვენს კონტექსტს შეესაბამება"
+
+- id: quick_decision_guide_title
+  translation: "სწრაფი არჩევანი"
+
+- id: getting_started_title
+  translation: "პირველი ნაბიჯები"
+
+- id: for_practitioners_title
+  translation: "მათთვის, ვინც იყენებს"
+
+- id: current_information_title
+  translation: "ამჟამინდელი ინფორმაცია"
+
+- id: current_information_description
+  translation: "ვერსიის დეტალები და წვლილის შემტანები თემიდან"
+
+- id: current_version_title
+  translation: "ამჟამინდელი ვერსია"
+
+- id: current_version_updated_label
+  translation: "განახლდა"
+
+- id: current_version_description
+  translation: "ეს არის სახელმძღვანელოს ის ვერსია, რომელიც ახლა ძალაშია."
+
+- id: read_current_version_button
+  translation: "წაიკითხეთ ამჟამინდელი ვერსია"
+
+- id: version_info_not_available
+  translation: "ვერსიის ინფორმაცია მიუწვდომელია"
+
+- id: contributors_title
+  translation: "წვლილის შემტანები"
+
+- id: contributors_description_card
+  translation: "თემის წევრები, რომლებმაც ეს სახელმძღვანელო ჩამოაყალიბეს"
+
+- id: contributors_thank_you
+  translation: "მადლობა ყველას, ვინც ეს სახელმძღვანელო უკეთესი გახადა."
+
+- id: join_community_button
+  translation: "შემოუერთდით თემს"
+
+- id: no_contributors_found
+  translation: "წვლილის შემტანები ვერ მოიძებნა"
+
+- id: version_history_title
+  translation: "ვერსიების ისტორია"
+
+- id: version_history_description
+  translation: "წინა ვერსიები და მათი განვითარება"
+
+- id: no_previous_versions_title
+  translation: "წინა ვერსიები არ არის"
+
+- id: no_previous_versions_description
+  translation: "ეს სახელმძღვანელო ახლახან დაიწყო. დაბრუნდით მოგვიანებით წინა ვერსიებისთვის."
+
+- id: what_is_guide_title
+  translation: "რა არის ეს სახელმძღვანელო?"
+
+- id: license_title
+  translation: "ლიცენზია"
+
+- id: view_on_github_button
+  translation: "იხილეთ GitHub-ზე"
+
+- id: current_open_guide_label
+  translation: "ამჟამინდელი Open Guide"
+
+- id: active_status_label
+  translation: "ძალაშია"
+
+- id: current_fork_label
+  translation: "ამჟამინდელი fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Fork გაკეთდა:"
+
+- id: forked_from_indicator
+  translation: "Fork გაკეთდა:"
+
+- id: this_is_fork_label
+  translation: "ეს fork-ია"
+
+- id: available_languages_label
+  translation: "ხელმისაწვდომი ენები"
+
+- id: pdf_downloads_label
+  translation: "PDF ჩამოტვირთვები"
+
+- id: living_document_updated_label
+  translation: "ცოცხალი დოკუმენტი განახლდა"
+
+- id: active_fork_updated_label
+  translation: "აქტიური fork განახლდა"
+
+- id: historical_fork_label
+  translation: "ისტორიული fork:"
+
+- id: historical_version_label
+  translation: "ისტორიული ვერსია"
+
+- id: read_guide_button
+  translation: "წაიკითხეთ სახელმძღვანელო"
+
+- id: translations_button_small
+  translation: "თარგმანები"
+
+- id: read_fork_button
+  translation: "წაიკითხეთ fork"
+
+- id: view_archive_button
+  translation: "იხილეთ არქივი"
+
+- id: download_reference_status
+  translation: "მიმართვა"

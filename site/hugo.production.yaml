@@ -88,3 +88,5 @@ languages:
     disabled: true
   id:
     disabled: true
+  ka:
+    disabled: true

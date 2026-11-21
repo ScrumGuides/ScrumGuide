@@ -232,6 +232,12 @@ languages:
     title: Panduan Scrum
     params:
       description: Setiap versi Panduan Scrum yang pernah diterbitkan di satu tempat, bersama panduan penerapan yang berpijak padanya.
+  ka:
+    label: ქართული
+    weight: 24
+    title: Scrum-ის სახელმძღვანელო
+    params:
+      description: Scrum-ის სახელმძღვანელოს ყველა გამოცემული ვერსია ერთ ადგილას, მასზე დაშენებულ დანერგვის სახელმძღვანელოებთან ერთად.
 
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
