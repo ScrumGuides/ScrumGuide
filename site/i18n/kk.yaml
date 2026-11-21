@@ -1,0 +1,607 @@
+# Interface strings, Kazakh.
+#
+# These are this site's own words, not the publishers'. The guide documents on
+# this site are the translators' published work, reproduced verbatim; the
+# interface around them is translated here and has not been reviewed by a
+# native speaker. Corrections to any string belong in this file.
+#
+# Scrum's own terms are left as that language's published Scrum Guide leaves
+# them. Where it does not translate Scrum Team, Product Owner, Scrum Master,
+# Sprint, Product Backlog, Sprint Backlog or Increment, neither does this.
+
+- id: documents
+  translation: "Құжаттар"
+
+- id: guides_section_title
+  translation: "Нұсқаулықтар"
+
+- id: implementations_section_title
+  translation: "Енгізу нұсқаулықтары"
+
+- id: implementations_section_description
+  translation: "Scrum-ды белгілі бір жағдайда қолдану жолдары. Олардың әрқайсысы Scrum-ның ниетінің ішінде қалады және қандай да бір жағдай үшін бағыт қосады — бір өнімде бірнеше топ, ағынды басқару, бастау — Scrum не талап ететінін өзгертпей."
+
+- id: extensions_section_title
+  translation: "Кеңейтімдер"
+
+- id: extensions_section_description
+  translation: "Scrum айналысатын шекараның сыртына жететін тәжірибелер. Кеңейтім өзін Scrum деп ұсынбайды және оны өзгертпейді; ол Scrum ашық қалдыратын сұрақты алады, өнімнің беретін құндылығын өлшеу сияқты."
+
+- id: extensions_section_empty
+  translation: "Әзірге бірі де жоқ."
+
+- id: foundation_section_title
+  translation: "Нұсқаулық"
+
+- id: history_page_title
+  translation: "Тарих"
+
+- id: translations_page_title
+  translation: "Аудармалар"
+
+- id: changes_section_title
+  translation: "Не өзгерді"
+
+- id: changes_from_label
+  translation: "Мынаған қарағанда өзгерістер"
+
+- id: lineage_section_title
+  translation: "Сызық"
+
+- id: adapted_from_label
+  translation: "Мынадан бейімделген"
+
+- id: conforms_to_label
+  translation: "Мынаған сай"
+
+- id: conforming_guides_title
+  translation: "Осы нұсқаға сай нұсқаулықтар"
+
+- id: conditions_section_title
+  translation: "Шарттар"
+
+- id: condition_falsifier_label
+  translation: "Мына кезде орындалмайды"
+
+- id: current_version_label
+  translation: "Қазіргі нұсқа"
+
+- id: older_version_label
+  translation: "Ескірек нұсқа"
+
+- id: version_notice_older
+  translation: "Бұл осы нұсқаулықтың қазіргі нұсқасы емес."
+
+- id: view_latest_label
+  translation: "Қазіргі нұсқаны көру"
+
+- id: read_time_label
+  translation: "мин оқу"
+
+- id: badge_english_only
+  translation: "Тек ағылшынша"
+
+- id: badge_english_only_title
+  translation: "Бұл нұсқаулық осы тілге әзірге аударылмаған."
+
+- id: badge_not_in_production
+  translation: "Өндірісте жоқ"
+
+- id: badge_not_in_production_title
+  translation: "Бұл нұсқаулық өндіріс құрастырымынан тыс қалдырылған."
+
+- id: badge_not_in_preview
+  translation: "Алдын ала көруде жоқ"
+
+- id: badge_not_in_preview_title
+  translation: "Бұл нұсқаулық алдын ала көру құрастырымынан тыс қалдырылған."
+
+- id: licence_label
+  translation: "Лицензия"
+
+- id: canonical_source_label
+  translation: "Сенімді дерекнама"
+
+- id: pending_licence_check
+  translation: "Негізгі мәтін лицензия тексерісін күтіп тұр"
+
+- id: guide_join_discussion
+  translation: "Осы нұсқаулықты талқылаңыз"
+
+- id: guide_version_current
+  translation: "Қазіргі"
+
+- id: guide_version_latest
+  translation: "Ең жаңа"
+
+- id: guide_version_select
+  translation: "Нұсқаны таңдаңыз"
+
+- id: guide_version_dropdown_label
+  translation: "Нұсқа"
+
+- id: guide_historical_version_notice_title
+  translation: "Бұл қазіргі нұсқа емес."
+
+- id: guide_historical_version_notice_text
+  translation: "Осы нұсқаулықтың ескірек нұсқасын оқып отырсыз."
+
+- id: guide_historical_version_notice_link
+  translation: "Қазіргі нұсқаны оқыңыз"
+
+- id: guide_historical_version_notice_suffix
+  translation: "."
+
+- id: guide_preview_link
+  translation: "Алдын ала көру сайтында көріңіз"
+
+- id: guide_translation_preview_note
+  translation: "Аударманы алдын ала көру."
+
+- id: guide_translation_preview_message
+  translation: "Бұл аударма әлі қаралып жатыр және толық болмауы мүмкін."
+
+- id: contributors_label
+  translation: "Үлес қосқандар"
+
+- id: translators_label
+  translation: "Аудармашылар"
+
+- id: reportTranslationError
+  translation: "Аударма қатесін хабарлаңыз"
+
+- id: nav_details
+  translation: "Осы нұсқаулық туралы"
+
+- id: nav_translations
+  translation: "Аудармалар"
+
+- id: download_table_written_by
+  translation: "Жазғандар"
+
+- id: download_table_contributed_by
+  translation: "Үлес қосқандар"
+
+- id: download_table_status
+  translation: "Күйі"
+
+- id: download_discussion_action
+  translation: "Талқылау"
+
+- id: download_preview_action
+  translation: "Алдын ала көру"
+
+- id: download_preview_status
+  translation: "Алдын ала көруде"
+
+- id: download_preview_description
+  translation: "Бұл аударма әлі шықпаған және алдын ала көру сайтында оқуға болады."
+
+- id: download_preview_translations
+  translation: "Алдын ала көрудегі аудармалар"
+
+- id: download_visit_preview
+  translation: "Алдын ала көру сайтын ашу"
+
+- id: download_pdf_only_status
+  translation: "Тек PDF"
+
+- id: download_stub_status
+  translation: "Басталмаған"
+
+- id: site_wordmark
+  translation: "Scrum нұсқаулықтары"
+
+- id: nav_the_guide
+  translation: "Нұсқаулық"
+
+- id: nav_versions
+  translation: "Нұсқалар"
+
+- id: nav_implementations
+  translation: "Енгізулер"
+
+- id: guide_pdf_not_available
+  translation: "PDF жоқ"
+
+- id: share_label
+  translation: "Бөлісу"
+
+- id: share_copy_link
+  translation: "Сілтемені көшіру"
+
+- id: share_copied
+  translation: "Аралық сақтағышқа көшірілді!"
+
+- id: share_close
+  translation: "Жабу"
+
+- id: role_creator
+  translation: "Жасаушы"
+
+- id: role_contributor
+  translation: "Үлес қосқан"
+
+- id: role_reviewer
+  translation: "Қараушы"
+
+- id: role_translator
+  translation: "Аудармашы"
+
+- id: role_involved
+  translation: "Қатысқан"
+
+- id: nav_getting_started
+  translation: "Бастапқы қадамдар"
+
+- id: nav_the_scrum_guide
+  translation: "Scrum нұсқаулығы"
+
+- id: home_action_getting_started
+  translation: "Scrum Team-дерге арналған бастапқы қадамдарды желіде оқыңыз"
+
+- id: home_action_scrum_guide
+  translation: "Ресми Scrum нұсқаулығын желіде оқыңыз"
+
+- id: home_action_translations
+  translation: "Ресми Scrum нұсқаулығын 30-дан астам тілде жүктеп алыңыз"
+
+- id: home_action_read_online
+  translation: "Желіде оқу"
+
+- id: home_action_select_language
+  translation: "Тіл таңдап жүктеп алу"
+
+- id: and
+  translation: "және"
+
+- id: breadcrumb_home
+  translation: "Басты бет"
+
+- id: read_online_title
+  translation: "Желіде оқу"
+
+- id: read_online_description
+  translation: "Бүкіл нұсқаулыққа цифрлық түрде, өзара әрекеттесу мүмкіндіктерімен және жеңіл жүрумен жетіңіз."
+
+- id: read_online_button
+  translation: "Желіде оқу"
+
+- id: translations_title
+  translation: "Аудармалар"
+
+- id: translations_description
+  translation: "Осы нұсқаулықты бірнеше тілде оқыңыз және аудармаларға көмектесіңіз."
+
+- id: translations_button
+  translation: "Аудармаларды көру"
+
+- id: history_title
+  translation: "Тарих"
+
+- id: history_description
+  translation: "Осы нұсқаулықтың дамуын және тарихын қадағалаңыз."
+
+- id: history_button
+  translation: "Тарихты көру"
+
+- id: what_is_guides_title
+  translation: "{{ .Site.Title }} деген не?"
+
+- id: open_source_title
+  translation: "Ашық бастапқы код, қауымдастық жүргізеді"
+
+- id: open_source_description
+  translation: "Бұл қауымдастықтың бірлескен жұмысымен тіршілік ететін ашық бастапқы кодты жоба. Жақсартулар ұсынғыңыз, мәселелерді хабарлағыңыз немесе мазмұнмен үлес қосқыңыз келсе, қош келдіңіз. Кейбір нұсқаулықтар үлес қабылдамайды, бірақ осында сілтеме ретінде тұрады. Бірге біз осы дерекнамаларды бүкіл әлемдегі қолданушылар үшін және жұмыс ағынының ықпалдылығы мен құндылық жеткізуді жақсартқысы келетін әркім үшін құндырақ қыла аламыз."
+
+- id: at_a_glance_title
+  translation: "Қысқаша"
+
+- id: join_discussion_button
+  translation: "Талқылауға қосылыңыз"
+
+- id: join_discussion_title
+  translation: "{{ .Site.Title }} туралы талқылауға қосылыңыз"
+
+- id: join_discussion_description
+  translation: "Қауымдастықпен танысыңыз, көргеніңізбен бөлісіңіз және {{ .Site.Title }} болашағын қалыптастыруға көмектесіңіз. Осы нұсқаулықтардың қолданушылар үшін толық дене болуы үшін сіздердің үлесі ауыстырылмайды."
+
+- id: guides_intro_text
+  translation: "Жұмыс қылатын тәжірибелерді және оларды кез келген процесте жұмыс ағыны мен құндылық жеткізуді оңтайлауға қалай қолдануды үйреніңіз. Осында білім мен жақсы тәжірибелердің бүкіл денесі. {{ .Site.Title }} — тәжірибелік нұсқаулықтардың үйі: білім жұмысында дәлелденген әдістерді қолдануға арналған еркін, қауымдастық жүргізетін сілтеме. Нұсқаулықтар ағынды жақсартуға, құндылық жеткізуді оңтайлауға және топтың төзімділігін нығайтуға керек негізгі тәжірибелер мен өлшемдерді шектейді. Олар түрлі салада ауқымдалатын қабылдауды қолдайды және жұмыс ағынының басқа заманауи әдістерін толықтырады."
+
+- id: guide_content_not_found
+  translation: "Нұсқаулық мазмұны табылмады"
+
+- id: nav_read_guide
+  translation: "Нұсқаулықты оқыңыз"
+
+- id: nav_history
+  translation: "Тарих"
+
+- id: nav_overview
+  translation: "Жалпы шолу"
+
+- id: guide_pdf_download_button
+  translation: "PDF жүктеп алу"
+
+- id: guide_pdf_intro_text
+  translation: "Бұл нұсқаулықты PDF күйінде де жүктеп алып, желісіз оқи аласыз."
+
+- id: guide_pdf_intro_link
+  translation: "PDF жүктеп алыңыз"
+
+- id: download_page_title
+  translation: "Ресми {{ .Title }} оқып, жүктеп алыңыз"
+
+- id: download_page_description
+  translation: "{{ .Title }} осында мыналармен анықталады"
+
+- id: download_page_originators
+  translation: " — {{ .Title }} жасаушылары."
+
+- id: download_translations_provided
+  translation: "Аудармаларды төменде аталған қайырымды адамдар мен топтар берді. Жүктеп алғыңыз келген тілді таңдаңыз."
+
+- id: download_translation_error
+  translation: "{{ .Title }} ішінде аударма қатесі деп санайтын бірдеңе тапсаңыз, тікелей сол аудармашыға барыңыз. Қосымша көмек керек болса, бізге мына арқылы хабарласыңыз"
+
+- id: download_official_version
+  translation: "Ресми нұсқа"
+
+- id: download_community_translations
+  translation: "Қауымдастықтан аудармалар"
+
+- id: download_current_version_released
+  translation: "{{ .Site.Title }} қазіргі ресми нұсқасы шыққан күні"
+
+- id: download_older_translations_notice
+  translation: "{{ .Site.Title }} ескірек аудармаларында ең жаңа мәлімет болмауы мүмкін."
+
+- id: download_table_language
+  translation: "Тіл"
+
+- id: download_table_translations_by
+  translation: "Аударғандар"
+
+- id: download_table_action
+  translation: "Әрекет"
+
+- id: download_official_current_version
+  translation: "Ресми қазіргі нұсқа"
+
+- id: download_button_text
+  translation: "Жүктеп алу"
+
+- id: download_coming_soon
+  translation: "Жақында"
+
+- id: download_missing_language
+  translation: "Тіліңіз жоқ па?"
+
+- id: download_contribute_translation
+  translation: "Жаңа аудармамен үлес қосып, қауымдастыққа көмектесіңіз."
+
+- id: download_add_translation
+  translation: "Аударма қосу"
+
+- id: download_community_contributors
+  translation: "Қауымдастықтан үлес қосқандар"
+
+- id: contributors_description
+  translation: "Төмендегі үлес қосқандар барлық нұсқаулықтардан және барлық нұсқалардан жиналған."
+
+- id: read_online_action
+  translation: "Желіде оқу"
+
+- id: guide_table_of_contents
+  translation: "Мазмұны"
+
+- id: guide_coming_soon
+  translation: "Бұл нұсқаулық жолда. Оны қадағалаңыз."
+
+- id: guide_no_content_available
+  translation: "Бұл тілде әзірге мазмұн жоқ."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) жоқ"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) жоқ"
+
+- id: guide_coming_label
+  translation: "Келеді:"
+
+- id: guide_updated_label
+  translation: "Жаңартылды:"
+
+- id: guide_version_label
+  translation: "Нұсқа:"
+
+- id: guide_content_unavailable_note
+  translation: "Ескерту:"
+
+- id: guide_content_unavailable_message
+  translation: "Осы беттің мазмұны {{ .Language }} тілінде әзірге жоқ. Төменде нұсқаулықтың әдепкі мазмұны көрсетіледі."
+
+- id: guide_content_unavailable_title
+  translation: "Мазмұн қолжетімсіз:"
+
+- id: guide_content_unavailable_description
+  translation: "Осы беттің мазмұны жүктелмеді, және көрсетуге әдепкі мазмұн жоқ. Хабарлаңыз, өтінеміз,"
+
+- id: guide_report_issue_link
+  translation: "Осы мәселені хабарлаңыз"
+
+- id: guide_report_issue_message
+  translation: "түзете алуымыз үшін."
+
+- id: guide_back_to_home
+  translation: "← Басты бетке қайту"
+
+- id: not_sure_which_to_use_title
+  translation: "Қайсысын қолданарыңызға сенімді емессіз бе?"
+
+- id: get_started_title
+  translation: "Бастаңыз"
+
+- id: community_driven_label
+  translation: "Қауымдастық жүргізеді"
+
+- id: coming_soon
+  translation: "Жақында"
+
+- id: purpose_title
+  translation: "Мақсаты"
+
+- id: ethos_title
+  translation: "Шығар нүкте"
+
+- id: audience_title
+  translation: "Кімге"
+
+- id: use_case_title
+  translation: "Қашан қолданылады"
+
+- id: content_title
+  translation: "Мазмұн"
+
+- id: update_model_title
+  translation: "Қалай жаңартылады"
+
+- id: guide_overview_title
+  translation: "Нұсқаулыққа жалпы шолу"
+
+- id: guide_overview_description
+  translation: "Осы нұсқаулықтың негізгі белгілері"
+
+- id: when_to_use_title
+  translation: "Осы нұсқаулықты қашан қолдану керек"
+
+- id: when_to_use_description
+  translation: "Жағдайыңызға сай келетін тәсілді таңдаңыз"
+
+- id: quick_decision_guide_title
+  translation: "Жылдам таңдау"
+
+- id: getting_started_title
+  translation: "Бастапқы қадамдар"
+
+- id: for_practitioners_title
+  translation: "Қолданушыларға"
+
+- id: current_information_title
+  translation: "Қазіргі мәлімет"
+
+- id: current_information_description
+  translation: "Нұсқаның егжей-тегжейі және қауымдастықтан үлес қосқандар"
+
+- id: current_version_title
+  translation: "Қазіргі нұсқа"
+
+- id: current_version_updated_label
+  translation: "Жаңартылды"
+
+- id: current_version_description
+  translation: "Бұл нұсқаулықтың қазір күшінде тұрған нұсқасы."
+
+- id: read_current_version_button
+  translation: "Қазіргі нұсқаны оқыңыз"
+
+- id: version_info_not_available
+  translation: "Нұсқа мәліметі жоқ"
+
+- id: contributors_title
+  translation: "Үлес қосқандар"
+
+- id: contributors_description_card
+  translation: "Осы нұсқаулықты қалыптастырған қауымдастық мүшелері"
+
+- id: contributors_thank_you
+  translation: "Осы нұсқаулықты жақсартқан барлығына алғыс."
+
+- id: join_community_button
+  translation: "Қауымдастыққа қосылыңыз"
+
+- id: no_contributors_found
+  translation: "Үлес қосқандар табылмады"
+
+- id: version_history_title
+  translation: "Нұсқалар тарихы"
+
+- id: version_history_description
+  translation: "Бұрынғы нұсқалар және олардың дамуы"
+
+- id: no_previous_versions_title
+  translation: "Бұрынғы нұсқалар жоқ"
+
+- id: no_previous_versions_description
+  translation: "Бұл нұсқаулық жаңа ғана басталды. Бұрынғы нұсқалар үшін кейінірек келіңіз."
+
+- id: what_is_guide_title
+  translation: "Бұл нұсқаулық деген не?"
+
+- id: license_title
+  translation: "Лицензия"
+
+- id: view_on_github_button
+  translation: "GitHub-та көру"
+
+- id: current_open_guide_label
+  translation: "Қазіргі Open Guide"
+
+- id: active_status_label
+  translation: "Күшінде"
+
+- id: current_fork_label
+  translation: "Қазіргі fork"
+
+- id: active_fork_label
+  translation: "Fork"
+
+- id: fork_indicator
+  translation: "Мынадан fork жасалған:"
+
+- id: forked_from_indicator
+  translation: "Мынадан fork жасалған:"
+
+- id: this_is_fork_label
+  translation: "Бұл fork"
+
+- id: available_languages_label
+  translation: "Бар тілдер"
+
+- id: pdf_downloads_label
+  translation: "PDF жүктемелері"
+
+- id: living_document_updated_label
+  translation: "Тірі құжат жаңартылды"
+
+- id: active_fork_updated_label
+  translation: "Белсенді fork жаңартылды"
+
+- id: historical_fork_label
+  translation: "Мынадан тарихи fork:"
+
+- id: historical_version_label
+  translation: "Тарихи нұсқа"
+
+- id: read_guide_button
+  translation: "Нұсқаулықты оқыңыз"
+
+- id: translations_button_small
+  translation: "Аудармалар"
+
+- id: read_fork_button
+  translation: "Fork-ты оқыңыз"
+
+- id: view_archive_button
+  translation: "Мұрағатты көру"
+
+- id: download_reference_status
+  translation: "Сілтеме"

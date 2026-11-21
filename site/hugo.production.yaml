@@ -90,3 +90,5 @@ languages:
     disabled: true
   ka:
     disabled: true
+  kk:
+    disabled: true
