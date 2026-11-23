@@ -223,6 +223,45 @@ body > header.bg-dark {
   font-size: 0.95rem;
 }
 
+/* The language menu lists every language the site has: 49 of them, measured at
+   1,601px of items in a Bootstrap dropdown that does not scroll on its own, so
+   it ran off the bottom of the viewport and the languages past the fold could
+   not be reached at all. Capped and scrolled instead.
+
+   Selected by the globe icon the module's language-switcher.html puts in the
+   toggle, so the guide and share menus keep their natural height. :has() is
+   the only hook available without overriding a module partial; where it is
+   unsupported the menu simply keeps today's behaviour. */
+.nav-item.dropdown:has(.fa-globe) .dropdown-menu {
+  max-height: max(12rem, min(70vh, 32rem));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* On a phone a viewport cap is not enough on its own. The toggle sits about
+   208px down a tall header, and Bootstrap's Popper positions the menu but never
+   shrinks it, so even 70vh left the menu 96px below the bottom edge of a
+   landscape phone with its last languages unreachable. Pinned to the viewport
+   instead, which holds wherever the toggle happens to sit.
+
+   Every offset needs !important: Popper writes `inset` and `transform` inline,
+   and without it the inline rule wins and the menu is neither pinned nor
+   full-width. Measured after this: 375x812 gives 568px pinned 8px off the
+   bottom, 812x375 gives 263px, both scrolling to the last language. */
+@media (max-width: 575.98px), (max-height: 560px) {
+  .nav-item.dropdown:has(.fa-globe) .dropdown-menu {
+    position: fixed !important;
+    top: auto !important;
+    right: 0.5rem !important;
+    bottom: 0.5rem !important;
+    left: 0.5rem !important;
+    width: auto !important;
+    transform: none !important;
+    max-height: 70dvh !important;
+  }
+}
+
 .dropdown-submenu .dropdown-menu {
   top: 0;
   left: 100%;
