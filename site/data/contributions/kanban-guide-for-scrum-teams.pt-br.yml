@@ -1,0 +1,32 @@
+# Translation team for Brazilian Portuguese, as credited in the published 2021.1 document.
+#
+# These names are taken from the translators' own credit in that document.
+# The translation is these people's work. This site hosts their document
+# unchanged under the same CC BY-SA 4.0 licence the English edition carries.
+#
+# Credited there as the Brazilian Scrum community.
+
+- name: "André Gomes"
+  role: translator
+  contributions:
+    - "2021.1"
+- name: "Dionei Piazza"
+  role: translator
+  contributions:
+    - "2021.1"
+- name: "Greice Pecorari do Vale"
+  role: translator
+  contributions:
+    - "2021.1"
+- name: "Henrique Ruocco"
+  role: translator
+  contributions:
+    - "2021.1"
+- name: "Ivan Jorge Vieira dos Santos"
+  role: translator
+  contributions:
+    - "2021.1"
+- name: "Olavo A. Feitosa"
+  role: translator
+  contributions:
+    - "2021.1"
