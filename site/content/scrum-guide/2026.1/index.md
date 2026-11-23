@@ -186,9 +186,9 @@ The Scrum Team is the unit so that the skills, the authority and the accountabil
 
 Scrum Teams are cross-functional, meaning the members have all the skills necessary to create value each Cycle. They are also self-managing, meaning they internally decide who does what, when, and how. Within a Scrum Team, there are no sub-teams or hierarchies, so that no accountability is divided. The organization structures and empowers the Scrum Team to manage its own work.
 
-The entire Scrum Team is accountable for creating a valuable, useful Increment every Cycle, and is responsible for all product-related activities.
+The entire Scrum Team is accountable for all the work the Product Goal depends on, so that nothing the Product Goal requires falls outside it.
 
-Scrum defines four accountabilities. The Scrum Team is accountable as a whole, and within it three accountabilities are held: for the Increment, for the Product, and for the Practice. These are accountabilities, not job titles, roles or people. The Scrum Team can always identify who holds each accountability, and each accountability is held in its entirety. The person holding an accountability may change, and one person may hold more than one accountability.
+Scrum defines four accountabilities. The Scrum Team holds one as a whole, for all the work the Product Goal depends on. Within it three are held individually: for the Increment, for the Product, and for the Practice. These are accountabilities, not job titles, roles or people. The Scrum Team can always identify who holds each accountability, and each accountability is held in its entirety. The person holding an accountability may change, and one person may hold more than one accountability.
 
 ### Product Developers
 
@@ -272,7 +272,9 @@ The Product Developers are expected to adapt the moment they learn anything new.
 
 The purpose of the Direction Loop is to determine whether the Increment is valuable to stakeholders. It is the only loop that involves people outside the Scrum Team.
 
-The Scrum Team and its stakeholders inspect what stakeholders did with a usable Increment, the progress toward the Product Goal, and what has changed in their environment. The Direction Loop may change the Product Goal. The Product Backlog is then adjusted accordingly.
+The Direction Loop closes when what stakeholders did with a usable Increment has been assessed against the Product Goal, and the Product Goal has been changed or reaffirmed against what that showed. It also takes in what has changed in the stakeholders' environment. The Product Backlog is then adjusted accordingly.
+
+Feedback on individual items is evidence for that assessment, not the assessment itself. A Scrum Team that only ever resolves items has not closed the loop.
 
 The Direction Loop is a working exchange between the Scrum Team and stakeholders. An Increment that has been shown but not used provides no evidence of value, and the loop remains open.
 

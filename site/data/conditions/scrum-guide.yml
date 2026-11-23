@@ -48,11 +48,12 @@
   - id: SG26-C5
     element: Direction Loop
     statement: >-
-      The Direction Loop reaches outside the Scrum Team. Stakeholders used a
-      usable Increment, and what they did with it was taken in.
+      The Direction Loop closes on the Product Goal. What stakeholders did with
+      a usable Increment was assessed against the Product Goal, and the Product
+      Goal was changed or reaffirmed against it.
     falsifier: >-
-      A Cycle in which the Increment was shown to stakeholders but not used by
-      them, or not seen by them at all.
+      Stakeholder feedback that only ever resolved individual items, with no
+      occasion on which the Product Goal was changed or reaffirmed against it.
   - id: SG26-C6
     element: Increment
     statement: >-
