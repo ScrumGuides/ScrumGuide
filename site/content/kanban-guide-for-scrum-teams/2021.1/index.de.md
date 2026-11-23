@@ -236,7 +236,7 @@ Kontaktinformationen
 
 Name der Übersetzungsgruppe: Ansprechpartner: Kontaktadresse:
 
-Agile Leipzig Community Rolf Irion irion (at) outlook.com
+Agile Leipzig Community Rolf Irion
 
 ---
 

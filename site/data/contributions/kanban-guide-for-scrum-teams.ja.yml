@@ -1,0 +1,14 @@
+# Translation team for Japanese, as credited in the published 2021.1 document.
+#
+# These names are taken from the translators' own credit in that document.
+# The translation is these people's work. This site hosts their document
+# unchanged under the same CC BY-SA 4.0 licence the English edition carries.
+
+- name: "角征典"
+  role: translator
+  contributions:
+    - "2021.1"
+- name: "原田巌"
+  role: translator
+  contributions:
+    - "2021.1"

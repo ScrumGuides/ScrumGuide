@@ -234,7 +234,7 @@ Fordító: Varga Patrik
 
 Lektorálta: Tolvaj Ákos
 
-E-mail: what at hey dot com
+E-mail
 
 ---
 

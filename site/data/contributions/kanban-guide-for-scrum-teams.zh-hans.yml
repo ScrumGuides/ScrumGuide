@@ -1,0 +1,18 @@
+# Translation team for Simplified Chinese, as credited in the published 2021.1 document.
+#
+# These names are taken from the translators' own credit in that document.
+# The translation is these people's work. This site hosts their document
+# unchanged under the same CC BY-SA 4.0 licence the English edition carries.
+
+- name: "李香湘"
+  role: translator
+  contributions:
+    - "2021.1"
+- name: "陈连生"
+  role: translator
+  contributions:
+    - "2021.1"
+- name: "丁克斌"
+  role: translator
+  contributions:
+    - "2021.1"

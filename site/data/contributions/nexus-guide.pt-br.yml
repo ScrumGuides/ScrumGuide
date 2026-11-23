@@ -1,0 +1,14 @@
+# Translation team for Brazilian Portuguese, as credited in the published 2018.1 document.
+#
+# These names are taken from the translators' own credit in that document.
+# The translation is these people's work. This site hosts their document
+# unchanged under the same CC BY-SA 4.0 licence the English edition carries.
+
+- name: "Eduardo Rodrigues Sucena"
+  role: translator
+  contributions:
+    - "2018.1"
+- name: "Fábio Cruz"
+  role: translator
+  contributions:
+    - "2018.1"

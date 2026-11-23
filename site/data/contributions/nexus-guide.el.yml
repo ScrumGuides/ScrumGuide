@@ -1,0 +1,20 @@
+# Translation team for Greek, as credited in the published 2018.1 document.
+#
+# These names are taken from the translators' own credit in that document.
+# The translation is these people's work. This site hosts their document
+# unchanged under the same CC BY-SA 4.0 licence the English edition carries.
+#
+# Credited there as Agile Greece.
+
+- name: "Byron Georgantopoulos"
+  role: translator
+  contributions:
+    - "2018.1"
+- name: "Marinos Tsagkarakis"
+  role: translator
+  contributions:
+    - "2018.1"
+- name: "Dimitris Dimitrelos"
+  role: translator
+  contributions:
+    - "2018.1"

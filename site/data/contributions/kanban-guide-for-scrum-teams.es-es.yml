@@ -1,0 +1,22 @@
+# Translation team for European Spanish, as credited in the published 2021.1 document.
+#
+# These names are taken from the translators' own credit in that document.
+# The translation is these people's work. This site hosts their document
+# unchanged under the same CC BY-SA 4.0 licence the English edition carries.
+
+- name: "Alex Ballarin Latre"
+  role: translator
+  contributions:
+    - "2021.1"
+- name: "Guillem Hernández Sola"
+  role: translator
+  contributions:
+    - "2021.1"
+- name: "David Martí Lleida"
+  role: translator
+  contributions:
+    - "2021.1"
+- name: "David Tardini"
+  role: translator
+  contributions:
+    - "2021.1"

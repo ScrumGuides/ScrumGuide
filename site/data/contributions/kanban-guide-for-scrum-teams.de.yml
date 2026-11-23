@@ -1,0 +1,24 @@
+# Translation team for German, as credited in the published 2021.1 document.
+#
+# These names are taken from the translators' own credit in that document.
+# The translation is these people's work. This site hosts their document
+# unchanged under the same CC BY-SA 4.0 licence the English edition carries.
+#
+# Credited there as Agile Leipzig Community.
+
+- name: "Rolf Irion"
+  role: translator
+  contributions:
+    - "2021.1"
+- name: "Martin Opitz"
+  role: reviewer
+  contributions:
+    - "2021.1"
+- name: "Philipp Staat"
+  role: reviewer
+  contributions:
+    - "2021.1"
+- name: "Tim Themann"
+  role: reviewer
+  contributions:
+    - "2021.1"

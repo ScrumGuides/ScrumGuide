@@ -406,7 +406,7 @@ La història completa de Scrum és descrita en un altre lloc. Per homenatjar els
 
 Aquesta guia ha estat traduïda de la versió original anglesa elaborada pels desenvolupadors mencionats abans. Les persones que han contribuït a aquesta traducció són: Marc Rodriguez Sanz i David Marti.
 
-Adreça de contacte: marcrodriguezsanz(at)gmail.com Web: https://www.xsfera.com LinkedIn: https://www.linkedin.com/in/marcrodriguezsanz Twitter: https://twitter.com/mrodriguezsanz
+Adreça de contacte: Web: https://www.xsfera.com LinkedIn: https://www.linkedin.com/in/marcrodriguezsanz Twitter: https://twitter.com/mrodriguezsanz
 
 ### Canvis entre les versions 2017 i 2020 de la Guia de Scrum
 
