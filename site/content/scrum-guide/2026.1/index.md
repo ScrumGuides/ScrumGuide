@@ -118,75 +118,75 @@ aliases:
 
 ## Foundations
 
-Scrum is based on the principles below. They are not Scrum's own. Any approach to developing something that does not yet exist reaches principles like these. What Scrum adds is in the sections that follow.
+Scrum is founded on the principles below. They are not Scrum's own. Anyone developing something that does not yet exist arrives at them, whatever the approach is called. What Scrum adds is in the sections that follow.
 
-Each can be checked by anyone who does not take this Guide's word for it, either by following the reasoning or by watching what happens. Each says where it stops applying.
+Each principle can be checked, by following the reasoning or by observing what happens. Most state the conditions under which they stop holding.
 
 ### Purpose
 
 Scrum exists to generate value through adaptive solutions for complex problems. Value is determined by the people receiving the work, not by the people doing it or by the amount of work done.
 
-This is a declaration and not a principle. Nothing verifiable settles whose judgement determines value. It could instead be placed with the people doing the work, or measured by the amount of work done. Everything below rests on this choice.
+This is a declaration, not a principle. It cannot be settled by observation. Scrum could have given value to the people doing the work to judge, or measured it by the amount of work done. It does not, and everything below rests on that choice.
 
 ### Uncertainty
 
 Forecasts of developing something that does not yet exist do not reliably match what happens.
 
-Record what is expected to be delivered, when, at what cost, and whether it will serve its purpose. Compare that with what happened, and repeat across cases. Where the forecasts do match closely enough for the decisions being made, this principle does not apply, and it is cheaper to plan the work and carry out the plan.
+Record what is expected to be delivered, when, at what cost, and whether it will serve its purpose. Compare that with what happened, and repeat across cases. If the forecasts match closely enough for the decisions being made, the work is predictable, and planning it and carrying out the plan costs less.
 
 ### Evidence
 
 Only what has already happened is knowledge of the outcome.
 
-This follows by definition. If nothing available beforehand determines the outcome, then a plan, an estimate, a specification or an intention is not knowledge of it. What remains is what has occurred.
+A plan, an estimate, a specification or an intention describes what someone expects. None of them is knowledge of the outcome. Only the work that has been done is.
 
-A measure of activity, a position against a plan, or an unfinished intermediate is evidence of the outcome only so far as it is known to move with the outcome, and under Uncertainty that is not known in advance.
+A measure of activity, a position against a plan, or an unfinished piece of work is evidence only if it rises and falls with the outcome. Under Uncertainty, nobody knows in advance whether it does.
 
 ### Correction
 
-An error is corrected only when four things come together: a result, its observation by whoever decides, a standard to compare it against, and the power to change what is done next.
+An error is corrected only when four things come together: a result, a standard to compare it against, someone who sees the comparison and decides, and the power to change the work that follows.
 
-Remove any one of the four. With no result there is nothing to observe. If the decider does not observe it, the decision is unchanged by it. With no standard, no difference can be called an error. With no power to change what is done next, the error is known and repeated. In each case correction has not occurred.
+Remove any one of them. Without a result there is nothing to see. Without a standard, no difference can be called an error. If the person who decides never sees the comparison, the decision does not change. Without the power to change the work that follows, the error is known and repeated. In each case the error survives.
 
-Everything done since the last correction is unverified, so the most that one undetected error can cost grows with the amount of work between corrections.
+Everything done since the last correction is unverified. The longer the wait between corrections, the more work a single undetected error can spoil.
 
 ### Cost of Correction
 
-Acting on a known error should not wait. How often to look for one is a different question, and it carries a cost on both sides.
+A known error should be acted on at once. How often to look for one is a different question. Looking too seldom and looking too often are both expensive.
 
-Looking less often leaves more unverified work at risk. Each correction consumes effort that would otherwise go to the work, so looking more often costs more. The interval sits where those two meet.
+Long intervals leave more unverified work at risk. Short intervals spend on looking what could have been spent on the work. The right interval lies between them.
 
-Nothing in these principles fixes that interval. It is settled by observation and it differs by work. Where looking costs nothing, there is no interval to settle.
+This Guide does not fix that interval. It is settled by observation, and it differs from one kind of work to another. If looking costs nothing, there is no interval to settle.
 
 ### Reporting
 
-A result that is costly to report does not reliably reach whoever decides.
+Bad news reaches the person who decides only if it is safe to carry.
 
-Correction requires that whoever decides observes the result. Where they learn it from someone else, what they learn is what that person was willing to say. A result that will be held against the person reporting it arrives late, or softened, or not at all. The four conditions are met and the error is not corrected.
+Correction requires that the person who decides sees the result. Often they are told it by someone else, and then they learn what that person was willing to say. A result that will be held against the person reporting it arrives late, arrives softened, or does not arrive. All four conditions are met and the error survives.
 
-Compare what people say about the work when nothing follows from saying it with what is written down when something does. Where whoever decides sees the result directly, this principle does not apply.
+Ask people what they think of the work in private, and compare their answers with what the reports say. If the person who decides sees the result without being told, nothing is lost on the way.
 
 ### Partial Results
 
-A part of the result can be produced and put into real conditions before the whole is finished, and what it shows there is evidence about the rest.
+A part of the work can be finished and put to real use before the whole is done, and how it behaves there is evidence about the rest.
 
-Where a part cannot be produced, or cannot be put in real conditions, or shows nothing about the remainder, correcting before the end is not available. Such work is attempted once, and the honest alternatives are simulation or accepting the risk.
+Some work cannot be divided this way. If no part can be finished on its own, or no part can be put to real use, or what the part does says nothing about the rest, there is no correcting before the end. Such work is attempted once. Simulate it, or accept the risk.
 
 ### Judgement
 
-No set of responses prepared in advance covers what cannot be listed in advance.
+No procedure prepared in advance covers everything that can happen.
 
-A procedure can set the bounds a response must stay within, but it cannot supply the response itself. Whoever responds must be able to produce responses that were not prescribed.
+A procedure can set the limits a response must stay within. It cannot supply the response. The people doing the work must be able to respond in ways nobody prescribed.
 
-Where what can happen is known and can be listed, a procedure covers it, and this principle does not apply.
+If everything that can happen is known and can be listed, a procedure covers it all.
 
 ### Knowledge
 
-The knowledge needed to decide well moves less easily than the right to decide.
+It is easier to move the right to decide than to move the knowledge a good decision needs.
 
-Where that knowledge summarises without loss and reaches a distant decider in time, the decision may be made anywhere. Where it does not, the decision belongs with those who hold it.
+Some knowledge can be written down and sent without losing anything, and if it arrives in time the decision can be made anywhere. The rest cannot. That decision belongs with the people who hold the knowledge.
 
-That knowledge is also held in pieces. Whoever decides holds some of it, whoever did the work holds some, and whoever received the work holds the rest. A decision made without an exchange between them is made on part of it.
+Knowledge is also held in pieces. The person who decides holds some of it, the people who did the work hold some, and the people who received the work hold the rest. A decision made without talking to them all is made on part of what is known.
 
 ---
 
@@ -222,7 +222,7 @@ None of them is a job title or a role. Each may be held by one or by several, an
 
 The fundamental unit of Scrum is a small team of people, a Scrum Team. It is a cohesive unit of professionals focused on one objective at a time, the Product Goal.
 
-The Scrum Team is the unit so that the skills, the authority and the accountability are kept together.
+The Scrum Team is the unit because the skills, the authority and the accountability must stay together.
 
 Scrum Teams are cross-functional, meaning the members have all the skills necessary to create value each Cycle. They are also self-managing, meaning they internally decide who does what, when, and how. Within a Scrum Team, there are no sub-teams or hierarchies. The organization structures and empowers the Scrum Team to manage its own work.
 
@@ -262,12 +262,12 @@ The Practice Owner is accountable for every loop closing.
 
 The Practice Owner has the authority to require that a loop closes and to act on anything that prevents it from closing. This authority covers how the Scrum Team works. It does not extend to what the Scrum Team pursues, which is decided by the Product Owner, or to how the work is done, which is decided by the Product Developers.
 
-The Practice Owner has this authority so that whoever is accountable for the loops closing is able to act on it.
+The Practice Owner has this authority so that the person accountable for the loops closing can act.
 
 ## Scrum Loops
 
 
-Each loop in Scrum is a formal opportunity to compare evidence with what was intended and to act on the result. A loop remains open until both have been done.
+Each loop in Scrum is a formal opportunity to compare evidence with what was intended and to act on the result. A loop remains open until both have happened.
 
 The Scrum Team usually acts by changing something. The Scrum Team may instead conclude, based on the evidence, that no change is needed. A loop is not closed by looking at the evidence or by discussing it.
 
@@ -368,7 +368,7 @@ Multiple Increments may be created within a Cycle. The sum of the Increments is 
 
 ## Commitments
 
-The Product Backlog, the Cycle Backlog and the Increment each have one commitment. Each makes something transparent; its commitment states what that transparency is for, so that progress is measured against something stated rather than merely observed.
+The Product Backlog, the Cycle Backlog and the Increment each have one commitment. Each one makes something visible. Its commitment states what that visibility is for, so that progress is measured against something agreed rather than merely observed.
 
 ### Product Goal
 
