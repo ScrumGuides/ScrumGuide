@@ -42,27 +42,11 @@ jobs:
           # derived from it. A shallow clone gives it nothing to work from.
           fetch-depth: 0
 
-      # The repository's own build.ps1 is a generated adapter and does not
-      # expose -DependencyScope, so it installs at AllUsers scope and a hosted
-      # runner refuses that: "Administrator rights are required to install or
-      # update." The platform package ships its own entry point that takes the
-      # scope, which is the one the reusable workflow used. Everything after
-      # this step goes back through the repository's build.ps1.
-      - name: Install build dependencies
-        shell: pwsh
-        run: |
-          # Resolve-OpenGuidePlatform.ps1 installs powershell-yaml itself,
-          # hardcoded to AllUsers scope, which a hosted runner refuses: the
-          # script exposes no parameter to change it. It installs only when the
-          # module is missing, so putting it there first at CurrentUser scope
-          # means that call and every later one inside build.ps1 find it and
-          # skip the install.
-          Install-Module powershell-yaml -MinimumVersion 0.4.12 -Scope CurrentUser -Force -Repository PSGallery
-          $platform = & ./.OpenGuidePlatform/Resolve-OpenGuidePlatform.ps1 -WorkspaceRoot $PWD
-          $settings = & ./.OpenGuidePlatform/Resolve-OpenGuidePlatform.ps1 -WorkspaceRoot $PWD -ReadSettings
-          & "$platform/build.ps1" -Product GuideSite -Stage Dependencies -DependencyScope CurrentUser -WorkspaceRoot $PWD -SourcePath $settings.site.source
-
-      - name: Prepare, build, validate, deploy and verify
+      # Dependencies and the pipeline run in one step, not two. Installing the
+      # dependencies puts hugo and the rest on PATH for the process that
+      # installed them; a separate step is a new process, and Prepare then
+      # fails with "The term 'hugo' is not recognized".
+      - name: Install dependencies, then prepare, build, validate, deploy and verify
         shell: pwsh
         env:
           # The deploy stage reads this name directly.
@@ -79,6 +63,21 @@ jobs:
           # a preview or canary ring ever selects the production environment.
           DEPLOY: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository }}
         run: |
+          # Resolve-OpenGuidePlatform.ps1 installs powershell-yaml itself,
+          # hardcoded to AllUsers scope, and exposes no parameter to change it.
+          # A hosted runner refuses that. The install is guarded by a check for
+          # the module, so putting it there first at CurrentUser scope means
+          # that call and every later one inside build.ps1 skip it.
+          Install-Module powershell-yaml -MinimumVersion 0.4.12 -Scope CurrentUser -Force -Repository PSGallery
+
+          # The repository's build.ps1 is a generated adapter and does not
+          # expose -DependencyScope, so it would install at AllUsers and be
+          # refused as well. The platform package ships its own entry point
+          # that takes the scope; this is the one call that uses it.
+          $platform = & ./.OpenGuidePlatform/Resolve-OpenGuidePlatform.ps1 -WorkspaceRoot $PWD
+          $settings = & ./.OpenGuidePlatform/Resolve-OpenGuidePlatform.ps1 -WorkspaceRoot $PWD -ReadSettings
+          & "$platform/build.ps1" -Product GuideSite -Stage Dependencies -DependencyScope CurrentUser -WorkspaceRoot $PWD -SourcePath $settings.site.source
+
           if ($env:DEPLOY -eq 'true') {
             ./build.ps1 All -Deploy
           } else {
