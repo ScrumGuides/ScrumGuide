@@ -42,9 +42,18 @@ jobs:
           # derived from it. A shallow clone gives it nothing to work from.
           fetch-depth: 0
 
+      # The repository's own build.ps1 is a generated adapter and does not
+      # expose -DependencyScope, so it installs at AllUsers scope and a hosted
+      # runner refuses that: "Administrator rights are required to install or
+      # update." The platform package ships its own entry point that takes the
+      # scope, which is the one the reusable workflow used. Everything after
+      # this step goes back through the repository's build.ps1.
       - name: Install build dependencies
         shell: pwsh
-        run: ./build.ps1 Dependencies
+        run: |
+          $platform = & ./.OpenGuidePlatform/Resolve-OpenGuidePlatform.ps1 -WorkspaceRoot $PWD
+          $settings = & ./.OpenGuidePlatform/Resolve-OpenGuidePlatform.ps1 -WorkspaceRoot $PWD -ReadSettings
+          & "$platform/build.ps1" -Product GuideSite -Stage Dependencies -DependencyScope CurrentUser -WorkspaceRoot $PWD -SourcePath $settings.site.source
 
       - name: Prepare, build, validate, deploy and verify
         shell: pwsh
