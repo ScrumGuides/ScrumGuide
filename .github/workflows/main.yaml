@@ -1,5 +1,20 @@
 # This workflow is managed by gh actions-lock.
-# Site-owned caller. OGP updates its release reference; preserve site settings.
+# Site-owned caller.
+#
+# One job, on purpose. This used to call OpenGuidePlatform's reusable workflow,
+# which runs the same stages as six separate jobs. GitHub gives every job its
+# own machine, so each one had to upload what the next needed and download it
+# again: the built site went up twice per run, about 36 MB, and none of it was
+# wanted afterwards. Four days of that filled the artifact storage quota and
+# blocked every build in the repository.
+#
+# Running the stages in a single job removes the reason those uploads existed.
+# Nothing is handed between machines, so nothing is stored. It also installs
+# the build dependencies once rather than once per job.
+#
+# `build.ps1 All -Deploy` is the whole pipeline: Prepare, Build and Validate,
+# then Deploy, then Verify against the URL the deployment actually returned
+# rather than against an uploaded copy of it.
 name: Build & Validate (GuideSite)
 on:
   pull_request:
@@ -12,77 +27,44 @@ permissions:
   contents: read
   actions: read
 jobs:
-  # This repository's own version, from .github/GitVersion.yml.
-  #
-  # It is ours. The OGP release referenced below is the toolchain this site
-  # consumes and has nothing to do with this number, so nothing here depends on
-  # the platform: GitVersion runs against this repository and this repository
-  # publishes the result.
-  #
-  # continue-on-error, and the fallback in the job name below, are deliberate.
-  # A version number is for reading, so a GitVersion hiccup must never be able
-  # to stop a build or a deploy.
-  version:
-    name: Version
+  site:
+    name: site
     runs-on: ubuntu-latest
-    continue-on-error: true
-    permissions:
-      contents: read
-    outputs:
-      semver: ${{ steps.gitversion.outputs.semver }}
-      label: ${{ steps.gitversion.outputs.label }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          # GitVersion reads tag and branch history. A shallow clone gives it
-          # nothing to work from.
-          fetch-depth: 0
-      - id: gitversion
-        shell: pwsh
-        run: |
-          dotnet tool install --global GitVersion.Tool --version 6.8.2
-          $env:PATH = $env:PATH + [IO.Path]::PathSeparator + "$env:HOME/.dotnet/tools"
-          # /config is required. GitVersion only looks for GitVersion.yml in the
-          # repository root, and this repository keeps it in .github/. Without
-          # the flag it silently ignores the file and falls back to defaults,
-          # reporting 0.0.1-33 with no pre-release label instead of
-          # 0.1.0-preview.33 — a wrong number rather than an error.
-          $v = dotnet-gitversion /config .github/GitVersion.yml /output json | ConvertFrom-Json
-          $label = if ($v.PreReleaseLabel) { $v.PreReleaseLabel } else { "(none)" }
-          Add-Content -Path $env:GITHUB_OUTPUT -Value "semver=$($v.SemVer)"
-          Add-Content -Path $env:GITHUB_OUTPUT -Value "label=$label"
-          $sum = $env:GITHUB_STEP_SUMMARY
-          Add-Content -Path $sum -Value "## Version"
-          Add-Content -Path $sum -Value ""
-          Add-Content -Path $sum -Value "| | |"
-          Add-Content -Path $sum -Value "|---|---|"
-          Add-Content -Path $sum -Value "| SemVer | ``$($v.SemVer)`` |"
-          Add-Content -Path $sum -Value "| Pre-release label | ``$label`` |"
-          Add-Content -Path $sum -Value "| FullSemVer | ``$($v.FullSemVer)`` |"
-          Add-Content -Path $sum -Value "| Commit | ``$($v.ShortSha)`` |"
-          Write-Host "Site version $($v.SemVer); pre-release label $label."
-
-  guide-site:
-    # Carries the version into every job row, so the build reports it as
-    # "site 0.1.0-preview.7 / Prepare" rather than "guide-site / Prepare".
-    needs: version
-    name: site ${{ needs.version.outputs.semver || 'version unknown' }}
     permissions:
       contents: read
       actions: read
       pull-requests: write
-    uses: nkdAgility/OpenGuidePlatform/.github/workflows/guide-site-build.yaml@v1.1.8
-    with:
-      source-ref: ${{ github.event.pull_request.head.sha || github.sha }}
-      source-path: "site"
-      # Deploy on pushes, and on pull requests from this repository only —
-      # a fork's PR cannot read the secret below, so deploying it would fail.
-      #
-      # This does NOT choose the environment. The ring comes from GitVersion
-      # via .github/GitVersion.yml: main carries label `preview`, so a push to
-      # main deploys to the preview environment. Production is reachable only
-      # from a release/* branch, and Resolve-GuideDeliveryContext throws if a
-      # preview or canary ring ever selects the production environment.
-      deploy: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository }}
-    secrets:
-      static-web-app-token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          # GitVersion reads tag and branch history, and the delivery ring is
+          # derived from it. A shallow clone gives it nothing to work from.
+          fetch-depth: 0
+
+      - name: Install build dependencies
+        shell: pwsh
+        run: ./build.ps1 Dependencies
+
+      - name: Prepare, build, validate, deploy and verify
+        shell: pwsh
+        env:
+          # The deploy stage reads this name directly.
+          SWA_CLI_DEPLOYMENT_TOKEN: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          # Deploy on pushes, and on pull requests from this repository only:
+          # a fork's pull request cannot read the secret above, so deploying it
+          # would fail.
+          #
+          # This does NOT choose the environment. The ring comes from GitVersion
+          # via .github/GitVersion.yml, with Target left at its default of auto:
+          # main carries the label `preview`, so a push to main deploys to the
+          # preview environment. Production is reachable only from a release
+          # branch or a release tag, and Resolve-GuideDeliveryContext throws if
+          # a preview or canary ring ever selects the production environment.
+          DEPLOY: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository }}
+        run: |
+          if ($env:DEPLOY -eq 'true') {
+            ./build.ps1 All -Deploy
+          } else {
+            ./build.ps1 All
+          }
