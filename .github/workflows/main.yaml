@@ -51,13 +51,15 @@ jobs:
       - name: Install build dependencies
         shell: pwsh
         run: |
-          # The resolver installs powershell-yaml before anything else runs, at
-          # AllUsers scope by default, which the runner refuses. It only
-          # installs when the module is absent, so doing it once here at
-          # CurrentUser scope means build.ps1's own resolver calls find it and
+          # Resolve-OpenGuidePlatform.ps1 installs powershell-yaml itself,
+          # hardcoded to AllUsers scope, which a hosted runner refuses: the
+          # script exposes no parameter to change it. It installs only when the
+          # module is missing, so putting it there first at CurrentUser scope
+          # means that call and every later one inside build.ps1 find it and
           # skip the install.
-          $platform = & ./.OpenGuidePlatform/Resolve-OpenGuidePlatform.ps1 -WorkspaceRoot $PWD -SettingsDependencyScope CurrentUser
-          $settings = & ./.OpenGuidePlatform/Resolve-OpenGuidePlatform.ps1 -WorkspaceRoot $PWD -ReadSettings -SettingsDependencyScope CurrentUser
+          Install-Module powershell-yaml -MinimumVersion 0.4.12 -Scope CurrentUser -Force -Repository PSGallery
+          $platform = & ./.OpenGuidePlatform/Resolve-OpenGuidePlatform.ps1 -WorkspaceRoot $PWD
+          $settings = & ./.OpenGuidePlatform/Resolve-OpenGuidePlatform.ps1 -WorkspaceRoot $PWD -ReadSettings
           & "$platform/build.ps1" -Product GuideSite -Stage Dependencies -DependencyScope CurrentUser -WorkspaceRoot $PWD -SourcePath $settings.site.source
 
       - name: Prepare, build, validate, deploy and verify
