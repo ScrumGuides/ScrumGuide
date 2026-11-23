@@ -357,7 +357,7 @@ aliases:
 
 Посібник було перекладено з оригінальної англійської версії, яку надали розробники, згадані вище. Автори перекладу ‐ Островерх Тетяна, Денис Прилуцький та компанія SoftServe Inc.
 
-Ім'я Перекладача (Translator Name): Tetiana Ostroverkh, Denys Prylutskyi Назва Групи Перекладу (Translation Group Name): SoftServe Контактна електронна адреса (Primary Contact e‐mail): tostr@softserveinc.com
+Ім'я Перекладача (Translator Name): Tetiana Ostroverkh, Denys Prylutskyi Назва Групи Перекладу (Translation Group Name): SoftServe Контактна електронна адреса (Primary Contact e‐mail)
 
 Вебсайт (Website): https://www.softserveinc.com/en‐us LinkedIn: https://www.linkedin.com/in/tatianaostroverkh/
 

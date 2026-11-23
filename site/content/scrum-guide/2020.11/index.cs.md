@@ -362,7 +362,7 @@ Jméno překladatelů:
 
 Primární e-mailový kontakt: Website: LinkedIn:
 
-Iveta Grüttner Managing Director Business Excellence Academy, s.r.o. iveta@CI4e.com www.CI4e.com https://www.linkedin.com/in/ivetaci4e
+Iveta Grüttner Managing Director Business Excellence Academy, s.r.o. www.CI4e.com https://www.linkedin.com/in/ivetaci4e
 
 ## Změny z Průvodce Scrum 2017 na Průvodce Scrum 2020
 

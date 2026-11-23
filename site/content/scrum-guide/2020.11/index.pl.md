@@ -341,7 +341,7 @@ Pełna historia Scruma została opisana w innych publikacjach. Aby uhonorować p
 
 ##### Tłumaczenie
 
-Niniejszy Przewodnik został przetłumaczony z wersji oryginalnej, opracowanej przez Kena Schwabera i Jeffa Sutherlanda. Do opracowania tłumaczenia aktualnej wersji przyczynili się: Tomek Włodarek (tomek@poddrzewem.pl), Monika Malcherek (malmon@protonmail.com), Andrzej Zińczuk (azinczuk@gmail.com), Adam Michalczyk (tashisenge@gmail.com). Dziękujemy wszystkim osobom, które brały udział w tłumaczeniu wersji poprzednich, a także wszystkim którzy je komentowali. Nie sposób wszystkich Was wymienić, ale bez Was obecne tłumaczenie na pewno byłoby mniej dojrzałe. Dziękujemy!
+Niniejszy Przewodnik został przetłumaczony z wersji oryginalnej, opracowanej przez Kena Schwabera i Jeffa Sutherlanda. Do opracowania tłumaczenia aktualnej wersji przyczynili się: Tomek Włodarek , Monika Malcherek , Andrzej Zińczuk , Adam Michalczyk . Dziękujemy wszystkim osobom, które brały udział w tłumaczeniu wersji poprzednich, a także wszystkim którzy je komentowali. Nie sposób wszystkich Was wymienić, ale bez Was obecne tłumaczenie na pewno byłoby mniej dojrzałe. Dziękujemy!
 
 ## Zmiany w Przewodniku po Scrumie z 2020 roku w stosunku do wersji z 2017 roku
 

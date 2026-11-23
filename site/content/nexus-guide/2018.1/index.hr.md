@@ -260,7 +260,7 @@ Nexus i Skalirani Profesionalni Scrum su zajednički razvili: Ken Schwaber, Davi
 
 ### Prijevod i prilagodba na hrvatski jezik
 
-Vodič za Nexus je s engleskog jezika preveo i prilagodio na hrvatski jezik Amir Hasanović mailto:hasanovic.amir@gmail.com, LinkedIn: https://www.linkedin.com/in/amir-hasanović-4996528/
+Vodič za Nexus je s engleskog jezika preveo i prilagodio na hrvatski jezik Amir Hasanović mailto:, LinkedIn: https://www.linkedin.com/in/amir-hasanović-4996528/
 
 ### Promjene u Vodiču za Nexus 2015-2018
 

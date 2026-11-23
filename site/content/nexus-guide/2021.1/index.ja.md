@@ -206,7 +206,7 @@ Nexus および Scaled Professional Scrum は、Ken Schwaber、David Dame、Rich
 
 本ガイドは、上記の開発者による英語バージョンを⽇本語に翻訳したものである。⽇本語訳は、 ⾓征典（@kdmsnr）と守⽥憲司（@wsfjp）が担当した。
 
-翻訳に関する連絡先：⾓征典（kdmsnr@gmail.com）
+翻訳に関する連絡先：⾓征典
 
 ### ⽤語集
 

@@ -374,7 +374,7 @@ Hướng Dẫn Scrum 2020 chú trọng vào việc loại bỏ những câu ch�
 
 Hướng dẫn này được dịch ra từ bản gốc tiếng Anh cung cấp bởi những người phát triển nó như trong lời tri ân bên trên. Biên dịch bởi Đoàn Nguyễn Minh Tuệ
 
-Thông tin liên lạc Tên người biên dịch: ĐOÀN NGUYỄN MINH TUỆ Địa chỉ thư điện tử: tue.doannguyenminh@yahoo.com LinkedIn: https://www.linkedin.com/in/tuedoannguyen
+Thông tin liên lạc Tên người biên dịch: ĐOÀN NGUYỄN MINH TUỆ Địa chỉ thư điện tử: LinkedIn: https://www.linkedin.com/in/tuedoannguyen
 
 ---
 

@@ -372,7 +372,7 @@ Beatrice Sandescu ‐ Romania Camelia Dunare, PhD – Regatul Unit al Marii Brit
 
 Informații de contact:
 
-Nume: Dan Stelian Roman Adresa email: dan.s.roman@gmail.com Profil LinkedIn: https://www.linkedin.com/in/dansroman/ Grup LinkedIn: https://www.linkedin.com/groups/10358732 Pagina Web: https://dan‐roman.wixsite.com/ghidul‐scrum
+Nume: Dan Stelian Roman Adresa email: Profil LinkedIn: https://www.linkedin.com/in/dansroman/ Grup LinkedIn: https://www.linkedin.com/groups/10358732 Pagina Web: https://dan‐roman.wixsite.com/ghidul‐scrum
 
 #### Change Log
 

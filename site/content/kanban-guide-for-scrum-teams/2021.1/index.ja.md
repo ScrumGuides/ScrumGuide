@@ -210,7 +210,7 @@ Glaudia Califano、Louis-Philippe Carignan、Charles Bradley、Jose Casal、Andy
 
 本ガイドは、上記の開発者による英語バージョンからの⽇本語訳である。⽇本語訳は⾓ 征典と原⽥巌が担当した。
 
-翻訳に関する連絡先 ：⾓征典（kdmsnr@gmail.com）
+翻訳に関する連絡先 ：⾓征典
 
 ### 用語集
 

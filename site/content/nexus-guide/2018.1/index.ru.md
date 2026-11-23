@@ -248,13 +248,13 @@ Nexus и Scaled Professional Scrum были разработаны совмес�
 
 Перевод руководства на русский выполнен участниками сообщества Scrum Russia:
 
-- Дмитрий Ильиных (dmitriy.ilinykh@gmail.com, PSM I, ICP-ACC)
+- Дмитрий Ильиных (, PSM I, ICP-ACC)
 
-- Сергей Господчиков (sergey.gospodchikov@gmail.com, https://www.facebook.com/s.gospodchikov, PSM II, PSPO I, CLP)
+- Сергей Господчиков (, https://www.facebook.com/s.gospodchikov, PSM II, PSPO I, CLP)
 
-- Павел Озолин (pavel.ozolin@gmail.com, https://www.ozolin.org, PSM II, PSPO I, SPS, PSK)
+- Павел Озолин (, https://www.ozolin.org, PSM II, PSPO I, SPS, PSK)
 
-- Иван Переслегин (ivan.pereslegin@gmail.com, https://www.facebook.com/pereslegin, PSM II, PSPO I, SPS, CLB)
+- Иван Переслегин (, https://www.facebook.com/pereslegin, PSM II, PSPO I, SPS, CLB)
 
 ### Примечание переводчиков
 

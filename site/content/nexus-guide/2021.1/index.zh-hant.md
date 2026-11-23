@@ -260,7 +260,7 @@ Nexus 和規模化專業 Scrum 的重大貢獻。
 
 本指南譯自上述致謝中發展者提供的英文原始版本。翻譯者包括：
 
-鄭偉鵬 Adrian Cheng, PSM III. adriancwp@gmail.com
+鄭偉鵬 Adrian Cheng, PSM III.
 
 linkedin.com/in/adrian‐cheng‐wp/
 

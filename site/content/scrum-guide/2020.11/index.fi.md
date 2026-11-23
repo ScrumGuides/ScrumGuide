@@ -370,7 +370,7 @@ Scrumin koko historia on kuvattu toisaalla. Haluamme erityisesti kunnioittaa seu
 
 #### Käännös
 
-Tämä opas on käännetty Ken Schwaberin ja Jeff Sutherlandin englanninkielisestä alkuperäisteoksesta. Käännöksen on toimittanut Lare Lekman apunaan kotimaiset Scrumin ammattilaiset Arto Eskelinen, Teemu Hyyryläinen, Tommi Kemppi, Maarit Laanti, Sami Lilja, Karoliina Luoto, Pentti Virtanen ja Lasse Ziegler joulukuussa 2020. Käännöksen tarkistukseen ja kielenhuoltoon osallistuivat lisäksi Tuuli Pesonen, Erkki Tapola, Kari Ahokas, Kari Kakkonen, Sirkka Lekman, Pasi Savanainen, Eero Kurkela, Niko Salminen ja Vesa Purho. Lähetä muutosja korjauspyynnöt tarvittaessa Lare Lekmanille osoitteeseen lare.lekman@gmail.com.
+Tämä opas on käännetty Ken Schwaberin ja Jeff Sutherlandin englanninkielisestä alkuperäisteoksesta. Käännöksen on toimittanut Lare Lekman apunaan kotimaiset Scrumin ammattilaiset Arto Eskelinen, Teemu Hyyryläinen, Tommi Kemppi, Maarit Laanti, Sami Lilja, Karoliina Luoto, Pentti Virtanen ja Lasse Ziegler joulukuussa 2020. Käännöksen tarkistukseen ja kielenhuoltoon osallistuivat lisäksi Tuuli Pesonen, Erkki Tapola, Kari Ahokas, Kari Kakkonen, Sirkka Lekman, Pasi Savanainen, Eero Kurkela, Niko Salminen ja Vesa Purho. Lähetä muutosja korjauspyynnöt tarvittaessa Lare Lekmanille osoitteeseen
 
 ## Muutokset Scrum-oppaan versioiden 2017 ja 2020 välillä
 

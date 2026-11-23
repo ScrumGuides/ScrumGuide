@@ -260,13 +260,13 @@ Agradecemos especialmente a Glaudia Califano, Louis-Philippe Carignan, Charles B
 
 Esta traducción ha sido realizada por:
 
-- Alex Ballarin Latre | alex@itnove.com | linkedin.com/in/alexballarin
+- Alex Ballarin Latre | | linkedin.com/in/alexballarin
 
-- Guillem Hernández Sola | guillem@agile611.com | linkedin.com/in/guillemhs
+- Guillem Hernández Sola | | linkedin.com/in/guillemhs
 
-- David Martí Lleida | david@xsfera.com | linkedin.com/in/davidmarti
+- David Martí Lleida | | linkedin.com/in/davidmarti
 
-- David Tardini | htardini@gmail.com | linkedin.com/in/davihtardini
+- David Tardini | | linkedin.com/in/davihtardini
 
 Para mantener la consistencia con las traducciones de otras guías de Scrum.org, se han mantenido en inglés los siguientes términos:
 

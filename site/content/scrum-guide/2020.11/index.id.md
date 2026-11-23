@@ -344,9 +344,9 @@ Sejarah lengkap Scrum dijelaskan di tempat lain. Untuk menghormati tempat pertam
 
 Terjemahan
 
-Panduan ini telah diterjemahkan dari versi asli berbahasa Inggris yang disediakan oleh pengembang di atas. Terjemahan ini dikelola oleh Warkop Agile (warkopagile@gmail.com). Informasi dan saran tentang terjemahan ini, dapat menghubungi Contact Person:
+Panduan ini telah diterjemahkan dari versi asli berbahasa Inggris yang disediakan oleh pengembang di atas. Terjemahan ini dikelola oleh Warkop Agile . Informasi dan saran tentang terjemahan ini, dapat menghubungi Contact Person
 
-- Bie - warkopagile@gmail.com
+- Bie -
 
 ## Perubahan dari Panduan Scrum 2017 menjadi Panduan Scrum 2020
 
@@ -366,7 +366,7 @@ Penyederhanaan Bahasa Secara Keseluruhan untuk Audiens yang Lebih Luas Panduan S
 
 ## Catatan Penerjemah
 
-Dokumen terjemahan ini telah melalui proses penerjemahan dan penyuntingan seakurat mungkin sesuai kemampuan penerjemah dan mengikuti aturan penerjemahan resmi. Beberapa kata tidak diterjemahkan untuk menghindari kerancuan dan pergeseran makna. Penerjemah melampirkan beberapa kata kunci dari dokumen sumber, dan terjemahannya pada dokumen ini. Untuk memahami lebih baik, penerjemah menyarankan agar memahami dokumen sumbernya langsung. Apabila ada bagian terjemahan yang dirasa kurang akurat, silakan menyarankan terjemahan yang lebih baik melalui warkopagile@gmail.com
+Dokumen terjemahan ini telah melalui proses penerjemahan dan penyuntingan seakurat mungkin sesuai kemampuan penerjemah dan mengikuti aturan penerjemahan resmi. Beberapa kata tidak diterjemahkan untuk menghindari kerancuan dan pergeseran makna. Penerjemah melampirkan beberapa kata kunci dari dokumen sumber, dan terjemahannya pada dokumen ini. Untuk memahami lebih baik, penerjemah menyarankan agar memahami dokumen sumbernya langsung. Apabila ada bagian terjemahan yang dirasa kurang akurat, silakan menyarankan terjemahan yang lebih baik melalui
 
 Sumber
 

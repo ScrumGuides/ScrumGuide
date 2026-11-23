@@ -222,7 +222,7 @@ Questa guida è stata tradotta dalla versione originale in inglese fornita dagli
 
 Contatto
 
-Nome del traduttore: Massimo Sarti Email del contatto principale: email@massimosarti.it Sito web: https://massimosarti.it LinkedIn: https://www.linkedin.com/in/sartimassimo/ Twitter: @omixxam
+Nome del traduttore: Massimo Sarti Email del contatto principale: Sito web: https://massimosarti.it LinkedIn: https://www.linkedin.com/in/sartimassimo/ Twitter: @omixxam
 
 ---
 

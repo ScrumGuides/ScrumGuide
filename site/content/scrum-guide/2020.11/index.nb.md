@@ -404,7 +404,7 @@ Translator Name(s) : Benjamin Sommer og Geir Amsjø
 
 Translation Group Name: Lean Venture
 
-Primary Contact Email: benjamin@leanventure.com
+Primary Contact Email
 
 Website : www.leanventure.com / www.smidigkurs.no
 

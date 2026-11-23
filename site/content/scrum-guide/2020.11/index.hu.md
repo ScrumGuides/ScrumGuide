@@ -440,7 +440,7 @@ Kapcsolat:
 
 - Sprint Consulting
 
-- Elsődleges email: info@sprintconsulting.com
+- Elsődleges email
 
 - Weboldal: www.sprintconsulting.com
 

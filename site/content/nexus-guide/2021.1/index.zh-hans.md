@@ -200,7 +200,7 @@ Nexus 和 Scaled Professional Scrum 是由 Ken Schwaber、David Dame、Richard H
 
 简体中文翻译由周建成完成。
 
-联系信息译者:周建成 Email：zhoujiancheng@gmail.com 网站：http://www.lakethinker.com
+联系信息译者:周建成 Email： 网站：http://www.lakethinker.com
 
 ### 2018 版与 2021 版 Nexus 指南之间的变更
 

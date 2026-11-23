@@ -194,9 +194,9 @@ Nexus və Scaled Professional Scrum (Miqyaslı Professional Scrum) Ken Schwaber,
 
 Bu təlimat yuxarıda adları qeyd edilən müəlliflər tərəfindən təqdim edilən orijinal ingilis dili versiyasından tərcümə edilib. Tərcüməyə töhfə verənlər:
 
-Fərid Əliyev faridaliev@gmail.com https://www.linkedin.com/in/farid‐aliyev/
+Fərid Əliyev https://www.linkedin.com/in/farid‐aliyev/
 
-Emil Ağcayev eaghjayev@outlook.com https://www.linkedin.com/in/emil‐aghjayev‐product‐manager/
+Emil Ağcayev https://www.linkedin.com/in/emil‐aghjayev‐product‐manager/
 
 ### Nexus tәlimatının 2018 vә 2021 buraxılışları arasındakı dәyişikliklәr
 

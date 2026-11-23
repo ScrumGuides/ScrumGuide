@@ -212,7 +212,7 @@ Posebna zahvalnost ide Glaudia Califano, Louis-Philippe Carignan, Charles Bradle
 
 Ovaj vodič je preveden sa originalne engleske verzije koju su omogućili gore navedeni u sekciji Priznanja. Saradnici na prevodu:
 
-Dunja Ibročić (dunja.ibrocic@brightmarbles.io; https://www.linkedin.com/in/dunja-ibrocic- 492862162/ ) Svetlana Kosić (svetlana.kosic@brightmarbles.io; https://www.linkedin.com/in/svetlanakosi%C4%87/ ) Biljana Kovač (biljana.kovac@brightmarbles.io; https://www.linkedin.com/in/biljanakovac5885/ )
+Dunja Ibročić (; https://www.linkedin.com/in/dunja-ibrocic- 492862162/ ) Svetlana Kosić (; https://www.linkedin.com/in/svetlanakosi%C4%87/ ) Biljana Kovač (; https://www.linkedin.com/in/biljanakovac5885/ )
 
 ---
 

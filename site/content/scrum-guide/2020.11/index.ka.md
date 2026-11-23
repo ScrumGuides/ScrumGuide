@@ -348,7 +348,7 @@ Done განმარტება ხელს უწყობს საერ
 
 Translator Acknowledgement
 
-This guide has been translated from the original English version provided by the developers acknowledged above. Contributors to the translation include members of “Agile Georgia” community. Contact Information Translation Group Name: “Agile Georgia” Contact Email: info@agilegeorgia.ge
+This guide has been translated from the original English version provided by the developers acknowledged above. Contributors to the translation include members of “Agile Georgia” community. Contact Information Translation Group Name: “Agile Georgia” Contact Email
 
 ---
 

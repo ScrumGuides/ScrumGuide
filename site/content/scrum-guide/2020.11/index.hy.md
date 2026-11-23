@@ -908,33 +908,33 @@ Medical)։
 
 մարդկանց կողմից՝
 
-- Arshak Muradyan https://www.linkedin.com/in/arshak-muradyan-phd-10b06b62/ muradyanarshak@gmail.com
+- Arshak Muradyan https://www.linkedin.com/in/arshak-muradyan-phd-10b06b62/
 
-- Sebastia Isaghulyan https://www.linkedin.com/in/sebastia-isaghulyan-0467811aa/ sebastia.isaghulyan@gmail.com
+- Sebastia Isaghulyan https://www.linkedin.com/in/sebastia-isaghulyan-0467811aa/
 
-- Rita Keshishian https://www.linkedin.com/in/rita-keshishian/ rita.keshishian2@gmail.com
+- Rita Keshishian https://www.linkedin.com/in/rita-keshishian/
 
-- Lilit Tsaturyan https://www.linkedin.com/in/lilit-tsaturyan-8b851214b/ lilit.tsaturyan96@gmail.com
+- Lilit Tsaturyan https://www.linkedin.com/in/lilit-tsaturyan-8b851214b/
 
 - Argine Avagyan
 
-https://www.linkedin.com/in/argine-avagyan-67a960218/ argine.avagyan.123@gmail.com
+https://www.linkedin.com/in/argine-avagyan-67a960218/
 
 - Vahe Abrahamyan https://w w w .linkedin.com /in/vahe-abraham yan
 
-abrahamyanvahe43@gmail.com
 
-- Nara Ghazaryan https://www.linkedin.com/in/naraghazaryan/ naraghazaryan6@gmail.com
 
-- Ani Grigoryan https://www.linkedin.com/in/ani-grigoryan-a93559230/ anigrig.v@gmail.com
+- Nara Ghazaryan https://www.linkedin.com/in/naraghazaryan/
 
-- Karine Harutyunyan https://www.linkedin.com/in/karine-harutyunian-8034a2184/ artic.karine.95@gmail.com
+- Ani Grigoryan https://www.linkedin.com/in/ani-grigoryan-a93559230/
 
-- Diana Evinyan https://www.linkedin.com/in/diana-evinian-7b41b8272 dian.evinyan@gmail.com
+- Karine Harutyunyan https://www.linkedin.com/in/karine-harutyunian-8034a2184/
 
-- Armine Oleyan https://www.linkedin.com/in/armine-oleyan-2a9744180 armineoleyan@gmail.com
+- Diana Evinyan https://www.linkedin.com/in/diana-evinian-7b41b8272
 
-- Hrayr Movsisyan http://linkedin.com/in/movsisian/ hrayrmovsisyan@gmail.com
+- Armine Oleyan https://www.linkedin.com/in/armine-oleyan-2a9744180
+
+- Hrayr Movsisyan http://linkedin.com/in/movsisian/
 
 - Mariam Hovhannisyan https://www.linkedin.com/in/mariam-hovhannisyan-9640b1193
 

@@ -220,9 +220,9 @@ Táto príručka bola preložená z angličtiny. Pôvodnú anglickú verziu posk
 
 Kontaktné údaje:
 
-Meno prekladateľa: Michal Šimurka (preklad) Názov prekladateľskej skupiny: Panaxeo Primárny email: michal.simurka@panaxeo.com LinkedIn: https://www.linkedin.com/in/msimurka/
+Meno prekladateľa: Michal Šimurka (preklad) Názov prekladateľskej skupiny: Panaxeo Primárny email: LinkedIn: https://www.linkedin.com/in/msimurka/
 
-Meno prekladateľa: Adam Okruhlica (odborná korekcia) Názov prekladateľskej skupiny: Panaxeo Primárny email: adam.okruhlica@panaxeo.com LinkedIn: https://www.linkedin.com/in/adam-okruhlica/
+Meno prekladateľa: Adam Okruhlica (odborná korekcia) Názov prekladateľskej skupiny: Panaxeo Primárny email: LinkedIn: https://www.linkedin.com/in/adam-okruhlica/
 
 ## Zmeny v Príručke Nexusu medzi rokmi 2018 a 2021
 

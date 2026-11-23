@@ -218,13 +218,13 @@ Nexus y Scaled Professional Scrum fueron desarrollados en colaboración por Ken 
 
 Esta traducción ha sido realizada por:
 
-- Alex Ballarin Latre | alex@itnove.com | linkedin.com/in/alexballarin
+- Alex Ballarin Latre | | linkedin.com/in/alexballarin
 
-- Guillem Hernández Sola | guillem@agile611.com | linkedin.com/in/guillemhs
+- Guillem Hernández Sola | | linkedin.com/in/guillemhs
 
-- David Martí | davidmarti@hotmail.com | linkedin.com/in/davihtardini
+- David Martí | | linkedin.com/in/davihtardini
 
-- David Tardini | htardini@gmail.com | linkedin.com/in/davihtardini
+- David Tardini | | linkedin.com/in/davihtardini
 
 Para mantener la consistencia con las traducciones de otras guías de Scrum.org, se han mantenido en inglés los siguientes términos:
 
@@ -270,13 +270,13 @@ El resto de los términos se ha traducido, indicando entre paréntesis aquellos 
 
 Esta traducción ha sido realizada por:
 
-- Alex Ballarin Latre | alex@itnove.com | linkedin.com/in/alexballarin
+- Alex Ballarin Latre | | linkedin.com/in/alexballarin
 
-- Guillem Hernández Sola | guillem@agile611.com | linkedin.com/in/guillemhs
+- Guillem Hernández Sola | | linkedin.com/in/guillemhs
 
-- David Martí | davidmarti@hotmail.com | linkedin.com/in/davihtardini
+- David Martí | | linkedin.com/in/davihtardini
 
-- David Tardini | htardini@gmail.com | linkedin.com/in/davihtardini
+- David Tardini | | linkedin.com/in/davihtardini
 
 Para mantener la consistencia con las traducciones de otras guías de Scrum.org, se han mantenido en inglés los siguientes términos:
 

@@ -296,7 +296,7 @@ Speciale dank aan Glaudia Califano, Louis-Philippe Carignan, Charles Bradley, Jo
 
 Vertaling
 
-Deze gids is vertaald vanuit de originele Engelse versie. Aan de vertaling hebben meegewerkt: 2021: Jasper Alblas jasperalblas@gmail.com Glaudia Califano glaudia.califano@redtangerine.org Stephan Vlieland stephan_vlieland@hotmail.com
+Deze gids is vertaald vanuit de originele Engelse versie. Aan de vertaling hebben meegewerkt: 2021: Jasper Alblas Glaudia Califano Stephan Vlieland
 
 Voor vragen en opmerkingen over de vertaling kun je contact opnemen met één van bovenstaande personen.
 

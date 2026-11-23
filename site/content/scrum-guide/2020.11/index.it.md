@@ -355,7 +355,7 @@ Forni e Tarin Gamberini
 
 Nome del gruppo dei traduttori: Gruppo Linkedin Scrum Italia
 
-Contatto email principale: francesco.lomonaco@gmail.com
+Contatto email principale
 
 Hanno contribuito ai precedenti lavori di traduzione:
 

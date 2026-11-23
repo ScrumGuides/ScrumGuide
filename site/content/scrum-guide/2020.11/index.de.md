@@ -385,7 +385,7 @@ Kontaktinformationen
 
 Name der Übersetzungsgruppe: Bewerbungen werden angenommen unter: Primärer Ansprechpartner / Product Owner: Kontaktadresse:
 
-GermanScrumTranslators https://www.linkedin.com/groups/4071080/ Dominik Maximini translation@valuerise-consulting.de
+GermanScrumTranslators https://www.linkedin.com/groups/4071080/ Dominik Maximini
 
 #### Änderungshistorie der Übersetzung
 

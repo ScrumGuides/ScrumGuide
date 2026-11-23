@@ -246,7 +246,7 @@ Nexus Sprint Backlog
 
 Translator Names: Translator Group: Primary Contact Email: Website: LinkedIn: Twitter:
 
-Byron Georgantopoulos, Marinos Tsagkarakis, Dimitris Dimitrelos Agile Greece info@agilegreece.org http://agilegreece.org https://www.linkedin.com/groups/4651212 https://twitter.com/AgileGreece
+Byron Georgantopoulos, Marinos Tsagkarakis, Dimitris Dimitrelos Agile Greece http://agilegreece.org https://www.linkedin.com/groups/4651212 https://twitter.com/AgileGreece
 
 ### Αλλαγές μεταξύ των Οδηγών Nexus 2015 και 2018
 

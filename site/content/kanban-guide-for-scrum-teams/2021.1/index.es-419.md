@@ -266,7 +266,7 @@ Agradecemos especialmente las contribuciones de Glaudia Califano, Louis-Philippe
 
 Esta traducción ha sido realizada por:
 
-- Omar Hernández | ohdezl@yahoo.com | linkedin.com/in/ohdez
+- Omar Hernández | | linkedin.com/in/ohdez
 
 - Para mantener la consistencia con las traducciones de otras guías de Scrum.org, se han mantenido en inglés los siguientes términos:
 

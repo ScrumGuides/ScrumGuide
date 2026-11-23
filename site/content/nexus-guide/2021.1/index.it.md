@@ -240,7 +240,7 @@ Questa guida è stata tradotta dalla versione originale inglese creata dagli aut
 
 Hanno contribuito alla traduzione Francesco Macri e Amin Al Hazwani.
 
-Contatto email principale: agiletraining.fm@gmail.com
+Contatto email principale
 
 ## Modifiche tra le versioni del 2018 e del 2021 della Guida a Nexus
 

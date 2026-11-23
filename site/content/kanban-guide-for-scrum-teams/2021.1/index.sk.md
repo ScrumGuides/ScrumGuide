@@ -228,7 +228,7 @@ LinkedIn:
 
 Miroslav Drugda
 
-miro.drugda26@gmail.com
+
 
 https://www.linkedin.com/in/miroslav-drugda-7338a812b/
 

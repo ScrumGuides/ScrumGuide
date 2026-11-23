@@ -348,15 +348,15 @@ Scrum’дын толук тарыхы башка жерде сүрөттөлг�
 
 Бул Колдонмо жогоруда таанылган иштеп чыгуучулар тарабынан берилген англисче версиясынан которулган. Cалым кошкондордун тизмесинде:
 
-- Бакыева Алтынай, bakyeva37@gmail.com, https://www.linkedin.com/in/altynai‐bakyeva‐ 403378131/
+- Бакыева Алтынай, https://www.linkedin.com/in/altynai‐bakyeva‐ 403378131/
 
-- Кокумбаева Жамал, zhmalkokumbaeva@gmail.com, www.linkedin.com/in/jamal‐kokumbaeva‐ 166b31240
+- Кокумбаева Жамал, www.linkedin.com/in/jamal‐kokumbaeva‐ 166b31240
 
-- Чаначев Алмаз, achanachev@gmail.com, https://www.linkedin.com/in/almaz‐chanachev
+- Чаначев Алмаз, https://www.linkedin.com/in/almaz‐chanachev
 
-- Джамбаева Индира, indiradjambaeva@gmail.com
+- Джамбаева Индира
 
-- Султанов Азамат, azamat.gla@gmail.com, https://www.linkedin.com/in/azamat‐sultanova7a040185/
+- Султанов Азамат, https://www.linkedin.com/in/azamat‐sultanova7a040185/
 
 ## Терминдер сөздүгү:
 

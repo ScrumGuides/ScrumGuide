@@ -246,7 +246,7 @@ Nexus e Scrum Profissional Escalado foram desenvolvidos colaborativamente por Ke
 
 Nomes dos tradutores: Eduardo Rodrigues Sucena e Fábio Cruz.
 
-Email principal de contato: eduardo.sucena@getscrum.com
+Email principal de contato
 
 Website: http://www.Getscrum.com
 

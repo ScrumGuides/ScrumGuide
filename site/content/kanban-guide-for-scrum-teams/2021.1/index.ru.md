@@ -260,21 +260,21 @@ Kanban‐практики оптимизации потока предостав
 
 Это руководство было переведено с оригинальной английской версии командой переводчиков. Состав команды:
 
-Гирин Андрей, gi.perm@gmail.com, facebook.com/andreigirin
+Гирин Андрей, facebook.com/andreigirin
 
-Глинка Виктор, ask@viktorglinka.com, https://www.facebook.com/vic.glinka
+Глинка Виктор, https://www.facebook.com/vic.glinka
 
-Господчиков Сергей uln@rambler.ru, https://www.facebook.com/s.gospodchikov/
+Господчиков Сергей , https://www.facebook.com/s.gospodchikov/
 
-Зегнитц Наталия nsegnitz@gmail.com, https://www.facebook.com/natalia.segnitz/
+Зегнитц Наталия , https://www.facebook.com/natalia.segnitz/
 
-Ларченко Игорь igor.larchenko@gmail.com, https://www.facebook.com/igor.l.larchenko
+Ларченко Игорь , https://www.facebook.com/igor.l.larchenko
 
-Макаркин Сергей, s.makarkin@gmail.com, https://www.facebook.com/s.b.makarkin/
+Макаркин Сергей, https://www.facebook.com/s.b.makarkin/
 
-Румянцев Михаил, rummikhail@gmail.com, https://www.facebook.com/mikhail.rumyantsev/
+Румянцев Михаил, https://www.facebook.com/mikhail.rumyantsev/
 
-Вязанкин Михаил, misha@agileverse.ru, https://www.facebook.com/m.vyazankin
+Вязанкин Михаил, https://www.facebook.com/m.vyazankin
 
 ---
 

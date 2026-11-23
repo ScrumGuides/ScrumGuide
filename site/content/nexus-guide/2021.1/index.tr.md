@@ -246,13 +246,13 @@ Nexus ve Scaled Professional Scrum, Ken Schwaber, David Dame, Richard Hundhausen
 
 Bu kılavuz yukarıda belirtilen geliştiriciler tarafından sağlanan orijinal İngilizce sürümünden çevrilmiştir. Çeviriye katkıda bulunanlar: Emin Gürbüz, İlkay Polat, Tolga Kombak, Elif Yardımcı
 
-İletişim Bilgileri: Çevirmen İsmi: Emin Gürbüz Öncelikli İletişim E‐postası: Emin.gurbuz@acmagile.com LinkedIn: https://www.linkedin.com/in/emingurbuz/
+İletişim Bilgileri: Çevirmen İsmi: Emin Gürbüz Öncelikli İletişim E‐postası: LinkedIn: https://www.linkedin.com/in/emingurbuz/
 
-İletişim Bilgileri: Çevirmen İsmi: İlkay Polat Öncelikli İletişim E‐postası: Ilkay.Polat@crediteurope.nl LinkedIn: https://www.linkedin.com/in/ilkaypolat/
+İletişim Bilgileri: Çevirmen İsmi: İlkay Polat Öncelikli İletişim E‐postası: LinkedIn: https://www.linkedin.com/in/ilkaypolat/
 
-İletişim Bilgileri: Çevirmen İsmi: Tolga Kombak Öncelikli İletişim E‐postası: tolga.kombak@acmagile.com LinkedIn: https://www.linkedin.com/in/tolga‐kombak/
+İletişim Bilgileri: Çevirmen İsmi: Tolga Kombak Öncelikli İletişim E‐postası: LinkedIn: https://www.linkedin.com/in/tolga‐kombak/
 
-İletişim Bilgileri: Çevirmen İsmi: Elif Yardımcı Öncelikli İletişim E‐postası: yardimcielif@gmail.com LinkedIn: https://www.linkedin.com/in/elif‐yard%C4%B1mc%C4%B1‐8414aa57/
+İletişim Bilgileri: Çevirmen İsmi: Elif Yardımcı Öncelikli İletişim E‐postası: LinkedIn: https://www.linkedin.com/in/elif‐yard%C4%B1mc%C4%B1‐8414aa57/
 
 ### Sözlük
 

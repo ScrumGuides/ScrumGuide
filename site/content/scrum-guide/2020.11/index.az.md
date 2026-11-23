@@ -342,7 +342,7 @@ Scrum Tәlimatı Jeff Sutherland vә Ken Schwaber tәrәfindәn 30 ildәn çox m
 
 Scrum-ın bütöv tarixçәsi başqa sәnәdlәrdә göstәrilmişdir. Proqramın sınaqdan keçirildiyi vә sübut edildiyi ilk yerlәri kimi Individual Inc., Newspage, Fidelity Investments, vә IDX (hazırda GE Medical) xüsusilә qeyd edilmәlidir.
 
-Tәrcümәçinin әlaqә mәlumatları: Agile Azerbaijan Community - agileazerbaijan@gmail.com
+Tәrcümәçinin әlaqә mәlumatları: Agile Azerbaijan Community -
 
 ### 2017 Scrum Təlimatı ilə 2020 Scrum Təlimatı arasında olan dəyişikliklər
 

@@ -383,11 +383,11 @@ aliases:
 
 본 스크럼 가이드 (2020) 한글판은 위 감사의 말에 소개된 개발자들로부터 제공된 영어 원문을 번역한 것이다. 번역 참여자는 김영민 Youngmin Kim, 박종하 Jonghah Park, 조동형 Donghyung Cho 이며, 박찬희 Chanhee Park 와 강필승 Philseung Kang 이 리뷰를 하였다.
 
-대표 연락처: 김영민 francis.youngmin.kim@gmail.com
+대표 연락처: 김영민
 
 이전 버전의 한글판 번역자들에게도 감사를 드린다.
 
-2013, 2017 : Scrum Korean ( scrum-korean1@googlegroups.com - 유을수 Sue Ryu, 김재욱 Jae Kim, 백미진 Mijin Baek )
+2013, 2017 : Scrum Korean ( - 유을수 Sue Ryu, 김재욱 Jae Kim, 백미진 Mijin Baek )
 
 ### 용어집
 

@@ -340,15 +340,15 @@ Scrum e бесплатен и е понуден во овој Водич. Scrum 
 
 Овој водич е преведен од оригиналната Англиски верзија, креирана од погоре наведените девелопери (developers). Соработници:
 
-- Влатко Петревски o Е-mail: vlatko.petrevski@gmail.com o LinkedIn: www.linkedin.com/in/vlatkopetrevski
+- Влатко Петревски o Е-mail: o LinkedIn: www.linkedin.com/in/vlatkopetrevski
 
-- Асистент: Александра Петревска o Е-mail: astoilkovska@yahoo.com o LinkedIn: www.linkedin.com/in/aleksandrapetrevska
+- Асистент: Александра Петревска o Е-mail: o LinkedIn: www.linkedin.com/in/aleksandrapetrevska
 
 This guide has been translated from the original English version provided by the developers acknowledged above. Contributors to:
 
-- Vlatko Petrevski o Е-mail: vlatko.petrevski@gmail.com o LinkedIn: www.linkedin.com/in/vlatkopetrevski
+- Vlatko Petrevski o Е-mail: o LinkedIn: www.linkedin.com/in/vlatkopetrevski
 
-- Assistant: Aleksandra Petrevska o Е-mail: astoilkovska@yahoo.com o LinkedIn: www.linkedin.com/in/aleksandrapetrevska
+- Assistant: Aleksandra Petrevska o Е-mail: o LinkedIn: www.linkedin.com/in/aleksandrapetrevska
 
 ## Поимник
 

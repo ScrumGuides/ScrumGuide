@@ -216,7 +216,7 @@ Florian Sauter
 
 Kontaktadresse:
 
-german‐nexus‐translators@googlegroups.com
+german‐nexus‐
 
 ## Änderungen des Nexus Guides von 2021 im Vergleich zu 2018
 

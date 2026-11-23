@@ -341,7 +341,7 @@ De volledige geschiedenis van Scrum wordt elders beschreven. Ter ere van de eers
 
 #### Vertaling
 
-Deze Gids is vertaald vanuit de originele Engelse versie, beschikbaar gesteld door de ontwikkelaars van Scrum, die hierboven genoemd worden. Deze vertaling is gemaakt door Ruud Rietveld (scrumruud@gmail.com), Jaap Verweij en Maarten Wagenaar. Hun dank gaat uit naar Stefan Warringa, Eelco Gravendeel, Marco Heerebout, Peter Janssens en Arjen Wassink voor de eerdere versies van de Nederlandse vertaling.
+Deze Gids is vertaald vanuit de originele Engelse versie, beschikbaar gesteld door de ontwikkelaars van Scrum, die hierboven genoemd worden. Deze vertaling is gemaakt door Ruud Rietveld , Jaap Verweij en Maarten Wagenaar. Hun dank gaat uit naar Stefan Warringa, Eelco Gravendeel, Marco Heerebout, Peter Janssens en Arjen Wassink voor de eerdere versies van de Nederlandse vertaling.
 
 #### Wijzigingen ten opzichte van de 2017 Scrum Gids
 

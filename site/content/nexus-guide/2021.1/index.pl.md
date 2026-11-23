@@ -198,7 +198,7 @@ Nexus oraz Scaled Professional Scrum zostały wspólnie opracowane przez Kena Sc
 
 ## Tłumaczenie
 
-Niniejszy Przewodnik został przetłumaczony z wersji oryginalnej opracowanej przez Kena Schwabera i Scrum.org. Do opracowania tłumaczenia aktualnej wersji przyczynili się: Tomek Włodarek (tomek@poddrzewem.pl), Monika Malcherek (malmon@protonmail.com), Andrzej Zińczuk (azinczuk@gmail.com) i Adam Michalczyk (tashisenge@gmail.com). Dziękujemy wszystkim osobom, które brały udział w tłumaczeniu wersji poprzednich, a także wszystkim którzy je komentowali. Nie sposób wszystkich Was wymienić, ale bez Was obecne tłumaczenie na pewno byłoby mniej dojrzałe. Dziękujemy!
+Niniejszy Przewodnik został przetłumaczony z wersji oryginalnej opracowanej przez Kena Schwabera i Scrum.org. Do opracowania tłumaczenia aktualnej wersji przyczynili się: Tomek Włodarek , Monika Malcherek , Andrzej Zińczuk i Adam Michalczyk . Dziękujemy wszystkim osobom, które brały udział w tłumaczeniu wersji poprzednich, a także wszystkim którzy je komentowali. Nie sposób wszystkich Was wymienić, ale bez Was obecne tłumaczenie na pewno byłoby mniej dojrzałe. Dziękujemy!
 
 ### Zmiany między wersją Przewodnika z 2018 roku a wersją z 2021 roku
 

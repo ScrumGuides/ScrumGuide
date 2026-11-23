@@ -347,7 +347,7 @@ La historia completa de Scrum se describe en otro lugar. Para honrar los primero
 
 Traductores
 
-Esta guía ha sido traducida de la versión original en inglés proporcionada por Ken Schwaber y Jeff Sutherland. El equipo de personas que han contribuido a esta traducción está formado por: David Hernán Tardini y David Marti. Información de contacto y traductores: David HernánTardini Email: htardini@gmail.com www.linkedin.com/in/davidhtardini David Marti Email: davidmarti@hotmail.com https://twitter.com/xsfera
+Esta guía ha sido traducida de la versión original en inglés proporcionada por Ken Schwaber y Jeff Sutherland. El equipo de personas que han contribuido a esta traducción está formado por: David Hernán Tardini y David Marti. Información de contacto y traductores: David HernánTardini Email: www.linkedin.com/in/davidhtardini David Marti Email: https://twitter.com/xsfera
 
 ### Cambios entre las versiones 2017 y 2020 de la Guía Scrum
 

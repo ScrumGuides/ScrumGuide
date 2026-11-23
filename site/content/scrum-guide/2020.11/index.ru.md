@@ -345,57 +345,57 @@ Scrum разрешено использовать бесплатно. Описа
 
 Оригинал этого Руководства на английском языке был предоставлен авторами, перечисленными выше. В создании перевода Руководства по Scrum на русский язык принимали участие:
 
-- Дмитрий Блинов, dmitriy.blinov@mail.ru, dblinov.com, facebook.com/dblinov
+- Дмитрий Блинов, dblinov.com, facebook.com/dblinov
 
-- Илья Павличенко, fancydev@gmail.com, agilix.ru, facebook.com/illya.pavlichenko
+- Илья Павличенко, agilix.ru, facebook.com/illya.pavlichenko
 
-- Сергей Лобин, sergey@agilix.ru, facebook.com/2heoh
+- Сергей Лобин, facebook.com/2heoh
 
-- Роман Дорошенко, roman@agilix.ru, facebook.com/doroshenko.roma
+- Роман Дорошенко, facebook.com/doroshenko.roma
 
-- Евгения Кузнецова, evgenia@agilix.ru, facebook.com/jkbercan
+- Евгения Кузнецова, facebook.com/jkbercan
 
-- Максим Баталин, maxalin@gmail.com, agilelab.org
+- Максим Баталин, agilelab.org
 
-- Сергей Господчиков, uln@rambler.ru, facebook.com/s.gospodchikov
+- Сергей Господчиков, facebook.com/s.gospodchikov
 
-- Анна Шатрова, 7319162@gmail.com, facebook.com/productOwnerLife
+- Анна Шатрова, facebook.com/productOwnerLife
 
-- Анастасия Бутова-Никишина, butova.nikishina.a.s@gmail.com
+- Анастасия Бутова-Никишина
 
-- Мадина Ефанова, m.zhumatayeva@gmail.com
+- Мадина Ефанова
 
-- Дмитрий Орлов, dmitriy.v.orlov@yandex.ru, facebook.com/OrlovDmitriyV
+- Дмитрий Орлов, facebook.com/OrlovDmitriyV
 
-- Игорь Титов, igor.ev.titov@gmail.com, facebook.com/igor.ev.titov
+- Игорь Титов, facebook.com/igor.ev.titov
 
-- Данила Шалыгин, shal1928@yandex.ru, facebook.com/dshal1928
+- Данила Шалыгин, facebook.com/dshal1928
 
-- Антон Соловей, solovey.anton@gmail.com, facebook.com/solovey.anton
+- Антон Соловей, facebook.com/solovey.anton
 
-- Иван Бударин, ibudarin87@gmail.com, facebook.com/ivan.budarin
+- Иван Бударин, facebook.com/ivan.budarin
 
-- Маша Сосновец, msosnovets@gmail.com, facebook.com/maria.sosnovets
+- Маша Сосновец, facebook.com/maria.sosnovets
 
-- Олеся Мойса, mojsa@physics.msu.ru, facebook.com/olesya.moysa
+- Олеся Мойса, facebook.com/olesya.moysa
 
-- Александр Селяев, selyaev.alec@gmail.com, facebook.com/alex.selyaev
+- Александр Селяев, facebook.com/alex.selyaev
 
-- Саша Бондарчук, Alexander.bondarchuk@gmail.com
+- Саша Бондарчук
 
 Object-Oriented Programming Systems, Languages and Applications.
 
-- Наталия Зегнитц, nsegnitz@gmail.com, facebook.com/natalia.segnitz
+- Наталия Зегнитц, facebook.com/natalia.segnitz
 
-- Андрей Дема, demaao@mail.ru
+- Андрей Дема
 
-- Левон Гончаров, levon@agileverse.ru, agileverse.ru, facebook.com/levon.goncharov
+- Левон Гончаров, agileverse.ru, facebook.com/levon.goncharov
 
-- Николай Шаповалов, nikolay.shapovalov@gmail.com
+- Николай Шаповалов
 
-- Эдуард Дулич, edulich@gmail.com, facebook.com/eduard.dulich
+- Эдуард Дулич, facebook.com/eduard.dulich
 
-- Григорий Кузнецов, kuznetsovga@gmail.com, facebook.com/kuznetsovga
+- Григорий Кузнецов, facebook.com/kuznetsovga
 
 - Сообщество Scrum Russia, facebook.com/groups/scrum.ru
 

@@ -432,7 +432,7 @@ Kompletná história Scrumu je popísaná inde. Aby sme vzdali hold prvým miest
 
 #### Poďakovanie prekladateľom
 
-Táto Príručka Scrumu bola preložená z pôvodnej anglickej verzie, ktorú poskytli jej vyššie ocenení tvorcovia. K prekladu prispeli Radoslav Ciglanský (radoslav.ciglansky@gmail.com, https://www.linkedin.com/in/radoslavciglansky/), Dušan Karáč (dusan.karac@gmail.com, www.linkedin.com/in/dusan-karac) a Diana Rusnáková (rusnakovadia@gmail.com, https://www.linkedin.com/in/dianarusnakova/)
+Táto Príručka Scrumu bola preložená z pôvodnej anglickej verzie, ktorú poskytli jej vyššie ocenení tvorcovia. K prekladu prispeli Radoslav Ciglanský (, https://www.linkedin.com/in/radoslavciglansky/), Dušan Karáč (, www.linkedin.com/in/dusan-karac) a Diana Rusnáková (, https://www.linkedin.com/in/dianarusnakova/)
 
 ## Rozdiely medzi Scrum Sprievodcami 2017 a 2020
 

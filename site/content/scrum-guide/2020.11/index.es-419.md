@@ -343,7 +343,7 @@ La historia completa de Scrum se describe en otros lugares. Para honrar los prim
 
 #### Traducción
 
-Esta guía ha sido traducida de la versión original en inglés proporcionada por Ken Schwaber y Jeff Sutherland. Las personas que han contribuido en la traducción son: Marcelo López, Marcelo García, Jorge Abad, Fabian Schwartz y Lucho Salazar. Información de contacto: Nombre: Lucho Salazar Correo electrónico: lucho.salazar@gmail.com Sitio Web: http://www.gazafatonarioit.com LinkedIn: http://www.linkedin.com/in/luchosalazar
+Esta guía ha sido traducida de la versión original en inglés proporcionada por Ken Schwaber y Jeff Sutherland. Las personas que han contribuido en la traducción son: Marcelo López, Marcelo García, Jorge Abad, Fabian Schwartz y Lucho Salazar. Información de contacto: Nombre: Lucho Salazar Correo electrónico: Sitio Web: http://www.gazafatonarioit.com LinkedIn: http://www.linkedin.com/in/luchosalazar
 
 ## Cambios de la Guía Scrum 2017 a la Guía Scrum 2020
 

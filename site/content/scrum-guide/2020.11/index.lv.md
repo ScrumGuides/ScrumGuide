@@ -340,7 +340,7 @@ Detalizēta Scrum vēsture ir aprakstīta citur. Par godu pirmajiem uzņēmumiem
 
 Šī ceļveža oriģinālu angļu valodā izveidoja iepriekš minētie autori. Pie Scrum Ceļveža tulkojuma izveides latviešu valodā strādāja Andris Savickis, rediģēja ‐ Amanda Zemīte. Kontakti:
 
-- E‐pasts acbrzsh@inbox.lv;
+- E‐pasts
 
 - Mājaslapa www.AgileScrum.lv;
 

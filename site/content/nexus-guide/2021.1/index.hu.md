@@ -196,9 +196,9 @@ A Nexus és a Scaled Professional Scrum Ken Schwaber, David Dame, Richard Hundha
 
 Ez az útmutató a fent megnevezett fejlesztői által rendelkezésre bocsátott eredeti angol verzió fordítása.
 
-Fordították: Csécsi Miklós ‐ E‐Mail: csecsi.miklos@gmail.com ‐ LinkedIn: https://www.linkedin.com/in/mikl%C3%B3s‐cs%C3%A9csi‐70778811b/
+Fordították: Csécsi Miklós ‐ E‐Mail: ‐ LinkedIn: https://www.linkedin.com/in/mikl%C3%B3s‐cs%C3%A9csi‐70778811b/
 
-Csécsi András ‐ E‐Mail: csecsi.andris@gmail.com ‐ LinkedIn: https://www.linkedin.com/in/andr%C3%A1s‐cs%C3%A9csi‐0450ba173/
+Csécsi András ‐ E‐Mail: ‐ LinkedIn: https://www.linkedin.com/in/andr%C3%A1s‐cs%C3%A9csi‐0450ba173/
 
 ## Változások a 2018-as Nexus Útmutató és a 2021-es Nexus Útmutató között
 

@@ -220,7 +220,7 @@ Thông tin liên lạc
 
 Tên người biên dịch: Đoàn Nguyễn Minh Tuệ
 
-Địa chỉ thư điện tử: tue.doannguyenminh@yahoo.com
+Địa chỉ thư điện tử
 
 LinkedIn: https://www.linkedin.com/in/tuedoannguyen
 

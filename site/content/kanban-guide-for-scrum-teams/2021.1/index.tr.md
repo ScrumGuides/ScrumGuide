@@ -292,11 +292,11 @@ Scrum Takımları için Kanban Kılavuzu, Scrum Kılavuzu’nun bütünlüğü i
 
 İletişim Bilgileri
 
-Duygu Balcı: duygu.balci@acmagile.com / Linkedin
+Duygu Balcı: / Linkedin
 
-Ahmet Özcan: ahmet.ozcan@acmagile.com / Linkedin
+Ahmet Özcan: / Linkedin
 
-Tolga Kombak: tolga.kombak@acmagile.com / Linkedin
+Tolga Kombak: / Linkedin
 
 tüm
 

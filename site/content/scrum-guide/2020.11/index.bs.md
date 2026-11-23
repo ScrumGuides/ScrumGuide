@@ -342,7 +342,7 @@ Cjelokupna historija Scruma je opisana drugdje. Kako bismo odali počast prvim m
 
 Autori prijevoda Scrum vodiča na bosanski jezik su članovi Bosnia Agile udruženja, i to Nermina Durmić, Jasmin Heljić, Elvis Pivić i Fariz Saračević. Prijevod je verificiran i lektorisan od strane lektorice Samre Čebirić.
 
-Kontakt informacije Prevodioci: Nermina Durmić, Jasmin Heljić, Elvis Pivić, Fariz Saračević, Samra Čebirić Naziv grupe prevodioca: Udruženje Bosnia Agile Kontakt e‐mail adresa: info@agile.ba Web stranica: http://agile.ba/, https://conference.agile.ba/en/ LinkedIn: http://www.linkedin.com/groups?gid=7415020 Twitter: https://twitter.com/BosniaAgile Facebook: https://www.facebook.com/BosniaAgile
+Kontakt informacije Prevodioci: Nermina Durmić, Jasmin Heljić, Elvis Pivić, Fariz Saračević, Samra Čebirić Naziv grupe prevodioca: Udruženje Bosnia Agile Kontakt e‐mail adresa: Web stranica: http://agile.ba/, https://conference.agile.ba/en/ LinkedIn: http://www.linkedin.com/groups?gid=7415020 Twitter: https://twitter.com/BosniaAgile Facebook: https://www.facebook.com/BosniaAgile
 
 ### Izmjene od Scrum vodiča iz 2017. do Scrum vodiča iz 2020.
 

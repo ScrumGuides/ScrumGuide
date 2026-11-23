@@ -196,7 +196,7 @@ Esta guía ha sido traducida de la versión original en inglés proporcionada po
 
 ###### Información de contacto:
 
-Correo electrónico: lucho.salazar@gmail.com Sitio Web: http://www.gazafatonarioit.com LinkedIn: http://www.linkedin.com/in/luchosalazar Twitter: http://www.twiter.com/luchosalazarc
+Correo electrónico: Sitio Web: http://www.gazafatonarioit.com LinkedIn: http://www.linkedin.com/in/luchosalazar Twitter: http://www.twiter.com/luchosalazarc
 
 ## Cambios entre la guía Nexus 2018 y 2021
 

@@ -446,11 +446,11 @@ Individual, Inc., Newspage, Fidelity Investments, 和 IDX (現為 GE Medical)。
 
 本繁體 2020 中文指南 （版本 1.1）是從 Ken Schwaber 和 Jeff Sutherland 所提供的英文原版（2020 版）翻譯而 來。
 
-中文翻譯團隊（scrum-guide-chinese-translators@googlegroups.com）包括：
+中文翻譯團隊包括
 
-葛仲安（Chungan Ke）linkedin.com/in/chungan-ke 李奇霖（Tony Lee）linkedin.com/in/chilinlee 蘇於登（Ethan Soo）ethansoo@hotmail.com 王泰瑞（Terry Wang）agileTerryWang@gmail.com
+葛仲安（Chungan Ke）linkedin.com/in/chungan-ke 李奇霖（Tony Lee）linkedin.com/in/chilinlee 蘇於登（Ethan Soo） 王泰瑞（Terry Wang）
 
-王晶（Philip Wang）philip.wang@odd-e.com 周建成（Zhou Jian Cheng）zhoujiancheng@gmail.com 林偉弘 （Andrew Lin）linkedin.com/in/andrewlinagile/
+王晶（Philip Wang） 周建成（Zhou Jian Cheng） 林偉弘 （Andrew Lin）linkedin.com/in/andrewlinagile/
 
 同時，我們對以往中文版的譯者表示感謝：
 

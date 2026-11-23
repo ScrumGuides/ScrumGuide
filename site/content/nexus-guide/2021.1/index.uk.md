@@ -200,7 +200,7 @@ Nexus та Scaled Professional Scrum були розроблені спільн�
 
 Цей посібник був перекладений з оригінальної англійської версії, наданої розробниками, вказаними вище. Автор перекладу ‐ Олексій Піскунов.
 
-Контактна інформація Імʼя перекладача (Translator Name): Oleksii Piskunov Контактна електрона адреса (Primary Contact Email): piskunovalxy@gmail.com LinkedIn: https://www.linkedin.com/in/psknv/
+Контактна інформація Імʼя перекладача (Translator Name): Oleksii Piskunov Контактна електрона адреса (Primary Contact Email): LinkedIn: https://www.linkedin.com/in/psknv/
 
 ##### Зміни у Посібнику з Nexus між 2018 та 2021 роками
 

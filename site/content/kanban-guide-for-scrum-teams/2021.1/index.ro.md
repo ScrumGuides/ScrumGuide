@@ -214,7 +214,7 @@ Informații de contact:
 
 Nume: Dan Stelian Roman
 
-Adresa email: dan.s.roman@gmail.com
+Adresa email
 
 Profil LinkedIn: https://www.linkedin.com/in/dansroman/
 

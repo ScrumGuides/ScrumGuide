@@ -356,13 +356,13 @@ Scrum ривожланишининг тарихини бошқа манбала�
 
 Ушбу қўлланманинг инглиз тилидаги асл нусхаси юқорида санаб ўтилган муаллифлар томонидан тақдим этилган. Бу Scrum қўлланмасини ўзбек тилига таржима этганлар:
 
-- Ренат Ахтямов, azimut1210@mail.ru, facebook.com/renakhtyamov
+- Ренат Ахтямов, facebook.com/renakhtyamov
 
-- Фахриддин Абдуллаев, fakhriddin.a@gmail.com, facebook.com/fakhriddin.a
+- Фахриддин Абдуллаев, facebook.com/fakhriddin.a
 
-- Бахтиёр Ахмедов, ahmedovbahtiyor@gmail.com
+- Бахтиёр Ахмедов
 
-- Анвар Мадиримов, madirimov83@gmail.com
+- Анвар Мадиримов
 
 - Нилуфар Эрназарова
 

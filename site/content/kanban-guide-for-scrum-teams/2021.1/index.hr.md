@@ -216,11 +216,11 @@ Ovaj Vodič preveden je s izvorne engleske verzije koju su osigurali autori nave
 
 Kontakt:
 
-Nika Regina (nika.regina4@gmail.com)
+Nika Regina
 
 Martina Herhuter herhuter/)
 
-(martina.herhuter@gmail.com;
+(
 
 https://www.linkedin.com/in/martina-
 

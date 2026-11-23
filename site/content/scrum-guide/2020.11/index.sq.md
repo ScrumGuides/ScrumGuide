@@ -314,7 +314,7 @@ Meqenëse, shumë nga termat në anglisht të përdorur në këtë material, nuk
 
 Personi që ka kontribuar për përkthimin është:
 
-Ilirjana S. Yaman yaman.ilirjana@gmail.com
+Ilirjana S. Yaman
 
 ## Ndryshimet e Udhëzuesit të Scrum-it midis viteve 2017 dhe 2020
 

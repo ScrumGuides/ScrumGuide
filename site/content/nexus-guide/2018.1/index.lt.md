@@ -254,7 +254,7 @@ Nexus ir plečiamas profesionalus Scrum buvo sukurtas bendradarbiaujant Ken Schw
 
 Kontaktai:
 
-- El. paštas darius.juostas@gmail.com
+- El. paštas
 
 - LinkedIn nuoroda
 

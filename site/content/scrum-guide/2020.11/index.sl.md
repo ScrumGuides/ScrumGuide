@@ -348,7 +348,7 @@ Celotna zgodovina Scruma je opisana drugje. Prav posebna zahvala pa gre Individu
 
 Ta priročnik je preveden iz izvirne angleške različice, ki so jo zagotovili zgoraj omenjeni avtorji.
 
-Prevajalca: Voranc Kutnik in Matej Golob Kontakt: voranc.kutnik@corpohub.com LinkedIn: https://www.linkedin.com/in/voranckutnik/ Spletna stran: https://www.corpohub.com
+Prevajalca: Voranc Kutnik in Matej Golob Kontakt: LinkedIn: https://www.linkedin.com/in/voranckutnik/ Spletna stran: https://www.corpohub.com
 
 Pri prevodu sva morala upoštevati zahtevo, da ni dovoljeno prevajati naslednjih Scrum izrazov: Scrum, Product Goal, Definition of Done, Sprint, Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective, Sprint Goal, Scrum Team, Scrum Master, Product Owner, Developers, Product Backlog, Sprint Backlog in Increment.
 

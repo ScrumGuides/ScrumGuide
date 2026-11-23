@@ -344,7 +344,7 @@ Išsami Scrum istorija aprašyta kitur. Pagerbdami pirmąsias įmones, kuriose S
 
 Kontaktai:
 
-- El. paštas darius.juostas@gmail.com
+- El. paštas
 
 - LinkedIn https://www.linkedin.com/in/darius‐juostas‐pmp‐csp‐b31b0622
 

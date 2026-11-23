@@ -208,15 +208,15 @@ Estem especialment agraïts per les seves contribucions a Glaudia Califano, Loui
 
 La traducció d’aquesta guia ha estat realitzada, en ordre alfabètic, per:
 
-- Arnau Cobo i Pou | a.cobo.pou@gmail.com
+- Arnau Cobo i Pou |
 
 https://www.linkedin.com/in/arnau‐cobo‐973700100
 
-- Guillem Vega Puig | guillem.vega@gmail.com
+- Guillem Vega Puig |
 
 https://www.linkedin.com/in/guillem‐vega‐10b39056
 
-- Sergi Planas i Solà | contact@sergiplanas.com
+- Sergi Planas i Solà |
 
 https://www.linkedin.com/in/sergi‐planas‐sola
 

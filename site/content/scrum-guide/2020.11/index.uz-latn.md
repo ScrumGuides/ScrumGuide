@@ -336,13 +336,13 @@ Scrum rivojlanishining tarixini boshqa manbalar orqali tanishishingiz mumkin. Bi
 
 Ushbu qo'llanmaning ingliz tilidagi asl nusxasi yuqorida sanab o'tilgan mualliflar tomonidan taqdim etilgan. Bu Scrum qo'llanmasini o'zbek tiliga tarjima etganlar:
 
-- Renat Axtyamov, azimut1210@mail.ru
+- Renat Axtyamov
 
-- Faxriddin Abdullayev, fakhriddin.a@gmail.com , facebook.com/fakhriddin.a
+- Faxriddin Abdullayev, facebook.com/fakhriddin.a
 
-- Baxtiyor Axmedov, ahmedovbahtiyor@gmail.com
+- Baxtiyor Axmedov
 
-- Anvar Madirimov, madirimov83@gmail.com
+- Anvar Madirimov
 
 - Nilufar Ernazarova
 

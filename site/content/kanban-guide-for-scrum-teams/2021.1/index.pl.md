@@ -224,7 +224,7 @@ Cel Sprintu Role Zespół Scrumowy Scrum Master Właściciel Produktu Deweloperz
 
 ## Tłumaczenie
 
-Opracowaniem tłumaczenia zajmowali się: Dorota Zawadzka (dzawadzka@gmail.com) i Marcin Zawadzki (zawadzkimarcinmichal@gmail.com). Jesteśmy wdzięczni wszystkim, którzy komentowali efekty naszej pracy i motywowali nas, by stworzyć tak dobre tłumaczenie, jak to możliwe.
+Opracowaniem tłumaczenia zajmowali się: Dorota Zawadzka i Marcin Zawadzki . Jesteśmy wdzięczni wszystkim, którzy komentowali efekty naszej pracy i motywowali nas, by stworzyć tak dobre tłumaczenie, jak to możliwe.
 
 Dziękujemy!
 

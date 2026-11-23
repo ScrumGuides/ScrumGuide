@@ -198,7 +198,7 @@ Deze Gids is vertaald vanuit de originele Engelse versie die is geleverd door de
 
 Contact informatie
 
-Translator Name(s) : Mark Hoogveld Primary Contact Email : markhoogveld@outlook.com LinkedIn : http://www.linkedin.com/in/markhoogveld/
+Translator Name(s) : Mark Hoogveld Primary Contact Email : LinkedIn : http://www.linkedin.com/in/markhoogveld/
 
 ## Wijzigingen tussen de 2018 en 2021 Nexus Gids
 

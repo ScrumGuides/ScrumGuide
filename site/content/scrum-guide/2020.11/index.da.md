@@ -342,7 +342,7 @@ Denne guide er blevet oversat fra den originale engelske version, som er stillet
 
 Oversætters navn: Stig Efsen
 
-Primær kontakt email: stig.efsen@gmail.com
+Primær kontakt email
 
 LinkedIn: https://www.linkedin.com/in/efsen/
 

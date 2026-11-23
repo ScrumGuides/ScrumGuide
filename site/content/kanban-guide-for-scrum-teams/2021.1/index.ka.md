@@ -224,7 +224,7 @@ Contact Information
 
 Translation Group Name: “Agile Georgia”
 
-Contact Email: info@agilegeorgia.ge
+Contact Email
 
 ---
 
