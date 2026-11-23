@@ -66,10 +66,24 @@ changes:
       defines a product broadly enough that the word misleads nobody.
   - title: Accountabilities are stated as accountabilities
     content: |
-      Not job titles, not roles, not people. Each is held whole, who holds one
-      may change, and one person may hold more than one. A team of three in
-      which each person holds an accountability is doing Scrum exactly as a
-      team of nine in which no one holds two.
+      Not job titles, not roles. Each is answerable as one, who holds one may
+      change, and one holder may hold more than one. A team of three in which
+      each person holds an accountability is doing Scrum exactly as a team of
+      nine in which no one holds two.
+  - title: The Scrum Team's own accountability is the scope of the work
+    content: |
+      The 2020 edition makes the entire Scrum Team accountable for creating a
+      valuable, useful Increment every Sprint, and separately makes the
+      Developers accountable for the Increment. Both cannot hold it whole.
+      Here the Scrum Team is accountable for all the work the Product Goal
+      depends on, so that nothing it requires falls outside the team, and the
+      Increment is held by the Product Developers alone.
+  - title: An accountability may be held collectively
+    content: |
+      The 2020 edition requires the Product Owner to be one person and not a
+      committee. Here any accountability may be held by one or by several,
+      provided it is answerable as one. What is forbidden is an accountability
+      that nobody answers for.
   - title: The Practice Owner carries authority
     content: |
       Authority to require that a loop closes and to act on whatever prevents
@@ -178,17 +192,21 @@ The Scrum Team commits to achieving its outcomes and to supporting each other. I
 
 These values give direction to the Scrum Team with regard to its work, actions and behavior. The decisions made, the steps taken and the way Scrum is used should reinforce them, not diminish or undermine them. Scrum depends on people, and these values describe the behavior expected of them.
 
-## Scrum Team
+## Scrum Accountabilities
+
+Scrum defines four accountabilities. The Scrum Team holds one as a whole, for all the work the Product Goal depends on. The other three are for the Increment, the Product, and the Practice.
+
+None of them is a job title or a role. Each may be held by one or by several, and each is answerable as one: asked about it, the holders answer together, and no part of it is held by anyone who is not answerable for the whole. The Scrum Team can always identify who holds each accountability. Who holds one may change, and one holder may hold more than one.
+
+### Scrum Team
 
 The fundamental unit of Scrum is a small team of people, a Scrum Team. It is a cohesive unit of professionals focused on one objective at a time, the Product Goal.
 
 The Scrum Team is the unit so that the skills, the authority and the accountability are kept together.
 
-Scrum Teams are cross-functional, meaning the members have all the skills necessary to create value each Cycle. They are also self-managing, meaning they internally decide who does what, when, and how. Within a Scrum Team, there are no sub-teams or hierarchies, so that no accountability is divided. The organization structures and empowers the Scrum Team to manage its own work.
+Scrum Teams are cross-functional, meaning the members have all the skills necessary to create value each Cycle. They are also self-managing, meaning they internally decide who does what, when, and how. Within a Scrum Team, there are no sub-teams or hierarchies. The organization structures and empowers the Scrum Team to manage its own work.
 
 The entire Scrum Team is accountable for all the work the Product Goal depends on, so that nothing the Product Goal requires falls outside it.
-
-Scrum defines four accountabilities. The Scrum Team holds one as a whole, for all the work the Product Goal depends on. Within it three are held individually: for the Increment, for the Product, and for the Practice. These are accountabilities, not job titles, roles or people. The Scrum Team can always identify who holds each accountability, and each accountability is held in its entirety. The person holding an accountability may change, and one person may hold more than one accountability.
 
 ### Product Developers
 
@@ -207,7 +225,7 @@ The Product Developers own the plan for the Cycle. They observe the work, so the
 
 The Product Owner is accountable for maximizing the value resulting from the work of the Scrum Team.
 
-The Product Owner is the single, identifiable point of accountability for decisions about value. For the Product Owner to succeed, the entire organization must respect those decisions. Value is determined by the people receiving the work, and the Product Owner is accountable for representing their judgement. The Product Owner may represent the needs of many stakeholders, and anyone wanting the Product Backlog changed does so by convincing the Product Owner. The Product Owner's decisions are visible in the content and ordering of the Product Backlog, and through the inspectable Increment.
+The Product Owner is accountable for decisions about value and answers for them as one. For the Product Owner to succeed, the entire organization must respect those decisions. Value is determined by the people receiving the work, and the Product Owner is accountable for representing their judgement. The Product Owner may represent the needs of many stakeholders, and anyone wanting the Product Backlog changed does so by convincing the Product Owner. The Product Owner's decisions are visible in the content and ordering of the Product Backlog, and through the inspectable Increment.
 
 The Product Owner is also accountable for effective Product Backlog management, which includes:
 
@@ -220,15 +238,11 @@ The Product Owner may do the above work or may delegate the responsibility to ot
 
 ### Practice Owner
 
-The Practice Owner is accountable for the Scrum Team's effectiveness, which includes:
-
-- Ensuring that every loop closes;
-- Causing the removal of anything that prevents a loop from closing; and,
-- Establishing Scrum and helping everyone understand it, both within the Scrum Team and the organization.
+The Practice Owner is accountable for every loop closing.
 
 The Practice Owner has the authority to require that a loop closes and to act on anything that prevents it from closing. This authority covers how the Scrum Team works. It does not extend to what the Scrum Team pursues, which is decided by the Product Owner, or to how the work is done, which is decided by the Product Developers.
 
-The Practice Owner has this authority so that the person accountable for the Scrum Team's effectiveness is able to act on it.
+The Practice Owner has this authority so that whoever is accountable for the loops closing is able to act on it.
 
 ## Scrum Loops
 
@@ -288,13 +302,13 @@ The Understanding Loop is an ongoing activity. It compares what the Scrum Team h
 
 Work that is too vague or too large to learn from is made clear enough to attempt, or is discarded. If a Cycle produces no evidence, the other loops cannot be closed.
 
-## Scrum Artifacts
+## Scrum Transparency
 
-Scrum's artifacts make work and value visible. Each is designed to maximize the transparency of key information, so that everyone inspecting them has the same basis for adaptation.
+Scrum makes work and value visible, so that everyone inspecting it has the same basis for adaptation.
 
-What has happened, what is happening and what is intended must all be transparent. Scrum defines one artifact for each: the Increment, the Cycle Backlog and the Product Backlog.
+What has happened, what is happening and what is intended must all be transparent. Scrum defines one for each: the Increment, the Cycle Backlog and the Product Backlog.
 
-Each artifact contains a commitment, which gives it focus and something against which progress can be measured:
+Each has one commitment, which gives it focus and something against which progress can be measured:
 
 - For the Product Backlog it is the Product Goal.
 - For the Cycle Backlog it is the Cycle Goal.
@@ -334,7 +348,7 @@ Multiple Increments may be created within a Cycle. The sum of the Increments is 
 
 ## Commitments
 
-Each artifact has one commitment. The artifact makes something transparent; the commitment states what that transparency is for, so that progress is measured against something stated rather than merely observed.
+The Product Backlog, the Cycle Backlog and the Increment each have one commitment. Each makes something transparent; its commitment states what that transparency is for, so that progress is measured against something stated rather than merely observed.
 
 ### Product Goal
 
@@ -364,6 +378,6 @@ If the Definition of Done is part of the standards of the organization, all Scru
 
 ## End Note
 
-Scrum consists of its accountabilities, its loops, and its artifacts with their commitments. Each element serves a specific purpose that the other elements depend on.
+Scrum consists of its accountabilities, its loops, its transparency and its commitments. Each element serves a specific purpose that the other elements depend on.
 
 Scrum is immutable as a minimum. Adding to it is expected, and Scrum functions well as a container for other techniques, methodologies and practices. While implementing only parts of Scrum is possible, the result is not Scrum.

@@ -17,17 +17,19 @@
   - id: SG26-C1
     element: Scrum Team
     statement: >-
-      Each of the three accountabilities has a holder the Scrum Team can name.
+      Each accountability has a holder the Scrum Team can name.
     falsifier: >-
       Asked separately, members of the Scrum Team name different holders for
       one accountability, or cannot name one at all.
   - id: SG26-C2
     element: Scrum Team
     statement: >-
-      No accountability is divided between two people.
+      Each accountability is answerable as one. Where several hold one, they
+      answer for it together, and no part of it is held by anyone who is not
+      answerable for the whole.
     falsifier: >-
-      Two people each describe themselves as jointly holding one
-      accountability, with neither answerable for it alone.
+      An accountability for which, asked who answers for it, each holder points
+      to another, so that nobody answers for the whole.
   - id: SG26-C3
     element: Scrum Loops
     statement: >-
