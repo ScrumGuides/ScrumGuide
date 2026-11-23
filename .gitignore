@@ -16,6 +16,7 @@ tex2pdf.*/*
 
 # tooling
 /.claude/
+/.analysis/
 node_modules/
 /output
 
