@@ -172,7 +172,7 @@ A part of the work can be finished and put to real use before the whole is done,
 
 Some work cannot be divided this way. If no part can be finished on its own, or no part can be put to real use, or what the part does says nothing about the rest, there is no correcting before the end. Such work is attempted once. Simulate it, or accept the risk.
 
-### Judgement
+### Response
 
 No procedure prepared in advance covers everything that can happen.
 
