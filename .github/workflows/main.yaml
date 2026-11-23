@@ -23,6 +23,24 @@ on:
     branches: [main]
     tags: ['v[0-9]*', '[0-9]*']
   workflow_dispatch:
+
+# Deploys to one environment must not overlap. Several sessions push to main in
+# the same few minutes, so two runs were deploying to the preview environment at
+# once: the second deploy replaced the bytes the first had just published, and
+# that first run's Verify then compared the live site against its own, now
+# superseded, artifact and failed with DEPLOYED_RESOURCE_MISMATCH on every path
+# it checked. The content was correct both times; only the check was racing.
+#
+# Keyed by ref rather than globally, because the ring follows the ref: pushes to
+# main share the preview environment and must queue, while each pull request
+# deploys to its own canary-{pr} environment and has nothing to collide with.
+#
+# Never cancel in flight. A cancelled deploy is a half-published site, which is
+# the one outcome worse than a queue.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 permissions:
   contents: read
   actions: read
