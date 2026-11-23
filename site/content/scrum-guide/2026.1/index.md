@@ -130,9 +130,9 @@ This is a declaration and not a principle. Nothing verifiable settles whose judg
 
 ### Uncertainty
 
-Forecasts of this work do not reliably match what results.
+Forecasts of developing something that does not yet exist do not reliably match what happens.
 
-Record what is expected to be delivered, when, at what cost, and whether it will serve its purpose. Compare that with what happened, and repeat across cases. Where forecasts do reliably match results within the tolerance a decision needs, the work is not of this kind, and planning and executing is the cheaper method.
+Record what is expected to be delivered, when, at what cost, and whether it will serve its purpose. Compare that with what happened, and repeat across cases. Where the forecasts do match closely enough for the decisions being made, this principle does not apply, and it is cheaper to plan the work and carry out the plan.
 
 ### Evidence
 
