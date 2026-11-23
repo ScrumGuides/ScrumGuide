@@ -27,7 +27,7 @@
     <div class="modal-content">
 
       <div class="modal-header">
-        <h2 class="modal-title" id="experimentNoticeTitle">Can you break my Scrum Guide experiment?</h2>
+        <h2 class="modal-title" id="experimentNoticeTitle">Can you break my Scrum Guide hypothesis?</h2>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
 
@@ -38,7 +38,31 @@
           by the authors of the Scrum Guide.
         </p>
 
+        <h3>What's in it for you</h3>
+        <ul>
+          <li><strong>For teams:</strong> you can change how you work, for example async Dailies, no fixed-length iterations, or AI agents doing the work, without being told you've stopped doing Scrum. The test becomes whether each loop closes, not whether you held the meeting.</li>
+          <li><strong>For coaches and Practice Owners:</strong> when a team says &ldquo;this bit of Scrum doesn't work for us&rdquo;, you can tell whether they want to drop a mechanism, which is fine, or a purpose, which isn't. At the moment the Guide treats both the same.</li>
+          <li><strong>For organisations:</strong> &ldquo;are we doing Scrum?&rdquo; becomes something you can check. The 2026 Guide publishes conditions, each with a stated falsifier, so you assess outcomes instead of auditing ceremonies.</li>
+          <li><strong>For Scrum itself:</strong> it stops losing people who agree with what it's for but are fed up with the mechanics.</li>
+        </ul>
+
+        <h3>Try it in a minute</h3>
+        <p>Bring one real situation and see whether the 2026 Guide gets it right. For example:</p>
+        <ul>
+          <li>&ldquo;Is it still Scrum if a team does its Daily Scrum asynchronously?&rdquo; &rarr; <strong>Yes.</strong> The Plan Loop closes when the Product Developers re-plan toward the Cycle Goal based on what they now know. How they do it is up to them, so async works.</li>
+          <li>&ldquo;If I get feedback on backlog items as they close in continuous delivery, but never meet my stakeholders together, is it still Scrum?&rdquo; &rarr; <strong>No.</strong> The Direction Loop closes only when what stakeholders did with the Increment has been assessed against the Product Goal, and the Product Goal has been changed or reaffirmed. Feedback on individual items is evidence for that assessment, not the assessment itself.</li>
+        </ul>
+
         <h3>The hypothesis</h3>
+        <p>
+          <strong>We believe that</strong> separating Scrum's intent from its mechanics,
+          <strong>for</strong> people who agree with what Scrum is for but are walking away
+          from how it's done, <strong>will result in</strong> them staying with Scrum, and
+          in teams being able to adapt how they work without leaving it.
+          <strong>We'll know we're right when</strong> counter-examples fail to break the
+          abstraction, and people who left Scrum say the mechanics, not the intent, are what
+          drove them out.
+        </p>
         <p>
           <strong>The diagnosis.</strong> The Scrum Guide's implementation rules now get in
           the way of what it's trying to achieve, and I think that's a big part of why people
@@ -51,28 +75,14 @@
           achieve exactly what those rules were for. As things stand, the Guide has to say
           those teams aren't doing Scrum. That's a failure of the Guide, not of the teams.
         </p>
-        <p>
-          So: the Scrum Guide is no longer served by its implementation constraints, and has
-          to be reduced to its intent to stay viable.
-        </p>
 
-        <h3>What is here, and what it honestly is</h3>
+        <h3>How it's tested</h3>
         <ul>
-          <li>
-            <strong><a href="{{ "scrum-guide/2026.1/" | relLangURL }}">Scrum Guide 2026</a></strong>
-            &mdash; states what each element must achieve, deliberately silent on how.
-            <strong>This draft is synthesised, and is not what anyone would intend to
-            release.</strong>
-          </li>
-          <li>
-            <strong><a href="/getting-started-for-scrum-teams/">Getting Started for Scrum
-            Teams</a></strong> &mdash; <strong>a straight copy of the 2020 Scrum Guide,
-            unchanged.</strong> It is not a new guide, and no work has gone into it as one.
-            It is here to show that everything taken out of the base lands intact somewhere,
-            with nothing left over and nothing lost.
-          </li>
+          <li><strong>Do people leave because of the mechanics?</strong> I ask people who have left or scaled back Scrum why they left, and whether they still agree with what Scrum is for. Each reason is sorted as a mechanic, the intent, or something else. <em>It passes</em> if most of those who still agree with the intent cite a mechanic. <em>It fails</em> if they cite the intent or something else.</li>
+          <li><strong>Does the 2026 Guide get the abstraction right?</strong> I collect real cases, and experienced practitioners judge each one independently. Their verdicts are compared with what the 2020 and 2026 Guides say. <em>A counter-example</em> is a case where 2026 disagrees with the practitioners and 2020 agrees with them. <em>It passes</em> if 2026 matches them at least as often as 2020 does, and every counter-example is fixed or explained.</li>
+          <li><strong>Are agentic teams really straining the rules?</strong> I collect cases that 2020 calls not-Scrum and practitioners call Scrum in spirit. <em>It fails</em> if hardly any real teams turn up.</li>
         </ul>
-        <p>Neither is finished work.</p>
+        <p>Whichever way the results go, I'll publish them on this site.</p>
 
         <h3>Liberties taken</h3>
         <p>
@@ -83,6 +93,44 @@
           unlike the 2020 accountability, has authority to make sure the loops close. That
           last one is a deliberate change to Scrum, not a clarification.
         </p>
+
+        <h3>What I'm asking for</h3>
+        <p>There are two separate questions here, and you may only be able to answer one:</p>
+        <ul>
+          <li><strong>Is the diagnosis right?</strong> Do people leave Scrum because of the mechanics rather than the intent?</li>
+          <li><strong>Does the 2026 Guide get the abstraction right?</strong> Does it state Scrum's purpose from first principles, or just restate the mechanics in vaguer words? Has any purpose been lost, or a mechanism slipped in disguised as an intent? Does it ever let through something clearly not Scrum, or rule out something clearly Scrum?</li>
+        </ul>
+        <p>Feedback on the idea, not copy-editing.</p>
+
+        <h3>What would prove it wrong</h3>
+        <ul>
+          <li>Teams that dropped Scrum because they rejected the <em>intent</em>, not the mechanics. That kills the diagnosis outright.</li>
+          <li>A better explanation of the decline: certification, how Scrum gets imposed, the decay of &ldquo;agile&rdquo; as a brand &mdash; something where the rules aren't the cause.</li>
+          <li>A constraint in the 2020 Guide that isn't mechanical: where the number <em>is</em> the intent, and removing it destroys something.</li>
+          <li>A statement in the 2020 Guide that contradicts an intent in 2026 &mdash; then either the base is wrong or the 2020 Guide isn't a conforming implementation, and both are interesting.</li>
+          <li>An argument that reducing to intent makes Scrum unfalsifiable &mdash; that the constraints are exactly what make conformance checkable.</li>
+          <li>Evidence that agentic teams aren't straining the constraints, or that this is no different from distributed teams or DevOps, which the Guide absorbed without changing shape.</li>
+        </ul>
+        <p class="experiment-notice__ask">
+          Try to break it, not agree with it. One good counter-example is worth more to me
+          than a full review.
+        </p>
+
+        <h3>What is here</h3>
+        <ul>
+          <li>
+            <strong><a href="{{ "scrum-guide/2026.1/" | relLangURL }}">Scrum Guide 2026</a></strong>
+            &mdash; states what each element must achieve, deliberately silent on how. It's
+            a working draft to show the idea, not a proposed release.
+          </li>
+          <li>
+            <strong><a href="/getting-started-for-scrum-teams/">Getting Started for Scrum
+            Teams</a></strong> &mdash; <strong>a straight copy of the 2020 Scrum Guide,
+            unchanged.</strong> It is not a new guide, and no work has gone into it as one.
+            It is here to show that everything taken out of the base lands intact somewhere,
+            with nothing left over and nothing lost.
+          </li>
+        </ul>
 
         <h3>The structure</h3>
         <p>The Scrum Guide as a base class, with concrete things beneath it:</p>
@@ -109,44 +157,6 @@
           that guide can be revised in small increments, as often as practice moves, while the
           Scrum Guide stays still and keeps meaning the same thing. The base gets stability;
           the practice gets to move. Today they share one release cycle and both suffer for it.
-        </p>
-
-        <h3>What's in it for you</h3>
-        <ul>
-          <li><strong>For teams:</strong> you can change how you work, for example async Dailies, no fixed-length iterations, or AI agents doing the work, without being told you've stopped doing Scrum. The test becomes whether each loop closes, not whether you held the meeting.</li>
-          <li><strong>For coaches and Practice Owners:</strong> when a team says &ldquo;this bit of Scrum doesn't work for us&rdquo;, you can tell whether they want to drop a mechanism, which is fine, or a purpose, which isn't. At the moment the Guide treats both the same.</li>
-          <li><strong>For organisations:</strong> &ldquo;are we doing Scrum?&rdquo; becomes something you can check. The 2026 Guide publishes conditions, each with a stated falsifier, so you assess outcomes instead of auditing ceremonies.</li>
-          <li><strong>For Scrum itself:</strong> it stops losing people who agree with what it's for but are fed up with the mechanics.</li>
-        </ul>
-
-        <h3>How to test it</h3>
-        <p>Bring a real situation and ask whether the 2026 Guide gives the right answer. For example:</p>
-        <ul>
-          <li>&ldquo;Is it still Scrum if a team does its Daily Scrum asynchronously?&rdquo; &rarr; <strong>Yes.</strong> The Plan Loop closes when the Product Developers re-plan toward the Cycle Goal based on what they now know. How they do it is up to them, so async works.</li>
-          <li>&ldquo;If I get feedback on backlog items as they close in continuous delivery, but never meet my stakeholders together, is it still Scrum?&rdquo; &rarr; <strong>No.</strong> The Direction Loop closes only when what stakeholders did with the Increment has been assessed against the Product Goal, and the Product Goal has been changed or reaffirmed. Feedback on individual items is evidence for that assessment, not the assessment itself.</li>
-        </ul>
-
-        <h3>What I'm asking for</h3>
-        <p>Feedback on the <strong>idea</strong>, and on whether the 2026 Guide gets the abstraction right. I'm not after copy-editing. The questions that matter are these:</p>
-        <ul>
-          <li>Does it state Scrum's purpose and intent from first principles, or does it just restate the mechanics in vaguer words?</li>
-          <li>Has any purpose been lost, or has a mechanism slipped in disguised as an intent?</li>
-          <li>Does separating intent from implementation ever give the wrong answer, so that something clearly not Scrum gets through or something clearly Scrum gets ruled out?</li>
-        </ul>
-
-        <h3>What would prove it wrong</h3>
-        <p>This is what the experiment is asking for:</p>
-        <ul>
-          <li>Teams that dropped Scrum because they rejected the <em>intent</em>, not the mechanics. That kills the diagnosis outright.</li>
-          <li>A better explanation of the decline: certification, how Scrum gets imposed, the decay of &ldquo;agile&rdquo; as a brand &mdash; something where the rules aren't the cause.</li>
-          <li>A constraint in the 2020 Guide that isn't mechanical: where the number <em>is</em> the intent, and removing it destroys something.</li>
-          <li>A statement in the 2020 Guide that contradicts an intent in 2026 &mdash; then either the base is wrong or the 2020 Guide isn't a conforming implementation, and both are interesting.</li>
-          <li>An argument that reducing to intent makes Scrum unfalsifiable &mdash; that the constraints are exactly what make conformance checkable.</li>
-          <li>Evidence that agentic teams aren't straining the constraints, or that this is no different from distributed teams or DevOps, which the Guide absorbed without changing shape.</li>
-        </ul>
-        <p class="experiment-notice__ask">
-          Read the 2026 draft against the 2020 Guide and try to break it, not agree with
-          it. One good counter-example is worth more to me than a full review.
         </p>
       </div>
 
