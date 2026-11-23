@@ -158,6 +158,14 @@ Looking less often leaves more unverified work at risk. Each correction consumes
 
 Nothing in these principles fixes that interval. It is settled by observation and it differs by work. Where looking costs nothing, there is no interval to settle.
 
+### Reporting
+
+A result that is costly to report does not reliably reach whoever decides.
+
+Correction requires that whoever decides observes the result. Where they learn it from someone else, what they learn is what that person was willing to say. A result that will be held against the person reporting it arrives late, or softened, or not at all. The four conditions are met and the error is not corrected.
+
+Compare what people say about the work when nothing follows from saying it with what is written down when something does. Where whoever decides sees the result directly, this principle does not apply.
+
 ### Partial Results
 
 A part of the result can be produced and put into real conditions before the whole is finished, and what it shows there is evidence about the rest.
@@ -178,6 +186,8 @@ The knowledge needed to decide well moves less easily than the right to decide.
 
 Where that knowledge summarises without loss and reaches a distant decider in time, the decision may be made anywhere. Where it does not, the decision belongs with those who hold it.
 
+That knowledge is also held in pieces. Whoever decides holds some of it, whoever did the work holds some, and whoever received the work holds the rest. A decision made without an exchange between them is made on part of it.
+
 ---
 
 ## Scrum Definition
@@ -190,7 +200,7 @@ Various processes, techniques and methods can be employed within the framework. 
 
 ## Scope
 
-Scrum is for complex work, meaning work whose outcome cannot be known in advance.
+Scrum is for developing something that does not yet exist, where forecasts do not reliably match what happens. That is what this Guide means by complex.
 
 ## Scrum Values
 
