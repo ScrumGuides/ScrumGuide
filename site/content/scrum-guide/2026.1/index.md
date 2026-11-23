@@ -64,6 +64,14 @@ changes:
       asserts an authority that the 2020 edition withholds. Product Owner,
       Product Goal and Product Backlog are kept, because 2020 already
       defines a product broadly enough that the word misleads nobody.
+  - title: Sections are named for what they hold
+    content: |
+      Scrum Team becomes Scrum Accountabilities, because the section holds four
+      accountabilities and naming it for the team implied people and job
+      titles, which it then had to deny. Scrum Artifacts becomes Scrum
+      Transparency, because an artifact is a thing you can hold while what the
+      section requires is that what has happened, what is happening and what is
+      intended are visible.
   - title: Accountabilities are stated as accountabilities
     content: |
       Not job titles, not roles. Each is answerable as one, who holds one may
