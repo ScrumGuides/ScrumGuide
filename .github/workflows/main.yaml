@@ -42,6 +42,20 @@ jobs:
           # derived from it. A shallow clone gives it nothing to work from.
           fetch-depth: 0
 
+      # Hugo and Go are not installed by the platform's dependency stage: that
+      # one installs powershell-yaml, GitVersion and the deployment CLI only.
+      # Both come from actions, exactly as the reusable workflow did them.
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ vars.HUGO_BUILD_VERSION || 'latest' }}
+          extended: true
+      - uses: actions/setup-go@v7
+        with:
+          # Prepare and Build verify executable identities; runner caches must
+          # not select different patches.
+          go-version: '1.26.10'
+          cache: false
+
       # Dependencies and the pipeline run in one step, not two. Installing the
       # dependencies puts hugo and the rest on PATH for the process that
       # installed them; a separate step is a new process, and Prepare then
@@ -76,7 +90,18 @@ jobs:
           # that takes the scope; this is the one call that uses it.
           $platform = & ./.OpenGuidePlatform/Resolve-OpenGuidePlatform.ps1 -WorkspaceRoot $PWD
           $settings = & ./.OpenGuidePlatform/Resolve-OpenGuidePlatform.ps1 -WorkspaceRoot $PWD -ReadSettings
-          & "$platform/build.ps1" -Product GuideSite -Stage Dependencies -DependencyScope CurrentUser -WorkspaceRoot $PWD -SourcePath $settings.site.source
+
+          # -Deploy here installs the Azure Static Web Apps CLI, which the
+          # deployment needs and which the dependency stage skips without it.
+          $dependencies = @{
+            Product         = 'GuideSite'
+            Stage           = 'Dependencies'
+            DependencyScope = 'CurrentUser'
+            WorkspaceRoot   = $PWD
+            SourcePath      = $settings.site.source
+          }
+          if ($env:DEPLOY -eq 'true') { $dependencies.Deploy = $true }
+          & "$platform/build.ps1" @dependencies
 
           if ($env:DEPLOY -eq 'true') {
             ./build.ps1 All -Deploy
