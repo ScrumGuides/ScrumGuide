@@ -182,9 +182,9 @@ If everything that can happen is known and can be listed, a procedure covers it 
 
 ### Knowledge
 
-A decision belongs with the people who hold the knowledge it needs, unless that knowledge can be written down and sent without loss.
+The right to decide moves more easily than the knowledge a good decision needs.
 
-Some knowledge can be written down and sent without losing anything, and if it arrives in time the decision can be made anywhere.
+Some knowledge can be written down and sent without losing anything, and if it arrives in time the decision can be made anywhere. The rest cannot, and that decision belongs with the people who hold the knowledge.
 
 Knowledge is also held in pieces. The person who decides holds some of it, the people who did the work hold some, and the people who received the work hold the rest. A decision made without talking to them all is made on part of what is known.
 
@@ -301,7 +301,7 @@ The Product Developers are expected to adapt the moment they learn anything new.
 
 The Understanding Loop is an ongoing activity. It compares what the Scrum Team has done with what the Scrum Team expects to do next.
 
-Work that is too vague or too large to learn from is made clear enough to attempt, or is discarded. Work that stays vague is carried from Cycle to Cycle, and the Objective Loop has nothing it can be assembled from.
+Work that is too vague or too large to learn from is made clear enough to attempt, or is discarded. Work that stays vague is carried from Cycle to Cycle, and the Objective Loop has nothing it can be assembled from. If a Cycle produces no evidence, the other loops cannot be closed.
 
 ### Direction Loop
 
@@ -316,8 +316,6 @@ The Direction Loop is a working exchange between the Scrum Team and stakeholders
 ### Practice Loop
 
 The purpose of the Practice Loop is to improve how the Scrum Team works. It is the only loop that inspects the Scrum Team itself.
-
-The Scrum Team identifies the most helpful changes to the way it works. The most impactful are acted on before the next Cycle Goal is set.
 
 ## Scrum Transparency
 
