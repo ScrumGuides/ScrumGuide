@@ -118,15 +118,15 @@ aliases:
 
 ## Foundations
 
-Scrum is based on the principles below. They are not Scrum's own, and any approach to work whose outcome cannot be known in advance arrives at something like them. What Scrum adds is in the sections that follow.
+Scrum is based on the principles below. They are not Scrum's own. Any approach to developing something that does not yet exist reaches principles like these. What Scrum adds is in the sections that follow.
 
-Each can be checked by anyone who does not take this Guide's word for it, either by examining the terms or by observation. Each says where it stops applying.
+Each can be checked by anyone who does not take this Guide's word for it, either by following the reasoning or by watching what happens. Each says where it stops applying.
 
 ### Purpose
 
 Scrum exists to generate value through adaptive solutions for complex problems. Value is determined by the people receiving the work, not by the people doing it or by the amount of work done.
 
-This is a declaration and not a principle. Nothing verifiable settles whose judgement determines value, and another choice is available. Everything below rests on this one being made.
+This is a declaration and not a principle. Nothing verifiable settles whose judgement determines value. It could instead be placed with the people doing the work, or measured by the amount of work done. Everything below rests on this choice.
 
 ### Uncertainty
 
@@ -138,7 +138,7 @@ Record what is expected to be delivered, when, at what cost, and whether it will
 
 Only what has already happened is knowledge of the outcome.
 
-This follows from the terms. If nothing available beforehand determines the outcome, then a plan, an estimate, a specification or an intention is not knowledge of it. What remains is what has occurred.
+This follows by definition. If nothing available beforehand determines the outcome, then a plan, an estimate, a specification or an intention is not knowledge of it. What remains is what has occurred.
 
 A measure of activity, a position against a plan, or an unfinished intermediate is evidence of the outcome only so far as it is known to move with the outcome, and under Uncertainty that is not known in advance.
 
@@ -154,21 +154,23 @@ Everything done since the last correction is unverified, so the most that one un
 
 Acting on a known error should not wait. How often to look for one is a different question, and it carries a cost on both sides.
 
-Everything done since the last correction is unverified, so looking less often risks more. Each correction consumes effort that would otherwise go to the work, so looking more often costs more. The interval sits where those two meet.
+Looking less often leaves more unverified work at risk. Each correction consumes effort that would otherwise go to the work, so looking more often costs more. The interval sits where those two meet.
 
 Nothing in these principles fixes that interval. It is settled by observation and it differs by work. Where looking costs nothing, there is no interval to settle.
 
 ### Partial Results
 
-A part of the result can be produced and met under real conditions before the whole is finished, and what it shows bears on the rest.
+A part of the result can be produced and put into real conditions before the whole is finished, and what it shows there is evidence about the rest.
 
 Where a part cannot be produced, or cannot be put in real conditions, or shows nothing about the remainder, correcting before the end is not available. Such work is attempted once, and the honest alternatives are simulation or accepting the risk.
 
 ### Judgement
 
-A set of responses chosen in advance has less variety than disturbances that cannot be listed in advance. Procedure can bound a response. It cannot be the response.
+No set of responses prepared in advance covers what cannot be listed in advance.
 
-Whoever responds must be able to produce responses that were not prescribed.
+A procedure can set the bounds a response must stay within, but it cannot supply the response itself. Whoever responds must be able to produce responses that were not prescribed.
+
+Where what can happen is known and can be listed, a procedure covers it, and this principle does not apply.
 
 ### Knowledge
 
