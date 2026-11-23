@@ -27,31 +27,29 @@
     <div class="modal-content">
 
       <div class="modal-header">
-        <h2 class="modal-title" id="experimentNoticeTitle">This site is an experiment</h2>
+        <h2 class="modal-title" id="experimentNoticeTitle">Can you break my Scrum Guide experiment?</h2>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
 
       <div class="modal-body">
         <p class="experiment-notice__lead">
-          It exists to test one idea about the Scrum Guide, and to make that idea
-          arguable rather than hypothetical. Nothing here is published by Scrum.org
-          or by the authors of the Scrum Guide.
+          This site exists to test one idea about the Scrum Guide, and I want people to
+          try to break it, not agree with it. Nothing here is published by Scrum.org or
+          by the authors of the Scrum Guide.
         </p>
 
         <h3>The hypothesis</h3>
         <p>
-          <strong>The diagnosis.</strong> Some &mdash; perhaps all &mdash; of the decline in
-          Scrum usage is that Scrum is not seen as viable on its intents, because the
-          implementation rules get in the way. People aren't rejecting what Scrum is
-          <em>for</em>. They're rejecting the mechanics, and the Guide gives them no way to
-          separate the two.
+          <strong>The diagnosis.</strong> The Scrum Guide's implementation rules now get in
+          the way of what it's trying to achieve, and I think that's a big part of why people
+          walk away from Scrum. They aren't rejecting what Scrum is <em>for</em>. They're
+          rejecting the mechanics, and the Guide gives them no way to tell the two apart.
         </p>
         <p>
-          <strong>The prognosis.</strong> The same problem is about to get much worse. Teams
-          working with agentic tooling are already breaking the mechanics &mdash; sprint
-          length, team size, the fifteen minutes, one person per accountability &mdash; while
-          still achieving what those mechanics were for. As it stands, the Guide has to call
-          those teams not-Scrum. That is the Guide failing, not the teams.
+          <strong>Why it's urgent.</strong> Teams using agentic tooling already break the
+          timeboxes, the team sizes and the one-person-per-accountability rule, and they still
+          achieve exactly what those rules were for. As things stand, the Guide has to say
+          those teams aren't doing Scrum. That's a failure of the Guide, not of the teams.
         </p>
         <p>
           So: the Scrum Guide is no longer served by its implementation constraints, and has
@@ -75,6 +73,16 @@
           </li>
         </ul>
         <p>Neither is finished work.</p>
+
+        <h3>Liberties taken</h3>
+        <p>
+          It is my experiment, after all. &ldquo;Sprint&rdquo; is gone as an element, and
+          with it the repeated fixed length; a Cycle is just the span between two
+          goal-settings. Events are now loops, each defined by what closes it rather than
+          when it happens. And &ldquo;Scrum Master&rdquo; is now the Practice Owner, which,
+          unlike the 2020 accountability, has authority to make sure the loops close. That
+          last one is a deliberate change to Scrum, not a clarification.
+        </p>
 
         <h3>The structure</h3>
         <p>The Scrum Guide as a base class, with concrete things beneath it:</p>
@@ -103,6 +111,29 @@
           the practice gets to move. Today they share one release cycle and both suffer for it.
         </p>
 
+        <h3>What's in it for you</h3>
+        <ul>
+          <li><strong>For teams:</strong> you can change how you work, for example async Dailies, no fixed-length iterations, or AI agents doing the work, without being told you've stopped doing Scrum. The test becomes whether each loop closes, not whether you held the meeting.</li>
+          <li><strong>For coaches and Practice Owners:</strong> when a team says &ldquo;this bit of Scrum doesn't work for us&rdquo;, you can tell whether they want to drop a mechanism, which is fine, or a purpose, which isn't. At the moment the Guide treats both the same.</li>
+          <li><strong>For organisations:</strong> &ldquo;are we doing Scrum?&rdquo; becomes something you can check. The 2026 Guide publishes conditions, each with a stated falsifier, so you assess outcomes instead of auditing ceremonies.</li>
+          <li><strong>For Scrum itself:</strong> it stops losing people who agree with what it's for but are fed up with the mechanics.</li>
+        </ul>
+
+        <h3>How to test it</h3>
+        <p>Bring a real situation and ask whether the 2026 Guide gives the right answer. For example:</p>
+        <ul>
+          <li>&ldquo;Is it still Scrum if a team does its Daily Scrum asynchronously?&rdquo; &rarr; <strong>Yes.</strong> The Plan Loop closes when the Product Developers re-plan toward the Cycle Goal based on what they now know. How they do it is up to them, so async works.</li>
+          <li>&ldquo;If I get feedback on backlog items as they close in continuous delivery, but never meet my stakeholders together, is it still Scrum?&rdquo; &rarr; <strong>No.</strong> The Direction Loop closes only when what stakeholders did with the Increment has been assessed against the Product Goal, and the Product Goal has been changed or reaffirmed. Feedback on individual items is evidence for that assessment, not the assessment itself.</li>
+        </ul>
+
+        <h3>What I'm asking for</h3>
+        <p>Feedback on the <strong>idea</strong>, and on whether the 2026 Guide gets the abstraction right. I'm not after copy-editing. The questions that matter are these:</p>
+        <ul>
+          <li>Does it state Scrum's purpose and intent from first principles, or does it just restate the mechanics in vaguer words?</li>
+          <li>Has any purpose been lost, or has a mechanism slipped in disguised as an intent?</li>
+          <li>Does separating intent from implementation ever give the wrong answer, so that something clearly not Scrum gets through or something clearly Scrum gets ruled out?</li>
+        </ul>
+
         <h3>What would prove it wrong</h3>
         <p>This is what the experiment is asking for:</p>
         <ul>
@@ -114,8 +145,8 @@
           <li>Evidence that agentic teams aren't straining the constraints, or that this is no different from distributed teams or DevOps, which the Guide absorbed without changing shape.</li>
         </ul>
         <p class="experiment-notice__ask">
-          Read the 2026 draft against the 2020 Guide and try to break the hypothesis &mdash;
-          not polish the prose. One solid counter-example beats a full review.
+          Read the 2026 draft against the 2020 Guide and try to break it, not agree with
+          it. One good counter-example is worth more to me than a full review.
         </p>
       </div>
 
@@ -188,6 +219,13 @@
     .experiment-banner {
       font-size: 0.9rem;
       padding: 0.6rem 0.75rem;
+    }
+  }
+
+  /* Slightly wider than Bootstrap's modal-lg (800px). */
+  @media (min-width: 992px) {
+    .experiment-notice .modal-lg {
+      --bs-modal-width: 920px;
     }
   }
 
