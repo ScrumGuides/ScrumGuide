@@ -12,6 +12,12 @@
 # Hinshelwood from the November 2020 edition under CC BY-SA 4.0, and it is not
 # published or endorsed by Ken Schwaber or Jeff Sutherland. They are not
 # credited with it, and he is not credited with any edition before it.
+#
+# `founder: true` means what it says here: a founder of Scrum. It is not a
+# display switch. The module's credits partial filters on it before it filters
+# on role, which would hide everyone else, so this site overrides that partial
+# instead of flagging people who founded nothing. See
+# layouts/_partials/components/guide/guide-contributors.html.
 
 - name: Ken Schwaber
   role: creator
@@ -42,5 +48,10 @@
 - name: Martin Hinshelwood
   role: creator
   weight: 3
+  contributions:
+    - "2026.1"
+- name: Stas Pavlov
+  role: contributor
+  weight: 100
   contributions:
     - "2026.1"
