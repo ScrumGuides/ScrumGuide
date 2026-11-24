@@ -123,19 +123,15 @@ aliases:
 
 Scrum is founded on the principles below. They are not Scrum's own. Anyone developing something that does not yet exist arrives at them. What Scrum adds is in the sections that follow.
 
-Each principle can be checked, by following the reasoning or by observing what happens. Most state the conditions under which they stop holding.
-
 ### Purpose
 
 Scrum exists to generate value through adaptive solutions for complex problems. Value is determined by the people receiving the work, not by the people doing it or by the amount of work done.
-
-This is a declaration, not a principle. It cannot be settled by observation. Scrum could have given value to the people doing the work to judge, or measured it by the amount of work done. It does not, and everything below rests on that choice.
 
 ### Uncertainty
 
 Forecasts of developing something that does not yet exist do not reliably match what happens.
 
-Record what is expected to be delivered, when, at what cost, and whether it will serve its purpose. Compare that with what happened, and repeat across cases. If the forecasts match closely enough for the decisions being made, the work is predictable, and planning it and carrying out the plan costs less.
+A forecast states what is expected to be delivered, when, at what cost, and whether it will serve its purpose. If forecasts match what happens closely enough for the decisions being made, the work is predictable, and planning it and carrying out the plan costs less.
 
 ### Evidence
 
@@ -148,8 +144,6 @@ A measure of activity, a position against a plan, or an unfinished piece of work
 ### Correction
 
 An error is corrected only when four things come together: a result, a standard to compare it against, someone who sees the comparison and decides, and the power to change the work that follows.
-
-Remove any one of them. Without a result there is nothing to see. Without a standard, no difference can be called an error. If the person who decides never sees the comparison, the decision does not change. Without the power to change the work that follows, the error is known and repeated. In each case the error survives.
 
 Everything done since the last correction is unverified. The longer the wait between corrections, the more work a single undetected error can spoil.
 
@@ -167,13 +161,13 @@ Bad news reaches the person who decides only where reporting it carries no penal
 
 Correction requires that the person who decides sees the result. Often they are told it by someone else, and then they learn what that person was willing to say. A result that will be held against the person reporting it arrives late, arrives softened, or does not arrive. What the person who decides sees is then not the result, and the error survives.
 
-Ask people what they think of the work in private, and compare their answers with what the reports say. If the person who decides sees the result without being told, nothing is lost on the way.
+If the person who decides sees the result without being told, nothing is lost on the way.
 
 ### Partial Results
 
 A part of the work can be finished and put to real use before the whole is done, and how it behaves there is evidence about the rest.
 
-Some work cannot be divided this way. If no part can be finished on its own, or no part can be put to real use, or what the part does says nothing about the rest, there is no correcting before the end. Such work is attempted once. Simulate it, or accept the risk.
+Some work cannot be divided this way. If no part can be finished on its own, or no part can be put to real use, or what the part does says nothing about the rest, there is no correcting before the end. Such work is attempted once.
 
 ### Response
 
@@ -328,7 +322,7 @@ The purpose of the Practice Loop is to improve how the Scrum Team works. It is t
 
 Scrum makes work and value visible, so that everyone inspecting it has the same basis for adaptation.
 
-What has happened, what is happening and what is intended must all be transparent. Scrum makes each visible in one place: what has happened in the Increment, what is happening in the Cycle Backlog, and what is intended in the Product Backlog.
+What is intended, what is happening and what has happened must all be transparent. Scrum makes each visible in one place: what is intended in the Product Backlog, what is happening in the Cycle Backlog, and what has happened in the Increment.
 
 Each has one commitment, which gives it focus and something against which progress can be measured. Each commitment is tested in one loop and is changed there if the evidence requires it:
 
