@@ -57,21 +57,24 @@ changes:
   - title: Elements are renamed
     content: |
       Sprint to Cycle, Sprint Goal to Cycle Goal, Sprint Backlog to Cycle
-      Backlog, Developers to Product Developers, Scrum Master to Practice
-      Owner. Each of those old terms misleads. Sprint implies haste, against
-      Scrum's own sustainable pace. Developers reads as software coders,
-      which is why the 2020 edition needs a paragraph defending it. Master
-      asserts an authority that the 2020 edition withholds. Product Owner,
-      Product Goal and Product Backlog are kept, because 2020 already
-      defines a product broadly enough that the word misleads nobody.
+      Backlog, Developers to Product Development, Product Owner to Product
+      Ownership, Scrum Master to Practice Ownership. Each of those old terms
+      misleads. Sprint implies haste, against Scrum's own sustainable pace.
+      Developers reads as software coders, which is why the 2020 edition
+      needs a paragraph defending it. Master asserts an authority that the
+      2020 edition withholds. Product Goal and Product Backlog are kept,
+      because 2020 already defines a product broadly enough that the word
+      misleads nobody.
   - title: Sections are named for what they hold
     content: |
       Scrum Team becomes Scrum Accountabilities, because the section holds four
       accountabilities and naming it for the team implied people and job
-      titles, which it then had to deny. Scrum Artifacts becomes Scrum
-      Transparency, because an artifact is a thing you can hold while what the
-      section requires is that what has happened, what is happening and what is
-      intended are visible.
+      titles, which it then had to deny. The three accountabilities held within
+      it are named the same way, for what is answered for rather than for a
+      person who answers, so the text no longer has to deny that they are job
+      titles. Scrum Artifacts becomes Scrum Transparency, because an artifact
+      is a thing you can hold while what the section requires is that what has
+      happened, what is happening and what is intended are visible.
   - title: Accountabilities are stated as accountabilities
     content: |
       Not job titles, not roles. Each is answerable as one, who holds one may
@@ -85,14 +88,14 @@ changes:
       Developers accountable for the Increment. Both cannot hold it whole.
       Here the Scrum Team is accountable for all the work the Product Goal
       depends on, so that nothing it requires falls outside the team, and the
-      Increment is held by the Product Developers alone.
+      Increment is held by Product Development alone.
   - title: An accountability may be held collectively
     content: |
       The 2020 edition requires the Product Owner to be one person and not a
       committee. Here any accountability may be held by one or by several,
       provided it is answerable as one. What is forbidden is an accountability
       that nobody answers for.
-  - title: The Practice Owner carries authority
+  - title: Practice Ownership carries authority
     content: |
       Authority to require that a loop closes and to act on whatever prevents
       it. The Scrum Guide gives that accountability no authority. This is a
@@ -214,9 +217,13 @@ These values give direction to the Scrum Team with regard to its work, actions a
 
 ## Scrum Accountabilities
 
-Scrum defines four accountabilities. The Scrum Team holds one as a whole, for all the work the Product Goal depends on. The other three are for the Increment, the Product, and the Practice.
+Scrum defines four accountabilities. The Scrum Team holds one as a whole, for all the work the Product Goal depends on. The other three are:
 
-None of them is a job title or a role. Each may be held by one or by several. Each is answerable as one, meaning the holders answer for it together. No part of an accountability is held by anyone who is not answerable for the whole. The Scrum Team can always identify who holds each accountability. Who holds one may change, and one holder may hold more than one.
+- Product Development, for the Increment;
+- Product Ownership, for the value of the work; and,
+- Practice Ownership, for every loop closing.
+
+Each may be held by one or by several. Each is answerable as one, meaning the holders answer for it together. No part of an accountability is held by anyone who is not answerable for the whole. The Scrum Team can always identify who holds each accountability. Who holds one may change, and one holder may hold more than one.
 
 ### Scrum Team
 
@@ -228,9 +235,9 @@ Scrum Teams are cross-functional, meaning the members have all the skills necess
 
 The entire Scrum Team is accountable for all the work the Product Goal depends on, so that nothing the Product Goal requires falls outside it.
 
-### Product Developers
+### Product Development
 
-The Product Developers are accountable for the Increment. They are the people in the Scrum Team committed to creating any aspect of a usable Increment each Cycle.
+Product Development is accountability for the Increment. Its holders, the Product Developers, are the people in the Scrum Team committed to creating any aspect of a usable Increment each Cycle.
 
 The specific skills needed are often broad and will vary with the domain of work. However, the Product Developers are always accountable for:
 
@@ -241,26 +248,26 @@ The specific skills needed are often broad and will vary with the domain of work
 
 The plan for the Cycle is a plan by and for the Product Developers. They observe the work, and they adjust the plan as they learn.
 
-### Product Owner
+### Product Ownership
 
-The Product Owner is accountable for maximizing the value resulting from the work of the Scrum Team.
+Product Ownership is accountability for maximizing the value resulting from the work of the Scrum Team.
 
-The Product Owner is accountable for decisions about value and answers for them as one. For the Product Owner to succeed, the entire organization must respect those decisions. Value is determined by the people receiving the work, and the Product Owner is accountable for representing their judgement. The Product Owner may represent the needs of many stakeholders, and anyone wanting the Product Backlog changed does so by convincing the Product Owner. The Product Owner's decisions are visible in the content and ordering of the Product Backlog, and through the inspectable Increment.
+Product Ownership is accountability for decisions about value, answered as one. The entire organization must respect those decisions. Value is determined by the people receiving the work, and Product Ownership includes representing their judgment. Its holders may represent the needs of many stakeholders, and anyone wanting the Product Backlog changed does so by convincing them. Those decisions are visible in the content and ordering of the Product Backlog, and through the inspectable Increment.
 
-The Product Owner is also accountable for effective Product Backlog management, which includes:
+Product Ownership also includes effective Product Backlog management, which means:
 
 - Developing and explicitly communicating the Product Goal;
 - Creating and clearly communicating Product Backlog items;
 - Ordering Product Backlog items; and,
 - Ensuring that the Product Backlog is transparent, visible and understood.
 
-The Product Owner may do the above work or may delegate the responsibility to others. Regardless, the Product Owner remains accountable.
+Its holders may do the above work or may delegate the responsibility to others. Regardless, they remain accountable.
 
-### Practice Owner
+### Practice Ownership
 
-The Practice Owner is accountable for every loop closing.
+Practice Ownership is accountability for every loop closing.
 
-The Practice Owner has the authority to require that a loop closes and to act on anything that prevents it from closing. This authority covers how the Scrum Team works. It does not extend to what the Scrum Team pursues, which the Product Owner decides. It does not extend to how the work is done, which the Product Developers decide.
+Practice Ownership carries the authority to require that a loop closes and to act on anything that prevents it from closing. This authority covers how the Scrum Team works. It does not extend to what the Scrum Team pursues, which Product Ownership decides. It does not extend to how the work is done, which the Product Developers decide.
 
 ## Scrum Loops
 
@@ -333,7 +340,7 @@ Each has one commitment, which gives it focus and something against which progre
 
 The Product Backlog is an emergent, ordered list of what is needed to improve the product, and the single source of work undertaken by the Scrum Team.
 
-Product Backlog items must be small enough to be Done within one Cycle, so that every Cycle produces finished work that can be compared. The Product Developers who will be doing the work are responsible for sizing it. The Product Owner may influence them by helping them understand and select trade-offs.
+Product Backlog items must be small enough to be Done within one Cycle, so that every Cycle produces finished work that can be compared. The Product Developers who will be doing the work are responsible for sizing it. The holders of Product Ownership may influence them by helping them understand and select trade-offs.
 
 The Product Backlog is ordered to fulfill its commitment, the Product Goal.
 
@@ -373,7 +380,7 @@ The Cycle Goal is the single objective for the Cycle. Although the Cycle Goal is
 
 The Cycle Goal is a focus, not an inventory of the work. Completing every selected item does not by itself satisfy it, and it may be satisfied by work that was not selected. A Cycle Goal is empty as a commitment if completing all the selected work would necessarily satisfy it. Such a goal only restates the Cycle Backlog. It gives the Scrum Team one objective to work toward together rather than on separate initiatives, and it communicates to stakeholders why the Cycle is valuable.
 
-This flexibility allows the Scrum Team to act on what it learns during the Cycle. When the work turns out to be different from what the Product Developers expected, they collaborate with the Product Owner to negotiate the scope of the Cycle Backlog, without affecting the Cycle Goal.
+This flexibility allows the Scrum Team to act on what it learns during the Cycle. When the work turns out to be different from what the Product Developers expected, they collaborate with the holders of Product Ownership to negotiate the scope of the Cycle Backlog, without affecting the Cycle Goal.
 
 ### Definition of Done
 

@@ -78,10 +78,10 @@
     falsifier: >-
       A Scrum Team pursuing two Product Goals at once.
   - id: SG26-C9
-    element: Practice Owner
+    element: Practice Ownership
     statement: >-
-      Obstruction is acted on. Whoever holds the Practice accountability can
-      require a loop to close and act on what prevents it.
+      Obstruction is acted on. The holders of Practice Ownership can require a
+      loop to close and act on what prevents it.
     falsifier: >-
       An obstruction identified, within the organisation's gift to remove, and
       left in place because nobody had the authority to act.
