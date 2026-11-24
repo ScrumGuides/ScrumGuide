@@ -19,13 +19,8 @@ changes:
       one.
   - title: The foundations are stated as checkable principles
     content: |
-      The 2020 edition says Scrum is founded on empiricism and lean thinking.
-      This edition states seven principles, each of which can be checked by
-      someone who does not take the Guide's word for it, and each of which
-      says where it stops applying. Lean thinking is not among them: nothing
-      in this edition derives from it, and the claim that Scrum has rested on
-      it since its earliest editions is false, since the term appears only in
-      the 2020 edition.
+      The foundations are nine principles. Each can be checked, and each is
+      reached by anyone developing something that does not yet exist.
   - title: Scrum is stated as a minimum, not a maximum
     content: |
       Scrum states the least that must be in place, and a Scrum Team adds
@@ -193,7 +188,7 @@ Scrum is a lightweight framework that helps people, teams and organizations gene
 
 Scrum is a minimum, not a maximum. It states the least that must be in place, and a Scrum Team adds whatever else its work requires. A Scrum Team may close more loops than Scrum defines. It may not close fewer.
 
-Various processes, techniques and methods can be employed within the framework. Scrum wraps around existing practices or renders them unnecessary, and makes the relative efficacy of current management, environment and work techniques visible, so that improvements can be made.
+Scrum wraps around existing practices or renders them unnecessary.
 
 ## Environment
 
