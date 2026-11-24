@@ -264,13 +264,13 @@ Each loop in Scrum is a formal opportunity to compare evidence with what was int
 
 The Scrum Team usually acts by changing something. The Scrum Team may instead conclude, based on the evidence, that no change is needed. A loop is not closed by looking at the evidence or by discussing it.
 
-Scrum defines five loops. Each closes on a change no other loop can make, and together they are the least a Scrum Team must close:
+Scrum defines five loops. Each closes on a decision no other loop can make, and together they are the least a Scrum Team must close:
 
 - The Objective Loop changes the Cycle Goal the Scrum Team takes on, and closes when a Cycle Goal is set with a selection of work and the Scrum Team's own approach to it;
 - The Plan Loop changes the work in flight under that Cycle Goal, and closes when the plan is re-planned to reflect what is now known;
 - The Understanding Loop changes what is understood about what comes next, and closes when work becomes clear enough to attempt or an idea is discarded;
 - The Direction Loop changes the Product Goal being pursued, and closes when the Product Goal is changed, or reaffirmed against what stakeholders did with the Increment; and,
-- The Practice Loop changes how the Scrum Team works, and closes when the way of working changes.
+- The Practice Loop changes how the Scrum Team works, and closes when the way of working changes, or is reaffirmed against what the other loops showed.
 
 Scrum does not define how long a loop takes. It defines only how often each loop closes relative to the others.
 
