@@ -195,7 +195,7 @@ Scrum is a minimum, not a maximum. It states the least that must be in place, an
 
 Various processes, techniques and methods can be employed within the framework. Scrum wraps around existing practices or renders them unnecessary, and makes the relative efficacy of current management, environment and work techniques visible, so that improvements can be made.
 
-## Scope
+## Environment
 
 Scrum is for developing something that does not yet exist, where forecasts do not reliably match what happens. Scrum uses the word complex for work of this kind.
 
