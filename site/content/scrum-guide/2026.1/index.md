@@ -267,7 +267,7 @@ Its holders may do the above work or may delegate the responsibility to others. 
 
 Practice Ownership is accountability for every loop closing.
 
-Practice Ownership carries the authority to require that a loop closes and to act on anything that prevents it from closing. This authority covers how the Scrum Team works. It does not extend to what the Scrum Team pursues, which Product Ownership decides. It does not extend to how the work is done, which the Product Developers decide.
+Practice Ownership carries the authority to require that a loop closes and to act on anything that prevents it from closing. That authority does not extend to the change the loop closes on.
 
 ## Scrum Loops
 
