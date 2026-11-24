@@ -140,6 +140,8 @@ A measure of activity, a position against a plan, or an unfinished piece of work
 
 An error is corrected only when four things come together: a result, a standard to compare it against, someone who sees the comparison and decides, and the power to change the work that follows.
 
+The standard comes before the result. No error can be found against a standard chosen to fit the result.
+
 Everything done since the last correction is unverified. The longer the wait between corrections, the more work a single undetected error can spoil.
 
 ### Cost of Correction
