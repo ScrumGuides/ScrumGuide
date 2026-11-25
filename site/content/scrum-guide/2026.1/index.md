@@ -122,290 +122,160 @@ aliases:
 
 ## Foundations
 
-Scrum is founded on the principles below. They are not Scrum's own. Anyone developing something that does not yet exist arrives at them. What Scrum adds is in the sections that follow.
+Scrum rests on nine principles for developing something that does not yet exist.
 
 ### Purpose
 
-Scrum exists to generate value through adaptive solutions for complex problems. Value is determined by the people receiving the work, not by the people doing it or by the amount of work done.
+Scrum exists to generate value through adaptive solutions for complex problems. The people who receive the work determine its value.
 
 ### Uncertainty
 
-Forecasts of developing something that does not yet exist do not reliably match what happens.
-
-A forecast states what is expected to be delivered, when, at what cost, and whether it will serve its purpose. If forecasts match what happens closely enough for the decisions being made, the work is predictable, and planning it and carrying out the plan costs less.
+Forecasts of work that has never been done before do not reliably match what happens. Work is predictable when its forecasts are reliable enough for the decisions people need to make.
 
 ### Evidence
 
-Only what has already happened is knowledge of the outcome.
-
-A plan, an estimate, a specification or an intention describes what someone expects. None of them is knowledge of the outcome. Only the work that has been done is.
-
-A measure of activity, a position against a plan, or an unfinished piece of work is evidence only if it rises and falls with the outcome. Under Uncertainty, nobody knows in advance whether it does.
+A forecast states what people expect. A result shows what happened. Activity and progress against a plan are evidence about an outcome only when they reliably reflect it.
 
 ### Correction
 
-Correction requires four things together: a result, a standard to compare it against, someone who sees the comparison and decides, and the power to change the work that follows.
+Correction requires four things together: a result, a standard agreed before the result is known, someone who sees the comparison and decides, and the authority to change the work that follows.
 
-The standard comes before the result. No variance can be found against a standard chosen to fit the result.
-
-Everything done since the last correction is unverified.
+No variance can be found against a standard chosen to fit the result. Everything done since the last correction is unverified.
 
 ### Cost of Correction
 
-A known variance should be acted on at once. How often to look for one is a different question. Both a long interval and a short one are expensive.
-
-Long intervals leave more unverified work at risk. Short intervals spend on looking what could have been spent on the work.
-
-This Guide does not fix that interval. It is settled by observation, and it differs from one kind of work to another. If looking costs nothing, there is no interval to settle.
+A known variance is acted on at once. The interval between inspections is settled by observation, and it differs from one kind of work to another. Long intervals leave more unverified work at risk. Frequent inspections take effort that could go into the work.
 
 ### Reporting
 
-Bad news reaches the person who decides only where reporting it carries no penalty.
-
-Correction requires that the person who decides sees the result. Often they are told it by someone else, and then they learn what that person was willing to say. A result that will be held against the person reporting it arrives late, arrives softened, or does not arrive. What the person who decides sees is then not the result, and the variance survives.
-
-If the person who decides sees the result without being told, nothing is lost on the way.
+Bad news reaches the person who decides only if reporting it carries no penalty. When reporting a problem carries a penalty, the person who decides learns of it late, hears a softened account or never hears of it.
 
 ### Partial Results
 
-A part of the work can be finished and put to real use before the whole is done, and how it behaves there is evidence about the rest.
-
-Some work cannot be divided this way. If no part can be finished on its own, or no part can be put to real use, or what the part does says nothing about the rest, there is no correcting before the end. Such work is attempted once.
+Part of the work can often be finished and put to use before the whole is done, and what it shows is evidence about the rest. If no part can be finished, used or learned from on its own, the work is attempted once and corrected only at the end.
 
 ### Response
 
-No procedure prepared in advance covers everything that can happen.
-
-A procedure can set the limits a response must stay within. It cannot supply the response. The people doing the work must be able to respond in ways nobody prescribed.
-
-If everything that can happen is known and can be listed, a procedure covers it all.
+No procedure prepared in advance covers everything that can happen. A procedure can set limits on how people respond. The people doing the work must be able to respond within those limits in ways nobody prescribed.
 
 ### Knowledge
 
-The right to decide moves more easily than the knowledge a good decision needs.
+The right to decide moves more easily than the knowledge a good decision needs. Some knowledge can be written down and sent without loss. A decision that depends on knowledge that cannot be sent belongs with the people who hold it.
 
-Some knowledge can be written down and sent without losing anything, and if it arrives in time the decision can be made anywhere. The rest cannot, and that decision belongs with the people who hold the knowledge.
-
-Knowledge is also held in pieces. The person who decides holds some of it, the people who did the work hold some, and the people who received the work hold the rest. A decision made without talking to them all is made on part of what is known.
+Knowledge is held in pieces by the people deciding, doing and receiving the work. A decision made without drawing on all of them is made on part of what is known.
 
 ---
 
 ## Scrum Definition
 
-Scrum is a lightweight framework that helps people, teams and organizations generate value through adaptive solutions for complex problems. Scrum is purposefully incomplete. It defines only the parts required to implement the Foundations, and the rest is built by the collective intelligence of the people using it. Its rules guide relationships and interactions rather than give detailed instructions.
+Scrum is a lightweight framework that helps people, teams and organizations generate value through adaptive solutions for complex problems. Work is complex if it develops something that does not yet exist and its forecasts do not reliably match what happens.
 
-Scrum is a minimum, not a maximum. It states the least that must be in place, and a Scrum Team adds whatever else its work requires. A Scrum Team may close more loops than Scrum defines. It may not close fewer.
+Scrum defines the minimum accountabilities, loops, commitments and transparency needed to apply the Foundations. The people using Scrum choose the practices their work requires. A Scrum Team may close more loops than Scrum defines. It may not close fewer.
 
 Scrum wraps around existing practices or renders them unnecessary.
 
-![Three bands. The five values support the artifacts and their commitments, and the loops adapt them. What is intended is in the Product Backlog, whose commitment is the Product Goal, adapted in the Direction Loop. What is happening is in the Cycle Backlog, whose commitment is the Cycle Goal, adapted in the Objective Loop. What has happened is in the Increment, whose commitment is the Definition of Done. How the Scrum Team works is in the System of Work, whose commitment is the System Aim and which includes the Definition of Done. The System Adaptation Loop adapts the Definition of Done and the System Aim. The Understanding Loop adapts the Product Backlog and the Plan Loop adapts the Cycle Backlog. Above the bands, the Scrum Team is accountable as a whole for all the work the Product Goal depends on, and holds Product Ownership, Product Development and System Ownership.](/scrum-guide/2026.1/scrum-definition.svg)
-
-## Environment
-
-Scrum is for developing something that does not yet exist, where forecasts do not reliably match what happens. Scrum uses the word complex for work of this kind.
+![The Scrum Team is accountable as a whole for all the work the Product Goal depends on, and holds Product Ownership, Product Development and System Ownership. The five values support the artifacts and their commitments, and the loops adapt them.](/scrum-guide/2026.1/scrum-definition.svg)
 
 ## Scrum Values
 
-Scrum defines five values. Successful use of Scrum depends on people becoming more proficient in living these values:
+Scrum defines five values: Commitment, Focus, Openness, Respect and Courage.
 
-***Commitment, Focus, Openness, Respect, and Courage***
+The Scrum Team commits to shared outcomes and to supporting one another. It focuses on the Cycle Goal. The Scrum Team and the people it works with are open about the work and its difficulties. Scrum Team members respect each other as capable, independent people. They have the courage to act on what they learn and to work on tough problems.
 
-The Scrum Team commits to achieving its outcomes and to supporting each other. Its primary focus is on the work of the Cycle, to make the best possible progress toward those outcomes. The Scrum Team and the people it works with are open about the work and the challenges. Scrum Team members respect each other to be capable, independent people, and are respected as such. Scrum Team members have the courage to do the right thing and to work on tough problems.
-
-These values give direction to the Scrum Team with regard to its work, actions and behavior. The decisions made, the steps taken and the way Scrum is used should reinforce them, not diminish or undermine them. When these values are embodied by the Scrum Team and the people it works with, the loops close on evidence rather than on opinion, and trust is built.
+Successful use of Scrum depends on people becoming more proficient in living these values. When the Scrum Team and the people it works with live them, the loops close on evidence and trust is built.
 
 ## Scrum Accountabilities
 
-Scrum defines four accountabilities. The Scrum Team holds one as a whole, for all the work the Product Goal depends on. The other three are:
-
-- Product Development, for the Increment;
-- Product Ownership, for the value of the work; and,
-- System Ownership, for the System of Work and every loop closing.
-
-Each may be held by one or by several. Each is answerable as one, meaning the holders answer for it together. No part of an accountability is held by anyone who is not answerable for the whole. The Scrum Team can always identify who holds each accountability. Who holds one may change, and one holder may hold more than one.
+Scrum defines four accountabilities. The Scrum Team holds one as a whole. Each of the other three may be held by one person or by several, and its holders answer for it together. No part of an accountability is held by anyone who does not answer for the whole. The Scrum Team can always name who holds each one. A person may hold more than one accountability, and holders may change.
 
 ### Scrum Team
 
-The fundamental unit of Scrum is a small team of people, a Scrum Team. It is a cohesive unit of professionals focused on one objective at a time, the Product Goal.
+The whole Scrum Team is accountable for all the work the Product Goal depends on. It is a small, cohesive team focused on one Product Goal at a time.
 
-The Scrum Team keeps the skills, the authority and the accountability for the work together in one unit.
-
-Scrum Teams are cross-functional, meaning the members have all the skills necessary to create value each Cycle. They are also self-managing, meaning they internally decide who does what, when, and how. Within a Scrum Team, there are no sub-teams or hierarchies. The organization structures and empowers the Scrum Team to manage its own work.
-
-The entire Scrum Team is accountable for all the work the Product Goal depends on, so that nothing the Product Goal requires falls outside it.
+The Scrum Team has the skills and authority to create value each Cycle. Its members decide among themselves who does what, when and how. There are no sub-teams or hierarchies within it. The organization structures and empowers the Scrum Team to manage its own work.
 
 ### Product Development
 
-Product Development is accountability for the Increment. Its holders, the Product Developers, are the people in the Scrum Team committed to creating any aspect of a usable Increment each Cycle.
-
-The specific skills needed are often broad and will vary with the domain of work. However, the Product Developers are always accountable for:
-
-- Creating a plan for the Cycle, the Cycle Backlog;
-- Instilling quality by adhering to a Definition of Done;
-- Adapting their plan toward the Cycle Goal as more is learned; and,
-- Holding each other accountable as professionals.
-
-The plan for the Cycle is a plan by and for the Product Developers. They observe the work, and they adjust the plan as they learn.
+Product Development is accountability for the Increment. Its holders, the Product Developers, create the Cycle Backlog, meet the Definition of Done and adapt their plan toward the Cycle Goal as they learn. They hold one another accountable for this work.
 
 ### Product Ownership
 
-Product Ownership is accountability for maximizing the value resulting from the work of the Scrum Team.
+Product Ownership is accountability for maximizing the value of the Scrum Team's work. Its holders make decisions about value and represent the judgment of the people receiving the work. The organization respects those decisions. Those decisions are visible in the content and ordering of the Product Backlog and in the Increment.
 
-Product Ownership is accountability for decisions about value, answered as one. The entire organization must respect those decisions. Value is determined by the people receiving the work, and Product Ownership includes representing their judgment. Its holders may represent the needs of many stakeholders, and anyone wanting the Product Backlog changed does so by convincing them. Those decisions are visible in the content and ordering of the Product Backlog, and through the inspectable Increment.
-
-Product Ownership also includes effective Product Backlog management, which means:
-
-- Developing and explicitly communicating the Product Goal;
-- Creating and clearly communicating Product Backlog items;
-- Ordering Product Backlog items; and,
-- Ensuring that the Product Backlog is transparent, visible and understood.
-
-Its holders may do the above work or may delegate the responsibility to others. Regardless, they remain accountable.
+Its holders set and communicate the Product Goal, create and communicate Product Backlog items, and order the Product Backlog. Anyone who wants the Product Backlog changed must convince them. They ensure the Product Backlog is visible and understood. They may delegate this work and remain accountable for it.
 
 ### System Ownership
 
-System Ownership is accountability for the System of Work and for every loop closing.
-
-System Ownership carries the authority to require that a loop closes and to act on anything that prevents it from closing. That authority does not extend to the change the loop closes on.
+System Ownership is accountability for the System of Work and for every loop closing. Its holders may require a loop to close and may act on anything that prevents it from closing. Their authority does not extend to the decision the loop closes on.
 
 ## Scrum Loops
 
-Each loop in Scrum is a formal opportunity to compare evidence with what was intended and to act on the result. A loop remains open until both have happened.
+Scrum defines five loops. Each closes on a distinct decision informed by evidence. Inspection alone leaves a loop open. If the evidence supports the current course, an explicit decision to continue closes the loop.
 
-The Scrum Team usually acts by changing something. The Scrum Team may instead conclude, based on the evidence, that no change is needed. A loop is not closed by looking at the evidence or by discussing it.
-
-Scrum defines five loops. Each closes on a decision no other loop can make, and together they are the least a Scrum Team must close:
-
-- The Objective Loop changes the Cycle Goal the Scrum Team takes on, and closes when a Cycle Goal is set with a selection of work and the Scrum Team's own approach to it;
-- The Plan Loop changes the work in flight under that Cycle Goal, and closes when the plan is re-planned to reflect what is now known;
-- The Understanding Loop changes what is understood about what comes next, and closes when work becomes clear enough to attempt or an idea is discarded;
-- The Direction Loop changes the Product Goal being pursued, and closes when the Product Goal is changed, or reaffirmed against what stakeholders did with the Increment; and,
-- The System Adaptation Loop changes how the Scrum Team works, and closes when the System of Work changes, or is reaffirmed against what the other loops showed.
-
-Scrum does not define how long a loop takes. It defines only how often each loop closes relative to the others.
-
-- The Plan Loop closes more often than the Objective Loop, so that undesirable variances are detected before they accumulate;
-- The Understanding Loop closes ahead of the Objective Loop, so that the Cycle Goal is assembled from work that can be inspected;
-- The Direction Loop closes at least as often as the Objective Loop, so that the Scrum Team knows whether its last Increment was valuable before it takes on another Cycle Goal; and,
-- The System Adaptation Loop closes before the Objective Loop, so that known problems are not carried into the next Cycle.
+Scrum defines how these decisions depend on one another. The Scrum Team determines how long they take.
 
 ### Objective Loop
 
-The purpose of the Objective Loop is to state what the Scrum Team is trying to achieve next, so that the other loops have something to compare results against and stakeholders know what to expect. It gathers no evidence of its own and relies on what the other loops have made available.
+The Scrum Team decides what it will try to achieve next, drawing on what the other loops have shown. The loop closes when the Scrum Team sets a Cycle Goal and selects work that could achieve it, and the Product Developers establish their initial plan.
 
-Once set, the Cycle Goal informs the work without controlling it. It is stated before the work, so that results are judged against an intention that was not chosen to fit them, and the Product Developers decide what to do about it.
-
-A Cycle lasts as long as one Cycle Goal. A new Cycle begins as the previous one ends. All the work necessary to achieve the Product Goal, including every loop, happens within Cycles.
+The Cycle Goal is set before the work, so the result can be judged against the original intention. A Cycle lasts as long as one Cycle Goal. Each Cycle begins as the previous one ends, and all work toward the Product Goal takes place within Cycles.
 
 ### Plan Loop
 
-The Plan Loop is for the Product Developers. Only the Product Developers can act on what the Plan Loop shows. They can select whatever structure they want for it, as long as it produces a plan they can work to until the Plan Loop next closes.
+The Product Developers inspect progress toward the Cycle Goal and decide whether to keep or change their plan. Only the Product Developers make this decision.
 
-The Product Developers are expected to adapt the moment they learn anything new. The Plan Loop is not the only time they adjust their plan, but it ensures that they do.
+The Plan Loop closes more often than the Objective Loop, so the Product Developers can act on what they learn while the Cycle Goal still holds. They can also adjust their plan whenever new evidence warrants it.
 
 ### Understanding Loop
 
-The Understanding Loop is an ongoing activity. It compares what the Scrum Team has done with what the Scrum Team expects to do next.
+The Scrum Team uses what it has learned to clarify work that may come next. The loop closes for a piece of work when it is clear enough to attempt, or when it is discarded.
 
-Work that is too vague or too large to learn from is made clear enough to attempt, or is discarded. Work that stays vague is carried from Cycle to Cycle, and the Objective Loop has nothing it can be assembled from. If a Cycle produces no evidence, the other loops cannot be closed.
+The Understanding Loop closes ahead of the Objective Loop, so each Cycle Goal is built from work understood well enough to select. Work that stays vague produces no evidence, and without evidence the other loops cannot close.
 
 ### Direction Loop
 
-The purpose of the Direction Loop is to determine whether the Increment is valuable to stakeholders. The Direction Loop is the only loop that requires people outside the Scrum Team.
+The Scrum Team and stakeholders assess what happened when real users used the Increment, and what has changed in their environment. The loop closes when the Product Goal is changed, or reaffirmed in light of that evidence. The Product Backlog may then be adjusted.
 
-The Direction Loop closes when what stakeholders did with a usable Increment has been assessed against the Product Goal, and the Product Goal has been changed or reaffirmed against what that showed. The Scrum Team and the stakeholders also review what has changed in their environment. The Product Backlog may then be adjusted to meet new opportunities.
+Feedback on individual items informs the decision. A Scrum Team that only ever resolves items has not closed the loop. The loop stays open until at least some real users have used the Increment. Showing the Increment to stakeholders does not count as use. The Direction Loop is the only loop that requires people outside the Scrum Team.
 
-Feedback on individual items is evidence for that assessment, not the assessment itself. A Scrum Team that only ever resolves items has not closed the loop.
-
-The Direction Loop is a working exchange between the Scrum Team and stakeholders. An Increment that has been shown but not used provides no evidence of value, and the loop remains open.
+The Direction Loop closes at least as often as the Objective Loop, so the Scrum Team knows whether the Increment is valuable before it sets another Cycle Goal.
 
 ### System Adaptation Loop
 
-The purpose of the System Adaptation Loop is to improve how the Scrum Team works. It is the only loop that inspects the Scrum Team itself.
+The Scrum Team inspects how it works, drawing on evidence from the other loops. Before it sets its next Cycle Goal, it changes its System of Work, or confirms from the evidence that the System of Work still serves the System Aim. The System Adaptation Loop is the only loop that inspects the Scrum Team itself.
 
 ## Scrum Transparency
 
-Scrum makes work and value visible, so that everyone inspecting it has the same basis for adaptation.
+Scrum makes visible what is intended, what is happening, what has happened and how the Scrum Team works. Each is shown in one place. Each has one commitment, which gives people a common basis for judging what they see and is adapted in one loop.
 
-What is intended, what is happening and what has happened must all be transparent. Scrum makes each visible in one place: what is intended in the Product Backlog, what is happening in the Cycle Backlog, and what has happened in the Increment. The System of Work makes visible how the Scrum Team works.
+### Product Backlog and Product Goal
 
-Each has one commitment, which gives it focus and something against which progress can be measured. Each commitment is adapted in one loop when the evidence requires it:
+The Product Backlog shows what is intended. It is the single, ordered source of the Scrum Team's work to improve the product, and it emerges as the Scrum Team learns. Product Backlog items must be small enough to be Done within one Cycle. The Product Developers who will do the work judge whether it can be finished.
 
-- For the Product Backlog it is the Product Goal, adapted in the Direction Loop;
-- For the Cycle Backlog it is the Cycle Goal, adapted in the Objective Loop;
-- For the Increment it is the Definition of Done, adapted in the System Adaptation Loop; and,
-- For the System of Work it is the System Aim, adapted in the System Adaptation Loop.
-
-### Product Backlog
-
-The Product Backlog is an emergent, ordered list of what is needed to improve the product, and the single source of work undertaken by the Scrum Team.
-
-Product Backlog items must be small enough to be Done within one Cycle, so that every Cycle produces finished work that can be compared. The Product Developers who will be doing the work are responsible for sizing it. The holders of Product Ownership may influence them by helping them understand and select trade-offs.
-
-The Product Backlog is ordered to fulfill its commitment, the Product Goal.
-
-### Cycle Backlog
-
-The Cycle Backlog is composed of the Cycle Goal (why), the Product Backlog items selected for the Cycle (what), and an actionable plan for delivering the Increment (how).
-
-The Cycle Backlog is a plan by and for the Product Developers. It is a highly visible, real-time picture of the work that the Product Developers plan to accomplish during the Cycle in order to achieve the Cycle Goal. Consequently, the Cycle Backlog is updated throughout the Cycle as more is learned. It should have enough detail that the Product Developers can inspect their progress.
-
-The Cycle Backlog is selected and re-planned to achieve its commitment, the Cycle Goal.
-
-### Increment
-
-An Increment is a concrete stepping stone toward the Product Goal. Each is additive to all prior Increments and thoroughly verified, so that all Increments work together.
-
-In order to provide value and to be inspected, the Increment must be usable.
-
-An Increment exists only when it meets its commitment, the Definition of Done.
-
-Multiple Increments may be created within a Cycle. The sum of the Increments is inspected in the Direction Loop. An Increment may be delivered to stakeholders as soon as it is ready. No loop should be considered a gate to releasing value.
-
-### System of Work
-
-The System of Work is an emergent description of the workflow, practices and policies of the Scrum Team. It is visible to the Scrum Team and the people it works with, so that how the work is done can be inspected as well as the work. The Definition of Done is part of the System of Work.
-
-The System of Work is adapted to fulfill its commitment, the System Aim.
-
-## Commitments
-
-The Product Backlog, the Cycle Backlog, the Increment and the System of Work each have one commitment. The Product Goal states what the Product Backlog is for, the Cycle Goal what the Cycle Backlog is for, the Definition of Done what the Increment is for, and the System Aim what the System of Work is for. Progress is then measured against something agreed rather than merely observed.
-
-### Product Goal
-
-The Product Goal describes a future state of the product, and serves as a target for the Scrum Team to plan against. The Product Goal is in the Product Backlog. The rest of the Product Backlog emerges to define what will fulfill the Product Goal.
+Its commitment is the Product Goal, the future state of the product the Scrum Team seeks to achieve. The Product Goal is in the Product Backlog, and the rest of the Product Backlog emerges to fulfill it. The Scrum Team pursues one Product Goal at a time, and fulfills or abandons it before taking on another. The Product Goal is adapted in the Direction Loop.
 
 A product is a vehicle to deliver value. It has a clear boundary, known stakeholders, and well-defined users or customers. A product could be a service, a physical product, or something more abstract.
 
-The Scrum Team focuses on one Product Goal at a time. They must fulfill (or abandon) one Product Goal before taking on the next.
+### Cycle Backlog and Cycle Goal
 
-### Cycle Goal
+The Cycle Backlog shows what is happening. It contains the Cycle Goal, the work selected and the Product Developers' plan for adding the selected work to the Increment. The Product Developers update it as they learn.
 
-The Cycle Goal is the single objective for the Cycle. Although the Cycle Goal is a commitment by the Product Developers, it provides flexibility in terms of the exact work needed to achieve it.
+Its commitment is the Cycle Goal, the single outcome the Product Developers intend to achieve during the Cycle. The Cycle Goal gives the Scrum Team one objective to work toward together, and tells stakeholders why the Cycle is valuable. Completing every selected item does not by itself achieve it. A Cycle Goal that completing the selected work would necessarily achieve is empty as a commitment. The Product Developers may renegotiate the selected work with the holders of Product Ownership while the Cycle Goal holds. The Cycle Goal is adapted in the Objective Loop.
 
-The Cycle Goal is a focus, not an inventory of the work. Completing every selected item does not by itself satisfy it, and it may be satisfied by work that was not selected. A Cycle Goal is empty as a commitment if completing all the selected work would necessarily satisfy it. Such a goal only restates the Cycle Backlog. It gives the Scrum Team one objective to work toward together rather than on separate initiatives, and it communicates to stakeholders why the Cycle is valuable.
+### Increment and Definition of Done
 
-This flexibility allows the Scrum Team to act on what it learns during the Cycle. When the work turns out to be different from what the Product Developers expected, they collaborate with the holders of Product Ownership to negotiate the scope of the Cycle Backlog, without affecting the Cycle Goal.
+The Increment shows what has happened. The Increment is the whole of the usable product as it stands. It may be delivered whenever new work becomes part of it.
 
-### Definition of Done
+Its commitment is the Definition of Done, the shared quality standard work must meet to become part of the Increment. Work that does not meet the Definition of Done cannot be released or inspected in the Direction Loop, and may need to be reconsidered. Meeting that standard establishes that the Increment is usable. The Increment is used by at least some real users. What real users do with the Increment provides evidence of value.
 
-The Definition of Done is a formal description of the state of the Increment when it meets the quality measures required for the product. The moment an item meets it, an Increment is born.
+If the Definition of Done is part of the standards of the organization, all Scrum Teams must follow it as a minimum. If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriate for the product. Scrum Teams working on the same product share a Definition of Done. The Definition of Done applies to every item and the product. The Definition of Done is adapted in the System Adaptation Loop.
 
-The Definition of Done creates transparency by providing everyone a shared understanding of what work was completed as part of the Increment. If an item does not meet the Definition of Done, it cannot be released or even inspected in the Direction Loop. It returns to the Product Backlog for future consideration.
+### System of Work and System Aim
 
-The Definition of Done makes the Increment trustworthy as evidence. If unfinished work is treated as finished, the Scrum Team may draw the wrong conclusions from it. The Definition of Done applies to every item and every Scrum Team, so that Done has the same meaning wherever it is used.
+The System of Work shows how the Scrum Team works. It is an emergent description of the Scrum Team's workflow, practices and policies, visible to the Scrum Team and the people it works with. It includes the Definition of Done.
 
-If the Definition of Done is part of the standards of the organization, all Scrum Teams must follow it as a minimum. If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriate for the product. The Product Developers are required to conform to the Definition of Done. If multiple Scrum Teams work together on one product, they must mutually define and comply with the same Definition of Done.
-
-### System Aim
-
-The System Aim states what the System of Work is for: who it serves, and what they receive from it.
-
-A System Aim is never fulfilled. The System Adaptation Loop tests whether the System of Work still serves it.
+Its commitment is the System Aim, which states whom the System of Work serves and what they should receive from it. The System Aim is a continuing standard against which the Scrum Team assesses and adapts how it works. It is adapted in the System Adaptation Loop.
 
 ## End Note
 
-Scrum consists of its accountabilities, its loops, its commitments and the transparency they require. Each element serves a specific purpose that the other elements depend on.
-
-Scrum is immutable as a minimum. Adding to it is expected, and Scrum functions well as a container for other techniques, methodologies and practices. While implementing only parts of Scrum is possible, the result is not Scrum.
+Scrum's accountabilities, loops, commitments and transparency form its minimum. Each serves a purpose the others depend on. Teams using Scrum add whatever else their work requires. Scrum is immutable as a minimum. Implementing only part of Scrum is possible, and the result is not Scrum.
