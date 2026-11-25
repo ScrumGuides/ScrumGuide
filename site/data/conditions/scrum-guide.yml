@@ -42,10 +42,10 @@
     element: Scrum Loops
     statement: >-
       The loop periods are ordered. Plan closes more often than Objective,
-      Direction at least as often as Objective, Practice before each Objective
+      Direction at least as often as Objective, System Adaptation before each Objective
       closure, and Understanding ahead of it.
     falsifier: >-
-      An Objective Loop that closed with no Practice Loop closure since the
+      An Objective Loop that closed with no System Adaptation Loop closure since the
       previous one.
   - id: SG26-C5
     element: Direction Loop
@@ -78,9 +78,9 @@
     falsifier: >-
       A Scrum Team pursuing two Product Goals at once.
   - id: SG26-C9
-    element: Practice Ownership
+    element: System Ownership
     statement: >-
-      Obstruction is acted on. The holders of Practice Ownership can require a
+      Obstruction is acted on. The holders of System Ownership can require a
       loop to close and act on what prevents it.
     falsifier: >-
       An obstruction identified, within the organisation's gift to remove, and

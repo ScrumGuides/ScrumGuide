@@ -53,7 +53,7 @@ changes:
     content: |
       Sprint to Cycle, Sprint Goal to Cycle Goal, Sprint Backlog to Cycle
       Backlog, Developers to Product Development, Product Owner to Product
-      Ownership, Scrum Master to Practice Ownership. Each of those old terms
+      Ownership, Scrum Master to System Ownership. Each of those old terms
       misleads. Sprint implies haste, against Scrum's own sustainable pace.
       Developers reads as software coders, which is why the 2020 edition
       needs a paragraph defending it. Master asserts an authority that the
@@ -90,11 +90,18 @@ changes:
       committee. Here any accountability may be held by one or by several,
       provided it is answerable as one. What is forbidden is an accountability
       that nobody answers for.
-  - title: Practice Ownership carries authority
+  - title: System Ownership carries authority
     content: |
       Authority to require that a loop closes and to act on whatever prevents
       it. The Scrum Guide gives that accountability no authority. This is a
       change to Scrum, not a clearer statement of it.
+  - title: How the Scrum Team works is made transparent
+    content: |
+      In the 2020 edition how the Scrum Team works is inspected in the Sprint
+      Retrospective but made visible nowhere. Here it is described in the
+      System of Work, its commitment is the System Aim, and System Ownership
+      is accountable for both. This is a change to Scrum, not a clearer
+      statement of it.
   - title: Conditions are published with the edition
     content: |
       The edition states the conditions against which an application of Scrum
@@ -212,7 +219,7 @@ Scrum defines four accountabilities. The Scrum Team holds one as a whole, for al
 
 - Product Development, for the Increment;
 - Product Ownership, for the value of the work; and,
-- Practice Ownership, for every loop closing.
+- System Ownership, for the System of Work and every loop closing.
 
 Each may be held by one or by several. Each is answerable as one, meaning the holders answer for it together. No part of an accountability is held by anyone who is not answerable for the whole. The Scrum Team can always identify who holds each accountability. Who holds one may change, and one holder may hold more than one.
 
@@ -254,11 +261,11 @@ Product Ownership also includes effective Product Backlog management, which mean
 
 Its holders may do the above work or may delegate the responsibility to others. Regardless, they remain accountable.
 
-### Practice Ownership
+### System Ownership
 
-Practice Ownership is accountability for every loop closing.
+System Ownership is accountability for the System of Work and for every loop closing.
 
-Practice Ownership carries the authority to require that a loop closes and to act on anything that prevents it from closing. That authority does not extend to the change the loop closes on.
+System Ownership carries the authority to require that a loop closes and to act on anything that prevents it from closing. That authority does not extend to the change the loop closes on. System Ownership is also accountable for the Definition of Done being stated and transparent. It has no authority to change it.
 
 ## Scrum Loops
 
@@ -272,14 +279,14 @@ Scrum defines five loops. Each closes on a decision no other loop can make, and 
 - The Plan Loop changes the work in flight under that Cycle Goal, and closes when the plan is re-planned to reflect what is now known;
 - The Understanding Loop changes what is understood about what comes next, and closes when work becomes clear enough to attempt or an idea is discarded;
 - The Direction Loop changes the Product Goal being pursued, and closes when the Product Goal is changed, or reaffirmed against what stakeholders did with the Increment; and,
-- The Practice Loop changes how the Scrum Team works, and closes when the way of working changes, or is reaffirmed against what the other loops showed.
+- The System Adaptation Loop changes how the Scrum Team works, and closes when the System of Work changes, or is reaffirmed against what the other loops showed.
 
 Scrum does not define how long a loop takes. It defines only how often each loop closes relative to the others.
 
 - The Plan Loop closes more often than the Objective Loop, so that undesirable variances are detected before they accumulate;
 - The Understanding Loop closes ahead of the Objective Loop, so that the Cycle Goal is assembled from work that can be inspected;
 - The Direction Loop closes at least as often as the Objective Loop, so that the Scrum Team knows whether its last Increment was valuable before it takes on another Cycle Goal; and,
-- The Practice Loop closes before the Objective Loop, so that known problems are not carried into the next Cycle.
+- The System Adaptation Loop closes before the Objective Loop, so that known problems are not carried into the next Cycle.
 
 ### Objective Loop
 
@@ -311,21 +318,22 @@ Feedback on individual items is evidence for that assessment, not the assessment
 
 The Direction Loop is a working exchange between the Scrum Team and stakeholders. An Increment that has been shown but not used provides no evidence of value, and the loop remains open.
 
-### Practice Loop
+### System Adaptation Loop
 
-The purpose of the Practice Loop is to improve how the Scrum Team works. It is the only loop that inspects the Scrum Team itself.
+The purpose of the System Adaptation Loop is to improve how the Scrum Team works. It is the only loop that inspects the Scrum Team itself.
 
 ## Scrum Transparency
 
 Scrum makes work and value visible, so that everyone inspecting it has the same basis for adaptation.
 
-What is intended, what is happening and what has happened must all be transparent. Scrum makes each visible in one place: what is intended in the Product Backlog, what is happening in the Cycle Backlog, and what has happened in the Increment.
+What is intended, what is happening and what has happened must all be transparent. Scrum makes each visible in one place: what is intended in the Product Backlog, what is happening in the Cycle Backlog, and what has happened in the Increment. The System of Work makes visible how the Scrum Team works.
 
 Each has one commitment, which gives it focus and something against which progress can be measured. Each commitment is tested in one loop and is changed there if the evidence requires it:
 
 - For the Product Backlog it is the Product Goal, tested in the Direction Loop;
-- For the Cycle Backlog it is the Cycle Goal, tested in the Objective Loop; and,
-- For the Increment it is the Definition of Done, tested in the Practice Loop.
+- For the Cycle Backlog it is the Cycle Goal, tested in the Objective Loop;
+- For the Increment it is the Definition of Done, tested in the System Adaptation Loop; and,
+- For the System of Work it is the System Aim, tested in the System Adaptation Loop.
 
 ### Product Backlog
 
@@ -353,9 +361,15 @@ An Increment exists only when it meets its commitment, the Definition of Done.
 
 Multiple Increments may be created within a Cycle. The sum of the Increments is inspected in the Direction Loop. An Increment may be delivered to stakeholders as soon as it is ready. No loop should be considered a gate to releasing value.
 
+### System of Work
+
+The System of Work is an emergent description of the workflow, practices and policies of the Scrum Team. It is visible to the Scrum Team and the people it works with, so that how the work is done can be inspected as well as the work.
+
+The System of Work is adapted to fulfill its commitment, the System Aim.
+
 ## Commitments
 
-The Product Backlog, the Cycle Backlog and the Increment each have one commitment. The Product Goal states what the Product Backlog is for, the Cycle Goal what the Cycle Backlog is for, and the Definition of Done what the Increment is for. Progress is then measured against something agreed rather than merely observed.
+The Product Backlog, the Cycle Backlog, the Increment and the System of Work each have one commitment. The Product Goal states what the Product Backlog is for, the Cycle Goal what the Cycle Backlog is for, the Definition of Done what the Increment is for, and the System Aim what the System of Work is for. Progress is then measured against something agreed rather than merely observed.
 
 ### Product Goal
 
@@ -382,6 +396,12 @@ The Definition of Done creates transparency by providing everyone a shared under
 The Definition of Done makes the Increment trustworthy as evidence. If unfinished work is treated as finished, the Scrum Team may draw the wrong conclusions from it. The Definition of Done applies to every item and every Scrum Team, so that Done has the same meaning wherever it is used.
 
 If the Definition of Done is part of the standards of the organization, all Scrum Teams must follow it as a minimum. If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriate for the product. The Product Developers are required to conform to the Definition of Done. If multiple Scrum Teams work together on one product, they must mutually define and comply with the same Definition of Done.
+
+### System Aim
+
+The System Aim states what the System of Work is for: who it serves, and what they receive from it.
+
+A System Aim is never fulfilled. The System Adaptation Loop tests whether the System of Work still serves it.
 
 ## End Note
 
