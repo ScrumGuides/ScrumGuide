@@ -199,6 +199,8 @@ Scrum is a minimum, not a maximum. It states the least that must be in place, an
 
 Scrum wraps around existing practices or renders them unnecessary.
 
+![Three bands. The five values support the artifacts and their commitments, and the loops adapt them. What is intended is in the Product Backlog, whose commitment is the Product Goal, adapted in the Direction Loop. What is happening is in the Cycle Backlog, whose commitment is the Cycle Goal, adapted in the Objective Loop. What has happened is in the Increment, whose commitment is the Definition of Done. How the Scrum Team works is in the System of Work, whose commitment is the System Aim and which includes the Definition of Done. The System Adaptation Loop adapts the Definition of Done and the System Aim. The Understanding Loop adapts the Product Backlog and the Plan Loop adapts the Cycle Backlog. Above the bands, the Scrum Team is accountable as a whole for all the work the Product Goal depends on, and holds Product Ownership, Product Development and System Ownership.](/scrum-guide/2026.1/scrum-definition.svg)
+
 ## Environment
 
 Scrum is for developing something that does not yet exist, where forecasts do not reliably match what happens. Scrum uses the word complex for work of this kind.
@@ -310,7 +312,7 @@ Work that is too vague or too large to learn from is made clear enough to attemp
 
 ### Direction Loop
 
-The purpose of the Direction Loop is to determine whether the Increment is valuable to stakeholders. It is the only loop that involves people outside the Scrum Team.
+The purpose of the Direction Loop is to determine whether the Increment is valuable to stakeholders. The Direction Loop is the only loop that requires people outside the Scrum Team.
 
 The Direction Loop closes when what stakeholders did with a usable Increment has been assessed against the Product Goal, and the Product Goal has been changed or reaffirmed against what that showed. The Scrum Team and the stakeholders also review what has changed in their environment. The Product Backlog may then be adjusted to meet new opportunities.
 
@@ -328,12 +330,12 @@ Scrum makes work and value visible, so that everyone inspecting it has the same 
 
 What is intended, what is happening and what has happened must all be transparent. Scrum makes each visible in one place: what is intended in the Product Backlog, what is happening in the Cycle Backlog, and what has happened in the Increment. The System of Work makes visible how the Scrum Team works.
 
-Each has one commitment, which gives it focus and something against which progress can be measured. Each commitment is tested in one loop and is changed there if the evidence requires it:
+Each has one commitment, which gives it focus and something against which progress can be measured. Each commitment is adapted in one loop when the evidence requires it:
 
-- For the Product Backlog it is the Product Goal, tested in the Direction Loop;
-- For the Cycle Backlog it is the Cycle Goal, tested in the Objective Loop;
-- For the Increment it is the Definition of Done, tested in the System Adaptation Loop; and,
-- For the System of Work it is the System Aim, tested in the System Adaptation Loop.
+- For the Product Backlog it is the Product Goal, adapted in the Direction Loop;
+- For the Cycle Backlog it is the Cycle Goal, adapted in the Objective Loop;
+- For the Increment it is the Definition of Done, adapted in the System Adaptation Loop; and,
+- For the System of Work it is the System Aim, adapted in the System Adaptation Loop.
 
 ### Product Backlog
 

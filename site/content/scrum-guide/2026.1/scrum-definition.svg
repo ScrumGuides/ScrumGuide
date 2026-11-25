@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-labelledby="t d">
+  <title id="t">Scrum</title>
+  <desc id="d">Three bands. The five values support the artifacts and their commitments, and the loops adapt them. What is intended is in the Product Backlog, whose commitment is the Product Goal, adapted in the Direction Loop. What is happening is in the Cycle Backlog, whose commitment is the Cycle Goal, adapted in the Objective Loop. What has happened is in the Increment, whose commitment is the Definition of Done. How the Scrum Team works is in the System of Work, whose commitment is the System Aim and which includes the Definition of Done. The System Adaptation Loop adapts the Definition of Done and the System Aim. The Understanding Loop adapts the Product Backlog and the Plan Loop adapts the Cycle Backlog. Above the bands, the Scrum Team is accountable as a whole for all the work the Product Goal depends on, and holds Product Ownership, Product Development and System Ownership.</desc>
+
+  <style>
+    svg { --bg:#ffffff; --ink:#111827; --muted:#6b7280; --faint:#9ca3af; --line:#d7dbe0; --panel:#f8f9fa; --band:#f1f3f5; --accent:#0f766e; --accent-ink:#0b5e57; --accent-soft:#e6f4f1; --warm:#9a3412; --warm-soft:#fdf1e7;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      svg { --bg:#0c1118; --ink:#e8eaed; --muted:#9aa3ae; --faint:#6b7480; --line:#2b3440; --panel:#131a23; --band:#10161e; --accent:#5eead4; --accent-ink:#7fe8d8; --accent-soft:#10302e; --warm:#fdba74; --warm-soft:#2a1a0f; } }
+    .cap  { font-size:9.5px; font-weight:700; fill:var(--faint); letter-spacing:1.3px; }
+    .band { font-size:10.5px; font-weight:700; fill:var(--accent); letter-spacing:1.4px; }
+    .bandW{ font-size:10.5px; font-weight:700; fill:var(--warm); letter-spacing:1.4px; }
+    .time { font-size:12px; font-weight:600; fill:var(--accent-ink); }
+    .name { font-size:15px; font-weight:700; fill:var(--ink); }
+    .cmt  { font-size:13.5px; font-weight:600; fill:var(--accent-ink); }
+    .lname{ font-size:14px; font-weight:700; fill:var(--ink); }
+    .body { font-size:11.5px; fill:var(--muted); }
+    .note { font-size:10.5px; fill:var(--faint); font-style:italic; }
+    .acc  { font-size:13px; font-weight:700; fill:var(--ink); }
+    .accb { font-size:11px; fill:var(--muted); }
+    .vname{ font-size:14px; font-weight:700; fill:var(--warm); }
+    .edge { stroke:var(--line); stroke-width:1.4; fill:none; }
+    .flow { stroke:var(--accent); stroke-width:1.6; fill:none; }
+    .vine { stroke:var(--warm); stroke-width:1.6; fill:none; }
+    .bandr{ fill:var(--band); stroke:none; }
+    .box  { fill:var(--panel); stroke:var(--line); stroke-width:1.2; }
+    .boxA { fill:var(--accent-soft); stroke:var(--accent); stroke-width:1.3; }
+    .boxW { fill:var(--warm-soft); stroke:var(--warm); stroke-width:1.2; }
+    .rule { stroke:var(--line); stroke-width:1; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent)"/></marker>
+    <marker id="au" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--faint)"/></marker>
+    <marker id="aw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--warm)"/></marker>
+  </defs>
+
+  <rect width="1200" height="700" fill="var(--bg)"/>
+  <rect class="bandr" x="40" y="106" width="1120" height="190" rx="10"/>
+  <rect class="bandr" x="40" y="336" width="1120" height="196" rx="10"/>
+  <rect class="bandr" x="40" y="572" width="1120" height="110" rx="10"/>
+
+  <!-- Accountabilities -->
+  <rect class="box" x="40" y="20" width="1120" height="70" rx="8"/>
+  <text class="cap" x="62" y="40">SCRUM TEAM &#183; ACCOUNTABLE AS A WHOLE FOR ALL THE WORK THE PRODUCT GOAL DEPENDS ON</text>
+  <line class="rule" x1="413" y1="52" x2="413" y2="80"/>
+  <line class="rule" x1="787" y1="52" x2="787" y2="80"/>
+  <text class="acc" x="62" y="64">Product Ownership</text>
+  <text class="accb" x="62" y="80">for the value of the work</text>
+  <text class="acc" x="436" y="64">Product Development</text>
+  <text class="accb" x="436" y="80">for the Increment</text>
+  <text class="acc" x="810" y="64">System Ownership</text>
+  <text class="accb" x="810" y="80">for the System of Work and every loop closing</text>
+
+  <!-- Band: Loops -->
+  <text class="band" x="58" y="128">LOOPS</text>
+
+  <rect class="box" x="250" y="118" width="320" height="58" rx="8"/>
+  <text class="lname" x="410" y="141" text-anchor="middle">Understanding Loop</text>
+  <text class="body" x="410" y="160" text-anchor="middle">changes what is understood about what comes next</text>
+  <rect class="box" x="630" y="118" width="320" height="58" rx="8"/>
+  <text class="lname" x="790" y="141" text-anchor="middle">Plan Loop</text>
+  <text class="body" x="790" y="160" text-anchor="middle">changes the work in flight</text>
+  
+
+  <rect class="box" x="82" y="206" width="220" height="80" rx="8"/>
+  <text class="lname" x="192" y="230" text-anchor="middle">Direction Loop</text>
+  <text class="body" x="192" y="248" text-anchor="middle">changes the Product Goal</text>
+  <text class="note" x="192" y="264" text-anchor="middle">the only loop that requires people</text>
+  <text class="note" x="192" y="277" text-anchor="middle">outside the Scrum Team</text>
+
+  <rect class="box" x="354" y="206" width="220" height="80" rx="8"/>
+  <text class="lname" x="464" y="230" text-anchor="middle">Objective Loop</text>
+  <text class="body" x="464" y="248" text-anchor="middle">changes the Cycle Goal</text>
+  <text class="note" x="464" y="264" text-anchor="middle">gathers no evidence of its own;</text>
+  <text class="note" x="464" y="277" text-anchor="middle">two closures span a Cycle</text>
+
+  <rect class="box" x="752" y="206" width="240" height="80" rx="8"/>
+  <text class="lname" x="872" y="230" text-anchor="middle">System Adaptation Loop</text>
+  <text class="body" x="872" y="248" text-anchor="middle">changes how the Scrum Team works</text>
+  <text class="note" x="872" y="264" text-anchor="middle">the only loop that inspects</text>
+  <text class="note" x="872" y="277" text-anchor="middle">the Scrum Team itself</text>
+
+  <!-- adapts -->
+  <path class="flow" d="M192,290 L192,358" marker-end="url(#ar)"/>
+  <path class="flow" d="M464,290 L464,358" marker-end="url(#ar)"/>
+  <path class="flow" d="M800,290 L800,358" marker-end="url(#ar)"/>
+  <path class="flow" d="M944,290 L944,358" marker-end="url(#ar)"/>
+  <text class="note" x="200" y="320">adapts</text><text class="note" x="472" y="320">adapts</text><text class="note" x="808" y="320">adapts</text><text class="note" x="952" y="320">adapts</text>
+
+  <!-- Band: Artifacts and commitments -->
+  <text class="band" x="1142" y="358" text-anchor="end">ARTIFACTS + COMMITMENTS</text>
+
+  <text class="time" x="192" y="386" text-anchor="middle">what is intended</text>
+  <text class="time" x="464" y="386" text-anchor="middle">what is happening</text>
+  <text class="time" x="736" y="386" text-anchor="middle">what has happened</text>
+  <text class="time" x="1008" y="386" text-anchor="middle">how the Scrum Team works</text>
+
+  <rect class="boxA" x="74" y="396" width="236" height="96" rx="8"/>
+  <text class="name" x="192" y="422" text-anchor="middle">Product Backlog</text>
+  <line class="rule" x1="98" y1="434" x2="286" y2="434"/>
+  <text class="cap" x="192" y="452" text-anchor="middle">COMMITMENT</text>
+  <text class="cmt" x="192" y="471" text-anchor="middle">Product Goal</text>
+
+  <rect class="boxA" x="346" y="396" width="236" height="96" rx="8"/>
+  <text class="name" x="464" y="422" text-anchor="middle">Cycle Backlog</text>
+  <line class="rule" x1="370" y1="434" x2="558" y2="434"/>
+  <text class="cap" x="464" y="452" text-anchor="middle">COMMITMENT</text>
+  <text class="cmt" x="464" y="471" text-anchor="middle">Cycle Goal</text>
+
+  <rect class="boxA" x="618" y="396" width="236" height="96" rx="8"/>
+  <text class="name" x="736" y="422" text-anchor="middle">Increment</text>
+  <line class="rule" x1="642" y1="434" x2="830" y2="434"/>
+  <text class="cap" x="736" y="452" text-anchor="middle">COMMITMENT</text>
+  <text class="cmt" x="736" y="471" text-anchor="middle">Definition of Done</text>
+
+  <rect class="boxA" x="890" y="396" width="236" height="96" rx="8"/>
+  <text class="name" x="1008" y="422" text-anchor="middle">System of Work</text>
+  <line class="rule" x1="914" y1="434" x2="1102" y2="434"/>
+  <text class="cap" x="1008" y="452" text-anchor="middle">COMMITMENT</text>
+  <text class="cmt" x="1008" y="471" text-anchor="middle">System Aim</text>
+  <text class="note" x="1008" y="486" text-anchor="middle">includes the Definition of Done</text>
+
+  <path class="flow" d="M313,444 L341,444" marker-end="url(#ar)"/>
+  <path class="flow" d="M585,444 L613,444" marker-end="url(#ar)"/>
+
+  <!-- adapts -->
+  <path class="flow" d="M330,180 L330,410 L316,410" marker-end="url(#ar)"/>
+  <path class="flow" d="M630,147 L600,147 L600,410 L588,410" marker-end="url(#ar)"/>
+  <text class="note" x="338" y="320">adapts</text>
+  <text class="note" x="608" y="320">adapts</text>
+  <!-- support -->
+  <path class="vine" d="M600,568 L600,536" marker-end="url(#aw)"/>
+  <text class="note" x="612" y="576">support</text>
+
+  <!-- Band: Values -->
+  <text class="bandW" x="58" y="594">VALUES</text>
+  <rect class="boxW" x="160" y="604" width="156" height="40" rx="8"/>
+  <text class="vname" x="238" y="629" text-anchor="middle">Commitment</text>
+  <rect class="boxW" x="336" y="604" width="156" height="40" rx="8"/>
+  <text class="vname" x="414" y="629" text-anchor="middle">Focus</text>
+  <rect class="boxW" x="512" y="604" width="156" height="40" rx="8"/>
+  <text class="vname" x="590" y="629" text-anchor="middle">Openness</text>
+  <rect class="boxW" x="688" y="604" width="156" height="40" rx="8"/>
+  <text class="vname" x="766" y="629" text-anchor="middle">Respect</text>
+  <rect class="boxW" x="864" y="604" width="156" height="40" rx="8"/>
+  <text class="vname" x="942" y="629" text-anchor="middle">Courage</text>
+  <text class="body" x="600" y="666" text-anchor="middle">Successful use of Scrum depends on people becoming more proficient in living these values.</text>
+</svg>
