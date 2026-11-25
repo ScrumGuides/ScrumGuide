@@ -138,15 +138,15 @@ A measure of activity, a position against a plan, or an unfinished piece of work
 
 ### Correction
 
-An error is corrected only when four things come together: a result, a standard to compare it against, someone who sees the comparison and decides, and the power to change the work that follows.
+Correction requires four things together: a result, a standard to compare it against, someone who sees the comparison and decides, and the power to change the work that follows.
 
-The standard comes before the result. No error can be found against a standard chosen to fit the result.
+The standard comes before the result. No variance can be found against a standard chosen to fit the result.
 
-Everything done since the last correction is unverified. The longer the wait between corrections, the more work a single undetected error can spoil.
+Everything done since the last correction is unverified.
 
 ### Cost of Correction
 
-A known error should be acted on at once. How often to look for one is a different question. Both a long interval and a short one are expensive.
+A known variance should be acted on at once. How often to look for one is a different question. Both a long interval and a short one are expensive.
 
 Long intervals leave more unverified work at risk. Short intervals spend on looking what could have been spent on the work.
 
@@ -156,7 +156,7 @@ This Guide does not fix that interval. It is settled by observation, and it diff
 
 Bad news reaches the person who decides only where reporting it carries no penalty.
 
-Correction requires that the person who decides sees the result. Often they are told it by someone else, and then they learn what that person was willing to say. A result that will be held against the person reporting it arrives late, arrives softened, or does not arrive. What the person who decides sees is then not the result, and the error survives.
+Correction requires that the person who decides sees the result. Often they are told it by someone else, and then they learn what that person was willing to say. A result that will be held against the person reporting it arrives late, arrives softened, or does not arrive. What the person who decides sees is then not the result, and the variance survives.
 
 If the person who decides sees the result without being told, nothing is lost on the way.
 
@@ -276,7 +276,7 @@ Scrum defines five loops. Each closes on a decision no other loop can make, and 
 
 Scrum does not define how long a loop takes. It defines only how often each loop closes relative to the others.
 
-- The Plan Loop closes more often than the Objective Loop, so that errors are detected before they accumulate;
+- The Plan Loop closes more often than the Objective Loop, so that undesirable variances are detected before they accumulate;
 - The Understanding Loop closes ahead of the Objective Loop, so that the Cycle Goal is assembled from work that can be inspected;
 - The Direction Loop closes at least as often as the Objective Loop, so that the Scrum Team knows whether its last Increment was valuable before it takes on another Cycle Goal; and,
 - The Practice Loop closes before the Objective Loop, so that known problems are not carried into the next Cycle.
