@@ -248,33 +248,47 @@ The Scrum Team inspects how it works, drawing on evidence from the other loops. 
 
 Scrum makes visible what is intended, what is happening, what has happened and how the Scrum Team works. Each is shown in one place. Each has one commitment, which gives people a common basis for judging what they see and is adapted in one loop.
 
-### Product Backlog and Product Goal
+### Product Backlog
 
 The Product Backlog shows what is intended. It is the single, ordered source of the Scrum Team's work to improve the product, and it emerges as the Scrum Team learns. Product Backlog items must be small enough to be Done within one Cycle. The Product Developers who will do the work judge whether it can be finished.
 
-Its commitment is the Product Goal, the future state of the product the Scrum Team seeks to achieve. The Product Goal is in the Product Backlog, and the rest of the Product Backlog emerges to fulfill it. The Scrum Team pursues one Product Goal at a time, and fulfills or abandons it before taking on another. The Product Goal is adapted in the Direction Loop.
-
-A product is a vehicle to deliver value. It has a clear boundary, known stakeholders, and well-defined users or customers. A product could be a service, a physical product, or something more abstract.
-
-### Cycle Backlog and Cycle Goal
+### Cycle Backlog
 
 The Cycle Backlog shows what is happening. It contains the Cycle Goal, the work selected and the Product Developers' plan for adding the selected work to the Increment. The Product Developers update it as they learn.
 
-Its commitment is the Cycle Goal, the single outcome the Product Developers intend to achieve during the Cycle. The Cycle Goal gives the Scrum Team one objective to work toward together, and tells stakeholders why the Cycle is valuable. Completing every selected item does not by itself achieve it. A Cycle Goal that completing the selected work would necessarily achieve is empty as a commitment. The Product Developers may renegotiate the selected work with the holders of Product Ownership while the Cycle Goal holds. The Cycle Goal is adapted in the Objective Loop.
-
-### Increment and Definition of Done
+### Increment
 
 The Increment shows what has happened. The Increment is the whole of the usable product as it stands. It may be delivered whenever new work becomes part of it.
 
-Its commitment is the Definition of Done, the shared quality standard work must meet to become part of the Increment. Work that does not meet the Definition of Done cannot be released or inspected in the Direction Loop, and may need to be reconsidered. Meeting that standard establishes that the Increment is usable. The Increment is used by at least some real users. What real users do with the Increment provides evidence of value.
+The Increment is used by at least some real users. What real users do with the Increment provides evidence of value.
 
-If the Definition of Done is part of the standards of the organization, all Scrum Teams must follow it as a minimum. If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriate for the product. Scrum Teams working on the same product share a Definition of Done. The Definition of Done applies to every item and the product. The Definition of Done is adapted in the System Adaptation Loop.
-
-### System of Work and System Aim
+### System of Work
 
 The System of Work shows how the Scrum Team works. It is an emergent description of the Scrum Team's workflow, practices and policies, visible to the Scrum Team and the people it works with. It includes the Definition of Done.
 
-Its commitment is the System Aim, which states whom the System of Work serves and what they should receive from it. The System Aim is a continuing standard against which the Scrum Team assesses and adapts how it works. It is adapted in the System Adaptation Loop.
+## Commitments
+
+The Product Backlog, the Cycle Backlog, the Increment and the System of Work each have one commitment. The Product Goal states what the Product Backlog is for, the Cycle Goal what the Cycle Backlog is for, the Definition of Done what the Increment is for, and the System Aim what the System of Work is for.
+
+### Product Goal
+
+The Product Goal is the future state of the product the Scrum Team seeks to achieve. The Product Goal is in the Product Backlog, and the rest of the Product Backlog emerges to fulfill it. The Scrum Team pursues one Product Goal at a time, and fulfills or abandons it before taking on another. The Product Goal is adapted in the Direction Loop.
+
+A product is a vehicle to deliver value. It has a clear boundary, known stakeholders, and well-defined users or customers. A product could be a service, a physical product, or something more abstract.
+
+### Cycle Goal
+
+The Cycle Goal is the single outcome the Product Developers intend to achieve during the Cycle. The Cycle Goal gives the Scrum Team one objective to work toward together, and tells stakeholders why the Cycle is valuable. Completing every selected item does not by itself achieve it. A Cycle Goal that completing the selected work would necessarily achieve is empty as a commitment. The Product Developers may renegotiate the selected work with the holders of Product Ownership while the Cycle Goal holds. The Cycle Goal is adapted in the Objective Loop.
+
+### Definition of Done
+
+The Definition of Done is the shared quality standard work must meet to become part of the Increment. Work that does not meet the Definition of Done cannot be released or inspected in the Direction Loop, and may need to be reconsidered. Meeting that standard establishes that the Increment is usable.
+
+If the Definition of Done is part of the standards of the organization, all Scrum Teams must follow it as a minimum. If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriate for the product. Scrum Teams working on the same product share a Definition of Done. The Definition of Done applies to every item and the product. The Definition of Done is adapted in the System Adaptation Loop.
+
+### System Aim
+
+The System Aim states whom the System of Work serves and what they should receive from it. The System Aim is a continuing standard against which the Scrum Team assesses and adapts how it works. It is adapted in the System Adaptation Loop.
 
 ## End Note
 
