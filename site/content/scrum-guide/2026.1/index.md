@@ -45,9 +45,8 @@ changes:
     content: |
       In the 2020 edition the Sprint is the container that forces everything
       else to close. Here each loop is defined by what closes it, so the
-      container has nothing left to do. A Cycle is the span between two
-      closures of the Objective Loop, and the word is kept only where it
-      marks what a goal or a backlog belongs to. A cycle is a behaviour, not
+      container has nothing left to do. A Cycle lasts as long as one Cycle
+      Goal. A cycle is a behaviour, not
       a thing a team can stand inside.
   - title: Elements are renamed
     content: |
@@ -296,7 +295,7 @@ The purpose of the Objective Loop is to state what the Scrum Team is trying to a
 
 Once set, the Cycle Goal informs the work without controlling it. It is stated before the work, so that results are judged against an intention that was not chosen to fit them, and the Product Developers decide what to do about it.
 
-The span between two closures of this loop is a Cycle. One Cycle Goal holds for its whole length, and a new Cycle begins as the previous one ends. All the work necessary to achieve the Product Goal, including every loop, happens within Cycles.
+A Cycle lasts as long as one Cycle Goal. A new Cycle begins as the previous one ends. All the work necessary to achieve the Product Goal, including every loop, happens within Cycles.
 
 ### Plan Loop
 

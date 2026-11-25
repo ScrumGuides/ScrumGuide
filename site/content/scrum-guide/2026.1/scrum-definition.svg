@@ -72,7 +72,7 @@
   <text class="lname" x="464" y="230" text-anchor="middle">Objective Loop</text>
   <text class="body" x="464" y="248" text-anchor="middle">changes the Cycle Goal</text>
   <text class="note" x="464" y="264" text-anchor="middle">gathers no evidence of its own;</text>
-  <text class="note" x="464" y="277" text-anchor="middle">a Cycle runs from one closing to the next</text>
+  <text class="note" x="464" y="277" text-anchor="middle">a Cycle lasts as long as one Cycle Goal</text>
 
   <rect class="box" x="752" y="206" width="240" height="80" rx="8"/>
   <text class="lname" x="872" y="230" text-anchor="middle">System Adaptation Loop</text>
