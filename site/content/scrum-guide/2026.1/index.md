@@ -283,7 +283,7 @@ Scrum does not define how long a loop takes. It defines only how often each loop
 
 ### Objective Loop
 
-The purpose of the Objective Loop is to state what the Scrum Team is trying to achieve next, so that the other loops have something to compare results against and stakeholders know what to expect. No difference can be called an error without a stated intention to compare it against. The Objective Loop produces that intention. It gathers no evidence of its own and relies on what the other loops have made available.
+The purpose of the Objective Loop is to state what the Scrum Team is trying to achieve next, so that the other loops have something to compare results against and stakeholders know what to expect. It gathers no evidence of its own and relies on what the other loops have made available.
 
 Once set, the Cycle Goal informs the work without controlling it. It is stated before the work, so that results are judged against an intention that was not chosen to fit them, and the Product Developers decide what to do about it.
 
