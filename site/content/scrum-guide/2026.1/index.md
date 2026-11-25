@@ -265,7 +265,7 @@ Its holders may do the above work or may delegate the responsibility to others. 
 
 System Ownership is accountability for the System of Work and for every loop closing.
 
-System Ownership carries the authority to require that a loop closes and to act on anything that prevents it from closing. That authority does not extend to the change the loop closes on. System Ownership is also accountable for the Definition of Done being stated and transparent. It has no authority to change it.
+System Ownership carries the authority to require that a loop closes and to act on anything that prevents it from closing. That authority does not extend to the change the loop closes on.
 
 ## Scrum Loops
 
@@ -363,7 +363,7 @@ Multiple Increments may be created within a Cycle. The sum of the Increments is 
 
 ### System of Work
 
-The System of Work is an emergent description of the workflow, practices and policies of the Scrum Team. It is visible to the Scrum Team and the people it works with, so that how the work is done can be inspected as well as the work.
+The System of Work is an emergent description of the workflow, practices and policies of the Scrum Team. It is visible to the Scrum Team and the people it works with, so that how the work is done can be inspected as well as the work. The Definition of Done is part of the System of Work.
 
 The System of Work is adapted to fulfill its commitment, the System Aim.
 
