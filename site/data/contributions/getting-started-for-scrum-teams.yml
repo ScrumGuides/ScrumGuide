@@ -11,13 +11,13 @@
 
 - name: Ken Schwaber
   role: creator
-  founder: true
+  flags: [guideCover]
   weight: 1
   contributions:
     - "2026.1"
 - name: Jeff Sutherland
   role: creator
-  founder: true
+  flags: [guideCover]
   weight: 2
   contributions:
     - "2026.1"

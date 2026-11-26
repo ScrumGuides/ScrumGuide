@@ -7,13 +7,13 @@
 
 - name: Ken Schwaber
   role: creator
-  founder: true
+  flags: [guideCover]
   weight: 1
   contributions:
     - "2024.5"
 - name: Scrum.org
   role: creator
-  founder: true
+  flags: [guideCover]
   weight: 2
   contributions:
     - "2024.5"

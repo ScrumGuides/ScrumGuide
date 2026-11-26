@@ -302,6 +302,34 @@ languages:
 params:
   description: Every published version of the Scrum Guide in one place, with the implementation guides that build on it.
   keywords: Scrum Guide, Scrum
+  # Who each contributor view lists. Each name is a place the platform shows
+  # contributors; an entry here replaces the platform's default for that place.
+  #
+  # The platform defaults select on a `founder` flag. This site does not use
+  # that flag. It uses `guideCover` instead, for the people and organisation named
+  # on an edition's own cover, so these entries are the defaults with `guideCover`
+  # in place of `founder`.
+  #
+  # The credits line on each guide page is the exception: it lists everyone
+  # the data credits for that edition, by role, with no flag.
+  contributorFilters:
+    guideContributors:
+      roles: [contributor, creator, reviewer]
+    guideDetails:
+      allFlags: [guideCover]
+      roles: [contributor, creator]
+    versionCard:
+      allFlags: [guideCover]
+      roles: [contributor, creator]
+    creators:
+      allFlags: [guideCover]
+      roles: [creator]
+    officialTranslation:
+      allFlags: [guideCover]
+      roles: [contributor, creator]
+    jsonldAuthors:
+      allFlags: [guideCover]
+      roles: [creator]
   # TODO (run 2): replace with the real domain once registered. Until then these
   # are the generated Static Web App hostnames (Bicep `defaultHostname` output).
   siteProdUrl: https://ashy-glacier-04fc55110.5.azurestaticapps.net/
@@ -369,7 +397,7 @@ taxonomies:
 
 module:
   imports:
-    - path: github.com/nkdAgility/OpenGuidePlatform/system/OpenGuidePlatform.Hugo.Guides
+    - path: github.com/nkdAgility/OpenGuidePlatform/system/OpenGuidePlatform.Hugo.Guides/v2
 
 markup:
   goldmark:

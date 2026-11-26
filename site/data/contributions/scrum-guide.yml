@@ -13,15 +13,13 @@
 # published or endorsed by Ken Schwaber or Jeff Sutherland. They are not
 # credited with it, and he is not credited with any edition before it.
 #
-# `founder: true` means what it says here: a founder of Scrum. It is not a
-# display switch. The module's credits partial filters on it before it filters
-# on role, which would hide everyone else, so this site overrides that partial
-# instead of flagging people who founded nothing. See
-# layouts/_partials/components/guide/guide-contributors.html.
+# The `guideCover` flag marks the people named on an edition's own cover. Which
+# contributor views select on it is set under params.contributorFilters in
+# hugo.yaml.
 
 - name: Ken Schwaber
   role: creator
-  founder: true
+  flags: [guideCover]
   weight: 1
   contributions:
     - "2009.11"
@@ -34,7 +32,7 @@
     - "2020.11"
 - name: Jeff Sutherland
   role: creator
-  founder: true
+  flags: [guideCover]
   weight: 2
   contributions:
     - "2009.11"
@@ -46,7 +44,7 @@
     - "2017.11"
     - "2020.11"
 - name: Martin Hinshelwood
-  role: creator
+  role: contributor
   weight: 3
   contributions:
     - "2026.1"

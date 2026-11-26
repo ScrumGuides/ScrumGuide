@@ -7,7 +7,7 @@
 
 - name: Scrum.org
   role: creator
-  founder: true
+  flags: [guideCover]
   weight: 1
   contributions:
     - "2018.2"
@@ -16,7 +16,7 @@
     - "2021.1"
 - name: Daniel Vacanti
   role: creator
-  founder: true
+  flags: [guideCover]
   weight: 2
   contributions:
     - "2018.2"
@@ -25,7 +25,7 @@
     - "2021.1"
 - name: Yuval Yeret
   role: creator
-  founder: true
+  flags: [guideCover]
   weight: 3
   contributions:
     - "2019.9"
