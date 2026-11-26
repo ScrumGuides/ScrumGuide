@@ -7,7 +7,7 @@ Layout: "root"
 description: Die Definition von Nexus, dem Rahmenwerk für mehrere Scrum Teams, die gemeinsam an einem Produkt arbeiten.
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Ein Umsetzungsguide. Nexus ist ein Rahmenwerk für drei bis neun Scrum Teams, die aus einem
+  Eine Erweiterung. Nexus ist ein Rahmenwerk für drei bis neun Scrum Teams, die aus einem
   einzigen Product Backlog an einem einzigen Produkt arbeiten. Es ergänzt das Mindeste, was
   nötig ist, um die Abhängigkeiten zwischen ihnen sichtbar zu machen und in jedem Sprint ein
   integriertes Increment zu erzeugen.

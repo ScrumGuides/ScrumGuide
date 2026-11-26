@@ -7,7 +7,7 @@ Layout: "root"
 description: "Nexus-ning taʼrifi: bitta mahsulot ustida ishlaydigan bir necha Scrum Team uchun doira."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Joriy etish qoʻllanmasi. Nexus — bitta Product Backlog-dan bitta mahsulot ustida ishlaydigan uchdan
+  Kengaytma. Nexus — bitta Product Backlog-dan bitta mahsulot ustida ishlaydigan uchdan
   toʻqqizgacha Scrum Team uchun doira. U guruhlar orasidagi bogʻliqliklar koʻrinadigan boʻlishi uchun
   va har bir Sprint-da bitta birlashtirilgan Increment chiqishi uchun faqat eng kerakligini qoʻshadi.
 

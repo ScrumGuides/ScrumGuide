@@ -7,7 +7,7 @@ Layout: "root"
 description: "Nexus-ის განსაზღვრება: ჩარჩო რამდენიმე Scrum Team-ისთვის, რომლებიც ერთ პროდუქტზე მუშაობენ."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  დანერგვის სახელმძღვანელო. Nexus ჩარჩოა სამიდან ცხრა Scrum Team-ისთვის, რომლებიც ერთ პროდუქტზე
+  გაფართოება. Nexus ჩარჩოა სამიდან ცხრა Scrum Team-ისთვის, რომლებიც ერთ პროდუქტზე
   მუშაობენ ერთი Product Backlog-იდან. ის ამატებს მხოლოდ ყველაზე საჭიროს, რათა გუნდებს შორის
   დამოკიდებულებები თვალსაჩინო გახდეს და რათა ყოველ Sprint-ში გამოვიდეს ერთი ინტეგრირებული Increment.
 

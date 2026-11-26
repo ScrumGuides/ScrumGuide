@@ -7,7 +7,7 @@ Layout: "root"
 description: "Nexus'un tanımı: tek bir ürün üzerinde çalışan birden çok Scrum Team için çerçeve."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Bir uygulama kılavuzu. Nexus, tek bir Product Backlog'dan tek bir ürün üzerinde çalışan üç ila dokuz
+  Bir genişletme. Nexus, tek bir Product Backlog'dan tek bir ürün üzerinde çalışan üç ila dokuz
   Scrum Team için bir çerçevedir. Takımlar arasındaki bağımlılıkların görünür olması ve her Sprint'te
   bütünleşik tek bir Increment çıkması için yalnızca en az gerekeni ekler.
 

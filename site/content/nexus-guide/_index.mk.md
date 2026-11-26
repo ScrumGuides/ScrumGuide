@@ -7,7 +7,7 @@ Layout: "root"
 description: "Определбата на Nexus: рамката за повеќе Scrum тимови што работат на еден производ."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Водич за примена. Nexus е рамка за три до девет Scrum тимови што работат на еден производ од еден
+  Проширување. Nexus е рамка за три до девет Scrum тимови што работат на еден производ од еден
   Product Backlog. Додава само најпотребното за да станат видливи зависностите меѓу тимовите и за
   секој Sprint да даде еден интегриран Increment.
 

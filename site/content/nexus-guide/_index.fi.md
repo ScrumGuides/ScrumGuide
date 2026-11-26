@@ -7,7 +7,7 @@ Layout: "root"
 description: "Nexuksen määritelmä: viitekehys useille Scrum-tiimeille, jotka työskentelevät yhden tuotteen parissa."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Toteutusopas. Nexus on viitekehys kolmesta yhdeksään Scrum-tiimille, jotka työskentelevät yhden
+  Laajennus. Nexus on viitekehys kolmesta yhdeksään Scrum-tiimille, jotka työskentelevät yhden
   tuotteen parissa yhden Product Backlogin pohjalta. Se lisää vain vähimmän tarvittavan, jotta tiimien
   väliset riippuvuudet tulevat näkyviksi ja jotta jokaisessa Sprintissä syntyy yksi integroitu
   Increment.

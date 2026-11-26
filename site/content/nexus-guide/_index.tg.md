@@ -7,7 +7,7 @@ Layout: "root"
 description: "Таърифи Nexus: чорчӯба барои якчанд Scrum Team, ки бар як маҳсулот кор мекунанд."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Дастури татбиқ. Nexus чорчӯбае барои се то нӯҳ Scrum Team аст, ки бар як маҳсулот аз як Product
+  Густариш. Nexus чорчӯбае барои се то нӯҳ Scrum Team аст, ки бар як маҳсулот аз як Product
   Backlog кор мекунанд. Он танҳо он чи аз ҳама зарур аст меафзояд, то вобастагиҳои байни гурӯҳҳо
   намоён шаванд ва то дар ҳар Sprint як Increment-и ҳамгирошуда барояд.
 

@@ -7,7 +7,7 @@ Layout: "root"
 description: የNexus ትርጓሜ፦ በአንድ ውጤት ላይ ለሚሠሩ ለበርካታ Scrum Team ማዕቀፍ።
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  የትግበራ መምሪያ። Nexus ከአንድ Product Backlog በአንድ ውጤት ላይ ለሚሠሩ ከሦስት እስከ ዘጠኝ Scrum Team ማዕቀፍ ነው።
+  ማስፋፊያ። Nexus ከአንድ Product Backlog በአንድ ውጤት ላይ ለሚሠሩ ከሦስት እስከ ዘጠኝ Scrum Team ማዕቀፍ ነው።
   በቡድኖች መካከል ያሉት ጥገኝነቶች እንዲታዩና በሁሉም Sprint አንድ የተዋሐደ Increment እንዲወጣ የሚያስፈልገውን ዝቅተኛውን
   ብቻ ይጨምራል።
 

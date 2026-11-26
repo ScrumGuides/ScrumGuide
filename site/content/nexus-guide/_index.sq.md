@@ -7,7 +7,7 @@ Layout: "root"
 description: "Përcaktimi i Nexus: kuadri për disa Scrum Teams që punojnë në një produkt."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Një udhëzues zbatimi. Nexus është një kuadër për tre deri në nëntë Scrum Teams që punojnë në një
+  Një shtrirje. Nexus është një kuadër për tre deri në nëntë Scrum Teams që punojnë në një
   produkt nga një Product Backlog. Shton vetëm më të nevojshmen, që varësitë mes ekipeve të bëhen të
   dukshme dhe që secili Sprint të dalë një Increment i bashkuar.
 

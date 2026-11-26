@@ -7,7 +7,7 @@ Layout: "root"
 description: De definitie van Nexus, het raamwerk voor meerdere Scrum Teams die samen aan één product werken.
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Een implementatiegids. Nexus is een raamwerk voor drie tot negen Scrum Teams die vanuit één
+  Een uitbreiding. Nexus is een raamwerk voor drie tot negen Scrum Teams die vanuit één
   Product Backlog aan één product werken. Het voegt het minimum toe dat nodig is om de
   afhankelijkheden tussen hen zichtbaar te maken en om elke Sprint één geïntegreerd Increment
   op te leveren.

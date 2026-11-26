@@ -7,7 +7,7 @@ Layout: "root"
 description: "Ο ορισμός του Nexus: το πλαίσιο για πολλές Scrum Teams που δουλεύουν σε ένα προϊόν."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Ένας οδηγός υλοποίησης. Το Nexus είναι ένα πλαίσιο για τρεις έως εννέα Scrum Teams που δουλεύουν σε
+  Μια επέκταση. Το Nexus είναι ένα πλαίσιο για τρεις έως εννέα Scrum Teams που δουλεύουν σε
   ένα προϊόν από ένα Product Backlog. Προσθέτει μόνο το ελάχιστο αναγκαίο, ώστε οι εξαρτήσεις μεταξύ
   των ομάδων να γίνουν ορατές και ώστε σε κάθε Sprint να προκύπτει ένα ενοποιημένο Increment.
 

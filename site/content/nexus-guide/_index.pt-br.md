@@ -7,7 +7,7 @@ Layout: "root"
 description: A definição do Nexus, o framework para vários Scrum Teams trabalhando juntos em um único produto.
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Um guia de implementação. O Nexus é um framework para três a nove Scrum Teams trabalhando a
+  Uma extensão. O Nexus é um framework para três a nove Scrum Teams trabalhando a
   partir de um único Product Backlog em um único produto, e acrescenta o mínimo necessário para
   tornar visíveis as dependências entre eles e para produzir um Increment integrado a cada
   Sprint.

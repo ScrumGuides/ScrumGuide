@@ -7,7 +7,7 @@ Layout: "root"
 description: "Nexus noteikums: ietvars vairākām Scrum komandām, kas strādā pie viena produkta."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Ieviešanas ceļvedis. Nexus ir ietvars trim līdz deviņām Scrum komandām, kas strādā pie viena produkta
+  Paplašinājums. Nexus ir ietvars trim līdz deviņām Scrum komandām, kas strādā pie viena produkta
   no viena Product Backlog. Tas pievieno tikai visnepieciešamāko, lai atkarības starp komandām kļūtu
   redzamas un lai katrā Sprint rastos viens savienots Increment.
 

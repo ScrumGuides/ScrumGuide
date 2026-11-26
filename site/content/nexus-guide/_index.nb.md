@@ -7,7 +7,7 @@ Layout: "root"
 description: "Definisjonen av Nexus: rammeverket for flere Scrum Teams som arbeider på ett produkt."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  En implementeringsguide. Nexus er et rammeverk for tre til ni Scrum Teams som arbeider på ett
+  En utvidelse. Nexus er et rammeverk for tre til ni Scrum Teams som arbeider på ett
   produkt ut fra én Product Backlog. Det legger bare til det minst nødvendige for å gjøre avhengigheter
   mellom team synlige og for å frembringe ett integrert Increment hver Sprint.
 

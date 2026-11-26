@@ -7,7 +7,7 @@ Layout: "root"
 description: "Definícia Nexusu: rámec pre viac Scrum Teamov pracujúcich na jednom produkte."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Implementačná príručka. Nexus je rámec pre tri až deväť Scrum Teamov, ktoré pracujú na jednom
+  Rozšírenie. Nexus je rámec pre tri až deväť Scrum Teamov, ktoré pracujú na jednom
   produkte z jedného Product Backlogu. Pridáva len to najmenšie nutné, aby boli závislosti medzi
   teamami viditeľné a aby každý Sprint vznikol jeden integrovaný Increment.
 

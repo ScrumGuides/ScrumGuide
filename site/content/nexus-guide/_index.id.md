@@ -7,7 +7,7 @@ Layout: "root"
 description: "Batasan Nexus: kerangka bagi beberapa Scrum Team yang bekerja pada satu produk."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Sebuah panduan penerapan. Nexus adalah kerangka bagi tiga sampai sembilan Scrum Team yang bekerja
+  Sebuah perluasan. Nexus adalah kerangka bagi tiga sampai sembilan Scrum Team yang bekerja
   pada satu produk dari satu Product Backlog. Ia hanya menambahkan yang paling perlu, agar kaitan
   antar tim menjadi terlihat dan agar setiap Sprint menghasilkan satu Increment yang terpadu.
 

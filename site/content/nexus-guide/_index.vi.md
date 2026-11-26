@@ -7,7 +7,7 @@ Layout: "root"
 description: "Định nghĩa của Nexus: khuôn khổ cho nhiều Scrum Team làm trên một sản phẩm."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Một hướng dẫn triển khai. Nexus là khuôn khổ cho ba tới chín Scrum Team làm trên một sản phẩm từ một
+  Một phần mở rộng. Nexus là khuôn khổ cho ba tới chín Scrum Team làm trên một sản phẩm từ một
   Product Backlog. Nó chỉ thêm phần tối thiểu cần thiết để các ràng buộc giữa các nhóm hiện ra và để
   mỗi Sprint cho ra một Increment đã hợp nhất.
 

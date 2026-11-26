@@ -7,7 +7,7 @@ Layout: "root"
 description: Nexusの定義。一つのプロダクトに複数のスクラムチームが協働するためのフレームワーク。
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  実装ガイド。Nexusは、一つのプロダクトに対し単一のプロダクトバックログから作業する三から九の
+  拡張。Nexusは、一つのプロダクトに対し単一のプロダクトバックログから作業する三から九の
   スクラムチームのためのフレームワークであり、チーム間の依存関係を可視化し、スプリントごとに
   一つの統合インクリメントを生み出すために必要な最小限を加えるものである。
 

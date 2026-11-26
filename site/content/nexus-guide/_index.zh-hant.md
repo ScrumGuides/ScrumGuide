@@ -7,7 +7,7 @@ Layout: "root"
 description: Nexus 的定義：多個 Scrum Team 共同開發同一個產品的框架。
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  一份實作指南。Nexus 是一個框架，面向三到九個 Scrum Team，它們基於同一個 Product Backlog
+  一項擴充。Nexus 是一個框架，面向三到九個 Scrum Team，它們基於同一個 Product Backlog
   開發同一個產品。它只補充最必要的內容，以便讓團隊之間的相依可見，並在每個 Sprint 產出一個
   整合的 Increment。
 

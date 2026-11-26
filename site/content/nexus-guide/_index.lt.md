@@ -7,7 +7,7 @@ Layout: "root"
 description: "Nexus apibrėžimas: sąranga keliom Scrum komandoms, dirbančiom prie vieno produkto."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Įgyvendinimo vadovas. Nexus yra sąranga trim iki devynių Scrum komandų, dirbančių prie vieno
+  Išplėtimas. Nexus yra sąranga trim iki devynių Scrum komandų, dirbančių prie vieno
   produkto iš vieno Product Backlog. Prideda tik būtiniausia, kad priklausomybės tarp komandų taptų
   matomos ir kad kiekvienas Sprint duotų vieną sujungtą Increment.
 

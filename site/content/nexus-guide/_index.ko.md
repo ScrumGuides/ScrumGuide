@@ -7,7 +7,7 @@ Layout: "root"
 description: 여러 스크럼 팀이 하나의 제품을 함께 만드는 프레임워크, Nexus의 정의.
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  구현 가이드. Nexus는 하나의 Product Backlog로 하나의 제품을 만드는 셋에서 아홉 개의 스크럼
+  확장. Nexus는 하나의 Product Backlog로 하나의 제품을 만드는 셋에서 아홉 개의 스크럼
   팀을 위한 프레임워크이며, 팀 사이의 의존을 드러내고 매 Sprint마다 하나의 통합된 Increment를
   만들어내기 위해 꼭 필요한 최소한을 더한다.
 

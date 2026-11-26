@@ -7,7 +7,7 @@ Layout: "root"
 description: "A Nexus meghatározása: keretrendszer több Scrum Team számára, amelyek egy terméken dolgoznak."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Egy megvalósítási útmutató. A Nexus keretrendszer három-kilenc Scrum Team számára, amelyek egy
+  Egy kiterjesztés. A Nexus keretrendszer három-kilenc Scrum Team számára, amelyek egy
   terméken dolgoznak egy Product Backlogból. Csak a legszükségesebbet adja hozzá ahhoz, hogy a teamek
   közötti függőségek láthatóvá váljanak, és hogy minden Sprintben egy integrált Increment jöjjön
   létre.

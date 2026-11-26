@@ -7,7 +7,7 @@ Layout: "root"
 description: "Вызначэнне Nexus: аснова для некалькіх Scrum Team, якія працуюць над адным прадуктам."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Даведнік укаранення. Nexus — аснова для трох да дзевяці Scrum Team, якія працуюць над адным
+  Пашырэнне. Nexus — аснова для трох да дзевяці Scrum Team, якія працуюць над адным
   прадуктам з аднаго Product Backlog. Ён дадае толькі найпатрэбнае, каб залежнасці між камандамі
   сталі бачныя і каб у кожным Sprint выходзіў адзін злучаны Increment.
 

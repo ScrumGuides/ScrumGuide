@@ -7,7 +7,7 @@ Layout: "root"
 description: "Diffiniad Nexus: y fframwaith i sawl Scrum Team sy'n gweithio ar un cynnyrch."
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Canllaw gweithredu. Fframwaith i dri hyd at naw Scrum Team sy'n gweithio ar un cynnyrch o un Product
+  Estyniad. Fframwaith i dri hyd at naw Scrum Team sy'n gweithio ar un cynnyrch o un Product
   Backlog yw Nexus. Nid yw'n ychwanegu ond y lleiaf sydd raid, er mwyn i'r dibyniaethau rhwng timau
   ddod i'r golwg ac er mwyn i bob Sprint ddwyn un Increment cyfunol.
 

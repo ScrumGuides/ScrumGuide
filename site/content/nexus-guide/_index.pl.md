@@ -7,7 +7,7 @@ Layout: "root"
 description: Definicja Nexusa, ram postępowania dla kilku Scrum Teamów pracujących razem nad jednym produktem.
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Przewodnik wdrożeniowy. Nexus to ramy postępowania dla trzech do dziewięciu Scrum Teamów
+  Rozszerzenie. Nexus to ramy postępowania dla trzech do dziewięciu Scrum Teamów
   pracujących z jednego Product Backlogu nad jednym produktem. Dodaje minimum potrzebne do
   tego, by uwidocznić zależności między nimi i by w każdym Sprincie powstawał jeden
   zintegrowany Increment.

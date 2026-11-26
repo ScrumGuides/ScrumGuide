@@ -7,7 +7,7 @@ Layout: "root"
 description: "Nexus-এর সংজ্ঞা: একটি পণ্যের উপরে কাজ করা একাধিক Scrum Team-এর জন্য কাঠামো।"
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  একটি প্রয়োগ-নির্দেশিকা। Nexus একটি Product Backlog থেকে একটি পণ্যের উপরে কাজ করা তিন থেকে নয়টি
+
   Scrum Team-এর জন্য কাঠামো। দলগুলির মধ্যে নির্ভরতাগুলি যেন দেখা যায় এবং প্রতিটি Sprint-এ যেন একটি
   সমন্বিত Increment বেরোয়, কেবল তার জন্যই যা সবচেয়ে কম দরকার তা-ই যোগ করে।
 

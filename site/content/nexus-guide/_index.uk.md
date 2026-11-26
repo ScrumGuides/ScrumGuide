@@ -7,7 +7,7 @@ Layout: "root"
 description: Визначення Nexus — фреймворку для кількох Scrum Team, що працюють разом над одним продуктом.
 weight: 20
 categories:
-  - Implementation
+  - Extension
 brand:
   bg_colour: "#1d6b56"
 # Editions are separate page bundles, so brand does not reach them by
@@ -16,7 +16,7 @@ cascade:
   brand:
     bg_colour: "#1d6b56"
 guide_whatis: |
-  Посібник з упровадження. Nexus — це фреймворк для трьох–дев'яти Scrum Team, що працюють з
+  Розширення. Nexus — це фреймворк для трьох–дев'яти Scrum Team, що працюють з
   одного Product Backlog над одним продуктом. Він додає мінімум потрібного, щоб зробити
   залежності між ними видимими і щоб у кожному Sprint з'являвся один інтегрований Increment.
 
