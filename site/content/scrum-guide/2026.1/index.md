@@ -248,7 +248,7 @@ Scrum makes visible what is intended, what is happening, what has happened and h
 
 ### Product Backlog
 
-The Product Backlog shows what is intended. It is the single, ordered source of the Scrum Team's work to improve the product, and it emerges as the Scrum Team learns. Work selected for a Cycle must be small enough to be Done within it. The Product Developers who will do the work judge whether it can be finished.
+The Product Backlog shows what is intended. It is the single, ordered source of the Scrum Team's work to improve the product, and it emerges as the Scrum Team learns. The Product Developers who will do a piece of work judge whether they can finish it.
 
 ### Cycle Backlog
 
