@@ -32,6 +32,7 @@
     {{- end }}
     {{- $roleLabel := i18n (printf "role_%s" .role) }}
     {{- if not $roleLabel }}{{ $roleLabel = .role | title }}{{ end }}
-    <span class="badge text-bg-{{- $badgeType }} mb-2"> {{- if in (.flags | default slice) "guideCover" }}<i class="fas fa-star me-1"></i>{{- end }}{{ $roleLabel }} </span>
+    {{- $starFlag := index (site.Params.contributorpresentation | default dict) "starflag" }}
+    <span class="badge text-bg-{{- $badgeType }} mb-2"> {{- if and $starFlag (in (.flags | default slice) $starFlag) }}<i class="fas fa-star me-1"></i>{{- end }}{{ $roleLabel }} </span>
   </div>
 </div>
