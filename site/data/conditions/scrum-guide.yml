@@ -85,3 +85,11 @@
     falsifier: >-
       An obstruction identified, within the organisation's gift to remove, and
       left in place because nobody had the authority to act.
+  - id: SG26-C10
+    element: System Ownership
+    statement: >-
+      The System of Work serves the System Aim. The holders of System
+      Ownership answer for its effectiveness.
+    falsifier: >-
+      A System of Work that does not serve the System Aim, and no holder of
+      System Ownership has required the System Adaptation Loop to close.
