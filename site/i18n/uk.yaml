@@ -605,3 +605,6 @@
 
 - id: download_reference_status
   translation: "Для довідки"
+
+- id: guide_edition_draft
+  translation: "Чернеткова редакція"

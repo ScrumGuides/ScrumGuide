@@ -605,3 +605,6 @@
 
 - id: download_reference_status
   translation: "Referência"
+
+- id: guide_edition_draft
+  translation: "Edição preliminar"

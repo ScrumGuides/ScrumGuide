@@ -605,3 +605,6 @@
 
 - id: download_reference_status
   translation: "参考"
+
+- id: guide_edition_draft
+  translation: "草案版"
