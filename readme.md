@@ -30,9 +30,7 @@ Standard raises the limit to ten.
 
 ## Status
 
-Run 1. The site structure, theme, infrastructure and workflows are in place,
-and both environments are deployed and serving. **No guide text is published
-yet** — see [Before any guide text goes in](#before-any-guide-text-goes-in).
+The site uses the coordinated OGP installation. Guide-local attribution adoption is documented in [docs/adoption.md](docs/adoption.md). Historical scaffold and licensing notes below remain subject to their edition-specific checks.
 
 ## Repository
 
@@ -41,23 +39,11 @@ yet** — see [Before any guide text goes in](#before-any-guide-text-goes-in).
 | `site/` | Hugo source. The theme is `site/assets/css/style.css`. |
 | `infra/` | Bicep. One resource group, one Static Web App. |
 | `docs/` | Specification, infrastructure, content management, decisions. |
-| `.github/workflows/` | `infrastructure.yaml` is site-owned; the OGP build callers arrive with the installer. |
+| `.github/workflows/` | `infrastructure.yaml` and the single-job `main.yaml` build are site-owned. |
 
 ## Getting started
 
-Needs Hugo Extended 0.146+ and Go 1.24.5+.
-
-```bash
-cd site && hugo server --config hugo.yaml,hugo.local.yaml --environment local
-```
-
-Build a ring:
-
-```bash
-cd site && hugo --config hugo.yaml,hugo.production.yaml --environment production --minify
-```
-
-Once [OpenGuidePlatform](docs/adoption.md) is installed, `./build.ps1` replaces these.
+OpenGuidePlatform **v2.2.0-Preview.1** is installed with platform ring `preview`. Use the root build commands in [the current adoption record](docs/adoption.md). Each guide owns `site/content/<guide>/data/contributors.yml` and `translators.<lang>.yml`. Preserve edition scopes and supplied PDFs.
 
 ## Before any guide text goes in
 

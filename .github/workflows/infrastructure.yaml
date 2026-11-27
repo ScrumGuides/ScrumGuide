@@ -1,3 +1,5 @@
+# This workflow is managed by gh actions-lock.
+
 name: Infrastructure
 
 # Site-owned. Not an OpenGuidePlatform caller — OGP neither manages nor locks

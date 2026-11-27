@@ -56,7 +56,7 @@ Three sibling sites already import `github.com/nkdAgility/OpenGuidePlatform/syst
 
 Requirement 1 *is* that content model. A third-party Hugo theme (Book, Doks, Hextra) owns `baseof.html`, `single.html` and `list.html` — the same templates the module owns — so taking one means giving up all of the above. Not needed anyway: the Expansion Pack's look is a site-owned CSS file and homepage template, not the platform. KanbanGuides has no `assets/` folder at all.
 
-**Pin** the current OGP release at adoption time (the Expansion Pack is on `v1.1.8`); do not float.
+**Pin** the selected OGP release: `v2.2.0-Preview.1`, platform ring `preview`. Do not float.
 
 ---
 
@@ -268,7 +268,7 @@ Why there rather than in `history/index.md`: the change set belongs to the editi
 |---|---|
 | `New-GuideEdition` / `guide.historicalversion` | Creates a new edition from an existing one: copies resources, preserves bodies, sets draft, updates version, strips inherited live aliases |
 | `guide.genpdfs` | Generates the per-edition PDFs |
-| `guide.contributions` | Maintains contributor records under `data/contributions/` |
+| `guide.contributions` | Maintains records under each guide's `contentRoot/data/` (`contributors.yml`, `translators.<lang>.yml`) |
 | `guide.transcreate` / `transreconcile` / `transstatus` | Translation creation, reconciliation and status |
 
 Seeding the six historical editions in run 1 is `New-GuideEdition` plus pasting each guide's text, not a script of our own.
@@ -485,7 +485,7 @@ ScrumGuide/
 │   │       └── images/                        # 1
 │   │
 │   ├── data/
-│   │   └── contributions/                     # 1  contributor records
+│   │   └── (site-owned wrapper data only)      # attribution belongs in each guide's data/
 │   ├── i18n/
 │   │   └── en.yaml                            # 1  UI strings
 │   └── static/
