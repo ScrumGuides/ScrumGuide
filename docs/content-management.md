@@ -11,6 +11,7 @@ site/content/<guide-slug>/
 │   ├── index.md           # English body
 │   ├── index.<lang>.md    # translations
 │   └── pdf/               # generated PDFs for that edition
+├── data/                  # contributors.yml and translators.<lang>.yml
 ├── history/index.md       # layout: history — a stub
 ├── translations/index.md  # layout: translations — a stub
 └── images/
@@ -22,7 +23,7 @@ and labels from the front matter, not the folder.
 
 ## Adding an edition
 
-Once OpenGuidePlatform is installed, use its command rather than copying by
+Use the installed OpenGuidePlatform command rather than copying by
 hand — it preserves bodies, sets the new edition to draft, updates the version
 and strips inherited live aliases:
 

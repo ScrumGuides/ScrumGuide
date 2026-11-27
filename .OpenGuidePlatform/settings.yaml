@@ -1,18 +1,19 @@
-platform:
-  version: v2.0.0
-  ring: production
+site:
+  workflow: site-owned
+  source: site
 delivery:
-  production:
-    url: https://ashy-glacier-04fc55110.5.azurestaticapps.net/
-    environment: production
   canary:
     url: https://ashy-glacier-04fc55110-canary{pr}.centralus.5.azurestaticapps.net/
     environment: canary-{pr}
-  local:
-    url: http://localhost:1313/
-    environment: local
   preview:
     url: https://ashy-glacier-04fc55110-preview.centralus.5.azurestaticapps.net/
     environment: preview
-site:
-  source: site
+  production:
+    url: https://ashy-glacier-04fc55110.5.azurestaticapps.net/
+    environment: production
+  local:
+    url: http://localhost:1313/
+    environment: local
+platform:
+  ring: preview
+  version: v2.2.0-Preview.1

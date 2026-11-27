@@ -1,3 +1,21 @@
+# Current OpenGuidePlatform adoption
+
+The site selects **v2.2.0-Preview.1**, platform ring **preview**, through `.OpenGuidePlatform/settings.yaml`. Generated adapters and skills are updated by the coordinated installer. The existing single-job workflow remains site-owned (`site.workflow: site-owned`), preserving its triggers, deployment conditions and concurrency policy.
+
+Attribution lives under each guide's `contentRoot/data`: `contributors.yml` and `translators.<lang>.yml`. The 113 files retain their bytes and language suffixes. Preserve edition credit selections, guide bodies and supplied PDFs. Site contributor filters explicitly retain existing roles and `guideCover` selections.
+
+```powershell
+./build.ps1 -Target preview
+./build.ps1 -Target production
+./build.ps1 -Stage Serve -Target local -BaseUrl http://localhost:1313/
+```
+
+Local evidence lives in `.processing/attribution-preview` and `.processing/attribution-production`. Passing builds do not approve a production release. Update with `./build.ps1 Update -WhatIf` and the coordinated Update command; never hand-edit generated installation records.
+
+## Historical run 1 scaffold record
+
+The following records the original scaffold before installation, rather than current setup guidance.
+
 # Adopting OpenGuidePlatform
 
 The run 1 scaffold stops deliberately short of running the OpenGuidePlatform
